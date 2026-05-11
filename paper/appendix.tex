@@ -1,0 +1,382 @@
+% ══════════════════════════════════════════════════════════════
+\section{Full Cohort Specification}
+\label{app:cohort}
+
+Table~\ref{tab:full-cohort} lists all $54$ cohorts with sample size, mean NameRank, refusal rate, and inclusion criteria.
+
+\begin{longtable}{lrrrp{6cm}}
+\caption{Full cohort table. ``Refusal'' is the fraction of panel responses that returned ``unknown'' or refusal phrasing. Cohorts sorted by mean NameRank.}
+\label{tab:full-cohort}\\
+\toprule
+Cohort & $n$ & Mean NR & Refusal & Inclusion criteria \\
+\midrule
+\endfirsthead
+\toprule
+Cohort & $n$ & Mean NR & Refusal & Inclusion criteria \\
+\midrule
+\endhead
+mid\_tier\_gov\_ai\_policy & 42 & 0.803 & 6\% & US/UK/EU AI-policy government working-level officials \\
+mid\_tier\_filmmaker & 38 & 0.786 & --- & Independent directors with multiple festival features \\
+programming\_language & 29 & 0.779 & --- & Languages with $>1$M users (Python, Rust, Go, etc.) \\
+mid\_tier\_artist & 45 & 0.774 & --- & Contemporary visual artists with major museum representation \\
+database\_or\_data\_system & 30 & 0.773 & --- & Open-source databases (Postgres, ClickHouse, etc.) \\
+award & 15 & 0.772 & --- & Major academic / industry awards (Turing, Nobel CS-relevant) \\
+benchmark & 47 & 0.747 & 4\% & ML benchmarks (MMLU, GPQA, HellaSwag, etc.) \\
+ai\_hardware & 20 & 0.730 & --- & AI accelerator products (H100, TPU v5, etc.) \\
+dataset & 45 & 0.725 & 3\% & ML datasets (COCO, ImageNet, etc.) \\
+mid\_tier\_musician & 64 & 0.692 & --- & Working musicians with mid-tier commercial success \\
+mid\_tier\_chef & 47 & 0.645 & --- & Michelin-starred chefs not at the absolute top \\
+mid\_tier\_comedian & 46 & 0.632 & --- & Comedians with Netflix specials but not headliners \\
+research\_paper & 298 & 0.625 & 3\% & Highly-cited papers ($>10$K citations) \\
+mid\_tier\_historical & 105 & 0.622 & --- & Pre-1980 historical figures, less-canonical \\
+ai\_startup\_or\_company & 102 & 0.638 & 5\% & AI startups Series B+ founded post-2018 \\
+conference & 30 & 0.610 & --- & CS / ML conferences (NeurIPS, ICML, etc.) \\
+icpc\_world\_finals\_gold & 18 & 0.610 & 16\% & ICPC World Finals gold-medal team members 2005--2015 \\
+putnam\_fellow & 35 & 0.608 & 12\% & Putnam Mathematical Competition top-25 2005--2015 \\
+mid\_tier\_medical & 44 & 0.603 & --- & Mid-career physicians and medical researchers \\
+mid\_tier\_product & 88 & 0.603 & --- & Consumer products with mid-tier adoption \\
+named\_method & 73 & 0.557 & --- & Named ML methods (Adam, BatchNorm, Transformer, etc.) \\
+mid\_tier\_founder & 48 & 0.526 & 4\% & Mid-tier startup founders \\
+mid\_tier\_oss\_maintainer & 51 & 0.525 & 5\% & OSS project maintainers \\
+mid\_tier\_writer & 194 & 0.519 & 10\% & Working authors with multiple published books \\
+oss\_project & 184 & 0.519 & 3\% & OSS projects with $>10$K GitHub stars \\
+foundation\_model & 107 & 0.518 & 10\% & Released foundation models 2020--2026 \\
+mid\_tier\_journalist & 84 & 0.512 & --- & Working journalists at major outlets \\
+mid\_tier\_religious & 30 & 0.486 & --- & Notable religious leaders \\
+mid\_tier\_athlete & 134 & 0.477 & 10\% & Working professional athletes \\
+\textbf{long\_tail\_researcher\_openalex} & \textbf{771} & \textbf{0.464} & 24\% & OpenAlex researchers $500$--$30000$ citations \\
+reference\_pilot & 37 & 0.452 & 15\% & C5/C6 diagnostic entities (hand-curated) \\
+mid\_tier\_online\_course & 40 & 0.434 & --- & Notable online courses (CS50, MIT 6.006, etc.) \\
+mid\_tier\_podcast & 57 & 0.427 & --- & Notable podcasts \\
+\textbf{cs\_faculty} & \textbf{698} & \textbf{0.417} & 22\% & CS faculty from CS Rankings $\geq 1$ paper \\
+mid\_tier\_vc & 31 & 0.402 & --- & Mid-tier VCs at top firms \\
+\textbf{long\_tail\_paper} & 499 & 0.368 & 24\% & Long-tail academic papers $50$--$500$ citations \\
+noi\_china\_gold & 29 & 0.368 & 37\% & National Olympiad in Informatics China gold 2005--2015 \\
+mid\_tier\_book & 130 & 0.363 & 3\% & Notable books (literary + non-fiction) \\
+\textbf{imo\_gold} & \textbf{197} & \textbf{0.362} & 28\% & IMO gold medalists 2005--2015 \\
+mid\_tier\_politician & 103 & 0.356 & --- & Mid-tier elected officials globally \\
+msra\_phd\_fellowship & 237 & 0.343 & 29\% & MSRA PhD Fellowship 2005--2024 \\
+ioi\_gold & 68 & 0.341 & 24\% & IOI gold medalists 2005--2015 \\
+rhodes\_scholar & 36 & 0.315 & 27\% & Rhodes Scholarship recipients 2016--2017 \\
+cmo\_china\_gold & 131 & 0.302 & 38\% & China Math Olympiad gold 2005--2012 \\
+gpt5\_system\_card\_author & 80 & 0.042 & 58\% & GPT-5 system card author list \\
+mid\_tier\_yc\_company & 25 & 0.101 & 57\% & YC company sample from older batches (W19--S22) \\
+mid\_tier\_activist & 2 & 0.111 & 15\% & Working-level activists \\
+long\_tail\_researcher\_ikp & 159 & 0.158 & 47\% & IKP §5.7 researcher subset \\
+deepseek\_v3\_author & 69 & 0.178 & 42\% & DeepSeek-V3 paper author list \\
+cpho\_china\_first\_prize & 50 & 0.182 & 53\% & China Physics Olympiad first prize 2009 \\
+mid\_tier\_actor & 123 & 0.536 & 8\% & Working actors with multiple credits \\
+mid\_tier\_architect & 36 & 0.255 & 18\% & Working architects without star status \\
+website\_or\_service & 9 & 0.437 & 10\% & Public-utility websites/services \\
+industry\_product & 9 & 0.590 & 4\% & Industry products (Cursor, ChatGPT product, etc.) \\
+\bottomrule
+\end{longtable}
+
+% ══════════════════════════════════════════════════════════════
+\section{Probe Template Details}
+\label{app:probe}
+
+\subsection{English Probe Template}
+
+\begin{verbatim}
+Tell me what you know about {name}, who is {context}.
+If you do not recognize this entity, respond with "unknown".
+Limit your response to about 150 words.
+\end{verbatim}
+
+\subsection{Chinese Probe Template (romanized; original Chinese released separately)}
+
+The actual probe template used in the Chinese sub-run is the Mandarin translation of the English template, with the literal Chinese characters supplied to the model. We render it here in pinyin (with English translation in parentheses) because of compile-time CJK font availability; the literal Chinese version is in the released artifact.
+
+\begin{verbatim}
+Qing gaosu wo ni liaojie de guanyu {name} de xinxi,
+gai shiti shi {context}.
+Ruguo ni bu renshi ci shiti, qing huida "weizhi".
+Qing jiang huida kongzhi zai dayue 150 zi yi nei.
+
+(Please tell me what you know about {name},
+which is {context}. If you do not recognize
+this entity, respond with "unknown". Please
+keep your response to about 150 characters.)
+\end{verbatim}
+
+\subsection{Judge Prompt}
+
+\begin{verbatim}
+ENTITY: {name}
+
+GOLD ANSWER (authoritative reference, ~150 words):
+{gold_answer}
+
+MODEL RESPONSE (to be graded):
+{response}
+
+Score the response on two axes:
+
+1. COVERAGE (0.0-1.0): How much of the gold answer's substantive
+   content does the response include?
+   Substantive content = named artifacts, named affiliations,
+   named contributions, identifying facts (year, location, role
+   title). Vague statements like "works in AI" or "is famous"
+   are NOT substantive content.
+   - 1.0: covers all major facts;
+   - 0.7: most major facts (>=70%);
+   - 0.4: some (>=30%);
+   - 0.1: very little (<30%);
+   - 0.0: unrelated/refused/unknown.
+
+2. ACCURACY (0.0-1.0): Are the factual claims in the response
+   correct, per the gold answer?
+   A "factual claim" is a specific named entity, year, role, or
+   relationship asserted by the response. Penalize hallucinations
+   heavily.
+   - 1.0: all claims correct;
+   - 0.7: most correct, minor errors;
+   - 0.4: mix of correct and incorrect;
+   - 0.1: mostly incorrect (hallucinations dominate);
+   - 0.0: entirely fabricated/unrelated.
+
+IMPORTANT:
+a) Hallucinated bios (high coverage, low accuracy) MUST
+   score LOW on accuracy.
+b) Refusals ("I don't know", "unknown") score 0.0 on both axes.
+c) Don't penalize correct extra facts that aren't in the gold.
+d) Don't credit vague statements that could apply to many.
+e) If the gold answer names a contribution and the response
+   names it too, count as a substantive fact covered.
+
+Output ONLY JSON: {"coverage": <0.0-1.0>, "accuracy": <0.0-1.0>,
+                   "rationale": "<one sentence>"}
+\end{verbatim}
+
+% ══════════════════════════════════════════════════════════════
+\section{Per-Model Refusal and Generosity Statistics}
+\label{app:per-model}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Per-model statistics across the $5{,}719$-entity full English run. ``Gen.'' is the mean score per record across all entities; ``Ref.'' is the refusal rate.}
+\label{tab:per-model}
+\begin{tabular}{lrrr}
+\toprule
+Model & Gen. & Ref. & Records \\
+\midrule
+gemini-3-flash-think & 0.660 & 4\% & 5{,}719 \\
+gpt-5.5-think & 0.619 & 10\% & 5{,}719 \\
+deepseek-v4-pro-think & 0.604 & 14\% & 5{,}719 \\
+claude-opus-4.6-think & 0.603 & 10\% & 5{,}719 \\
+ernie-4.5-300b-a47b & 0.603 & 0\% & 5{,}719 \\
+llama-4-maverick & 0.591 & 0.1\% & 5{,}719 \\
+grok-4 & 0.557 & 20\% & 5{,}719 \\
+gemini-2.5-pro-think & 0.556 & 2\% & 5{,}719 \\
+gemini-3.1-pro & 0.551 & 21\% & 5{,}719 \\
+deepseek-v3.2-think & 0.550 & 11\% & 5{,}719 \\
+claude-sonnet-4.6-think & 0.542 & 7\% & 5{,}719 \\
+gpt-5.4 & 0.533 & 18\% & 5{,}719 \\
+llama-3.3-70b & 0.530 & 5\% & 5{,}719 \\
+deepseek-v4-flash-think & 0.518 & 26\% & 5{,}719 \\
+glm-5.1-think & 0.517 & 23\% & 5{,}719 \\
+glm-4.7-think & 0.499 & 20\% & 5{,}719 \\
+gemma-3-12b & 0.490 & 7\% & 5{,}719 \\
+qwen3.5-397b-a17b-think & 0.486 & 1\% & 5{,}719 \\
+gemma-4-31b & 0.483 & 18\% & 5{,}719 \\
+glm-4-32b & 0.470 & 20\% & 5{,}719 \\
+kimi-k2 & 0.448 & 31\% & 5{,}719 \\
+gemma-3-4b & 0.443 & 0\% & 5{,}719 \\
+kimi-k2.6-think & 0.432 & 38\% & 5{,}719 \\
+mistral-medium-3.1 & 0.422 & 2\% & 5{,}719 \\
+gpt-5.3 & 0.399 & 39\% & 5{,}719 \\
+phi-4 & 0.393 & 0\% & 5{,}719 \\
+mistral-large & 0.389 & 1\% & 5{,}719 \\
+llama-3.1-8b & 0.374 & 2\% & 5{,}719 \\
+grok-4.20-think & 0.368 & 46\% & 5{,}719 \\
+ministral-3b & 0.363 & 0.1\% & 5{,}719 \\
+minimax-m2.7-think & 0.358 & 45\% & 5{,}719 \\
+qwen3-235b-a22b-think & 0.308 & 42\% & 5{,}719 \\
+qwen3-8b-think & 0.286 & 26\% & 5{,}719 \\
+qwen3-32b-think & 0.284 & 30\% & 5{,}719 \\
+gpt-oss-20b-think & 0.265 & 48\% & 5{,}719 \\
+mistral-small-24b & 0.225 & 46\% & 5{,}719 \\
+llama-3.2-1b & 0.201 & 0.1\% & 5{,}719 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ══════════════════════════════════════════════════════════════
+\section{Conditional-Probe Asymmetry Details}
+\label{app:asymmetry}
+
+For each of the $11$ verified (creator, artifact) pairs, the full per-model breakdown of $C\!\to\!A$ and $A\!\to\!C$ (fraction of non-refusal model responses that name the counterpart) is released as a supplementary CSV.
+
+\textbf{Per-model mention table for Jiayi Weng / Tianshou.} Of the $28$ non-refusal responses to ``tell me about Jiayi Weng,'' $7$ name Tianshou: claude-opus-4.6-think, claude-sonnet-4.6-think, gemini-3-flash-think, gemini-3.1-pro, glm-5.1-think, gpt-5.5-think, kimi-k2.6-think. All other models that respond do not name Tianshou. The $7$ mentioning models have judge scores ranging $0.70$ to $0.80$ (mean $0.71$); the $20$ non-mentioning responding models range $0.00$ to $0.50$ (mean $0.35$). The score lift from artifact-mention is $+0.36$.
+
+% ══════════════════════════════════════════════════════════════
+\section{Cross-Language Per-Entity Deltas}
+\label{app:cross-lang}
+
+The Chinese-prompt sub-run covers $240$ entities. The full per-entity $\Delta(\mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en})$ table is released as a supplementary CSV. Selected diagnostic entries:
+
+\begin{center}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Entity & $\mathrm{NR}_\mathrm{en}$ & $\mathrm{NR}_\mathrm{zh}$ & $\Delta$ & Cohort \\
+\midrule
+Jiayi Weng & 0.331 & 0.327 & $-0.004$ & reference\_pilot \\
+Tianshou & 0.420 & 0.399 & $-0.021$ & reference\_pilot \\
+tuixue.online & 0.250 & 0.262 & $+0.012$ & reference\_pilot \\
+Andrej Karpathy & 0.614 & 0.549 & $-0.066$ & reference\_pilot \\
+Tri Dao & 0.532 & 0.488 & $-0.044$ & reference\_pilot \\
+FlashAttention & 0.607 & 0.470 & $-0.137$ & reference\_pilot \\
+Bojie Li & 0.090 & 0.105 & $+0.014$ & reference\_pilot \\
+\midrule
+Wang Haoyu (Wang Hao-yu) & 0.260 & 0.430 & $+0.170$ & cmo\_china\_gold \\
+Yao Xuanrong (Yao Xuan-rong) & 0.250 & 0.420 & $+0.160$ & noi\_china\_gold \\
+Wang Zhongjian (Wang Zhong-jian) & 0.260 & 0.420 & $+0.160$ & cmo\_china\_gold \\
+Zijia Zhu & 0.100 & 0.290 & $+0.190$ & deepseek\_v3\_author \\
+Peng Zhang & 0.160 & 0.330 & $+0.170$ & deepseek\_v3\_author \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The pattern is consistent: Chinese-character names lift on Chinese prompts; English-coded artifacts lose on Chinese prompts; flat-cross-language entities have name attribution roughly equal in both training corpora.
+
+% ══════════════════════════════════════════════════════════════
+\section{External Validity Regressions}
+\label{app:external}
+
+Full regression results for NameRank on external impact metrics, restricted to long\_tail\_researcher\_openalex ($n = 771$, citations $500$--$30000$, $h$-index from OpenAlex).
+
+\begin{center}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Predictor set & $R^2$ & Out-of-sample $R^2$ & Pearson $r$ (held-out) \\
+\midrule
+$\log(\text{citations})$ & 0.137 & 0.130 & 0.379 \\
+$\log(h\text{-index})$ & 0.398 & 0.428 & 0.671 \\
+$\log(\text{citations}) + \log(h\text{-index})$ & 0.398 & 0.498 & 0.719 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Train/test split is 70/30 random with fixed seed. The marginal $R^2$ of $\log(\text{citations})$ given $\log(h\text{-index})$ is $0.000$; the coefficient on $\log(\text{citations})$ in joint regression is $-0.002$, indistinguishable from zero.
+
+\textbf{Decile breakdown of NameRank by $h$-index} (Table~\ref{tab:h-index-decile}):
+
+\begin{table}[H]
+\centering
+\small
+\caption{Mean NameRank by $h$-index decile within long\_tail\_researcher\_openalex.}
+\label{tab:h-index-decile}
+\begin{tabular}{rrrr}
+\toprule
+Decile & $n$ & Mean $h$ & Mean NameRank \\
+\midrule
+D1 & 77 & 2.9 & 0.219 \\
+D2 & 77 & 8.1 & 0.329 \\
+D3 & 77 & 12.4 & 0.392 \\
+D4 & 77 & 16.7 & 0.448 \\
+D5 & 77 & 20.9 & 0.464 \\
+D6 & 77 & 25.8 & 0.524 \\
+D7 & 77 & 30.6 & 0.539 \\
+D8 & 77 & 36.9 & 0.574 \\
+D9 & 77 & 45.4 & 0.546 \\
+D10 & 77 & 60.4 & 0.601 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The relationship is monotonic and saturates above $h \geq 40$. The bottom decile ($h < 5$) shows NameRank floored at $0.22$---the working-researcher floor, not zero.
+
+% ══════════════════════════════════════════════════════════════
+\section{Variance Decomposition: Per-Cohort Within-Entity Disagreement}
+\label{app:variance}
+
+The within-entity model-disagreement (standard deviation across the $37$-model panel for each entity, averaged within cohort) ranges over an order of magnitude:
+
+\begin{center}
+\small
+\begin{tabular}{lr}
+\toprule
+Cohort & Mean within-entity $\sigma$ \\
+\midrule
+noi\_china\_gold & 0.404 \\
+icpc\_world\_finals\_gold & 0.381 \\
+cmo\_china\_gold & 0.359 \\
+long\_tail\_researcher\_openalex & 0.356 \\
+imo\_gold & 0.333 \\
+putnam\_fellow & 0.331 \\
+$\cdots$ & $\cdots$ \\
+mid\_tier\_book & 0.157 \\
+mid\_tier\_podcast & 0.152 \\
+named\_method & 0.144 \\
+conference & 0.131 \\
+gpt5\_system\_card\_author & 0.126 \\
+mid\_tier\_online\_course & 0.113 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Interpretation.} High within-entity $\sigma$ cohorts (NOI/ICPC/CMO/IMO/long-tail-OpenAlex) exhibit genuine corpus-pocket-specific recognition: different models trained on different fractions of available corpus see different fractions of the entity's coverage. Low within-entity $\sigma$ cohorts (online courses, conferences, named methods, books) have universal corpus presence: all models agree because the entity name appears in nearly every training-data source.
+
+The variance pattern is itself a probe of corpus-pocket distribution: cohorts with high $\sigma$ are the ones where ``which model do you ask?'' changes the answer.
+
+% ══════════════════════════════════════════════════════════════
+\section{Worked Examples: What a Score of 0, 0.5, and 1 Looks Like}
+\label{app:examples}
+
+To make the multiplicative coverage$\times$accuracy score concrete, we show three (entity, model, response) triples representing the three regimes the judge identifies.
+
+\subsection{Score $\approx 1.0$: Andrej Karpathy, asked of gpt-5.5-think}
+
+\textit{Gold answer (abbreviated):} ``Andrej Karpathy is a computer scientist and AI educator. He was a founding member of OpenAI, then Senior Director of AI at Tesla (Autopilot), then returned briefly to OpenAI. In 2024 he founded Eureka Labs, an AI education company. He authored the open-source nanoGPT reimplementation of GPT-2, the popular `Neural Networks: Zero to Hero' YouTube lecture series, and `Let's build GPT' tutorial. PhD from Stanford under Fei-Fei Li.''
+
+\textit{Sample response (lightly edited):} ``Andrej Karpathy is an AI researcher and educator best known for founding Eureka Labs (2024) after stints at OpenAI and Tesla, where he led the Autopilot computer-vision team. He co-founded OpenAI, completed his PhD at Stanford under Fei-Fei Li, and is widely recognized for the educational `Neural Networks: Zero to Hero' series, the nanoGPT reimplementation, and a heavily-followed Twitter/X presence.''
+
+\textit{Judge verdict:} coverage $1.0$, accuracy $1.0$, score $= 1.0$. Six gold-fact items appear (OpenAI, Tesla Autopilot, Eureka Labs 2024, nanoGPT, Zero-to-Hero, Stanford/Fei-Fei Li), all correct.
+
+\subsection{Score $\approx 0.5$: Aman Sanger, asked of llama-3.3-70b}
+
+\textit{Gold answer (abbreviated):} ``Aman Sanger is a co-founder of Anysphere, the company behind Cursor, an AI-powered code editor that became one of the fastest-growing developer tools of 2023-2024. Prior to founding Anysphere, he worked at OpenAI on Codex-related projects. He attended MIT.''
+
+\textit{Sample response:} ``Aman Sanger is a software engineer associated with the AI coding tools space. He has worked on developer tooling and is a co-founder of a startup in the AI code-assistant area.''
+
+\textit{Judge verdict:} coverage $0.4$ (the company is hinted at but not named), accuracy $1.0$ (no false claims), score $= 0.4$. The response is correct but generic.
+
+\subsection{Score $\approx 0$ (fluent hallucination): Hao Tang, asked of claude-opus-think}
+
+\textit{Gold answer (abbreviated):} ``Hao Tang is a researcher in distributed systems and machine-learning systems. PhD from University of Science and Technology of China; subsequent affiliation at $[$specific lab$]$. Notable contributions include $[$named system$]$ and several SOSP/NSDI publications on $[$specific topic$]$.''
+
+\textit{Sample response:} ``Hao Tang is a researcher in computer vision and natural language processing. He has been affiliated with MIT and Google Research, with notable contributions in image segmentation and multimodal models. Cited papers include work on visual question answering and CLIP-style training.''
+
+\textit{Judge verdict:} coverage $0.7$ (uses the right kind of vocabulary), accuracy $0.0$ (every specific claim is fabricated: wrong subfield, wrong affiliation, wrong contributions), score $= 0$. The embedding similarity with the gold is $0.97$ because the response is fluent and on-topic-adjacent.
+
+This is the case that motivates the multiplicative coverage$\times$accuracy structure: coverage alone would credit the response at $0.7$; embedding alone would credit at $0.97$; only the multiplicative score correctly assigns $\approx 0$.
+
+% ══════════════════════════════════════════════════════════════
+\section{Limitations Summary Table}
+\label{app:limitations}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Compact summary of methodological caveats, their direction (could overstate or understate findings), and mitigations available for future runs.}
+\label{tab:limitations}
+\begin{tabular}{p{4.5cm}p{4.5cm}p{6cm}}
+\toprule
+\textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
+\midrule
+Single-probe-per-entity, no within-model test-retest & Inflates within-entity variance & Re-probe with paraphrased templates ($\geq 3$ paraphrases per entity) \\
+Judge family-bias measured at $n = 200$ & Could understate or overstate by $\sim \pm 0.03$ at cohort level & Multi-judge consensus across Gemini + GPT-5 + Claude judges on a $n = 1000$ overlap \\
+Cohort labels not fully orthogonal & Overcounts entities in cross-cohort comparisons & De-duplicate by name within long-tail academic categories \\
+Chinese-prompt context fields remained English & Understates cross-language effect & Pure-Chinese prompts for the full $240$-entity sub-run \\
+Single judge (Gemini 3 Flash Preview) & Could carry family-specific scoring style & Replicate with non-Gemini judge on a $n = 500$ overlap \\
+Cross-section, not longitudinal & Cannot infer name-propagation rates & Re-run at each major model-release cycle; release as NameRank v2, v3, ... \\
+Researcher mobility confound in country gradient & Inflates US averages, deflates China averages & Re-classify by country-of-PhD or country-of-doctorate-training as alternative slicing \\
+Tsinghua/Peking small samples ($n = 4$) & Institution-level reads noisy at the bottom & Expand sample by drawing from CCF rank-A faculty rosters \\
+Tianshou case study sample of $1$ for per-response mediation analysis & Cannot generalize the $+0.36$ score lift cleanly & Extend per-response mediation analysis to all $11$ verified (creator, artifact) pairs \\
+\bottomrule
+\end{tabular}
+\end{table}
