@@ -1,8 +1,15 @@
-"""Figure 2: artifact > creator inversion chart."""
+"""Figure 2: artifact > creator inversion chart.
+
+The 11 (creator, artifact) pairs are taken directly from
+data/analysis/attribution_pairs.csv (frozen at paper-submission time).
+"""
+from pathlib import Path
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 import numpy as np
+
+HERE = Path(__file__).resolve().parent
 
 # 11 verified pairs (creator NR, artifact NR, creator name, artifact name)
 pairs = [
@@ -58,6 +65,6 @@ ax.set_title("Artifact $>$ creator inversion across 11 verified (creator, artifa
               "Blue: artifact exceeds creator (8/11). Red: creator exceeds artifact (3/11, all senior leaders of named orgs).",
               fontsize=10.5)
 plt.tight_layout()
-out = "/home/ubuntu/namerank/paper/figures/fig2_inversion.pdf"
+out = HERE / "fig2_inversion.pdf"
 plt.savefig(out, bbox_inches="tight")
 print(f"Wrote {out}")

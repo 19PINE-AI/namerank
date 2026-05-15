@@ -14,9 +14,11 @@ import matplotlib
 matplotlib.use('Agg')
 import numpy as np
 
-base = Path("/home/ubuntu/career-ikp-analysis/pilot")
-ents = {e["id"]: e for e in json.loads((base / "full_run_inputs/pilot_entities.json").read_text())}
-nr = {row["entity_id"]: float(row["namerank"]) for row in csv.DictReader(open(base / "analysis/namerank_per_entity.csv"))}
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent.parent
+ents = {e["id"]: e for e in json.loads((REPO / "data/inputs/pilot_entities.json").read_text())}
+nr = {row["entity_id"]: float(row["namerank"])
+      for row in csv.DictReader(open(REPO / "data/analysis/namerank_per_entity.csv", encoding="utf-8"))}
 
 xs_h, xs_c, ys = [], [], []
 for eid, e in ents.items():
@@ -93,6 +95,6 @@ ax.grid(True, alpha=0.3)
 ax.set_title("(b) Decile-by-decile: h-index is steeper and monotonic", fontsize=11)
 
 plt.tight_layout()
-out = "/home/ubuntu/namerank/paper/figures/fig3_external.pdf"
+out = HERE / "fig3_external.pdf"
 plt.savefig(out, bbox_inches="tight")
 print(f"Wrote {out}")

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "gpt-5.5-think",
+    "openrouter_id": "openai/gpt-5.5",
+    "thinking": true,
+    "vendor": "openai",
+    "family": "gpt5",
+    "lab": "Openai"
+  },
+  {
+    "id": "gpt-5.4",
+    "openrouter_id": "openai/gpt-5.4",
+    "thinking": false,
+    "vendor": "openai",
+    "family": "gpt5",
+    "lab": "Openai"
+  },
+  {
+    "id": "gpt-5.3",
+    "openrouter_id": "openai/gpt-5.3-chat",
+    "thinking": false,
+    "vendor": "openai",
+    "family": "gpt5",
+    "lab": "Openai"
+  },
+  {
+    "id": "claude-opus-4.6-think",
+    "openrouter_id": "anthropic/claude-opus-4.6",
+    "thinking": true,
+    "vendor": "anthropic",
+    "family": "claude",
+    "lab": "Anthropic"
+  },
+  {
+    "id": "claude-sonnet-4.6-think",
+    "openrouter_id": "anthropic/claude-sonnet-4.6",
+    "thinking": true,
+    "vendor": "anthropic",
+    "family": "claude",
+    "lab": "Anthropic"
+  },
+  {
+    "id": "gemini-3.1-pro",
+    "openrouter_id": "google/gemini-3.1-pro-preview",
+    "thinking": false,
+    "vendor": "google",
+    "family": "gemini",
+    "lab": "Google"
+  },
+  {
+    "id": "gemini-3-flash-think",
+    "openrouter_id": "google/gemini-3-flash-preview",
+    "thinking": true,
+    "vendor": "google",
+    "family": "gemini",
+    "lab": "Google"
+  },
+  {
+    "id": "gemini-2.5-pro-think",
+    "openrouter_id": "google/gemini-2.5-pro",
+    "thinking": true,
+    "vendor": "google",
+    "family": "gemini",
+    "lab": "Google"
+  },
+  {
+    "id": "grok-4.20-think",
+    "openrouter_id": "x-ai/grok-4.20",
+    "thinking": true,
+    "vendor": "xai",
+    "family": "grok",
+    "lab": "Xai",
+    "provider_only": [
+      "xai"
+    ]
+  },
+  {
+    "id": "grok-4",
+    "openrouter_id": "x-ai/grok-4",
+    "thinking": false,
+    "vendor": "xai",
+    "family": "grok",
+    "lab": "Xai",
+    "provider_only": [
+      "xai"
+    ]
+  },
+  {
+    "id": "deepseek-v4-pro-think",
+    "openrouter_id": "deepseek/deepseek-v4-pro",
+    "thinking": true,
+    "vendor": "deepseek",
+    "family": "deepseek",
+    "lab": "Deepseek",
+    "provider_only": [
+      "deepseek"
+    ]
+  },
+  {
+    "id": "deepseek-v3.2-think",
+    "openrouter_id": "deepseek/deepseek-v3.2",
+    "thinking": true,
+    "vendor": "deepseek",
+    "family": "deepseek",
+    "lab": "Deepseek",
+    "provider_only": [
+      "deepseek",
+      "novita",
+      "fireworks"
+    ]
+  },
+  {
+    "id": "qwen3.5-397b-a17b-think",
+    "openrouter_id": "qwen/qwen3.5-397b-a17b",
+    "thinking": true,
+    "vendor": "alibaba",
+    "family": "qwen3.5",
+    "lab": "Alibaba",
+    "provider_only": [
+      "alibaba"
+    ]
+  },
+  {
+    "id": "kimi-k2.6-think",
+    "openrouter_id": "moonshotai/kimi-k2.6",
+    "thinking": true,
+    "vendor": "moonshot",
+    "family": "kimi",
+    "lab": "Moonshot",
+    "provider_only": [
+      "novita",
+      "moonshotai"
+    ]
+  },
+  {
+    "id": "kimi-k2",
+    "openrouter_id": "moonshotai/kimi-k2",
+    "thinking": false,
+    "vendor": "moonshot",
+    "family": "kimi",
+    "lab": "Moonshot",
+    "provider_only": [
+      "novita"
+    ]
+  },
+  {
+    "id": "glm-5.1-think",
+    "openrouter_id": "z-ai/glm-5.1",
+    "thinking": true,
+    "vendor": "zhipu",
+    "family": "glm",
+    "lab": "Zhipu",
+    "provider_only": [
+      "z-ai"
+    ]
+  },
+  {
+    "id": "glm-4.7-think",
+    "openrouter_id": "z-ai/glm-4.7",
+    "thinking": true,
+    "vendor": "zhipu",
+    "family": "glm",
+    "lab": "Zhipu",
+    "provider_only": [
+      "z-ai"
+    ]
+  },
+  {
+    "id": "llama-4-maverick",
+    "openrouter_id": "meta-llama/llama-4-maverick",
+    "thinking": false,
+    "vendor": "meta",
+    "family": "llama4",
+    "lab": "Meta",
+    "provider_only": [
+      "together",
+      "fireworks",
+      "lambda"
+    ]
+  },
+  {
+    "id": "mistral-large",
+    "openrouter_id": "mistralai/mistral-large-2411",
+    "thinking": false,
+    "vendor": "mistral",
+    "family": "mistral",
+    "lab": "Mistral",
+    "provider_only": [
+      "mistral"
+    ]
+  },
+  {
+    "id": "deepseek-v4-flash-think",
+    "openrouter_id": "deepseek/deepseek-v4-flash",
+    "thinking": true,
+    "vendor": "deepseek",
+    "family": "deepseek",
+    "lab": "Deepseek",
+    "provider_only": [
+      "deepseek"
+    ]
+  },
+  {
+    "id": "qwen3-235b-a22b-think",
+    "openrouter_id": "qwen/qwen3-235b-a22b",
+    "thinking": true,
+    "vendor": "alibaba",
+    "family": "qwen3",
+    "lab": "Alibaba",
+    "provider_only": [
+      "alibaba"
+    ]
+  },
+  {
+    "id": "qwen3-32b-think",
+    "openrouter_id": "qwen/qwen3-32b",
+    "thinking": true,
+    "vendor": "alibaba",
+    "family": "qwen3",
+    "lab": "Alibaba",
+    "provider_only": [
+      "alibaba",
+      "atlas-cloud"
+    ]
+  },
+  {
+    "id": "glm-4-32b",
+    "openrouter_id": "z-ai/glm-4-32b",
+    "thinking": false,
+    "vendor": "zhipu",
+    "family": "glm",
+    "lab": "Zhipu",
+    "provider_only": [
+      "z-ai"
+    ]
+  },
+  {
+    "id": "llama-3.3-70b",
+    "openrouter_id": "meta-llama/llama-3.3-70b-instruct",
+    "thinking": false,
+    "vendor": "meta",
+    "family": "llama",
+    "lab": "Meta",
+    "provider_only": [
+      "together",
+      "fireworks",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "mistral-medium-3.1",
+    "openrouter_id": "mistralai/mistral-medium-3.1",
+    "thinking": false,
+    "vendor": "mistral",
+    "family": "mistral-prop",
+    "lab": "Mistral",
+    "provider_only": [
+      "mistral"
+    ]
+  },
+  {
+    "id": "gemma-4-31b",
+    "openrouter_id": "google/gemma-4-31b-it",
+    "thinking": false,
+    "vendor": "google",
+    "family": "gemma4",
+    "lab": "Google",
+    "provider_only": [
+      "google-vertex",
+      "google-ai-studio"
+    ]
+  },
+  {
+    "id": "ernie-4.5-300b-a47b",
+    "openrouter_id": "baidu/ernie-4.5-300b-a47b",
+    "thinking": false,
+    "vendor": "baidu",
+    "family": "ernie",
+    "lab": "Baidu",
+    "provider_only": [
+      "novita"
+    ]
+  },
+  {
+    "id": "minimax-m2.7-think",
+    "openrouter_id": "minimax/minimax-m2.7",
+    "thinking": true,
+    "vendor": "minimax",
+    "family": "minimax",
+    "lab": "Minimax",
+    "provider_only": [
+      "fireworks",
+      "together",
+      "novita",
+      "minimax"
+    ]
+  },
+  {
+    "id": "qwen3-8b-think",
+    "openrouter_id": "qwen/qwen3-8b",
+    "thinking": true,
+    "vendor": "alibaba",
+    "family": "qwen3",
+    "lab": "Alibaba",
+    "provider_only": [
+      "alibaba",
+      "atlas-cloud"
+    ]
+  },
+  {
+    "id": "phi-4",
+    "openrouter_id": "microsoft/phi-4",
+    "thinking": false,
+    "vendor": "microsoft",
+    "family": "phi",
+    "lab": "Microsoft",
+    "provider_only": [
+      "azure",
+      "fireworks",
+      "together"
+    ]
+  },
+  {
+    "id": "gemma-3-12b",
+    "openrouter_id": "google/gemma-3-12b-it",
+    "thinking": false,
+    "vendor": "google",
+    "family": "gemma3",
+    "lab": "Google",
+    "provider_only": [
+      "deepinfra",
+      "sambanova",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "llama-3.1-8b",
+    "openrouter_id": "meta-llama/llama-3.1-8b-instruct",
+    "thinking": false,
+    "vendor": "meta",
+    "family": "llama",
+    "lab": "Meta",
+    "provider_only": [
+      "cloudflare",
+      "together",
+      "fireworks"
+    ]
+  },
+  {
+    "id": "mistral-small-24b",
+    "openrouter_id": "mistralai/mistral-small-24b-instruct-2501",
+    "thinking": false,
+    "vendor": "mistral",
+    "family": "mistral",
+    "lab": "Mistral",
+    "provider_only": [
+      "deepinfra"
+    ]
+  },
+  {
+    "id": "gpt-oss-20b-think",
+    "openrouter_id": "openai/gpt-oss-20b",
+    "thinking": true,
+    "vendor": "openai",
+    "family": "gpt-oss",
+    "lab": "Openai"
+  },
+  {
+    "id": "llama-3.2-1b",
+    "openrouter_id": "meta-llama/llama-3.2-1b-instruct",
+    "thinking": false,
+    "vendor": "meta",
+    "family": "llama",
+    "lab": "Meta",
+    "provider_only": [
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "gemma-3-4b",
+    "openrouter_id": "google/gemma-3-4b-it",
+    "thinking": false,
+    "vendor": "google",
+    "family": "gemma3",
+    "lab": "Google",
+    "provider_only": [
+      "deepinfra"
+    ]
+  },
+  {
+    "id": "ministral-3b",
+    "openrouter_id": "mistralai/ministral-3b-2512",
+    "thinking": false,
+    "vendor": "mistralai",
+    "family": "mistral",
+    "lab": "Mistral",
+    "provider_only": [
+      "mistral"
+    ]
+  }
+]

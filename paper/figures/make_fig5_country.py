@@ -1,7 +1,13 @@
-"""Figure 5: CS faculty NameRank by country (corpus-density gradient)."""
+"""Figure 5: CS faculty NameRank by country (corpus-density gradient).
+
+The country-aggregated means come from data/analysis/cs_faculty_by_country.csv.
+"""
+from pathlib import Path
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
+
+HERE = Path(__file__).resolve().parent
 
 data = [
     ("Israel", 7, 0.506),
@@ -57,6 +63,6 @@ ax.set_title("Corpus-density gradient: CS faculty NameRank by country of affilia
               fontsize=10.5)
 ax.grid(True, axis='x', alpha=0.3)
 plt.tight_layout()
-out = "/home/ubuntu/namerank/paper/figures/fig5_country.pdf"
+out = HERE / "fig5_country.pdf"
 plt.savefig(out, bbox_inches="tight")
 print(f"Wrote {out}")

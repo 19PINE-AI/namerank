@@ -1,0 +1,261 @@
+[
+  {
+    "id": "gpt-5.5-think",
+    "training_cutoff": "2025-12",
+    "release_date": "2026-04",
+    "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+    "notes": "OpenAI model card: GPT-5.5 released 2026-04-23 with knowledge cutoff 2025-12-01. Same base used for thinking variant."
+  },
+  {
+    "id": "gpt-5.4",
+    "training_cutoff": "2025-08",
+    "release_date": "2026-03",
+    "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "notes": "OpenAI model card: knowledge cutoff Aug 31 2025; released 2026-03-06. Note: in-API system prompt has been reported to mis-state cutoff as 2024-06 (known bug)."
+  },
+  {
+    "id": "gpt-5.3",
+    "training_cutoff": "2025-08",
+    "release_date": "2026-02",
+    "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
+    "notes": "OpenAI model card: GPT-5.3 chat / Codex variant released 2026-02-24 with cutoff Aug 31 2025."
+  },
+  {
+    "id": "claude-opus-4.6-think",
+    "training_cutoff": "2025-05",
+    "release_date": "2026-02",
+    "source_url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+    "notes": "Claude Opus 4.6 system card (Feb 2026); released 2026-02-05 with 'reliable knowledge cutoff' of May 2025."
+  },
+  {
+    "id": "claude-sonnet-4.6-think",
+    "training_cutoff": "2025-08",
+    "release_date": "2026-02",
+    "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "notes": "Anthropic announcement; Sonnet 4.6 released 2026-02-17 with reliable knowledge cutoff August 2025."
+  },
+  {
+    "id": "gemini-3.1-pro",
+    "training_cutoff": "2025-01",
+    "release_date": "2026-02",
+    "source_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro",
+    "notes": "Vertex AI docs: Gemini 3.1 Pro preview released 2026-02-19; inherits Gemini 3 family knowledge cutoff Jan 2025."
+  },
+  {
+    "id": "gemini-3-flash-think",
+    "training_cutoff": "2025-01",
+    "release_date": "2025-12",
+    "source_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-flash",
+    "notes": "Gemini 3 Flash Preview (Reasoning) released 2025-12-17 with Jan 2025 knowledge cutoff."
+  },
+  {
+    "id": "gemini-2.5-pro-think",
+    "training_cutoff": "2025-01",
+    "release_date": "2025-03",
+    "source_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+    "notes": "Gemini 2.5 Pro released 2025-03-24 (experimental preview), GA later in 2025; knowledge cutoff Jan 2025 per Google model card."
+  },
+  {
+    "id": "deepseek-v4-pro-think",
+    "training_cutoff": "2026-03",
+    "release_date": "2026-04",
+    "source_url": "https://fe-static.deepseek.com/chat/transparency/deepseek-V4-model-card-EN.pdf",
+    "notes": "DeepSeek V4 model card (publication 2026-04-27). V4 Pro released 2026-04-22/24. Knowledge cutoff approximate; secondary sources cite 'Apr 2026' (likely training-end, not data-end); pre-training data plausibly cuts off Q1 2026."
+  },
+  {
+    "id": "deepseek-v4-flash-think",
+    "training_cutoff": "2026-03",
+    "release_date": "2026-04",
+    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "notes": "Released alongside V4 Pro on 2026-04-24; shares the same 32T-token pre-training corpus. Explicit knowledge cutoff not documented; estimated from sibling model."
+  },
+  {
+    "id": "deepseek-v3.2-think",
+    "training_cutoff": "2025-03",
+    "release_date": "2025-12",
+    "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.html",
+    "notes": "Amazon Bedrock model card: V3.2 released 2025-12-01 with knowledge cutoff Mar 2025. (V3.2-Exp preview was 2025-09-29.)"
+  },
+  {
+    "id": "qwen3.5-397b-a17b-think",
+    "training_cutoff": "2025-09",
+    "release_date": "2026-02",
+    "source_url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+    "notes": "Released 2026-02-16. Official knowledge cutoff not publicly documented; estimate from sibling Qwen3-Next (Sept 2025) and 3-month training-to-release lag. Approximate."
+  },
+  {
+    "id": "qwen3-235b-a22b-think",
+    "training_cutoff": "2024-04",
+    "release_date": "2025-07",
+    "source_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+    "notes": "Qwen3-235B-A22B-Thinking-2507 released 2025-07-25. Knowledge cutoff not officially published; community testing shows Qwen3 series treats events from mid-2024 as future, with practical cutoff likely Apr-Oct 2024. Some secondary sources cite June 2025, but this is unverified; using conservative practical cutoff."
+  },
+  {
+    "id": "qwen3-32b-think",
+    "training_cutoff": "2024-04",
+    "release_date": "2025-04",
+    "source_url": "https://qwenlm.github.io/blog/qwen3/",
+    "notes": "Qwen3-32B released 2025-04-29 as part of Qwen3 family launch. Knowledge cutoff not officially documented; community-tested practical cutoff appears around 2024-04. Approximate."
+  },
+  {
+    "id": "qwen3-8b-think",
+    "training_cutoff": "2024-04",
+    "release_date": "2025-04",
+    "source_url": "https://github.com/QwenLM/Qwen3/discussions/1093",
+    "notes": "Qwen3-8B released 2025-04-29 with Qwen3 family. Knowledge cutoff officially 'unknown' (TBD); community tests suggest practical cutoff in early-to-mid 2024. Approximate."
+  },
+  {
+    "id": "glm-5.1-think",
+    "training_cutoff": "2025-12",
+    "release_date": "2026-04",
+    "source_url": "https://docs.z.ai/guides/llm/glm-5.1",
+    "notes": "Z.ai GLM-5.1 API released 2026-03-27, open-source 2026-04-07. Explicit knowledge cutoff not documented; estimated based on post-training date Feb 2026 and typical 2-month lag from pre-training data end."
+  },
+  {
+    "id": "glm-4.7-think",
+    "training_cutoff": "2025-09",
+    "release_date": "2025-12",
+    "source_url": "https://docs.z.ai/guides/llm/glm-4.7",
+    "notes": "GLM-4.7 released 2025-12-22 by Z.ai. Explicit knowledge cutoff not published; estimated ~3 months before release."
+  },
+  {
+    "id": "glm-4-32b",
+    "training_cutoff": "2024-06",
+    "release_date": "2025-04",
+    "source_url": "https://huggingface.co/THUDM/GLM-4-32B-0414",
+    "notes": "GLM-4-32B-0414 released 2025-04-17 with knowledge cutoff June 30 2024 per HuggingFace model card."
+  },
+  {
+    "id": "kimi-k2.6-think",
+    "training_cutoff": "2025-04",
+    "release_date": "2026-04",
+    "source_url": "https://kimi-k2.org/blog/24-kimi-k2-6-release",
+    "notes": "Kimi K2.6 released 2026-04-20 by Moonshot AI. Knowledge cutoff April 2025 per secondary sources; original Moonshot model card does not explicitly publish this."
+  },
+  {
+    "id": "kimi-k2",
+    "training_cutoff": "2024-10",
+    "release_date": "2025-07",
+    "source_url": "https://github.com/moonshotai/Kimi-K2",
+    "notes": "Kimi K2 base released 2025-07-11; K2-Instruct-0905 update released 2025-09-09. Explicit cutoff not published; pre-training on 15.5T tokens reportedly ends around late 2024. Approximate."
+  },
+  {
+    "id": "ernie-4.5-300b-a47b",
+    "training_cutoff": "2025-03",
+    "release_date": "2025-06",
+    "source_url": "https://ernie.baidu.com/blog/posts/ernie4.5/",
+    "notes": "Baidu ERNIE 4.5 series open-sourced 2025-06-30 with knowledge cutoff March 31 2025."
+  },
+  {
+    "id": "minimax-m2.7-think",
+    "training_cutoff": "2025-10",
+    "release_date": "2026-03",
+    "source_url": "https://www.minimax.io/news/minimax-m27-en",
+    "notes": "MiniMax M2.7 released 2026-03-18 (supersedes M2.5 from Feb 2026). Official knowledge cutoff not published; estimated ~5 months before release based on industry norms. Approximate."
+  },
+  {
+    "id": "llama-3.1-8b",
+    "training_cutoff": "2023-12",
+    "release_date": "2024-07",
+    "source_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "notes": "Meta Llama 3.1 8B Instruct released 2024-07-23 with pretraining cutoff December 2023."
+  },
+  {
+    "id": "llama-3.2-1b",
+    "training_cutoff": "2023-12",
+    "release_date": "2024-09",
+    "source_url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+    "notes": "Meta Llama 3.2 1B released 2024-09-25 with pretraining cutoff December 2023 (same as Llama 3.1)."
+  },
+  {
+    "id": "llama-3.3-70b",
+    "training_cutoff": "2023-12",
+    "release_date": "2024-12",
+    "source_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "notes": "Meta Llama 3.3 70B Instruct released 2024-12-06 with pretraining cutoff December 2023."
+  },
+  {
+    "id": "llama-4-maverick",
+    "training_cutoff": "2024-08",
+    "release_date": "2025-04",
+    "source_url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "notes": "Llama 4 Maverick (17B active / ~400B total MoE) released 2025-04-05 with knowledge cutoff August 2024."
+  },
+  {
+    "id": "mistral-large",
+    "training_cutoff": "2024-07",
+    "release_date": "2024-11",
+    "source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
+    "notes": "Mistral Large 2411 (Large 2.1) released 2024-11-19 with knowledge cutoff July 31 2024."
+  },
+  {
+    "id": "mistral-medium-3.1",
+    "training_cutoff": "2025-05",
+    "release_date": "2025-08",
+    "source_url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-1-25-08",
+    "notes": "Mistral Medium 3.1 (2508) released 2025-08-12 with training data cutoff May 2025."
+  },
+  {
+    "id": "mistral-small-24b",
+    "training_cutoff": "2023-10",
+    "release_date": "2025-01",
+    "source_url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+    "notes": "Mistral Small 3 (24B Instruct 2501) released 2025-01-30 with knowledge cutoff October 2023 (carried over from earlier Mistral pre-training corpus)."
+  },
+  {
+    "id": "ministral-3b",
+    "training_cutoff": "2023-10",
+    "release_date": "2025-12",
+    "source_url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512",
+    "notes": "Ministral 3 3B (2512 variant) released 2025-12-02. Explicit cutoff not in model card; HaoooWang LLM cutoff registry lists Ministral 3 family as 2023-10 (same as Mistral Small). Approximate; carry-over assumption."
+  },
+  {
+    "id": "gemma-3-4b",
+    "training_cutoff": "2024-08",
+    "release_date": "2025-03",
+    "source_url": "https://ai.google.dev/gemma/docs/core/model_card_3",
+    "notes": "Gemma 3 (1B/4B/12B/27B) released 2025-03-12 with pretraining data cutoff August 2024."
+  },
+  {
+    "id": "gemma-3-12b",
+    "training_cutoff": "2024-08",
+    "release_date": "2025-03",
+    "source_url": "https://ai.google.dev/gemma/docs/core/model_card_3",
+    "notes": "Gemma 3 12B released 2025-03-12 with pretraining data cutoff August 2024."
+  },
+  {
+    "id": "gemma-4-31b",
+    "training_cutoff": "2025-01",
+    "release_date": "2026-04",
+    "source_url": "https://ai.google.dev/gemma/docs/core",
+    "notes": "Gemma 4 31B released 2026-04-02 with pre-training dataset cutoff January 2025."
+  },
+  {
+    "id": "grok-4",
+    "training_cutoff": "2024-11",
+    "release_date": "2025-07",
+    "source_url": "https://docs.x.ai/developers/models",
+    "notes": "Grok 4 released 2025-07-09 with knowledge cutoff November 2024 (shared with Grok 3)."
+  },
+  {
+    "id": "grok-4.20-think",
+    "training_cutoff": "2025-09",
+    "release_date": "2026-02",
+    "source_url": "https://openrouter.ai/x-ai/grok-4.20-beta",
+    "notes": "Grok 4.20 beta released 2026-02-17, API GA 2026-03-10. Knowledge cutoff Sept 1 2025 per OpenRouter listing (newer than Grok 4's Nov 2024 cutoff)."
+  },
+  {
+    "id": "phi-4",
+    "training_cutoff": "2024-06",
+    "release_date": "2024-12",
+    "source_url": "https://huggingface.co/microsoft/phi-4",
+    "notes": "Microsoft Phi-4 released 2024-12-12 with training data cutoff June 2024 (per technical report). Note: model self-reports October 2023 in some prompts (known issue)."
+  },
+  {
+    "id": "gpt-oss-20b-think",
+    "training_cutoff": "2024-06",
+    "release_date": "2025-08",
+    "source_url": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf",
+    "notes": "OpenAI gpt-oss-20b released 2025-08-05 with knowledge cutoff June 2024 per official model card."
+  }
+]

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NameRank — Measuring LLM-Mediated Recognition</title>
+  <meta name="description" content="A continuous 0–1 score that captures whether the frontier-LLM training corpus has internalized an entity's name. 5,719 entities, 37 models, 211,603 probes." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="brand"><a href="index.html">NameRank</a><span class="tag">v1</span></div>
+    <ul>
+      <li><a href="cohorts.html">Cohorts</a></li>
+      <li><a href="lookup.html">Entity lookup</a></li>
+      <li><a href="inversion.html">Artifact &gt; creator</a></li>
+      <li><a href="crosslang.html">Cross-language</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://github.com/19PINE-AI/namerank">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+  <h1>NameRank</h1>
+  <p class="lede">
+    A continuous <span class="mono">[0,1]</span> recognition score for people and named artifacts in the LLM era.
+    NameRank operationalizes the 65% recognition-variance residual that bibliometrics cannot explain
+    (<a href="https://arxiv.org/abs/2601.xxxxx">Li 2026, IKP §5.7</a>) into a single number, computed against a
+    37-model frontier panel. 5,719 entities, 54 cohorts, 211,603 probe records, plus an 8,880-record Chinese-prompt
+    sub-run.
+  </p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Five headline findings</h2>
+    <ol>
+      <li><strong>The credential treadmill.</strong> IMO gold (0.36), Rhodes (0.32), MSRA Fellowship (0.34) all sit
+        <em>below</em> the long-tail-OpenAlex working-researcher baseline (0.46). Olympic-style credentials no longer
+        propagate names through the LLM channel.
+        <a href="cohorts.html#credentials">See the ladder →</a></li>
+      <li><strong>Artifact &gt; creator inversion.</strong> In 8 of 11 verified (creator, artifact) pairs, the artifact
+        outranks its creator. For independent solo creators (Datasette, nanoGPT, Tianshou, LangChain, Cursor) the
+        inversion is uniform.
+        <a href="inversion.html">Explore the pairs →</a></li>
+      <li><strong>h-index ≫ raw citations.</strong> <span class="mono">log(h-index)</span> explains R²=0.40 of NameRank
+        variance for OpenAlex researchers; <span class="mono">log(citations)</span> explains 0.14 with zero marginal
+        value beyond h-index.
+        <a href="about.html#external">Methodology →</a></li>
+      <li><strong>Corpus-density gradient.</strong> Stanford CS faculty mean NameRank 0.54 vs. Tsinghua 0.26.
+        Country effects place Israel/Singapore/Sweden above the USA baseline.
+        <a href="cohorts.html#country">See the country chart →</a></li>
+      <li><strong>C6 falsification.</strong> tuixue.online (∼1M Chinese-language users) registers NameRank 0.25,
+        less than half of nanoGPT (0.71), with a flat cross-language null.
+        <a href="crosslang.html">Cross-language deltas →</a></li>
+    </ol>
+  </div>
+
+  <h2>Explore</h2>
+  <ul>
+    <li><a href="cohorts.html"><strong>Cohort distribution</strong></a> — per-cohort distributions on a single axis;
+      silent / discriminative / universal zones.</li>
+    <li><a href="lookup.html"><strong>Per-entity lookup</strong></a> — search across all 5,719 entities; see
+      NameRank, cross-model SD, and refusal rate.</li>
+    <li><a href="inversion.html"><strong>Artifact &gt; creator</strong></a> — 11 verified pairs with conditional-probe
+      attribution-flow asymmetries.</li>
+    <li><a href="crosslang.html"><strong>Cross-language deltas</strong></a> — 240 entities probed in English and
+      Chinese; entity-name match dominates model nationality.</li>
+    <li><a href="about.html"><strong>Methodology & release</strong></a> — probe template, judge prompt, model panel,
+      caveats, and the full data + code release.</li>
+  </ul>
+
+  <h2>Cite</h2>
+  <pre class="mono" style="background:#f5f5f1;padding:12px;border-radius:6px;overflow:auto;">@article{li2026namerank,
+  title={NameRank: Measuring LLM-Mediated Recognition as the Post-Bibliometric Impact Channel},
+  author={Li, Bojie},
+  journal={arXiv preprint},
+  year={2026},
+  note={Code: https://github.com/19PINE-AI/namerank}
+}</pre>
+</main>
+
+<footer>
+  Bojie Li · Pine AI · 2026 — NameRank · <a href="https://github.com/19PINE-AI/namerank">repo</a>
+</footer>
+</body>
+</html>

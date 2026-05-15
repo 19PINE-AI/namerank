@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Entity lookup · NameRank</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="brand"><a href="index.html">NameRank</a><span class="tag">v1</span></div>
+    <ul>
+      <li><a href="cohorts.html">Cohorts</a></li>
+      <li><a href="lookup.html">Entity lookup</a></li>
+      <li><a href="inversion.html">Artifact &gt; creator</a></li>
+      <li><a href="crosslang.html">Cross-language</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://github.com/19PINE-AI/namerank">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+  <h1>Per-entity lookup</h1>
+  <p class="lede">
+    Search across all 5,719 entities. NameRank is the mean of <span class="mono">cov × acc</span> across the 37-model
+    panel; SD is the cross-model spread; refusal is the fraction of the panel that responded "unknown".
+  </p>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search by name (e.g. Karpathy, FlashAttention, tuixue.online)…" autofocus />
+    <select id="cohort"><option value="">all cohorts</option></select>
+    <select id="sortBy">
+      <option value="nr">NameRank (high → low)</option>
+      <option value="nr-asc">NameRank (low → high)</option>
+      <option value="sd">cross-model SD</option>
+      <option value="refusal">refusal rate</option>
+      <option value="name">name (A → Z)</option>
+    </select>
+    <span id="count" class="note"></span>
+  </div>
+
+  <table id="entityTable">
+    <thead><tr>
+      <th>Name</th><th>Cohort</th>
+      <th class="num">NameRank</th><th>Distribution</th>
+      <th class="num">SD</th><th class="num">refusal</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="note" id="more"></p>
+</main>
+
+<footer>NameRank · v1 release · <a href="https://github.com/19PINE-AI/namerank">repo</a></footer>
+
+<script type="module">
+import { loadJSON, fmt, bar, debounce, escapeHTML } from "./assets/app.js";
+
+const data = await loadJSON("assets/data/per_entity.json");
+
+// Populate cohort filter
+const cohorts = [...new Set(data.map(d => d.cohort))].sort();
+const sel = document.getElementById("cohort");
+for (const c of cohorts) {
+  const o = document.createElement("option"); o.value = c; o.textContent = c; sel.appendChild(o);
+}
+
+const q = document.getElementById("q");
+const sortSel = document.getElementById("sortBy");
+const tbody = document.querySelector("#entityTable tbody");
+const more = document.getElementById("more");
+const count = document.getElementById("count");
+const PAGE = 200;
+
+function filterAndSort() {
+  const term = q.value.trim().toLowerCase();
+  const cohort = sel.value;
+  let rows = data;
+  if (cohort) rows = rows.filter(r => r.cohort === cohort);
+  if (term) rows = rows.filter(r => r.name.toLowerCase().includes(term) || r.id.includes(term));
+  switch (sortSel.value) {
+    case "nr-asc": rows = rows.slice().sort((a, b) => a.nr - b.nr); break;
+    case "sd":     rows = rows.slice().sort((a, b) => b.sd - a.sd); break;
+    case "refusal":rows = rows.slice().sort((a, b) => b.refusal - a.refusal); break;
+    case "name":   rows = rows.slice().sort((a, b) => a.name.localeCompare(b.name)); break;
+    default:       rows = rows.slice().sort((a, b) => b.nr - a.nr);
+  }
+  count.textContent = `${rows.length.toLocaleString()} entities`;
+  return rows;
+}
+
+function render() {
+  const rows = filterAndSort();
+  const slice = rows.slice(0, PAGE);
+  tbody.innerHTML = slice.map(r => `<tr>
+    <td>${escapeHTML(r.name)}</td>
+    <td><span class="mono" style="font-size:12px;color:#666">${escapeHTML(r.cohort)}</span></td>
+    <td class="num">${fmt(r.nr)}</td>
+    <td style="width:180px">${bar(r.nr)}</td>
+    <td class="num">${fmt(r.sd)}</td>
+    <td class="num">${(r.refusal * 100).toFixed(0)}%</td>
+  </tr>`).join("");
+  more.textContent = rows.length > PAGE ? `Showing first ${PAGE} of ${rows.length} matches — narrow the search to see the rest.` : "";
+}
+
+q.addEventListener("input", debounce(render, 90));
+sel.addEventListener("change", render);
+sortSel.addEventListener("change", render);
+render();
+</script>
+</body>
+</html>

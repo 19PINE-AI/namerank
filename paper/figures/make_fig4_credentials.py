@@ -1,7 +1,14 @@
-"""Figure 4: Credential treadmill bar chart."""
+"""Figure 4: Credential treadmill bar chart.
+
+Hand-curated cohort means (sourced from data/analysis/credential_ladder.csv;
+duplicated here so the figure stays reproducible without re-reading the CSV).
+"""
+from pathlib import Path
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
+
+HERE = Path(__file__).resolve().parent
 
 credentials = [
     ("GPT-5 system-card author", 80, 0.042, "#7f0000"),
@@ -45,6 +52,6 @@ ax.set_title("The credential treadmill: 7 of 9 once-prestigious intellectual cre
               fontsize=10.5)
 ax.grid(True, axis='x', alpha=0.3)
 plt.tight_layout()
-out = "/home/ubuntu/namerank/paper/figures/fig4_credentials.pdf"
+out = HERE / "fig4_credentials.pdf"
 plt.savefig(out, bbox_inches="tight")
 print(f"Wrote {out}")

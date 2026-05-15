@@ -1,0 +1,12 @@
+creator,artifact,c_to_a,a_to_c,asym
+Jiayi Weng,Tianshou,0.25,0.0,0.25
+Andrej Karpathy,nanoGPT,0.054,0.757,-0.703
+Harrison Chase,LangChain,1.0,0.216,0.784
+Tri Dao,FlashAttention,0.735,0.541,0.195
+Lilian Weng,lilianweng.github.io,0.972,0.972,0.0
+Simon Willison,Datasette,0.541,0.892,-0.351
+Aman Sanger,Cursor,1.0,0.0,1.0
+Dario Amodei,Anthropic,1.0,0.405,0.595
+Demis Hassabis,Google DeepMind,1.0,0.622,0.378
+Mira Murati,Thinking Machines Lab,0.97,1.0,-0.03
+Aravind Srinivas,Perplexity,1.0,0.333,0.667

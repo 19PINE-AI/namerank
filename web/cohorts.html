@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cohorts · NameRank</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="brand"><a href="index.html">NameRank</a><span class="tag">v1</span></div>
+    <ul>
+      <li><a href="cohorts.html">Cohorts</a></li>
+      <li><a href="lookup.html">Entity lookup</a></li>
+      <li><a href="inversion.html">Artifact &gt; creator</a></li>
+      <li><a href="crosslang.html">Cross-language</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://github.com/19PINE-AI/namerank">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+  <h1>Cohort distribution</h1>
+  <p class="lede">
+    Each row is one of 54 cohorts; the bar shows the mean NameRank, and three zones are visible on a single axis:
+    <span class="swatch silent"></span>silent (≤0.1, paper-published-this-month)
+    · <span class="swatch discriminative"></span>discriminative (0.1–0.7, working academics, credentialed individuals)
+    · <span class="swatch universal"></span>universal (≥0.7, named artifacts and high-profile mid-tier figures).
+  </p>
+
+  <div class="controls">
+    Sort by:
+    <select id="sortBy">
+      <option value="mean">mean NameRank</option>
+      <option value="median">median</option>
+      <option value="n">cohort size (n)</option>
+      <option value="frac_recognized">frac ≥ 0.5</option>
+      <option value="frac_silent">frac ≤ 0.05</option>
+    </select>
+    <label><input type="checkbox" id="hideSmall" /> hide cohorts with n &lt; 10</label>
+  </div>
+
+  <div id="chart"></div>
+
+  <h2 id="credentials">Credential ladder</h2>
+  <p class="note">
+    The credential-treadmill thesis: 7 of 9 once-prestigious intellectual credentials sit at or below the long-tail-OpenAlex
+    working-researcher baseline (0.464, dashed line on chart).
+  </p>
+  <div id="credChart"></div>
+
+  <h2 id="country">CS faculty by country</h2>
+  <p class="note">
+    Small high-output Western tech ecosystems (Israel, Singapore, Sweden) lead the corpus-density gradient; the USA sits
+    in the middle (gold); Chinese, Indian, French, Spanish CS faculty cluster at the bottom.
+  </p>
+  <div id="countryChart"></div>
+
+  <h2>Full cohort table</h2>
+  <table id="cohortTable">
+    <thead><tr>
+      <th>Cohort</th><th class="num">n</th><th class="num">mean</th><th class="num">median</th>
+      <th class="num">SD</th><th class="num">p10</th><th class="num">p90</th>
+      <th class="num">≥ 0.5</th><th class="num">≤ 0.05</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<footer>NameRank · v1 release · <a href="https://github.com/19PINE-AI/namerank">repo</a></footer>
+
+<script type="module">
+import { loadJSON, svgBars, fmt, zone, escapeHTML } from "./assets/app.js";
+
+const data = await loadJSON("assets/data/cohort_summary.json");
+const credData = await loadJSON("assets/data/credential_ladder.json");
+const countryData = await loadJSON("assets/data/cs_faculty_by_country.json");
+const sortSel = document.getElementById("sortBy");
+const hideSmall = document.getElementById("hideSmall");
+
+function colorFor(r) {
+  const z = zone(r.mean);
+  return z === "silent" ? "#d62728" : z === "universal" ? "#2ca02c" : "#1f77b4";
+}
+
+function render() {
+  const key = sortSel.value;
+  let rows = [...data];
+  if (hideSmall.checked) rows = rows.filter(r => r.n >= 10);
+  rows.sort((a, b) => b[key] - a[key]);
+
+  document.getElementById("chart").innerHTML = svgBars({
+    rows, width: 920, rowHeight: 18, labelW: 240,
+    accessor: r => r.mean, label: r => `${r.cohort} (n=${r.n})`,
+    color: colorFor,
+    annotate: r => r.mean.toFixed(3),
+  });
+
+  const tbody = document.querySelector("#cohortTable tbody");
+  tbody.innerHTML = rows.map(r => `<tr>
+    <td>${escapeHTML(r.cohort)}</td>
+    <td class="num">${r.n}</td><td class="num">${fmt(r.mean)}</td>
+    <td class="num">${fmt(r.median)}</td><td class="num">${fmt(r.sd)}</td>
+    <td class="num">${fmt(r.p10)}</td><td class="num">${fmt(r.p90)}</td>
+    <td class="num">${fmt(r.frac_recognized)}</td>
+    <td class="num">${fmt(r.frac_silent)}</td>
+  </tr>`).join("");
+}
+
+// Credential chart
+const credRows = credData.slice().sort((a, b) => a.mean - b.mean);
+document.getElementById("credChart").innerHTML = svgBars({
+  rows: credRows, width: 760, rowHeight: 22, labelW: 280,
+  accessor: r => r.mean, label: r => `${r.credential} (n=${r.n})`,
+  color: r => r.mean < 0.1 ? "#7f0000" : r.mean < 0.46 ? "#ff7f0e" : "#1f77b4",
+});
+
+// Country chart
+const countryRows = countryData.slice().sort((a, b) => a.mean - b.mean);
+document.getElementById("countryChart").innerHTML = svgBars({
+  rows: countryRows, width: 720, rowHeight: 22, labelW: 200,
+  accessor: r => r.mean, label: r => `${r.country} (n=${r.n})`,
+  color: r => r.country === "USA" ? "#888" : r.mean > 0.46 ? "#1f77b4" : "#d62728",
+});
+
+sortSel.addEventListener("change", render);
+hideSmall.addEventListener("change", render);
+render();
+</script>
+</body>
+</html>

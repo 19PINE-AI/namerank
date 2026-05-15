@@ -1,7 +1,7 @@
-"""Figure 1: per-cohort NameRank distribution (violin or box plot).
+"""Figure 1: per-cohort NameRank distribution (box plot).
 
-Reads from /home/ubuntu/career-ikp-analysis/pilot/analysis/namerank_per_entity.csv
-and produces fig1_cohort_distribution.pdf.
+Reads ../../data/analysis/namerank_per_entity.csv and writes
+fig1_cohort_distribution.pdf into the same figures/ directory.
 """
 import csv
 import statistics
@@ -11,8 +11,10 @@ import matplotlib
 matplotlib.use('Agg')
 import numpy as np
 
-src = Path("/home/ubuntu/career-ikp-analysis/pilot/analysis/namerank_per_entity.csv")
-rows = list(csv.DictReader(open(src)))
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent.parent
+src = REPO / "data" / "analysis" / "namerank_per_entity.csv"
+rows = list(csv.DictReader(open(src, encoding="utf-8")))
 for r in rows:
     r["namerank"] = float(r["namerank"])
 
@@ -84,6 +86,6 @@ ax.set_title("Per-cohort NameRank distribution ($n \\geq 10$ cohorts)\n"
               "Boxes: IQR; line: median; dot: mean. Three zones visible on a single instrument.",
               fontsize=11)
 plt.tight_layout()
-out = Path("/home/ubuntu/namerank/paper/figures/fig1_cohort_distribution.pdf")
+out = HERE / "fig1_cohort_distribution.pdf"
 plt.savefig(out, bbox_inches="tight")
 print(f"Wrote {out}")
