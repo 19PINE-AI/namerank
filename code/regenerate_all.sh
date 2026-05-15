@@ -35,5 +35,11 @@ python3 refusal_patterns.py
 echo "==> embedding_judge_gap.py"
 python3 embedding_judge_gap.py
 
+echo "==> per_model_summary.py"
+python3 per_model_summary.py
+
+echo "==> build_web_data.py"
+python3 build_web_data.py
+
 echo
-echo "All analyses regenerated. CSVs in data/analysis/."
+echo "All analyses regenerated. CSVs in data/analysis/; companion-site JSONs in web/assets/data/."

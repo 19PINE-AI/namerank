@@ -12,26 +12,7 @@ import statistics
 from collections import defaultdict
 
 from _paths import ANALYSIS, INPUTS, open_text, raw_records_path
-
-WESTERN = {
-    "claude-opus-4.6-think", "claude-sonnet-4.6-think",
-    "gemini-2.5-pro-think", "gemini-3-flash-think", "gemini-3.1-pro",
-    "gemma-3-12b", "gemma-3-4b", "gemma-4-31b",
-    "gpt-5.3", "gpt-5.4", "gpt-5.5-think",
-    "gpt-oss-20b-think",
-    "grok-4", "grok-4.20-think",
-    "llama-3.1-8b", "llama-3.2-1b", "llama-3.3-70b", "llama-4-maverick",
-    "mistral-large", "mistral-medium-3.1", "mistral-small-24b", "ministral-3b",
-    "phi-4",
-}
-CHINESE = {
-    "deepseek-v3.2-think", "deepseek-v4-flash-think", "deepseek-v4-pro-think",
-    "ernie-4.5-300b-a47b",
-    "glm-4-32b", "glm-4.7-think", "glm-5.1-think",
-    "kimi-k2", "kimi-k2.6-think",
-    "minimax-m2.7-think",
-    "qwen3-235b-a22b-think", "qwen3-32b-think", "qwen3-8b-think", "qwen3.5-397b-a17b-think",
-}
+from panel import WESTERN, CHINESE
 
 
 def load(lang: str):

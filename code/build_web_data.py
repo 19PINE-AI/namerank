@@ -100,6 +100,52 @@ def main() -> None:
     (OUT / "cs_faculty_by_country.json").write_text(json.dumps(countries))
     print(f"cs_faculty_by_country.json  {len(countries):>3} countries")
 
+    # 7. Per-model summary (Appendix C of the paper). Optional — only if the
+    # CSV exists; it is rebuilt by code/per_model_summary.py.
+    pm_csv = ANALYSIS / "per_model_summary.csv"
+    if pm_csv.exists():
+        per_model = [{
+            "model_id": r["model_id"],
+            "vendor": r["vendor"],
+            "family": r["family"],
+            "thinking": r["thinking"] == "1",
+            "n_records": int(r["n_records"]),
+            "mean_score": float(r["mean_score"]),
+            "refusal_rate": float(r["refusal_rate"]),
+            "mean_score_non_refusal": float(r["mean_score_non_refusal"]),
+        } for r in read_csv(pm_csv)]
+        (OUT / "per_model.json").write_text(json.dumps(per_model))
+        print(f"per_model.json  {len(per_model):>5} models")
+
+    # 8. Panel-size sensitivity curve (Appendix A2).
+    ps_csv = ANALYSIS / "a2_panel_size_curve.csv"
+    if ps_csv.exists():
+        panel = [{
+            "k": int(r["k"]),
+            "pearson_mean": float(r["pearson_mean"]),
+            "pearson_sd": float(r["pearson_sd"]),
+            "pearson_min": float(r["pearson_min"]),
+            "pearson_max": float(r["pearson_max"]),
+            "spearman_mean": float(r["spearman_mean"]),
+            "spearman_sd": float(r["spearman_sd"]),
+        } for r in read_csv(ps_csv)]
+        (OUT / "panel_size_curve.json").write_text(json.dumps(panel))
+        print(f"panel_size_curve.json  {len(panel):>5} rows")
+
+    # 9. Conditional NameRank (Appendix A3 - per-cohort recognition rate).
+    cond_csv = ANALYSIS / "a3_conditional_namerank.csv"
+    if cond_csv.exists():
+        cond = [{
+            "cohort": r["cohort"], "n": int(r["n"]),
+            "unconditional": float(r["unconditional_nr"]),
+            "conditional": float(r["conditional_nr"]),
+            "recognition_rate": float(r["recognition_rate"]),
+            "delta": float(r["delta_cond_uncond"]),
+            "factor": float(r["factor_cond_uncond"]),
+        } for r in read_csv(cond_csv)]
+        (OUT / "conditional_namerank.json").write_text(json.dumps(cond))
+        print(f"conditional_namerank.json  {len(cond):>3} cohorts")
+
 
 if __name__ == "__main__":
     main()

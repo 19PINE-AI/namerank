@@ -1,0 +1,20 @@
+# NameRank reproducibility dependencies.
+#
+# The analysis pipeline (code/regenerate_all.sh) needs only the Python stdlib
+# — the entries below are split by which step they support.
+
+# Analysis CSVs from data/raw/ + figure regeneration from data/analysis/:
+matplotlib>=3.6
+numpy>=1.24
+
+# Full probe pipeline (code/run_probe.py) — only required for an end-to-end
+# re-run against the live OpenRouter / Google API; not needed for downstream
+# CSV / figure reproduction.
+openai>=1.40
+google-genai>=0.3
+sentence-transformers>=2.7
+
+# Note: only matplotlib/numpy are needed for the headline reproducibility
+# path (figures + analysis CSVs). The probe-runner dependencies are heavy
+# (sentence-transformers pulls torch ~1 GB) and can be skipped if you are
+# rebuilding from the released raw records.

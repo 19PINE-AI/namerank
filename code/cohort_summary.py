@@ -16,14 +16,16 @@ def main() -> None:
     rows = list(csv.DictReader(open(ANALYSIS / "namerank_per_entity.csv", encoding="utf-8")))
     for r in rows:
         r["namerank"] = float(r["namerank"])
+        r["refusal_rate"] = float(r.get("refusal_rate") or 0.0)
 
-    by_cohort: dict[str, list[float]] = defaultdict(list)
+    by_cohort: dict[str, list[dict]] = defaultdict(list)
     for r in rows:
-        by_cohort[r["cohort"]].append(r["namerank"])
+        by_cohort[r["cohort"]].append(r)
 
     summary_rows = []
-    for c, scores in sorted(by_cohort.items()):
-        scores = sorted(scores)
+    for c, ent_rows in sorted(by_cohort.items()):
+        scores = sorted(r["namerank"] for r in ent_rows)
+        refusals = [r["refusal_rate"] for r in ent_rows]
         n = len(scores)
         summary_rows.append({
             "cohort": c, "n": n,
@@ -36,6 +38,7 @@ def main() -> None:
             "p90": round(scores[min(int(0.90 * n), n - 1)], 3),
             "frac_recognized": round(sum(1 for s in scores if s >= 0.5) / n, 3),
             "frac_silent": round(sum(1 for s in scores if s <= 0.05) / n, 3),
+            "refusal_rate": round(statistics.mean(refusals), 3),
         })
 
     out = ANALYSIS / "cohort_summary.csv"

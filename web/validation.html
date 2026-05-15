@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Validation · NameRank</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="brand"><a href="index.html">NameRank</a><span class="tag">v1</span></div>
+    <ul>
+      <li><a href="cohorts.html">Cohorts</a></li>
+      <li><a href="lookup.html">Entity lookup</a></li>
+      <li><a href="inversion.html">Artifact &gt; creator</a></li>
+      <li><a href="crosslang.html">Cross-language</a></li>
+      <li><a href="validation.html">Validation</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://github.com/19PINE-AI/namerank">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+  <h1>Validation &amp; diagnostics</h1>
+  <p class="lede">
+    The numbers behind the metric: per-model generosity and refusal rates, how scores stabilize as the
+    panel size grows, and how much the score lifts when you condition on
+    <em>any model recognized this entity</em>. These are the appendix tables of the paper, made interactive.
+  </p>
+
+  <h2 id="panel-size">Panel-size sensitivity</h2>
+  <p class="note">
+    For each panel size <span class="mono">k</span>, we sample <span class="mono">100</span> random
+    <span class="mono">k</span>-model subsets and report the Pearson and Spearman correlation against the full
+    37-model NameRank. By <span class="mono">k = 10</span>, the correlation against the full panel is already
+    above <span class="mono">0.94</span>; by <span class="mono">k = 20</span>, above <span class="mono">0.98</span>.
+    This is the empirical justification for a fixed 37-model panel as a stable estimator of corpus presence.
+  </p>
+  <div id="panelChart"></div>
+  <table id="panelTable">
+    <thead><tr>
+      <th class="num">k</th>
+      <th class="num">Pearson mean</th>
+      <th class="num">Pearson SD</th>
+      <th class="num">Pearson min</th>
+      <th class="num">Spearman mean</th>
+      <th class="num">Spearman SD</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <h2 id="per-model">Per-model generosity and refusal</h2>
+  <p class="note">
+    One row per panel model. <em>Generosity</em> is the unweighted mean of <span class="mono">cov × acc</span> across
+    all 5,719 entities; <em>refusal</em> is the fraction of entities the model answered "unknown". Thinking-mode
+    variants are flagged. The strict cluster is dominated by smaller models and by RL-tuned-against-hallucination
+    defaults; the generous cluster is the frontier-reasoning subset. Variance across this column is what the
+    37-model panel mean is averaging over.
+  </p>
+  <div class="controls">
+    <label>Sort:
+      <select id="modelSort">
+        <option value="mean_score">mean score (high→low)</option>
+        <option value="refusal_rate">refusal rate (high→low)</option>
+        <option value="mean_score_non_refusal">mean score | non-refusal</option>
+        <option value="model_id">model id (A→Z)</option>
+      </select>
+    </label>
+    <label>Filter:
+      <select id="modelClass">
+        <option value="all">all panel models</option>
+        <option value="western">Western vendors</option>
+        <option value="chinese">Chinese vendors</option>
+        <option value="thinking">thinking variants</option>
+        <option value="nonthinking">non-thinking variants</option>
+      </select>
+    </label>
+  </div>
+  <table id="modelTable">
+    <thead><tr>
+      <th>Model</th><th>Vendor</th><th>Thinking</th>
+      <th class="num">Mean score</th>
+      <th class="num">Refusal</th>
+      <th class="num">Score | non-refusal</th>
+      <th class="num">Records</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <h2 id="conditional">Conditional NameRank: cohort recognition rate</h2>
+  <p class="note">
+    Per cohort, <em>unconditional</em> NameRank is the headline mean across all entities and models;
+    <em>conditional</em> NameRank is the mean restricted to <em>(entity, model)</em> pairs where the model did
+    <em>not</em> refuse. The recognition rate is the fraction of model responses that produced
+    <em>some</em> non-refusal content. The ratio <span class="mono">conditional / unconditional</span> measures
+    how much of a cohort's low NameRank is driven by refusal rather than poor-quality answers — the
+    GPT-5 system-card author cohort lifts <span class="mono">2.3×</span> when we restrict to non-refusing
+    responses, but its conditional score is still only <span class="mono">0.09</span>.
+  </p>
+  <div class="controls">
+    <label>Sort by:
+      <select id="condSort">
+        <option value="recognition_rate-asc">recognition rate (low→high)</option>
+        <option value="recognition_rate">recognition rate (high→low)</option>
+        <option value="factor">conditional/unconditional factor (high→low)</option>
+        <option value="unconditional">unconditional (high→low)</option>
+        <option value="conditional">conditional (high→low)</option>
+      </select>
+    </label>
+  </div>
+  <table id="condTable">
+    <thead><tr>
+      <th>Cohort</th><th class="num">n</th>
+      <th class="num">Unconditional</th>
+      <th class="num">Conditional</th>
+      <th class="num">Recognition rate</th>
+      <th class="num">×factor</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<footer>NameRank · v1 release · <a href="https://github.com/19PINE-AI/namerank">repo</a></footer>
+
+<script type="module">
+import { loadJSON, fmt, escapeHTML, bar } from "./assets/app.js";
+
+const panel = await loadJSON("assets/data/panel_size_curve.json");
+const perModel = await loadJSON("assets/data/per_model.json");
+const cond = await loadJSON("assets/data/conditional_namerank.json");
+
+// Panel-size sensitivity chart (Pearson vs k).
+function panelSVG(rows) {
+  const width = 720, height = 240, padL = 50, padR = 16, padT = 16, padB = 32;
+  const xs = rows.map(r => r.k);
+  const xMin = 0, xMax = 37;
+  const yMin = 0.6, yMax = 1.0;
+  const x = v => padL + ((v - xMin) / (xMax - xMin)) * (width - padL - padR);
+  const y = v => padT + (1 - (v - yMin) / (yMax - yMin)) * (height - padT - padB);
+  const lines = [];
+  for (let yv = yMin; yv <= yMax + 1e-6; yv += 0.05) {
+    lines.push(`<line x1="${padL}" y1="${y(yv)}" x2="${width - padR}" y2="${y(yv)}" stroke="#eee" />`);
+    lines.push(`<text x="${padL - 6}" y="${y(yv) + 3}" font-size="10" fill="#888" text-anchor="end">${yv.toFixed(2)}</text>`);
+  }
+  for (const xv of [3, 5, 10, 15, 20, 25, 30, 37]) {
+    lines.push(`<text x="${x(xv)}" y="${height - 10}" font-size="10" fill="#888" text-anchor="middle">${xv}</text>`);
+  }
+  // Pearson mean line
+  const pts = rows.map(r => `${x(r.k)},${y(r.pearson_mean)}`).join(" ");
+  lines.push(`<polyline points="${pts}" fill="none" stroke="#1f77b4" stroke-width="2.2" />`);
+  for (const r of rows) {
+    lines.push(`<circle cx="${x(r.k)}" cy="${y(r.pearson_mean)}" r="3.5" fill="#1f77b4" />`);
+    // Min as a faint range bar
+    lines.push(`<line x1="${x(r.k)}" y1="${y(r.pearson_min)}" x2="${x(r.k)}" y2="${y(r.pearson_max)}" stroke="#1f77b4" stroke-width="1" opacity="0.35" />`);
+  }
+  lines.push(`<text x="${(padL + width - padR) / 2}" y="${height - 2}" font-size="11" fill="#444" text-anchor="middle">Panel size k</text>`);
+  lines.push(`<text x="12" y="${(padT + height - padB) / 2}" font-size="11" fill="#444" text-anchor="middle" transform="rotate(-90 12,${(padT + height - padB) / 2})">Pearson r vs 37-model panel</text>`);
+  return `<svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="panel size sensitivity">${lines.join("")}</svg>`;
+}
+document.getElementById("panelChart").innerHTML = panelSVG(panel);
+document.querySelector("#panelTable tbody").innerHTML = panel.map(r => `<tr>
+  <td class="num">${r.k}</td>
+  <td class="num">${fmt(r.pearson_mean)}</td>
+  <td class="num">${fmt(r.pearson_sd)}</td>
+  <td class="num">${fmt(r.pearson_min)}</td>
+  <td class="num">${fmt(r.spearman_mean)}</td>
+  <td class="num">${fmt(r.spearman_sd)}</td>
+</tr>`).join("");
+
+// Per-model table.
+const WESTERN_VENDORS = new Set(["openai", "anthropic", "google", "meta", "mistral", "mistralai", "microsoft", "xai"]);
+function isWestern(m) { return WESTERN_VENDORS.has(m.vendor); }
+
+const sortSel = document.getElementById("modelSort");
+const classSel = document.getElementById("modelClass");
+function renderModels() {
+  let rows = [...perModel];
+  switch (classSel.value) {
+    case "western": rows = rows.filter(isWestern); break;
+    case "chinese": rows = rows.filter(m => !isWestern(m)); break;
+    case "thinking": rows = rows.filter(m => m.thinking); break;
+    case "nonthinking": rows = rows.filter(m => !m.thinking); break;
+  }
+  const key = sortSel.value;
+  if (key === "model_id") rows.sort((a, b) => a.model_id.localeCompare(b.model_id));
+  else rows.sort((a, b) => b[key] - a[key]);
+  document.querySelector("#modelTable tbody").innerHTML = rows.map(m => `<tr>
+    <td><span class="mono">${escapeHTML(m.model_id)}</span></td>
+    <td><span class="note">${escapeHTML(m.vendor)}</span></td>
+    <td class="num">${m.thinking ? "✓" : ""}</td>
+    <td class="num">${fmt(m.mean_score)}</td>
+    <td class="num">${(m.refusal_rate * 100).toFixed(1)}%</td>
+    <td class="num">${fmt(m.mean_score_non_refusal)}</td>
+    <td class="num">${m.n_records.toLocaleString()}</td>
+  </tr>`).join("");
+}
+sortSel.addEventListener("change", renderModels);
+classSel.addEventListener("change", renderModels);
+renderModels();
+
+// Conditional NameRank table.
+const condSel = document.getElementById("condSort");
+function renderCond() {
+  let rows = [...cond];
+  const key = condSel.value;
+  if (key === "recognition_rate-asc") rows.sort((a, b) => a.recognition_rate - b.recognition_rate);
+  else rows.sort((a, b) => b[key] - a[key]);
+  document.querySelector("#condTable tbody").innerHTML = rows.map(r => `<tr>
+    <td><span class="mono">${escapeHTML(r.cohort)}</span></td>
+    <td class="num">${r.n}</td>
+    <td class="num">${fmt(r.unconditional)}</td>
+    <td class="num">${fmt(r.conditional)}</td>
+    <td class="num">${(r.recognition_rate * 100).toFixed(1)}%</td>
+    <td class="num">${r.factor.toFixed(2)}×</td>
+  </tr>`).join("");
+}
+condSel.addEventListener("change", renderCond);
+renderCond();
+</script>
+</body>
+</html>

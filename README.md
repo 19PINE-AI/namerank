@@ -64,16 +64,31 @@ namerank/
 │   ├── variance_decomposition.py  # σ²_entity vs σ²_model
 │   ├── refusal_patterns.py        # per-model / per-cohort refusal
 │   ├── embedding_judge_gap.py     # judge vs BGE-large agreement
+│   ├── per_model_summary.py       # per_model_summary.csv (Appendix C)
 │   ├── build_web_data.py          # JSON slices for the companion site
 │   ├── regenerate_all.sh          # rebuild every CSV from data/raw
+│   ├── panel.py                   # 37-model Western/Chinese partition
 │   └── _paths.py                  # repo-relative path helpers
+├── requirements.txt               # python dependencies
 └── web/                            # static companion site (no build step)
     ├── index.html  cohorts.html  lookup.html  inversion.html
-    ├── crosslang.html  about.html
+    ├── crosslang.html  validation.html  about.html
     └── assets/{style.css, app.js, data/*.json}
 ```
 
 ## Reproducing the paper
+
+Each step below is independent and operates on the layer above it. Step 1 needs only `texlive` (no Python). Steps 2 and 3 only need `pip install matplotlib numpy` (the analysis scripts use only the Python stdlib, but the figure scripts use `matplotlib`). Step 4 is the heavy end-to-end re-run.
+
+### Quick reproduction (no probe re-run)
+
+```bash
+pip install -r requirements.txt    # matplotlib + numpy is enough for steps 1–3
+cd code && bash regenerate_all.sh  # → all CSVs in data/analysis/ + JSONs in web/assets/data/
+cd ../paper/figures
+for f in make_fig*.py; do python3 "$f"; done
+cd .. && pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
+```
 
 ### 1. Compile the paper PDF
 
@@ -85,20 +100,20 @@ pdflatex main.tex
 pdflatex main.tex
 ```
 
-Required LaTeX packages: `natbib`, `amsmath`, `booktabs`, `hyperref`, `longtable`, `subcaption`, `tabularx`, `pdflscape`, `enumitem`. All standard texlive-latex-extra.
+Required LaTeX packages: `natbib`, `amsmath`, `booktabs`, `hyperref`, `longtable`, `subcaption`, `tabularx`, `pdflscape`, `enumitem`. All standard `texlive-latex-extra`.
 
 ### 2. Regenerate all figures from the released CSVs
 
 ```bash
 cd paper/figures
-python3 make_fig1.py        # cohort distribution
-python3 make_fig2_inversion.py
-python3 make_fig3_external.py
-python3 make_fig4_credentials.py
-python3 make_fig5_country.py
+python3 make_fig1.py                # cohort distribution
+python3 make_fig2_inversion.py      # 11-pair inversion (reads attribution_pairs_v2.csv)
+python3 make_fig3_external.py       # h-index vs citations
+python3 make_fig4_credentials.py    # credential treadmill (reads credential_ladder.csv + baseline)
+python3 make_fig5_country.py        # country gradient (reads cs_faculty_by_country.csv)
 ```
 
-Requires `matplotlib` and `numpy`. Each script reads `../../data/analysis/*.csv` and writes the corresponding `figN_*.pdf` next to itself. No internet access required.
+Requires `matplotlib` and `numpy`. Every figure script reads `../../data/analysis/*.csv` — there are no hard-coded numbers, so editing the input data and re-running these regenerates the figures.
 
 ### 3. Regenerate every analysis CSV from the record-level data
 
@@ -107,7 +122,7 @@ cd code
 bash regenerate_all.sh
 ```
 
-This reads `data/raw/pilot_summary_en.csv.gz` and `pilot_summary_zh.csv.gz` and rewrites every CSV under `data/analysis/`. Each script is also runnable on its own (`python3 cohort_summary.py`, etc.).
+This reads `data/raw/pilot_summary_en.csv.gz` (+ `_zh.csv.gz` for the cross-language step) and rewrites every CSV under `data/analysis/` plus every JSON slice under `web/assets/data/`. Each script is also runnable on its own (`python3 cohort_summary.py`, etc.). The 37-model Western/Chinese partition lives in `code/panel.py` — add a model there and to `data/inputs/model_set.json` to extend the panel.
 
 ### 4. Re-run the full probe pipeline (~$2,500, ~10h wall-clock)
 
@@ -122,7 +137,7 @@ python3 run_probe.py --lang zh --parallel 24
 
 `run_probe.py` is resumable — existing rows in `outputs/pilot_results_<lang>.json` are honored and only missing (entity, model) pairs are dispatched. The pipeline writes a checkpoint every 200 completed pairs and writes the flat record-level CSV to `data/raw/pilot_summary_<lang>.csv` on completion.
 
-Dependencies: `pip install openai google-genai sentence-transformers numpy`. The BGE-large embedding model is downloaded on first run (~1.3 GB).
+Dependencies: `pip install openai google-genai sentence-transformers numpy` (or `pip install -r requirements.txt`). The BGE-large embedding model is downloaded on first run (~1.3 GB).
 
 ## Companion website
 
@@ -143,19 +158,23 @@ Pages:
 | `lookup.html`  | searchable index of all 5,719 entities with NameRank, cross-model SD, refusal rate |
 | `inversion.html`  | 11 (creator, artifact) pairs with conditional-probe attribution flow |
 | `crosslang.html`  | 240 entities × en/zh delta with W/C panel splits |
+| `validation.html` | panel-size sensitivity curve, per-model generosity/refusal, conditional NameRank |
 | `about.html`  | method, probe template, panel, judge, caveats |
 
-The companion-site data files in `web/assets/data/` are regenerated from `data/analysis/` via `python3 code/build_web_data.py`.
+The companion-site data files in `web/assets/data/` are regenerated from `data/analysis/` via `python3 code/build_web_data.py` (also invoked by `regenerate_all.sh`).
 
 ## Data schemas
 
 - **`data/raw/pilot_summary_en.csv.gz`** — one row per (entity, model). Columns: `entity_id, entity_name, model_id, is_refusal, coverage, accuracy, score, embedding_sim`. 211,603 rows.
 - **`data/analysis/namerank_per_entity.csv`** — one row per entity. Columns: `entity_id, entity_name, cohort, n_models, namerank, namerank_sd, refusal_rate, embedding_sim_mean`. 5,719 rows.
 - **`data/analysis/namerank_matrix.json`** — `{entity_id: {model_id: score}}` map for all 5,719 entities × 37 models.
-- **`data/analysis/cohort_summary.csv`** — one row per cohort (n=54): mean, median, SD, p10/25/75/90, frac ≥ 0.5, frac ≤ 0.05.
+- **`data/analysis/cohort_summary.csv`** — one row per cohort (n=54): n, mean, median, SD, p10/25/75/90, frac ≥ 0.5, frac ≤ 0.05, refusal_rate.
+- **`data/analysis/per_model_summary.csv`** — one row per panel model (n=37): vendor, family, thinking flag, n_records, mean_score, refusal_rate, mean_score_non_refusal. Source of Appendix C.
+- **`data/analysis/a2_panel_size_curve.csv`** — Pearson/Spearman correlation against the full 37-model panel as a function of subset size `k`, mean over 100 random subsets per `k`.
+- **`data/analysis/a3_conditional_namerank.csv`** — per-cohort unconditional vs. conditional (non-refusal-restricted) NameRank.
 - **`data/inputs/pilot_entities.json`** — list of `{id, name, cohort, context, ...}` records with disambiguating context per entity; cohort-specific fields like `cited_by_count`, `h_index`, `institution`, `credential_year`.
 - **`data/inputs/gold_answers.json`** — `{entity_id: gold_answer_text}` (100–200 words each).
-- **`data/inputs/model_set.json`** — list of model definitions (id, openrouter_id, thinking flag, provider_only).
+- **`data/inputs/model_set.json`** — list of model definitions (`id`, `openrouter_id`, `thinking` flag, `vendor`, `family`, `lab`). The Western/Chinese partition is derived from the `vendor` field by `code/panel.py`.
 
 ## Citation
 

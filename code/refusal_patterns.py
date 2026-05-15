@@ -12,19 +12,7 @@ import statistics
 from collections import defaultdict
 
 from _paths import INPUTS, open_text, raw_records_path
-
-
-MODEL_SIZE = {
-    "llama-3.2-1b": 1, "ministral-3b": 3, "gemma-3-4b": 4, "qwen3-8b-think": 8, "llama-3.1-8b": 8,
-    "gemma-3-12b": 12, "phi-4": 14, "gpt-oss-20b-think": 20, "mistral-small-24b": 24, "gemma-4-31b": 31,
-    "qwen3-32b-think": 32, "glm-4-32b": 32,
-    "llama-3.3-70b": 70, "mistral-medium-3.1": 100, "mistral-large": 123,
-    "minimax-m2.7-think": 230, "qwen3-235b-a22b-think": 235, "ernie-4.5-300b-a47b": 300,
-    "deepseek-v3.2-think": 671, "deepseek-v4-pro-think": 1000, "qwen3.5-397b-a17b-think": 397,
-    "kimi-k2": 1000, "kimi-k2.6-think": 1000,
-    "deepseek-v4-flash-think": 100, "llama-4-maverick": 400,
-    "glm-4.7-think": 358, "glm-5.1-think": 358,
-}
+from panel import PARAMS_B as MODEL_SIZE
 
 
 def main() -> None:
