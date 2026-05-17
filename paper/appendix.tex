@@ -4,7 +4,8 @@
 
 Table~\ref{tab:full-cohort} lists all $54$ cohorts with sample size, mean NameRank, refusal rate, and inclusion criteria.
 
-\begin{longtable}{lrrrp{6cm}}
+{\small
+\begin{longtable}{@{}lrrr>{\raggedright\arraybackslash}p{5.5cm}@{}}
 \caption{Full cohort table. ``Refusal'' is the fraction of panel responses that returned ``unknown'' or refusal phrasing. Cohorts sorted by mean NameRank.}
 \label{tab:full-cohort}\\
 \toprule
@@ -46,7 +47,7 @@ foundation\_model & 107 & 0.518 & 10\% & Released foundation models 2020--2026 \
 mid\_tier\_journalist & 84 & 0.512 & 2\% & Working journalists at major outlets \\
 mid\_tier\_religious & 30 & 0.486 & 1\% & Notable religious leaders \\
 mid\_tier\_athlete & 134 & 0.477 & 10\% & Working professional athletes \\
-\textbf{long\_tail\_researcher\_openalex} & \textbf{771} & \textbf{0.464} & 24\% & OpenAlex researchers $500$--$30000$ citations \\
+\textbf{long\_tail\_researcher\_openalex} & \textbf{771} & \textbf{0.464} & 24\% & OpenAlex researchers $500$--$30{,}000$ citations \\
 reference\_pilot & 37 & 0.452 & 15\% & C5/C6 diagnostic entities (hand-curated) \\
 website\_or\_service & 9 & 0.437 & 10\% & Public-utility websites/services \\
 mid\_tier\_online\_course & 40 & 0.434 & 0\% & Notable online courses (CS50, MIT 6.006, etc.) \\
@@ -65,12 +66,13 @@ cmo\_china\_gold & 131 & 0.302 & 38\% & China Math Olympiad gold 2005--2012 \\
 mid\_tier\_architect & 36 & 0.255 & 18\% & Working architects without star status \\
 cpho\_china\_first\_prize & 50 & 0.182 & 53\% & China Physics Olympiad first prize 2009 \\
 deepseek\_v3\_author & 69 & 0.178 & 42\% & DeepSeek-V3 paper author list \\
-long\_tail\_researcher\_ikp & 159 & 0.158 & 47\% & IKP §5.7 researcher subset \\
-mid\_tier\_activist & 2 & 0.111 & 15\% & Working-level activists \\
+long\_tail\_researcher\_ikp & 159 & 0.158 & 47\% & IKP Sec.~5.7 researcher subset \\
+mid\_tier\_activist & 2 & 0.111 & 15\% & Working-level activists ($n=2$, retained as placeholder; excluded from cohort-level claims) \\
 mid\_tier\_yc\_company & 25 & 0.101 & 57\% & YC company sample from older batches (W19--S22) \\
 gpt5\_system\_card\_author & 80 & 0.042 & 58\% & GPT-5 system card author list \\
 \bottomrule
 \end{longtable}
+}
 
 % ══════════════════════════════════════════════════════════════
 \section{Probe Template Details}
@@ -86,7 +88,7 @@ Limit your response to about 150 words.
 
 \subsection{Chinese Probe Template (romanized; original Chinese released separately)}
 
-The actual probe template used in the Chinese sub-run is the Mandarin translation of the English template, with the literal Chinese characters supplied to the model. We render it here in pinyin (with English translation in parentheses) because of compile-time CJK font availability; the literal Chinese version is in the released artifact.
+The actual probe template used in the Chinese sub-run is the Mandarin translation of the English template, with the literal Chinese characters supplied to the model. We render it here in pinyin (with English translation in parentheses) because the default pdf\LaTeX{} build does not include CJK font support; the literal Chinese version is in the released artifact, and the document can be rebuilt with XeLaTeX to display the characters directly.
 
 \begin{verbatim}
 Qing gaosu wo ni liaojie de guanyu {name} de xinxi,
@@ -203,6 +205,13 @@ llama-3.2-1b & 0.201 & 0.1\% & 5{,}719 \\
 \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/fig_app_per_model.pdf}
+    \caption{Per-model panel statistics, sorted by mean score (graphical form of Table~\ref{tab:per-model}). Bars are mean per-record score across $5{,}719$ entities (lower x-axis, blue/red for Western/Chinese vendor); orange markers on the upper x-axis are the per-model refusal rate, with labels for refusal $> 0.001$. The two failure regions visible in the main-text Figure~\ref{fig:panel-robustness}(b) reappear here at the row level: the strict cluster at the bottom (gpt-oss-20b-think, mistral-small-24b, qwen3-32b/8b-think) refuses heavily; the fluent-hallucinator cluster (ernie, llama-4-maverick, gemma-3-4b, phi-4, ministral-3b, llama-3.2-1b) shows $0$\% or near-zero refusal, with widely varying mean scores. The panel mean integrates over both styles.}
+    \label{fig:app-per-model}
+\end{figure}
+
 % ══════════════════════════════════════════════════════════════
 \section{Conditional-Probe Asymmetry Details}
 \label{app:asymmetry}
@@ -246,7 +255,7 @@ The pattern is consistent: Chinese-character names lift on Chinese prompts; Engl
 \section{External Validity Regressions}
 \label{app:external}
 
-Full regression results for NameRank on external impact metrics, restricted to long\_tail\_researcher\_openalex ($n = 771$, citations $500$--$30000$, $h$-index from OpenAlex).
+Full regression results for NameRank on external impact metrics, restricted to the \texttt{long\_tail\_\allowbreak{}researcher\_\allowbreak{}openalex} cohort ($n = 771$, citations $500$--$30{,}000$, $h$-index from OpenAlex).
 
 \begin{center}
 \small
@@ -321,6 +330,13 @@ mid\_tier\_online\_course & 0.113 \\
 
 \textbf{Interpretation.} High within-entity $\sigma$ cohorts (NOI/ICPC/CMO/IMO/long-tail-OpenAlex) exhibit genuine corpus-pocket-specific recognition: different models trained on different fractions of available corpus see different fractions of the entity's coverage. Low within-entity $\sigma$ cohorts (online courses, conferences, named methods, books) have universal corpus presence: all models agree because the entity name appears in nearly every training-data source.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.92\textwidth]{figures/fig_app_sigma.pdf}
+    \caption{Full within-entity $\sigma$ ladder across all cohorts with $n \geq 10$. Color bands group cohorts by the four $\sigma$ regimes (universal $\to$ corpus-pocket-specific). The high-$\sigma$ end is dominated by competition-credential and long-tail academic cohorts whose recognition is genuinely corpus-fragment-specific; the low-$\sigma$ end is dominated by entities whose names appear in nearly every training source (online courses, conferences, named methods, books).}
+    \label{fig:app-sigma}
+\end{figure}
+
 The variance pattern is itself a probe of corpus-pocket distribution: cohorts with high $\sigma$ are the ones where ``which model do you ask?'' changes the answer.
 
 % ══════════════════════════════════════════════════════════════
@@ -329,7 +345,7 @@ The variance pattern is itself a probe of corpus-pocket distribution: cohorts wi
 
 To make the multiplicative coverage$\times$accuracy score concrete, we show three (entity, model, response) triples representing the three regimes the judge identifies.
 
-\subsection{Score $\approx 1.0$: Andrej Karpathy, asked of gpt-5.5-think}
+\subsection{\texorpdfstring{Score $\approx 1.0$: Andrej Karpathy, asked of gpt-5.5-think}{Score approx 1.0: Andrej Karpathy, asked of gpt-5.5-think}}
 
 \textit{Gold answer (abbreviated):} ``Andrej Karpathy is a computer scientist and AI educator. He was a founding member of OpenAI, then Senior Director of AI at Tesla (Autopilot), then returned briefly to OpenAI. In 2024 he founded Eureka Labs, an AI education company. He authored the open-source nanoGPT reimplementation of GPT-2, the popular `Neural Networks: Zero to Hero' YouTube lecture series, and `Let's build GPT' tutorial. PhD from Stanford under Fei-Fei Li.''
 
@@ -337,7 +353,7 @@ To make the multiplicative coverage$\times$accuracy score concrete, we show thre
 
 \textit{Judge verdict:} coverage $1.0$, accuracy $1.0$, score $= 1.0$. Six gold-fact items appear (OpenAI, Tesla Autopilot, Eureka Labs 2024, nanoGPT, Zero-to-Hero, Stanford/Fei-Fei Li), all correct.
 
-\subsection{Score $\approx 0.5$: Aman Sanger, asked of llama-3.3-70b}
+\subsection{\texorpdfstring{Score $\approx 0.5$: Aman Sanger, asked of llama-3.3-70b}{Score approx 0.5: Aman Sanger, asked of llama-3.3-70b}}
 
 \textit{Gold answer (abbreviated):} ``Aman Sanger is a co-founder of Anysphere, the company behind Cursor, an AI-powered code editor that became one of the fastest-growing developer tools of 2023-2024. Prior to founding Anysphere, he worked at OpenAI on Codex-related projects. He attended MIT.''
 
@@ -345,7 +361,7 @@ To make the multiplicative coverage$\times$accuracy score concrete, we show thre
 
 \textit{Judge verdict:} coverage $0.4$ (the company is hinted at but not named), accuracy $1.0$ (no false claims), score $= 0.4$. The response is correct but generic.
 
-\subsection{Score $\approx 0$ (fluent hallucination): Hao Tang, asked of claude-opus-think}
+\subsection{\texorpdfstring{Score $\approx 0$ (fluent hallucination): Hao Tang, asked of claude-opus-think}{Score approx 0 (fluent hallucination): Hao Tang, asked of claude-opus-think}}
 
 \textit{Gold answer (abbreviated):} ``Hao Tang is a researcher in distributed systems and machine-learning systems. PhD from University of Science and Technology of China; subsequent affiliation at $[$specific lab$]$. Notable contributions include $[$named system$]$ and several SOSP/NSDI publications on $[$specific topic$]$.''
 
@@ -354,6 +370,13 @@ To make the multiplicative coverage$\times$accuracy score concrete, we show thre
 \textit{Judge verdict:} coverage $0.7$ (uses the right kind of vocabulary), accuracy $0.0$ (every specific claim is fabricated: wrong subfield, wrong affiliation, wrong contributions), score $= 0$. The embedding similarity with the gold is $0.97$ because the response is fluent and on-topic-adjacent.
 
 This is the case that motivates the multiplicative coverage$\times$accuracy structure: coverage alone would credit the response at $0.7$; embedding alone would credit at $0.97$; only the multiplicative score correctly assigns $\approx 0$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_app_scoring.pdf}
+    \caption{Why the score is multiplicative. \textbf{(a)}~The (coverage, accuracy) plane with $\mathrm{NameRank} = \mathrm{cov}\cdot \mathrm{acc}$ shown as filled contours. The three appendix worked examples sit at the natural exemplar points: a fully-correct Karpathy bio at $(1.0,1.0)$, a generic-but-correct Sanger summary at $(0.4,1.0)$, and the Hao Tang fluent hallucination at $(0.7, 0.05)$. \textbf{(b)}~Per-record score under four alternative aggregation rules. Only the multiplicative rule collapses the fluent hallucination to $\approx 0$; coverage-only, embedding-style coverage proxies, and the additive average all credit it at $\geq 0.38$.}
+    \label{fig:app-scoring}
+\end{figure}
 
 % ══════════════════════════════════════════════════════════════
 \section{Limitations Summary Table}
@@ -364,7 +387,7 @@ This is the case that motivates the multiplicative coverage$\times$accuracy stru
 \small
 \caption{Compact summary of methodological caveats, their direction (could overstate or understate findings), and mitigations available for future runs.}
 \label{tab:limitations}
-\begin{tabular}{p{4.5cm}p{4.5cm}p{6cm}}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{6cm}}
 \toprule
 \textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
 \midrule

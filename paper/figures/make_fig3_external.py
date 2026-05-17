@@ -9,92 +9,148 @@ import json
 import math
 import statistics
 from pathlib import Path
-import matplotlib.pyplot as plt
+
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 import numpy as np
+
+from _style import (PALETTE, apply_style, grid_x, grid_y, thin_spines)
+
+apply_style()
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
-ents = {e["id"]: e for e in json.loads((REPO / "data/inputs/pilot_entities.json").read_text())}
-nr = {row["entity_id"]: float(row["namerank"])
-      for row in csv.DictReader(open(REPO / "data/analysis/namerank_per_entity.csv", encoding="utf-8"))}
+
+ents = {e["id"]: e for e in json.loads(
+    (REPO / "data/inputs/pilot_entities.json").read_text())}
+nr = {row["entity_id"]: float(row["namerank"]) for row in csv.DictReader(
+    open(REPO / "data/analysis/namerank_per_entity.csv", encoding="utf-8"))}
 
 xs_h, xs_c, ys = [], [], []
 for eid, e in ents.items():
-    if e.get('cohort') != 'long_tail_researcher_openalex': continue
-    if eid not in nr: continue
-    cit = e.get('cited_by_count') or 0
-    hi = e.get('h_index') or 0
-    if cit <= 0 or hi <= 0: continue
+    if e.get("cohort") != "long_tail_researcher_openalex":
+        continue
+    if eid not in nr:
+        continue
+    cit = e.get("cited_by_count") or 0
+    hi = e.get("h_index") or 0
+    if cit <= 0 or hi <= 0:
+        continue
     xs_c.append(cit)
     xs_h.append(hi)
     ys.append(nr[eid])
 
-log_h = [math.log10(x) for x in xs_h]
-log_c = [math.log10(x) for x in xs_c]
+log_h = np.array([math.log10(x) for x in xs_h])
+log_c = np.array([math.log10(x) for x in xs_c])
+ys = np.array(ys)
 
-fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+C_H, C_C = PALETTE["cat0"], PALETTE["highlight"]   # blue h-index, orange citations
 
-# Panel (a): scatter NameRank vs log(h-index) and log(citations)
+fig, axes = plt.subplots(1, 2, figsize=(12.4, 5.0))
+
+# ── Panel (a): scatter NameRank vs log(predictor) ─────────────
 ax = axes[0]
-ax.scatter(log_c, ys, s=8, color='#d62728', alpha=0.35, label=f"log10(citations), R²=0.14")
-ax.scatter(log_h, ys, s=8, color='#1f77b4', alpha=0.6, label=f"log10(h-index), R²=0.40")
-ax.set_xlabel("Bibliometric value (log10)", fontsize=11)
-ax.set_ylabel("NameRank", fontsize=11)
-ax.set_xlim(0, 5)
-ax.set_ylim(-0.02, 1.02)
-ax.legend(loc='upper left', fontsize=10, framealpha=0.92)
-ax.grid(True, alpha=0.3)
-ax.set_title("(a) Within-cohort scatter (n=771 OpenAlex researchers)", fontsize=11)
+ax.scatter(log_c, ys, s=10, color=C_C, alpha=0.22, edgecolors="none",
+           label=r"$\log_{10}(\mathrm{citations})$,  $R^2 = 0.14$")
+ax.scatter(log_h, ys, s=10, color=C_H, alpha=0.45, edgecolors="none",
+           label=r"$\log_{10}(h\text{-index})$,  $R^2 = 0.40$")
 
-# Trend lines
+# Linear fits.
 def fit(x, y):
     n = len(x)
-    mx, my = statistics.mean(x), statistics.mean(y)
-    num = sum((xi-mx)*(yi-my) for xi,yi in zip(x,y))
-    den = sum((xi-mx)**2 for xi in x)
-    slope = num/den if den else 0
-    inter = my - slope*mx
+    mx, my = np.mean(x), np.mean(y)
+    num = np.sum((x - mx) * (y - my))
+    den = np.sum((x - mx) ** 2)
+    slope = num / den if den else 0.0
+    inter = my - slope * mx
     return slope, inter
 
-sh, ih = fit(log_h, ys)
-sc, ic = fit(log_c, ys)
+sh, ih_ = fit(log_h, ys)
+sc, ic_ = fit(log_c, ys)
 xs_plot = np.linspace(0, 5, 50)
-ax.plot(xs_plot, sh*xs_plot + ih, '-', color='#1f77b4', linewidth=2.5)
-ax.plot(xs_plot, sc*xs_plot + ic, '-', color='#d62728', linewidth=2.5)
+ax.plot(xs_plot, sh * xs_plot + ih_, "-",
+        color=C_H, linewidth=2.4, zorder=5)
+ax.plot(xs_plot, sc * xs_plot + ic_, "-",
+        color=C_C, linewidth=2.4, zorder=5)
 
-# Panel (b): decile means
+# In-axes annotation summarising the joint regression.
+ax.text(0.05, 0.93,
+        r"$h$-index is the dominant signal:" + "\n"
+        r"joint regression coefficient on" + "\n"
+        r"$\log(\mathrm{citations})$ is $-0.002$,"
+        + "\nindistinguishable from zero.",
+        transform=ax.transAxes,
+        ha="left", va="top", fontsize=9, color="#222",
+        bbox=dict(boxstyle="round,pad=0.45",
+                  facecolor="white", edgecolor="#ddd", linewidth=0.6))
+
+ax.set_xlabel("Bibliometric value  ($\\log_{10}$)", fontsize=10.5)
+ax.set_ylabel("NameRank", fontsize=10.5)
+ax.set_xlim(0, 5)
+ax.set_ylim(-0.02, 1.02)
+ax.legend(loc="lower right", fontsize=9.5, framealpha=0.95)
+grid_y(ax, alpha=0.30)
+thin_spines(ax)
+ax.set_title("(a)  Within-cohort scatter ($n = 771$ OpenAlex researchers)",
+             fontsize=10.5, loc="left")
+
+# ── Panel (b): decile means ───────────────────────────────────
 ax = axes[1]
-pairs_h = sorted(zip(xs_h, ys))
-pairs_c = sorted(zip(xs_c, ys))
+pairs_h = sorted(zip(xs_h, ys.tolist()))
+pairs_c = sorted(zip(xs_c, ys.tolist()))
 n = len(pairs_h)
 dsz = n // 10
-decile_h_mean_x = []
-decile_h_mean_y = []
-decile_c_mean_x = []
-decile_c_mean_y = []
+dec_h_y, dec_c_y = [], []
 for d in range(10):
-    chunk_h = pairs_h[d*dsz:(d+1)*dsz]
-    chunk_c = pairs_c[d*dsz:(d+1)*dsz]
-    if chunk_h and chunk_c:
-        decile_h_mean_x.append(d+1)
-        decile_h_mean_y.append(statistics.mean([p[1] for p in chunk_h]))
-        decile_c_mean_x.append(d+1)
-        decile_c_mean_y.append(statistics.mean([p[1] for p in chunk_c]))
+    chunk_h = pairs_h[d * dsz:(d + 1) * dsz]
+    chunk_c = pairs_c[d * dsz:(d + 1) * dsz]
+    dec_h_y.append(statistics.mean([p[1] for p in chunk_h]))
+    dec_c_y.append(statistics.mean([p[1] for p in chunk_c]))
 
-ax.plot(decile_h_mean_x, decile_h_mean_y, 'o-', color='#1f77b4', markersize=9, linewidth=2.2, label='by h-index decile')
-ax.plot(decile_c_mean_x, decile_c_mean_y, 's-', color='#d62728', markersize=9, linewidth=2.2, label='by citations decile')
-ax.set_xticks(range(1, 11))
-ax.set_xticklabels([f"D{i}" for i in range(1, 11)])
-ax.set_xlabel("Bibliometric decile", fontsize=11)
-ax.set_ylabel("Mean NameRank in decile", fontsize=11)
+xs_d = list(range(1, 11))
+ax.plot(xs_d, dec_h_y, "o-", color=C_H, markersize=9, linewidth=2.4,
+        markeredgecolor="white", markeredgewidth=1.0,
+        label=r"by $h$-index decile")
+ax.plot(xs_d, dec_c_y, "s-", color=C_C, markersize=8.5, linewidth=2.4,
+        markeredgecolor="white", markeredgewidth=1.0,
+        label=r"by citations decile")
+
+# Annotate endpoints.
+ax.annotate(f"D1: {dec_h_y[0]:.2f}", xy=(1, dec_h_y[0]),
+            xytext=(0.85, dec_h_y[0] - 0.06), fontsize=8.5,
+            color=C_H, ha="left", va="top")
+ax.annotate(f"D10: {dec_h_y[-1]:.2f}", xy=(10, dec_h_y[-1]),
+            xytext=(10.05, dec_h_y[-1] + 0.02), fontsize=8.5,
+            color=C_H, ha="right", va="bottom")
+
+# Slope width: show the spread span between D1 and D10 for each metric.
+ax.annotate("",
+            xy=(10.4, dec_h_y[-1]), xytext=(10.4, dec_h_y[0]),
+            arrowprops=dict(arrowstyle="<->", color=C_H, lw=1.2))
+ax.text(10.6, 0.5 * (dec_h_y[0] + dec_h_y[-1]),
+        f"$h$ span\n{dec_h_y[-1] - dec_h_y[0]:+.2f}",
+        fontsize=8.5, color=C_H, va="center", ha="left")
+ax.annotate("",
+            xy=(10.9, dec_c_y[-1]), xytext=(10.9, dec_c_y[0]),
+            arrowprops=dict(arrowstyle="<->", color=C_C, lw=1.2))
+ax.text(11.1, 0.5 * (dec_c_y[0] + dec_c_y[-1]),
+        f"citation\nspan {dec_c_y[-1] - dec_c_y[0]:+.2f}",
+        fontsize=8.5, color=C_C, va="center", ha="left")
+
+ax.set_xticks(xs_d)
+ax.set_xticklabels([f"D{i}" for i in xs_d])
+ax.set_xlim(0.4, 12.6)
+ax.set_xlabel("Bibliometric decile", fontsize=10.5)
+ax.set_ylabel("Mean NameRank in decile", fontsize=10.5)
 ax.set_ylim(0.15, 0.7)
-ax.legend(loc='lower right', fontsize=10, framealpha=0.92)
-ax.grid(True, alpha=0.3)
-ax.set_title("(b) Decile-by-decile: h-index is steeper and monotonic", fontsize=11)
+ax.legend(loc="lower right", fontsize=9.5, framealpha=0.95)
+grid_y(ax, alpha=0.30)
+thin_spines(ax)
+ax.set_title("(b)  Decile-by-decile:  $h$-index is steeper and monotonic",
+             fontsize=10.5, loc="left")
 
 plt.tight_layout()
 out = HERE / "fig3_external.pdf"
-plt.savefig(out, bbox_inches="tight")
+plt.savefig(out)
 print(f"Wrote {out}")
