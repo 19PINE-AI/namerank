@@ -200,13 +200,13 @@ large raw per-(entity, model) probe dumps are not committed (regenerable via
 | `t2_6_prompt_sensitivity` | Is the metric robust to probe wording? | **Ordering robust (Pearson 0.93–0.98); absolute levels are wording-conditional. → paper §6.7.4, Fig. 14, App. I.** |
 | `t2_7_artifact_mediation` | Is named-artifact amplification causal? | Yes; naming the artifact in context lifts recognition (+0.058 mean, +5.8σ on Jiayi). |
 | `t2_8_gendered_names` | Is there a gender bias? | Small but reproducible +0.038 (CS faculty) / +0.027 (OpenAlex) man-coded lift, surviving controls. |
-| `t2_9_fractional_citations` | Is h-index dominance about attribution density? | Partly; fractional citations do not beat raw citations — mechanism is "recurrent named papers". |
-| `t2_10_cross_judge` | Are findings a Gemini-judge artifact? | No; Pearson 0.87–0.93 across Gemini/GPT-5/Claude judges, orderings invariant (residual in-family lift +0.04). |
+| `t2_9_fractional_citations` | Is h-index dominance about attribution density? | **No — mechanism is name-recurrence across distinct works, not attribution-per-paper (fractional R²=0.15 ≈ raw 0.14). → paper §5.5.1, Fig. 7, App. K.** |
+| `t2_10_cross_judge` | Are findings a Gemini-judge artifact? | **No; Pearson 0.87–0.93 across Gemini/GPT-5/Claude, ladder preserved; capability-controlled in-family lift Gemini +0.06. → paper §6.7.6, Fig. 17, App. L.** |
 | `t3_1_cutoff_gradient` | Is the silent zone a corpus-timing artifact? | **No — intrinsic; matched DiD ≈ 0. Exposes ~0.13/yr cross-vintage capability drift. → paper §6.7.5, Fig. 15, App. J.** |
 
-The two bold-faced experiments (`t2_6`, `t3_1`) are written into the paper; the
-rest inform the Discussion and the Appendix K limitations table. Reproduce any
-one with `cd experiments/<name> && python3 analyze.py`.
+The four bold-faced experiments (`t2_6`, `t2_9`, `t2_10`, `t3_1`) are written
+into the paper; the rest inform the Discussion and the Appendix M limitations
+table. Reproduce any one with `cd experiments/<name> && python3 analyze.py`.
 
 ## Citation
 

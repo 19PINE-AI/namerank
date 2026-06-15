@@ -480,6 +480,77 @@ imo\_gold & $+0.043$ & $+0.15$ \\
 \end{tabular}
 \end{table}
 
+\section{Bibliometric Predictor Decomposition}
+\label{app:bibliometric}
+
+Six bibliometric predictors regressed on NameRank for the $n = 771$ OpenAlex long-tail cohort (Section~\ref{sec:results-external}), testing whether $h$-index dominates because it discounts per-paper name attribution. \texttt{fractional\_citations} divides each paper's citations by its author count; \texttt{first\_last\_citations} counts only papers where the researcher is first or last author; \texttt{n\_works} is the raw count of works; \texttt{mean\_authors} is the mean author count per paper. All $R^2$ on $\log(1+x)$-transformed predictors.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Sole-predictor $R^2$ on NameRank and marginal $R^2$ when added to $h$-index alone. Attribution-weighted measures (fractional, first/last) do not approach $h$-index, and add almost nothing on top of it; author count carries no signal. The count of distinct works ($n_\text{works}$) is the closest cousin of $h$-index.}
+\label{tab:bibliometric}
+\begin{tabular}{lrr}
+\toprule
+Predictor & Sole $R^2$ & $\Delta R^2$ added to $h$-index \\
+\midrule
+$\log(h\text{-index})$ & \textbf{0.398} & --- \\
+$\log(n_\text{works})$ & 0.337 & $+0.0003$ \\
+$\log(\text{first/last-author citations})$ & 0.268 & $+0.0268$ \\
+$\log(\text{fractional citations})$ & 0.154 & $+0.0026$ \\
+$\log(\text{raw citations})$ & 0.137 & $+0.0001$ \\
+$\log(\text{mean authors/paper})$ & 0.0004 & $+0.0008$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In a joint OLS over all six (total $R^2 = 0.428$), the standardized coefficients are dominated by $\log(h\text{-index})$ ($0.579$), with first/last-author citations ($0.202$) a distant second and raw citations \emph{negative} ($-0.143$); fractional citations ($0.109$) and mean authors ($0.060$) are minor. The mechanism is name-recurrence across distinct works, not attribution-per-paper weighting: if the latter drove the result, fractional and first/last-author citations would match or exceed $h$-index, and they do not.
+
+\section{Cross-Judge Robustness}
+\label{app:cross-judge}
+
+A $615$-record stratified sample (Section~\ref{sec:results-judge}) was re-graded by Claude Opus 4.6 and GPT-5.5 alongside the primary Gemini 3 Flash Preview judge, holding gold answers and judge prompt fixed.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Pairwise Pearson correlation between judges, by cohort. Agreement is high everywhere except the $n = 15$ \texttt{oss\_project} cell (generic-description disagreement). The \texttt{reference\_pilot} anchors---including its four Chinese-name entities---show the tightest agreement, refuting a ``Chinese name $\to$ judge disagreement'' hypothesis.}
+\label{tab:cross-judge-corr}
+\begin{tabular}{lrrrr}
+\toprule
+Subset & $n$ & Gem--Claude & Gem--GPT-5 & Claude--GPT-5 \\
+\midrule
+ALL & 615 & 0.868 & 0.893 & 0.934 \\
+reference\_pilot & 185 & 0.952 & 0.941 & 0.972 \\
+\quad (Chinese-name subset) & 74 & 0.957 & 0.945 & 0.970 \\
+long\_tail\_researcher\_openalex & 100 & 0.855 & 0.920 & 0.935 \\
+cs\_faculty & 100 & 0.712 & 0.894 & 0.781 \\
+imo\_gold & 100 & 0.785 & 0.808 & 0.924 \\
+gpt5\_system\_card\_author & 100 & 0.781 & 0.917 & 0.830 \\
+mid\_tier\_writer & 15 & 0.872 & 0.853 & 0.878 \\
+oss\_project & 15 & 0.103 & 0.455 & 0.486 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Capability-controlled in-family lift. For each response, a judge's score is compared to the mean of the \emph{other two} judges on that same response; the lift is the own-family residual minus the other-family residual. Gemini and GPT-5 modestly favor their own family; Claude does not.}
+\label{tab:cross-judge-bias}
+\begin{tabular}{lrrr}
+\toprule
+Judge & In-family residual & Other-family residual & Lift \\
+\midrule
+Gemini & $+0.014$ & $-0.048$ & $\mathbf{+0.062}$ \\
+GPT-5 & $+0.060$ & $+0.019$ & $\mathbf{+0.041}$ \\
+Claude & $+0.012$ & $+0.022$ & $\mathbf{-0.010}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cohort-mean NameRank is stable across judges (e.g.\ \texttt{gpt5\_system\_card\_author} $0.087$/$0.165$/$0.123$ under Gemini/Claude/GPT-5; \texttt{long\_tail\_researcher\_openalex} $0.669$/$0.630$/$0.631$), and the silent$\to$discriminative$\to$universal ladder is preserved under all three. The headline findings are not a single-judge artifact.
+
 \section{Limitations Summary Table}
 \label{app:limitations}
 
@@ -493,10 +564,10 @@ imo\_gold & $+0.043$ & $+0.15$ \\
 \textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
 \midrule
 Single-probe-per-entity; absolute levels are wording-conditional (Appendix~\ref{app:prompt-sensitivity}) & Shifts cardinal levels ${\sim}0.10$--$0.20$; rankings unaffected & \emph{Tested:} four-template re-probe shows ordering robust ($r = 0.93$--$0.98$); report values as T0-conditional and hold wording fixed across studies \\
-Judge family-bias measured at $n = 200$ & Could understate or overstate by $\sim \pm 0.03$ at cohort level & Multi-judge consensus across Gemini + GPT-5 + Claude judges on a $n = 1000$ overlap \\
+Judge family-bias (Appendix~\ref{app:cross-judge}) & Gemini-judging-Gemini lift $+0.062$ inflates per-vendor score tables; cross-entity findings unaffected & \emph{Tested:} 3-judge re-grade ($n=615$); report per-vendor tables under Claude or as a 3-judge mean \\
 Cohort labels not fully orthogonal & Overcounts entities in cross-cohort comparisons & De-duplicate by name within long-tail academic categories \\
 Chinese-prompt context fields remained English & Understates cross-language effect & Pure-Chinese prompts for the full $240$-entity sub-run \\
-Single judge (Gemini 3 Flash Preview) & Could carry family-specific scoring style & Replicate with non-Gemini judge on a $n = 500$ overlap \\
+Single judge on the full run (Gemini 3 Flash Preview) & Family-specific scoring style on per-vendor tables & \emph{Tested:} non-Gemini replication (Claude, GPT-5) on $n = 615$; a full multi-judge consensus run would remove the offset \\
 Cross-section, not longitudinal & Cannot infer name-propagation rates & Re-run at each major model-release cycle; release as NameRank v2, v3, ... \\
 Scores not comparable across model vintages (Appendix~\ref{app:cutoff}) & ${\sim}0.13$/yr capability drift inflates any cross-fleet level comparison & \emph{Tested:} silent zone is intrinsic, not timing (matched DiD ${\approx}0$); make longitudinal claims on within-run relative gaps only \\
 Researcher mobility confound in country gradient & Inflates US averages, deflates China averages & Re-classify by country-of-PhD or country-of-doctorate-training as alternative slicing \\

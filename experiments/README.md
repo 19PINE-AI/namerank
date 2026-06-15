@@ -19,13 +19,13 @@ kept.
 | `t2_6_prompt_sensitivity` | Robust to probe wording? | **Ordering robust (r 0.93–0.98); levels wording-conditional. → paper §6.7.4, App. I.** |
 | `t2_7_artifact_mediation` | Is named-artifact amplification causal? | Yes; +0.058 mean lift, +5.8σ on Jiayi. |
 | `t2_8_gendered_names` | Gender bias? | Small reproducible man-coded lift (+0.038 / +0.027). |
-| `t2_9_fractional_citations` | Is h-index dominance attribution-density? | Partly; fractional citations don't beat raw citations. |
-| `t2_10_cross_judge` | A Gemini-judge artifact? | No; r 0.87–0.93 across three judges, orderings invariant. |
+| `t2_9_fractional_citations` | Is h-index dominance attribution-density? | **No — name-recurrence across works, not per-paper attribution. → paper §5.5.1, App. K.** |
+| `t2_10_cross_judge` | A Gemini-judge artifact? | **No; r 0.87–0.93 across three judges, ladder preserved; in-family lift Gemini +0.06. → paper §6.7.6, App. L.** |
 | `t3_1_cutoff_gradient` | Is the silent zone corpus-timing? | **No — intrinsic; matched DiD ≈ 0; ~0.13/yr vintage drift. → paper §6.7.5, App. J.** |
 
-The two bold-faced experiments are written into the paper (Sections 6.7.4–6.7.5,
-Figures 14–15, Appendices I–J); the rest inform the Discussion and the
-Appendix K limitations table.
+The four bold-faced experiments are written into the paper (Sections 5.5.1 and
+6.7.4–6.7.6, Figures 7/14/15/17, Appendices I–L); the rest inform the Discussion
+and the Appendix M limitations table.
 
 ```bash
 cd <experiment-dir> && python3 analyze.py
