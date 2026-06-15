@@ -551,6 +551,96 @@ Claude & $+0.012$ & $+0.022$ & $\mathbf{-0.010}$ \\
 
 Cohort-mean NameRank is stable across judges (e.g.\ \texttt{gpt5\_system\_card\_author} $0.087$/$0.165$/$0.123$ under Gemini/Claude/GPT-5; \texttt{long\_tail\_researcher\_openalex} $0.669$/$0.630$/$0.631$), and the silent$\to$discriminative$\to$universal ladder is preserved under all three. The headline findings are not a single-judge artifact.
 
+\section{Synthetic-Null Floor}
+\label{app:synthetic}
+
+Thirty fictional entities (ungoogleable names verified to surface no notable real person; cohort-matched contexts and gold answers) were run through the full pipeline (Section~\ref{sec:results-synthetic}). The per-archetype floor:
+
+\begin{table}[H]
+\centering
+\small
+\caption{Synthetic-null mean NameRank by archetype. Dense-gold archetypes (founder, CS faculty) floor near the main-run silent level; the short-boilerplate-gold IMO archetype floors much higher, because its generic year$+$country$+$medal gold is partly satisfiable from the disambiguating context without recognizing the (nonexistent) person.}
+\label{tab:synthetic}
+\begin{tabular}{lrrr}
+\toprule
+Synthetic archetype & $n$ & Mean NameRank & Refusal \\
+\midrule
+synthetic\_imo\_gold & 6 & \textbf{0.199} & 21\% \\
+synthetic\_mid\_tier\_chef & 1 & 0.123 & 27\% \\
+synthetic\_mid\_tier\_journalist & 1 & 0.092 & 27\% \\
+synthetic\_mid\_tier\_podcast & 1 & 0.075 & 32\% \\
+synthetic\_oss\_project & 4 & 0.065 & 39\% \\
+synthetic\_mid\_tier\_musician & 1 & 0.057 & 41\% \\
+synthetic\_cs\_faculty & 10 & \textbf{0.027} & 45\% \\
+synthetic\_founder & 6 & \textbf{0.012} & 47\% \\
+\midrule
+All synthetics & 30 & 0.072 & --- \\
+All except IMO archetype & 24 & \textbf{0.040} & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The floor is concentrated in small open-weights fluent hallucinators: gemma-3-4b ($0.293$), gemma-3-12b ($0.287$), and llama-4-maverick ($0.259$) lead, while $15$ of the $37$ models score the synthetics at exactly $0$ (including grok-4, kimi-k2, qwen3-235b, mistral-large, gemini-3.1-pro, and gpt-5.3, the last two by refusing on $100\%$ of synthetics). Recommended use: treat $\sim 0.04$ as the noise floor for dense-gold cohorts and $\sim 0.20$ for short-boilerplate-gold cohorts; differences below the relevant floor are not evidence of recognition.
+
+\section{Confound Checks: Gold Length, Context, and Wikipedia}
+\label{app:confounds}
+
+\textbf{Gold-answer length.} Within-cohort regressions of NameRank on gold-answer length give $R^2 < 0.07$ for IMO ($0.067$), IOI ($0.018$), and MSRA ($0.006$); the high-$R^2$ cohorts are fame-graded mid-tier categories (actor $0.95$, writer $0.88$) where longer golds are an outcome of fame, not a measurement artifact. The credential-vs-OpenAlex ordering survives a pooled fixed-effects length adjustment (which deepens the gap: pooled slope $b_\text{chars} = -1.1{\times}10^{-3}$) and a within-OpenAlex-slope adjustment. A strict $|\Delta\text{chars}| \leq 50$ matched-pairs test yields $n = 0$ pairs: IMO golds span $359$--$392$ characters, OpenAlex golds $662$--$789$, with no overlap. The closest feasible match (IMO vs.\ CMO, which do overlap in length) preserves the within-credential ordering.
+
+\textbf{Disambiguating context.} A $288$-entity subset re-probed with the specific context replaced by a minimal generic descriptor:
+
+\begin{table}[H]
+\centering
+\small
+\caption{Minimal-context ablation. Stripping the specific disambiguating context to a generic descriptor drops absolute NameRank substantially but preserves the cross-entity gradient.}
+\label{tab:context}
+\begin{tabular}{lrr}
+\toprule
+Comparison & Specific context & Minimal context \\
+\midrule
+long\_tail\_researcher\_openalex (mean) & 0.446 & 0.077 \\
+imo\_gold (mean) & 0.345 & 0.039 \\
+Stanford mean & 0.565 & 0.355 \\
+Tsinghua mean & 0.258 & 0.062 \\
+\textbf{Stanford$-$Tsinghua gap} & \textbf{0.308} & \textbf{0.293} ($-4.8\%$) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Absolute levels fall sharply (the model cannot identify which researcher without the context), but the Stanford--Tsinghua institutional gap shrinks by only $\sim 5\%$: context anchors disambiguation, it does not leak the gold answer.
+
+\textbf{Wikipedia presence.} On the $n = 771$ long-tail cohort, a binary has-Wikipedia flag explains $R^2 = 0.022$ of NameRank (log-sitelinks and log-pageviews add $+0.007$ and $0.000$ on top), versus $R^2 = 0.398$ for $\log(h\text{-index})$ alone. Adding $\log(h\text{-index})$ to the full Wikipedia block lifts $R^2$ from $0.029$ to $0.405$---a marginal $R^2$ of $0.376$. Across the full $5{,}719$-entity cohort, Wikipedia presence explains $\sim 8\%$ of variance and cohort identity $\sim 47\%$. Wikipedia presence accounts for only $\sim 1/4$ of the Stanford--Tsinghua gap. NameRank tracks bibliometric productivity, not a Wikipedia-yes/no flag.
+
+\section{Gender Gap by Cohort}
+\label{app:gender}
+
+First-name-inferred gender (via \texttt{gender-guesser}; ambiguous and unisex names dropped) for the person cohorts, restricted to cohorts with $\geq 5$ man- and woman-coded names. The man-minus-woman NameRank gap:
+
+\begin{table}[H]
+\centering
+\small
+\caption{Man-minus-woman NameRank gap by cohort. The controlled researcher cohorts (top) show a small reproducible man-coded advantage that survives institution- and $h$-index-matching. The cross-profession cohorts (bottom) show much larger raw gaps that reflect real-world fame differences in the sampled individuals, not a NameRank artifact---hence the bias claim is restricted to the controlled researcher comparison.}
+\label{tab:gender}
+\begin{tabular}{lrrrr}
+\toprule
+Cohort & $n_\text{man}$ & $n_\text{woman}$ & $\Delta$ (man$-$woman) & $p$ \\
+\midrule
+cs\_faculty & 354 & 97 & $+0.038$ & 0.014 \\
+\quad institution-matched ($60$ pairs) & --- & --- & $+0.054$ & 0.042 \\
+long\_tail\_researcher\_openalex & 388 & 76 & $+0.031$ & 0.182 \\
+\quad $h$-index-decile-adjusted & --- & --- & $+0.032$ & --- \\
+long\_tail\_researcher\_ikp & 56 & 22 & $+0.044$ & 0.015 \\
+\midrule
+mid\_tier\_actor & 38 & 63 & $+0.341$ & $<10^{-3}$ \\
+mid\_tier\_athlete & 64 & 32 & $+0.254$ & $<10^{-3}$ \\
+mid\_tier\_writer & 62 & 77 & $+0.041$ & 0.41 \\
+mid\_tier\_comedian & 18 & 17 & $-0.045$ & 0.23 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The within-researcher-cohort gap ($+0.027$ to $+0.054$, ${\sim}6$--$8\%$ relative attenuation) is roughly $4\times$ smaller than the ${\sim}2\times$ East-Asian-surname attenuation reported by \citet{li2026ikp}, but reproducible across three researcher cohorts and robust to dropping medium-confidence gender labels. The large cross-profession gaps (actor, athlete) are excluded from the bias claim because the sampled men and women in those cohorts differ in actual fame.
+
 \section{Limitations Summary Table}
 \label{app:limitations}
 
@@ -573,6 +663,8 @@ Scores not comparable across model vintages (Appendix~\ref{app:cutoff}) & ${\sim
 Researcher mobility confound in country gradient & Inflates US averages, deflates China averages & Re-classify by country-of-PhD or country-of-doctorate-training as alternative slicing \\
 Tsinghua/Peking small samples ($n = 4$) & Institution-level reads noisy at the bottom & Expand sample by drawing from CCF rank-A faculty rosters \\
 Tianshou case study sample of $1$ for per-response mediation analysis & Cannot generalize the $+0.36$ score lift cleanly & Extend per-response mediation analysis to all $11$ verified (creator, artifact) pairs \\
+Inherited gender bias (Appendix~\ref{app:gender}) & Man-coded researcher names score $+0.03$--$0.05$ over woman-coded & \emph{Measured, not corrected:} report alongside the East-Asian-surname effect; restrict to controlled within-cohort comparisons \\
+Short-boilerplate-gold cohorts have an elevated noise floor (Appendix~\ref{app:synthetic}) & Olympiad-credential scores up to $\sim 0.20$ are partly context-prior leakage & Read scores against the synthetic floor ($\sim 0.04$ dense-gold, $\sim 0.20$ short-gold); the floor widens, not narrows, the credential gap \\
 \bottomrule
 \end{tabular}
 \end{table}

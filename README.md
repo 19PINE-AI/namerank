@@ -5,10 +5,10 @@
 
 A continuous cross-model recognition metric for people and named artifacts in the LLM era. NameRank operationalizes the 65% recognition-variance residual that bibliometrics cannot explain (Li 2026, IKP §5.7) into a $[0,1]$ score computed against a 37-model frontier panel.
 
-- **Paper:** [`paper/main.pdf`](paper/main.pdf) (53 pages) · source: [`paper/main.tex`](paper/main.tex)
+- **Paper:** [`paper/main.pdf`](paper/main.pdf) (60 pages) · source: [`paper/main.tex`](paper/main.tex)
 - **Companion site:** [`web/index.html`](web/index.html) — interactive cohort explorer, per-entity lookup, conditional-pair attribution-flow visualizer, cross-language deltas. Mirror: <https://01.me/research/namerank>.
 - **Released artifacts:** 5,719 entities, 37-model panel, 211,603 English probe records, 8,880 Chinese-prompt records.
-- **Robustness experiments:** [`experiments/`](experiments/) — 9 follow-up audits (gold-length, context, synthetic-null, Wikipedia, prompt-paraphrase, artifact-mediation, gender, fractional-citation, cross-judge, training-cutoff). See [§ Robustness experiments](#robustness-experiments-experiments).
+- **Robustness experiments:** [`experiments/`](experiments/) — 10 follow-up audits (gold-length, context, synthetic-null, Wikipedia, prompt-paraphrase, artifact-mediation, gender, fractional-citation, cross-judge, training-cutoff), all folded into the paper. See [§ Robustness experiments](#robustness-experiments-experiments).
 
 ## Five headline findings
 
@@ -23,7 +23,7 @@ A continuous cross-model recognition metric for people and named artifacts in th
 ```
 namerank/
 ├── paper/                         # LaTeX sources + compiled PDF
-│   ├── main.tex                   # main paper (39 pages)
+│   ├── main.tex                   # main paper (60 pages)
 │   ├── appendix.tex               # appendices
 │   ├── references.bib
 │   ├── main.pdf                   # compiled paper
@@ -193,20 +193,21 @@ large raw per-(entity, model) probe dumps are not committed (regenerable via
 
 | Experiment | Question | Headline |
 |---|---|---|
-| `t1_1_gold_length` | Does gold-answer length drive the credential gap? | No; treadmill ordering survives every length adjustment. |
-| `t1_2_context_ab` | Does the disambiguating context leak the answer? | Minimal-context ablation drops absolute levels but preserves the Stanford–Tsinghua gradient (~5% shrinkage). |
-| `t1_3_synthetic_null` | What does a never-seen name score? | Noise floor ~0.04 (~0.20 for short-gold cohorts); frontier reasoning models score 0. |
-| `t1_4_wikipedia` | Is NameRank just "has a Wikipedia page"? | No; Wikipedia explains 8% of variance, h-index dominance survives the control. |
-| `t2_6_prompt_sensitivity` | Is the metric robust to probe wording? | **Ordering robust (Pearson 0.93–0.98); absolute levels are wording-conditional. → paper §6.7.4, Fig. 14, App. I.** |
-| `t2_7_artifact_mediation` | Is named-artifact amplification causal? | Yes; naming the artifact in context lifts recognition (+0.058 mean, +5.8σ on Jiayi). |
-| `t2_8_gendered_names` | Is there a gender bias? | Small but reproducible +0.038 (CS faculty) / +0.027 (OpenAlex) man-coded lift, surviving controls. |
-| `t2_9_fractional_citations` | Is h-index dominance about attribution density? | **No — mechanism is name-recurrence across distinct works, not attribution-per-paper (fractional R²=0.15 ≈ raw 0.14). → paper §5.5.1, Fig. 7, App. K.** |
+| `t1_1_gold_length` | Does gold-answer length drive the credential gap? | **No; treadmill ordering survives every length adjustment (matched-pairs infeasible — non-overlapping lengths). → §6.7.8, App. N.** |
+| `t1_2_context_ab` | Does the disambiguating context leak the answer? | **No; minimal-context ablation drops levels but preserves the Stanford–Tsinghua gradient (~5% shrinkage). → §6.7.8, App. N.** |
+| `t1_3_synthetic_null` | What does a never-seen name score? | **Floor ~0.04 (dense gold), ~0.20 (short-gold cohorts); 15/37 models score 0. Floor-adjusting widens the credential gap. → §6.7.7, Fig. 18, App. M.** |
+| `t1_4_wikipedia` | Is NameRank just "has a Wikipedia page"? | **No; Wikipedia explains 2–8% of variance, h-index dominance survives. → §6.7.8, App. N.** |
+| `t2_6_prompt_sensitivity` | Is the metric robust to probe wording? | **Ordering robust (Pearson 0.93–0.98); absolute levels are wording-conditional. → §6.7.4, Fig. 14, App. I.** |
+| `t2_7_artifact_mediation` | Is named-artifact amplification causal? | **Yes; injecting the artifact into context lifts recognition +0.058 mean, +0.288 (t=5.8) on Jiayi, via retrieval-deficient models. → §6.3.4.** |
+| `t2_8_gendered_names` | Is there a gender bias? | **Small reproducible +0.038 (CS faculty) / +0.027 (OpenAlex) man-coded lift, surviving controls. → §7.5, App. O.** |
+| `t2_9_fractional_citations` | Is h-index dominance about attribution density? | **No — mechanism is name-recurrence across distinct works, not attribution-per-paper (fractional R²=0.15 ≈ raw 0.14). → paper §6.4.1, Fig. 7, App. K.** |
 | `t2_10_cross_judge` | Are findings a Gemini-judge artifact? | **No; Pearson 0.87–0.93 across Gemini/GPT-5/Claude, ladder preserved; capability-controlled in-family lift Gemini +0.06. → paper §6.7.6, Fig. 17, App. L.** |
 | `t3_1_cutoff_gradient` | Is the silent zone a corpus-timing artifact? | **No — intrinsic; matched DiD ≈ 0. Exposes ~0.13/yr cross-vintage capability drift. → paper §6.7.5, Fig. 15, App. J.** |
 
-The four bold-faced experiments (`t2_6`, `t2_9`, `t2_10`, `t3_1`) are written
-into the paper; the rest inform the Discussion and the Appendix M limitations
-table. Reproduce any one with `cd experiments/<name> && python3 analyze.py`.
+All ten experiments are now written into the paper (Sections 6.3.4, 6.4.1,
+6.7.4–6.7.8, and 7.5; Figures 7/14/15/17/18; Appendices I–O); the limitations
+table is Appendix P. Reproduce any one with
+`cd experiments/<name> && python3 analyze.py`.
 
 ## Citation
 

@@ -177,7 +177,7 @@ and $\mathrm{cov}, \mathrm{acc} \in [0,1]$ are independent coverage and accuracy
 
 \textbf{1.~Cross-domain unity.} Researchers, founders, OSS authors, podcast hosts, comedians, and CTOs map onto the same $[0,1]$ scale. We demonstrate this empirically (Figure~\ref{fig:overview}).
 
-\textbf{2.~Threshold cleanliness.} Above an elite-recognition threshold (roughly: corpus-presence density crossing the model retrieval threshold), NameRank is informative across domains. Below the threshold it is \emph{silent rather than misleading}---it does not produce spurious rankings of unrecognized entities. The GPT-5 system-card author cohort ($n = 80$, paper published days before training cutoff for most models) instantiates this: mean NameRank $0.042$, with $58\%$ of responses outright refusing (``unknown'') and an additional $13\%$ scoring near zero on the multiplicative axis ($71\%$ silent overall). The metric correctly reports ``I have no information about this entity'' rather than producing noisy fractional scores. We show in Section~\ref{sec:results-cutoff} that this silence is \emph{intrinsic} rather than a corpus-timing artifact: it persists even in models whose training cutoff postdates the cohort's emergence and that therefore demonstrably ingested the source document---presence in the training corpus is necessary but not sufficient for recognition.
+\textbf{2.~Threshold cleanliness.} Above an elite-recognition threshold (roughly: corpus-presence density crossing the model retrieval threshold), NameRank is informative across domains. Below the threshold it is \emph{silent rather than misleading}---it does not produce spurious rankings of unrecognized entities. The GPT-5 system-card author cohort ($n = 80$, paper published days before training cutoff for most models) instantiates this: mean NameRank $0.042$, with $58\%$ of responses outright refusing (``unknown'') and an additional $13\%$ scoring near zero on the multiplicative axis ($71\%$ silent overall). The metric correctly reports ``I have no information about this entity'' rather than producing noisy fractional scores. We show in Section~\ref{sec:results-cutoff} that this silence is \emph{intrinsic} rather than a corpus-timing artifact: it persists even in models whose training cutoff postdates the cohort's emergence and that therefore demonstrably ingested the source document---presence in the training corpus is necessary but not sufficient for recognition. A synthetic-null calibration ($30$ fictional entities run through the full pipeline) puts the empirical noise floor at $\sim 0.04$ for dense-gold cohorts, rising to $\sim 0.20$ for cohorts whose gold answer is short boilerplate (Section~\ref{sec:results-synthetic}); scores must be read against that floor, not against zero.
 
 \textbf{3.~Captures the citation residual.} IKP Sec.~5.7 showed bibliometrics explain $\sim 35\%$ of recognition; the remaining residual decomposes into name uniqueness, named-artifact attachment, and subfield-density. NameRank measures this residual directly. For a working researcher in a dense-derivative-content subfield, the marginal effect of one widely-used open-source tool with clean name attribution exceeds the marginal effect of one well-cited paper. This is verified directly in our data (Section~\ref{sec:results-external}, Section~\ref{sec:results-mechanism}).
 
@@ -455,6 +455,11 @@ Models that do not mention ``Tianshou'' & 21 & \textbf{0.35} \\
 \end{center}
 
 {\sloppy The seven mentioning models are the frontier-reasoning subset: claude-opus-4.6-think, claude-sonnet-4.6-think, gemini-3-flash-think, gemini-3.1-pro, glm-5.1-think, gpt-5.5-think, kimi-k2.6-think. The $+0.36$ score lift from artifact-mention is the empirical signature of the named-artifact-amplification mechanism at the per-response level---not inferred from cross-cohort patterns, but observed on a single entity across the panel.\par}
+
+\subsubsection{Causal context-injection}
+\label{sec:results-mediation-causal}
+
+The mediation evidence above is observational. To test it causally, we re-probed all $11$ verified (creator, artifact) pairs under a controlled manipulation: arm~A uses the creator's standard disambiguating context; arm~B appends the artifact name to it (e.g.\ adding ``creator of Tianshou''), holding everything else fixed. Injecting the artifact name raises the creator's NameRank by a mean $+0.058$ (median $+0.029$, positive in $8$ of $11$ pairs). The effect is largest exactly where the observational analysis predicts: Jiayi Weng $+0.288$ (paired $t = 5.8$), the causal counterpart of his $+0.369$ observational per-response lift; Harrison Chase / LangChain $+0.151$; Tri Dao / FlashAttention $+0.094$. It is null or negative for the three senior leaders whose baseline recognition is already high (Amodei $-0.047$, Srinivas $-0.022$, Murati $-0.014$): the mechanism cannot push a model above what it already knows. Consistently, the lift runs through retrieval-deficient models---by tier it is $+0.008$ (frontier-reasoning), $+0.046$ (frontier-chat), $+0.106$ (mid-weight), $+0.095$ (small). Naming the artifact is load-bearing precisely for the models that have not independently stored the creator. This upgrades named-artifact amplification from a correlational pattern to a causally-manipulable one.
 
 \subsection{External Validity}
 \label{sec:results-external}
@@ -882,6 +887,33 @@ NameRank uses a single LLM judge (Section~\ref{sec:method-judge}). To test wheth
     \label{fig:cross-judge}
 \end{figure}
 
+\subsubsection{Synthetic-null floor}
+\label{sec:results-synthetic}
+
+To establish what NameRank assigns to a name absent from every pretraining corpus, we constructed $30$ entirely fictional entities spanning the archetypes the paper measures (CS faculty, founders, IMO golds, OSS projects, mid-tier figures), with deliberately ungoogleable names (each verified to surface no notable real person), cohort-matched disambiguating contexts, and matched gold answers, and ran them through the full pipeline.
+
+The synthetic floor is low but archetype-dependent (Figure~\ref{fig:synthetic-null}a). Dense-gold cohorts---where the gold lists specific named contributions---floor near $\sim 0.04$ (synthetic founders $0.012$, CS faculty $0.027$), essentially the main-run silent-zone level (the real GPT-5 system-card cohort sits at $0.042$). But the synthetic \emph{IMO-gold} archetype floors at $0.199$, because its gold answer is mostly cohort boilerplate (year $+$ country $+$ medal $+$ a generic outcome sentence): a model can satisfy much of that template from the disambiguating context alone, without recognizing the (nonexistent) person. The floor is driven by two model populations (Figure~\ref{fig:synthetic-null}b): small open-weights fluent hallucinators (gemma-3-4b reaches $0.293$ on synthetics) and, for the short-gold archetype, a few frontier models that complete the boilerplate; $15$ of $37$ models score the synthetics at exactly $0$.
+
+\textbf{Implication for the credential numbers.} Cohorts whose gold answers are short boilerplate---the olympiad credentials---carry a $\sim 0.20$ noise floor, whereas dense-gold cohorts carry $\sim 0.04$. This does not overturn the credential treadmill; it sharpens it. IMO gold ($0.362$) clears its $\sim 0.20$ floor by only $\sim 0.16$, while the OpenAlex baseline ($0.464$, dense golds) clears its $\sim 0.04$ floor by $\sim 0.42$, so the floor-adjusted credential-vs-baseline gap is \emph{wider}, not narrower, than the raw gap. The corollary caveat is that the lowest credential cohorts (CPhO $0.182$, DeepSeek-V3 authors $0.178$) sit at or below the short-gold floor and should be read as silent rather than weakly recognized. Differences smaller than the relevant floor are not evidence of recognition (Appendix~\ref{app:synthetic}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_synthetic_null.pdf}
+    \caption{Synthetic-null floor ($30$ fictional entities through the full pipeline). \textbf{(a)}~Floor by archetype: dense-gold cohorts (founder, CS faculty) floor near $\sim 0.04$, but the short-boilerplate-gold IMO archetype floors at $0.199$ because the generic year$+$country$+$medal gold is partly satisfiable from the disambiguating context alone. \textbf{(b)}~Per-model synthetic floor: it is concentrated in small open-weights fluent hallucinators (gemma-3-4b at $0.29$); $15$ of $37$ models score the synthetics at exactly $0$. The floor sets the noise level below which differences are not evidence of recognition.}
+    \label{fig:synthetic-null}
+\end{figure}
+
+\subsubsection{Confound checks: gold length, context, and Wikipedia}
+\label{sec:results-confounds}
+
+Three alternative explanations for the headline findings were tested and rejected (details in Appendix~\ref{app:confounds}).
+
+\textbf{Gold-answer length does not drive the credential gap.} Credential cohorts have shorter gold answers than OpenAlex researchers, raising the worry that the treadmill is a length artifact. It is not: within the credential cohorts that matter, gold length explains almost no NameRank variance (within-cohort $R^2 < 0.07$ for IMO, IOI, MSRA), and the credential-vs-baseline ordering survives both a pooled fixed-effects length adjustment (which \emph{widens} the gap) and a within-OpenAlex-slope adjustment. The strict length-matched-pairs test is in fact infeasible---IMO and OpenAlex gold answers have non-overlapping length distributions (a ${\sim}270$-character gap)---which is itself the point: the cohorts differ in entity attributes, not merely in gold-answer length.
+
+\textbf{Disambiguating context anchors but does not leak.} Re-running a $288$-entity subset with the specific context replaced by a minimal generic descriptor (e.g.\ ``an academic researcher'') drops absolute NameRank substantially (OpenAlex $-0.37$, IMO $-0.31$), confirming that context is necessary for disambiguation. But it does \emph{not} leak the gold: the Stanford-vs-Tsinghua institutional gradient is preserved almost intact (relative shrinkage $\sim 5\%$). Levels depend on context; the cross-entity comparisons the paper draws do not.
+
+\textbf{NameRank is not ``has a Wikipedia page.''} A binary Wikipedia-presence flag explains only $2\%$ of NameRank variance among long-tail researchers ($8\%$ across the full cohort), versus $40\%$ for $h$-index, which retains a marginal $R^2$ of $0.376$ after a full Wikipedia block (presence $+$ log-sitelinks $+$ log-pageviews). Wikipedia presence accounts for only ${\sim}1/4$ of the Stanford--Tsinghua gap; the other ${\sim}3/4$ is the broader anglophone-corpus exposure NameRank is designed to capture.
+
 % ══════════════════════════════════════════════════════════════
 \section{Discussion}
 \label{sec:discussion}
@@ -911,6 +943,13 @@ A practitioner consequence: for an individual seeking to propagate their name th
 Section~\ref{sec:results-geography} shows a robust Stanford$=0.54$ vs.\ Tsinghua$=0.26$ gap that scales by country (Israel/Singapore/Sweden lead; China/India/France lag). The mechanism is English-corpus density; the consequence is structural inequality in name-propagation per unit of research output.
 
 Three caveats. First, the Tsinghua/Peking samples in our cohort are small ($n = 4$ each); the country-level gradient is well-sampled (China $n = 30$) but institution-level reads are noisy at the bottom. Second, the gradient may partly reflect researcher mobility: Chinese-born researchers who emigrate to US institutions score under their US institution, which boosts the US average and depresses the China average. We have not corrected for this. Third, the gradient is downstream of indexing and crawling decisions made by training-data pipeline operators; it could in principle be reduced by changing those decisions. Within the current corpus regime, however, it is a substantial structural effect.
+
+\subsection{Inherited Demographic Biases}
+\label{sec:discussion-bias}
+
+NameRank inherits the demographic biases of its judge and probed models, and measures them faithfully rather than correcting them. \citet{li2026ikp} documented a ${\sim}2\times$ recognition attenuation for common East-Asian surnames; we find a second, smaller effect on first-name-inferred gender. The cleanly-identified signal is within the researcher cohorts, where bibliometric and institutional controls are available: man-coded names outscore woman-coded names by $+0.038$ in CS faculty ($p = 0.014$; $+0.054$ after institution matching) and $+0.027$ in the OpenAlex long-tail cohort ($+0.032$ after $h$-index-decile adjustment, so it is not explained by women in the cohort having lower bibliometric impact). The effect is roughly $4\times$ smaller than the East-Asian-surname attenuation but reproducible across two independent researcher cohorts (Appendix~\ref{app:gender}).
+
+We deliberately restrict this claim to the within-researcher-cohort comparison. The cross-profession cohorts show much larger raw man-minus-woman gaps (actors $+0.34$, athletes $+0.25$), but these reflect real-world differences in fame between the sampled men and women, not a NameRank artifact---exactly the conflation the controlled researcher-cohort comparison avoids. As with the East-Asian-surname effect, we treat the gender gap as an inherited property of the corpus-and-judge stack that NameRank reports, not a calibration target; downstream uses of NameRank must account for it.
 
 \subsection{Methodological Robustness}
 
