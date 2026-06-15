@@ -1,0 +1,24 @@
+female_id,female_name,female_h,female_NR,male_id,male_name,male_h,male_NR,delta_male_minus_female,h_diff,subfield,country
+oa_author_andrea_montanari,Andrea Montanari,66,0.6297,oa_author_steven_l__brunton,Steven L. Brunton,69,0.7938,0.1641,3,Model Reduction and Neural Networks,US
+oa_author_andra_zanella,Andréa Zanella,42,0.6527,oa_author_antonio_iera,Antonio Iera,44,0.6446,-0.0081,2,IoT and Edge/Fog Computing,IT
+oa_author_edurne_barrenechea,Edurne Barrenechea,39,0.5946,oa_author_mikel_galar,Mikel Galar,38,0.7138,0.1192,-1,Imbalanced Data Classification Techniques,ES
+oa_author_anne_gadermann,Anne Gadermann,38,0.4889,oa_author_david_b__flora,David B. Flora,43,0.6257,0.1368,5,Psychometric Methodologies and Testing,
+oa_author_karin_groothuisoudshoorn,Karin Groothuis‐Oudshoorn,37,0.577,oa_author_daniel_ldecke,Daniel Lüdecke,32,0.6308,0.0538,-5,Data Analysis with R,
+oa_author_sarah_meiklejohn,Sarah Meiklejohn,35,0.72,oa_author_dirk_andreas_zetzsche,Dirk Andreas Zetzsche,34,0.4981,-0.2219,-1,Blockchain Technology Applications and Security,US
+oa_author_serena_yeung,Serena Yeung,34,0.6335,oa_author_george_toderici,George Toderici,30,0.5303,-0.1032,-4,Human Pose and Action Recognition,US
+oa_author_lisa_anne_hendricks,Lisa Anne Hendricks,32,0.5935,oa_author_alexander_toshev,Alexander Toshev,35,0.5619,-0.0316,3,Multimodal Machine Learning Applications,US
+oa_author_rachel_harrison,Rachel Harrison,29,0.5143,oa_author_david_duce,David Duce,20,0.4862,-0.0281,-9,Technology Adoption and User Behaviour,GB
+oa_author_emily_m__bender,Emily M. Bender,29,0.4792,oa_author_antoine_bosselut,Antoine Bosselut,26,0.5344,0.0552,-3,Topic Modeling,US
+oa_author_jenny_c__aker,Jenny C. Aker,28,0.6186,oa_author_isaac_mbiti,Isaac Mbiti,20,0.5205,-0.0981,-8,ICT Impact and Policies,
+oa_author_a__patrcia_bento,A. Patrícia Bento,24,0.5757,oa_author_david_rogers,David Rogers,30,0.5551,-0.0206,6,Computational Drug Discovery Methods,GB
+oa_author_carmen_lpez,Carmen López,21,0.2408,oa_author_douglas_w__arner,Douglas W. Arner,30,0.5586,0.3178,9,Blockchain Technology Applications and Security,GB
+oa_author_cindy_k__chung,Cindy K. Chung,21,0.4568,oa_author_andrew_l__maas,Andrew L. Maas,13,0.6332,0.1764,-8,Sentiment Analysis and Opinion Mining,US
+oa_author_lucy_m__matthews,Lucy M. Matthews,15,0.0973,oa_author_ryan_matthews,Ryan Matthews,9,0.1327,0.0354,-6,Technology Adoption and User Behaviour,US
+oa_author_katharina_eggensperger,Katharina Eggensperger,15,0.5189,oa_author_matthias_feurer,Matthias Feurer,18,0.723,0.2041,3,Machine Learning and Data Classification,DE
+oa_author_fatma_z__guerfali,Fatma Z. Guerfali,13,0.5216,oa_author_slimane_ben_miled,Slimane Ben Miled,9,0.4424,-0.0792,-4,Bioinformatics and Genomic Networks,TN
+oa_author_louisa_j__bellis,Louisa J. Bellis,13,0.2811,oa_author_mathew_hahn,Mathew Hahn,7,0.1995,-0.0816,-6,Computational Drug Discovery Methods,GB
+oa_author_triinu_kressaar,Triinu Kõressaar,11,0.1935,oa_author_frank_bossen,Frank Bossen,16,0.1822,-0.0113,5,Software Testing and Debugging Techniques,DE
+oa_author_leslie_prez_cceres,Leslie Pérez Cáceres,10,0.4405,oa_author_jrmie_dubois_lacoste,Jérémie Dubois-Lacoste,12,0.5414,0.1009,2,Metaheuristic Optimization Algorithms Research,BE
+oa_author_aleksandra_checko,Aleksandra Checko,10,0.4568,oa_author_mahmoud_kamel,Mahmoud Kamel,16,0.3876,-0.0692,6,Advanced MIMO Systems Optimization,
+oa_author_angelina_mcmillan_major,Angelina McMillan-Major,8,0.307,oa_author_konstantin_lopyrev,Konstantin Lopyrev,3,0.1564,-0.1506,-5,Topic Modeling,US
+oa_author_imane_jebli,Imane Jebli,4,0.3665,oa_author_mohammed_issam_kabbaj,Mohammed Issam Kabbaj,11,0.3162,-0.0503,7,Solar Radiation and Photovoltaics,MA

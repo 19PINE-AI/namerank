@@ -1,0 +1,31 @@
+entity_id,entity_name,cohort,n_models,namerank,namerank_sd,refusal_rate,embedding_sim_mean
+syn_imo_aslan_shyngyssov,Aslan Shyngyssov,synthetic_imo_gold,37,0.3541,0.3579,0.108,0.6733
+syn_imo_petr_zelinka,Petr Zelinka,synthetic_imo_gold,37,0.2773,0.3675,0.162,0.6561
+syn_imo_milos_pravdic,Miloš Pravdić,synthetic_imo_gold,37,0.2038,0.3168,0.216,0.6204
+syn_imo_zhuoming_qiang,Zhuoming Qiang,synthetic_imo_gold,37,0.1843,0.2922,0.189,0.6245
+syn_imo_quoc_nhat_dau,Quốc Nhật Đậu,synthetic_imo_gold,37,0.1254,0.2255,0.243,0.6076
+syn_mid_chef_celestin_rouvenaz,Célestin Rouvenaz,synthetic_mid_tier_chef,37,0.123,0.2146,0.27,0.6134
+syn_mid_journalist_mireia_aldecoa,Mireia Aldecoa,synthetic_mid_tier_journalist,37,0.0924,0.1501,0.27,0.6175
+syn_oss_spindleflow,Spindleflow,synthetic_oss_project,37,0.0919,0.1891,0.324,0.6588
+syn_oss_glaivebench,Glaivebench,synthetic_oss_project,37,0.0784,0.1542,0.324,0.6895
+syn_mid_podcast_the_quiet_signal,The Quiet Signal,synthetic_mid_tier_podcast,37,0.0754,0.1317,0.324,0.5933
+syn_cs_iskander_vrolijk,Iskander Vrolijk,synthetic_cs_faculty,37,0.0703,0.1579,0.405,0.6131
+syn_cs_eskil_vrancken,Eskil Vrancken,synthetic_cs_faculty,37,0.0568,0.1202,0.378,0.6038
+syn_mid_musician_bruno_esquivel_tang,Bruno Esquivel-Tang,synthetic_mid_tier_musician,37,0.0568,0.1463,0.405,0.5358
+syn_imo_vesper_lindblom,Vesper Lindblom,synthetic_imo_gold,37,0.0495,0.1485,0.351,0.5568
+syn_oss_lattispan,Lattispan,synthetic_oss_project,37,0.0459,0.1609,0.486,0.5639
+syn_oss_quillvec,Quillvec,synthetic_oss_project,37,0.0443,0.126,0.405,0.6287
+syn_cs_onnele_sjoberg,Onnele Sjöberg,synthetic_cs_faculty,37,0.0343,0.1097,0.432,0.5574
+syn_founder_marielys_caballenas,Marielys Caballenas,synthetic_founder,37,0.0305,0.0888,0.405,0.6053
+syn_cs_vihaan_periswamy,Vihaan Periswamy,synthetic_cs_faculty,37,0.0264,0.0781,0.486,0.548
+syn_cs_anveer_kothakonda,Anveer Kothakonda,synthetic_cs_faculty,37,0.0187,0.07,0.486,0.5629
+syn_cs_halvar_mendigutia,Halvar Mendigutia,synthetic_cs_faculty,37,0.0168,0.061,0.486,0.5573
+syn_cs_yorel_heskenwald,Yorel Heskenwald,synthetic_cs_faculty,37,0.0151,0.0642,0.432,0.5745
+syn_cs_devansh_maliholkar,Devansh Maliholkar,synthetic_cs_faculty,37,0.013,0.0389,0.432,0.5743
+syn_cs_wenslin_kraborsky,Wenslin Kraborsky,synthetic_cs_faculty,37,0.0119,0.0507,0.459,0.5388
+syn_founder_pieter_van_houtrijn,Pieter van Houtrijn,synthetic_founder,37,0.0119,0.0409,0.486,0.5025
+syn_cs_tarvik_olshanski,Tarvik Olshanski,synthetic_cs_faculty,37,0.0097,0.0475,0.486,0.5418
+syn_founder_jocelin_okwuosu,Jocelin Okwuosu,synthetic_founder,37,0.0095,0.0368,0.459,0.5335
+syn_founder_amitabh_nakshatri,Amitabh Nakshatri,synthetic_founder,37,0.0076,0.0338,0.405,0.5893
+syn_founder_renske_thalvald,Renske Thalvald,synthetic_founder,37,0.0068,0.0411,0.541,0.5056
+syn_founder_brendel_quanzhong,Brendel Quanzhong,synthetic_founder,37,0.0065,0.0395,0.541,0.5448

@@ -1,0 +1,289 @@
+entity_id,entity_name,cohort,institution,NR_A,NR_B,delta,refusal_A,refusal_B
+oa_author_vimal_savsani,Vimal Savsani,long_tail_researcher_openalex,Sardar Vallabhbhai National Institute of Technology Surat,0.6554,0.1019,-0.5535,0.054,0.243
+oa_author_wim_vanhaverbeke,Wim Vanhaverbeke,long_tail_researcher_openalex,Hasselt University,0.7414,0.1914,-0.55,0.054,0.054
+oa_author_jian_cheng,Jian Cheng,long_tail_researcher_openalex,Chinese Academy of Sciences,0.5527,0.0557,-0.497,0.189,0.243
+oa_author_jon_wade,Jon Wade,long_tail_researcher_openalex,Stevens Institute of Technology,0.5392,0.0457,-0.4935,0.189,0.162
+oa_author_miguel_c__soriano,Miguel C. Soriano,long_tail_researcher_openalex,Universitat de les Illes Balears,0.6689,0.1776,-0.4913,0.027,0.135
+oa_author_xue_yang,Xue Yang,long_tail_researcher_openalex,Shanghai Jiao Tong University,0.4919,0.0024,-0.4895,0.243,0.243
+artifact_step,Step,ai_startup_or_company,,0.4865,0.0,-0.4865,0.351,0.081
+oa_author_olivier_dauchot,Olivier Dauchot,long_tail_researcher_openalex,Centre National de la Recherche Scientifique,0.6359,0.1524,-0.4835,0.054,0.027
+oa_author_p__k__gupta,P. K. Gupta,long_tail_researcher_openalex,Jaypee University of Information Technology,0.4765,0.0011,-0.4754,0.243,0.162
+oa_author_vladimir_g__kim,Vladimir G. Kim,long_tail_researcher_openalex,Adobe Systems (United States),0.6527,0.1789,-0.4738,0.054,0.162
+oa_author_marijn_a__m__versteegh,Marijn A. M. Versteegh,long_tail_researcher_openalex,Vienna Center for Quantum Science and Technology,0.5038,0.03,-0.4738,0.216,0.135
+msra_seunghoon_hong_2014,Seunghoon Hong,msra_phd_fellowship,,0.5278,0.0541,-0.4737,0.081,0.27
+oa_author_christoph_stiller,Christoph Stiller,long_tail_researcher_openalex,Karlsruhe Institute of Technology,0.7365,0.2649,-0.4716,0.027,0.054
+oa_author_anchi_guo,AnChi Guo,long_tail_researcher_openalex,University of Alberta,0.4832,0.0192,-0.464,0.27,0.378
+oa_author_bowen_jiang,Bowen Jiang,long_tail_researcher_openalex,Dalian University of Technology,0.4651,0.0011,-0.464,0.351,0.351
+suresh_kumar,Suresh Kumar,reference_pilot,,0.5153,0.0535,-0.4618,0.108,0.324
+oa_author_fabien_reyal,Fabien Reyal,long_tail_researcher_openalex,Institut Curie,0.5932,0.1346,-0.4586,0.135,0.189
+imo_istvan_tomon,István Tomon,imo_gold,,0.5662,0.1116,-0.4546,0.189,0.297
+oa_author_janmichael_frahm,Jan‐Michael Frahm,long_tail_researcher_openalex,University of North Carolina at Chapel Hill,0.6903,0.2454,-0.4449,0.054,0.027
+oa_author_joel_emer,Joel Emer,long_tail_researcher_openalex,Nvidia (United States),0.6243,0.1819,-0.4424,0.135,0.081
+oa_author_tushar_krishna,Tushar Krishna,long_tail_researcher_openalex,Georgia Institute of Technology,0.6986,0.2611,-0.4375,0.054,0.054
+oa_author_johan_bollen,Johan Bollen,long_tail_researcher_openalex,Indiana University Bloomington,0.7541,0.3168,-0.4373,0.027,0.0
+oa_author_yasunobu_nohara,Yasunobu Nohara,long_tail_researcher_openalex,Kumamoto University,0.4514,0.0143,-0.4371,0.297,0.189
+imo_jialun_li,Jialun Li,imo_gold,,0.4446,0.0111,-0.4335,0.162,0.405
+oa_author_rachel_harrison,Rachel Harrison,long_tail_researcher_openalex,Oxford Brookes University,0.5143,0.0814,-0.4329,0.216,0.108
+oa_author_xavier_glorot,Xavier Glorot,long_tail_researcher_openalex,Université de Montréal,0.7738,0.3516,-0.4222,0.0,0.0
+oa_author_johannes_bader,Johannes Bader,long_tail_researcher_openalex,ETH Zurich,0.4735,0.0516,-0.4219,0.243,0.243
+artifact_sierra,Sierra,ai_startup_or_company,,0.7378,0.3162,-0.4216,0.081,0.054
+oa_author_maurice_b__loughrey,Maurice B. Loughrey,long_tail_researcher_openalex,Queen's University Belfast,0.5111,0.0916,-0.4195,0.243,0.189
+oa_author_tim_dettmers,Tim Dettmers,long_tail_researcher_openalex,Università della Svizzera italiana,0.4186,0.0,-0.4186,0.243,0.0
+oa_author_fei_yan,Fei Yan,long_tail_researcher_openalex,MIT Lincoln Laboratory,0.4346,0.0186,-0.416,0.27,0.216
+oa_author_kenji_ozawa,Kenji Ozawa,long_tail_researcher_openalex,University of Yamanashi,0.4338,0.0192,-0.4146,0.324,0.297
+oa_author_nasrin_sultana,Nasrin Sultana,long_tail_researcher_openalex,La Trobe University,0.4235,0.0111,-0.4124,0.297,0.297
+oa_author_fan_yang,Fan Yang,long_tail_researcher_openalex,Temple University,0.4146,0.0027,-0.4119,0.297,0.162
+oa_author_s__m__ali_eslami,S. M. Ali Eslami,long_tail_researcher_openalex,Microsoft Research (United Kingdom),0.4262,0.0176,-0.4086,0.216,0.162
+imo_melih_ucer,Melih Üçer,imo_gold,,0.4378,0.0327,-0.4051,0.297,0.351
+mid_tier_filmmaker_david_fincher,David Fincher,mid_tier_filmmaker,,0.7559,0.3522,-0.4037,0.0,0.0
+msra_wenping_hu_2014,Wenping Hu,msra_phd_fellowship,,0.4032,0.0,-0.4032,0.324,0.324
+msra_kazi_rubaiat_habib_2011,Kazi Rubaiat Habib,msra_phd_fellowship,,0.3992,0.0,-0.3992,0.243,0.378
+artifact_cursor_company,Cursor (company),ai_startup_or_company,,0.8403,0.4442,-0.3961,0.0,0.027
+imo_zipei_nie,Zipei Nie,imo_gold,,0.4395,0.0549,-0.3846,0.189,0.297
+imo_zarko_randelovi,Žarko Ranđelović,imo_gold,,0.4459,0.0665,-0.3794,0.189,0.297
+mid_tier_filmmaker_lila_avils,Lila Avilés,mid_tier_filmmaker,,0.7932,0.4186,-0.3746,0.0,0.027
+artifact_pyro,Pyro,oss_project,,0.8769,0.5027,-0.3742,0.027,0.027
+artifact_baichuan_ai,Baichuan AI,ai_startup_or_company,,0.8511,0.4797,-0.3714,0.0,0.0
+mid_tier_filmmaker_noah_baumbach,Noah Baumbach,mid_tier_filmmaker,,0.8211,0.45,-0.3711,0.0,0.0
+mid_tier_filmmaker_ari_aster,Ari Aster,mid_tier_filmmaker,,0.9189,0.5495,-0.3694,0.0,0.0
+oa_author_jiwan_ge,Jiwan Ge,long_tail_researcher_openalex,Tsinghua University,0.377,0.0105,-0.3665,0.27,0.297
+msra_zili_meng_2020,Zili Meng,msra_phd_fellowship,,0.4249,0.0589,-0.366,0.162,0.243
+msra_dong_chen_2013,Dong Chen,msra_phd_fellowship,,0.3865,0.0216,-0.3649,0.216,0.351
+msra_nobuyuki_umetani_2011,Nobuyuki Umetani,msra_phd_fellowship,,0.4911,0.1273,-0.3638,0.054,0.108
+artifact_adept,Adept,ai_startup_or_company,,0.8851,0.5224,-0.3627,0.0,0.0
+oa_author_lixing_han,Lixing Han,long_tail_researcher_openalex,University of Michigan–Flint,0.4303,0.0684,-0.3619,0.27,0.162
+oa_author_henrik_lehrmann_christiansen,Henrik Lehrmann Christiansen,long_tail_researcher_openalex,Technical University of Denmark,0.3622,0.0031,-0.3591,0.378,0.297
+imo_egor_voronetckii,Egor Voronetckii,imo_gold,,0.3724,0.0145,-0.3579,0.324,0.378
+imo_pedram_safaee,Pedram Safaee,imo_gold,,0.3686,0.0111,-0.3575,0.297,0.351
+imo_vadym_kalashnykov,Vadym Kalashnykov,imo_gold,,0.3754,0.02,-0.3554,0.297,0.351
+msra_xiaoyin_wang_2009,Xiaoyin Wang,msra_phd_fellowship,,0.3851,0.0297,-0.3554,0.27,0.351
+imo_lin_chen,Lin Chen,imo_gold,,0.357,0.0026,-0.3544,0.189,0.459
+msra_yi_hsuan_yang_2008,Yi-Hsuan Yang,msra_phd_fellowship,,0.4646,0.1111,-0.3535,0.054,0.135
+mid_tier_filmmaker_claire_denis,Claire Denis,mid_tier_filmmaker,,0.8581,0.5092,-0.3489,0.0,0.0
+mid_tier_writer_liu_cixin,Liu Cixin,mid_tier_writer,,0.8295,0.4808,-0.3487,0.0,0.0
+artifact_mistral_ai_company,Mistral AI (company),ai_startup_or_company,,0.9124,0.5662,-0.3462,0.0,0.0
+oa_author_daniil_stroyakovskiy,Daniil Stroyakovskiy,long_tail_researcher_openalex,Moscow City Oncology Hospital №62,0.373,0.027,-0.346,0.432,0.243
+msra_yantao_zheng_2008,Yantao Zheng,msra_phd_fellowship,,0.3543,0.0084,-0.3459,0.324,0.297
+artifact_polyglot,Polyglot,oss_project,,0.5476,0.2041,-0.3435,0.0,0.054
+mid_tier_writer_hanya_yanagihara,Hanya Yanagihara,mid_tier_writer,,0.8946,0.5524,-0.3422,0.0,0.0
+imo_felix_drxler,Felix Dräxler,imo_gold,,0.3603,0.0203,-0.34,0.351,0.405
+oa_author_philip_koopman,Philip Koopman,long_tail_researcher_openalex,Carnegie Mellon University,0.6468,0.307,-0.3398,0.054,0.027
+imo_umut_varolgunes,Umut Varolgüneş,imo_gold,,0.4014,0.0627,-0.3387,0.27,0.405
+mid_tier_writer_premee_mohamed,Premee Mohamed,mid_tier_writer,,0.667,0.3289,-0.3381,0.054,0.054
+mid_tier_filmmaker_alfonso_cuarn,Alfonso Cuarón,mid_tier_filmmaker,,0.8466,0.5092,-0.3374,0.0,0.0
+mid_tier_writer_adrian_tchaikovsky,Adrian Tchaikovsky,mid_tier_writer,,0.8878,0.5516,-0.3362,0.0,0.0
+oa_author_jun_xie,Jun Xie,long_tail_researcher_openalex,Google (United States),0.3392,0.0046,-0.3346,0.432,0.216
+artifact_01_ai,01.AI,ai_startup_or_company,,0.7932,0.46,-0.3332,0.054,0.054
+msra_dong_liu_2009,Dong Liu,msra_phd_fellowship,,0.3308,0.0,-0.3308,0.324,0.405
+artifact_dgl,DGL,oss_project,,0.9486,0.6184,-0.3302,0.0,0.027
+msra_wenhao_li_2016,Wenhao Li,msra_phd_fellowship,,0.3297,0.0,-0.3297,0.27,0.405
+oa_author_tlin_ztrk,Tülin Öztürk,long_tail_researcher_openalex,Elazığ Eğitim ve Araştırma Hastanesi,0.3314,0.0032,-0.3282,0.297,0.27
+mid_tier_filmmaker_ava_duvernay,Ava DuVernay,mid_tier_filmmaker,,0.8851,0.5595,-0.3256,0.0,0.0
+imo_takuma_kitamura,Takuma Kitamura,imo_gold,,0.3551,0.0316,-0.3235,0.27,0.405
+oa_author_roozbeh_mottaghi,Roozbeh Mottaghi,long_tail_researcher_openalex,Stanford University,0.3892,0.0689,-0.3203,0.243,0.054
+mid_tier_filmmaker_ruben_stlund,Ruben Östlund,mid_tier_filmmaker,,0.9095,0.5892,-0.3203,0.0,0.0
+imo_sung_jin_park,Sung Jin Park,imo_gold,,0.3349,0.0164,-0.3185,0.378,0.351
+mid_tier_writer_sally_rooney,Sally Rooney,mid_tier_writer,,0.9568,0.6384,-0.3184,0.0,0.0
+imo_aleksandr_kalmynin,Aleksandr Kalmynin,imo_gold,,0.3962,0.0789,-0.3173,0.297,0.27
+imo_mitchell_lee,Mitchell Lee,imo_gold,,0.4103,0.0932,-0.3171,0.162,0.216
+mid_tier_filmmaker_bruno_dumont,Bruno Dumont,mid_tier_filmmaker,,0.7073,0.3919,-0.3154,0.0,0.0
+msra_yongxin_tong_2012,Yongxin Tong,msra_phd_fellowship,,0.3546,0.04,-0.3146,0.243,0.27
+artifact_meta_ai_research,Meta AI Research,ai_startup_or_company,,0.713,0.3995,-0.3135,0.0,0.027
+msra_dongzhe_ma_2011,Dongzhe Ma,msra_phd_fellowship,,0.3135,0.0003,-0.3132,0.351,0.405
+mid_tier_writer_tamsyn_muir,Tamsyn Muir,mid_tier_writer,,0.8538,0.5432,-0.3106,0.0,0.0
+msra_qitian_wu_2021,Qitian Wu,msra_phd_fellowship,,0.3827,0.0746,-0.3081,0.243,0.243
+artifact_eagle,EAGLE,oss_project,,0.4351,0.127,-0.3081,0.054,0.108
+msra_li_chen_2016,Li Chen,msra_phd_fellowship,,0.3076,0.0,-0.3076,0.324,0.432
+artifact_genspark,GenSpark,ai_startup_or_company,,0.4324,0.127,-0.3054,0.189,0.108
+mid_tier_filmmaker_denis_villeneuve,Denis Villeneuve,mid_tier_filmmaker,,0.9122,0.607,-0.3052,0.0,0.0
+mid_tier_writer_bora_chung,Bora Chung,mid_tier_writer,,0.8054,0.5014,-0.304,0.027,0.027
+msra_luwei_cheng_2013,Luwei Cheng,msra_phd_fellowship,,0.3157,0.0122,-0.3035,0.27,0.378
+mid_tier_writer_daniel_h__pink,Daniel H. Pink,mid_tier_writer,,0.9349,0.6316,-0.3033,0.0,0.0
+imo_yuxuan_liao,Yuxuan Liao,imo_gold,,0.3203,0.0186,-0.3017,0.324,0.405
+mid_tier_writer_shelley_parker_chan,Shelley Parker-Chan,mid_tier_writer,,0.7746,0.4738,-0.3008,0.0,0.054
+oa_author_carlijn_j__m__wibbelink,Carlijn J. M. Wibbelink,long_tail_researcher_openalex,University of Amsterdam,0.3716,0.0714,-0.3002,0.324,0.189
+imo_kazuhiro_hosaka,Kazuhiro Hosaka,imo_gold,,0.3368,0.037,-0.2998,0.351,0.378
+msra_jing_yuan_2011,Jing Yuan,msra_phd_fellowship,,0.2968,0.0,-0.2968,0.351,0.405
+mid_tier_filmmaker_carla_simn,Carla Simón,mid_tier_filmmaker,,0.8414,0.5457,-0.2957,0.0,0.0
+msra_linghe_kong_2010,Linghe Kong,msra_phd_fellowship,,0.3954,0.1017,-0.2937,0.216,0.189
+msra_yu_chen_sun_2009,Yu-Chen Sun,msra_phd_fellowship,,0.293,0.0,-0.293,0.351,0.432
+mid_tier_writer_karin_tidbeck,Karin Tidbeck,mid_tier_writer,,0.827,0.5362,-0.2908,0.0,0.0
+imo_artsiom_toyestseu,Artsiom Toyestseu,imo_gold,,0.2978,0.0082,-0.2896,0.378,0.486
+msra_yizhong_zhang_2012,Yizhong Zhang,msra_phd_fellowship,,0.2997,0.0108,-0.2889,0.324,0.378
+artifact_stability_ai,Stability AI,ai_startup_or_company,,0.8314,0.5432,-0.2882,0.0,0.0
+imo_andrea_bianchi,Andrea Bianchi,imo_gold,,0.3295,0.0416,-0.2879,0.324,0.486
+mid_tier_filmmaker_barry_jenkins,Barry Jenkins,mid_tier_filmmaker,,0.8578,0.5703,-0.2875,0.0,0.0
+csrankings_yong_li_0008,Yong Li 0008,cs_faculty,Tsinghua University,0.3446,0.0576,-0.287,0.324,0.351
+msra_tiankuang_zhou_2021,Tiankuang Zhou,msra_phd_fellowship,,0.2976,0.0111,-0.2865,0.297,0.297
+oa_author_dirk_andreas_zetzsche,Dirk Andreas Zetzsche,long_tail_researcher_openalex,,0.4981,0.2124,-0.2857,0.162,0.054
+msra_kaizhang_kang_2021,Kaizhang Kang,msra_phd_fellowship,,0.2908,0.0054,-0.2854,0.297,0.351
+mid_tier_filmmaker_cline_sciamma,Céline Sciamma,mid_tier_filmmaker,,0.8081,0.523,-0.2851,0.0,0.0
+msra_haotian_li_2022,Haotian Li,msra_phd_fellowship,,0.3116,0.0273,-0.2843,0.324,0.216
+msra_ki_woong_park_2008,Ki-woong Park,msra_phd_fellowship,,0.3081,0.0251,-0.283,0.378,0.378
+mid_tier_writer_brit_bennett,Brit Bennett,mid_tier_writer,,0.8595,0.5776,-0.2819,0.0,0.0
+artifact_lightning_ai,Lightning AI,ai_startup_or_company,,0.6862,0.4043,-0.2819,0.0,0.027
+csrankings_oluwasanmi_koyejo,Oluwasanmi Koyejo,cs_faculty,Stanford University,0.5846,0.3076,-0.277,0.054,0.027
+imo_rom_dudkiewicz,Rom Dudkiewicz,imo_gold,,0.2922,0.0154,-0.2768,0.405,0.405
+imo_szymon_kanonowicz,Szymon Kanonowicz,imo_gold,,0.2914,0.0151,-0.2763,0.324,0.378
+mid_tier_filmmaker_boots_riley,Boots Riley,mid_tier_filmmaker,,0.8492,0.573,-0.2762,0.0,0.027
+artifact_elevenlabs_company,ElevenLabs (company),ai_startup_or_company,,0.7738,0.4986,-0.2752,0.0,0.0
+sam_altman,Sam Altman,reference_pilot,,0.6097,0.3351,-0.2746,0.027,0.0
+geoffrey_hinton,Geoffrey Hinton,reference_pilot,,0.6157,0.3411,-0.2746,0.0,0.081
+csrankings_vincent_aleven,Vincent Aleven,cs_faculty,Carnegie Mellon University,0.663,0.3901,-0.2729,0.0,0.027
+imo_jetze_zoethout,Jetze Zoethout,imo_gold,,0.3178,0.0454,-0.2724,0.297,0.405
+csrankings_kunle_olukotun,Kunle Olukotun,cs_faculty,Stanford University,0.6246,0.3527,-0.2719,0.0,0.027
+tri_dao,Tri Dao,reference_pilot,,0.532,0.2605,-0.2715,0.081,0.108
+msra_tomoaki_higo_2008,Tomoaki Higo,msra_phd_fellowship,,0.2946,0.0232,-0.2714,0.297,0.27
+imo_ariel_zylber,Ariel Zylber,imo_gold,,0.3154,0.0478,-0.2676,0.243,0.324
+msra_chong_zu_2012,Chong Zu,msra_phd_fellowship,,0.2714,0.0043,-0.2671,0.378,0.378
+oa_author_koutarou_matsumoto,Koutarou Matsumoto,long_tail_researcher_openalex,Kurume University,0.2686,0.0032,-0.2654,0.432,0.297
+jiayi_weng,Jiayi Weng,reference_pilot,,0.3311,0.067,-0.2641,0.243,0.351
+artifact_rabbit,Rabbit,ai_startup_or_company,,0.6703,0.4065,-0.2638,0.054,0.054
+mid_tier_politician_douard_philippe,Édouard Philippe,mid_tier_politician,,0.6514,0.3949,-0.2565,0.0,0.0
+imo_ravi_jagadeeshan,Ravi Jagadeeshan,imo_gold,,0.3154,0.0592,-0.2562,0.297,0.378
+oa_author_mamouna_diagne,Maïmouna Diagne,long_tail_researcher_openalex,Écologie Marine Tropicale des Océans Pacifique et Indien,0.2557,0.0003,-0.2554,0.432,0.297
+mid_tier_writer_charlie_jane_anders,Charlie Jane Anders,mid_tier_writer,,0.8119,0.5576,-0.2543,0.0,0.0
+mid_tier_filmmaker_paul_thomas_anderson,Paul Thomas Anderson,mid_tier_filmmaker,,0.7046,0.4508,-0.2538,0.0,0.0
+mid_tier_filmmaker_spike_lee,Spike Lee,mid_tier_filmmaker,,0.7584,0.5051,-0.2533,0.0,0.0
+mid_tier_filmmaker_lulu_wang,Lulu Wang,mid_tier_filmmaker,,0.8351,0.5819,-0.2532,0.0,0.027
+imo_motoki_takigiku,Motoki Takigiku,imo_gold,,0.2811,0.0281,-0.253,0.378,0.405
+flashattention,FlashAttention,reference_pilot,,0.607,0.3589,-0.2481,0.0,0.054
+csrankings_min_xu_0009,Min Xu 0009,cs_faculty,Carnegie Mellon University,0.2659,0.0186,-0.2473,0.378,0.324
+csrankings_daphne_ippolito,Daphne Ippolito,cs_faculty,Carnegie Mellon University,0.4341,0.1876,-0.2465,0.135,0.054
+csrankings_christoforos_e__kozyrakis,Christoforos E. Kozyrakis,cs_faculty,Stanford University,0.6016,0.3557,-0.2459,0.108,0.027
+imo_yau_wing_li,Yau Wing Li,imo_gold,,0.3035,0.0581,-0.2454,0.297,0.324
+msra_bo_yu_2009,Bo Yu,msra_phd_fellowship,,0.2446,0.0,-0.2446,0.351,0.405
+artifact_tabnine,Tabnine,ai_startup_or_company,,0.6108,0.3662,-0.2446,0.0,0.0
+csrankings_mendel_rosenblum,Mendel Rosenblum,cs_faculty,Stanford University,0.5908,0.352,-0.2388,0.027,0.054
+csrankings_oussama_khatib,Oussama Khatib,cs_faculty,Stanford University,0.578,0.3392,-0.2388,0.0,0.027
+mid_tier_writer_holly_black,Holly Black,mid_tier_writer,,0.843,0.6049,-0.2381,0.0,0.0
+oa_author_muhammad_ali_sodik,Muhammad Ali Sodik,long_tail_researcher_openalex,,0.2378,0.0008,-0.237,0.541,0.297
+msra_william_voorsluys_2009,William Voorsluys,msra_phd_fellowship,,0.3054,0.0689,-0.2365,0.378,0.297
+csrankings_guy_e__blelloch,Guy E. Blelloch,cs_faculty,Carnegie Mellon University,0.6341,0.3992,-0.2349,0.054,0.0
+artifact_allennlp,AllenNLP,oss_project,,0.6195,0.3889,-0.2306,0.0,0.0
+andrej_karpathy,Andrej Karpathy,reference_pilot,,0.6143,0.3859,-0.2284,0.0,0.0
+mid_tier_writer_casey_mcquiston,Casey McQuiston,mid_tier_writer,,0.7959,0.5676,-0.2283,0.0,0.0
+csrankings_ashish_goel,Ashish Goel,cs_faculty,Stanford University,0.5923,0.3643,-0.228,0.054,0.027
+csrankings_jonathan_aldrich,Jonathan Aldrich,cs_faculty,Carnegie Mellon University,0.6238,0.3962,-0.2276,0.027,0.027
+artifact_cursor,Cursor,oss_project,,0.3051,0.0816,-0.2235,0.054,0.189
+csrankings_mark_a__horowitz,Mark A. Horowitz,cs_faculty,Stanford University,0.6035,0.3803,-0.2232,0.027,0.027
+csrankings_stefano_ermon,Stefano Ermon,cs_faculty,Stanford University,0.6157,0.3938,-0.2219,0.0,0.0
+artifact_chain_of_thought,Chain-of-Thought,oss_project,,0.2892,0.0673,-0.2219,0.0,0.378
+mid_tier_filmmaker_olivier_assayas,Olivier Assayas,mid_tier_filmmaker,,0.673,0.4535,-0.2195,0.0,0.0
+mid_tier_politician_yair_lapid,Yair Lapid,mid_tier_politician,,0.5259,0.3081,-0.2178,0.0,0.0
+msra_muoi_tran_2019,Muoi Tran,msra_phd_fellowship,,0.2384,0.0216,-0.2168,0.378,0.378
+imo_bobby_shen,Bobby Shen,imo_gold,,0.3122,0.0959,-0.2163,0.189,0.162
+csrankings_david_lindlbauer,David Lindlbauer,cs_faculty,Carnegie Mellon University,0.4878,0.273,-0.2148,0.162,0.027
+csrankings_mingxing_xu,Mingxing Xu,cs_faculty,Tsinghua University,0.3273,0.1141,-0.2132,0.27,0.216
+artifact_pydantic,Pydantic,oss_project,,0.6778,0.4646,-0.2132,0.0,0.0
+csrankings_balaji_prabhakar,Balaji Prabhakar,cs_faculty,Stanford University,0.5707,0.3624,-0.2083,0.054,0.054
+csrankings_jin_xu_0002,Jin Xu 0002,cs_faculty,Peking University,0.2227,0.0146,-0.2081,0.432,0.378
+csrankings_srinivasan_seshan,Srinivasan Seshan,cs_faculty,Carnegie Mellon University,0.5845,0.3768,-0.2077,0.054,0.054
+csrankings_christopher_piech,Christopher Piech,cs_faculty,Stanford University,0.5982,0.3919,-0.2063,0.027,0.027
+mid_tier_filmmaker_charlie_kaufman,Charlie Kaufman,mid_tier_filmmaker,,0.7581,0.5595,-0.1986,0.0,0.0
+csrankings_liangming_pan,Liangming Pan,cs_faculty,Peking University,0.2695,0.0735,-0.196,0.378,0.108
+oa_author_r__urtasun,R. Urtasun,long_tail_researcher_openalex,Toyota Motor Corporation (United States),0.2057,0.0105,-0.1952,0.351,0.027
+msra_da_yu_2021,Da Yu,msra_phd_fellowship,,0.1946,0.0,-0.1946,0.378,0.405
+csrankings_carolyn_penstein_ros,Carolyn Penstein Rosé,cs_faculty,Carnegie Mellon University,0.5081,0.3138,-0.1943,0.027,0.054
+mid_tier_writer_atia_abawi,Atia Abawi,mid_tier_writer,,0.367,0.1746,-0.1924,0.054,0.054
+csrankings_roy_maxion,Roy Maxion,cs_faculty,Carnegie Mellon University,0.5195,0.3273,-0.1922,0.189,0.108
+mid_tier_politician_anthony_desposito,Anthony D'Esposito,mid_tier_politician,,0.3946,0.2035,-0.1911,0.027,0.027
+csrankings_li_fei_fei_0001,Li Fei-Fei 0001,cs_faculty,Stanford University,0.4576,0.2676,-0.19,0.108,0.108
+tianshou,Tianshou,reference_pilot,,0.4197,0.2316,-0.1881,0.027,0.081
+csrankings_dan_boneh,Dan Boneh,cs_faculty,Stanford University,0.6135,0.4281,-0.1854,0.0,0.0
+imo_thomas_swayze,Thomas Swayze,imo_gold,,0.187,0.0059,-0.1811,0.459,0.459
+artifact_alpaca,Alpaca,oss_project,,0.3541,0.173,-0.1811,0.0,0.054
+artifact_mintlify,Mintlify,ai_startup_or_company,,0.5581,0.377,-0.1811,0.027,0.0
+imo_mikhail_grigorev,Mikhail Grigorev,imo_gold,,0.2065,0.0276,-0.1789,0.324,0.351
+artifact_sockeye,Sockeye,oss_project,,0.4859,0.3073,-0.1786,0.054,0.027
+oa_author_jiabin_huang,Jia‐Bin Huang,long_tail_researcher_openalex,International University of the Caribbean,0.1865,0.0081,-0.1784,0.378,0.054
+csrankings_tom_michael_mitchell,Tom Michael Mitchell,cs_faculty,Carnegie Mellon University,0.587,0.4097,-0.1773,0.0,0.027
+mid_tier_politician_katie_porter,Katie Porter,mid_tier_politician,,0.4368,0.26,-0.1768,0.0,0.0
+mid_tier_writer_colleen_coble,Colleen Coble,mid_tier_writer,,0.4324,0.2581,-0.1743,0.027,0.027
+mid_tier_writer_kenneth_fearing,Kenneth Fearing,mid_tier_writer,,0.3947,0.2215,-0.1732,0.027,0.0
+csrankings_hongliang_yu,Hongliang Yu,cs_faculty,Tsinghua University,0.2057,0.0332,-0.1725,0.297,0.27
+mid_tier_filmmaker_alejandro_gonzlez_irritu,Alejandro González Iñárritu,mid_tier_filmmaker,,0.7381,0.5659,-0.1722,0.0,0.0
+oa_author_jirui_yang,Jirui Yang,long_tail_researcher_openalex,University of Chinese Academy of Sciences,0.1784,0.0086,-0.1698,0.486,0.378
+artifact_tbingen_ai_center,Tübingen AI Center,ai_startup_or_company,,0.4047,0.2349,-0.1698,0.054,0.189
+tuixue_online,tuixue.online,reference_pilot,,0.25,0.0805,-0.1695,0.162,0.297
+mid_tier_writer_frederick_busch,Frederick Busch,mid_tier_writer,,0.413,0.2449,-0.1681,0.027,0.027
+artifact_catboost,CatBoost,oss_project,,0.7135,0.5459,-0.1676,0.0,0.0
+mid_tier_politician_henry_mcmaster,Henry McMaster,mid_tier_politician,,0.4527,0.2851,-0.1676,0.0,0.0
+csrankings_gordon_wetzstein,Gordon Wetzstein,cs_faculty,Stanford University,0.6084,0.4435,-0.1649,0.027,0.027
+oa_author_fumiya_yokomori,Fumiya Yokomori,long_tail_researcher_openalex,University of Yamanashi,0.1638,0.0,-0.1638,0.568,0.27
+mid_tier_writer_j__california_cooper,J. California Cooper,mid_tier_writer,,0.337,0.1732,-0.1638,0.054,0.0
+artifact_perplexity,Perplexity,oss_project,,0.1932,0.0322,-0.161,0.027,0.324
+oa_author_sebastian_raisch,Sebastian Raisch,long_tail_researcher_openalex,University of Geneva,0.1951,0.0347,-0.1604,0.405,0.054
+csrankings_mahadev_satyanarayanan,Mahadev Satyanarayanan,cs_faculty,Carnegie Mellon University,0.5705,0.4119,-0.1586,0.027,0.027
+mid_tier_writer_dennis_cooper,Dennis Cooper,mid_tier_writer,,0.3622,0.2078,-0.1544,0.0,0.0
+artifact_instructor,Instructor,oss_project,,0.5584,0.4054,-0.153,0.081,0.027
+mid_tier_politician_arvind_kejriwal,Arvind Kejriwal,mid_tier_politician,,0.4011,0.2497,-0.1514,0.0,0.0
+artifact_openspiel,OpenSpiel,oss_project,,0.6076,0.4573,-0.1503,0.0,0.0
+artifact_manus,Manus,ai_startup_or_company,,0.2959,0.1459,-0.15,0.27,0.162
+artifact_streamlit,Streamlit,oss_project,,0.6764,0.527,-0.1494,0.0,0.0
+mid_tier_politician_jordan_bardella,Jordan Bardella,mid_tier_politician,,0.5538,0.4049,-0.1489,0.0,0.0
+artifact_fastai,FastAI,oss_project,,0.6524,0.5065,-0.1459,0.0,0.0
+csrankings_james_mccann,James McCann,cs_faculty,Carnegie Mellon University,0.4076,0.2624,-0.1452,0.162,0.135
+artifact_langchain_company,LangChain (company),ai_startup_or_company,,0.6365,0.4919,-0.1446,0.0,0.027
+mid_tier_politician_christopher_luxon,Christopher Luxon,mid_tier_politician,,0.3524,0.2149,-0.1375,0.0,0.0
+oa_author_wei_peng,Wei Peng,long_tail_researcher_openalex,La Trobe University,0.137,0.0,-0.137,0.568,0.162
+mid_tier_politician_peter_dutton,Peter Dutton,mid_tier_politician,,0.3619,0.2249,-0.137,0.0,0.0
+mid_tier_writer_edward_dahlberg,Edward Dahlberg,mid_tier_writer,,0.3935,0.2611,-0.1324,0.054,0.054
+csrankings_fredrik_kjolstad,Fredrik Kjolstad,cs_faculty,Stanford University,0.4049,0.2727,-0.1322,0.27,0.081
+imo_stephen_sanjaya,Stephen Sanjaya,imo_gold,,0.1797,0.0492,-0.1305,0.324,0.216
+artifact_rllib,RLlib,oss_project,,0.5262,0.3965,-0.1297,0.0,0.0
+artifact_aider,Aider,oss_project,,0.3459,0.2192,-0.1267,0.108,0.0
+artifact_runway,Runway,ai_startup_or_company,,0.7124,0.5878,-0.1246,0.0,0.0
+mid_tier_politician_kay_ivey,Kay Ivey,mid_tier_politician,,0.3824,0.2607,-0.1217,0.0,0.0
+mid_tier_writer_kate_braverman,Kate Braverman,mid_tier_writer,,0.3061,0.1847,-0.1214,0.135,0.054
+mid_tier_writer_david_bradley_novelist,David Bradley (novelist),mid_tier_writer,,0.3111,0.1909,-0.1202,0.081,0.0
+csrankings_jiajun_wu_0001,Jiajun Wu 0001,cs_faculty,Stanford University,0.4319,0.3128,-0.1191,0.216,0.135
+artifact_statsmodels,statsmodels,oss_project,,0.6432,0.5243,-0.1189,0.0,0.0
+csrankings_yuqing_kong,Yuqing Kong,cs_faculty,Peking University,0.337,0.2205,-0.1165,0.243,0.135
+mid_tier_politician_kyrsten_sinema,Kyrsten Sinema,mid_tier_politician,,0.3389,0.2255,-0.1134,0.0,0.0
+mid_tier_politician_narendra_modi,Narendra Modi,mid_tier_politician,,0.2916,0.18,-0.1116,0.0,0.0
+artifact_pytorch,PyTorch,oss_project,,0.3432,0.2324,-0.1108,0.0,0.0
+csrankings_jeremy_z__kolter,Jeremy Z. Kolter,cs_faculty,Carnegie Mellon University,0.4886,0.3784,-0.1102,0.189,0.054
+csrankings_yi_ming_li,Yi-Ming Li,cs_faculty,Tsinghua University,0.153,0.0435,-0.1095,0.486,0.27
+csrankings_shanghang_zhang,Shanghang Zhang,cs_faculty,Peking University,0.3316,0.2223,-0.1093,0.27,0.108
+artifact_clicknp,ClickNP,oss_project,,0.2524,0.1476,-0.1048,0.135,0.243
+artifact_whisper,Whisper,oss_project,,0.337,0.2324,-0.1046,0.027,0.027
+mid_tier_politician_josh_hawley,Josh Hawley,mid_tier_politician,,0.3949,0.2914,-0.1035,0.0,0.0
+mid_tier_politician_ilhan_omar,Ilhan Omar,mid_tier_politician,,0.34,0.2381,-0.1019,0.0,0.0
+mid_tier_politician_adam_schiff,Adam Schiff,mid_tier_politician,,0.3727,0.2716,-0.1011,0.0,0.0
+mid_tier_writer_march_novel,March (novel),mid_tier_writer,,0.1005,0.0,-0.1005,0.054,0.081
+mid_tier_politician_pierre_poilievre,Pierre Poilievre,mid_tier_politician,,0.3332,0.2338,-0.0994,0.0,0.0
+mid_tier_politician_lee_jae_myung,Lee Jae-myung,mid_tier_politician,,0.3424,0.2438,-0.0986,0.0,0.0
+mid_tier_politician_robert_habeck,Robert Habeck,mid_tier_politician,,0.3705,0.2722,-0.0983,0.0,0.0
+mid_tier_politician_joe_manchin,Joe Manchin,mid_tier_politician,,0.3735,0.2781,-0.0954,0.0,0.0
+mid_tier_politician_mark_warner,Mark Warner,mid_tier_politician,,0.4378,0.3443,-0.0935,0.0,0.0
+artifact_q_lora,Q-LoRA,oss_project,,0.2746,0.1814,-0.0932,0.054,0.054
+artifact_ollama,Ollama,oss_project,,0.2153,0.1265,-0.0888,0.027,0.027
+mid_tier_politician_gideon_saar,Gideon Saar,mid_tier_politician,,0.3619,0.2746,-0.0873,0.0,0.027
+mid_tier_politician_annalena_baerbock,Annalena Baerbock,mid_tier_politician,,0.2572,0.1707,-0.0865,0.0,0.0
+mid_tier_politician_ayanna_pressley,Ayanna Pressley,mid_tier_politician,,0.3143,0.2292,-0.0851,0.027,0.0
+mid_tier_politician_friedrich_merz,Friedrich Merz,mid_tier_politician,,0.325,0.2416,-0.0834,0.0,0.0
+mid_tier_politician_tim_kaine,Tim Kaine,mid_tier_politician,,0.3001,0.223,-0.0771,0.0,0.0
+csrankings_joel_mcmanus,Joel McManus,cs_faculty,Carnegie Mellon University,0.0846,0.0076,-0.077,0.514,0.459
+mid_tier_politician_cori_bush,Cori Bush,mid_tier_politician,,0.3722,0.2959,-0.0763,0.0,0.0
+csrankings_christian_cuba_samaniego,Christian Cuba Samaniego,cs_faculty,Carnegie Mellon University,0.1078,0.0324,-0.0754,0.568,0.378
+oa_author_isabelle_lajoie,Isabelle Lajoie,long_tail_researcher_openalex,,0.0649,0.0041,-0.0608,0.649,0.162
+mid_tier_politician_gabriel_attal,Gabriel Attal,mid_tier_politician,,0.2768,0.2162,-0.0606,0.027,0.0
+mid_tier_politician_ron_desantis,Ron DeSantis,mid_tier_politician,,0.2722,0.2141,-0.0581,0.0,0.0
+mid_tier_writer_everything_is_illuminated,Everything Is Illuminated,mid_tier_writer,,0.0559,0.0,-0.0559,0.108,0.054
+artifact_rocm,ROCm,oss_project,,0.3332,0.2784,-0.0548,0.0,0.0
+artifact_ray_serve,Ray Serve,oss_project,,0.4608,0.4146,-0.0462,0.0,0.0
+artifact_onnx_runtime,ONNX Runtime,oss_project,,0.5027,0.4595,-0.0432,0.0,0.0
+mid_tier_writer_laura_abbot,Laura Abbot,mid_tier_writer,,0.1676,0.1254,-0.0422,0.459,0.189
+mid_tier_writer_kinflicks,Kinflicks,mid_tier_writer,,0.0419,0.0016,-0.0403,0.324,0.297
+mid_tier_politician_cory_booker,Cory Booker,mid_tier_politician,,0.3058,0.2715,-0.0343,0.0,0.0
+mid_tier_writer_emma_scarr_booth,Emma Scarr Booth,mid_tier_writer,,0.0997,0.0695,-0.0302,0.541,0.324
+oa_author_thiago_augusto_vieira,Thiago Augusto Vieira,long_tail_researcher_openalex,Massachusetts Institute of Technology,0.0259,0.0,-0.0259,0.595,0.378
+bojie_li,Bojie Li,reference_pilot,,0.0901,0.0681,-0.022,0.351,0.243
+artifact_cub,CUB,oss_project,,0.42,0.4057,-0.0143,0.0,0.027
+mid_tier_writer_camp_concentration,Camp Concentration,mid_tier_writer,,0.0134,0.0014,-0.012,0.216,0.189
+mid_tier_writer_harriet_the_spy,Harriet the Spy,mid_tier_writer,,0.02,0.0108,-0.0092,0.324,0.054
+mid_tier_politician_j_d__vance,J.D. Vance,mid_tier_politician,,0.2222,0.2151,-0.0071,0.081,0.0
+artifact_colbert_v2,ColBERT-v2,oss_project,,0.2357,0.2551,0.0194,0.0,0.0
+artifact_crew_ai_company,Crew AI (company),ai_startup_or_company,,0.4095,0.4473,0.0378,0.162,0.0
+artifact_llama_stack,Llama-Stack,oss_project,,0.3219,0.3976,0.0757,0.189,0.054

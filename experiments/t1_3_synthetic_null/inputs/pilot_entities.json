@@ -1,0 +1,194 @@
+[
+  {
+    "id": "syn_cs_yorel_heskenwald",
+    "name": "Yorel Heskenwald",
+    "context": "a computer science faculty member at ETH Zurich working on programming language theory",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_anveer_kothakonda",
+    "name": "Anveer Kothakonda",
+    "context": "a computer science faculty member at the University of Edinburgh working on systems for machine learning",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_eskil_vrancken",
+    "name": "Eskil Vrancken",
+    "context": "a computer science faculty member at KU Leuven working on formal verification",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_vihaan_periswamy",
+    "name": "Vihaan Periswamy",
+    "context": "a computer science faculty member at the Indian Institute of Science working on database systems",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_tarvik_olshanski",
+    "name": "Tarvik Olshanski",
+    "context": "a computer science faculty member at the University of Toronto working on theoretical cryptography",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_onnele_sjoberg",
+    "name": "Onnele Sjöberg",
+    "context": "a computer science faculty member at KTH Royal Institute of Technology working on distributed systems",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_devansh_maliholkar",
+    "name": "Devansh Maliholkar",
+    "context": "a computer science faculty member at Georgia Tech working on natural language processing",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_wenslin_kraborsky",
+    "name": "Wenslin Kraborsky",
+    "context": "a computer science faculty member at TU Munich working on robotics and reinforcement learning",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_halvar_mendigutia",
+    "name": "Halvar Mendigutia",
+    "context": "a computer science faculty member at the University of Helsinki working on computer vision",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_cs_iskander_vrolijk",
+    "name": "Iskander Vrolijk",
+    "context": "a computer science faculty member at TU Delft working on graph neural networks",
+    "cohort": "synthetic_cs_faculty"
+  },
+  {
+    "id": "syn_founder_brendel_quanzhong",
+    "name": "Brendel Quanzhong",
+    "context": "co-founder and CEO of an AI infrastructure startup focused on distributed training, founded 2023",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_founder_marielys_caballenas",
+    "name": "Marielys Caballenas",
+    "context": "co-founder and CEO of a developer tools startup focused on observability, founded 2022",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_founder_jocelin_okwuosu",
+    "name": "Jocelin Okwuosu",
+    "context": "co-founder and CTO of an AI agents startup focused on enterprise workflow automation, founded 2024",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_founder_pieter_van_houtrijn",
+    "name": "Pieter van Houtrijn",
+    "context": "co-founder and CEO of a robotics startup building autonomous warehouse systems, founded 2021",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_founder_renske_thalvald",
+    "name": "Renske Thalvald",
+    "context": "co-founder and CTO of a cybersecurity startup focused on supply-chain attack detection, founded 2023",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_founder_amitabh_nakshatri",
+    "name": "Amitabh Nakshatri",
+    "context": "co-founder and CEO of a vector-database startup serving retrieval-augmented generation workloads, founded 2022",
+    "cohort": "synthetic_founder"
+  },
+  {
+    "id": "syn_imo_vesper_lindblom",
+    "name": "Vesper Lindblom",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing Sweden",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "Sweden"
+  },
+  {
+    "id": "syn_imo_aslan_shyngyssov",
+    "name": "Aslan Shyngyssov",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing Kazakhstan",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "Kazakhstan"
+  },
+  {
+    "id": "syn_imo_petr_zelinka",
+    "name": "Petr Zelinka",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing Czechia",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "Czechia"
+  },
+  {
+    "id": "syn_imo_quoc_nhat_dau",
+    "name": "Quốc Nhật Đậu",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing Vietnam",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "Vietnam"
+  },
+  {
+    "id": "syn_imo_milos_pravdic",
+    "name": "Miloš Pravdić",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing Serbia",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "Serbia"
+  },
+  {
+    "id": "syn_imo_zhuoming_qiang",
+    "name": "Zhuoming Qiang",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2014 representing China",
+    "cohort": "synthetic_imo_gold",
+    "credential_year": 2014,
+    "credential_country": "China"
+  },
+  {
+    "id": "syn_oss_spindleflow",
+    "name": "Spindleflow",
+    "context": "an open-source workflow orchestration library for Python data pipelines, hosted at github.com/spindleflow/spindleflow",
+    "cohort": "synthetic_oss_project"
+  },
+  {
+    "id": "syn_oss_quillvec",
+    "name": "Quillvec",
+    "context": "an open-source vector indexing library optimized for low-latency similarity search, hosted at github.com/quillvec/quillvec",
+    "cohort": "synthetic_oss_project"
+  },
+  {
+    "id": "syn_oss_lattispan",
+    "name": "Lattispan",
+    "context": "an open-source distributed-tracing library for asynchronous Python services, hosted at github.com/lattispan/lattispan",
+    "cohort": "synthetic_oss_project"
+  },
+  {
+    "id": "syn_oss_glaivebench",
+    "name": "Glaivebench",
+    "context": "an open-source benchmark suite for evaluating long-context reasoning in language models",
+    "cohort": "synthetic_oss_project"
+  },
+  {
+    "id": "syn_mid_musician_bruno_esquivel_tang",
+    "name": "Bruno Esquivel-Tang",
+    "context": "indie folk singer-songwriter from Mexico City, released the album Marisma Azul in 2022",
+    "cohort": "synthetic_mid_tier_musician"
+  },
+  {
+    "id": "syn_mid_chef_celestin_rouvenaz",
+    "name": "Célestin Rouvenaz",
+    "context": "Swiss chef and owner of Le Tournesol Bleu in Vevey, one Michelin star (2023)",
+    "cohort": "synthetic_mid_tier_chef"
+  },
+  {
+    "id": "syn_mid_journalist_mireia_aldecoa",
+    "name": "Mireia Aldecoa",
+    "context": "Spanish foreign-affairs correspondent for El Diario, covering Latin American politics",
+    "cohort": "synthetic_mid_tier_journalist"
+  },
+  {
+    "id": "syn_mid_podcast_the_quiet_signal",
+    "name": "The Quiet Signal",
+    "context": "a long-form documentary podcast about underreported scientific controversies, launched 2021",
+    "cohort": "synthetic_mid_tier_podcast"
+  }
+]

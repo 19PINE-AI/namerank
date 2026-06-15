@@ -1,0 +1,61 @@
+institution,female_id,female_name,female_NR,male_id,male_name,male_NR,delta_male_minus_female
+University of Michigan,csrankings_emily_mower_provost,Emily Mower Provost,0.53,csrankings_christopher_peikert,Christopher Peikert,0.6646,0.1346
+Cornell University,csrankings_angelique_taylor_tech,Angelique Taylor [Tech],0.2786,csrankings_steve_marschner,Steve Marschner,0.6486,0.37
+University of Michigan,csrankings_jenna_wiens,Jenna Wiens,0.5992,csrankings_ronald_g__dreslinski,Ronald G. Dreslinski,0.5338,-0.0654
+Cornell University,csrankings_phoebe_sengers,Phoebe Sengers,0.5841,csrankings_immanuel_trummer,Immanuel Trummer,0.5468,-0.0373
+University of Washington,csrankings_hanna_hajishirzi,Hanna Hajishirzi,0.5592,csrankings_jon_froehlich,Jon Froehlich,0.6489,0.0897
+Princeton University,csrankings_olga_g__troyanskaya,Olga G. Troyanskaya,0.6108,csrankings_adam_finkelstein,Adam Finkelstein,0.5203,-0.0905
+Carnegie Mellon University,csrankings_carolyn_penstein_ros,Carolyn Penstein Rosé,0.5081,csrankings_fraser_brown,Fraser Brown,0.3051,-0.203
+Carnegie Mellon University,csrankings_lorrie_faith_cranor,Lorrie Faith Cranor,0.6303,csrankings_ziv_bar_joseph,Ziv Bar-Joseph,0.567,-0.0633
+Carnegie Mellon University,csrankings_maria_florina_popa,Maria-Florina Popa,0.1251,csrankings_anupam_datta,Anupam Datta,0.6562,0.5311
+Cornell University,csrankings_martha_e__pollack,Martha E. Pollack,0.5122,csrankings_david_s__bindel,David S. Bindel,0.5951,0.0829
+Cornell University,csrankings_arpita_ghosh,Arpita Ghosh,0.4276,csrankings_andrew_clifford_myers,Andrew Clifford Myers,0.5681,0.1405
+Carnegie Mellon University,csrankings_amy_ogan,Amy Ogan,0.5435,csrankings_roy_maxion,Roy Maxion,0.5195,-0.024
+Princeton University,csrankings_mae_milano,Mae Milano,0.1768,csrankings_brian_w__kernighan,Brian W. Kernighan,0.5589,0.3821
+Cornell University,csrankings_nicola_dell_tech,Nicola Dell [Tech],0.4757,csrankings_paul_glz,Paul Gölz,0.3392,-0.1365
+University of Washington,csrankings_magdalena_balazinska,Magdalena Balazinska,0.6419,csrankings_jeff_a__bilmes,Jeff A. Bilmes,0.6501,0.0082
+University of Michigan,csrankings_elizabeth_bondi_kelly,Elizabeth Bondi-Kelly,0.3416,csrankings_brian_noble,Brian Noble,0.5554,0.2138
+University of Michigan,csrankings_maggie_makar,Maggie Makar,0.3395,csrankings_karem_a__sakallah,Karem A. Sakallah,0.5716,0.2321
+Cornell University,csrankings_giulia_guidi,Giulia Guidi,0.3116,csrankings_ronald_j__brachman,Ronald J. Brachman,0.5346,0.223
+University of Washington,csrankings_ira_kemelmacher_shlizerman,Ira Kemelmacher-Shlizerman,0.6632,csrankings_stefano_tessaro,Stefano Tessaro,0.5732,-0.09
+Cornell University,csrankings_tanya_goyal,Tanya Goyal,0.2735,csrankings_david_m__mimno,David M. Mimno,0.6719,0.3984
+Cornell University,csrankings_francesca_parise,Francesca Parise,0.4451,csrankings_joe_halpern,Joe Halpern,0.6703,0.2252
+Carnegie Mellon University,csrankings_daphne_ippolito,Daphne Ippolito,0.4341,csrankings_riad_wahby,Riad Wahby,0.5284,0.0943
+Princeton University,csrankings_radhika_nagpal,Radhika Nagpal,0.4321,csrankings_michael_j__freedman,Michael J. Freedman,0.5068,0.0747
+Carnegie Mellon University,csrankings_emma_strubell,Emma Strubell,0.4959,csrankings_james_h__morris_jr_,James H. Morris Jr.,0.5305,0.0346
+University of Washington,csrankings_jennifer_mankoff,Jennifer Mankoff,0.6754,csrankings_ben_shapiro_0001,Ben Shapiro 0001,0.1311,-0.5443
+Cornell University,csrankings_helen_nissenbaum_tech,Helen Nissenbaum [Tech],0.6524,csrankings_yoav_artzi_tech,Yoav Artzi [Tech],0.5824,-0.07
+Cornell University,csrankings_kyra_gan_tech,Kyra Gan [Tech],0.1576,csrankings_alexander_m__rush_tech,Alexander M. Rush [Tech],0.6009,0.4433
+Cornell University,csrankings_carla_gomes_0001,Carla Gomes 0001,0.5181,csrankings_karthik_sridharan,Karthik Sridharan,0.4865,-0.0316
+Carnegie Mellon University,csrankings_mona_t__diab,Mona T. Diab,0.4749,csrankings_hartmut_geyer,Hartmut Geyer,0.3659,-0.109
+Cornell University,csrankings_kirstin_h__petersen,Kirstin H. Petersen,0.5114,csrankings_donald_greenberg,Donald Greenberg,0.5557,0.0443
+University of Chicago,csrankings_sarah_strohkorb_sebo,Sarah Strohkorb Sebo,0.5257,csrankings_aaron_henry_potechin,Aaron Henry Potechin,0.4008,-0.1249
+University of Waterloo,csrankings_kate_larson,Kate Larson,0.4826,csrankings_mohammad_hajiabadi,Mohammad Hajiabadi,0.3395,-0.1431
+University of Essex,csrankings_maria_kyropoulou,Maria Kyropoulou,0.4095,csrankings_dariush_mirshekar_syahkal,Dariush Mirshekar-Syahkal,0.3797,-0.0298
+Monash University,csrankings_grace_w__rumantir,Grace W. Rumantir,0.2908,csrankings_patrick_l__olivier,Patrick L. Olivier,0.3768,0.086
+Rutgers University,csrankings_lesia_semenova,Lesia Semenova,0.138,csrankings_bahman_kalantari,Bahman Kalantari,0.5011,0.3631
+University of Göttingen,csrankings_delphine_christin,Delphine Christin,0.2957,csrankings_bernhard_schmitzer,Bernhard Schmitzer,0.4043,0.1086
+Politecnico di Milano,csrankings_maristella_matera,Maristella Matera,0.4703,csrankings_dino_mandrioli,Dino Mandrioli,0.5489,0.0786
+Monash University,csrankings_mahsa_salehi,Mahsa Salehi,0.3281,csrankings_peter_james_stuckey,Peter James Stuckey,0.6527,0.3246
+Virginia Tech,csrankings_eugenia_ha_rim_rho,Eugenia Ha Rim Rho,0.3722,csrankings_chris_thomas_0004,Chris Thomas 0004,0.1372,-0.235
+Universidade de Lisboa,csrankings_helena_galhardas,Helena Galhardas,0.5168,csrankings_alberto_rodrigues_da_silva,Alberto Rodrigues da Silva,0.4177,-0.0991
+Georgia Institute of Technology,csrankings_elizabeth_cherry,Elizabeth Cherry,0.2332,csrankings_christopher_j__maclellan,Christopher J. MacLellan,0.4135,0.1803
+University of Cagliari,csrankings_daniele_d__giusto,Daniele D. Giusto,0.3949,csrankings_riccardo_scateni,Riccardo Scateni,0.4916,0.0967
+USP-ICMC,csrankings_rosana_t__vaccare_braga,Rosana T. Vaccare Braga,0.4305,csrankings_paulo_sergio_lopes_de_souza,Paulo Sergio Lopes de Souza,0.3405,-0.09
+Arizona State University,csrankings_hannah_kerner,Hannah Kerner,0.4189,csrankings_theodore_p__pavlic,Theodore P. Pavlic,0.4659,0.047
+Uppsala University,csrankings_ingrid_carlbom,Ingrid Carlbom,0.3008,csrankings_alexander_medvedev,Alexander Medvedev,0.3386,0.0378
+University of Liverpool,csrankings_clare_dixon,Clare Dixon,0.5105,csrankings_pavlos_g__spirakis,Pavlos G. Spirakis,0.5739,0.0634
+TU Delft,csrankings_myrthe_l__tielman,Myrthe L. Tielman,0.4319,csrankings_luis_cruz_0002,Luis Cruz 0002,0.3016,-0.1303
+University of Melbourne,csrankings_liz_sonenberg,Liz Sonenberg,0.5643,csrankings_eduardo_oliveira_0001,Eduardo Oliveira 0001,0.1146,-0.4497
+UFMG,csrankings_raquel_cardoso_de_melo_minardi,Raquel Cardoso de Melo Minardi,0.3719,csrankings_omar_p__vilela_neto,Omar P. Vilela Neto,0.2438,-0.1281
+Georgia Institute of Technology,csrankings_judith_odili_uchidiuno,Judith Odili Uchidiuno,0.2473,csrankings_carl_f__disalvo,Carl F. DiSalvo,0.6538,0.4065
+TU Dresden,csrankings_stefanie_speidel,Stefanie Speidel,0.4559,csrankings_bjrn_andres,Björn Andres,0.3981,-0.0578
+University College London,csrankings_licia_capra,Licia Capra,0.5286,csrankings_lorenzo_cavallaro,Lorenzo Cavallaro,0.5703,0.0417
+University of Central Florida,csrankings_nazanin_rahnavard,Nazanin Rahnavard,0.3205,csrankings_ronald_d__dutton,Ronald D. Dutton,0.2541,-0.0664
+University of Virginia,csrankings_samira_manabi_khan,Samira Manabi Khan,0.2581,csrankings_wajih_ul_hassan,Wajih Ul Hassan,0.3376,0.0795
+Tel Aviv University,csrankings_anat_bremler_barr,Anat Bremler-Barr,0.5681,csrankings_gil_cohen,Gil Cohen,0.5284,-0.0397
+University of A Coruña,csrankings_virginia_mato_abad,Virginia Mato Abad,0.3085,csrankings_bernardino_arcay_varela,Bernardino Arcay Varela,0.3738,0.0653
+TU Delft,csrankings_nezihe_merve_grel,Nezihe Merve Gürel,0.3511,csrankings_rafael_bidarra,Rafael Bidarra,0.5786,0.2275
+University of Toronto,csrankings_jessica_burgner_kahrs,Jessica Burgner-Kahrs,0.42,csrankings_ronald_ron_m__baecker,Ronald (Ron) M. Baecker,0.7459,0.3259
+UFRGS,csrankings_ingrid_nunes,Ingrid Nunes,0.4224,csrankings_jos_rodrigo_azambuja,José Rodrigo Azambuja,0.2916,-0.1308
+Univ. of Massachusetts Amherst,csrankings_jenna_l__marquard,Jenna L. Marquard,0.3465,csrankings_benjamin_m__marlin,Benjamin M. Marlin,0.4943,0.1478

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "simon_willison",
+    "name": "Simon Willison",
+    "context": "a software engineer and writer, co-creator of the Django web framework and creator of Datasette, who blogs extensively about LLMs and AI tools",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "dario_amodei",
+    "name": "Dario Amodei",
+    "context": "the co-founder and CEO of Anthropic, previously VP of Research at OpenAI",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "andrej_karpathy",
+    "name": "Andrej Karpathy",
+    "context": "a computer scientist and AI educator, author of the nanoGPT open-source project, founder of Eureka Labs, formerly a director at Tesla and a co-founder of OpenAI",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "jiayi_weng",
+    "name": "Jiayi Weng",
+    "context": "an engineer at OpenAI working on infrastructure and the original author of the Tianshou reinforcement-learning library, formerly a research engineer at Sea AI Lab and PhD student at Tsinghua University",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "tri_dao",
+    "name": "Tri Dao",
+    "context": "a researcher in efficient deep-learning systems and the lead author of FlashAttention, currently faculty at Princeton University and chief scientist at Together AI",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "lilian_weng",
+    "name": "Lilian Weng",
+    "context": "a researcher formerly at OpenAI heading applied research and safety, known for writing the influential ML blog at lilianweng.github.io",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "harrison_chase",
+    "name": "Harrison Chase",
+    "context": "the co-founder and CEO of LangChain, an open-source framework for building applications with large language models",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "aman_sanger",
+    "name": "Aman Sanger",
+    "context": "a co-founder of Cursor, an AI-powered code editor company",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "demis_hassabis",
+    "name": "Demis Hassabis",
+    "context": "the co-founder and CEO of Google DeepMind",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "mira_murati",
+    "name": "Mira Murati",
+    "context": "the founder of Thinking Machines Lab, formerly Chief Technology Officer of OpenAI",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "aravind_srinivas",
+    "name": "Aravind Srinivas",
+    "context": "the co-founder and CEO of Perplexity, a company in AI search",
+    "cohort": "reference_pilot"
+  }
+]

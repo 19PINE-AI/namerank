@@ -1,0 +1,1814 @@
+[
+  {
+    "id": "gpt5_christina_kaplan",
+    "name": "Christina Kaplan",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_alexey_ivanov",
+    "name": "Alexey Ivanov",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_joey_flynn",
+    "name": "Joey Flynn",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_jamie_kiros",
+    "name": "Jamie Kiros",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_ian_kivlichan",
+    "name": "Ian Kivlichan",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_daniel_wright",
+    "name": "Daniel Wright",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_chen_shen",
+    "name": "Chen Shen",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_tao_xin",
+    "name": "Tao Xin",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_brittany_brenner",
+    "name": "Brittany Brenner",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_nicklas_ansman",
+    "name": "Nicklas Ansman",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_alyssa_huang",
+    "name": "Alyssa Huang",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_yuanzhi_li",
+    "name": "Yuanzhi Li",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_tomek_korbak",
+    "name": "Tomek Korbak",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_heather_schmidt",
+    "name": "Heather Schmidt",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_ilge_akkaya",
+    "name": "Ilge Akkaya",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_shaokyi_amdo",
+    "name": "Shaokyi Amdo",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_sulman_choudhry",
+    "name": "Sulman Choudhry",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_yizhong_xiong",
+    "name": "Yizhong Xiong",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_cedric_whitney",
+    "name": "Cedric Whitney",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_lindsey_held",
+    "name": "Lindsey Held",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_kristen_ying",
+    "name": "Kristen Ying",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_li_jing",
+    "name": "Li Jing",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_jiancheng_liu",
+    "name": "Jiancheng Liu",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_hanson_wang",
+    "name": "Hanson Wang",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_yushi_wang",
+    "name": "Yushi Wang",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_xiangning_chen",
+    "name": "Xiangning Chen",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_joseph_mo",
+    "name": "Joseph Mo",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_wenting_zhan",
+    "name": "Wenting Zhan",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_michelle_pokrass",
+    "name": "Michelle Pokrass",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "gpt5_aidan_mclaughlin",
+    "name": "Aidan McLaughlin",
+    "context": "a contributor listed on the OpenAI GPT-5 System Card (August 2025)",
+    "cohort": "gpt5_system_card_author",
+    "credential_year": 2025,
+    "credential_country": "USA"
+  },
+  {
+    "id": "imo_thnh_trung_cn_trn",
+    "name": "Thành Trung Cấn Trần",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Vietnam",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Vietnam"
+  },
+  {
+    "id": "imo_chao_gu",
+    "name": "Chao Gu",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing China",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_alexey_pakharev",
+    "name": "Alexey Pakharev",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Russia",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "imo_yutao_liu",
+    "name": "Yutao Liu",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing China",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_janos_nagy",
+    "name": "János Nagy",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Hungary",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Hungary"
+  },
+  {
+    "id": "imo_how_si_yu",
+    "name": "How Si Yu",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Malaysia",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Malaysia"
+  },
+  {
+    "id": "imo_hao_wu",
+    "name": "Hao Wu",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing China",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_debdyuti_banerjee",
+    "name": "Debdyuti Banerjee",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing India",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "India"
+  },
+  {
+    "id": "imo_yue_ding",
+    "name": "Yue Ding",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Singapore",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Singapore"
+  },
+  {
+    "id": "imo_bumsoo_kim",
+    "name": "Bumsoo Kim",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Korea",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Korea"
+  },
+  {
+    "id": "imo_vasily_mokin",
+    "name": "Vasily Mokin",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Russia",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "imo_rom_dudkiewicz",
+    "name": "Rom Dudkiewicz",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Israel",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Israel"
+  },
+  {
+    "id": "imo_bogdan_veklych",
+    "name": "Bogdan Veklych",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2009/2010 representing Ukraine",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Ukraine"
+  },
+  {
+    "id": "imo_stpan_simsa",
+    "name": "Štěpán Šimsa",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Czech Republic",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Czech Republic"
+  },
+  {
+    "id": "imo_mehmet_efe_akengin",
+    "name": "Mehmet Efe Akengin",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011/2013 representing Türkiye",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Türkiye"
+  },
+  {
+    "id": "imo_andrea_bianchi",
+    "name": "Andrea Bianchi",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Italy",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Italy"
+  },
+  {
+    "id": "imo_aliaksei_semchankau",
+    "name": "Aliaksei Semchankau",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Belarus",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Belarus"
+  },
+  {
+    "id": "imo_borna_vukorepa",
+    "name": "Borna Vukorepa",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Croatia",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Croatia"
+  },
+  {
+    "id": "imo_hak_myong_mun",
+    "name": "Hak Myong Mun",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing DPR Korea",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "DPR Korea"
+  },
+  {
+    "id": "imo_haoyu_wang",
+    "name": "Haoyu Wang",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing China",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_pedram_safaee",
+    "name": "Pedram Safaee",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Iran",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Iran"
+  },
+  {
+    "id": "imo_sureyya_emre_kurt",
+    "name": "Süreyya Emre Kurt",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Türkiye",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Türkiye"
+  },
+  {
+    "id": "imo_zhuo_qun_alex_song",
+    "name": "Zhuo Qun (Alex) Song",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011/2012/2013 representing Canada",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Canada"
+  },
+  {
+    "id": "imo_se_hyun_ji",
+    "name": "Se Hyun Ji",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Korea",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Korea"
+  },
+  {
+    "id": "imo_filip_borowiec",
+    "name": "Filip Borowiec",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Poland",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Poland"
+  },
+  {
+    "id": "imo_tingchun_lin",
+    "name": "Ting-Chun Lin",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Taiwan",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Taiwan"
+  },
+  {
+    "id": "imo_yikang_xiao",
+    "name": "Yikang Xiao",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing China",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_matthew_brennan",
+    "name": "Matthew Brennan",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Canada",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Canada"
+  },
+  {
+    "id": "imo_hanwool_moon",
+    "name": "Hanwool Moon",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Korea",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Korea"
+  },
+  {
+    "id": "imo_mikhail_grigorev",
+    "name": "Mikhail Grigorev",
+    "context": "a gold medalist at the International Mathematical Olympiad (IMO) 2011/2012 representing Russia",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "oa_author_tobias_j__osborne",
+    "name": "Tobias J. Osborne",
+    "context": "an academic researcher in Quantum many-body systems at Leibniz University Hannover, with approximately 7805 total citations and h-index 38",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "DE",
+    "subfield": "Quantum many-body systems",
+    "h_index": 38,
+    "cited_by_count": 7805,
+    "openalex_id": "https://openalex.org/A5074511091",
+    "institution": "Leibniz University Hannover"
+  },
+  {
+    "id": "oa_author_chia_hao_chin",
+    "name": "Chia-Hao Chin",
+    "context": "an academic researcher in Bioinformatics and Genomic Networks at Nanhua University, with approximately 7028 total citations and h-index 3",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "TW",
+    "subfield": "Bioinformatics and Genomic Networks",
+    "h_index": 3,
+    "cited_by_count": 7028,
+    "openalex_id": "https://openalex.org/A5043162263",
+    "institution": "Nanhua University"
+  },
+  {
+    "id": "oa_author_alex_kendall",
+    "name": "Alex Kendall",
+    "context": "an academic researcher in Advanced Vision and Imaging, with approximately 14130 total citations and h-index 26",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Advanced Vision and Imaging",
+    "h_index": 26,
+    "cited_by_count": 14130,
+    "openalex_id": "https://openalex.org/A5003855956",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_zhiguang_wang",
+    "name": "Zhiguang Wang",
+    "context": "an academic researcher in Time Series Analysis and Forecasting at GE Global Research (United States), with approximately 11817 total citations and h-index 47",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Time Series Analysis and Forecasting",
+    "h_index": 47,
+    "cited_by_count": 11817,
+    "openalex_id": "https://openalex.org/A5100637055",
+    "institution": "GE Global Research (United States)"
+  },
+  {
+    "id": "oa_author_jian_cheng",
+    "name": "Jian Cheng",
+    "context": "an academic researcher in Human Pose and Action Recognition at Chinese Academy of Sciences, with approximately 15197 total citations and h-index 47",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "Human Pose and Action Recognition",
+    "h_index": 47,
+    "cited_by_count": 15197,
+    "openalex_id": "https://openalex.org/A5112149353",
+    "institution": "Chinese Academy of Sciences"
+  },
+  {
+    "id": "oa_author_ian_bruno",
+    "name": "Ian Bruno",
+    "context": "an academic researcher in Crystallography and molecular interactions at Cambridge Crystallographic Data Centre, with approximately 24393 total citations and h-index 19",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Crystallography and molecular interactions",
+    "h_index": 19,
+    "cited_by_count": 24393,
+    "openalex_id": "https://openalex.org/A5017379831",
+    "institution": "Cambridge Crystallographic Data Centre"
+  },
+  {
+    "id": "oa_author_hans_j__jansen",
+    "name": "Hans J. Jansen",
+    "context": "an academic researcher in Genomics and Phylogenetic Studies at Leiden University, with approximately 6659 total citations and h-index 31",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "NL",
+    "subfield": "Genomics and Phylogenetic Studies",
+    "h_index": 31,
+    "cited_by_count": 6659,
+    "openalex_id": "https://openalex.org/A5063286596",
+    "institution": "Leiden University"
+  },
+  {
+    "id": "oa_author_david_cox",
+    "name": "David Cox",
+    "context": "an academic researcher in Machine Learning and Data Classification, with approximately 19400 total citations and h-index 50",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Machine Learning and Data Classification",
+    "h_index": 50,
+    "cited_by_count": 19400,
+    "openalex_id": "https://openalex.org/A5100763986",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_zhaohui_yang",
+    "name": "Zhaohui Yang",
+    "context": "an academic researcher in Privacy-Preserving Technologies in Data at King's College London, with approximately 15782 total citations and h-index 58",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Privacy-Preserving Technologies in Data",
+    "h_index": 58,
+    "cited_by_count": 15782,
+    "openalex_id": "https://openalex.org/A5066878475",
+    "institution": "King's College London"
+  },
+  {
+    "id": "oa_author_cha_zhang",
+    "name": "Cha Zhang",
+    "context": "an academic researcher in Emotion and Mood Recognition at Microsoft (United States), with approximately 13168 total citations and h-index 52",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Emotion and Mood Recognition",
+    "h_index": 52,
+    "cited_by_count": 13168,
+    "openalex_id": "https://openalex.org/A5103551927",
+    "institution": "Microsoft (United States)"
+  },
+  {
+    "id": "oa_author_wenguan_wang",
+    "name": "Wenguan Wang",
+    "context": "an academic researcher in Visual Attention and Saliency Detection at Inception Institute of Artificial Intelligence, with approximately 19588 total citations and h-index 72",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "AE",
+    "subfield": "Visual Attention and Saliency Detection",
+    "h_index": 72,
+    "cited_by_count": 19588,
+    "openalex_id": "https://openalex.org/A5101433884",
+    "institution": "Inception Institute of Artificial Intelligence"
+  },
+  {
+    "id": "oa_author_zhi_zhang",
+    "name": "Zhi Zhang",
+    "context": "an academic researcher in Advanced Neural Network Applications at Amazon (United States), with approximately 3325 total citations and h-index 21",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 21,
+    "cited_by_count": 3325,
+    "openalex_id": "https://openalex.org/A5100410702",
+    "institution": "Amazon (United States)"
+  },
+  {
+    "id": "oa_author_rob_tibshirani",
+    "name": "Rob Tibshirani",
+    "context": "an academic researcher in Statistical Methods and Inference, with approximately 21712 total citations and h-index 29",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Statistical Methods and Inference",
+    "h_index": 29,
+    "cited_by_count": 21712,
+    "openalex_id": "https://openalex.org/A5112611285",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_bradford_m__beckmann",
+    "name": "Bradford M. Beckmann",
+    "context": "an academic researcher in Parallel Computing and Optimization Techniques at Advanced Micro Devices (Canada), with approximately 8360 total citations and h-index 22",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CA",
+    "subfield": "Parallel Computing and Optimization Techniques",
+    "h_index": 22,
+    "cited_by_count": 8360,
+    "openalex_id": "https://openalex.org/A5077056823",
+    "institution": "Advanced Micro Devices (Canada)"
+  },
+  {
+    "id": "oa_author_shotaro_sano",
+    "name": "Shotaro Sano",
+    "context": "an academic researcher in Machine Learning and Data Classification at Preferred Networks (Japan), with approximately 6976 total citations and h-index 5",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JP",
+    "subfield": "Machine Learning and Data Classification",
+    "h_index": 5,
+    "cited_by_count": 6976,
+    "openalex_id": "https://openalex.org/A5009011727",
+    "institution": "Preferred Networks (Japan)"
+  },
+  {
+    "id": "oa_author_matthias_feurer",
+    "name": "Matthias Feurer",
+    "context": "an academic researcher in Machine Learning and Data Classification at University of Freiburg, with approximately 4022 total citations and h-index 18",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "DE",
+    "subfield": "Machine Learning and Data Classification",
+    "h_index": 18,
+    "cited_by_count": 4022,
+    "openalex_id": "https://openalex.org/A5054262288",
+    "institution": "University of Freiburg"
+  },
+  {
+    "id": "oa_author_alexander_mathis",
+    "name": "Alexander Mathis",
+    "context": "an academic researcher in Human Pose and Action Recognition at Harvard University, with approximately 11511 total citations and h-index 27",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Human Pose and Action Recognition",
+    "h_index": 27,
+    "cited_by_count": 11511,
+    "openalex_id": "https://openalex.org/A5013861606",
+    "institution": "Harvard University"
+  },
+  {
+    "id": "oa_author_alexander_kloosterman",
+    "name": "Alexander Kloosterman",
+    "context": "an academic researcher in Metabolomics and Mass Spectrometry Studies at Leiden University, with approximately 3178 total citations and h-index 9",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "NL",
+    "subfield": "Metabolomics and Mass Spectrometry Studies",
+    "h_index": 9,
+    "cited_by_count": 3178,
+    "openalex_id": "https://openalex.org/A5058615177",
+    "institution": "Leiden University"
+  },
+  {
+    "id": "oa_author_bruno_a__a__nunes",
+    "name": "Bruno A. A. Nunes",
+    "context": "an academic researcher in Software-Defined Networks and 5G at Institut national de recherche en informatique et en automatique, with approximately 2712 total citations and h-index 11",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "FR",
+    "subfield": "Software-Defined Networks and 5G",
+    "h_index": 11,
+    "cited_by_count": 2712,
+    "openalex_id": "https://openalex.org/A5053730566",
+    "institution": "Institut national de recherche en informatique et en automatique"
+  },
+  {
+    "id": "oa_author_h__wina_sanjaya",
+    "name": "H. Wina Sanjaya",
+    "context": "an academic researcher in Educational Methods and Media Use, with approximately 8492 total citations and h-index 4",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Educational Methods and Media Use",
+    "h_index": 4,
+    "cited_by_count": 8492,
+    "openalex_id": "https://openalex.org/A5013208865",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_henrik_kretzschmar",
+    "name": "Henrik Kretzschmar",
+    "context": "an academic researcher in Advanced Neural Network Applications at Nomor Research (Germany), with approximately 5611 total citations and h-index 22",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "DE",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 22,
+    "cited_by_count": 5611,
+    "openalex_id": "https://openalex.org/A5012355769",
+    "institution": "Nomor Research (Germany)"
+  },
+  {
+    "id": "oa_author_peng_chen",
+    "name": "Peng Chen",
+    "context": "an academic researcher in EEG and Brain-Computer Interfaces at East China University of Science and Technology, with approximately 6001 total citations and h-index 39",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "EEG and Brain-Computer Interfaces",
+    "h_index": 39,
+    "cited_by_count": 6001,
+    "openalex_id": "https://openalex.org/A5100629119",
+    "institution": "East China University of Science and Technology"
+  },
+  {
+    "id": "oa_author_slimane_ben_miled",
+    "name": "Slimane Ben Miled",
+    "context": "an academic researcher in Bioinformatics and Genomic Networks at Institut Pasteur de Tunis, with approximately 11193 total citations and h-index 9",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "TN",
+    "subfield": "Bioinformatics and Genomic Networks",
+    "h_index": 9,
+    "cited_by_count": 11193,
+    "openalex_id": "https://openalex.org/A5051321555",
+    "institution": "Institut Pasteur de Tunis"
+  },
+  {
+    "id": "oa_author_alex_wang",
+    "name": "Alex Wang",
+    "context": "an academic researcher in Natural Language Processing Techniques at Supélec, with approximately 4306 total citations and h-index 13",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "FR",
+    "subfield": "Natural Language Processing Techniques",
+    "h_index": 13,
+    "cited_by_count": 4306,
+    "openalex_id": "https://openalex.org/A5100783908",
+    "institution": "Supélec"
+  },
+  {
+    "id": "oa_author_s__m__ali_eslami",
+    "name": "S. M. Ali Eslami",
+    "context": "an academic researcher in Advanced Image and Video Retrieval Techniques at Microsoft Research (United Kingdom), with approximately 11587 total citations and h-index 28",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Advanced Image and Video Retrieval Techniques",
+    "h_index": 28,
+    "cited_by_count": 11587,
+    "openalex_id": "https://openalex.org/A5037555476",
+    "institution": "Microsoft Research (United Kingdom)"
+  },
+  {
+    "id": "oa_author_gabriele_paolacci",
+    "name": "Gabriele Paolacci",
+    "context": "an academic researcher in Mobile Crowdsensing and Crowdsourcing at Erasmus University Rotterdam, with approximately 9752 total citations and h-index 19",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "NL",
+    "subfield": "Mobile Crowdsensing and Crowdsourcing",
+    "h_index": 19,
+    "cited_by_count": 9752,
+    "openalex_id": "https://openalex.org/A5050375077",
+    "institution": "Erasmus University Rotterdam"
+  },
+  {
+    "id": "oa_author_ye_yuan",
+    "name": "Ye Yuan",
+    "context": "an academic researcher in Advanced Neural Network Applications at Carnegie Mellon University, with approximately 5444 total citations and h-index 31",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 31,
+    "cited_by_count": 5444,
+    "openalex_id": "https://openalex.org/A5082583182",
+    "institution": "Carnegie Mellon University"
+  },
+  {
+    "id": "oa_author_ueli_meier",
+    "name": "Ueli Meier",
+    "context": "an academic researcher in Advanced Neural Network Applications at Dalle Molle Institute for Artificial Intelligence Research, with approximately 12399 total citations and h-index 21",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CH",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 21,
+    "cited_by_count": 12399,
+    "openalex_id": "https://openalex.org/A5034624351",
+    "institution": "Dalle Molle Institute for Artificial Intelligence Research"
+  },
+  {
+    "id": "oa_author_xinchen_yan",
+    "name": "Xinchen Yan",
+    "context": "an academic researcher in Generative Adversarial Networks and Image Synthesis at University of Michigan, with approximately 8097 total citations and h-index 23",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Generative Adversarial Networks and Image Synthesis",
+    "h_index": 23,
+    "cited_by_count": 8097,
+    "openalex_id": "https://openalex.org/A5052854215",
+    "institution": "University of Michigan"
+  },
+  {
+    "id": "oa_author_mattan_s__benshachar",
+    "name": "Mattan S. Ben‐Shachar",
+    "context": "an academic researcher in Data Analysis with R at Ben-Gurion University of the Negev, with approximately 12641 total citations and h-index 20",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "IL",
+    "subfield": "Data Analysis with R",
+    "h_index": 20,
+    "cited_by_count": 12641,
+    "openalex_id": "https://openalex.org/A5018923424",
+    "institution": "Ben-Gurion University of the Negev"
+  },
+  {
+    "id": "csrankings_xinming_zhang_0001",
+    "name": "Xinming Zhang 0001",
+    "context": "a computer science faculty member at USTC",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "USTC",
+    "homepage": "http://en.nhpcc.ustc.edu.cn/Peoples_9/201107/t20110702_115038.html",
+    "scholarid": "R9bOP30AAAAJ"
+  },
+  {
+    "id": "csrankings_christopher_piech",
+    "name": "Christopher Piech",
+    "context": "a computer science faculty member at Stanford University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://stanford.edu/~cpiech/bio/index.html",
+    "scholarid": "fpT49d8AAAAJ"
+  },
+  {
+    "id": "csrankings_aljosa_smolic",
+    "name": "Aljosa Smolic",
+    "context": "a computer science faculty member at Trinity College Dublin",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Trinity College Dublin",
+    "homepage": "https://www.scss.tcd.ie/Aljosa.Smolic",
+    "scholarid": "HZRejX4AAAAJ"
+  },
+  {
+    "id": "csrankings_jeff_a__bilmes",
+    "name": "Jeff A. Bilmes",
+    "context": "a computer science faculty member at University of Washington",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "University of Washington",
+    "homepage": "https://people.ece.uw.edu/bilmes",
+    "scholarid": "L9QufAsAAAAJ"
+  },
+  {
+    "id": "csrankings_ingrid_carlbom",
+    "name": "Ingrid Carlbom",
+    "context": "a computer science faculty member at Uppsala University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Uppsala University",
+    "homepage": "https://katalog.uu.se/empinfo/?id=N8-1286",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_hannah_kerner",
+    "name": "Hannah Kerner",
+    "context": "a computer science faculty member at Arizona State University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Arizona State University",
+    "homepage": "https://search.asu.edu/profile/2608200",
+    "scholarid": "g5CD7dQAAAAJ"
+  },
+  {
+    "id": "csrankings_david_hogg_0001",
+    "name": "David Hogg 0001",
+    "context": "a computer science faculty member at University of Leeds",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "University of Leeds",
+    "homepage": "https://eps.leeds.ac.uk/computing/staff/84/professor-david-hogg",
+    "scholarid": "5VJ4YPQAAAAJ"
+  },
+  {
+    "id": "csrankings_chris_thomas_0004",
+    "name": "Chris Thomas 0004",
+    "context": "a computer science faculty member at Virginia Tech",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Virginia Tech",
+    "homepage": "https://people.cs.vt.edu/chris",
+    "scholarid": "16r7ZhsAAAAJ"
+  },
+  {
+    "id": "csrankings_zhigang_hu",
+    "name": "Zhigang Hu",
+    "context": "a computer science faculty member at Central South University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Central South University",
+    "homepage": "https://faculty.csu.edu.cn/huzhigang/zh_CN/index.htm",
+    "scholarid": "xcQESkIAAAAJ"
+  },
+  {
+    "id": "csrankings_seung_jun_kim_0002",
+    "name": "Seung-Jun Kim 0002",
+    "context": "a computer science faculty member at Univ. of Maryland - Baltimore County",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Univ. of Maryland - Baltimore County",
+    "homepage": "http://www.csee.umbc.edu/people/faculty/seung-jun-kim",
+    "scholarid": "AsHKhcsAAAAJ"
+  },
+  {
+    "id": "csrankings_carlos_areces",
+    "name": "Carlos Areces",
+    "context": "a computer science faculty member at Universidad Nacional de Córdoba",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Universidad Nacional de Córdoba",
+    "homepage": "https://cs.famaf.unc.edu.ar/~careces",
+    "scholarid": "Ku5jaRkAAAAJ"
+  },
+  {
+    "id": "csrankings_teresa_a__dahlberg",
+    "name": "Teresa A. Dahlberg",
+    "context": "a computer science faculty member at Syracuse University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Syracuse University",
+    "homepage": "https://chancellor.syr.edu/university-leadership-2/chancellors-council/teresa-dahlberg",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_min_xu_0009",
+    "name": "Min Xu 0009",
+    "context": "a computer science faculty member at Carnegie Mellon University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://xulabs.github.io/min-xu",
+    "scholarid": "Y3Cqt0cAAAAJ"
+  },
+  {
+    "id": "csrankings_amy_ogan",
+    "name": "Amy Ogan",
+    "context": "a computer science faculty member at Carnegie Mellon University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://www.hcii.cmu.edu/people/amy-ogan",
+    "scholarid": "I0ZGaCQAAAAJ"
+  },
+  {
+    "id": "csrankings_amit_a__levy_0001",
+    "name": "Amit A. Levy 0001",
+    "context": "a computer science faculty member at Princeton University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Princeton University",
+    "homepage": "https://www.amitlevy.com",
+    "scholarid": "r6-jCnUAAAAJ"
+  },
+  {
+    "id": "csrankings_charles_chuan_zhang",
+    "name": "Charles Chuan Zhang",
+    "context": "a computer science faculty member at HKUST",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "HKUST",
+    "homepage": "http://www.cs.ust.hk/~charlesz",
+    "scholarid": "JlkjyIoAAAAJ"
+  },
+  {
+    "id": "csrankings_haipeng_zhang_0004",
+    "name": "Haipeng Zhang 0004",
+    "context": "a computer science faculty member at ShanghaiTech University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "ShanghaiTech University",
+    "homepage": "https://faculty.sist.shanghaitech.edu.cn/zhanghp",
+    "scholarid": "377DmKgAAAAJ"
+  },
+  {
+    "id": "csrankings_hongliang_yu",
+    "name": "Hongliang Yu",
+    "context": "a computer science faculty member at Tsinghua University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Tsinghua University",
+    "homepage": "http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224235934865670879/20101224235934865670879_.html",
+    "scholarid": "QiqG_G4AAAAJ"
+  },
+  {
+    "id": "csrankings_robert_b__heckendorn",
+    "name": "Robert B. Heckendorn",
+    "context": "a computer science faculty member at University of Idaho",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "University of Idaho",
+    "homepage": "http://marvin.cs.uidaho.edu/~heckendo",
+    "scholarid": "Hd0x1I4AAAAJ"
+  },
+  {
+    "id": "csrankings_travis_d__breaux",
+    "name": "Travis D. Breaux",
+    "context": "a computer science faculty member at Carnegie Mellon University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://www.cs.cmu.edu/~breaux",
+    "scholarid": "SjiG_ZsAAAAJ"
+  },
+  {
+    "id": "csrankings_amer_e__mouawad",
+    "name": "Amer E. Mouawad",
+    "context": "a computer science faculty member at American University of Beirut",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "American University of Beirut",
+    "homepage": "http://www.aub.edu.lb/pages/profile.aspx?memberId=aa368",
+    "scholarid": "MK6WseUAAAAJ"
+  },
+  {
+    "id": "csrankings_siyu_tang_0001",
+    "name": "Siyu Tang 0001",
+    "context": "a computer science faculty member at ETH Zurich",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "ETH Zurich",
+    "homepage": "https://vlg.inf.ethz.ch/people/person-detail.siyutang.html",
+    "scholarid": "BUDh_4wAAAAJ"
+  },
+  {
+    "id": "csrankings_gangshan_wu",
+    "name": "Gangshan Wu",
+    "context": "a computer science faculty member at Nanjing University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Nanjing University",
+    "homepage": "http://mcg.nju.edu.cn/member/gswu/en/index.html",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_yejin_choi_0001",
+    "name": "Yejin Choi 0001",
+    "context": "a computer science faculty member at Stanford University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://yejinc.github.io",
+    "scholarid": "vhP-tlcAAAAJ"
+  },
+  {
+    "id": "csrankings_michael_p__kim",
+    "name": "Michael P. Kim",
+    "context": "a computer science faculty member at Cornell University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Cornell University",
+    "homepage": "https://www.cs.cornell.edu/~mpkim",
+    "scholarid": "2sFj-kcAAAAJ"
+  },
+  {
+    "id": "csrankings_hamza_keurti",
+    "name": "Hamza Keurti",
+    "context": "a computer science faculty member at Mohammed VI Polytechnic University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Mohammed VI Polytechnic University",
+    "homepage": "https://hamzakeurti.github.io",
+    "scholarid": "zmS6_aYAAAAJ"
+  },
+  {
+    "id": "csrankings_nisansa_de_silva",
+    "name": "Nisansa de Silva",
+    "context": "a computer science faculty member at University of Moratuwa",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "University of Moratuwa",
+    "homepage": "https://nisansads.staff.uom.lk",
+    "scholarid": "OgPD66oAAAAJ"
+  },
+  {
+    "id": "csrankings_ted_herman",
+    "name": "Ted Herman",
+    "context": "a computer science faculty member at University of Iowa",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "University of Iowa",
+    "homepage": "http://homepage.cs.uiowa.edu/~herman",
+    "scholarid": "89vejUwAAAAJ"
+  },
+  {
+    "id": "csrankings_jeffrey_overbey",
+    "name": "Jeffrey Overbey",
+    "context": "a computer science faculty member at Auburn University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Auburn University",
+    "homepage": "http://jeff.over.bz",
+    "scholarid": "ot-erTIAAAAJ"
+  },
+  {
+    "id": "csrankings_adam_finkelstein",
+    "name": "Adam Finkelstein",
+    "context": "a computer science faculty member at Princeton University",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Princeton University",
+    "homepage": "https://www.cs.princeton.edu/~af",
+    "scholarid": "a959F6AAAAAJ"
+  },
+  {
+    "id": "mid_tier_writer_patrick_mckenzie",
+    "name": "Patrick McKenzie",
+    "context": "American writer, Bits about Money, formerly Stripe",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_blood_on_the_forge",
+    "name": "Blood on the Forge",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q4927869",
+    "sitelinks_count": 1
+  },
+  {
+    "id": "mid_tier_writer_alan_cheuse",
+    "name": "Alan Cheuse",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q4706366",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_tyler_cowen",
+    "name": "Tyler Cowen",
+    "context": "GMU economist and Marginal Revolution blog",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_emily_st__john_mandel",
+    "name": "Emily St. John Mandel",
+    "context": "Canadian novelist, Station Eleven, Sea of Tranquility",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_diana_abu_jaber",
+    "name": "Diana Abu-Jaber",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5271081",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_darren_defrain",
+    "name": "Darren DeFrain",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5224877",
+    "sitelinks_count": 1
+  },
+  {
+    "id": "mid_tier_writer_brit_bennett",
+    "name": "Brit Bennett",
+    "context": "American novelist, The Vanishing Half",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_been_down_so_long_it_looks_like_up_to_me",
+    "name": "Been Down So Long It Looks Like Up to Me",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q4879871",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_sarah_j__maas",
+    "name": "Sarah J. Maas",
+    "context": "American fantasy novelist, A Court of Thorns and Roses",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_madeline_miller",
+    "name": "Madeline Miller",
+    "context": "American novelist, The Song of Achilles, Circe",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_atia_abawi",
+    "name": "Atia Abawi",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q24053483",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_martha_wells",
+    "name": "Martha Wells",
+    "context": "American sci-fi novelist, Murderbot Diaries",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_jeremiah_clemens",
+    "name": "Jeremiah Clemens",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q252776",
+    "sitelinks_count": 12
+  },
+  {
+    "id": "mid_tier_writer_alice_brown_writer",
+    "name": "Alice Brown (writer)",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q3611672",
+    "sitelinks_count": 10
+  },
+  {
+    "id": "mid_tier_writer_alex_tabarrok",
+    "name": "Alex Tabarrok",
+    "context": "GMU economist and Marginal Revolution blog co-author",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_atul_gawande",
+    "name": "Atul Gawande",
+    "context": "American surgeon and author, The Checklist Manifesto",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_daniel_h__pink",
+    "name": "Daniel H. Pink",
+    "context": "American author, Drive, To Sell Is Human",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_democracy_an_american_novel",
+    "name": "Democracy: An American Novel",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5255475",
+    "sitelinks_count": 2
+  },
+  {
+    "id": "mid_tier_writer_leigh_bardugo",
+    "name": "Leigh Bardugo",
+    "context": "American fantasy novelist, Shadow and Bone, Six of Crows",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_megha_majumdar",
+    "name": "Megha Majumdar",
+    "context": "Indian-American novelist, A Burning",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_yaa_gyasi",
+    "name": "Yaa Gyasi",
+    "context": "Ghanaian-American novelist, Homegoing, Transcendent Kingdom",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_marcia_davenport",
+    "name": "Marcia Davenport",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q2908658",
+    "sitelinks_count": 12
+  },
+  {
+    "id": "mid_tier_writer_clyde_brion_davis",
+    "name": "Clyde Brion Davis",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5136879",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_rachel_cusk",
+    "name": "Rachel Cusk",
+    "context": "British novelist, Outline trilogy",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_tayari_jones",
+    "name": "Tayari Jones",
+    "context": "American novelist, An American Marriage",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_jenny_offill",
+    "name": "Jenny Offill",
+    "context": "American novelist, Dept. of Speculation, Weather",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_daniel_kahneman",
+    "name": "Daniel Kahneman",
+    "context": "Israeli-American psychologist, Thinking Fast and Slow",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_jude_deveraux",
+    "name": "Jude Deveraux",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q435326",
+    "sitelinks_count": 11
+  },
+  {
+    "id": "mid_tier_writer_martha_haines_butt",
+    "name": "Martha Haines Butt",
+    "context": "a novelist or writer with a Wikipedia page (mid-tier level of recognition)",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q66750812",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "artifact_t5",
+    "name": "T5",
+    "context": "a text-to-text transfer transformer language model from Google",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_comfyui",
+    "name": "ComfyUI",
+    "context": "an open-source node-based interface for Stable Diffusion",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_annoy",
+    "name": "Annoy",
+    "context": "Spotify's approximate nearest neighbor library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_haiku",
+    "name": "Haiku",
+    "context": "DeepMind's neural network library for JAX",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_flax",
+    "name": "Flax",
+    "context": "Google's neural network library for JAX",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_fastai",
+    "name": "FastAI",
+    "context": "a deep learning library on top of PyTorch focused on practitioner ergonomics",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_cub",
+    "name": "CUB",
+    "context": "NVIDIA's CUDA primitive library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_colbert_v2",
+    "name": "ColBERT-v2",
+    "context": "an improved version of the ColBERT neural retrieval model",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_tianshou_library_again",
+    "name": "Tianshou (library, again)",
+    "context": "the modular RL library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_rag_engine",
+    "name": "RAG-engine",
+    "context": "an open-source RAG orchestration library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_clicknp",
+    "name": "ClickNP",
+    "context": "a research framework for FPGA-based network function programming",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_self_consistency",
+    "name": "Self-Consistency",
+    "context": "a prompting technique that samples multiple chain-of-thought paths and aggregates them",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_numba",
+    "name": "Numba",
+    "context": "an open-source JIT compiler for Python",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_autogen",
+    "name": "AutoGen",
+    "context": "an open-source framework for building multi-agent LLM applications, originally from Microsoft Research",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_apex",
+    "name": "Apex",
+    "context": "NVIDIA's mixed-precision training library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_clip",
+    "name": "CLIP",
+    "context": "an open-source contrastive language-image pretraining model from OpenAI",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_faiss",
+    "name": "Faiss",
+    "context": "an open-source similarity search library from Facebook AI Research",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_fasttext",
+    "name": "Fasttext",
+    "context": "Meta's open-source word embedding library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_polyglot",
+    "name": "Polyglot",
+    "context": "an open-source multilingual NLP library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_sonnet",
+    "name": "Sonnet",
+    "context": "DeepMind's TensorFlow-based neural network library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_whisper",
+    "name": "Whisper",
+    "context": "an open-source automatic speech recognition system from OpenAI",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_replit",
+    "name": "Replit",
+    "context": "a cloud-based coding platform with AI assistance",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_dspy_stanford",
+    "name": "DSPy (Stanford)",
+    "context": "Stanford NLP's framework for programming with foundation models",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_toolformer",
+    "name": "Toolformer",
+    "context": "a language model trained to use external tools through self-supervision",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_nltk",
+    "name": "NLTK",
+    "context": "the canonical Natural Language Toolkit for Python",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_faiss_cpu",
+    "name": "FAISS-CPU",
+    "context": "the CPU version of Facebook's similarity search library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_onnx_runtime",
+    "name": "ONNX Runtime",
+    "context": "a cross-platform inference runtime for ONNX models",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_scipy",
+    "name": "SciPy",
+    "context": "an open-source Python scientific computing library",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_haystack",
+    "name": "Haystack",
+    "context": "an open-source NLP framework from deepset",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_acme",
+    "name": "Acme",
+    "context": "DeepMind's RL framework",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_cormen_algorithms_textbook",
+    "name": "Cormen Algorithms textbook",
+    "context": "Introduction to Algorithms (Cormen, Leiserson, Rivest, Stein)",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_alphageometry_paper",
+    "name": "AlphaGeometry paper",
+    "context": "Trinh et al.'s 2024 Nature paper on AlphaGeometry",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_inception_paper",
+    "name": "Inception paper",
+    "context": "Szegedy et al.'s 2015 paper on the Inception architecture",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_grovers_algorithm_paper",
+    "name": "Grover's algorithm paper",
+    "context": "Grover's 1996 paper on quantum search",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_generative_agents_paper",
+    "name": "Generative Agents paper",
+    "context": "Park et al.'s 2023 paper on simulating human behavior with LLM agents",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_deepseek_math_paper",
+    "name": "DeepSeek-Math paper",
+    "context": "DeepSeek's 2024 paper on math-specialized models",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_colbert_v2_paper",
+    "name": "ColBERT v2 paper",
+    "context": "Santhanam et al.'s 2022 paper on improved late-interaction retrieval",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_universal_approximation_theorem",
+    "name": "Universal Approximation Theorem",
+    "context": "Hornik et al.'s 1989 paper on neural network universality",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_chinchilla_paper",
+    "name": "Chinchilla paper",
+    "context": "DeepMind's 2022 paper on optimal LLM training compute scaling",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_qwen_paper",
+    "name": "Qwen paper",
+    "context": "Alibaba's 2023 paper introducing the Qwen series",
+    "cohort": "research_paper",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "mid_tier_filmmaker_carla_simn",
+    "name": "Carla Simón",
+    "context": "Spanish filmmaker, Alcarràs",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_alfonso_cuarn",
+    "name": "Alfonso Cuarón",
+    "context": "Mexican filmmaker, Roma, Children of Men",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_guillermo_del_toro",
+    "name": "Guillermo del Toro",
+    "context": "Mexican filmmaker, Pan's Labyrinth, Shape of Water",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_ethan_coen",
+    "name": "Ethan Coen",
+    "context": "American filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_denis_villeneuve",
+    "name": "Denis Villeneuve",
+    "context": "Canadian filmmaker, Dune, Arrival",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_charlie_kaufman",
+    "name": "Charlie Kaufman",
+    "context": "American filmmaker, Synecdoche New York",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_bruno_dumont",
+    "name": "Bruno Dumont",
+    "context": "French filmmaker, Joan of Arc",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_lee_isaac_chung",
+    "name": "Lee Isaac Chung",
+    "context": "American filmmaker, Minari",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_lucrecia_martel",
+    "name": "Lucrecia Martel",
+    "context": "Argentine filmmaker, Zama",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_pablo_larran",
+    "name": "Pablo Larraín",
+    "context": "Chilean filmmaker, Spencer, Jackie",
+    "cohort": "mid_tier_filmmaker"
+  }
+]

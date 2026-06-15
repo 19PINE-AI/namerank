@@ -1,0 +1,8 @@
+cohort,n,mean_gemini,mean_claude,mean_gpt5
+long_tail_researcher_openalex,100,0.669,0.6302,0.6312
+mid_tier_writer,15,0.636,0.6917,0.59
+oss_project,15,0.5967,0.6833,0.7183
+cs_faculty,100,0.5569,0.5185,0.4853
+imo_gold,100,0.4986,0.602,0.6362
+reference_pilot,185,0.4505,0.5246,0.5507
+gpt5_system_card_author,100,0.0865,0.1645,0.123

@@ -1,0 +1,12 @@
+creator_id,creator_name,artifact,n_models,NR_A,NR_B,delta,refusal_A,refusal_B,se_delta,t_paired
+simon_willison,Simon Willison,Datasette,25,0.63,0.7028,0.0728,0,0,0.0261,2.787
+dario_amodei,Dario Amodei,Anthropic,25,0.6408,0.5936,-0.0472,0,0,0.0216,-2.185
+andrej_karpathy,Andrej Karpathy,nanoGPT,25,0.6292,0.6468,0.0176,0,0,0.0264,0.667
+jiayi_weng,Jiayi Weng,Tianshou,24,0.3521,0.64,0.2879,0.125,0.0833,0.05,5.759
+tri_dao,Tri Dao,FlashAttention,25,0.5748,0.6686,0.0938,0.04,0.04,0.037,2.532
+lilian_weng,Lilian Weng,lilianweng.github.io,25,0.6228,0.652,0.0292,0,0,0.0365,0.799
+harrison_chase,Harrison Chase,LangChain,25,0.3768,0.528,0.1512,0.04,0,0.0456,3.318
+aman_sanger,Aman Sanger,Cursor,25,0.3016,0.344,0.0424,0.12,0.16,0.0241,1.756
+demis_hassabis,Demis Hassabis,Google DeepMind,25,0.6936,0.7168,0.0232,0,0,0.0326,0.712
+mira_murati,Mira Murati,Thinking Machines Lab,25,0.5168,0.5028,-0.014,0.04,0,0.0526,-0.266
+aravind_srinivas,Aravind Srinivas,Perplexity,25,0.7184,0.6964,-0.022,0.08,0,0.0257,-0.858

@@ -1,0 +1,12 @@
+institution,n,NR_A_mean,NR_A_sd,NR_B_mean,NR_B_sd,delta_mean
+Stanford University,15,0.5651,0.0713,0.355,0.0504,-0.2101
+Carnegie Mellon University,15,0.4645,0.1804,0.279,0.1486,-0.1855
+Tsinghua University,4,0.2576,0.0932,0.0621,0.0361,-0.1956
+Peking University,4,0.2902,0.0544,0.1327,0.1052,-0.1575
+
+# Institutional gaps (NR_A_mean[i] - NR_A_mean[j])
+comparison,gap_A,gap_B,absolute_shrinkage,relative_shrinkage_pct
+Stanford University vs. Tsinghua University,0.3075,0.2929,0.0146,4.75
+Stanford University vs. Peking University,0.2749,0.2223,0.0526,19.13
+Carnegie Mellon University vs. Tsinghua University,0.2069,0.2169,-0.01,-4.83
+Stanford University vs. Carnegie Mellon University,0.1006,0.076,0.0246,24.45

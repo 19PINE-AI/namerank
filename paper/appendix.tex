@@ -379,6 +379,107 @@ This is the case that motivates the multiplicative coverage$\times$accuracy stru
 \end{figure}
 
 % ══════════════════════════════════════════════════════════════
+\section{Prompt-Paraphrase Sensitivity}
+\label{app:prompt-sensitivity}
+
+We re-probed a cohort-stratified $200$-entity subset ($30$ each from \texttt{imo\_gold}, \texttt{long\_tail\_researcher\_openalex}, \texttt{cs\_faculty}, \texttt{mid\_tier\_writer}, \texttt{oss\_project}, \texttt{gpt5\_system\_card\_author}; $10$ each from \texttt{research\_paper} and \texttt{mid\_tier\_filmmaker}) on the full $37$-model panel under three paraphrased probe templates (T1--T3) alongside the original (T0), for $29{,}600$ records. The four templates:
+
+\begin{verbatim}
+T0: Tell me what you know about {name}, who is {context}. If you do
+    not recognize this entity, respond with "unknown". Limit your
+    response to about 150 words.
+T1: What can you tell me about {name}? They are {context}. Reply with
+    only "unknown" if you are not familiar with this entity. Aim for
+    about 150 words.
+T2: Please share what you know about {name}, {context}. If unknown to
+    you, answer with just "unknown". Keep it under ~150 words.
+T3: Briefly describe {name}, who is {context}. Respond "unknown" if
+    you have no information. Around 150 words please.
+\end{verbatim}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Additive variance decomposition over the $29{,}600$ prompt-sensitivity records (entity, model, template, cohort as main effects). Template is the smallest main effect. The model share exceeds the full-panel $10.9\%$ (Section~\ref{sec:results-validation}) because this cohort-stratified subset over-represents silent and universal cohorts, compressing the entity-vs-model contrast; the valid within-experiment comparison is template ($1.78\%$) vs model ($26.5\%$).}
+\label{tab:prompt-variance}
+\begin{tabular}{lrr}
+\toprule
+Factor & SS & \% of total \\
+\midrule
+Entity & 985.3 & 24.19\% \\
+Model & 1079.9 & 26.51\% \\
+Cohort (entity-implied) & 551.9 & 13.55\% \\
+\textbf{Template} & \textbf{72.4} & \textbf{1.78\%} \\
+Residual (after entity+model+template) & 1936.3 & 47.53\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Cohort-mean NameRank under each template (sorted by T0). The ordering is preserved; T0 is systematically higher. Pairwise panel-mean Pearson across all six template pairs is $0.927$--$0.977$ (lowest: T0--T3); within-(entity, model) cross-template $\sigma$ has median $0.109$; the panel-mean variance across templates is $0.042\times$ the single-template cross-model variance.}
+\label{tab:prompt-cohort-means}
+\begin{tabular}{lrrrr}
+\toprule
+Cohort & T0 & T1 & T2 & T3 \\
+\midrule
+mid\_tier\_filmmaker & 0.761 & 0.506 & 0.513 & 0.532 \\
+mid\_tier\_writer & 0.597 & 0.388 & 0.403 & 0.405 \\
+research\_paper & 0.581 & 0.391 & 0.394 & 0.401 \\
+oss\_project & 0.504 & 0.334 & 0.335 & 0.331 \\
+long\_tail\_researcher\_openalex & 0.465 & 0.362 & 0.341 & 0.455 \\
+cs\_faculty & 0.384 & 0.300 & 0.295 & 0.319 \\
+imo\_gold & 0.356 & 0.290 & 0.260 & 0.302 \\
+gpt5\_system\_card\_author & 0.047 & 0.063 & 0.027 & 0.070 \\
+\midrule
+\textbf{Panel template mean} & \textbf{0.420} & \textbf{0.305} & \textbf{0.294} & \textbf{0.329} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Training-Cutoff Gradient}
+\label{app:cutoff}
+
+The two first-appearance cohorts (\texttt{deepseek\_v3\_author}, emergence 2024-12; \texttt{gpt5\_system\_card\_author}, emergence 2025-08) test whether the silent zone is corpus timing or intrinsic obscurity (Section~\ref{sec:results-cutoff}). Model training cutoffs are from \texttt{data/analysis/model\_cutoffs.json} and span 2023-10 to 2026-03.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Natural experiment: per-model mean recognition split by whether the model's training cutoff predates (pre) or postdates (post) each cohort's emergence date. The raw jump is decomposed by a matched difference-in-differences (DiD) that subtracts the same-split jump averaged over three stable controls (\texttt{cs\_faculty}, \texttt{long\_tail\_researcher\_openalex}, \texttt{imo\_gold}), which nets out the cross-vintage capability drift. Both matched DiDs are $\leq 0$.}
+\label{tab:cutoff-natexp}
+\begin{tabular}{lrrrrr}
+\toprule
+Cohort & pre mean (refusal) & post mean (refusal) & raw jump & control jump & matched DiD \\
+\midrule
+deepseek\_v3\_author & 0.113 (0.38) & 0.233 (0.45) & $+0.121$ & $+0.137$ & $\mathbf{-0.016}$ \\
+gpt5\_system\_card\_author & 0.051 (0.49) & 0.020 (0.79) & $-0.031$ & $+0.030$ & $\mathbf{-0.061}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Selected per-cohort slopes of per-model mean NameRank on training cutoff (NameRank per year of cutoff), with Pearson $r$ over the $37$ models. \emph{Every} established cohort rises with cutoff at ${\sim}0.10$--$0.20$/yr---a model-capability/generosity confound, since these entities were nameable long before any cutoff. The two recency cohorts are \emph{not} steeper; once the drift is removed (Table~\ref{tab:cutoff-natexp}) no corpus-timing signal remains.}
+\label{tab:cutoff-slopes}
+\begin{tabular}{lrr}
+\toprule
+Cohort & slope (/yr) & Pearson $r$ \\
+\midrule
+mid\_tier\_comedian & $+0.196$ & $+0.66$ \\
+foundation\_model & $+0.171$ & $+0.76$ \\
+cs\_faculty (control) & $+0.158$ & $+0.57$ \\
+reference\_pilot (control; incl.\ Hinton) & $+0.157$ & $+0.77$ \\
+research\_paper & $+0.125$ & $+0.74$ \\
+long\_tail\_researcher\_openalex (control) & $+0.094$ & $+0.32$ \\
+\textbf{deepseek\_v3\_author} (recency) & $+0.065$ & $+0.23$ \\
+imo\_gold & $+0.043$ & $+0.15$ \\
+\textbf{gpt5\_system\_card\_author} (recency) & $-0.021$ & $-0.25$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Limitations Summary Table}
 \label{app:limitations}
 
@@ -391,12 +492,13 @@ This is the case that motivates the multiplicative coverage$\times$accuracy stru
 \toprule
 \textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
 \midrule
-Single-probe-per-entity, no within-model test-retest & Inflates within-entity variance & Re-probe with paraphrased templates ($\geq 3$ paraphrases per entity) \\
+Single-probe-per-entity; absolute levels are wording-conditional (Appendix~\ref{app:prompt-sensitivity}) & Shifts cardinal levels ${\sim}0.10$--$0.20$; rankings unaffected & \emph{Tested:} four-template re-probe shows ordering robust ($r = 0.93$--$0.98$); report values as T0-conditional and hold wording fixed across studies \\
 Judge family-bias measured at $n = 200$ & Could understate or overstate by $\sim \pm 0.03$ at cohort level & Multi-judge consensus across Gemini + GPT-5 + Claude judges on a $n = 1000$ overlap \\
 Cohort labels not fully orthogonal & Overcounts entities in cross-cohort comparisons & De-duplicate by name within long-tail academic categories \\
 Chinese-prompt context fields remained English & Understates cross-language effect & Pure-Chinese prompts for the full $240$-entity sub-run \\
 Single judge (Gemini 3 Flash Preview) & Could carry family-specific scoring style & Replicate with non-Gemini judge on a $n = 500$ overlap \\
 Cross-section, not longitudinal & Cannot infer name-propagation rates & Re-run at each major model-release cycle; release as NameRank v2, v3, ... \\
+Scores not comparable across model vintages (Appendix~\ref{app:cutoff}) & ${\sim}0.13$/yr capability drift inflates any cross-fleet level comparison & \emph{Tested:} silent zone is intrinsic, not timing (matched DiD ${\approx}0$); make longitudinal claims on within-run relative gaps only \\
 Researcher mobility confound in country gradient & Inflates US averages, deflates China averages & Re-classify by country-of-PhD or country-of-doctorate-training as alternative slicing \\
 Tsinghua/Peking small samples ($n = 4$) & Institution-level reads noisy at the bottom & Expand sample by drawing from CCF rank-A faculty rosters \\
 Tianshou case study sample of $1$ for per-response mediation analysis & Cannot generalize the $+0.36$ score lift cleanly & Extend per-response mediation analysis to all $11$ verified (creator, artifact) pairs \\

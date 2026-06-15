@@ -1,0 +1,1111 @@
+entity_id,entity_name,model_id,is_refusal,coverage,accuracy,score,embedding_sim
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gpt-5.4,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gpt-5.3,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemini-3-flash-think,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",grok-4.20-think,0,0.000,0.000,0.000,0.483
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",kimi-k2,0,0.000,0.000,0.000,0.480
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.446
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.473
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",mistral-large,0,0.000,0.000,0.000,0.485
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",glm-4-32b,0,0.000,0.000,0.000,0.481
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",grok-4,0,0.000,0.000,0.000,0.495
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",mistral-medium-3.1,0,0.000,0.000,0.000,0.485
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gpt-5.5-think,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",claude-opus-4.6-think,1,0.000,0.000,0.000,0.446
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",llama-4-maverick,0,0.000,0.000,0.000,0.845
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",mistral-small-24b,1,0.000,0.000,0.000,0.446
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",minimax-m2.7-think,0,0.000,0.000,0.000,0.476
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",qwen3-8b-think,0,0.000,0.000,0.000,0.479
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.480
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gpt-5.4,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gpt-5.3,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemini-3.1-pro,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",llama-3.2-1b,0,0.000,0.000,0.000,0.482
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",glm-5.1-think,1,0.000,0.000,0.000,0.491
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",ministral-3b,0,0.000,0.000,0.000,0.482
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",llama-3.3-70b,0,0.000,0.000,0.000,0.805
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gpt-oss-20b-think,1,0.000,0.000,0.000,0.491
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gpt-5.5-think,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",phi-4,0,0.000,0.000,0.000,0.851
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",claude-opus-4.6-think,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",grok-4,0,0.000,0.000,0.000,0.497
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",grok-4.20-think,0,0.000,0.000,0.000,0.534
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemini-3-flash-think,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",kimi-k2.6-think,1,0.000,0.000,0.000,0.491
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",kimi-k2,0,0.000,0.000,0.000,0.535
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",llama-3.1-8b,0,0.000,0.000,0.000,0.847
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.418
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",mistral-large,0,0.000,0.000,0.000,0.537
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",qwen3-32b-think,1,0.000,0.000,0.000,0.446
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.529
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",glm-4-32b,0,0.000,0.000,0.000,0.538
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",mistral-medium-3.1,0,0.000,0.000,0.000,0.537
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.535
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemini-3.1-pro,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",llama-3.1-8b,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.865
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",minimax-m2.7-think,0,0.000,0.000,0.000,0.531
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",qwen3-8b-think,0,0.000,0.000,0.000,0.532
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemma-3-12b,0,0.400,0.700,0.280,0.959
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",llama-4-maverick,0,0.400,1.000,0.400,0.945
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",mistral-small-24b,1,0.000,0.000,0.000,0.459
+syn_cs_eskil_vrancken,"Eskil Vrancken",gpt-5.4,1,0.000,0.000,0.000,0.490
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",ministral-3b,0,0.000,0.000,0.000,0.534
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",llama-3.2-1b,0,0.000,0.000,0.000,0.536
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemma-3-4b,0,0.400,0.700,0.280,0.926
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",glm-4.7-think,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",phi-4,0,0.000,0.000,0.000,0.857
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gpt-oss-20b-think,1,0.000,0.000,0.000,0.459
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",kimi-k2.6-think,1,0.000,0.000,0.000,0.459
+syn_cs_eskil_vrancken,"Eskil Vrancken",gpt-5.3,1,0.000,0.000,0.000,0.490
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",deepseek-v3.2-think,0,0.000,0.000,0.000,0.875
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",glm-4.7-think,1,0.000,0.000,0.000,0.491
+syn_cs_eskil_vrancken,"Eskil Vrancken",grok-4.20-think,0,0.000,0.000,0.000,0.477
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemma-3-12b,0,0.200,0.400,0.080,0.951
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemini-3-flash-think,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",grok-4,0,0.000,0.000,0.000,0.466
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",qwen3-32b-think,1,0.000,0.000,0.000,0.459
+syn_cs_eskil_vrancken,"Eskil Vrancken",claude-opus-4.6-think,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",kimi-k2,0,0.000,0.000,0.000,0.470
+syn_cs_eskil_vrancken,"Eskil Vrancken",kimi-k2.6-think,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",gpt-5.5-think,1,0.000,0.000,0.000,0.490
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",deepseek-v3.2-think,1,0.000,0.000,0.000,0.459
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",gemma-4-31b,1,0.000,0.000,0.000,0.491
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemini-2.5-pro-think,0,0.230,0.400,0.092,0.945
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemini-3.1-pro,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.473
+syn_cs_eskil_vrancken,"Eskil Vrancken",mistral-large,0,0.000,0.000,0.000,0.476
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemma-3-4b,0,0.300,0.400,0.120,0.858
+syn_cs_eskil_vrancken,"Eskil Vrancken",glm-4-32b,0,0.000,0.000,0.000,0.474
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",glm-5.1-think,1,0.000,0.000,0.000,0.459
+syn_cs_eskil_vrancken,"Eskil Vrancken",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.470
+syn_cs_eskil_vrancken,"Eskil Vrancken",mistral-medium-3.1,0,0.000,0.000,0.000,0.476
+syn_cs_eskil_vrancken,"Eskil Vrancken",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.830
+syn_cs_eskil_vrancken,"Eskil Vrancken",qwen3-8b-think,0,0.000,0.000,0.000,0.485
+syn_cs_eskil_vrancken,"Eskil Vrancken",minimax-m2.7-think,0,0.000,0.000,0.000,0.471
+syn_cs_eskil_vrancken,"Eskil Vrancken",llama-4-maverick,0,0.300,1.000,0.300,0.876
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",llama-3.3-70b,0,0.000,0.000,0.000,0.833
+syn_cs_eskil_vrancken,"Eskil Vrancken",gpt-oss-20b-think,1,0.000,0.000,0.000,0.490
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gpt-5.4,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gpt-5.3,1,0.000,0.000,0.000,0.448
+syn_cs_eskil_vrancken,"Eskil Vrancken",llama-3.2-1b,0,0.000,0.000,0.000,0.476
+syn_cs_eskil_vrancken,"Eskil Vrancken",ministral-3b,0,0.000,0.000,0.000,0.474
+syn_cs_eskil_vrancken,"Eskil Vrancken",deepseek-v3.2-think,1,0.000,0.000,0.000,0.453
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",claude-opus-4.6-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",grok-4.20-think,0,0.000,0.000,0.000,0.510
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.448
+syn_cs_eskil_vrancken,"Eskil Vrancken",qwen3-32b-think,1,0.000,0.000,0.000,0.490
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemini-3-flash-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",grok-4,0,0.000,0.000,0.000,0.479
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gpt-5.5-think,1,0.000,0.000,0.000,0.448
+syn_cs_eskil_vrancken,"Eskil Vrancken",phi-4,0,0.100,1.000,0.100,0.881
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",kimi-k2,0,0.000,0.000,0.000,0.495
+syn_cs_eskil_vrancken,"Eskil Vrancken",llama-3.3-70b,0,0.400,1.000,0.400,0.922
+syn_cs_eskil_vrancken,"Eskil Vrancken",llama-3.1-8b,0,0.300,1.000,0.300,0.885
+syn_cs_eskil_vrancken,"Eskil Vrancken",glm-5.1-think,1,0.000,0.000,0.000,0.490
+syn_cs_eskil_vrancken,"Eskil Vrancken",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.490
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemini-3.1-pro,1,0.000,0.000,0.000,0.448
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemma-3-12b,0,0.400,0.600,0.240,0.911
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemma-3-4b,0,0.300,0.400,0.120,0.900
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemma-4-31b,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",mistral-large,0,0.000,0.000,0.000,0.495
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.499
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",glm-4-32b,0,0.000,0.000,0.000,0.491
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",mistral-medium-3.1,0,0.000,0.000,0.000,0.495
+syn_cs_eskil_vrancken,"Eskil Vrancken",mistral-small-24b,0,0.000,0.000,0.000,0.881
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",mistral-small-24b,1,0.000,0.000,0.000,0.415
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.495
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",qwen3-8b-think,0,0.000,0.000,0.000,0.503
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemma-4-31b,0,0.400,1.000,0.400,0.942
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",minimax-m2.7-think,0,0.000,0.000,0.000,0.493
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",deepseek-v3.2-think,1,0.000,0.000,0.000,0.448
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gpt-5.4,1,0.000,0.000,0.000,0.463
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gpt-oss-20b-think,1,0.000,0.000,0.000,0.448
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gpt-5.3,1,0.000,0.000,0.000,0.463
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",kimi-k2.6-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",llama-4-maverick,0,0.400,0.700,0.280,0.948
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",llama-3.2-1b,0,0.000,0.000,0.000,0.499
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",qwen3-32b-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",ministral-3b,0,0.000,0.000,0.000,0.492
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",llama-3.1-8b,0,0.000,0.000,0.000,0.759
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",llama-3.3-70b,0,0.250,0.700,0.175,0.948
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",phi-4,0,0.000,0.000,0.000,0.903
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",grok-4,0,0.000,0.000,0.000,0.479
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",grok-4.20-think,0,0.000,0.000,0.000,0.475
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",claude-opus-4.6-think,1,0.000,0.000,0.000,0.436
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.436
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",glm-5.1-think,1,0.000,0.000,0.000,0.448
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemma-3-12b,0,0.400,0.600,0.240,0.963
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gpt-5.5-think,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",kimi-k2,0,0.000,0.000,0.000,0.467
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",mistral-large,0,0.000,0.000,0.000,0.469
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemini-3.1-pro,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.463
+syn_cs_eskil_vrancken,"Eskil Vrancken",glm-4.7-think,1,0.000,0.000,0.000,0.490
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.474
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",llama-3.3-70b,1,0.000,0.000,0.000,0.463
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemma-3-4b,0,0.400,0.700,0.280,0.941
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.463
+syn_cs_eskil_vrancken,"Eskil Vrancken",gemini-2.5-pro-think,0,0.400,0.600,0.240,0.936
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",glm-4-32b,0,0.000,0.000,0.000,0.476
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",llama-4-maverick,0,0.000,0.000,0.000,0.855
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",mistral-medium-3.1,0,0.000,0.000,0.000,0.469
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",minimax-m2.7-think,0,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.467
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",qwen3-8b-think,0,0.000,0.000,0.000,0.481
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gpt-oss-20b-think,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",mistral-small-24b,1,0.000,0.000,0.000,0.436
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",glm-4.7-think,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gpt-5.4,1,0.000,0.000,0.000,0.445
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",qwen3-32b-think,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",llama-3.2-1b,0,0.000,0.000,0.000,0.471
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",ministral-3b,0,0.000,0.000,0.000,0.472
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gpt-5.3,1,0.000,0.000,0.000,0.445
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemini-3-flash-think,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",deepseek-v3.2-think,1,0.000,0.000,0.000,0.463
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.448
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.839
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",kimi-k2.6-think,1,0.000,0.000,0.000,0.463
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",phi-4,0,0.000,0.000,0.000,0.865
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.843
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemma-3-12b,0,0.400,0.700,0.280,0.928
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",llama-3.1-8b,0,0.000,0.000,0.000,0.851
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",grok-4,0,0.000,0.000,0.000,0.467
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",grok-4.20-think,0,0.000,0.000,0.000,0.486
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gpt-5.5-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemini-3-flash-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",claude-opus-4.6-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",kimi-k2,0,0.000,0.000,0.000,0.493
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",mistral-large,0,0.000,0.000,0.000,0.481
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.483
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemma-4-31b,1,0.000,0.000,0.000,0.463
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemma-4-31b,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.767
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",glm-4-32b,0,0.000,0.000,0.000,0.479
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",mistral-medium-3.1,0,0.000,0.000,0.000,0.481
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemini-3.1-pro,1,0.000,0.000,0.000,0.445
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",gemma-3-4b,0,0.200,0.400,0.080,0.908
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",minimax-m2.7-think,0,0.000,0.000,0.000,0.483
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",kimi-k2.6-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",glm-4.7-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.493
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",qwen3-8b-think,0,0.000,0.000,0.000,0.490
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",llama-3.3-70b,1,0.000,0.000,0.000,0.445
+syn_cs_anveer_kothakonda,"Anveer Kothakonda",gemma-4-31b,1,0.000,0.000,0.000,0.459
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gpt-5.4,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gpt-oss-20b-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",ministral-3b,0,0.000,0.000,0.000,0.490
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gpt-5.5-think,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",llama-3.2-1b,0,0.000,0.000,0.000,0.488
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gpt-5.3,1,0.000,0.000,0.000,0.448
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.426
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",claude-opus-4.6-think,1,0.000,0.000,0.000,0.448
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",grok-4,0,0.000,0.000,0.000,0.498
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",grok-4.20-think,0,0.000,0.000,0.000,0.523
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",qwen3-32b-think,1,0.000,0.000,0.000,0.445
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemini-3.1-pro,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",phi-4,0,0.000,0.000,0.000,0.905
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",llama-4-maverick,0,0.300,1.000,0.300,0.908
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",kimi-k2,0,0.000,0.000,0.000,0.517
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",llama-3.1-8b,0,0.000,0.000,0.000,0.846
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",mistral-large,0,0.000,0.000,0.000,0.517
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.523
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",llama-4-maverick,0,0.000,0.000,0.000,0.810
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.448
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemma-3-12b,0,0.500,1.000,0.500,0.962
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",glm-4-32b,0,0.000,0.000,0.000,0.524
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemma-4-31b,1,0.000,0.000,0.000,0.448
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",mistral-medium-3.1,0,0.000,0.000,0.000,0.517
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",qwen3-32b-think,1,0.000,0.000,0.000,0.448
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",minimax-m2.7-think,0,0.000,0.000,0.000,0.515
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.517
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",qwen3-8b-think,0,0.000,0.000,0.000,0.524
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",glm-5.1-think,1,0.000,0.000,0.000,0.445
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemini-2.5-pro-think,0,0.300,0.400,0.120,0.902
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",kimi-k2.6-think,1,0.000,0.000,0.000,0.448
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",glm-4.7-think,1,0.000,0.000,0.000,0.463
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",mistral-small-24b,1,0.000,0.000,0.000,0.448
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gpt-oss-20b-think,1,0.000,0.000,0.000,0.448
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gpt-5.4,1,0.000,0.000,0.000,0.434
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",deepseek-v3.2-think,1,0.000,0.000,0.000,0.445
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",ministral-3b,0,0.000,0.000,0.000,0.512
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gpt-5.3,1,0.000,0.000,0.000,0.434
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",llama-3.2-1b,0,0.000,0.000,0.000,0.513
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",gemma-3-4b,0,0.500,0.700,0.350,0.896
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemini-2.5-pro-think,0,0.400,0.400,0.160,0.942
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",llama-3.3-70b,0,0.000,0.000,0.000,0.871
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gpt-5.5-think,1,0.000,0.000,0.000,0.434
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",glm-5.1-think,1,0.000,0.000,0.000,0.448
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",claude-opus-4.6-think,1,0.000,0.000,0.000,0.376
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemini-3-flash-think,1,0.000,0.000,0.000,0.434
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",glm-5.1-think,1,0.000,0.000,0.000,0.463
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",phi-4,0,0.000,0.000,0.000,0.864
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",llama-3.1-8b,0,0.000,0.000,0.000,0.877
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",grok-4,0,0.000,0.000,0.000,0.447
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",grok-4.20-think,0,0.000,0.000,0.000,0.497
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemma-3-12b,0,0.300,0.400,0.120,0.937
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",deepseek-v3.2-think,1,0.000,0.000,0.000,0.448
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",kimi-k2,0,0.000,0.000,0.000,0.497
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemini-3.1-pro,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",kimi-k2.6-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",mistral-large,0,0.000,0.000,0.000,0.497
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.735
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.495
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",llama-4-maverick,0,0.000,0.000,0.000,0.836
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",glm-4-32b,0,0.000,0.000,0.000,0.513
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",mistral-medium-3.1,0,0.000,0.000,0.000,0.497
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.497
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",minimax-m2.7-think,0,0.000,0.000,0.000,0.483
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",llama-3.1-8b,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",qwen3-8b-think,0,0.000,0.000,0.000,0.502
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",glm-4.7-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gpt-oss-20b-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",mistral-small-24b,1,0.000,0.000,0.000,0.376
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",glm-4.7-think,1,0.000,0.000,0.000,0.448
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",glm-5.1-think,1,0.000,0.000,0.000,0.434
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",llama-3.2-1b,0,0.000,0.000,0.000,0.483
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",llama-3.3-70b,0,0.000,0.000,0.000,0.841
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",qwen3-32b-think,1,0.000,0.000,0.000,0.376
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemini-3-flash-think,0,0.300,0.400,0.120,0.908
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",qwen3.5-397b-a17b-think,1,0.000,0.000,0.000,0.434
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gpt-5.3,1,0.000,0.000,0.000,0.468
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",ministral-3b,0,0.000,0.000,0.000,0.501
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gpt-5.4,1,0.000,0.000,0.000,0.468
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",phi-4,0,0.000,0.000,0.000,0.865
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.418
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",claude-opus-4.6-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemini-3-flash-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",grok-4.20-think,0,0.000,0.000,0.000,0.532
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",grok-4,0,0.000,0.000,0.000,0.485
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemma-4-31b,1,0.000,0.000,0.000,0.434
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gpt-5.5-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",kimi-k2,0,0.000,0.000,0.000,0.524
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemini-3.1-pro,1,0.000,0.000,0.000,0.418
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",glm-4.7-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",mistral-large,0,0.000,0.000,0.000,0.524
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",llama-3.3-70b,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemma-4-31b,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.522
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.468
+syn_cs_yorel_heskenwald,"Yorel Heskenwald",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.827
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",kimi-k2.6-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",glm-4-32b,0,0.000,0.000,0.000,0.527
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",llama-4-maverick,0,0.300,1.000,0.300,0.934
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.835
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",mistral-small-24b,0,0.000,0.000,0.000,0.816
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",gemma-3-4b,0,0.200,0.400,0.080,0.885
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.468
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",mistral-medium-3.1,0,0.000,0.000,0.000,0.524
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",minimax-m2.7-think,0,0.000,0.000,0.000,0.516
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.524
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",qwen3-8b-think,0,0.000,0.000,0.000,0.521
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gpt-5.4,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",ministral-3b,0,0.000,0.000,0.000,0.521
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",llama-3.2-1b,0,0.000,0.000,0.000,0.516
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gpt-5.3,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",mistral-small-24b,1,0.000,0.000,0.000,0.418
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemma-3-12b,0,0.400,0.600,0.240,0.961
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gpt-5.5-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",claude-opus-4.6-think,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",phi-4,0,0.000,0.000,0.000,0.872
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",grok-4.20-think,0,0.000,0.000,0.000,0.535
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",grok-4,0,0.000,0.000,0.000,0.497
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",llama-3.1-8b,0,0.000,0.000,0.000,0.783
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemini-3-flash-think,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemma-3-12b,0,0.400,0.500,0.200,0.958
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",kimi-k2.6-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",kimi-k2,0,0.000,0.000,0.000,0.522
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemini-3.1-pro,1,0.000,0.000,0.000,0.475
+syn_cs_devansh_maliholkar,"Devansh Maliholkar",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.803
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",mistral-large,0,0.000,0.000,0.000,0.530
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.895
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.530
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",qwen3-32b-think,0,0.000,0.000,0.000,0.837
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemma-4-31b,1,0.000,0.000,0.000,0.475
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gpt-oss-20b-think,1,0.000,0.000,0.000,0.468
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",glm-4-32b,0,0.000,0.000,0.000,0.536
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",mistral-medium-3.1,0,0.000,0.000,0.000,0.530
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",qwen3-32b-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",deepseek-v3.2-think,1,0.000,0.000,0.000,0.431
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",glm-5.1-think,1,0.000,0.000,0.000,0.468
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",llama-4-maverick,0,0.300,1.000,0.300,0.958
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.522
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",qwen3-8b-think,0,0.000,0.000,0.000,0.541
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",glm-4.7-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",minimax-m2.7-think,0,0.000,0.000,0.000,0.521
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",deepseek-v3.2-think,1,0.000,0.000,0.000,0.468
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gpt-5.4,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gpt-5.3,1,0.000,0.000,0.000,0.464
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gpt-oss-20b-think,1,0.000,0.000,0.000,0.475
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",ministral-3b,0,0.000,0.000,0.000,0.532
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",llama-3.2-1b,0,0.000,0.000,0.000,0.529
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",claude-opus-4.6-think,1,0.000,0.000,0.000,0.443
+syn_cs_tarvik_olshanski,"Tarvik Olshanski",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.875
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",phi-4,0,0.000,0.000,0.000,0.890
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",grok-4.20-think,0,0.000,0.000,0.000,0.583
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",gemma-3-4b,0,0.300,0.400,0.120,0.886
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.443
+syn_cs_eskil_vrancken,"Eskil Vrancken",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.858
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",llama-3.3-70b,0,0.300,1.000,0.300,0.960
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",deepseek-v4-flash-think,0,0.600,1.000,0.600,0.973
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",grok-4,0,0.000,0.000,0.000,0.519
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemma-3-12b,0,0.500,1.000,0.500,0.961
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",kimi-k2,0,0.000,0.000,0.000,0.579
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemini-3-flash-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.464
+syn_cs_onnele_sjoberg,"Onnele Sjöberg",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.682
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",mistral-large,0,0.000,0.000,0.000,0.584
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemini-3.1-pro,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",llama-3.3-70b,1,0.000,0.000,0.000,0.443
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemma-4-31b,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.588
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gpt-5.5-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemma-3-12b,1,0.000,0.000,0.000,0.464
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",llama-3.1-8b,0,0.300,1.000,0.300,0.908
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",glm-5.1-think,1,0.000,0.000,0.000,0.475
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",kimi-k2.6-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",llama-4-maverick,0,0.000,0.000,0.000,0.794
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",glm-4-32b,0,0.000,0.000,0.000,0.601
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",mistral-medium-3.1,0,0.000,0.000,0.000,0.584
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.579
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",minimax-m2.7-think,0,0.000,0.000,0.000,0.573
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",qwen3-8b-think,0,0.000,0.000,0.000,0.599
+syn_founder_marielys_caballenas,"Marielys Caballenas",gpt-5.4,1,0.000,0.000,0.000,0.451
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",deepseek-v3.2-think,1,0.000,0.000,0.000,0.443
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",llama-3.2-1b,0,0.000,0.000,0.000,0.586
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",llama-3.1-8b,0,0.000,0.000,0.000,0.600
+syn_founder_marielys_caballenas,"Marielys Caballenas",gpt-5.3,1,0.000,0.000,0.000,0.451
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",ministral-3b,0,0.000,0.000,0.000,0.579
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gpt-oss-20b-think,1,0.000,0.000,0.000,0.464
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",mistral-small-24b,1,0.000,0.000,0.000,0.443
+syn_founder_marielys_caballenas,"Marielys Caballenas",grok-4.20-think,0,0.000,0.000,0.000,0.576
+syn_founder_marielys_caballenas,"Marielys Caballenas",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",claude-opus-4.6-think,1,0.000,0.000,0.000,0.450
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",phi-4,0,0.000,0.000,0.000,0.906
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",qwen3-32b-think,1,0.000,0.000,0.000,0.443
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemini-3.1-pro,1,0.000,0.000,0.000,0.451
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",deepseek-v3.2-think,0,0.000,0.000,0.000,0.853
+syn_founder_marielys_caballenas,"Marielys Caballenas",grok-4,0,0.000,0.000,0.000,0.514
+syn_founder_marielys_caballenas,"Marielys Caballenas",kimi-k2,0,0.000,0.000,0.000,0.580
+syn_cs_wenslin_kraborsky,"Wenslin Kraborsky",gemma-3-4b,0,0.400,0.500,0.200,0.907
+syn_founder_marielys_caballenas,"Marielys Caballenas",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",llama-3.3-70b,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",glm-4.7-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemma-4-31b,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",mistral-large,0,0.000,0.000,0.000,0.572
+syn_founder_marielys_caballenas,"Marielys Caballenas",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.574
+syn_founder_marielys_caballenas,"Marielys Caballenas",kimi-k2.6-think,1,0.000,0.000,0.000,0.450
+syn_founder_marielys_caballenas,"Marielys Caballenas",glm-4-32b,0,0.000,0.000,0.000,0.565
+syn_founder_marielys_caballenas,"Marielys Caballenas",mistral-medium-3.1,0,0.000,0.000,0.000,0.572
+syn_founder_marielys_caballenas,"Marielys Caballenas",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.580
+syn_founder_marielys_caballenas,"Marielys Caballenas",minimax-m2.7-think,0,0.000,0.000,0.000,0.583
+syn_founder_marielys_caballenas,"Marielys Caballenas",qwen3-8b-think,0,0.000,0.000,0.000,0.595
+syn_founder_marielys_caballenas,"Marielys Caballenas",llama-4-maverick,0,0.300,1.000,0.300,0.859
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",gemma-3-4b,0,0.400,1.000,0.400,0.952
+syn_founder_marielys_caballenas,"Marielys Caballenas",llama-3.2-1b,0,0.000,0.000,0.000,0.579
+syn_founder_marielys_caballenas,"Marielys Caballenas",ministral-3b,0,0.000,0.000,0.000,0.577
+syn_founder_marielys_caballenas,"Marielys Caballenas",gpt-5.5-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",llama-3.1-8b,0,0.000,0.000,0.000,0.857
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",glm-4.7-think,1,0.000,0.000,0.000,0.464
+syn_founder_marielys_caballenas,"Marielys Caballenas",phi-4,0,0.000,0.000,0.000,0.894
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gpt-5.3,1,0.000,0.000,0.000,0.406
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.451
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gpt-5.4,1,0.000,0.000,0.000,0.406
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemma-3-12b,0,0.400,0.100,0.040,0.908
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",glm-5.1-think,1,0.000,0.000,0.000,0.464
+syn_founder_marielys_caballenas,"Marielys Caballenas",gpt-oss-20b-think,1,0.000,0.000,0.000,0.451
+syn_founder_marielys_caballenas,"Marielys Caballenas",qwen3-32b-think,0,0.000,0.000,0.000,0.880
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",grok-4,0,0.000,0.000,0.000,0.450
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",grok-4.20-think,0,0.000,0.000,0.000,0.518
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",claude-opus-4.6-think,1,0.000,0.000,0.000,0.396
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gpt-5.5-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",kimi-k2,0,0.000,0.000,0.000,0.521
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",glm-4.7-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",mistral-large,0,0.000,0.000,0.000,0.516
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",llama-4-maverick,0,0.000,0.000,0.000,0.718
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",llama-3.3-70b,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemma-4-31b,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemini-3.1-pro,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.529
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",glm-4-32b,0,0.000,0.000,0.000,0.541
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.521
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",mistral-medium-3.1,0,0.000,0.000,0.000,0.516
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemma-3-12b,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",minimax-m2.7-think,0,0.000,0.000,0.000,0.516
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",qwen3-8b-think,0,0.000,0.000,0.000,0.535
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",mistral-small-24b,1,0.000,0.000,0.000,0.396
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",kimi-k2.6-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gpt-oss-20b-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemini-3-flash-think,0,0.400,0.400,0.160,0.890
+syn_founder_marielys_caballenas,"Marielys Caballenas",mistral-small-24b,0,0.000,0.000,0.000,0.838
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gpt-5.4,1,0.000,0.000,0.000,0.392
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",ministral-3b,0,0.000,0.000,0.000,0.521
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",llama-3.2-1b,0,0.000,0.000,0.000,0.513
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",gemma-3-4b,0,0.600,0.400,0.240,0.893
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gpt-5.3,1,0.000,0.000,0.000,0.392
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",deepseek-v3.2-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",llama-3.1-8b,0,0.000,0.000,0.000,0.660
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",qwen3-32b-think,0,0.000,0.000,0.000,0.870
+syn_founder_marielys_caballenas,"Marielys Caballenas",deepseek-v3.2-think,0,0.500,0.700,0.350,0.874
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",claude-opus-4.6-think,1,0.000,0.000,0.000,0.392
+syn_cs_vihaan_periswamy,"Vihaan Periswamy",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.843
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",grok-4,0,0.000,0.000,0.000,0.398
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",grok-4.20-think,0,0.000,0.000,0.000,0.459
+syn_founder_marielys_caballenas,"Marielys Caballenas",glm-5.1-think,1,0.000,0.000,0.000,0.451
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.377
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",phi-4,0,0.000,0.000,0.000,0.891
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",glm-5.1-think,1,0.000,0.000,0.000,0.406
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemini-2.5-pro-think,0,0.300,0.100,0.030,0.879
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",kimi-k2,0,0.000,0.000,0.000,0.474
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",mistral-large,0,0.000,0.000,0.000,0.461
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",llama-4-maverick,0,0.000,0.000,0.000,0.824
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.483
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",llama-3.3-70b,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemini-3.1-pro,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemma-4-31b,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",glm-4-32b,0,0.000,0.000,0.000,0.468
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",mistral-medium-3.1,0,0.000,0.000,0.000,0.461
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.474
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.824
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",kimi-k2.6-think,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",minimax-m2.7-think,0,0.000,0.000,0.000,0.467
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",qwen3-8b-think,0,0.000,0.000,0.000,0.486
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",mistral-small-24b,1,0.000,0.000,0.000,0.377
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemma-3-4b,0,0.700,0.400,0.280,0.889
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gpt-oss-20b-think,1,0.000,0.000,0.000,0.392
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",gemma-3-4b,0,0.400,0.400,0.160,0.900
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gpt-5.5-think,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.392
+syn_founder_renske_thalvald,"Renske Thalvald",gpt-5.4,1,0.000,0.000,0.000,0.422
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",glm-4.7-think,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",llama-3.2-1b,0,0.000,0.000,0.000,0.454
+syn_founder_renske_thalvald,"Renske Thalvald",gpt-5.3,1,0.000,0.000,0.000,0.422
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",ministral-3b,0,0.000,0.000,0.000,0.466
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",phi-4,0,0.000,0.000,0.000,0.817
+syn_founder_renske_thalvald,"Renske Thalvald",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.402
+syn_founder_renske_thalvald,"Renske Thalvald",claude-opus-4.6-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",grok-4.20-think,0,0.000,0.000,0.000,0.503
+syn_founder_renske_thalvald,"Renske Thalvald",gpt-5.5-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",grok-4,0,0.000,0.000,0.000,0.467
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemini-3-flash-think,1,0.000,0.000,0.000,0.392
+syn_founder_renske_thalvald,"Renske Thalvald",gemini-3-flash-think,1,0.000,0.000,0.000,0.422
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.392
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",deepseek-v3.2-think,0,0.000,0.000,0.000,0.834
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",llama-3.1-8b,0,0.000,0.000,0.000,0.861
+syn_founder_renske_thalvald,"Renske Thalvald",gemini-3.1-pro,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",kimi-k2,0,0.000,0.000,0.000,0.519
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",qwen3-32b-think,0,0.400,0.300,0.120,0.888
+syn_founder_renske_thalvald,"Renske Thalvald",kimi-k2.6-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",llama-3.3-70b,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",mistral-large,0,0.000,0.000,0.000,0.510
+syn_founder_renske_thalvald,"Renske Thalvald",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.422
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemma-3-4b,0,0.400,0.400,0.160,0.886
+syn_founder_renske_thalvald,"Renske Thalvald",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.521
+syn_founder_renske_thalvald,"Renske Thalvald",gemma-3-12b,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",llama-4-maverick,0,0.000,0.000,0.000,0.807
+syn_founder_renske_thalvald,"Renske Thalvald",glm-4-32b,0,0.000,0.000,0.000,0.501
+syn_founder_renske_thalvald,"Renske Thalvald",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.519
+syn_founder_renske_thalvald,"Renske Thalvald",mistral-medium-3.1,0,0.000,0.000,0.000,0.510
+syn_founder_renske_thalvald,"Renske Thalvald",mistral-small-24b,1,0.000,0.000,0.000,0.402
+syn_founder_renske_thalvald,"Renske Thalvald",minimax-m2.7-think,0,0.000,0.000,0.000,0.505
+syn_founder_renske_thalvald,"Renske Thalvald",qwen3-8b-think,0,0.000,0.000,0.000,0.518
+syn_founder_renske_thalvald,"Renske Thalvald",gpt-oss-20b-think,1,0.000,0.000,0.000,0.422
+syn_founder_brendel_quanzhong,"Brendel Quanzhong",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.853
+syn_founder_renske_thalvald,"Renske Thalvald",deepseek-v3.2-think,1,0.000,0.000,0.000,0.422
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",glm-5.1-think,1,0.000,0.000,0.000,0.392
+syn_founder_renske_thalvald,"Renske Thalvald",llama-3.2-1b,0,0.000,0.000,0.000,0.507
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gpt-5.4,1,0.000,0.000,0.000,0.470
+syn_founder_renske_thalvald,"Renske Thalvald",ministral-3b,0,0.000,0.000,0.000,0.506
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gpt-5.3,1,0.000,0.000,0.000,0.470
+syn_founder_renske_thalvald,"Renske Thalvald",glm-5.1-think,1,0.000,0.000,0.000,0.422
+syn_founder_renske_thalvald,"Renske Thalvald",llama-3.1-8b,0,0.000,0.000,0.000,0.738
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",gemma-3-12b,0,0.400,0.400,0.160,0.912
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",grok-4,0,0.000,0.000,0.000,0.478
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",grok-4.20-think,0,0.000,0.000,0.000,0.530
+syn_founder_renske_thalvald,"Renske Thalvald",qwen3-32b-think,1,0.000,0.000,0.000,0.422
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",claude-opus-4.6-think,1,0.000,0.000,0.000,0.444
+syn_founder_renske_thalvald,"Renske Thalvald",phi-4,0,0.000,0.000,0.000,0.908
+syn_cs_halvar_mendigutia,"Halvar Mendigutia",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.831
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",kimi-k2,0,0.000,0.000,0.000,0.533
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",mistral-large,0,0.000,0.000,0.000,0.532
+syn_founder_renske_thalvald,"Renske Thalvald",gemma-4-31b,1,0.000,0.000,0.000,0.422
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemini-3.1-pro,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",llama-4-maverick,0,0.000,0.000,0.000,0.864
+syn_founder_renske_thalvald,"Renske Thalvald",glm-4.7-think,1,0.000,0.000,0.000,0.422
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.539
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.687
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemma-4-31b,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",glm-4-32b,0,0.000,0.000,0.000,0.531
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemini-3-flash-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",qwen3-32b-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",mistral-medium-3.1,0,0.000,0.000,0.000,0.532
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.533
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",minimax-m2.7-think,0,0.000,0.000,0.000,0.539
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",qwen3-8b-think,0,0.000,0.000,0.000,0.540
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",llama-3.2-1b,0,0.000,0.000,0.000,0.522
+syn_founder_renske_thalvald,"Renske Thalvald",gemma-3-4b,0,0.500,0.500,0.250,0.889
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",ministral-3b,0,0.000,0.000,0.000,0.529
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",glm-4.7-think,1,0.000,0.000,0.000,0.470
+syn_imo_vesper_lindblom,"Vesper Lindblom",gpt-5.4,1,0.000,0.000,0.000,0.449
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",phi-4,0,0.000,0.000,0.000,0.881
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gpt-oss-20b-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",kimi-k2.6-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",llama-3.1-8b,0,0.000,0.000,0.000,0.800
+syn_imo_vesper_lindblom,"Vesper Lindblom",gpt-5.3,1,0.000,0.000,0.000,0.449
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemma-3-12b,0,0.400,0.100,0.040,0.891
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",llama-3.3-70b,0,0.000,0.000,0.000,0.872
+syn_imo_vesper_lindblom,"Vesper Lindblom",grok-4,0,0.000,0.000,0.000,0.338
+syn_imo_vesper_lindblom,"Vesper Lindblom",grok-4.20-think,0,0.000,0.000,0.000,0.418
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemini-3-flash-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",kimi-k2,0,0.000,0.000,0.000,0.423
+syn_imo_vesper_lindblom,"Vesper Lindblom",gpt-5.5-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",claude-opus-4.6-think,1,0.000,0.000,0.000,0.449
+syn_founder_pieter_van_houtrijn,"Pieter van Houtrijn",qwen3.5-397b-a17b-think,1,0.000,0.000,0.000,0.392
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemini-3.1-pro,1,0.000,0.000,0.000,0.412
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.470
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",glm-5.1-think,1,0.000,0.000,0.000,0.470
+syn_imo_vesper_lindblom,"Vesper Lindblom",kimi-k2.6-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",mistral-large,0,0.000,0.000,0.000,0.424
+syn_imo_vesper_lindblom,"Vesper Lindblom",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.856
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemma-4-31b,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.426
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gemma-3-4b,0,0.400,0.500,0.200,0.890
+syn_imo_vesper_lindblom,"Vesper Lindblom",mistral-medium-3.1,0,0.000,0.000,0.000,0.424
+syn_imo_vesper_lindblom,"Vesper Lindblom",glm-4-32b,0,0.000,0.000,0.000,0.411
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",mistral-small-24b,0,0.000,0.000,0.000,0.837
+syn_imo_vesper_lindblom,"Vesper Lindblom",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",llama-4-maverick,0,0.400,1.000,0.400,0.840
+syn_imo_vesper_lindblom,"Vesper Lindblom",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.423
+syn_imo_vesper_lindblom,"Vesper Lindblom",qwen3-8b-think,0,0.000,0.000,0.000,0.425
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",gpt-5.5-think,1,0.000,0.000,0.000,0.470
+syn_imo_vesper_lindblom,"Vesper Lindblom",minimax-m2.7-think,0,0.000,0.000,0.000,0.422
+syn_imo_vesper_lindblom,"Vesper Lindblom",mistral-small-24b,1,0.000,0.000,0.000,0.412
+syn_imo_vesper_lindblom,"Vesper Lindblom",llama-3.2-1b,0,0.000,0.000,0.000,0.413
+syn_imo_vesper_lindblom,"Vesper Lindblom",ministral-3b,0,0.000,0.000,0.000,0.427
+syn_imo_vesper_lindblom,"Vesper Lindblom",llama-3.3-70b,0,0.000,0.000,0.000,0.833
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gpt-5.3,1,0.000,0.000,0.000,0.459
+syn_imo_vesper_lindblom,"Vesper Lindblom",gpt-oss-20b-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",glm-5.1-think,1,0.000,0.000,0.000,0.449
+syn_imo_vesper_lindblom,"Vesper Lindblom",qwen3-32b-think,0,0.000,0.000,0.000,0.819
+syn_founder_jocelin_okwuosu,"Jocelin Okwuosu",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.852
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.808
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",grok-4.20-think,0,0.000,0.000,0.000,0.435
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",grok-4,0,0.000,0.000,0.000,0.355
+syn_imo_vesper_lindblom,"Vesper Lindblom",deepseek-v3.2-think,0,0.000,0.000,0.000,0.816
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",deepseek-v3.2-think,0,0.400,0.100,0.040,0.865
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gpt-5.4,0,0.600,1.000,0.600,0.901
+syn_imo_vesper_lindblom,"Vesper Lindblom",llama-3.1-8b,0,0.000,0.000,0.000,0.769
+syn_cs_iskander_vrolijk,"Iskander Vrolijk",mistral-small-24b,0,0.200,1.000,0.200,0.948
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemma-3-4b,0,0.400,0.400,0.160,0.812
+syn_founder_marielys_caballenas,"Marielys Caballenas",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.874
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",kimi-k2,0,0.000,0.000,0.000,0.433
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",mistral-large,0,0.000,0.000,0.000,0.445
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.445
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemini-3.1-pro,1,0.000,0.000,0.000,0.459
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",glm-4-32b,0,0.000,0.000,0.000,0.430
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",claude-opus-4.6-think,0,1.000,1.000,1.000,0.884
+syn_imo_vesper_lindblom,"Vesper Lindblom",glm-4.7-think,1,0.000,0.000,0.000,0.449
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",claude-sonnet-4.6-think,0,0.600,1.000,0.600,0.882
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",llama-4-maverick,0,0.700,1.000,0.700,0.826
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",mistral-medium-3.1,0,0.000,0.000,0.000,0.445
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",minimax-m2.7-think,0,0.000,0.000,0.000,0.442
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.433
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",qwen3-8b-think,0,0.000,0.000,0.000,0.453
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",kimi-k2.6-think,0,0.700,1.000,0.700,0.827
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gpt-5.5-think,0,0.800,1.000,0.800,0.903
+syn_imo_vesper_lindblom,"Vesper Lindblom",gemma-3-12b,0,0.700,0.400,0.280,0.799
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",llama-3.3-70b,0,0.600,1.000,0.600,0.876
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",llama-3.2-1b,0,0.000,0.000,0.000,0.428
+syn_imo_vesper_lindblom,"Vesper Lindblom",deepseek-v4-pro-think,0,0.750,1.000,0.750,0.845
+syn_imo_vesper_lindblom,"Vesper Lindblom",phi-4,0,0.600,0.400,0.240,0.842
+syn_imo_petr_zelinka,"Petr Zelinka",gpt-5.3,1,0.000,0.000,0.000,0.456
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",ministral-3b,0,0.000,0.000,0.000,0.448
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",phi-4,0,0.400,1.000,0.400,0.874
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemini-2.5-pro-think,0,0.800,1.000,0.800,0.862
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemma-4-31b,0,0.500,1.000,0.500,0.822
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",llama-3.1-8b,0,0.500,1.000,0.500,0.845
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemini-3-flash-think,0,0.500,0.400,0.200,0.839
+syn_imo_petr_zelinka,"Petr Zelinka",grok-4.20-think,0,0.000,0.000,0.000,0.432
+syn_founder_amitabh_nakshatri,"Amitabh Nakshatri",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.861
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",deepseek-v4-flash-think,0,0.700,1.000,0.700,0.826
+syn_imo_petr_zelinka,"Petr Zelinka",gpt-5.4,0,1.000,1.000,1.000,0.892
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",qwen3.5-397b-a17b-think,0,1.000,1.000,1.000,0.848
+syn_imo_petr_zelinka,"Petr Zelinka",grok-4,0,0.000,0.000,0.000,0.363
+syn_imo_petr_zelinka,"Petr Zelinka",kimi-k2,0,0.000,0.000,0.000,0.432
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",qwen3-32b-think,0,0.000,0.000,0.000,0.851
+syn_imo_petr_zelinka,"Petr Zelinka",gemini-3.1-pro,1,0.000,0.000,0.000,0.456
+syn_imo_petr_zelinka,"Petr Zelinka",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.812
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",glm-5.1-think,1,0.000,0.000,0.000,0.459
+syn_imo_petr_zelinka,"Petr Zelinka",mistral-large,0,0.000,0.000,0.000,0.435
+syn_imo_petr_zelinka,"Petr Zelinka",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.437
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",glm-4.7-think,0,0.500,1.000,0.500,0.814
+syn_founder_renske_thalvald,"Renske Thalvald",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.889
+syn_imo_petr_zelinka,"Petr Zelinka",claude-opus-4.6-think,0,1.000,1.000,1.000,0.896
+syn_imo_petr_zelinka,"Petr Zelinka",gemini-3-flash-think,0,0.600,1.000,0.600,0.868
+syn_imo_petr_zelinka,"Petr Zelinka",glm-4-32b,0,0.000,0.000,0.000,0.431
+syn_imo_petr_zelinka,"Petr Zelinka",llama-4-maverick,0,0.800,1.000,0.800,0.897
+syn_imo_petr_zelinka,"Petr Zelinka",mistral-medium-3.1,0,0.000,0.000,0.000,0.435
+syn_imo_petr_zelinka,"Petr Zelinka",gpt-5.5-think,0,0.700,1.000,0.700,0.867
+syn_imo_petr_zelinka,"Petr Zelinka",minimax-m2.7-think,0,0.000,0.000,0.000,0.433
+syn_imo_petr_zelinka,"Petr Zelinka",qwen3-8b-think,0,0.000,0.000,0.000,0.441
+syn_imo_petr_zelinka,"Petr Zelinka",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.432
+syn_imo_petr_zelinka,"Petr Zelinka",gemini-2.5-pro-think,0,0.100,0.000,0.000,0.836
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gpt-oss-20b-think,1,0.000,0.000,0.000,0.459
+syn_imo_petr_zelinka,"Petr Zelinka",qwen3-32b-think,1,0.000,0.000,0.000,0.456
+syn_imo_petr_zelinka,"Petr Zelinka",kimi-k2.6-think,1,0.000,0.000,0.000,0.456
+syn_imo_petr_zelinka,"Petr Zelinka",glm-5.1-think,0,0.000,0.000,0.000,0.867
+syn_imo_petr_zelinka,"Petr Zelinka",llama-3.2-1b,0,0.000,0.000,0.000,0.420
+syn_imo_petr_zelinka,"Petr Zelinka",ministral-3b,0,0.000,0.000,0.000,0.440
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gpt-5.3,1,0.000,0.000,0.000,0.457
+syn_imo_petr_zelinka,"Petr Zelinka",gpt-oss-20b-think,1,0.000,0.000,0.000,0.456
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",deepseek-v4-pro-think,0,0.800,1.000,0.800,0.834
+syn_imo_vesper_lindblom,"Vesper Lindblom",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.831
+syn_imo_petr_zelinka,"Petr Zelinka",qwen3.5-397b-a17b-think,0,1.000,1.000,1.000,0.852
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gpt-5.4,0,0.600,1.000,0.600,0.818
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",grok-4.20-think,0,0.000,0.000,0.000,0.418
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",grok-4,0,0.000,0.000,0.000,0.353
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemini-3-flash-think,1,0.000,0.000,0.000,0.457
+syn_imo_petr_zelinka,"Petr Zelinka",llama-3.3-70b,0,0.600,1.000,0.600,0.900
+syn_imo_petr_zelinka,"Petr Zelinka",phi-4,0,1.000,0.700,0.700,0.858
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemini-3.1-pro,1,0.000,0.000,0.000,0.457
+syn_imo_petr_zelinka,"Petr Zelinka",deepseek-v4-flash-think,0,0.700,1.000,0.700,0.839
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",deepseek-v3.2-think,0,0.700,1.000,0.700,0.818
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",kimi-k2,0,0.000,0.000,0.000,0.416
+syn_imo_petr_zelinka,"Petr Zelinka",llama-3.1-8b,0,0.400,0.700,0.280,0.902
+syn_imo_petr_zelinka,"Petr Zelinka",deepseek-v3.2-think,0,0.000,0.000,0.000,0.815
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",claude-opus-4.6-think,0,0.800,1.000,0.800,0.841
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",mistral-large,0,0.000,0.000,0.000,0.423
+syn_imo_petr_zelinka,"Petr Zelinka",gemma-4-31b,0,0.700,1.000,0.700,0.847
+syn_imo_petr_zelinka,"Petr Zelinka",gemma-3-12b,0,0.700,1.000,0.700,0.831
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.422
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",deepseek-v3.2-think,1,0.000,0.000,0.000,0.457
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",glm-4-32b,0,0.000,0.000,0.000,0.408
+syn_imo_petr_zelinka,"Petr Zelinka",mistral-small-24b,0,0.500,1.000,0.500,0.913
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.839
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",llama-4-maverick,0,0.500,1.000,0.500,0.886
+syn_imo_petr_zelinka,"Petr Zelinka",gemma-3-4b,0,0.400,0.700,0.280,0.853
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",mistral-medium-3.1,0,0.000,0.000,0.000,0.423
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.416
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",minimax-m2.7-think,0,0.000,0.000,0.000,0.418
+syn_imo_petr_zelinka,"Petr Zelinka",deepseek-v4-pro-think,0,0.700,1.000,0.700,0.866
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",qwen3-8b-think,0,0.000,0.000,0.000,0.425
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",mistral-small-24b,1,0.000,0.000,0.000,0.423
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",llama-3.2-1b,0,0.000,0.000,0.000,0.405
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",ministral-3b,0,0.000,0.000,0.000,0.427
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.860
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gpt-5.5-think,0,0.400,1.000,0.400,0.792
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",kimi-k2.6-think,1,0.000,0.000,0.000,0.457
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",phi-4,0,0.000,0.000,0.000,0.867
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",llama-3.1-8b,0,0.400,1.000,0.400,0.850
+syn_imo_milos_pravdic,"Miloš Pravdić",gpt-5.3,1,0.000,0.000,0.000,0.460
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemma-3-12b,0,0.700,1.000,0.700,0.809
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",qwen3-32b-think,0,0.000,0.000,0.000,0.869
+syn_imo_milos_pravdic,"Miloš Pravdić",grok-4.20-think,0,0.000,0.000,0.000,0.428
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",llama-3.3-70b,0,0.500,1.000,0.500,0.843
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemma-4-31b,0,0.400,0.400,0.160,0.826
+syn_imo_milos_pravdic,"Miloš Pravdić",grok-4,0,0.000,0.000,0.000,0.340
+syn_imo_milos_pravdic,"Miloš Pravdić",kimi-k2,0,0.000,0.000,0.000,0.432
+syn_imo_milos_pravdic,"Miloš Pravdić",kimi-k2.6-think,1,0.000,0.000,0.000,0.460
+syn_imo_milos_pravdic,"Miloš Pravdić",gpt-5.4,0,0.600,1.000,0.600,0.824
+syn_imo_milos_pravdic,"Miloš Pravdić",gemini-3-flash-think,1,0.000,0.000,0.000,0.460
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",glm-4.7-think,1,0.000,0.000,0.000,0.457
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.457
+syn_imo_milos_pravdic,"Miloš Pravdić",mistral-large,0,0.000,0.000,0.000,0.435
+syn_imo_milos_pravdic,"Miloš Pravdić",gemini-3.1-pro,1,0.000,0.000,0.000,0.423
+syn_imo_milos_pravdic,"Miloš Pravdić",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.436
+syn_imo_petr_zelinka,"Petr Zelinka",glm-4.7-think,1,0.000,0.000,0.000,0.456
+syn_imo_milos_pravdic,"Miloš Pravdić",claude-sonnet-4.6-think,0,0.800,1.000,0.800,0.868
+syn_imo_milos_pravdic,"Miloš Pravdić",glm-4-32b,0,0.000,0.000,0.000,0.422
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemma-3-12b,0,0.400,0.500,0.200,0.817
+syn_imo_milos_pravdic,"Miloš Pravdić",claude-opus-4.6-think,0,1.000,1.000,1.000,0.835
+syn_imo_milos_pravdic,"Miloš Pravdić",llama-4-maverick,0,0.700,1.000,0.700,0.842
+syn_imo_milos_pravdic,"Miloš Pravdić",mistral-medium-3.1,0,0.000,0.000,0.000,0.435
+syn_imo_milos_pravdic,"Miloš Pravdić",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.432
+syn_imo_milos_pravdic,"Miloš Pravdić",glm-4.7-think,1,0.000,0.000,0.000,0.460
+syn_imo_milos_pravdic,"Miloš Pravdić",minimax-m2.7-think,0,0.000,0.000,0.000,0.436
+syn_imo_milos_pravdic,"Miloš Pravdić",qwen3-8b-think,0,0.000,0.000,0.000,0.442
+syn_imo_milos_pravdic,"Miloš Pravdić",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.829
+syn_imo_milos_pravdic,"Miloš Pravdić",deepseek-v4-pro-think,0,0.800,1.000,0.800,0.808
+syn_imo_milos_pravdic,"Miloš Pravdić",llama-3.2-1b,0,0.000,0.000,0.000,0.424
+syn_imo_milos_pravdic,"Miloš Pravdić",deepseek-v3.2-think,0,0.000,0.000,0.000,0.807
+syn_imo_milos_pravdic,"Miloš Pravdić",ministral-3b,0,0.000,0.000,0.000,0.441
+syn_imo_milos_pravdic,"Miloš Pravdić",gpt-5.5-think,0,0.700,1.000,0.700,0.840
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",deepseek-v4-flash-think,0,0.600,1.000,0.600,0.823
+syn_imo_milos_pravdic,"Miloš Pravdić",llama-3.1-8b,0,0.000,0.000,0.000,0.825
+syn_imo_milos_pravdic,"Miloš Pravdić",llama-3.3-70b,0,0.600,1.000,0.600,0.878
+syn_imo_milos_pravdic,"Miloš Pravdić",qwen3-32b-think,1,0.000,0.000,0.000,0.460
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",glm-5.1-think,1,0.000,0.000,0.000,0.457
+syn_imo_milos_pravdic,"Miloš Pravdić",phi-4,0,0.800,1.000,0.800,0.872
+syn_imo_milos_pravdic,"Miloš Pravdić",gemma-3-12b,0,0.700,0.300,0.210,0.827
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gpt-5.3,1,0.000,0.000,0.000,0.458
+syn_imo_milos_pravdic,"Miloš Pravdić",gemma-4-31b,0,0.600,0.700,0.420,0.830
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",grok-4,0,0.000,0.000,0.000,0.350
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",grok-4.20-think,0,0.000,0.000,0.000,0.436
+syn_imo_milos_pravdic,"Miloš Pravdić",gemma-3-4b,0,0.400,0.400,0.160,0.846
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gpt-5.4,0,0.600,1.000,0.600,0.887
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",mistral-small-24b,0,0.600,1.000,0.600,0.874
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gemma-3-4b,0,0.400,1.000,0.400,0.836
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",kimi-k2,0,0.000,0.000,0.000,0.433
+syn_imo_milos_pravdic,"Miloš Pravdić",glm-5.1-think,1,0.000,0.000,0.000,0.460
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",mistral-large,0,0.000,0.000,0.000,0.440
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.451
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemini-3.1-pro,1,0.000,0.000,0.000,0.458
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",kimi-k2.6-think,1,0.000,0.000,0.000,0.458
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.458
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.842
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",claude-opus-4.6-think,0,0.500,1.000,0.500,0.839
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",glm-4-32b,0,0.000,0.000,0.000,0.432
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",mistral-medium-3.1,0,0.000,0.000,0.000,0.440
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.458
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",gpt-oss-20b-think,0,0.400,0.200,0.080,0.836
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",minimax-m2.7-think,0,0.000,0.000,0.000,0.437
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.433
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",llama-4-maverick,0,0.500,1.000,0.500,0.887
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",qwen3-8b-think,0,0.000,0.000,0.000,0.449
+syn_imo_milos_pravdic,"Miloš Pravdić",gpt-oss-20b-think,1,0.000,0.000,0.000,0.460
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gpt-oss-20b-think,1,0.000,0.000,0.000,0.458
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.827
+syn_oss_spindleflow,"Spindleflow",gpt-5.4,1,0.000,0.000,0.000,0.472
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",llama-3.2-1b,0,0.000,0.000,0.000,0.427
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",llama-3.3-70b,0,0.000,0.000,0.000,0.818
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",ministral-3b,0,0.000,0.000,0.000,0.443
+syn_oss_spindleflow,"Spindleflow",gpt-5.3,1,0.000,0.000,0.000,0.472
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",phi-4,0,0.500,1.000,0.500,0.882
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gpt-5.5-think,0,0.400,1.000,0.400,0.828
+syn_oss_spindleflow,"Spindleflow",gpt-5.5-think,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",grok-4.20-think,0,0.000,0.000,0.000,0.573
+syn_oss_spindleflow,"Spindleflow",claude-opus-4.6-think,1,0.000,0.000,0.000,0.472
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",llama-3.1-8b,0,0.000,0.000,0.000,0.876
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemma-4-31b,0,0.600,0.900,0.540,0.829
+syn_oss_spindleflow,"Spindleflow",grok-4,0,0.000,0.000,0.000,0.517
+syn_oss_spindleflow,"Spindleflow",gemini-3.1-pro,1,0.000,0.000,0.000,0.472
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemma-3-12b,0,0.800,1.000,0.800,0.824
+syn_imo_milos_pravdic,"Miloš Pravdić",deepseek-v4-flash-think,0,1.000,0.400,0.400,0.816
+syn_oss_spindleflow,"Spindleflow",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.800
+syn_oss_spindleflow,"Spindleflow",kimi-k2,0,0.000,0.000,0.000,0.573
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemini-3-flash-think,0,1.000,1.000,1.000,0.819
+syn_oss_spindleflow,"Spindleflow",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.472
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",qwen3-32b-think,0,0.000,0.000,0.000,0.835
+syn_oss_spindleflow,"Spindleflow",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",mistral-large,0,0.000,0.000,0.000,0.561
+syn_oss_spindleflow,"Spindleflow",glm-4-32b,0,0.000,0.000,0.000,0.567
+syn_oss_spindleflow,"Spindleflow",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.565
+syn_oss_spindleflow,"Spindleflow",gemma-4-31b,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",mistral-medium-3.1,0,0.000,0.000,0.000,0.561
+syn_oss_spindleflow,"Spindleflow",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.573
+syn_oss_spindleflow,"Spindleflow",kimi-k2.6-think,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",glm-5.1-think,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",qwen3-8b-think,0,0.000,0.000,0.000,0.578
+syn_oss_spindleflow,"Spindleflow",minimax-m2.7-think,0,0.000,0.000,0.000,0.580
+syn_oss_spindleflow,"Spindleflow",glm-4.7-think,1,0.000,0.000,0.000,0.472
+syn_oss_spindleflow,"Spindleflow",llama-4-maverick,0,0.000,0.000,0.000,0.919
+syn_oss_spindleflow,"Spindleflow",mistral-small-24b,1,0.000,0.000,0.000,0.424
+syn_oss_spindleflow,"Spindleflow",gemini-3-flash-think,0,0.400,1.000,0.400,0.961
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",glm-5.1-think,1,0.000,0.000,0.000,0.458
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",glm-4.7-think,0,0.800,1.000,0.800,0.817
+syn_oss_quillvec,"Quillvec",gpt-5.4,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",gpt-5.3,1,0.000,0.000,0.000,0.498
+syn_oss_spindleflow,"Spindleflow",qwen3-32b-think,0,0.000,0.000,0.000,0.895
+syn_oss_spindleflow,"Spindleflow",llama-3.2-1b,0,0.000,0.000,0.000,0.565
+syn_oss_spindleflow,"Spindleflow",ministral-3b,0,0.000,0.000,0.000,0.568
+syn_oss_quillvec,"Quillvec",gpt-5.5-think,1,0.000,0.000,0.000,0.498
+syn_oss_spindleflow,"Spindleflow",llama-3.3-70b,0,0.300,1.000,0.300,0.965
+syn_oss_quillvec,"Quillvec",claude-opus-4.6-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",grok-4.20-think,0,0.000,0.000,0.000,0.606
+syn_oss_quillvec,"Quillvec",gemini-3-flash-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",grok-4,0,0.000,0.000,0.000,0.569
+syn_oss_spindleflow,"Spindleflow",llama-3.1-8b,0,0.400,1.000,0.400,0.963
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",gemma-3-4b,0,0.700,0.400,0.280,0.822
+syn_oss_quillvec,"Quillvec",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.498
+syn_oss_spindleflow,"Spindleflow",gemma-3-4b,0,0.600,1.000,0.600,0.939
+syn_oss_quillvec,"Quillvec",gemini-3.1-pro,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",kimi-k2,0,0.000,0.000,0.000,0.600
+syn_oss_quillvec,"Quillvec",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.781
+syn_oss_spindleflow,"Spindleflow",gemini-2.5-pro-think,0,0.300,1.000,0.300,0.943
+syn_oss_quillvec,"Quillvec",kimi-k2.6-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",mistral-large,0,0.000,0.000,0.000,0.603
+syn_oss_spindleflow,"Spindleflow",gemma-3-12b,0,0.500,0.600,0.300,0.952
+syn_oss_spindleflow,"Spindleflow",gpt-oss-20b-think,0,0.500,0.800,0.400,0.951
+syn_oss_quillvec,"Quillvec",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.599
+syn_oss_quillvec,"Quillvec",gemma-4-31b,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",glm-4-32b,0,0.000,0.000,0.000,0.596
+syn_oss_quillvec,"Quillvec",mistral-medium-3.1,0,0.000,0.000,0.000,0.603
+syn_oss_quillvec,"Quillvec",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.600
+syn_oss_quillvec,"Quillvec",qwen3-8b-think,0,0.000,0.000,0.000,0.600
+syn_oss_quillvec,"Quillvec",qwen3.5-397b-a17b-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",minimax-m2.7-think,0,0.000,0.000,0.000,0.597
+syn_oss_quillvec,"Quillvec",llama-3.2-1b,0,0.000,0.000,0.000,0.597
+syn_oss_quillvec,"Quillvec",llama-4-maverick,0,0.300,1.000,0.300,0.943
+syn_oss_quillvec,"Quillvec",glm-5.1-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",gpt-oss-20b-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",mistral-small-24b,0,0.000,0.000,0.000,0.628
+syn_imo_quoc_nhat_dau,"Quốc Nhật Đậu",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.842
+syn_oss_quillvec,"Quillvec",ministral-3b,0,0.000,0.000,0.000,0.604
+syn_oss_lattispan,"Lattispan",gpt-5.4,1,0.000,0.000,0.000,0.477
+syn_oss_quillvec,"Quillvec",qwen3-32b-think,0,0.000,0.000,0.000,0.795
+syn_oss_lattispan,"Lattispan",gpt-5.5-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",gpt-5.3,1,0.000,0.000,0.000,0.477
+syn_oss_quillvec,"Quillvec",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.498
+syn_oss_quillvec,"Quillvec",llama-3.1-8b,0,0.000,0.000,0.000,0.838
+syn_oss_quillvec,"Quillvec",glm-4.7-think,1,0.000,0.000,0.000,0.498
+syn_oss_lattispan,"Lattispan",claude-opus-4.6-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",gemini-3-flash-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",grok-4.20-think,0,0.000,0.000,0.000,0.531
+syn_oss_lattispan,"Lattispan",grok-4,0,0.000,0.000,0.000,0.524
+syn_oss_quillvec,"Quillvec",llama-3.3-70b,0,0.300,1.000,0.300,0.959
+syn_oss_lattispan,"Lattispan",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.477
+syn_oss_quillvec,"Quillvec",gemma-3-4b,0,0.600,1.000,0.600,0.932
+syn_oss_quillvec,"Quillvec",gemma-3-12b,0,0.400,0.700,0.280,0.942
+syn_oss_quillvec,"Quillvec",deepseek-v3.2-think,0,0.400,0.400,0.160,0.894
+syn_oss_lattispan,"Lattispan",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.672
+syn_oss_lattispan,"Lattispan",kimi-k2,0,0.000,0.000,0.000,0.524
+syn_oss_lattispan,"Lattispan",gemini-3.1-pro,1,0.000,0.000,0.000,0.477
+syn_oss_spindleflow,"Spindleflow",deepseek-v3.2-think,0,0.700,1.000,0.700,0.963
+syn_oss_spindleflow,"Spindleflow",phi-4,0,0.000,0.000,0.000,0.910
+syn_oss_lattispan,"Lattispan",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",gemma-4-31b,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",mistral-large,0,0.000,0.000,0.000,0.522
+syn_oss_lattispan,"Lattispan",mistral-medium-3.1,0,0.000,0.000,0.000,0.522
+syn_oss_lattispan,"Lattispan",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.521
+syn_oss_lattispan,"Lattispan",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",glm-4-32b,0,0.000,0.000,0.000,0.518
+syn_oss_lattispan,"Lattispan",llama-4-maverick,0,0.000,0.000,0.000,0.886
+syn_imo_milos_pravdic,"Miloš Pravdić",mistral-small-24b,0,0.500,0.700,0.350,0.817
+syn_oss_lattispan,"Lattispan",mistral-small-24b,1,0.000,0.000,0.000,0.429
+syn_oss_lattispan,"Lattispan",minimax-m2.7-think,0,0.000,0.000,0.000,0.524
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",mistral-small-24b,0,0.400,1.000,0.400,0.869
+syn_oss_lattispan,"Lattispan",kimi-k2.6-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",gpt-oss-20b-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.524
+syn_oss_lattispan,"Lattispan",qwen3-8b-think,0,0.000,0.000,0.000,0.530
+syn_oss_lattispan,"Lattispan",llama-3.2-1b,0,0.000,0.000,0.000,0.522
+syn_oss_glaivebench,"Glaivebench",gpt-5.3,1,0.000,0.000,0.000,0.538
+syn_oss_lattispan,"Lattispan",deepseek-v3.2-think,1,0.000,0.000,0.000,0.477
+syn_oss_lattispan,"Lattispan",ministral-3b,0,0.000,0.000,0.000,0.533
+syn_oss_lattispan,"Lattispan",glm-5.1-think,1,0.000,0.000,0.000,0.477
+syn_oss_glaivebench,"Glaivebench",gpt-5.4,1,0.000,0.000,0.000,0.538
+syn_oss_lattispan,"Lattispan",llama-3.1-8b,0,0.000,0.000,0.000,0.866
+syn_oss_glaivebench,"Glaivebench",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.480
+syn_oss_glaivebench,"Glaivebench",gpt-5.5-think,1,0.000,0.000,0.000,0.538
+syn_oss_glaivebench,"Glaivebench",grok-4.20-think,0,0.000,0.000,0.000,0.602
+syn_oss_glaivebench,"Glaivebench",grok-4,0,0.000,0.000,0.000,0.578
+syn_oss_glaivebench,"Glaivebench",claude-opus-4.6-think,1,0.000,0.000,0.000,0.480
+syn_oss_lattispan,"Lattispan",glm-4.7-think,1,0.000,0.000,0.000,0.477
+syn_oss_glaivebench,"Glaivebench",kimi-k2,0,0.000,0.000,0.000,0.582
+syn_oss_lattispan,"Lattispan",llama-3.3-70b,0,0.000,0.000,0.000,0.886
+syn_oss_glaivebench,"Glaivebench",deepseek-v4-pro-think,1,0.000,0.000,0.000,0.538
+syn_oss_spindleflow,"Spindleflow",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.815
+syn_oss_lattispan,"Lattispan",gemma-3-12b,0,0.700,1.000,0.700,0.947
+syn_oss_glaivebench,"Glaivebench",kimi-k2.6-think,1,0.000,0.000,0.000,0.538
+syn_oss_glaivebench,"Glaivebench",gemini-3.1-pro,1,0.000,0.000,0.000,0.538
+syn_oss_glaivebench,"Glaivebench",mistral-large,0,0.000,0.000,0.000,0.587
+syn_oss_glaivebench,"Glaivebench",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.589
+syn_oss_glaivebench,"Glaivebench",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.538
+syn_oss_lattispan,"Lattispan",gemma-3-4b,0,0.600,1.000,0.600,0.927
+syn_oss_glaivebench,"Glaivebench",gemini-3-flash-think,1,0.000,0.000,0.000,0.538
+syn_oss_glaivebench,"Glaivebench",glm-4-32b,0,0.000,0.000,0.000,0.597
+syn_oss_glaivebench,"Glaivebench",mistral-medium-3.1,0,0.000,0.000,0.000,0.587
+syn_oss_lattispan,"Lattispan",phi-4,0,0.400,1.000,0.400,0.941
+syn_oss_lattispan,"Lattispan",qwen3-32b-think,1,0.000,0.000,0.000,0.477
+syn_oss_glaivebench,"Glaivebench",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.582
+syn_oss_glaivebench,"Glaivebench",minimax-m2.7-think,0,0.000,0.000,0.000,0.580
+syn_oss_quillvec,"Quillvec",phi-4,0,0.000,0.000,0.000,0.904
+syn_oss_glaivebench,"Glaivebench",qwen3-8b-think,0,0.000,0.000,0.000,0.591
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",deepseek-v3.2-think,0,0.500,1.000,0.500,0.852
+syn_oss_glaivebench,"Glaivebench",llama-3.2-1b,0,0.000,0.000,0.000,0.584
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gpt-5.4,1,0.000,0.000,0.000,0.399
+syn_oss_glaivebench,"Glaivebench",llama-4-maverick,0,0.200,1.000,0.200,0.973
+syn_oss_glaivebench,"Glaivebench",ministral-3b,0,0.000,0.000,0.000,0.584
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gpt-5.3,1,0.000,0.000,0.000,0.399
+syn_oss_glaivebench,"Glaivebench",llama-3.3-70b,0,0.300,1.000,0.300,0.973
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gpt-5.5-think,1,0.000,0.000,0.000,0.399
+syn_oss_glaivebench,"Glaivebench",phi-4,0,0.000,0.000,0.000,0.889
+syn_founder_marielys_caballenas,"Marielys Caballenas",gemini-3-flash-think,0,0.400,0.400,0.160,0.898
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",claude-opus-4.6-think,1,0.000,0.000,0.000,0.408
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",grok-4.20-think,0,0.000,0.000,0.000,0.382
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.408
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",grok-4,0,0.000,0.000,0.000,0.391
+syn_oss_glaivebench,"Glaivebench",gemma-4-31b,0,0.400,1.000,0.400,0.970
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemini-3.1-pro,1,0.000,0.000,0.000,0.399
+syn_oss_glaivebench,"Glaivebench",glm-5.1-think,1,0.000,0.000,0.000,0.538
+syn_oss_glaivebench,"Glaivebench",gemma-3-12b,0,0.300,1.000,0.300,0.968
+syn_oss_glaivebench,"Glaivebench",gemma-3-4b,0,0.300,0.400,0.120,0.962
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",kimi-k2,0,0.000,0.000,0.000,0.394
+syn_oss_glaivebench,"Glaivebench",llama-3.1-8b,0,0.400,1.000,0.400,0.965
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",mistral-large,0,0.000,0.000,0.000,0.394
+syn_oss_glaivebench,"Glaivebench",qwen3-32b-think,0,0.000,0.000,0.000,0.864
+syn_oss_glaivebench,"Glaivebench",gpt-oss-20b-think,0,0.600,1.000,0.600,0.960
+syn_oss_glaivebench,"Glaivebench",glm-4.7-think,1,0.000,0.000,0.000,0.538
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",llama-3.3-70b,1,0.000,0.000,0.000,0.399
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.399
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",kimi-k2.6-think,1,0.000,0.000,0.000,0.399
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemma-4-31b,1,0.000,0.000,0.000,0.399
+syn_oss_glaivebench,"Glaivebench",gemini-2.5-pro-think,0,0.400,0.700,0.280,0.923
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.395
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",glm-4.7-think,1,0.000,0.000,0.000,0.399
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",glm-4-32b,0,0.000,0.000,0.000,0.389
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",mistral-medium-3.1,0,0.000,0.000,0.000,0.394
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",minimax-m2.7-think,0,0.000,0.000,0.000,0.394
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",qwen3-8b-think,0,0.000,0.000,0.000,0.393
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.394
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",mistral-small-24b,1,0.000,0.000,0.000,0.408
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gpt-oss-20b-think,1,0.000,0.000,0.000,0.399
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemini-2.5-pro-think,0,0.000,0.000,0.000,0.906
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",ministral-3b,0,0.000,0.000,0.000,0.394
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",llama-3.2-1b,0,0.000,0.000,0.000,0.376
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gpt-5.4,1,0.000,0.000,0.000,0.398
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gpt-5.3,1,0.000,0.000,0.000,0.398
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",llama-4-maverick,0,0.400,1.000,0.400,0.895
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",llama-3.1-8b,0,0.000,0.000,0.000,0.882
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",phi-4,0,0.000,0.000,0.000,0.822
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",glm-5.1-think,1,0.000,0.000,0.000,0.399
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gpt-5.5-think,1,0.000,0.000,0.000,0.398
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemini-3-flash-think,0,0.400,1.000,0.400,0.963
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",grok-4,0,0.000,0.000,0.000,0.393
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",grok-4.20-think,0,0.000,0.000,0.000,0.455
+syn_oss_glaivebench,"Glaivebench",deepseek-v3.2-think,0,0.300,1.000,0.300,0.974
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemma-3-12b,0,0.500,1.000,0.500,0.968
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemini-3-flash-think,1,0.000,0.000,0.000,0.398
+syn_imo_milos_pravdic,"Miloš Pravdić",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.842
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",claude-opus-4.6-think,1,0.000,0.000,0.000,0.367
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",deepseek-v3.2-think,1,0.000,0.000,0.000,0.399
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",kimi-k2,0,0.000,0.000,0.000,0.456
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",mistral-large,0,0.000,0.000,0.000,0.469
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.448
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",glm-4-32b,0,0.000,0.000,0.000,0.441
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.820
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",deepseek-v4-pro-think,0,0.400,1.000,0.400,0.964
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",mistral-medium-3.1,0,0.000,0.000,0.000,0.469
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemini-3.1-pro,1,0.000,0.000,0.000,0.398
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",llama-4-maverick,0,0.400,1.000,0.400,0.932
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",kimi-k2.6-think,1,0.000,0.000,0.000,0.398
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",gemma-3-4b,0,0.400,1.000,0.400,0.962
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.456
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",minimax-m2.7-think,0,0.000,0.000,0.000,0.451
+syn_oss_glaivebench,"Glaivebench",mistral-small-24b,0,0.000,0.000,0.000,0.879
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemini-2.5-pro-think,1,0.000,0.000,0.000,0.398
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",qwen3-8b-think,0,0.000,0.000,0.000,0.454
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",llama-3.2-1b,0,0.000,0.000,0.000,0.440
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",ministral-3b,0,0.000,0.000,0.000,0.463
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",llama-3.1-8b,0,0.000,0.000,0.000,0.545
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gpt-5.4,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gpt-5.3,1,0.000,0.000,0.000,0.413
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gpt-oss-20b-think,1,0.000,0.000,0.000,0.398
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",glm-5.1-think,1,0.000,0.000,0.000,0.398
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemma-4-31b,0,0.600,1.000,0.600,0.959
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",claude-opus-4.6-think,1,0.000,0.000,0.000,0.397
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gpt-5.5-think,1,0.000,0.000,0.000,0.413
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",phi-4,0,0.400,1.000,0.400,0.959
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",llama-3.3-70b,0,0.500,1.000,0.500,0.965
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",grok-4.20-think,0,0.000,0.000,0.000,0.425
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",grok-4,0,0.000,0.000,0.000,0.382
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemma-3-12b,0,0.500,0.500,0.250,0.961
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemini-3.1-pro,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",kimi-k2.6-think,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemini-3-flash-think,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",kimi-k2,0,0.000,0.000,0.000,0.436
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",claude-sonnet-4.6-think,0,0.000,0.000,0.000,0.815
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",qwen3-32b-think,0,0.000,0.000,0.000,0.917
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",gemma-3-4b,0,0.600,1.000,0.600,0.934
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",mistral-large,0,0.000,0.000,0.000,0.424
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",deepseek-v4-pro-think,0,0.600,0.700,0.420,0.914
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.422
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",deepseek-v3.2-think,0,0.400,0.700,0.280,0.947
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",qwen3-32b-think,0,0.000,0.000,0.000,0.864
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",glm-4-32b,0,0.000,0.000,0.000,0.414
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",mistral-medium-3.1,0,0.000,0.000,0.000,0.424
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.436
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",glm-4.7-think,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",llama-4-maverick,0,0.400,0.700,0.280,0.936
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",minimax-m2.7-think,0,0.000,0.000,0.000,0.417
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",deepseek-v4-flash-think,0,0.600,1.000,0.600,0.929
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",glm-4.7-think,0,0.500,1.000,0.500,0.970
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",qwen3-8b-think,0,0.000,0.000,0.000,0.419
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",llama-3.2-1b,0,0.000,0.000,0.000,0.407
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemini-2.5-pro-think,0,0.400,0.400,0.160,0.914
+syn_oss_glaivebench,"Glaivebench",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.832
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",mistral-small-24b,0,0.000,0.000,0.000,0.813
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gpt-5.4,1,0.000,0.000,0.000,0.464
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",ministral-3b,0,0.000,0.000,0.000,0.417
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",deepseek-v4-flash-think,0,0.400,1.000,0.400,0.941
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",glm-5.1-think,1,0.000,0.000,0.000,0.413
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gpt-5.5-think,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gpt-5.3,1,0.000,0.000,0.000,0.464
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",phi-4,0,0.400,1.000,0.400,0.931
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemma-4-31b,0,0.400,0.700,0.280,0.951
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",llama-3.1-8b,0,0.400,1.000,0.400,0.913
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",deepseek-v4-pro-think,0,0.400,0.400,0.160,0.920
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",llama-3.3-70b,0,0.400,1.000,0.400,0.944
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",claude-sonnet-4.6-think,1,0.000,0.000,0.000,0.457
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",grok-4.20-think,0,0.000,0.000,0.000,0.423
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",grok-4,0,0.000,0.000,0.000,0.407
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemma-3-4b,0,0.400,1.000,0.400,0.922
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",claude-opus-4.6-think,1,0.000,0.000,0.000,0.457
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemini-3-flash-think,1,0.000,0.000,0.000,0.464
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gpt-oss-20b-think,1,0.000,0.000,0.000,0.413
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",gemma-3-12b,0,0.300,1.000,0.300,0.932
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",kimi-k2,0,0.000,0.000,0.000,0.429
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",mistral-large,0,0.000,0.000,0.000,0.423
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemini-3.1-pro,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",qwen3-235b-a22b-think,0,0.000,0.000,0.000,0.427
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",glm-4-32b,0,0.000,0.000,0.000,0.417
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",deepseek-v4-flash-think,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",mistral-medium-3.1,0,0.000,0.000,0.000,0.423
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",mistral-small-24b,0,0.000,0.000,0.000,0.872
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",ernie-4.5-300b-a47b,0,0.000,0.000,0.000,0.429
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",qwen3-8b-think,0,0.000,0.000,0.000,0.433
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",minimax-m2.7-think,0,0.000,0.000,0.000,0.430
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",glm-5.1-think,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",kimi-k2.6-think,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",llama-4-maverick,0,0.400,1.000,0.400,0.946
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",llama-3.2-1b,0,0.000,0.000,0.000,0.421
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",ministral-3b,0,0.000,0.000,0.000,0.429
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",glm-4.7-think,1,0.000,0.000,0.000,0.464
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",deepseek-v4-pro-think,0,0.400,0.400,0.160,0.905
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemma-3-12b,0,0.400,0.400,0.160,0.895
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemma-4-31b,0,0.400,1.000,0.400,0.928
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",llama-3.3-70b,0,0.350,1.000,0.350,0.945
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",qwen3-32b-think,0,0.300,0.400,0.120,0.941
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemma-3-4b,0,0.400,0.400,0.160,0.865
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",qwen3-32b-think,0,0.400,0.400,0.160,0.865
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gemini-2.5-pro-think,0,0.400,0.400,0.160,0.842
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",phi-4,0,0.400,0.700,0.280,0.889
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",gpt-oss-20b-think,1,0.000,0.000,0.000,0.464
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",deepseek-v3.2-think,0,0.300,0.400,0.120,0.924
+syn_mid_journalist_mireia_aldecoa,"Mireia Aldecoa",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.855
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",mistral-small-24b,0,0.000,0.000,0.000,0.671
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",llama-3.1-8b,0,0.400,1.000,0.400,0.875
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",deepseek-v3.2-think,0,0.400,0.400,0.160,0.865
+syn_imo_aslan_shyngyssov,"Aslan Shyngyssov",gemma-3-4b,0,0.700,1.000,0.700,0.870
+syn_mid_musician_bruno_esquivel_tang,"Bruno Esquivel-Tang",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.843
+syn_mid_chef_celestin_rouvenaz,"Célestin Rouvenaz",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.838
+syn_mid_podcast_the_quiet_signal,"The Quiet Signal",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.817
+syn_imo_zhuoming_qiang,"Zhuoming Qiang",qwen3.5-397b-a17b-think,0,0.000,0.000,0.000,0.374
+syn_oss_lattispan,"Lattispan",qwen3.5-397b-a17b-think,1,0.000,0.000,0.000,0.388

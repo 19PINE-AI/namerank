@@ -1,0 +1,5 @@
+tier,n_models,mean_NR_A,mean_NR_B,mean_delta
+frontier_reasoning,8,0.7593,0.7671,0.0078
+frontier_chat,6,0.6171,0.6629,0.0457
+mid_weight,3,0.4879,0.5939,0.1061
+small,8,0.3194,0.4143,0.095

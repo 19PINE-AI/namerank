@@ -1,0 +1,289 @@
+id,name,cohort,context_A,context_B
+csrankings_christoforos_e__kozyrakis,Christoforos E. Kozyrakis,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_oluwasanmi_koyejo,Oluwasanmi Koyejo,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_ashish_goel,Ashish Goel,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_mendel_rosenblum,Mendel Rosenblum,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_oussama_khatib,Oussama Khatib,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_jiajun_wu_0001,Jiajun Wu 0001,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_balaji_prabhakar,Balaji Prabhakar,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_christopher_piech,Christopher Piech,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_kunle_olukotun,Kunle Olukotun,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_fredrik_kjolstad,Fredrik Kjolstad,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_stefano_ermon,Stefano Ermon,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_gordon_wetzstein,Gordon Wetzstein,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_mark_a__horowitz,Mark A. Horowitz,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_dan_boneh,Dan Boneh,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_li_fei_fei_0001,Li Fei-Fei 0001,cs_faculty,a computer science faculty member at Stanford University,a computer science researcher
+csrankings_vincent_aleven,Vincent Aleven,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_srinivasan_seshan,Srinivasan Seshan,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_mahadev_satyanarayanan,Mahadev Satyanarayanan,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_jeremy_z__kolter,Jeremy Z. Kolter,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_joel_mcmanus,Joel McManus,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_min_xu_0009,Min Xu 0009,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_daphne_ippolito,Daphne Ippolito,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_david_lindlbauer,David Lindlbauer,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_christian_cuba_samaniego,Christian Cuba Samaniego,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_carolyn_penstein_ros,Carolyn Penstein Rosé,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_roy_maxion,Roy Maxion,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_tom_michael_mitchell,Tom Michael Mitchell,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_guy_e__blelloch,Guy E. Blelloch,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_jonathan_aldrich,Jonathan Aldrich,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_james_mccann,James McCann,cs_faculty,a computer science faculty member at Carnegie Mellon University,a computer science researcher
+csrankings_mingxing_xu,Mingxing Xu,cs_faculty,a computer science faculty member at Tsinghua University,a computer science researcher
+csrankings_yi_ming_li,Yi-Ming Li,cs_faculty,a computer science faculty member at Tsinghua University,a computer science researcher
+csrankings_hongliang_yu,Hongliang Yu,cs_faculty,a computer science faculty member at Tsinghua University,a computer science researcher
+csrankings_yong_li_0008,Yong Li 0008,cs_faculty,a computer science faculty member at Tsinghua University,a computer science researcher
+csrankings_jin_xu_0002,Jin Xu 0002,cs_faculty,a computer science faculty member at Peking University,a computer science researcher
+csrankings_liangming_pan,Liangming Pan,cs_faculty,a computer science faculty member at Peking University,a computer science researcher
+csrankings_yuqing_kong,Yuqing Kong,cs_faculty,a computer science faculty member at Peking University,a computer science researcher
+csrankings_shanghang_zhang,Shanghang Zhang,cs_faculty,a computer science faculty member at Peking University,a computer science researcher
+oa_author_olivier_dauchot,Olivier Dauchot,long_tail_researcher_openalex,"an academic researcher in Micro and Nano Robotics at Centre National de la Recherche Scientifique, with approximately 7328 total citations and h-index 46",an academic researcher
+oa_author_philip_koopman,Philip Koopman,long_tail_researcher_openalex,"an academic researcher in Autonomous Vehicle Technology and Safety at Carnegie Mellon University, with approximately 5152 total citations and h-index 33",an academic researcher
+oa_author_s__m__ali_eslami,S. M. Ali Eslami,long_tail_researcher_openalex,"an academic researcher in Advanced Image and Video Retrieval Techniques at Microsoft Research (United Kingdom), with approximately 11587 total citations and h-index 28",an academic researcher
+oa_author_p__k__gupta,P. K. Gupta,long_tail_researcher_openalex,"an academic researcher in COVID-19 diagnosis using AI at Jaypee University of Information Technology, with approximately 2988 total citations and h-index 20",an academic researcher
+oa_author_rachel_harrison,Rachel Harrison,long_tail_researcher_openalex,"an academic researcher in Technology Adoption and User Behaviour at Oxford Brookes University, with approximately 3999 total citations and h-index 29",an academic researcher
+oa_author_mamouna_diagne,Maïmouna Diagne,long_tail_researcher_openalex,"an academic researcher in Solar Radiation and Photovoltaics at Écologie Marine Tropicale des Océans Pacifique et Indien, with approximately 934 total citations and h-index 4",an academic researcher
+oa_author_vladimir_g__kim,Vladimir G. Kim,long_tail_researcher_openalex,"an academic researcher in 3D Shape Modeling and Analysis at Adobe Systems (United States), with approximately 6965 total citations and h-index 33",an academic researcher
+oa_author_fei_yan,Fei Yan,long_tail_researcher_openalex,"an academic researcher in Quantum Information and Cryptography at MIT Lincoln Laboratory, with approximately 9108 total citations and h-index 49",an academic researcher
+oa_author_koutarou_matsumoto,Koutarou Matsumoto,long_tail_researcher_openalex,"an academic researcher in Explainable Artificial Intelligence (XAI) at Kurume University, with approximately 1185 total citations and h-index 8",an academic researcher
+oa_author_tim_dettmers,Tim Dettmers,long_tail_researcher_openalex,"an academic researcher in Advanced Graph Neural Networks at Università della Svizzera italiana, with approximately 4602 total citations and h-index 14",an academic researcher
+oa_author_maurice_b__loughrey,Maurice B. Loughrey,long_tail_researcher_openalex,"an academic researcher in Cell Image Analysis Techniques at Queen's University Belfast, with approximately 14351 total citations and h-index 40",an academic researcher
+oa_author_marijn_a__m__versteegh,Marijn A. M. Versteegh,long_tail_researcher_openalex,"an academic researcher in Quantum Mechanics and Applications at Vienna Center for Quantum Science and Technology, with approximately 2747 total citations and h-index 15",an academic researcher
+oa_author_anchi_guo,AnChi Guo,long_tail_researcher_openalex,"an academic researcher in Metabolomics and Mass Spectrometry Studies at University of Alberta, with approximately 2846 total citations and h-index 6",an academic researcher
+oa_author_tushar_krishna,Tushar Krishna,long_tail_researcher_openalex,"an academic researcher in Advanced Neural Network Applications at Georgia Institute of Technology, with approximately 14256 total citations and h-index 40",an academic researcher
+oa_author_christoph_stiller,Christoph Stiller,long_tail_researcher_openalex,"an academic researcher in Robotics and Sensor-Based Localization at Karlsruhe Institute of Technology, with approximately 23412 total citations and h-index 58",an academic researcher
+oa_author_xue_yang,Xue Yang,long_tail_researcher_openalex,"an academic researcher in Advanced Image and Video Retrieval Techniques at Shanghai Jiao Tong University, with approximately 5975 total citations and h-index 29",an academic researcher
+oa_author_lixing_han,Lixing Han,long_tail_researcher_openalex,"an academic researcher in Advanced Optimization Algorithms Research at University of Michigan–Flint, with approximately 1724 total citations and h-index 11",an academic researcher
+oa_author_wim_vanhaverbeke,Wim Vanhaverbeke,long_tail_researcher_openalex,"an academic researcher in Open Source Software Innovations at Hasselt University, with approximately 15395 total citations and h-index 51",an academic researcher
+oa_author_wei_peng,Wei Peng,long_tail_researcher_openalex,"an academic researcher in Network Security and Intrusion Detection at La Trobe University, with approximately 500 total citations and h-index 1",an academic researcher
+oa_author_miguel_c__soriano,Miguel C. Soriano,long_tail_researcher_openalex,"an academic researcher in Neural Networks and Reservoir Computing at Universitat de les Illes Balears, with approximately 8882 total citations and h-index 37",an academic researcher
+oa_author_carlijn_j__m__wibbelink,Carlijn J. M. Wibbelink,long_tail_researcher_openalex,"an academic researcher in Mental Health Research Topics at University of Amsterdam, with approximately 1384 total citations and h-index 8",an academic researcher
+oa_author_daniil_stroyakovskiy,Daniil Stroyakovskiy,long_tail_researcher_openalex,"an academic researcher in Melanoma and MAPK Pathways at Moscow City Oncology Hospital №62, with approximately 23798 total citations and h-index 48",an academic researcher
+oa_author_fumiya_yokomori,Fumiya Yokomori,long_tail_researcher_openalex,"an academic researcher in Speech Recognition and Synthesis at University of Yamanashi, with approximately 1127 total citations and h-index 1",an academic researcher
+oa_author_jon_wade,Jon Wade,long_tail_researcher_openalex,"an academic researcher in Complex Systems and Decision Making at Stevens Institute of Technology, with approximately 1842 total citations and h-index 13",an academic researcher
+oa_author_xavier_glorot,Xavier Glorot,long_tail_researcher_openalex,"an academic researcher in Neural Networks and Applications at Université de Montréal, with approximately 29656 total citations and h-index 18",an academic researcher
+oa_author_nasrin_sultana,Nasrin Sultana,long_tail_researcher_openalex,"an academic researcher in Network Security and Intrusion Detection at La Trobe University, with approximately 711 total citations and h-index 10",an academic researcher
+oa_author_jirui_yang,Jirui Yang,long_tail_researcher_openalex,"an academic researcher in Advanced Neural Network Applications at University of Chinese Academy of Sciences, with approximately 2034 total citations and h-index 9",an academic researcher
+oa_author_jiwan_ge,Jiwan Ge,long_tail_researcher_openalex,"an academic researcher in SARS-CoV-2 and COVID-19 Research at Tsinghua University, with approximately 11443 total citations and h-index 17",an academic researcher
+oa_author_henrik_lehrmann_christiansen,Henrik Lehrmann Christiansen,long_tail_researcher_openalex,"an academic researcher in Advanced MIMO Systems Optimization at Technical University of Denmark, with approximately 3056 total citations and h-index 18",an academic researcher
+oa_author_yasunobu_nohara,Yasunobu Nohara,long_tail_researcher_openalex,"an academic researcher in Explainable Artificial Intelligence (XAI) at Kumamoto University, with approximately 1818 total citations and h-index 15",an academic researcher
+oa_author_isabelle_lajoie,Isabelle Lajoie,long_tail_researcher_openalex,"an academic researcher in Image and Signal Denoising Methods, with approximately 5045 total citations and h-index 2",an academic researcher
+oa_author_kenji_ozawa,Kenji Ozawa,long_tail_researcher_openalex,"an academic researcher in Speech Recognition and Synthesis at University of Yamanashi, with approximately 2123 total citations and h-index 12",an academic researcher
+oa_author_johan_bollen,Johan Bollen,long_tail_researcher_openalex,"an academic researcher in Complex Systems and Time Series Analysis at Indiana University Bloomington, with approximately 13567 total citations and h-index 41",an academic researcher
+oa_author_tlin_ztrk,Tülin Öztürk,long_tail_researcher_openalex,"an academic researcher in COVID-19 diagnosis using AI at Elazığ Eğitim ve Araştırma Hastanesi, with approximately 2754 total citations and h-index 5",an academic researcher
+oa_author_joel_emer,Joel Emer,long_tail_researcher_openalex,"an academic researcher in Advanced Neural Network Applications at Nvidia (United States), with approximately 25938 total citations and h-index 66",an academic researcher
+oa_author_janmichael_frahm,Jan‐Michael Frahm,long_tail_researcher_openalex,"an academic researcher in Robotics and Sensor-Based Localization at University of North Carolina at Chapel Hill, with approximately 16164 total citations and h-index 49",an academic researcher
+oa_author_sebastian_raisch,Sebastian Raisch,long_tail_researcher_openalex,"an academic researcher in Blockchain Technology Applications and Security at University of Geneva, with approximately 12124 total citations and h-index 27",an academic researcher
+oa_author_fan_yang,Fan Yang,long_tail_researcher_openalex,"an academic researcher in Video Surveillance and Tracking Methods at Temple University, with approximately 3085 total citations and h-index 12",an academic researcher
+oa_author_r__urtasun,R. Urtasun,long_tail_researcher_openalex,"an academic researcher in Robotics and Sensor-Based Localization at Toyota Motor Corporation (United States), with approximately 14269 total citations and h-index 3",an academic researcher
+oa_author_vimal_savsani,Vimal Savsani,long_tail_researcher_openalex,"an academic researcher in Metaheuristic Optimization Algorithms Research at Sardar Vallabhbhai National Institute of Technology Surat, with approximately 10459 total citations and h-index 32",an academic researcher
+oa_author_thiago_augusto_vieira,Thiago Augusto Vieira,long_tail_researcher_openalex,"an academic researcher in Blockchain Technology Applications and Security at Massachusetts Institute of Technology, with approximately 2397 total citations and h-index 1",an academic researcher
+oa_author_fabien_reyal,Fabien Reyal,long_tail_researcher_openalex,"an academic researcher in AI in cancer detection at Institut Curie, with approximately 12328 total citations and h-index 54",an academic researcher
+oa_author_roozbeh_mottaghi,Roozbeh Mottaghi,long_tail_researcher_openalex,"an academic researcher in Advanced Neural Network Applications at Stanford University, with approximately 8775 total citations and h-index 31",an academic researcher
+oa_author_dirk_andreas_zetzsche,Dirk Andreas Zetzsche,long_tail_researcher_openalex,"an academic researcher in Blockchain Technology Applications and Security, with approximately 4896 total citations and h-index 34",an academic researcher
+oa_author_bowen_jiang,Bowen Jiang,long_tail_researcher_openalex,"an academic researcher in Visual Attention and Saliency Detection at Dalian University of Technology, with approximately 943 total citations and h-index 10",an academic researcher
+oa_author_johannes_bader,Johannes Bader,long_tail_researcher_openalex,"an academic researcher in Advanced Multi-Objective Optimization Algorithms at ETH Zurich, with approximately 3923 total citations and h-index 19",an academic researcher
+oa_author_jun_xie,Jun Xie,long_tail_researcher_openalex,"an academic researcher in Video Surveillance and Tracking Methods at Google (United States), with approximately 2980 total citations and h-index 24",an academic researcher
+oa_author_muhammad_ali_sodik,Muhammad Ali Sodik,long_tail_researcher_openalex,"an academic researcher in Edcuational Technology Systems, with approximately 2541 total citations and h-index 11",an academic researcher
+oa_author_jiabin_huang,Jia‐Bin Huang,long_tail_researcher_openalex,"an academic researcher in Video Surveillance and Tracking Methods at International University of the Caribbean, with approximately 24960 total citations and h-index 60",an academic researcher
+oa_author_jian_cheng,Jian Cheng,long_tail_researcher_openalex,"an academic researcher in Human Pose and Action Recognition at Chinese Academy of Sciences, with approximately 15197 total citations and h-index 47",an academic researcher
+imo_jetze_zoethout,Jetze Zoethout,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Netherlands,a high-school mathematics competitor
+imo_mikhail_grigorev,Mikhail Grigorev,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011/2012 representing Russia,a high-school mathematics competitor
+imo_mitchell_lee,Mitchell Lee,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011/2012 representing USA,a high-school mathematics competitor
+imo_vadym_kalashnykov,Vadym Kalashnykov,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Ukraine,a high-school mathematics competitor
+imo_sung_jin_park,Sung Jin Park,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012/2013 representing Korea,a high-school mathematics competitor
+imo_rom_dudkiewicz,Rom Dudkiewicz,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Israel,a high-school mathematics competitor
+imo_jialun_li,Jialun Li,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing China,a high-school mathematics competitor
+imo_zipei_nie,Zipei Nie,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing China,a high-school mathematics competitor
+imo_yau_wing_li,Yau Wing Li,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Hong Kong,a high-school mathematics competitor
+imo_bobby_shen,Bobby Shen,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012/2013 representing USA,a high-school mathematics competitor
+imo_melih_ucer,Melih Üçer,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Türkiye,a high-school mathematics competitor
+imo_andrea_bianchi,Andrea Bianchi,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Italy,a high-school mathematics competitor
+imo_motoki_takigiku,Motoki Takigiku,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Japan,a high-school mathematics competitor
+imo_szymon_kanonowicz,Szymon Kanonowicz,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Poland,a high-school mathematics competitor
+imo_artsiom_toyestseu,Artsiom Toyestseu,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Belarus,a high-school mathematics competitor
+imo_pedram_safaee,Pedram Safaee,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Iran,a high-school mathematics competitor
+imo_felix_drxler,Felix Dräxler,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2010 representing Austria,a high-school mathematics competitor
+imo_takuma_kitamura,Takuma Kitamura,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Japan,a high-school mathematics competitor
+imo_istvan_tomon,István Tomon,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Hungary,a high-school mathematics competitor
+imo_ariel_zylber,Ariel Zylber,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing Argentina,a high-school mathematics competitor
+imo_egor_voronetckii,Egor Voronetckii,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Russia,a high-school mathematics competitor
+imo_thomas_swayze,Thomas Swayze,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing USA,a high-school mathematics competitor
+imo_umut_varolgunes,Umut Varolgüneş,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Türkiye,a high-school mathematics competitor
+imo_zarko_randelovi,Žarko Ranđelović,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Serbia,a high-school mathematics competitor
+imo_ravi_jagadeeshan,Ravi Jagadeeshan,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing USA,a high-school mathematics competitor
+imo_lin_chen,Lin Chen,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2011 representing China,a high-school mathematics competitor
+imo_kazuhiro_hosaka,Kazuhiro Hosaka,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2009 representing Japan,a high-school mathematics competitor
+imo_stephen_sanjaya,Stephen Sanjaya,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing Indonesia,a high-school mathematics competitor
+imo_yuxuan_liao,Yuxuan Liao,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2013 representing China,a high-school mathematics competitor
+imo_aleksandr_kalmynin,Aleksandr Kalmynin,imo_gold,a gold medalist at the International Mathematical Olympiad (IMO) 2012 representing Russia,a high-school mathematics competitor
+msra_dongzhe_ma_2011,Dongzhe Ma,msra_phd_fellowship,a 2011 Microsoft Research Asia PhD Fellowship recipient at Tsinghua University,a PhD researcher
+msra_qitian_wu_2021,Qitian Wu,msra_phd_fellowship,a 2021 Microsoft Research Asia PhD Fellowship recipient at Shanghai Jiao Tong University,a PhD researcher
+msra_kaizhang_kang_2021,Kaizhang Kang,msra_phd_fellowship,a 2021 Microsoft Research Asia PhD Fellowship recipient at Zhejiang University,a PhD researcher
+msra_seunghoon_hong_2014,Seunghoon Hong,msra_phd_fellowship,a 2014 Microsoft Research Asia PhD Fellowship recipient at Pohang University of Science and Technology,a PhD researcher
+msra_tomoaki_higo_2008,Tomoaki Higo,msra_phd_fellowship,a 2008 Microsoft Research Asia PhD Fellowship recipient at University of Tokyo,a PhD researcher
+msra_yi_hsuan_yang_2008,Yi-Hsuan Yang,msra_phd_fellowship,a 2008 Microsoft Research Asia PhD Fellowship recipient at National Taiwan University,a PhD researcher
+msra_yu_chen_sun_2009,Yu-Chen Sun,msra_phd_fellowship,a 2009 Microsoft Research Asia PhD Fellowship recipient at National Chiao Tung University,a PhD researcher
+msra_bo_yu_2009,Bo Yu,msra_phd_fellowship,a 2009 Microsoft Research Asia PhD Fellowship recipient at Harbin Institute of Technology,a PhD researcher
+msra_haotian_li_2022,Haotian Li,msra_phd_fellowship,a 2022 Microsoft Research Asia PhD Fellowship recipient at Hong Kong University of Science and Technology,a PhD researcher
+msra_wenhao_li_2016,Wenhao Li,msra_phd_fellowship,a 2016 Microsoft Research Asia PhD Fellowship recipient at Shanghai Jiao Tong University,a PhD researcher
+msra_linghe_kong_2010,Linghe Kong,msra_phd_fellowship,a 2010 Microsoft Research Asia PhD Fellowship recipient at Shanghai Jiao Tong University,a PhD researcher
+msra_ki_woong_park_2008,Ki-woong Park,msra_phd_fellowship,a 2008 Microsoft Research Asia PhD Fellowship recipient at KAIST,a PhD researcher
+msra_dong_chen_2013,Dong Chen,msra_phd_fellowship,a 2013 Microsoft Research Asia PhD Fellowship recipient at University of Science and Technology of China,a PhD researcher
+msra_yizhong_zhang_2012,Yizhong Zhang,msra_phd_fellowship,a 2012 Microsoft Research Asia PhD Fellowship recipient at Zhejiang University,a PhD researcher
+msra_zili_meng_2020,Zili Meng,msra_phd_fellowship,a 2020 Microsoft Research Asia PhD Fellowship recipient at Tsinghua University,a PhD researcher
+msra_kazi_rubaiat_habib_2011,Kazi Rubaiat Habib,msra_phd_fellowship,a 2011 Microsoft Research Asia PhD Fellowship recipient at National University of Singapore,a PhD researcher
+msra_wenping_hu_2014,Wenping Hu,msra_phd_fellowship,a 2014 Microsoft Research Asia PhD Fellowship recipient at University of Science and Technology of China,a PhD researcher
+msra_muoi_tran_2019,Muoi Tran,msra_phd_fellowship,a 2019 Microsoft Research Asia PhD Fellowship recipient at National University of Singapore,a PhD researcher
+msra_dong_liu_2009,Dong Liu,msra_phd_fellowship,a 2009 Microsoft Research Asia PhD Fellowship recipient at Harbin Institute of Technology,a PhD researcher
+msra_nobuyuki_umetani_2011,Nobuyuki Umetani,msra_phd_fellowship,a 2011 Microsoft Research Asia PhD Fellowship recipient at University of Tokyo,a PhD researcher
+msra_william_voorsluys_2009,William Voorsluys,msra_phd_fellowship,a 2009 Microsoft Research Asia PhD Fellowship recipient at University of Melbourne,a PhD researcher
+msra_tiankuang_zhou_2021,Tiankuang Zhou,msra_phd_fellowship,a 2021 Microsoft Research Asia PhD Fellowship recipient at Tsinghua University,a PhD researcher
+msra_da_yu_2021,Da Yu,msra_phd_fellowship,a 2021 Microsoft Research Asia PhD Fellowship recipient at Sun Yat-sen University,a PhD researcher
+msra_jing_yuan_2011,Jing Yuan,msra_phd_fellowship,a 2011 Microsoft Research Asia PhD Fellowship recipient at University of Science and Technology of China,a PhD researcher
+msra_yantao_zheng_2008,Yantao Zheng,msra_phd_fellowship,a 2008 Microsoft Research Asia PhD Fellowship recipient at National University of Singapore,a PhD researcher
+msra_li_chen_2016,Li Chen,msra_phd_fellowship,a 2016 Microsoft Research Asia PhD Fellowship recipient at Hong Kong University of Science and Technology,a PhD researcher
+msra_yongxin_tong_2012,Yongxin Tong,msra_phd_fellowship,a 2012 Microsoft Research Asia PhD Fellowship recipient at Hong Kong University of Science and Technology,a PhD researcher
+msra_chong_zu_2012,Chong Zu,msra_phd_fellowship,a 2012 Microsoft Research Asia PhD Fellowship recipient at Tsinghua University,a PhD researcher
+msra_luwei_cheng_2013,Luwei Cheng,msra_phd_fellowship,a 2013 Microsoft Research Asia PhD Fellowship recipient at University of Hong Kong,a PhD researcher
+msra_xiaoyin_wang_2009,Xiaoyin Wang,msra_phd_fellowship,a 2009 Microsoft Research Asia PhD Fellowship recipient at Peking University,a PhD researcher
+mid_tier_writer_liu_cixin,Liu Cixin,mid_tier_writer,"Chinese sci-fi novelist, Three-Body Problem",a writer
+mid_tier_writer_frederick_busch,Frederick Busch,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_emma_scarr_booth,Emma Scarr Booth,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_kate_braverman,Kate Braverman,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_everything_is_illuminated,Everything Is Illuminated,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_david_bradley_novelist,David Bradley (novelist),mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_holly_black,Holly Black,mid_tier_writer,"American fantasy novelist, Folk of the Air series",a writer
+mid_tier_writer_march_novel,March (novel),mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_charlie_jane_anders,Charlie Jane Anders,mid_tier_writer,"American sci-fi novelist, All the Birds in the Sky",a writer
+mid_tier_writer_kenneth_fearing,Kenneth Fearing,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_camp_concentration,Camp Concentration,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_brit_bennett,Brit Bennett,mid_tier_writer,"American novelist, The Vanishing Half",a writer
+mid_tier_writer_tamsyn_muir,Tamsyn Muir,mid_tier_writer,"New Zealand sci-fi novelist, Locked Tomb series",a writer
+mid_tier_writer_edward_dahlberg,Edward Dahlberg,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_sally_rooney,Sally Rooney,mid_tier_writer,"Irish novelist, Normal People, Conversations with Friends",a writer
+mid_tier_writer_bora_chung,Bora Chung,mid_tier_writer,"Korean writer, Cursed Bunny",a writer
+mid_tier_writer_karin_tidbeck,Karin Tidbeck,mid_tier_writer,"Swedish writer, Amatka",a writer
+mid_tier_writer_daniel_h__pink,Daniel H. Pink,mid_tier_writer,"American author, Drive, To Sell Is Human",a writer
+mid_tier_writer_shelley_parker_chan,Shelley Parker-Chan,mid_tier_writer,"Australian fantasy novelist, She Who Became the Sun",a writer
+mid_tier_writer_j__california_cooper,J. California Cooper,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_harriet_the_spy,Harriet the Spy,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_laura_abbot,Laura Abbot,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_colleen_coble,Colleen Coble,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_dennis_cooper,Dennis Cooper,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_casey_mcquiston,Casey McQuiston,mid_tier_writer,"American romance novelist, Red White & Royal Blue",a writer
+mid_tier_writer_adrian_tchaikovsky,Adrian Tchaikovsky,mid_tier_writer,"British sci-fi novelist, Children of Time",a writer
+mid_tier_writer_kinflicks,Kinflicks,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_hanya_yanagihara,Hanya Yanagihara,mid_tier_writer,"American novelist, A Little Life, To Paradise",a writer
+mid_tier_writer_atia_abawi,Atia Abawi,mid_tier_writer,a novelist or writer with a Wikipedia page (mid-tier level of recognition),a writer
+mid_tier_writer_premee_mohamed,Premee Mohamed,mid_tier_writer,"Canadian sci-fi novelist, A Broken Darkness",a writer
+artifact_streamlit,Streamlit,oss_project,the Python framework for ML web apps,an open-source software project
+artifact_llama_stack,Llama-Stack,oss_project,Meta's open standard for LLM applications,an open-source software project
+artifact_alpaca,Alpaca,oss_project,an open-source instruction-tuned LLM from Stanford,an open-source software project
+artifact_allennlp,AllenNLP,oss_project,AI2's open-source NLP research library,an open-source software project
+artifact_chain_of_thought,Chain-of-Thought,oss_project,a prompting technique that improves LLM reasoning by prompting step-by-step thinking,an open-source software project
+artifact_q_lora,Q-LoRA,oss_project,an open-source quantized low-rank adaptation method,an open-source software project
+artifact_colbert_v2,ColBERT-v2,oss_project,an improved version of the ColBERT neural retrieval model,an open-source software project
+artifact_pytorch,PyTorch,oss_project,"an open-source machine learning framework, originally from Facebook AI Research",an open-source software project
+artifact_fastai,FastAI,oss_project,a deep learning library on top of PyTorch focused on practitioner ergonomics,an open-source software project
+artifact_rllib,RLlib,oss_project,Ray's open-source distributed RL library,an open-source software project
+artifact_polyglot,Polyglot,oss_project,an open-source multilingual NLP library,an open-source software project
+artifact_aider,Aider,oss_project,an open-source AI coding assistant that pairs with git repositories,an open-source software project
+artifact_clicknp,ClickNP,oss_project,a research framework for FPGA-based network function programming,an open-source software project
+artifact_cursor,Cursor,oss_project,an AI-powered code editor from Anysphere,an open-source software project
+artifact_ollama,Ollama,oss_project,an open-source tool for running large language models locally,an open-source software project
+artifact_statsmodels,statsmodels,oss_project,the Python library for statistical modeling,an open-source software project
+artifact_instructor,Instructor,oss_project,an open-source structured-output library for OpenAI,an open-source software project
+artifact_whisper,Whisper,oss_project,an open-source automatic speech recognition system from OpenAI,an open-source software project
+artifact_pyro,Pyro,oss_project,Uber's probabilistic programming library on PyTorch,an open-source software project
+artifact_onnx_runtime,ONNX Runtime,oss_project,a cross-platform inference runtime for ONNX models,an open-source software project
+artifact_openspiel,OpenSpiel,oss_project,DeepMind's open-source reinforcement learning game framework,an open-source software project
+artifact_dgl,DGL,oss_project,the Deep Graph Library for graph neural networks,an open-source software project
+artifact_eagle,EAGLE,oss_project,a speculative-decoding inference acceleration framework,an open-source software project
+artifact_cub,CUB,oss_project,NVIDIA's CUDA primitive library,an open-source software project
+artifact_sockeye,Sockeye,oss_project,Amazon's open-source NMT toolkit,an open-source software project
+artifact_rocm,ROCm,oss_project,AMD's open-source GPU computing platform,an open-source software project
+artifact_catboost,CatBoost,oss_project,Yandex's gradient boosting framework,an open-source software project
+artifact_perplexity,Perplexity,oss_project,an AI-powered search engine,an open-source software project
+artifact_ray_serve,Ray Serve,oss_project,Ray's distributed serving library,an open-source software project
+artifact_pydantic,Pydantic,oss_project,the Python data validation library used in many AI tools,an open-source software project
+mid_tier_politician_kyrsten_sinema,Kyrsten Sinema,mid_tier_politician,former US Senator AZ,a politician
+mid_tier_politician_ilhan_omar,Ilhan Omar,mid_tier_politician,US Representative MN-5,a politician
+mid_tier_politician_douard_philippe,Édouard Philippe,mid_tier_politician,"French politician, Horizons",a politician
+mid_tier_politician_adam_schiff,Adam Schiff,mid_tier_politician,"US Senator CA, former Representative",a politician
+mid_tier_politician_narendra_modi,Narendra Modi,mid_tier_politician,Indian Prime Minister,a politician
+mid_tier_politician_ayanna_pressley,Ayanna Pressley,mid_tier_politician,US Representative MA-7,a politician
+mid_tier_politician_friedrich_merz,Friedrich Merz,mid_tier_politician,German CDU leader,a politician
+mid_tier_politician_arvind_kejriwal,Arvind Kejriwal,mid_tier_politician,"Aam Aadmi Party leader, former Delhi CM",a politician
+mid_tier_politician_ron_desantis,Ron DeSantis,mid_tier_politician,Florida Governor,a politician
+mid_tier_politician_yair_lapid,Yair Lapid,mid_tier_politician,"Israeli politician, Yesh Atid leader",a politician
+mid_tier_politician_pierre_poilievre,Pierre Poilievre,mid_tier_politician,Canadian Conservative leader,a politician
+mid_tier_politician_lee_jae_myung,Lee Jae-myung,mid_tier_politician,South Korea opposition leader,a politician
+mid_tier_politician_kay_ivey,Kay Ivey,mid_tier_politician,Alabama Governor,a politician
+mid_tier_politician_gideon_saar,Gideon Saar,mid_tier_politician,Israeli politician,a politician
+mid_tier_politician_peter_dutton,Peter Dutton,mid_tier_politician,Australian Liberal Party leader,a politician
+mid_tier_politician_j_d__vance,J.D. Vance,mid_tier_politician,"US Vice President, former Senator OH",a politician
+mid_tier_politician_cori_bush,Cori Bush,mid_tier_politician,former US Representative MO-1,a politician
+mid_tier_politician_josh_hawley,Josh Hawley,mid_tier_politician,US Senator MO,a politician
+mid_tier_politician_mark_warner,Mark Warner,mid_tier_politician,US Senator VA,a politician
+mid_tier_politician_robert_habeck,Robert Habeck,mid_tier_politician,German Greens politician,a politician
+mid_tier_politician_jordan_bardella,Jordan Bardella,mid_tier_politician,"French politician, RN president",a politician
+mid_tier_politician_katie_porter,Katie Porter,mid_tier_politician,former US Representative CA-47,a politician
+mid_tier_politician_joe_manchin,Joe Manchin,mid_tier_politician,former US Senator WV,a politician
+mid_tier_politician_henry_mcmaster,Henry McMaster,mid_tier_politician,South Carolina Governor,a politician
+mid_tier_politician_christopher_luxon,Christopher Luxon,mid_tier_politician,New Zealand Prime Minister,a politician
+mid_tier_politician_cory_booker,Cory Booker,mid_tier_politician,US Senator NJ,a politician
+mid_tier_politician_annalena_baerbock,Annalena Baerbock,mid_tier_politician,former German Foreign Minister,a politician
+mid_tier_politician_tim_kaine,Tim Kaine,mid_tier_politician,US Senator VA,a politician
+mid_tier_politician_anthony_desposito,Anthony D'Esposito,mid_tier_politician,former US Representative NY-4,a politician
+mid_tier_politician_gabriel_attal,Gabriel Attal,mid_tier_politician,former French Prime Minister,a politician
+artifact_adept,Adept,ai_startup_or_company,the AI agent startup,a technology company
+artifact_rabbit,Rabbit,ai_startup_or_company,the AI device company that made the R1,a technology company
+artifact_baichuan_ai,Baichuan AI,ai_startup_or_company,Wang Xiaochuan's AI company,a technology company
+artifact_meta_ai_research,Meta AI Research,ai_startup_or_company,Meta's AI research lab (formerly FAIR),a technology company
+artifact_tabnine,Tabnine,ai_startup_or_company,the AI code completion company,a technology company
+artifact_elevenlabs_company,ElevenLabs (company),ai_startup_or_company,the AI voice synthesis company,a technology company
+artifact_stability_ai,Stability AI,ai_startup_or_company,the company behind Stable Diffusion,a technology company
+artifact_langchain_company,LangChain (company),ai_startup_or_company,the company commercializing LangChain,a technology company
+artifact_crew_ai_company,Crew AI (company),ai_startup_or_company,the company commercializing CrewAI,a technology company
+artifact_runway,Runway,ai_startup_or_company,the AI video creation platform,a technology company
+artifact_step,Step,ai_startup_or_company,the Chinese AI company that developed Step-2,a technology company
+artifact_mistral_ai_company,Mistral AI (company),ai_startup_or_company,the French frontier-model AI company,a technology company
+artifact_cursor_company,Cursor (company),ai_startup_or_company,the AI code editor company Anysphere,a technology company
+artifact_sierra,Sierra,ai_startup_or_company,Bret Taylor's enterprise AI startup,a technology company
+artifact_manus,Manus,ai_startup_or_company,the Chinese AI agent platform,a technology company
+artifact_01_ai,01.AI,ai_startup_or_company,Kai-Fu Lee's AI company that developed Yi,a technology company
+artifact_mintlify,Mintlify,ai_startup_or_company,the AI documentation platform,a technology company
+artifact_tbingen_ai_center,Tübingen AI Center,ai_startup_or_company,the German AI research center,a technology company
+artifact_genspark,GenSpark,ai_startup_or_company,the AI search platform,a technology company
+artifact_lightning_ai,Lightning AI,ai_startup_or_company,the company commercializing PyTorch Lightning,a technology company
+mid_tier_filmmaker_spike_lee,Spike Lee,mid_tier_filmmaker,"American filmmaker, Do the Right Thing, BlacKkKlansman",a filmmaker
+mid_tier_filmmaker_boots_riley,Boots Riley,mid_tier_filmmaker,"American filmmaker, Sorry to Bother You",a filmmaker
+mid_tier_filmmaker_noah_baumbach,Noah Baumbach,mid_tier_filmmaker,"American filmmaker, Marriage Story, White Noise",a filmmaker
+mid_tier_filmmaker_david_fincher,David Fincher,mid_tier_filmmaker,"American filmmaker, Seven, Zodiac, The Killer",a filmmaker
+mid_tier_filmmaker_olivier_assayas,Olivier Assayas,mid_tier_filmmaker,"French filmmaker, Personal Shopper",a filmmaker
+mid_tier_filmmaker_carla_simn,Carla Simón,mid_tier_filmmaker,"Spanish filmmaker, Alcarràs",a filmmaker
+mid_tier_filmmaker_barry_jenkins,Barry Jenkins,mid_tier_filmmaker,"American filmmaker, Moonlight, If Beale Street Could Talk",a filmmaker
+mid_tier_filmmaker_claire_denis,Claire Denis,mid_tier_filmmaker,"French filmmaker, High Life",a filmmaker
+mid_tier_filmmaker_ava_duvernay,Ava DuVernay,mid_tier_filmmaker,"American filmmaker, Selma, 13th",a filmmaker
+mid_tier_filmmaker_ruben_stlund,Ruben Östlund,mid_tier_filmmaker,"Swedish filmmaker, Triangle of Sadness",a filmmaker
+mid_tier_filmmaker_charlie_kaufman,Charlie Kaufman,mid_tier_filmmaker,"American filmmaker, Synecdoche New York",a filmmaker
+mid_tier_filmmaker_bruno_dumont,Bruno Dumont,mid_tier_filmmaker,"French filmmaker, Joan of Arc",a filmmaker
+mid_tier_filmmaker_lulu_wang,Lulu Wang,mid_tier_filmmaker,"American filmmaker, The Farewell",a filmmaker
+mid_tier_filmmaker_cline_sciamma,Céline Sciamma,mid_tier_filmmaker,"French filmmaker, Portrait of a Lady on Fire",a filmmaker
+mid_tier_filmmaker_ari_aster,Ari Aster,mid_tier_filmmaker,"American filmmaker, Hereditary, Beau Is Afraid",a filmmaker
+mid_tier_filmmaker_alfonso_cuarn,Alfonso Cuarón,mid_tier_filmmaker,"Mexican filmmaker, Roma, Children of Men",a filmmaker
+mid_tier_filmmaker_paul_thomas_anderson,Paul Thomas Anderson,mid_tier_filmmaker,"American filmmaker, There Will Be Blood, Licorice Pizza",a filmmaker
+mid_tier_filmmaker_lila_avils,Lila Avilés,mid_tier_filmmaker,"Mexican filmmaker, The Chambermaid",a filmmaker
+mid_tier_filmmaker_denis_villeneuve,Denis Villeneuve,mid_tier_filmmaker,"Canadian filmmaker, Dune, Arrival",a filmmaker
+mid_tier_filmmaker_alejandro_gonzlez_irritu,Alejandro González Iñárritu,mid_tier_filmmaker,"Mexican filmmaker, Birdman, The Revenant",a filmmaker
+bojie_li,Bojie Li,reference_pilot,"a researcher and entrepreneur in AI infrastructure, currently Chief Scientist of Pine AI",a software engineer
+jiayi_weng,Jiayi Weng,reference_pilot,"an engineer at OpenAI working on infrastructure, formerly a research engineer at Sea AI Lab and PhD student at Tsinghua University",a software engineer
+tianshou,Tianshou,reference_pilot,an open-source library for reinforcement learning,a software project
+tuixue_online,tuixue.online,reference_pilot,a website that monitors U.S. visa appointment availability for international applicants,a software project
+tri_dao,Tri Dao,reference_pilot,"a researcher in efficient deep-learning systems, currently faculty at Princeton University and chief scientist at Together AI",a software engineer
+andrej_karpathy,Andrej Karpathy,reference_pilot,"a computer scientist, AI educator, and founder of Eureka Labs, formerly a director at Tesla and a co-founder of OpenAI",a software engineer
+suresh_kumar,Suresh Kumar,reference_pilot,"the Chief Technology Officer and Chief Development Officer of Walmart, a U.S. retail company",a software engineer
+sam_altman,Sam Altman,reference_pilot,the CEO of OpenAI,a software engineer
+geoffrey_hinton,Geoffrey Hinton,reference_pilot,"a computer scientist known as one of the founders of modern deep learning, formerly at Google and the University of Toronto",a software engineer
+flashattention,FlashAttention,reference_pilot,an attention algorithm for efficient transformer training and inference,a software project

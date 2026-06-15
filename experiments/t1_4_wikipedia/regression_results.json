@@ -1,0 +1,501 @@
+{
+  "summary": {
+    "n_entities": 5719,
+    "wiki_hits_strict": 1681,
+    "wiki_hits_lenient": 2726,
+    "wiki_pct_strict": 29.39,
+    "wiki_pct_lenient": 47.67
+  },
+  "headline_regressions_long_tail": {
+    "n": 771,
+    "models": {
+      "M0_has_wiki": {
+        "r2": 0.02175638504309041
+      },
+      "M1_+log_sitelinks": {
+        "r2": 0.028918590204963568
+      },
+      "M2_+log_pageviews": {
+        "r2": 0.028919419587370654
+      },
+      "M3_+log_h_index": {
+        "r2": 0.40451201032517214,
+        "beta_intercept": 0.05079450168657872,
+        "beta_has_wiki": 0.015395201955831356,
+        "beta_log_sitelinks": -0.06644764381666368,
+        "beta_log_pageviews": 0.01651769510705072,
+        "beta_log_h_index": 0.13549899340812038
+      },
+      "M4_+log_citations": {
+        "r2": 0.404598082452136,
+        "beta_intercept": 0.06583275921350994,
+        "beta_has_wiki": 0.013752527524618113,
+        "beta_log_sitelinks": -0.06644473318275666,
+        "beta_log_pageviews": 0.016882761118951456,
+        "beta_log_h_index": 0.1369889369822377,
+        "beta_log_citations": -0.0022250645053502743
+      },
+      "B_log_h_index_only": {
+        "r2": 0.3977527493410531
+      },
+      "B_h_index_+citations": {
+        "r2": 0.3978029816025769
+      },
+      "B_has_wiki_+_h_index": {
+        "r2": 0.39887557107378013
+      },
+      "B_log_pageviews_only": {
+        "r2": 0.017399758197974013
+      },
+      "B_log_sitelinks_only": {
+        "r2": 0.006169301476680711
+      }
+    },
+    "marginal": {
+      "marginal_has_wiki_vs_intercept": 0.0218,
+      "marginal_sitelinks_given_wiki": 0.0072,
+      "marginal_pageviews_given_wiki_sl": 0.0,
+      "marginal_h_index_given_all_wiki": 0.3756,
+      "marginal_citations_given_all": 0.0001,
+      "marginal_h_index_alone": 0.3978,
+      "marginal_pageviews_alone": 0.0174
+    },
+    "conditional": {
+      "n_with_wiki": 60,
+      "n_without_wiki": 711,
+      "with_wiki_R2_h_index": 0.383,
+      "with_wiki_mean_NR": 0.5535,
+      "with_wiki_mean_h": 40.58,
+      "without_wiki_R2_h_index": 0.386,
+      "without_wiki_mean_NR": 0.4563,
+      "without_wiki_mean_h": 24.84
+    }
+  },
+  "headline_regressions_long_tail_lenient": {
+    "n": 771,
+    "models": {
+      "M0_has_wiki": {
+        "r2": 0.02175638504309041
+      },
+      "M1_+log_sitelinks": {
+        "r2": 0.028918590204963568
+      },
+      "M2_+log_pageviews": {
+        "r2": 0.028919419587370654
+      },
+      "M3_+log_h_index": {
+        "r2": 0.40451201032517214,
+        "beta_intercept": 0.05079450168657872,
+        "beta_has_wiki": 0.015395201955831356,
+        "beta_log_sitelinks": -0.06644764381666368,
+        "beta_log_pageviews": 0.01651769510705072,
+        "beta_log_h_index": 0.13549899340812038
+      },
+      "M4_+log_citations": {
+        "r2": 0.404598082452136,
+        "beta_intercept": 0.06583275921350994,
+        "beta_has_wiki": 0.013752527524618113,
+        "beta_log_sitelinks": -0.06644473318275666,
+        "beta_log_pageviews": 0.016882761118951456,
+        "beta_log_h_index": 0.1369889369822377,
+        "beta_log_citations": -0.0022250645053502743
+      },
+      "B_log_h_index_only": {
+        "r2": 0.3977527493410531
+      },
+      "B_h_index_+citations": {
+        "r2": 0.3978029816025769
+      },
+      "B_has_wiki_+_h_index": {
+        "r2": 0.39887557107378013
+      },
+      "B_log_pageviews_only": {
+        "r2": 0.017399758197974013
+      },
+      "B_log_sitelinks_only": {
+        "r2": 0.006169301476680711
+      }
+    },
+    "marginal": {
+      "marginal_has_wiki_vs_intercept": 0.0218,
+      "marginal_sitelinks_given_wiki": 0.0072,
+      "marginal_pageviews_given_wiki_sl": 0.0,
+      "marginal_h_index_given_all_wiki": 0.3756,
+      "marginal_citations_given_all": 0.0001,
+      "marginal_h_index_alone": 0.3978,
+      "marginal_pageviews_alone": 0.0174
+    },
+    "conditional": {
+      "n_with_wiki": 60,
+      "n_without_wiki": 711,
+      "with_wiki_R2_h_index": 0.383,
+      "with_wiki_mean_NR": 0.5535,
+      "with_wiki_mean_h": 40.58,
+      "without_wiki_R2_h_index": 0.386,
+      "without_wiki_mean_NR": 0.4563,
+      "without_wiki_mean_h": 24.84
+    }
+  },
+  "variance_decomposition": {
+    "n": 5719,
+    "n_cohorts": 54,
+    "R2_has_wiki_only": 0.0784,
+    "R2_has_wiki_+log_pv": 0.0901,
+    "R2_wiki_block_all": 0.0947,
+    "R2_cohort_FE_only": 0.4699,
+    "R2_has_wiki_+_cohort_FE": 0.4744,
+    "R2_wiki_block_+_cohort_FE": 0.4795,
+    "marginal_has_wiki_over_cohort_FE": 0.0045,
+    "marginal_cohort_FE_over_has_wiki": 0.396
+  },
+  "variance_decomposition_lenient": {
+    "n": 5719,
+    "n_cohorts": 54,
+    "R2_has_wiki_only": 0.1166,
+    "R2_has_wiki_+log_pv": 0.1286,
+    "R2_wiki_block_all": 0.1319,
+    "R2_cohort_FE_only": 0.4699,
+    "R2_has_wiki_+_cohort_FE": 0.472,
+    "R2_wiki_block_+_cohort_FE": 0.4787,
+    "marginal_has_wiki_over_cohort_FE": 0.0021,
+    "marginal_cohort_FE_over_has_wiki": 0.3554
+  },
+  "credential_coverage": [
+    {
+      "cohort": "imo_gold",
+      "n_total": 197,
+      "n_wiki": 7,
+      "wiki_pct": 3.55,
+      "mean_NR_all": 0.3619,
+      "mean_NR_with_wiki": 0.4718,
+      "mean_NR_without_wiki": 0.3579,
+      "mean_sitelinks_in_wiki": 8.14,
+      "median_pageviews_in_wiki": 1063
+    },
+    {
+      "cohort": "cmo_china_gold",
+      "n_total": 131,
+      "n_wiki": 8,
+      "wiki_pct": 6.11,
+      "mean_NR_all": 0.3021,
+      "mean_NR_with_wiki": 0.3493,
+      "mean_NR_without_wiki": 0.299,
+      "mean_sitelinks_in_wiki": 4.38,
+      "median_pageviews_in_wiki": 144.5
+    },
+    {
+      "cohort": "cpho_china_first_prize",
+      "n_total": 50,
+      "n_wiki": 2,
+      "wiki_pct": 4.0,
+      "mean_NR_all": 0.1823,
+      "mean_NR_with_wiki": 0.1634,
+      "mean_NR_without_wiki": 0.1831,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 2206.0
+    },
+    {
+      "cohort": "noi_china_gold",
+      "n_total": 29,
+      "n_wiki": 0,
+      "wiki_pct": 0.0,
+      "mean_NR_all": 0.3675,
+      "mean_NR_with_wiki": null,
+      "mean_NR_without_wiki": 0.3675,
+      "mean_sitelinks_in_wiki": null,
+      "median_pageviews_in_wiki": null
+    },
+    {
+      "cohort": "ioi_gold",
+      "n_total": 68,
+      "n_wiki": 3,
+      "wiki_pct": 4.41,
+      "mean_NR_all": 0.3412,
+      "mean_NR_with_wiki": 0.467,
+      "mean_NR_without_wiki": 0.3354,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 7999
+    },
+    {
+      "cohort": "icpc_world_finals_gold",
+      "n_total": 18,
+      "n_wiki": 2,
+      "wiki_pct": 11.11,
+      "mean_NR_all": 0.6104,
+      "mean_NR_with_wiki": 0.6603,
+      "mean_NR_without_wiki": 0.6042,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 7999.0
+    },
+    {
+      "cohort": "putnam_fellow",
+      "n_total": 35,
+      "n_wiki": 1,
+      "wiki_pct": 2.86,
+      "mean_NR_all": 0.6076,
+      "mean_NR_with_wiki": 0.6957,
+      "mean_NR_without_wiki": 0.605,
+      "mean_sitelinks_in_wiki": 3,
+      "median_pageviews_in_wiki": 543
+    },
+    {
+      "cohort": "rhodes_scholar",
+      "n_total": 36,
+      "n_wiki": 0,
+      "wiki_pct": 0.0,
+      "mean_NR_all": 0.3148,
+      "mean_NR_with_wiki": null,
+      "mean_NR_without_wiki": 0.3148,
+      "mean_sitelinks_in_wiki": null,
+      "median_pageviews_in_wiki": null
+    },
+    {
+      "cohort": "msra_phd_fellowship",
+      "n_total": 237,
+      "n_wiki": 12,
+      "wiki_pct": 5.06,
+      "mean_NR_all": 0.3425,
+      "mean_NR_with_wiki": 0.3271,
+      "mean_NR_without_wiki": 0.3433,
+      "mean_sitelinks_in_wiki": 4.67,
+      "median_pageviews_in_wiki": 209.0
+    },
+    {
+      "cohort": "long_tail_researcher_openalex",
+      "n_total": 771,
+      "n_wiki": 60,
+      "wiki_pct": 7.78,
+      "mean_NR_all": 0.4639,
+      "mean_NR_with_wiki": 0.5535,
+      "mean_NR_without_wiki": 0.4563,
+      "mean_sitelinks_in_wiki": 5.25,
+      "median_pageviews_in_wiki": 270.0
+    },
+    {
+      "cohort": "cs_faculty",
+      "n_total": 698,
+      "n_wiki": 87,
+      "wiki_pct": 12.46,
+      "mean_NR_all": 0.4172,
+      "mean_NR_with_wiki": 0.5652,
+      "mean_NR_without_wiki": 0.3961,
+      "mean_sitelinks_in_wiki": 3.78,
+      "median_pageviews_in_wiki": 250
+    },
+    {
+      "cohort": "reference_pilot",
+      "n_total": 37,
+      "n_wiki": 15,
+      "wiki_pct": 40.54,
+      "mean_NR_all": 0.4521,
+      "mean_NR_with_wiki": 0.5982,
+      "mean_NR_without_wiki": 0.3525,
+      "mean_sitelinks_in_wiki": 25.8,
+      "median_pageviews_in_wiki": 44636
+    },
+    {
+      "cohort": "long_tail_researcher_ikp",
+      "n_total": 159,
+      "n_wiki": 1,
+      "wiki_pct": 0.63,
+      "mean_NR_all": 0.1579,
+      "mean_NR_with_wiki": 0.3659,
+      "mean_NR_without_wiki": 0.1566,
+      "mean_sitelinks_in_wiki": 1,
+      "median_pageviews_in_wiki": 465
+    }
+  ],
+  "credential_coverage_lenient": [
+    {
+      "cohort": "imo_gold",
+      "n_total": 197,
+      "n_wiki": 7,
+      "wiki_pct": 3.55,
+      "mean_NR_all": 0.3619,
+      "mean_NR_with_wiki": 0.4718,
+      "mean_NR_without_wiki": 0.3579,
+      "mean_sitelinks_in_wiki": 8.14,
+      "median_pageviews_in_wiki": 1063
+    },
+    {
+      "cohort": "cmo_china_gold",
+      "n_total": 131,
+      "n_wiki": 8,
+      "wiki_pct": 6.11,
+      "mean_NR_all": 0.3021,
+      "mean_NR_with_wiki": 0.3493,
+      "mean_NR_without_wiki": 0.299,
+      "mean_sitelinks_in_wiki": 4.38,
+      "median_pageviews_in_wiki": 144.5
+    },
+    {
+      "cohort": "cpho_china_first_prize",
+      "n_total": 50,
+      "n_wiki": 2,
+      "wiki_pct": 4.0,
+      "mean_NR_all": 0.1823,
+      "mean_NR_with_wiki": 0.1634,
+      "mean_NR_without_wiki": 0.1831,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 2206.0
+    },
+    {
+      "cohort": "noi_china_gold",
+      "n_total": 29,
+      "n_wiki": 0,
+      "wiki_pct": 0.0,
+      "mean_NR_all": 0.3675,
+      "mean_NR_with_wiki": null,
+      "mean_NR_without_wiki": 0.3675,
+      "mean_sitelinks_in_wiki": null,
+      "median_pageviews_in_wiki": null
+    },
+    {
+      "cohort": "ioi_gold",
+      "n_total": 68,
+      "n_wiki": 3,
+      "wiki_pct": 4.41,
+      "mean_NR_all": 0.3412,
+      "mean_NR_with_wiki": 0.467,
+      "mean_NR_without_wiki": 0.3354,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 7999
+    },
+    {
+      "cohort": "icpc_world_finals_gold",
+      "n_total": 18,
+      "n_wiki": 2,
+      "wiki_pct": 11.11,
+      "mean_NR_all": 0.6104,
+      "mean_NR_with_wiki": 0.6603,
+      "mean_NR_without_wiki": 0.6042,
+      "mean_sitelinks_in_wiki": 16,
+      "median_pageviews_in_wiki": 7999.0
+    },
+    {
+      "cohort": "putnam_fellow",
+      "n_total": 35,
+      "n_wiki": 1,
+      "wiki_pct": 2.86,
+      "mean_NR_all": 0.6076,
+      "mean_NR_with_wiki": 0.6957,
+      "mean_NR_without_wiki": 0.605,
+      "mean_sitelinks_in_wiki": 3,
+      "median_pageviews_in_wiki": 543
+    },
+    {
+      "cohort": "rhodes_scholar",
+      "n_total": 36,
+      "n_wiki": 0,
+      "wiki_pct": 0.0,
+      "mean_NR_all": 0.3148,
+      "mean_NR_with_wiki": null,
+      "mean_NR_without_wiki": 0.3148,
+      "mean_sitelinks_in_wiki": null,
+      "median_pageviews_in_wiki": null
+    },
+    {
+      "cohort": "msra_phd_fellowship",
+      "n_total": 237,
+      "n_wiki": 12,
+      "wiki_pct": 5.06,
+      "mean_NR_all": 0.3425,
+      "mean_NR_with_wiki": 0.3271,
+      "mean_NR_without_wiki": 0.3433,
+      "mean_sitelinks_in_wiki": 4.67,
+      "median_pageviews_in_wiki": 209.0
+    },
+    {
+      "cohort": "long_tail_researcher_openalex",
+      "n_total": 771,
+      "n_wiki": 60,
+      "wiki_pct": 7.78,
+      "mean_NR_all": 0.4639,
+      "mean_NR_with_wiki": 0.5535,
+      "mean_NR_without_wiki": 0.4563,
+      "mean_sitelinks_in_wiki": 5.25,
+      "median_pageviews_in_wiki": 270.0
+    },
+    {
+      "cohort": "cs_faculty",
+      "n_total": 698,
+      "n_wiki": 87,
+      "wiki_pct": 12.46,
+      "mean_NR_all": 0.4172,
+      "mean_NR_with_wiki": 0.5652,
+      "mean_NR_without_wiki": 0.3961,
+      "mean_sitelinks_in_wiki": 3.78,
+      "median_pageviews_in_wiki": 250
+    },
+    {
+      "cohort": "reference_pilot",
+      "n_total": 37,
+      "n_wiki": 15,
+      "wiki_pct": 40.54,
+      "mean_NR_all": 0.4521,
+      "mean_NR_with_wiki": 0.5982,
+      "mean_NR_without_wiki": 0.3525,
+      "mean_sitelinks_in_wiki": 25.8,
+      "median_pageviews_in_wiki": 44636
+    },
+    {
+      "cohort": "long_tail_researcher_ikp",
+      "n_total": 159,
+      "n_wiki": 1,
+      "wiki_pct": 0.63,
+      "mean_NR_all": 0.1579,
+      "mean_NR_with_wiki": 0.3659,
+      "mean_NR_without_wiki": 0.1566,
+      "mean_sitelinks_in_wiki": 1,
+      "median_pageviews_in_wiki": 465
+    }
+  ],
+  "institution_gap": {
+    "n_USA": 302,
+    "n_China": 30,
+    "mean_NR_USA": 0.4597,
+    "mean_NR_China": 0.3105,
+    "wiki_pct_USA": 23.51,
+    "wiki_pct_China": 0.0,
+    "M0_country_only": {
+      "R2": 0.0826,
+      "beta_USA": 0.1492
+    },
+    "M1_+has_wiki": {
+      "R2": 0.236,
+      "beta_USA": 0.1153,
+      "beta_has_wiki": 0.1441
+    },
+    "M2_+wiki_block": {
+      "R2": 0.2368,
+      "beta_USA": 0.1153,
+      "beta_has_wiki": 0.1083,
+      "beta_log_pv": 0.008,
+      "beta_log_sl": -0.0077
+    },
+    "restricted_no_wiki": {
+      "n_USA": 231,
+      "n_China": 30,
+      "mean_NR_USA": 0.4258,
+      "mean_NR_China": 0.3105,
+      "beta_USA": 0.1153,
+      "R2": 0.0635
+    },
+    "stanford_vs_tsinghua": {
+      "Stanford": {
+        "n": 19,
+        "mean_NR": 0.5366,
+        "wiki_pct": 36.84,
+        "mean_pv": 332.4,
+        "mean_sl": 2.05
+      },
+      "Tsinghua": {
+        "n": 4,
+        "mean_NR": 0.2576,
+        "wiki_pct": 0.0,
+        "mean_pv": 0.0,
+        "mean_sl": 0.0
+      }
+    }
+  }
+}

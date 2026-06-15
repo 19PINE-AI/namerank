@@ -1,0 +1,772 @@
+entity_id,name,openalex_id,h_index,cited_by_count,n_works,fractional_citations,mean_authors,first_last_citations,n_first_or_last,total_citations_from_works,n_solo_works
+oa_author_badan_penelitian_dan_pengembangan_kesehatan,Badan Penelitian dan Pengembangan Kesehatan,https://openalex.org/A5008929319,6,1877,12,1877.0,1.0,1877,12,1877,12
+oa_author_mamouna_diagne,Maïmouna Diagne,https://openalex.org/A5069959639,4,934,7,192.6,4.857142857142857,893,5,935,1
+oa_author_thang_luong,Thang Luong,https://openalex.org/A5013286997,13,11770,27,3739.2984848484857,6.444444444444445,10764,16,11792,1
+oa_author_alireza_askarzadeh,Alireza Askarzadeh,https://openalex.org/A5070442408,40,8389,95,5786.7,2.1473684210526316,8220,83,8410,18
+oa_author_peter_naylor,Peter Naylor,https://openalex.org/A5080601989,11,1179,59,289.2420995670996,5.220338983050848,1070,36,1188,4
+oa_author_samuel_a__mehr,Samuel A. Mehr,https://openalex.org/A5088761076,26,3246,116,730.6297951274956,6.689655172413793,2752,78,3267,15
+oa_author_andre_esteva,Andre Esteva,https://openalex.org/A5070015743,27,24842,83,2871.3435215666414,18.518072289156628,20130,18,25136,0
+oa_author_chengen_wang,Chengen Wang,https://openalex.org/A5036938086,29,3396,223,1105.8714285714286,3.094170403587444,2273,162,3404,62
+oa_author_james_m__brenan,James M. Brenan,https://openalex.org/A5062927143,41,7680,125,3226.8238095238107,2.912,6427,94,7689,25
+oa_author_tim_dettmers,Tim Dettmers,https://openalex.org/A5067514564,14,4602,29,1198.473953823954,6.448275862068965,4123,11,4309,2
+oa_author_thomas_leung,Thomas Leung,https://openalex.org/A5111929615,42,22024,89,5885.013345864663,6.943820224719101,6881,46,22038,6
+oa_author_jiwan_ge,Jiwan Ge,https://openalex.org/A5005832520,17,11443,40,852.3554024308552,16.275,210,5,11467,0
+oa_author_michal_p,Michal Čáp,https://openalex.org/A5014638371,12,3326,56,677.6750000000004,4.196428571428571,514,30,3341,4
+oa_author_elchanan_mossel,Elchanan Mossel,https://openalex.org/A5013467728,53,9967,420,3975.166450216452,2.919047619047619,6021,258,9976,29
+oa_author_jiuxiang_gu,Jiuxiang Gu,https://openalex.org/A5005119482,27,9345,134,1098.5552774023367,8.850746268656716,8294,38,9383,1
+oa_author_alex_wang,Alex Wang,https://openalex.org/A5100783908,13,4306,28,725.8718364968364,14.642857142857142,3714,10,4310,2
+oa_author_florent_perronnin,Florent Perronnin,https://openalex.org/A5059987704,39,17454,120,5511.609340659343,3.7916666666666665,11010,71,17465,6
+oa_author_liting_lin,Liting Lin,https://openalex.org/A5047201250,17,2720,36,293.8421903371277,13.75,140,9,2742,0
+oa_author_quan_zhang,Quan Zhang,https://openalex.org/A5100406696,30,11721,226,2163.9542131844755,5.283185840707965,1609,127,11594,24
+oa_author_naveen_chilamkurti,Naveen Chilamkurti,https://openalex.org/A5033056152,54,8686,268,2124.741774891777,5.656716417910448,3408,122,8722,2
+oa_author_xiaolong_li,Xiaolong Li,https://openalex.org/A5100371548,43,9668,224,2379.0764069264037,4.584821428571429,3186,62,9670,3
+oa_author_xiaochuan_ni,Xiaochuan Ni,https://openalex.org/A5072992613,10,1528,16,328.64345238095245,5.75,263,6,1528,0
+oa_author_shotaro_sano,Shotaro Sano,https://openalex.org/A5009011727,5,6976,10,1422.652380952381,9.2,2,1,7115,0
+oa_author_murtaza_haider,Murtaza Haider,https://openalex.org/A5047899302,15,4920,54,2408.549999999999,3.2037037037037037,4856,39,4938,5
+oa_author_philip_krantz,Philip Krantz,https://openalex.org/A5001410120,19,4459,70,641.6392383126883,10.785714285714286,1942,13,4481,4
+oa_author_eric_eide,Eric Eide,https://openalex.org/A5002123078,20,3274,64,718.2971995205405,5.421875,512,32,3278,3
+oa_author_dirk_andreas_zetzsche,Dirk Andreas Zetzsche,https://openalex.org/A5049980841,34,4896,445,1434.2890594567064,3.703370786516854,2849,374,4942,159
+oa_author_yadi_zhou,Yadi Zhou,https://openalex.org/A5076504705,36,10028,124,1285.881747132371,12.362903225806452,3300,32,10098,2
+oa_author_giacomo_morabito,Giacomo Morabito,https://openalex.org/A5050880787,36,22791,211,7158.9519841269785,4.18957345971564,17946,72,22831,8
+oa_author_anchi_guo,AnChi Guo,https://openalex.org/A5112537837,6,2846,6,110.27327327327328,17.5,0,0,2877,0
+oa_author_david_b__flora,David B. Flora,https://openalex.org/A5003725262,43,9940,163,3808.7078707240466,5.4969325153374236,5315,59,9888,9
+oa_author_pablo_arbelez,Pablo Arbeláez,https://openalex.org/A5013512298,44,22136,198,4943.616908522756,13.409090909090908,8616,87,22196,1
+oa_author_richard_c__hendriks,Richard C. Hendriks,https://openalex.org/A5011148355,28,6639,185,1999.3039682539688,3.5945945945945947,2197,107,6650,4
+oa_author_marco_gruteser,Marco Gruteser,https://openalex.org/A5078160983,53,17518,258,5022.989682539679,5.286821705426356,8716,105,17544,11
+oa_author_duc_hiep_chu,Duc-Hiep Chu,https://openalex.org/A5042378793,11,2848,29,625.5333333333334,2.9310344827586206,141,21,2855,0
+oa_author_slaven_marusic,Slaven Marusic,https://openalex.org/A5024070602,13,13880,45,3508.9083333333333,5.8,155,22,13922,2
+oa_author_natacha_turck,Natacha Turck,https://openalex.org/A5083329358,36,16803,72,2351.72216117216,9.319444444444445,647,17,16899,1
+oa_author_weizhong_yan,Weizhong Yan,https://openalex.org/A5073342710,20,3198,82,1175.4999999999998,4.060975609756097,812,46,3212,6
+oa_author_ahmed_elnaggar,Ahmed Elnaggar,https://openalex.org/A5106730664,11,3187,19,341.86309523809535,6.0,2542,12,3235,0
+oa_author_zhi_tian,Zhi Tian,https://openalex.org/A5073942971,55,23083,346,6111.871103896103,4.372832369942197,15380,202,23146,10
+oa_author_heng_fan,Heng Fan,https://openalex.org/A5047220188,25,6141,153,1195.5612007551213,9.183006535947712,3243,63,6165,5
+oa_author_blesson_varghese,Blesson Varghese,https://openalex.org/A5074563743,26,4299,204,1256.8168231184025,4.799019607843137,2886,136,4315,4
+oa_author_michael_mller,Michael Müller,https://openalex.org/A5017306399,49,10788,584,2372.994886511838,5.691780821917808,5289,281,10817,28
+oa_author_serena_yeung,Serena Yeung,https://openalex.org/A5081511803,34,7322,154,1343.4276482173223,8.077922077922079,2410,85,7366,0
+oa_author_dean_knox,Dean Knox,https://openalex.org/A5087031929,14,2161,118,345.7184006527948,3.1271186440677967,558,96,1862,71
+oa_author_deb_roy,Deb Roy,https://openalex.org/A5004281470,42,19241,276,6264.288525650597,3.721014492753623,6053,224,19361,21
+oa_author_michael_matschiner,Michael Matschiner,https://openalex.org/A5033256023,40,11171,122,1459.0793903259694,10.934426229508198,1420,37,10884,9
+oa_author_dingding_wang,Dingding Wang,https://openalex.org/A5101983506,28,9180,108,2827.03137973138,5.527777777777778,7482,53,9215,10
+oa_author_mark_assink,Mark Assink,https://openalex.org/A5058190010,30,5923,126,1646.6678571428563,4.785714285714286,3865,61,5986,1
+oa_author_yinfeng_xu,Yinfeng Xu,https://openalex.org/A5113747124,29,5979,338,1705.1880952380948,3.467455621301775,2899,185,5992,21
+oa_author_xiaojun_zeng,Xiao‐Jun Zeng,https://openalex.org/A5077623520,43,13879,330,4381.984556300477,4.748484848484848,10091,161,13925,4
+oa_author_c__h__langmuir,C. H. Langmuir,https://openalex.org/A5009983783,76,28920,370,9704.350819940302,5.248648648648649,18374,173,28770,19
+oa_author_yucheng_dong,Yucheng Dong,https://openalex.org/A5050358854,74,18217,305,4405.234826839826,10.560655737704918,8012,136,18262,1
+oa_author_cristopher_moore,Cristopher Moore,https://openalex.org/A5008033989,54,22525,346,8790.020646020657,2.8728323699421967,15507,235,22548,34
+oa_author_carl_kingsford,Carl Kingsford,https://openalex.org/A5113653378,40,25297,235,7382.975661114244,4.6553191489361705,23459,173,24634,2
+oa_author_sanchit_misra,Sanchit Misra,https://openalex.org/A5085992504,17,3684,77,868.3181234056619,7.0,179,13,3723,0
+oa_author_eider_moore,Eider Moore,https://openalex.org/A5080901995,8,11917,13,2429.1559523809524,5.0,17,4,11933,0
+oa_author_evan_meyer_scott,Evan Meyer-Scott,https://openalex.org/A5025934190,18,2975,47,262.41278011204486,10.340425531914894,560,18,2987,2
+oa_author_alexander_klser,Alexander Kläser,https://openalex.org/A5063708810,6,5472,19,1304.3666666666668,5.157894736842105,255,9,5475,3
+oa_author_craig_a__james,Craig A. James,https://openalex.org/A5069577668,10,11261,29,1911.2701690821257,6.689655172413793,146,10,11336,2
+oa_author_mdlin_gu,Mădălin Guţǎ,https://openalex.org/A5078748305,20,2124,65,794.5833333333334,2.723076923076923,1545,46,2132,2
+oa_author_chris_j__maddison,Chris J. Maddison,https://openalex.org/A5054711904,18,18572,80,1654.313858900545,6.3125,2251,39,18638,2
+oa_author_bob_carpenter,Bob Carpenter,https://openalex.org/A5102808840,19,11106,51,2215.5725563481205,5.647058823529412,10073,29,11144,10
+oa_author_liang_yu,Liang Yu,https://openalex.org/A5100692990,61,20450,277,2575.2800395891823,7.819494584837545,2344,66,20580,12
+oa_author_xiaojian_ding,Xiaojian Ding,https://openalex.org/A5061819607,14,6933,60,1805.0190476190476,4.25,311,29,6941,3
+oa_author_roger_h_l__chiang,Roger H.L. Chiang,https://openalex.org/A5048128109,21,9345,79,2960.65,3.607594936708861,1971,43,9376,2
+oa_author_imane_jebli,Imane Jebli,https://openalex.org/A5039886959,4,609,6,153.98333333333335,4.166666666666667,606,4,613,0
+oa_author_ross_arnold,Ross Arnold,https://openalex.org/A5044315686,12,1818,38,827.3777777777777,3.6578947368421053,1758,28,1838,2
+oa_author_takuya_akiba,Takuya Akiba,https://openalex.org/A5102966470,23,9515,66,2097.912580836187,6.0,8445,38,9665,1
+oa_author_julian_michael,Julian Michael,https://openalex.org/A5072681909,17,9014,57,1439.7344207247609,10.157894736842104,99,21,8740,3
+oa_author_alex_kendall,Alex Kendall,https://openalex.org/A5003855956,26,14130,93,4928.808730158729,4.010752688172043,13584,70,14248,8
+oa_author_xiang_ren,Xiang Ren,https://openalex.org/A5101461299,10,1288,41,216.075,4.853658536585366,230,20,1292,4
+oa_author_georgios_karagiannis,Georgios Karagiannis,https://openalex.org/A5030307010,25,4028,181,917.4839825379305,5.530386740331492,2676,98,4031,7
+oa_author_sylvain_schwartz,Sylvain Schwartz,https://openalex.org/A5107933780,14,3835,104,360.4937229437228,7.4326923076923075,280,58,3851,6
+oa_author_robert_laubacher,Robert Laubacher,https://openalex.org/A5025920509,16,2044,42,692.9425324675325,4.619047619047619,483,15,2048,2
+oa_author_nguyen_cong_luong,Nguyen Cong Luong,https://openalex.org/A5089793687,22,4617,121,664.1847402597405,6.024793388429752,650,31,4643,0
+oa_author_lixing_han,Lixing Han,https://openalex.org/A5115589125,11,1724,44,907.1500000000001,2.6136363636363638,1501,27,1728,8
+oa_author_asaph_azaria,Asaph Azaria,https://openalex.org/A5016636016,5,2746,8,656.2761194029849,11.5,2417,3,2768,1
+oa_author_lourens_waldorp,Lourens Waldorp,https://openalex.org/A5064926593,44,21272,236,4412.752056277056,4.559322033898305,6719,106,21568,5
+oa_author_wenchun_ge,Wen‐Chun Ge,https://openalex.org/A5081554342,47,7721,143,1483.9016233766229,6.4125874125874125,1566,26,7679,4
+oa_author_daquan_zhou,Daquan Zhou,https://openalex.org/A5100554498,21,9508,87,2635.007792207791,6.747126436781609,798,18,9588,1
+oa_author_minyuan_cheng,Min‐Yuan Cheng,https://openalex.org/A5103174860,38,6151,170,2429.032142857143,3.135294117647059,5222,138,6179,1
+oa_author_alexander_s__ecker,Alexander S. Ecker,https://openalex.org/A5050113685,39,15489,186,3924.8389776527824,8.543010752688172,3085,81,15525,11
+oa_author_gwenalle_douaud,Gwenaëlle Douaud,https://openalex.org/A5091265591,52,23120,103,2177.4679845646547,11.16504854368932,5264,27,23201,1
+oa_author_ying_yan,Ying Yan,https://openalex.org/A5035284931,20,2806,121,529.0397222058989,4.851239669421488,687,65,2808,5
+oa_author_tlin_ztrk,Tülin Öztürk,https://openalex.org/A5033281429,5,2754,12,459.2261904761905,5.083333333333333,2684,6,2757,1
+oa_author_supasorn_suwajanakorn,Supasorn Suwajanakorn,https://openalex.org/A5065745608,14,2566,50,795.3857142857145,4.02,2136,39,2577,1
+oa_author_lucas_theis,Lucas Theis,https://openalex.org/A5113166350,27,17429,84,2196.1255237100067,5.166666666666667,2019,39,17461,2
+oa_author_leslie_prez_cceres,Leslie Pérez Cáceres,https://openalex.org/A5016827176,10,1987,30,422.6166666666666,3.6,181,19,1990,0
+oa_author_alberto_fernndez,Alberto Fernández,https://openalex.org/A5090921348,48,20832,154,4474.471428571426,4.623376623376624,6517,74,20889,4
+oa_author_suoqin_jin,Suoqin Jin,https://openalex.org/A5042426564,22,11908,66,1710.754188034188,7.833333333333333,10306,28,12090,12
+oa_author_andreasdavid_brunner,Andreas‐David Brunner,https://openalex.org/A5021411972,22,6533,51,551.1068867348476,14.490196078431373,666,3,6615,1
+oa_author_shu_lih_oh,Shu Lih Oh,https://openalex.org/A5072339586,40,10899,65,1726.8997391497392,7.938461538461539,2181,11,10954,1
+oa_author_wei_peng,Wei Peng,https://openalex.org/A5101887303,1,500,3,125.25,4.333333333333333,0,1,501,0
+oa_author_nima_tajbakhsh,Nima Tajbakhsh,https://openalex.org/A5011019569,26,20312,70,4772.525000000001,11.714285714285714,6580,33,20500,1
+oa_author_silvia_bianchi,Silvia Bianchi,https://openalex.org/A5110289757,8,1020,22,212.8047619047619,9.227272727272727,103,9,1020,0
+oa_author_alex_perelygin,Alex Perelygin,https://openalex.org/A5051147845,1,6714,2,963.1428571428571,4.0,1,1,6736,1
+oa_author_sara_balduzzi,Sara Balduzzi,https://openalex.org/A5045238785,31,11674,159,2442.736269548212,13.666666666666666,6185,15,11806,10
+oa_author_ilya_alexandrovich,Ilya Alexandrovich,https://openalex.org/A5024062113,3,1355,3,193.57142857142858,7.333333333333333,0,0,1357,0
+oa_author_alex_berenzon,Alex Berenzon,https://openalex.org/A5078043918,1,1102,1,157.71428571428572,7.0,0,0,1104,0
+oa_author_nicola_bui,Nicola Bui,https://openalex.org/A5019360342,21,8350,67,1812.6035714285713,4.388059701492537,895,31,8378,1
+oa_author_antoine_daina,Antoine Daina,https://openalex.org/A5088300158,24,28109,48,9221.77085137085,9.0,24586,21,28454,0
+oa_author_woo_jin_han,Woo-Jin Han,https://openalex.org/A5051813917,13,10357,69,2364.484523809525,5.27536231884058,626,35,10370,5
+oa_author_xufeng_han,Xufeng Han,https://openalex.org/A5064840456,13,3358,37,534.135886172651,7.72972972972973,1088,15,3364,1
+oa_author_shota_uehara,Shota Uehara,https://openalex.org/A5063417856,10,853,23,91.00462637580284,11.73913043478261,129,7,865,0
+oa_author_charless_c__fowlkes,Charless C. Fowlkes,https://openalex.org/A5044978076,51,26914,226,7285.459682225984,5.623893805309734,7214,101,26953,1
+oa_author_zhaohui_yang,Zhaohui Yang,https://openalex.org/A5066878475,58,15782,703,2853.5524975024964,5.961593172119488,5781,193,15872,18
+oa_author_jichang_guo,Jichang Guo,https://openalex.org/A5100445482,26,6268,111,1242.801205738706,5.315315315315315,484,27,6297,0
+oa_author_angelina_mcmillan_major,Angelina McMillan-Major,https://openalex.org/A5063040968,8,5806,16,1359.5387596200098,30.9375,34,5,5945,1
+oa_author_markus_mathias,Markus Mathias,https://openalex.org/A5076723993,16,2936,26,733.8666666666667,3.8846153846153846,1131,8,2937,1
+oa_author_tong_he,Tong He,https://openalex.org/A5091543199,35,18903,148,3604.333508403362,6.398648648648648,11305,59,18979,13
+oa_author_yuanjun_xiong,Yuanjun Xiong,https://openalex.org/A5005925571,33,18896,102,4368.446384171385,6.950980392156863,429,15,18941,0
+oa_author_marco_cuturi,Marco Cuturi,https://openalex.org/A5017263427,39,9087,207,4863.800793650795,4.217391304347826,6371,122,9099,13
+oa_author_cynthia_rudin,Cynthia Rudin,https://openalex.org/A5040468715,54,22561,400,12938.797174611616,5.5225,16268,222,22799,15
+oa_author_wes_mckinney,Wes McKinney,https://openalex.org/A5067080427,7,13083,11,13094.5,2.8181818181818183,13123,8,13170,6
+oa_author_fabien_reyal,Fabien Reyal,https://openalex.org/A5003301011,54,12328,549,1082.1783073444599,14.759562841530055,2087,171,12036,1
+oa_author_david_rogers,David Rogers,https://openalex.org/A5012560979,30,12709,307,5727.734759976249,4.237785016286645,10595,221,12773,124
+oa_author_joaqun_derrac,Joaquín Derrac,https://openalex.org/A5110250279,18,7418,32,1878.1833333333332,4.3125,6193,18,7438,0
+oa_author_yannick_djoumbou_feunang,Yannick Djoumbou-Feunang,https://openalex.org/A5065759390,18,21456,48,1166.2967413118338,22.041666666666668,2366,23,21518,1
+oa_author_xiaojun_chen,Xiaojun Chen,https://openalex.org/A5100369453,7,1128,25,364.6785714285714,4.52,1057,7,1134,1
+oa_author_roozbeh_mottaghi,Roozbeh Mottaghi,https://openalex.org/A5070375939,31,8775,137,1587.193256329126,6.897810218978102,3098,64,8801,3
+oa_author_peng_chen,Peng Chen,https://openalex.org/A5100629119,39,6001,339,1188.209476911976,6.150442477876106,1565,131,6034,9
+oa_author_batia_laufer,Batia Laufer,https://openalex.org/A5086503982,51,15778,124,10528.299019607844,1.7903225806451613,15247,120,15812,69
+oa_author_wu_zhou,Wu Zhou,https://openalex.org/A5100606053,16,1470,85,343.2283435862382,6.070588235294117,1307,53,1482,2
+oa_author_indrajeet_patil,Indrajeet Patil,https://openalex.org/A5050902528,29,10747,91,3882.1507936507946,4.967032967032967,3310,55,10869,15
+oa_author_zhi_zhang,Zhi Zhang,https://openalex.org/A5100410702,21,3325,102,574.1625120250121,5.676470588235294,399,56,3277,21
+oa_author_konstantin_lopyrev,Konstantin Lopyrev,https://openalex.org/A5060537142,3,7206,4,1887.25,2.5,109,2,7222,2
+oa_author_jonathan_hart,Jonathan Hart,https://openalex.org/A5034959916,11,2089,16,355.3590909090908,5.25,529,7,2095,0
+oa_author_charles_ballard,Charles Ballard,https://openalex.org/A5112493028,9,13172,29,834.9346257607126,7.655172413793103,91,6,13196,2
+oa_author_p__greenfield,P. Greenfield,https://openalex.org/A5052341993,23,27715,162,684.8777148814379,11.938271604938272,334,65,27520,21
+oa_author_stefan_pfenninger,Stefan Pfenninger,https://openalex.org/A5083721050,33,9560,147,3710.8418090088817,5.639455782312925,7115,84,9638,11
+oa_author_hung_nguyen,Hung Nguyen,https://openalex.org/A5056718700,17,2623,96,665.9492063492063,3.8229166666666665,532,52,2631,1
+oa_author_n__vubac,N. Vu‐Bac,https://openalex.org/A5050348381,14,1999,18,385.3059523809524,4.888888888888889,1967,15,2002,0
+oa_author_jirui_yang,Jirui Yang,https://openalex.org/A5006570592,9,2034,15,270.10833333333335,7.8,32,4,2038,1
+oa_author_xudong_mao,Xudong Mao,https://openalex.org/A5006837984,17,6743,80,1176.010897435897,5.65,5991,37,6757,0
+oa_author_thomas_j__whelan,Thomas J. Whelan,https://openalex.org/A5103690682,29,6168,93,1477.6092857142855,4.913978494623656,4302,70,6172,14
+oa_author_kevin_smith,Kevin Smith,https://openalex.org/A5069299612,43,15690,169,3047.5180645281253,6.57396449704142,2377,91,15733,27
+oa_author_henrik_lehrmann_christiansen,Henrik Lehrmann Christiansen,https://openalex.org/A5069309470,18,3056,66,687.6076479076479,4.0,1246,36,3058,2
+oa_author_bartomiej_twardowski,Bartłomiej Twardowski,https://openalex.org/A5017330235,13,1465,77,360.3174603174603,4.688311688311688,221,22,1477,1
+oa_author_henrik_kretzschmar,Henrik Kretzschmar,https://openalex.org/A5012355769,22,5611,46,658.9642028985508,7.108695652173913,1709,18,5638,0
+oa_author_jeremy_gray,Jeremy Gray,https://openalex.org/A5053671519,2,5280,3,664.875,5.0,0,0,5317,0
+oa_author_franois_lvesque,François Lévesque,https://openalex.org/A5003045408,27,3356,81,858.60511180426,7.209876543209877,1056,30,3361,2
+oa_author_brigitta_sipcz,Brigitta Sipőcz,https://openalex.org/A5071244545,36,16076,147,299.3145110802958,25.578231292517007,352,22,11786,1
+oa_author_rachel_aston,Rachel Aston,https://openalex.org/A5109091716,3,1011,7,323.25,3.2857142857142856,1012,5,1017,2
+oa_author_longlong_jing,Longlong Jing,https://openalex.org/A5016194100,15,3079,50,1298.1649350649352,6.16,2741,20,3093,0
+oa_author_liqiang_zhao,Liqiang Zhao,https://openalex.org/A5014340318,30,3666,294,813.2761544011544,4.568027210884353,1056,135,3677,23
+oa_author_jian_cheng,Jian Cheng,https://openalex.org/A5112149353,47,15197,532,3234.6737970927575,6.791353383458647,4588,261,15258,26
+oa_author_xerxes_dotiwalla,Xerxes Dotiwalla,https://openalex.org/A5071263925,6,3784,9,159.94716274915763,15.444444444444445,0,0,3524,0
+oa_author_mingzhe_chen,Mingzhe Chen,https://openalex.org/A5072241033,53,19127,402,4436.664814814815,5.318407960199005,11925,119,19213,7
+oa_author_andrew_l__beam,Andrew L. Beam,https://openalex.org/A5077007622,41,18207,147,3682.403840973401,10.904761904761905,5708,63,18559,4
+oa_author_v__joachim_haupt,V. Joachim Haupt,https://openalex.org/A5034265176,20,5297,37,994.1940476190474,19.783783783783782,366,7,5339,0
+oa_author_francisco_massa,Francisco Massa,https://openalex.org/A5032569443,14,20064,30,1258.0865415789885,17.233333333333334,136,8,20078,2
+oa_author_janmichael_frahm,Jan‐Michael Frahm,https://openalex.org/A5018151384,49,16164,192,5268.091209521471,4.651041666666667,10583,119,16200,5
+oa_author_lisa_anne_hendricks,Lisa Anne Hendricks,https://openalex.org/A5020758501,32,14230,78,1873.6042548164285,8.91025641025641,2012,25,13181,1
+oa_author_connor_shorten,Connor Shorten,https://openalex.org/A5051577117,6,14182,16,6810.895238095239,5.375,14315,14,14330,0
+oa_author_zhiguang_wang,Zhiguang Wang,https://openalex.org/A5100637055,47,11817,578,2386.4297490145996,7.4809688581314875,6279,254,11866,38
+oa_author_xiaohua_huang,Xiaohua Huang,https://openalex.org/A5083815471,33,5869,172,1157.207142857143,5.226744186046512,1963,89,5897,10
+oa_author_edurne_barrenechea,Edurne Barrenechea,https://openalex.org/A5018271540,39,8758,151,1803.282683982684,6.5364238410596025,1170,27,8775,2
+oa_author_alexander_skulmowski,Alexander Skulmowski,https://openalex.org/A5030423272,20,1960,42,1042.5333333333333,1.9523809523809523,2000,42,2000,17
+oa_author_moeness_g__amin,Moeness G. Amin,https://openalex.org/A5007661434,78,25220,941,8968.276826325082,5.6705632306057385,15567,620,25249,45
+oa_author_renato_salas_moreno,Renato Salas Moreno,https://openalex.org/A5022690827,1,807,1,161.6,5.0,0,0,808,0
+oa_author_isabelle_lajoie,Isabelle Lajoie,https://openalex.org/A5073443794,2,5045,8,1012.1333333333332,4.375,20,3,5047,0
+oa_author_chen_sun,Chen Sun,https://openalex.org/A5100722234,43,15063,193,2618.1414100874986,6.772020725388601,5413,79,15098,1
+oa_author_marco_dambros,Marco D’Ambros,https://openalex.org/A5051860378,22,2686,57,891.5666666666667,3.2982456140350878,2139,36,2688,4
+oa_author_zhongda_sun,Zhongda Sun,https://openalex.org/A5059256953,33,7446,52,1127.3229380268851,7.019230769230769,950,9,7497,0
+oa_author_tushar_krishna,Tushar Krishna,https://openalex.org/A5034089074,40,14256,338,2479.873486601117,6.118343195266272,3899,217,14280,5
+oa_author_shun_yao_shih,Shun-Yao Shih,https://openalex.org/A5021517724,2,915,4,307.16666666666663,2.5,919,4,919,0
+oa_author_tong_zhang,Tong Zhang,https://openalex.org/A5100378792,55,15784,375,6019.452380952381,4.152,11781,255,15797,39
+oa_author_michael_banck,Michael Banck,https://openalex.org/A5037128636,5,10952,6,1858.142857142857,9.666666666666666,34,1,11026,1
+oa_author_qilong_wang,Qilong Wang,https://openalex.org/A5100658200,28,12303,116,2290.8230158730153,4.827586206896552,8913,32,12415,1
+oa_author_saad_albawi,Saad Albawi,https://openalex.org/A5022788548,9,4199,26,1388.3416666666662,3.6538461538461537,4153,19,4209,0
+oa_author_luca_pezz,Luca Pezzè,https://openalex.org/A5083189623,40,8600,150,2126.2033966033955,5.273333333333333,4782,77,8626,4
+oa_author_johan_bollen,Johan Bollen,https://openalex.org/A5082461253,41,13567,167,4192.934377610693,4.245508982035928,11087,124,13614,6
+oa_author_avi_goldfarb,Avi Goldfarb,https://openalex.org/A5053397554,57,17030,268,6764.838124156541,2.962686567164179,13589,185,17159,24
+oa_author_emad_barsoum,Emad Barsoum,https://openalex.org/A5027115167,6,1841,67,539.3345238095238,7.686567164179104,940,52,1847,3
+oa_author_pankaj_dutta,Pankaj Dutta,https://openalex.org/A5072702572,29,4404,99,1444.2166666666672,3.111111111111111,3645,57,4441,3
+oa_author_ming_yang,Ming Yang,https://openalex.org/A5019934281,44,12334,160,3161.4826150157032,4.83125,1736,72,12363,9
+oa_author_jun_fu,Jun Fu,https://openalex.org/A5101758238,13,7985,46,1178.2671568627452,5.065217391304348,7851,29,8020,7
+oa_author_afshin_faramarzi,Afshin Faramarzi,https://openalex.org/A5087610902,9,4648,12,1182.5880952380953,3.9166666666666665,4629,8,4674,0
+oa_author_alan_karthikesalingam,Alan Karthikesalingam,https://openalex.org/A5003509342,64,24760,232,2210.8300226569895,12.685344827586206,2480,64,25039,0
+oa_author_fuzhen_zhuang,Fuzhen Zhuang,https://openalex.org/A5102969899,38,10386,175,1606.0331529581536,5.76,7670,42,10447,0
+oa_author_sebastian_goodman,Sebastian Goodman,https://openalex.org/A5090365098,10,7226,17,1309.801320964802,13.941176470588236,5,2,7232,0
+oa_author_xinjun_hou,Xinjun Hou,https://openalex.org/A5048435469,33,4972,85,787.4960516721667,12.964705882352941,370,16,4998,2
+oa_author_georgina_a__holloway,Georgina A. Holloway,https://openalex.org/A5058299885,10,4322,15,2029.1,6.266666666666667,4112,7,4340,0
+oa_author_c__a__dalton,C. A. Dalton,https://openalex.org/A5014771396,21,3241,128,858.4833333333331,6.953125,1104,74,3249,1
+oa_author_tobias_j__osborne,Tobias J. Osborne,https://openalex.org/A5074511091,38,7805,156,2631.585653235653,3.58974358974359,3787,89,7839,19
+oa_author_peter_bankhead,Peter Bankhead,https://openalex.org/A5055039884,31,13773,124,1257.8359841292781,11.814516129032258,9934,17,13796,5
+oa_author_andreas_f__tillack,Andreas F. Tillack,https://openalex.org/A5043900157,21,8324,58,1877.283866833447,10.5,125,8,8444,1
+oa_author_hugh_chen,Hugh Chen,https://openalex.org/A5082310478,13,9872,31,1199.8761904761911,4.903225806451613,932,17,10046,0
+oa_author_glenn_r__guntenspergen,Glenn R. Guntenspergen,https://openalex.org/A5003449600,48,11143,195,2300.8246802206177,6.158974358974359,2248,77,11195,7
+oa_author_richard_heusdens,Richard Heusdens,https://openalex.org/A5089150994,28,6718,246,1939.0916666666665,3.5,1727,122,6730,3
+oa_author_karthikeyan_mohanraj,Karthikeyan Mohanraj,https://openalex.org/A5004017157,10,1484,21,261.95655806182117,13.380952380952381,751,2,1504,0
+oa_author_varoquauxgal,VaroquauxGaël,https://openalex.org/A5015155577,1,8146,1,511.25,16.0,0,0,8180,0
+oa_author_yan_jia,Yan Jia,https://openalex.org/A5101605747,20,1874,147,383.0756354756354,5.054421768707483,534,58,1876,17
+oa_author_joshua_l__proctor,Joshua L. Proctor,https://openalex.org/A5009969698,29,12810,115,3788.7227412860298,6.756521739130434,4199,60,12894,1
+oa_author_xue_yang,Xue Yang,https://openalex.org/A5043503650,29,5975,104,1115.8083333333334,6.134615384615385,4026,40,6002,4
+oa_author_chrysanthos_dellarocas,Chrysanthos Dellarocas,https://openalex.org/A5009541432,42,12159,123,6327.825000000003,2.8048780487804876,9009,88,12182,36
+oa_author_vinod_nair,Vinod Nair,https://openalex.org/A5102382576,19,14539,36,7069.963639868901,4.277777777777778,14155,21,14540,1
+oa_author_zhe_yang,Zhe Yang,https://openalex.org/A5101451720,13,2451,45,491.13492063492055,4.066666666666666,1834,28,2458,5
+oa_author_jiabin_huang,Jia‐Bin Huang,https://openalex.org/A5101766030,60,24960,281,6172.721101121105,5.455516014234876,8776,115,25027,8
+oa_author_colin_r__groom,Colin R. Groom,https://openalex.org/A5048067029,29,20317,80,6104.848307032401,6.15,16053,45,20409,5
+oa_author_babak_ehteshami_bejnordi,Babak Ehteshami Bejnordi,https://openalex.org/A5055531734,21,20239,62,1911.5843969027337,10.290322580645162,4387,35,20430,1
+oa_author_marten_boetzer,Marten Boetzer,https://openalex.org/A5063484441,9,4974,10,1425.13954248366,9.4,4253,3,4978,0
+oa_author_alexander_kloosterman,Alexander Kloosterman,https://openalex.org/A5058615177,9,3178,28,467.67435897435894,6.285714285714286,323,13,3195,1
+oa_author_haozhi_qi,Haozhi Qi,https://openalex.org/A5113868571,14,9131,50,1419.8198569546394,6.76,108,13,9175,0
+oa_author_zhong_yin,Zhong Yin,https://openalex.org/A5033657910,24,3045,84,816.2849206349205,4.988095238095238,1491,49,3055,3
+oa_author_leonid_pishchulin,Leonid Pishchulin,https://openalex.org/A5010680659,20,7250,33,1534.4650793650796,5.0606060606060606,2356,16,7259,2
+oa_author_paul_albert,Paul Albert,https://openalex.org/A5015341418,23,2774,92,666.1349376114082,7.380434782608695,659,45,2787,3
+oa_author_matteo_gerola,Matteo Gerola,https://openalex.org/A5047648090,13,1813,43,217.39242424242428,7.534883720930233,139,8,1820,0
+oa_author_arianna_boldi,Arianna Boldi,https://openalex.org/A5019148638,10,885,39,300.88333333333327,3.5128205128205128,800,30,897,2
+oa_author_aboulnasr_hassanien,Aboulnasr Hassanien,https://openalex.org/A5036819529,32,5439,93,1746.1404761904764,4.881720430107527,4629,72,5446,1
+oa_author_jiwon_kim,Jiwon Kim,https://openalex.org/A5100462870,5,7744,13,2575.847222222222,6.076923076923077,7686,4,7760,0
+oa_author_krishnaprasad_lingadahalli_shastry,Krishnaprasad Lingadahalli Shastry,https://openalex.org/A5003745980,2,844,2,8.957272727272727,66.5,0,0,847,0
+oa_author_shivangi_dhawan,Shivangi Dhawan,https://openalex.org/A5074014366,4,5019,7,5015.0,1.7142857142857142,5034,7,5034,2
+oa_author_vladimir_g__kim,Vladimir G. Kim,https://openalex.org/A5041004771,33,6965,163,1679.093772893773,5.521472392638037,1887,36,6956,6
+oa_author_carmen_lpez,Carmen López,https://openalex.org/A5012356478,21,2783,109,590.1811327561329,4.981651376146789,466,59,2795,17
+oa_author_eponine_oler,Eponine Oler,https://openalex.org/A5017496139,17,5773,27,284.15412945851756,17.48148148148148,38,1,5884,0
+oa_author_koutarou_matsumoto,Koutarou Matsumoto,https://openalex.org/A5054139714,8,1185,37,281.6130230880231,7.756756756756757,132,18,1208,0
+oa_author_aja_huang,Aja Huang,https://openalex.org/A5006011042,6,28807,10,1475.0814210299504,20.6,0,0,28922,0
+oa_author_elad_hazan,Elad Hazan,https://openalex.org/A5024431603,47,17374,221,6723.3278388278395,3.339366515837104,5948,155,17383,6
+oa_author_marijn_a__m__versteegh,Marijn A. M. Versteegh,https://openalex.org/A5001640937,15,2747,29,291.63069242848655,8.89655172413793,708,14,2757,1
+oa_author_joachim_daiber,Joachim Daiber,https://openalex.org/A5076793943,7,680,17,184.35,3.411764705882353,674,14,682,2
+oa_author_sandro_keller,Sandro Keller,https://openalex.org/A5008249625,45,6985,243,1531.6794860969785,6.753086419753086,3839,86,7017,1
+oa_author_ahmed_zoha,Ahmed Zoha,https://openalex.org/A5089174765,27,3699,166,817.7810744810749,5.801204819277109,1980,78,3718,2
+oa_author_witold_r__rudnicki,Witold R. Rudnicki,https://openalex.org/A5065166985,21,7736,107,3407.919047619048,5.289719626168225,7138,78,7613,0
+oa_author_marissa_giustina,Marissa Giustina,https://openalex.org/A5042731148,30,7676,64,270.03973595469404,60.734375,2197,11,7748,5
+oa_author_jan_drugowitsch,Jan Drugowitsch,https://openalex.org/A5037361379,28,3950,123,1113.9106196525795,6.300813008130081,1991,74,3966,22
+oa_author_xingrui_yu,Xingrui Yu,https://openalex.org/A5021829944,12,2420,52,361.69166666666666,5.884615384615385,542,11,2423,0
+oa_author_kyoochun_lee,Kyoochun Lee,https://openalex.org/A5002405334,2,2782,2,1395.0,2.0,2790,2,2790,0
+oa_author_jeffrey_heer,Jeffrey Heer,https://openalex.org/A5090570042,79,24966,252,8694.846053391055,4.388888888888889,21527,172,24999,10
+oa_author_alexander_mathis,Alexander Mathis,https://openalex.org/A5013861606,27,11511,138,1917.5350407435706,7.021739130434782,7638,89,11622,1
+oa_author_duygu_ceylan,Duygu Ceylan,https://openalex.org/A5068985412,30,4723,81,805.0119047619046,5.506172839506172,434,9,4733,1
+oa_author_julia_amann,Julia Amann,https://openalex.org/A5033075709,21,3047,57,634.5129281537176,11.035087719298245,2546,24,3094,2
+oa_author_hannah_rashkin,Hannah Rashkin,https://openalex.org/A5076412680,20,3272,47,515.8577777777778,8.787234042553191,1351,21,2733,1
+oa_author_miguel_c__soriano,Miguel C. Soriano,https://openalex.org/A5034369995,37,8882,180,1836.4888888888893,4.938888888888889,2384,68,8920,2
+oa_author_xuejun_yang,Xuejun Yang,https://openalex.org/A5061870286,37,6571,570,1323.278956657378,4.656140350877193,4046,341,6615,97
+oa_author_qibin_hou,Qibin Hou,https://openalex.org/A5040392623,42,18114,163,4336.012301587305,5.865030674846626,10780,49,18263,2
+oa_author_stefano_marelli,Stefano Marelli,https://openalex.org/A5046924535,28,4349,194,1372.7388888888881,4.757731958762887,1679,48,4275,3
+oa_author_yusufhadi_miarso,Yusufhadi Miarso,https://openalex.org/A5035290278,4,914,6,851.0,1.8333333333333333,842,4,914,3
+oa_author_abhishek_dutta,Abhishek Dutta,https://openalex.org/A5101737651,7,1252,31,607.7357142857144,4.806451612903226,1245,27,1255,3
+oa_author_sze_zheng_yong,Sze Zheng Yong,https://openalex.org/A5011843629,17,4718,158,1288.8166666666666,3.278481012658228,1000,123,4746,3
+oa_author_miinshen_yang,Miin‐Shen Yang,https://openalex.org/A5087177935,50,12371,249,5844.608333333327,2.791164658634538,11370,202,12416,7
+oa_author_r_muthukrishnan,R Muthukrishnan,https://openalex.org/A5101414606,7,1084,25,542.5,1.92,1079,24,1089,5
+oa_author_karin_groothuisoudshoorn,Karin Groothuis‐Oudshoorn,https://openalex.org/A5044375482,37,27977,202,11743.882381926636,6.5594059405940595,21948,53,28111,4
+oa_author_michele_lanza,Michele Lanza,https://openalex.org/A5038257395,60,12037,347,4417.645238095239,3.760806916426513,7558,214,12055,15
+oa_author_in_lee,In Lee,https://openalex.org/A5113674783,45,13705,625,6699.524877899878,4.0384,11948,425,13752,110
+oa_author_jayavardhana_gubbi,Jayavardhana Gubbi,https://openalex.org/A5077902462,24,15290,131,3818.2285714285717,4.900763358778626,12576,37,15338,0
+oa_author_hao_zhang,Hao Zhang,https://openalex.org/A5100397026,73,26374,932,7187.5861918782875,5.4495708154506435,12144,501,26422,54
+oa_author_robin_rombach,Robin Rombach,https://openalex.org/A5022021439,16,15849,41,3142.5334267040153,6.341463414634147,14797,20,16011,1
+oa_author_dan_dixon,Dan Dixon,https://openalex.org/A5077927833,9,11582,14,2823.7666666666664,2.857142857142857,2424,9,11630,5
+oa_author_fuchang_gao,Fuchang Gao,https://openalex.org/A5048701309,17,1798,66,887.1999999999999,2.4545454545454546,1726,56,1802,17
+oa_author_raymond_e__daly,Raymond E. Daly,https://openalex.org/A5011055089,2,3302,5,550.3333333333334,5.0,0,1,3302,1
+oa_author_jun_lan,Jun Lan,https://openalex.org/A5100769154,23,10901,67,865.1750301573214,12.417910447761194,7080,17,10918,0
+oa_author_a__gale,A. Gale,https://openalex.org/A5089865938,10,2449,27,558.2333333333335,3.7037037037037037,2379,19,2457,2
+oa_author_tom_lahmer,Tom Lahmer,https://openalex.org/A5017564859,34,3950,142,935.4476190476192,4.014084507042254,952,80,3960,5
+oa_author_allan_dafoe,Allan Dafoe,https://openalex.org/A5054425888,34,9306,433,1937.291409910814,4.3140877598152425,3346,235,8560,83
+oa_author_yin_cui,Yin Cui,https://openalex.org/A5041864624,28,9521,84,1683.4312978524738,6.309523809523809,4828,28,9562,9
+oa_author_theo_gevers,Theo Gevers,https://openalex.org/A5040169071,50,15586,312,4693.817857142854,3.894230769230769,5133,208,15597,4
+oa_author_zigang_lu,Zigang Lu,https://openalex.org/A5101538517,7,12935,38,12812.140336134453,6.342105263157895,12841,12,12937,1
+oa_author_michael_s__landy,Michael S. Landy,https://openalex.org/A5069621196,52,11391,325,4041.0461038961043,3.3692307692307693,7663,238,11406,17
+oa_author_karline_soetaert,Karline Soetaert,https://openalex.org/A5029352015,73,20122,569,5412.915405711413,6.021089630931459,10466,220,20162,17
+oa_author_jeff_bezanson,Jeff Bezanson,https://openalex.org/A5070411546,7,6505,27,1613.7000000000003,20.666666666666668,6488,22,6532,0
+oa_author_shuzhou_sun,Shuzhou Sun,https://openalex.org/A5077549875,7,676,16,115.87525062656643,7.8125,64,5,685,0
+oa_author_anne_gadermann,Anne Gadermann,https://openalex.org/A5060388268,38,7533,153,1731.2550595455045,7.9411764705882355,3992,62,7567,4
+oa_author_kai_blin,Kai Blin,https://openalex.org/A5018360029,34,20824,85,2264.114623622909,14.305882352941177,11678,28,20910,2
+oa_author_naveed_akhtar,Naveed Akhtar,https://openalex.org/A5069697936,35,7660,306,2445.3304008856617,5.437908496732026,4061,112,7729,10
+oa_author_bradley_christensen,Bradley Christensen,https://openalex.org/A5112353945,11,2911,52,176.52607376283845,8.865384615384615,618,19,2922,1
+oa_author_marcaurelio_ranzato,Marc’Aurelio Ranzato,https://openalex.org/A5111465122,52,26324,114,5772.00357142857,7.298245614035087,9007,50,26341,1
+oa_author_oliver_kosut,Oliver Kosut,https://openalex.org/A5055511546,22,3178,179,984.4824175824178,3.525139664804469,2662,104,3183,7
+oa_author_mu_li,Mu Li,https://openalex.org/A5101708406,11,1213,55,294.06190476190477,3.6545454545454548,949,42,1216,8
+oa_author_jason_kuen,Jason Kuen,https://openalex.org/A5076366439,20,8317,66,915.2620851370854,7.454545454545454,375,14,8348,1
+oa_author_mikaela_koutrouli,Mikaela Koutrouli,https://openalex.org/A5054476841,9,9502,36,784.0468554241124,9.416666666666666,335,19,9701,1
+oa_author_carolyn_vargas,Carolyn Vargas,https://openalex.org/A5070615709,20,2805,72,455.5821060260687,8.305555555555555,126,8,2815,0
+oa_author_frank_mckeen,Frank Mckeen,https://openalex.org/A5015041352,5,1736,6,247.81250000000003,8.166666666666666,1343,3,1738,0
+oa_author_mark_d__wilkinson,Mark D. Wilkinson,https://openalex.org/A5067974158,39,25386,252,1844.5555856477374,10.396825396825397,21142,158,25568,13
+oa_author_adrin_domnguezdaz,Adrián Domínguez‐Díaz,https://openalex.org/A5032586796,6,2726,23,514.8476190476191,4.043478260869565,2008,14,2737,1
+oa_author_junchi_yan,Junchi Yan,https://openalex.org/A5087158377,63,17450,601,3420.2499136828083,6.054908485856905,5643,268,17544,4
+oa_author_maarit_kangas,Maarit Kangas,https://openalex.org/A5047366834,26,22333,90,4326.361563436567,7.666666666666667,20111,13,22344,1
+oa_author_rui_ma,Rui Ma,https://openalex.org/A5100710180,45,11476,369,1101.2824906233368,7.682926829268292,1106,107,11575,11
+oa_author_gerry_tsoukalas,Gerry Tsoukalas,https://openalex.org/A5041943205,15,1720,52,510.3166666666667,3.2884615384615383,710,30,1750,1
+oa_author_yu_xie,Yu Xie,https://openalex.org/A5000102478,28,3780,116,734.3266955266957,5.198275862068965,1071,49,3824,2
+oa_author_michael_bosse,Michael Bosse,https://openalex.org/A5036408715,35,7080,69,1921.0378787878788,5.898550724637682,2838,34,7082,1
+oa_author_wim_vanhaverbeke,Wim Vanhaverbeke,https://openalex.org/A5004361048,51,15395,322,5321.349999999995,3.080745341614907,6026,240,15423,36
+oa_author_jenny_c__aker,Jenny C. Aker,https://openalex.org/A5041741515,28,7346,146,4458.064285714285,2.643835616438356,7252,126,7390,41
+oa_author_kate_m__xu,Kate M. Xu,https://openalex.org/A5072745691,13,1424,35,501.8353174603174,4.714285714285714,823,14,1451,1
+oa_author_devanshi_sanghvi,Devanshi Sanghvi,https://openalex.org/A5027639229,1,549,2,139.25,4.0,1,1,557,0
+oa_author_triinu_kressaar,Triinu Kõressaar,https://openalex.org/A5066289034,11,13270,13,2884.0679971988798,8.461538461538462,3326,5,13322,1
+oa_author_cecelia_hutto,Cecelia Hutto,https://openalex.org/A5045589725,20,9488,51,3322.453845815377,13.058823529411764,6562,23,9532,4
+oa_author_zhikui_chen,Zhikui Chen,https://openalex.org/A5053156190,42,7512,265,1743.7609307359317,5.90188679245283,1427,114,7529,5
+oa_author_frank_keller,Frank Keller,https://openalex.org/A5054936589,48,12259,288,4983.569133419133,3.0729166666666665,7871,192,12275,29
+oa_author_lifeng_wu,Lifeng Wu,https://openalex.org/A5072183122,48,9233,305,1564.670378354203,6.075409836065574,1697,109,9302,24
+oa_author_julien_deseigne,Julien Deseigne,https://openalex.org/A5063595657,5,869,14,247.46428571428572,3.857142857142857,716,10,873,1
+oa_author_pedregosafabian,PedregosaFabian,https://openalex.org/A5001344255,1,8146,1,511.25,16.0,8180,1,8180,0
+oa_author_jeffrey_j__risher,Jeffrey J. Risher,https://openalex.org/A5064459167,6,23482,10,5979.833333333334,3.1,432,8,23872,1
+oa_author_hang_bai,Hang Bai,https://openalex.org/A5083468753,4,1694,5,286.09523809523813,6.4,3,1,1718,0
+oa_author_aki_vehtari,Aki Vehtari,https://openalex.org/A5047269552,51,21546,384,6107.482338126044,5.552083333333333,14675,196,21637,3
+oa_author_kurt_konolige,Kurt Konolige,https://openalex.org/A5020223882,59,27392,173,9085.262501061032,3.2716763005780347,9317,128,27424,53
+oa_author_vicente_e__oropeza,Vicente E. Oropeza,https://openalex.org/A5082419735,4,851,6,440.1666666666667,3.1666666666666665,851,4,853,1
+oa_author_brett_kuprel,Brett Kuprel,https://openalex.org/A5050104860,4,13912,6,2009.1095238095238,12.333333333333334,0,0,14009,0
+oa_author_mustafa_suleyman,Mustafa Suleyman,https://openalex.org/A5001712647,19,17156,48,1571.4709304876835,11.1875,57,23,17273,1
+oa_author_ulrich_schlickewei,Ulrich Schlickewei,https://openalex.org/A5055778805,6,879,14,305.5,2.142857142857143,29,9,880,6
+oa_author_bo_han,Bo Han,https://openalex.org/A5047240103,34,6846,335,1394.7568321427445,5.767164179104477,3963,127,6856,18
+oa_author_ben_calderhead,Ben Calderhead,https://openalex.org/A5050889229,16,16014,46,5674.855555555556,4.760869565217392,15652,28,16015,3
+oa_author_raymond_f__kokaly,Raymond F. Kokaly,https://openalex.org/A5059111916,38,7935,210,2323.38745515749,9.861904761904762,3775,72,7974,11
+oa_author_fatma_z__guerfali,Fatma Z. Guerfali,https://openalex.org/A5004987555,13,12907,51,2684.220539455099,16.666666666666668,107,9,12916,1
+oa_author_francesc_x__prenafetabold,Francesc X. Prenafeta‐Boldú,https://openalex.org/A5068243518,31,10343,125,3914.695238095238,6.192,8645,59,10449,2
+oa_author_himanshu_jain,Himanshu Jain,https://openalex.org/A5105352990,18,10205,63,4794.924937343359,4.73015873015873,9613,36,10265,5
+oa_author_doddy_prayogo,Doddy Prayogo,https://openalex.org/A5016889674,22,3394,93,1354.7166666666662,3.4838709677419355,2668,56,3410,3
+oa_author_andreas_untergasser,Andreas Untergasser,https://openalex.org/A5045519999,20,17848,48,2147.3415983227874,13.0,12956,18,17935,1
+oa_author_yoon_kim,Yoon Kim,https://openalex.org/A5100693798,38,22283,351,16766.25787904906,5.780626780626781,19641,151,22349,9
+oa_author_christopher_kelly,Christopher Kelly,https://openalex.org/A5026540467,46,17203,323,2253.4558130485016,7.452012383900929,4596,203,17490,108
+oa_author_dong_sheng_ding,Dong-Sheng Ding,https://openalex.org/A5008672638,33,4417,220,804.0412309912308,6.868181818181818,1883,92,4450,8
+oa_author_marcela_tavares_de_souza,Marcela Tavares de Souza,https://openalex.org/A5014475362,2,3888,11,1302.6583333333335,4.7272727272727275,3907,6,3910,0
+oa_author_wenqi_ren,Wenqi Ren,https://openalex.org/A5057999649,59,16783,263,2778.07737137754,7.011406844106464,5008,76,16901,1
+oa_author_panqu_wang,Panqu Wang,https://openalex.org/A5065994253,6,2067,18,310.0952380952381,3.5555555555555554,2071,16,2071,0
+oa_author_nicholas_pestell,Nicholas Pestell,https://openalex.org/A5073109995,8,852,16,177.79761904761904,4.0,114,8,859,1
+oa_author_qiong_cao,Qiong Cao,https://openalex.org/A5101467863,20,9330,80,1348.4096320346316,9.9,3629,33,9367,1
+oa_author_sunghwan_kim,Sunghwan Kim,https://openalex.org/A5100430147,37,26255,264,2656.6111052100373,5.090909090909091,19020,151,26482,20
+oa_author_jonah_gabry,Jonah Gabry,https://openalex.org/A5001332022,20,9725,43,3003.2452380952386,7.465116279069767,7926,17,9781,2
+oa_author_rachel_harrison,Rachel Harrison,https://openalex.org/A5039467248,29,3999,231,1196.9781746031745,5.12987012987013,2761,161,3551,70
+oa_author_mats_h__m__olsson,Mats H. M. Olsson,https://openalex.org/A5026512075,33,11520,52,2993.0214285714296,3.9423076923076925,7663,26,11566,3
+oa_author_openai_marcin_andrychowicz,OpenAI Marcin Andrychowicz,https://openalex.org/A5086668201,1,1579,1,99.0625,16.0,1585,1,1585,0
+oa_author_yongbin_sun,Yongbin Sun,https://openalex.org/A5018812000,19,7899,82,1396.00873015873,5.597560975609756,519,37,7944,4
+oa_author_pengfei_zhu,Pengfei Zhu,https://openalex.org/A5006952581,60,21835,332,3803.592988051522,8.493975903614459,5621,121,22025,6
+oa_author_andreas_blattmann,Andreas Blattmann,https://openalex.org/A5056884402,13,15350,23,3101.5195378151266,5.956521739130435,698,8,15509,1
+oa_author_adrienne_porter_felt,Adrienne Porter Felt,https://openalex.org/A5058910481,27,7169,42,1682.9083333333333,4.0476190476190474,4910,25,7175,5
+oa_author_weiwei_jiang,Weiwei Jiang,https://openalex.org/A5100756528,35,5660,212,2848.7282828282828,4.9245283018867925,4131,105,5749,24
+oa_author_mahmoud_kamel,Mahmoud Kamel,https://openalex.org/A5038213672,16,1801,48,580.7214285714288,3.5416666666666665,1464,24,1802,0
+oa_author_paulo_guimares,Paulo Guimarães,https://openalex.org/A5085928529,30,5957,120,2351.4409090909076,4.666666666666667,3738,70,5978,17
+oa_author_susan_mckenney,Susan McKenney,https://openalex.org/A5077994728,37,8082,324,3490.0214285714296,3.049382716049383,6429,221,8113,45
+oa_author_h__wina_sanjaya,H. Wina Sanjaya,https://openalex.org/A5013208865,4,8492,8,8490.666666666666,1.5,8492,7,8492,6
+oa_author_yiyi_liao,Yiyi Liao,https://openalex.org/A5018811297,23,2899,111,689.0176587301589,6.225225225225225,1655,54,2910,1
+oa_author_tanmay_nath,Tanmay Nath,https://openalex.org/A5013912100,13,2900,35,407.07651237651226,8.628571428571428,1732,11,2921,0
+oa_author_pengfei_chen,Pengfei Chen,https://openalex.org/A5100335065,13,2558,43,378.2798701298701,5.6976744186046515,144,16,2568,3
+oa_author_miron_b__kursa,Miron B. Kursa,https://openalex.org/A5082930667,17,7321,72,3607.350426427682,8.791666666666666,7085,49,7370,21
+oa_author_maryam_m__najafabadi,Maryam M. Najafabadi,https://openalex.org/A5004387914,12,2909,19,513.8500000000001,3.6842105263157894,2879,16,2917,3
+oa_author_zhengyou_zhang,Zhengyou Zhang,https://openalex.org/A5058849717,67,28934,431,16036.129612462708,4.034802784222737,21608,330,28991,103
+oa_author_haoqi_fan,Haoqi Fan,https://openalex.org/A5022792966,29,23440,75,4875.445665445666,7.973333333333334,179,21,23549,0
+oa_author_dominik_lorenz,Dominik Lorenz,https://openalex.org/A5110604175,5,13508,6,2728.958823529412,6.333333333333333,20,2,13657,0
+oa_author_justin_werfel,Justin Werfel,https://openalex.org/A5077337147,27,2928,92,952.4115800865798,4.054347826086956,1891,62,2936,12
+oa_author_hsin_hung_wu,Hsin-Hung Wu,https://openalex.org/A5025259324,2,6979,2,1170.1666666666667,6.0,0,0,7021,0
+oa_author_andra_zanella,Andréa Zanella,https://openalex.org/A5008187510,42,14771,400,3523.902597402596,4.6675,9498,191,14826,22
+oa_author_stefanie_warnatherresthal,Stefanie Warnat‐Herresthal,https://openalex.org/A5000907775,11,1437,24,67.75049704649786,24.625,966,6,1448,0
+oa_author_pankaj_berde,Pankaj Berde,https://openalex.org/A5029959343,1,1093,1,99.9090909090909,11.0,1099,1,1099,0
+oa_author_johan_berg,Johan Åberg,https://openalex.org/A5014646459,23,2637,82,1631.8115384615382,3.1463414634146343,1782,54,2641,15
+oa_author_wei_huang,Wei Huang,https://openalex.org/A5101640379,11,1079,24,203.91666666666669,4.0,222,15,1091,2
+oa_author_zhirong_wu,Zhirong Wu,https://openalex.org/A5059765313,23,11825,106,2144.2672799422808,5.254716981132075,8827,36,11091,12
+oa_author_yuki_hagiwara,Yuki Hagiwara,https://openalex.org/A5089613770,36,11188,91,1820.8133116883123,7.032967032967033,912,23,11240,1
+oa_author_milan_malinsky,Milan Malinsky,https://openalex.org/A5063702666,19,7753,53,769.6576587301589,15.415094339622641,2696,15,7819,0
+oa_author_skipper_seabold,Skipper Seabold,https://openalex.org/A5079750269,6,6458,10,3247.3333333333335,2.8,6516,10,6516,0
+oa_author_ryan_kiros,Ryan Kiros,https://openalex.org/A5055166817,19,16384,28,2731.3624999999997,7.571428571428571,2785,11,16388,3
+oa_author_onur_altintas,Onur Altintas,https://openalex.org/A5053978714,24,3765,218,722.9592048409845,7.371559633027523,1000,99,3772,1
+oa_author_ariel_ekblaw,Ariel Ekblaw,https://openalex.org/A5075991638,8,2566,46,674.5850885225885,5.239130434782608,108,23,2592,6
+oa_author_pavlo_o__dral,Pavlo O. Dral,https://openalex.org/A5063240098,31,6840,246,2145.932158560395,6.0772357723577235,2769,128,6884,7
+oa_author_andrea_montanari,Andrea Montanari,https://openalex.org/A5011999109,66,23091,457,8375.733669108671,2.9693654266958425,15448,333,23103,50
+oa_author_john_bauer,John Bauer,https://openalex.org/A5023322733,13,8975,39,1595.6138616938617,15.128205128205128,18,5,8986,0
+oa_author_azizah_abdul_manaf,Azizah Abdul Manaf,https://openalex.org/A5018992272,23,2641,123,610.7583762333766,4.2926829268292686,656,42,2651,2
+oa_author_alejandro_barredo_arrieta,Alejandro Barredo Arrieta,https://openalex.org/A5050115521,3,8664,5,737.6,7.8,8826,5,8826,0
+oa_author_huijuan_xu,Huijuan Xu,https://openalex.org/A5101404512,22,4014,65,1203.7666666666664,4.584615384615384,2748,35,4023,1
+oa_author_rob_tibshirani,Rob Tibshirani,https://openalex.org/A5112611285,29,21712,60,5889.92610487552,14.15,16872,16,21129,0
+oa_author_marcos_dias_de_assuno,Marcos Dias de Assunção,https://openalex.org/A5077575422,24,3834,111,930.048650793651,4.585585585585585,2137,46,3840,3
+oa_author_s__subashini,S. Subashini,https://openalex.org/A5014931111,9,2803,31,1395.216666666667,3.225806451612903,2783,25,2807,2
+oa_author_matthias_feurer,Matthias Feurer,https://openalex.org/A5054262288,18,4022,59,1138.007034743722,6.322033898305085,3441,25,4020,7
+oa_author_ahna_r__girshick,Ahna R. Girshick,https://openalex.org/A5027178725,18,5246,38,912.9993812214151,13.157894736842104,932,17,3759,1
+oa_author_kai_zhang,Kai Zhang,https://openalex.org/A5100323983,49,27006,276,5235.546860183553,10.21376811594203,14759,102,27132,13
+oa_author_guanghui_lan,Guanghui Lan,https://openalex.org/A5042544900,37,9007,187,3943.1007326007316,2.9518716577540105,5344,133,9028,23
+oa_author_ziming_feng,Zi‐Ming Feng,https://openalex.org/A5006763665,31,4321,217,935.6081244778615,5.709677419354839,787,53,4342,2
+oa_author_ulrich_gnewuch,Ulrich Gnewuch,https://openalex.org/A5085054242,14,1546,61,419.33333333333326,36.721311475409834,655,21,1562,0
+oa_author_chao_ma,Chao Ma,https://openalex.org/A5100704678,42,12540,191,2599.306437495253,6.178010471204188,4721,69,12574,11
+oa_author_weidi_xie,Weidi Xie,https://openalex.org/A5076097168,43,10381,216,2448.5428432678423,5.111111111111111,2790,87,10422,2
+oa_author_zhangmeng_liu,Zhangmeng Liu,https://openalex.org/A5046860299,26,2942,87,1143.717063492064,3.8735632183908044,2142,47,2965,8
+oa_author_jun_wang,Jun Wang,https://openalex.org/A5100384884,56,12676,235,2020.4412337662327,7.038297872340426,4985,90,12575,9
+oa_author_hongming_zhou,Hongming Zhou,https://openalex.org/A5007257279,12,8289,31,1847.4305555555557,5.870967741935484,1147,16,8299,2
+oa_author_effy_vayena,Effy Vayena,https://openalex.org/A5069093620,54,19019,236,5031.328247939232,7.8559322033898304,15443,157,19343,11
+oa_author_a__heris_hermawan,A. Heris Hermawan,https://openalex.org/A5114065322,8,738,34,614.1666666666667,3.0,660,23,738,3
+oa_author_henil_patel,Henil Patel,https://openalex.org/A5035066680,2,550,5,139.5,5.2,0,1,558,0
+oa_author_quanfu_fan,Quanfu Fan,https://openalex.org/A5114069812,27,5828,85,1535.816833751045,5.964705882352941,840,28,5844,0
+oa_author_lihua_zhang,Lihua Zhang,https://openalex.org/A5100414892,9,9498,25,1557.0291666666667,4.84,1143,17,9618,2
+oa_author_zhun_zhong,Zhun Zhong,https://openalex.org/A5065328976,35,10862,144,2231.416666666667,6.368055555555555,8310,52,10893,0
+oa_author_johannes_l__schnberger,Johannes L. Schönberger,https://openalex.org/A5071944294,27,17788,77,4866.052845021324,8.467532467532468,8732,18,17877,1
+oa_author_julin_luengo,Julián Luengo,https://openalex.org/A5015587020,34,12607,149,2920.651007326009,4.3355704697986575,1277,47,12636,0
+oa_author_onur_teymur,Onur Teymur,https://openalex.org/A5076156836,5,13542,15,4509.002380952382,3.7333333333333334,13520,11,13542,1
+oa_author_stefano_buzzi,Stefano Buzzi,https://openalex.org/A5013919815,37,16719,330,3199.251288998357,3.93030303030303,7094,247,16749,2
+oa_author_leland_mcinnes,Leland McInnes,https://openalex.org/A5072564294,10,25448,22,6599.95119047619,8.681818181818182,19763,12,25639,1
+oa_author_guosheng_lin,Guosheng Lin,https://openalex.org/A5029912845,49,16118,365,3764.7100838050783,5.589041095890411,7445,129,16148,1
+oa_author_mat_cook,Mat Cook,https://openalex.org/A5041117832,5,6646,6,808.5795454545454,8.666666666666666,0,1,6650,0
+oa_author_christian_ledig,Christian Ledig,https://openalex.org/A5016912926,32,24786,102,2267.7937727977956,9.205882352941176,13785,33,22266,1
+oa_author_maite_taboada,Maite Taboada,https://openalex.org/A5019022830,35,7713,127,3191.5642857142857,3.5039370078740157,7363,108,7728,30
+oa_author_weinan_zhang,Weinan Zhang,https://openalex.org/A5090720315,63,18581,594,3528.459995735361,7.388888888888889,2797,141,18661,3
+oa_author_jun_li,Jun Li,https://openalex.org/A5100361754,43,7023,319,1101.9885800646055,7.8119122257053295,1753,116,7035,35
+oa_author_kristina_p__sinaga,Kristina P. Sinaga,https://openalex.org/A5047468080,6,2295,22,1145.1333333333332,2.3181818181818183,2269,20,2316,8
+oa_author_j__andrs_christen,J. Andrés Christen,https://openalex.org/A5053604005,26,9323,119,4119.900541125541,4.369747899159663,7615,65,9365,5
+oa_author_mohamed_nidhal_mejri,Mohamed Nidhal Mejri,https://openalex.org/A5107887560,7,750,9,276.66666666666663,2.111111111111111,750,9,750,2
+oa_author_roberto_a__novoa,Roberto A. Novoa,https://openalex.org/A5103091613,21,15309,139,2239.234489330722,10.201438848920864,361,33,15419,1
+oa_author_xuxian_jiang,Xuxian Jiang,https://openalex.org/A5109035300,48,13325,134,4135.0273809523815,4.014925373134329,8509,101,13330,1
+oa_author_augusto_smerzi,Augusto Smerzi,https://openalex.org/A5034289893,55,15300,242,4124.228150297978,4.8264462809917354,8099,129,15326,7
+oa_author_andreas_s__tolias,Andreas S. Tolias,https://openalex.org/A5054637446,61,19024,256,2741.2181646265626,15.31640625,10463,110,19022,1
+oa_author_klaus_greff,Klaus Greff,https://openalex.org/A5082808731,25,11248,59,2500.5488087566023,9.898305084745763,7737,21,11287,0
+oa_author_alexander_hermans,Alexander Hermans,https://openalex.org/A5071563379,17,5741,64,1633.8112211318091,7.296875,3167,2,5755,0
+oa_author_diogo_santosmartins,Diogo Santos‐Martins,https://openalex.org/A5072196443,23,8892,63,2010.5467402345557,8.492063492063492,852,17,9017,1
+oa_author_b__paden,B. Paden,https://openalex.org/A5077085643,27,6938,80,2376.642857142857,3.75,6394,54,6952,2
+oa_author_robert_j__thomas,Robert J. Thomas,https://openalex.org/A5037597118,58,13602,488,4971.696502467063,3.6885245901639343,7925,354,13519,88
+oa_author_daniel_j__arp,Daniel J. Arp,https://openalex.org/A5029169901,61,15864,238,4147.755758130762,4.449579831932773,10129,153,15899,14
+oa_author_ethan_rublee,Ethan Rublee,https://openalex.org/A5031632823,2,10342,3,2589.45,4.666666666666667,10337,1,10363,0
+oa_author_benjamin_ward_cherrier,Benjamin Ward-Cherrier,https://openalex.org/A5008451819,11,990,37,239.8261904761905,4.783783783783784,885,25,998,0
+oa_author_sebastian_raisch,Sebastian Raisch,https://openalex.org/A5006145895,27,12124,137,4783.621428571428,2.8248175182481754,9225,103,12249,17
+oa_author_pascal_vincent,Pascal Vincent,https://openalex.org/A5103958886,45,26467,121,6797.454011608359,5.429752066115703,19913,64,26499,2
+oa_author_sergey_bravyi,Sergey Bravyi,https://openalex.org/A5021754799,49,13286,141,5623.056043956042,3.5460992907801416,11243,110,13350,22
+oa_author_sasan_karamizadeh,Sasan Karamizadeh,https://openalex.org/A5075461674,13,1079,38,247.63333333333335,3.6578947368421053,982,27,1084,0
+oa_author_oliver_groth,Oliver Groth,https://openalex.org/A5056401069,9,6457,33,706.2671978021976,13.363636363636363,94,10,6469,2
+oa_author_niloy_j__mitra,Niloy J. Mitra,https://openalex.org/A5058170430,69,21112,408,5080.209126984126,4.504901960784314,8606,223,21135,11
+oa_author_luis_demarcos,Luis de‐Marcos,https://openalex.org/A5074070812,20,4297,160,909.9188608776847,5.03125,1697,77,4312,1
+oa_author_boris_babenko,Boris Babenko,https://openalex.org/A5051339229,19,6513,33,1906.7514016169591,10.181818181818182,4331,17,6524,1
+oa_author_walaa_hamouda,Walaa Hamouda,https://openalex.org/A5005243649,31,6095,324,2278.5833333333367,2.814814814814815,3485,205,6107,2
+oa_author_nathan_griffiths,Nathan Griffiths,https://openalex.org/A5007349631,24,3187,177,1202.2780952380954,4.016949152542373,1665,92,2882,11
+oa_author_stella_x__yu,Stella X. Yu,https://openalex.org/A5042014034,42,10366,285,2826.3947330447345,4.508771929824562,4343,150,10392,7
+oa_author_dalia_yousri,Dalia Yousri,https://openalex.org/A5061573149,46,8157,124,1791.9043040293052,5.483870967741935,3099,64,8196,3
+oa_author_david_cox,David Cox,https://openalex.org/A5100763986,50,19400,273,6327.226989580624,6.34065934065934,14717,179,19422,37
+oa_author_deyou_sun,Deyou Sun,https://openalex.org/A5055082070,30,8118,94,1501.9069819069816,6.170212765957447,2516,14,8145,0
+oa_author_ueli_meier,Ueli Meier,https://openalex.org/A5034624351,21,12399,41,3356.6333333333337,3.5609756097560976,826,15,12413,5
+oa_author_pedro_martins,Pedro Martins,https://openalex.org/A5101805191,16,8696,81,2190.772619047619,4.222222222222222,230,37,8715,2
+oa_author_xiaobai_li,Xiaobai Li,https://openalex.org/A5101691493,42,8500,145,1675.7095238095233,5.317241379310345,2599,52,8549,5
+oa_author_xiaohan_ding,Xiaohan Ding,https://openalex.org/A5011301418,16,4814,45,957.2277777777778,6.022222222222222,4736,20,4858,0
+oa_author_alexander_gluhak,Alexander Gluhak,https://openalex.org/A5112625241,19,3134,59,730.4678571428572,4.0508474576271185,602,10,3137,1
+oa_author_manuel_lpezibez,Manuel López‐Ibáñez,https://openalex.org/A5014676600,37,6437,216,1902.6962542856393,3.7175925925925926,4286,99,6445,8
+oa_author_sofyan_syafitri_harahap,Sofyan Syafitri Harahap,https://openalex.org/A5048963971,1,2100,1,2100.0,1.0,2100,1,2100,1
+oa_author_rilla_khaled,Rilla Khaled,https://openalex.org/A5059015821,23,10409,72,2741.1871794871786,3.888888888888889,938,46,10454,9
+oa_author_sabrina_sicari,Sabrina Sicari,https://openalex.org/A5001461899,25,7654,100,1956.3630952380952,3.74,3598,68,7684,0
+oa_author_raghunathan_ramakrishnan,Raghunathan Ramakrishnan,https://openalex.org/A5049337824,17,4820,99,1207.2087301587292,3.272727272727273,3292,79,4836,11
+oa_author_douard_grave,Édouard Grave,https://openalex.org/A5069316249,41,22375,107,4327.858390254767,6.88785046728972,1965,36,22435,3
+oa_author_simon_j__shaw,Simon J. Shaw,https://openalex.org/A5051718223,23,10238,88,1293.7265651653588,7.0,390,53,10323,7
+oa_author_piotr_bojanowski,Piotr Bojanowski,https://openalex.org/A5035420035,37,27687,98,5552.316071428571,7.051020408163265,12674,29,27796,3
+oa_author_jianjun_sun,Jianjun Sun,https://openalex.org/A5111054488,12,923,40,283.61666666666656,4.75,836,26,930,1
+oa_author_a__sherstinsky,A. Sherstinsky,https://openalex.org/A5045387148,6,5482,11,5437.833333333333,2.0,5530,10,5531,1
+oa_author_jianbo_du,Jianbo Du,https://openalex.org/A5030092282,27,3845,153,740.4940836940833,6.300653594771242,2198,62,3866,4
+oa_author_james_e__mungall,James E. Mungall,https://openalex.org/A5076771505,42,5812,126,2927.4484126984116,3.5634920634920637,4184,71,5829,15
+oa_author_steffen_rendle,Steffen Rendle,https://openalex.org/A5080877905,28,16409,85,8373.923809523809,3.6588235294117646,15217,54,16443,22
+oa_author_maxim_b__freidin,Maxim B. Freidin,https://openalex.org/A5108140555,40,7468,298,614.2735963057536,11.875838926174497,871,69,7485,4
+oa_author_soroush_vosoughi,Soroush Vosoughi,https://openalex.org/A5035399743,23,10176,214,3388.397655122656,4.953271028037383,9599,148,10280,4
+oa_author_lucy_m__matthews,Lucy M. Matthews,https://openalex.org/A5065314343,15,7906,56,2266.916666666667,3.3035714285714284,827,31,7985,4
+oa_author_natalia_daz_rodrguez,Natalia Díaz-Rodríguez,https://openalex.org/A5058176171,29,13759,115,1599.353174530783,6.6521739130434785,2489,60,13986,2
+oa_author_emily_m__bender,Emily M. Bender,https://openalex.org/A5023750515,29,10593,157,4390.904215784217,4.687898089171974,9906,130,10756,36
+oa_author_banggu_wu,Banggu Wu,https://openalex.org/A5001790470,3,8243,4,1388.0238095238094,6.5,0,0,8332,0
+oa_author_maurice_b__loughrey,Maurice B. Loughrey,https://openalex.org/A5070895143,40,14351,278,1288.0556100642743,13.651079136690647,1188,83,13866,8
+oa_author_takeru_miyato,Takeru Miyato,https://openalex.org/A5090469776,17,9269,38,2543.2166666666667,4.105263157894737,8839,22,9278,0
+oa_author_jianli_pan,Jianli Pan,https://openalex.org/A5101469265,20,2899,65,977.8091269841271,4.538461538461538,2245,44,2906,2
+oa_author_luke_cramphorn,Luke Cramphorn,https://openalex.org/A5003649166,8,873,20,184.7976190476191,3.45,204,11,880,2
+oa_author_xiaowei_yang,Xiaowei Yang,https://openalex.org/A5077188576,32,5498,103,1655.143650793651,3.941747572815534,2046,57,5499,4
+oa_author_florian_eyben,Florian Eyben,https://openalex.org/A5023264395,50,15433,198,3270.718847035892,5.929292929292929,7502,54,15480,9
+oa_author_cindy_k__chung,Cindy K. Chung,https://openalex.org/A5107430040,21,5416,45,2288.3341269841267,3.533333333333333,4034,24,5426,1
+oa_author_bruno_a__a__nunes,Bruno A. A. Nunes,https://openalex.org/A5053730566,11,2712,31,557.6080478345186,6.032258064516129,2490,18,2719,1
+oa_author_jonathan_w__peirce,Jonathan W. Peirce,https://openalex.org/A5043072264,24,14383,86,8125.708333333334,3.197674418604651,13888,71,14439,14
+oa_author_aleksandra_checko,Aleksandra Checko,https://openalex.org/A5019202382,10,2227,16,442.1695526695526,5.625,1745,10,2228,1
+oa_author_mirella_lapata,Mirella Lapata,https://openalex.org/A5041024491,81,27966,434,12517.301111111112,3.771889400921659,25709,352,27999,8
+oa_author_an_chi_chen,An Chi Chen,https://openalex.org/A5082723800,3,1677,3,281.8333333333333,5.333333333333333,6,1,1688,0
+oa_author_mattan_s__benshachar,Mattan S. Ben‐Shachar,https://openalex.org/A5018923424,20,12641,54,3072.4867965367966,5.7592592592592595,2982,15,12803,1
+oa_author_weisong_shi,Weisong Shi,https://openalex.org/A5100651611,56,21950,592,5462.651656676651,4.41554054054054,17065,397,22069,9
+oa_author_oussema_souiai,Oussema Souiai,https://openalex.org/A5112889316,11,11279,31,2221.31961232029,20.741935483870968,10972,8,11284,2
+oa_author_r__urtasun,R. Urtasun,https://openalex.org/A5043370575,3,14269,3,4770.75,3.3333333333333335,14304,1,14313,0
+oa_author_jieqi_peng,Jieqi Peng,https://openalex.org/A5004628099,14,6910,60,949.6566532405519,18.083333333333332,37,4,7025,0
+oa_author_travis_t__wager,Travis T. Wager,https://openalex.org/A5065920896,35,5866,68,947.2362473906795,9.485294117647058,3123,29,5890,1
+oa_author_peng_cheng,Peng Cheng,https://openalex.org/A5051951845,58,11393,359,2384.8816017316003,6.222841225626741,1706,116,11423,20
+oa_author_koen_e__a__van_de_sande,Koen E. A. van de Sande,https://openalex.org/A5033229262,17,9562,28,2551.421212121213,5.678571428571429,3109,13,9566,1
+oa_author_douglas_w__arner,Douglas W. Arner,https://openalex.org/A5112201045,30,6253,289,2032.0845454545456,3.930795847750865,4221,194,6310,31
+oa_author_jutho_haegeman,Jutho Haegeman,https://openalex.org/A5023227620,41,5865,136,1286.3738095238107,5.448529411764706,3387,43,5924,1
+oa_author_jingkang_yang,Jingkang Yang,https://openalex.org/A5075948339,16,5463,75,1336.2335039960035,7.093333333333334,1129,33,5533,2
+oa_author_philip_koopman,Philip Koopman,https://openalex.org/A5036158209,33,5152,204,2646.3612359862364,2.4166666666666665,4573,181,5164,57
+oa_author_jos_a__fernndez,José A. Fernández,https://openalex.org/A5066031945,11,9630,15,762.1638611388611,9.066666666666666,119,5,9718,0
+oa_author_vidit_jain,Vidit Jain,https://openalex.org/A5028305029,10,1731,26,766.8368421052633,4.230769230769231,1362,17,1731,2
+oa_author_pontus_stenetorp,Pontus Stenetorp,https://openalex.org/A5049427071,27,6713,156,1584.7877671959795,8.282051282051283,1724,46,6733,1
+oa_author_irene_vikman,Irene Vikman,https://openalex.org/A5043520931,15,19751,42,3943.0,4.619047619047619,80,9,19754,1
+oa_author_mark_l__psiaki,Mark L. Psiaki,https://openalex.org/A5036783713,35,5292,223,2930.675630252101,2.7623318385650224,4364,177,5297,64
+oa_author_martn_arjovsky,Martín Arjovsky,https://openalex.org/A5067170444,13,9445,23,2848.7632034632034,4.521739130434782,7000,10,9447,4
+oa_author_gido_m__van_de_ven,Gido M. van de Ven,https://openalex.org/A5049810748,12,3006,38,895.6640946843853,9.657894736842104,2192,17,3022,2
+oa_author_corrado_cuccurullo,Corrado Cuccurullo,https://openalex.org/A5049136342,15,15018,50,7373.249999999998,4.74,14558,28,15239,1
+oa_author_xiaokang_yang,Xiaokang Yang,https://openalex.org/A5107908246,12,3866,27,935.2649350649351,5.62962962962963,215,14,3869,0
+oa_author_jun_xie,Jun Xie,https://openalex.org/A5101791703,24,2980,98,732.5292485292488,5.357142857142857,1084,34,2988,1
+oa_author_norimichi_ukita,Norimichi Ukita,https://openalex.org/A5053167635,26,4810,224,1356.973061052026,7.276785714285714,3469,131,4824,13
+oa_author_agusti_fonts,Agusti Fonts,https://openalex.org/A5024348550,2,1165,3,391.3333333333333,3.0,3,2,1174,0
+oa_author_adam_w__meade,Adam W. Meade,https://openalex.org/A5063540052,35,10618,118,4694.054761904761,3.1779661016949152,8483,68,10693,9
+oa_author_rameswar_panda,Rameswar Panda,https://openalex.org/A5049734237,28,4532,173,1184.2168334687892,7.641618497109826,2546,54,4551,1
+oa_author_radhakrishna_achanta,Radhakrishna Achanta,https://openalex.org/A5083791711,23,16854,67,3743.3380952380953,4.014925373134329,15687,26,16888,1
+oa_author_manuel_endres,Manuel Endres,https://openalex.org/A5083319852,32,12030,132,1370.6643556735655,7.121212121212121,2730,71,12084,14
+oa_author_ryan_matthews,Ryan Matthews,https://openalex.org/A5078639822,9,6043,39,1529.2916666666665,3.5384615384615383,285,25,6108,1
+oa_author_minglu_zhu,Minglu Zhu,https://openalex.org/A5043931578,30,6996,85,1040.8726592851592,8.117647058823529,2149,19,7032,0
+oa_author_fumiya_yokomori,Fumiya Yokomori,https://openalex.org/A5034380772,1,1127,4,375.8666666666666,3.5,1,2,1128,0
+oa_author_michael_henderson,Michael Henderson,https://openalex.org/A5052531201,47,9559,334,2509.3159619319463,4.913173652694611,5297,192,9604,46
+oa_author_tim_oates,Tim Oates,https://openalex.org/A5114778025,35,7427,316,2760.2357142857163,3.7563291139240507,5499,197,7440,20
+oa_author_giuseppe_jurman,Giuseppe Jurman,https://openalex.org/A5090829168,39,20999,237,6344.949527802141,8.569620253164556,14437,81,18806,7
+oa_author_xun_huang,Xun Huang,https://openalex.org/A5021345568,39,15681,376,5108.2274464424445,5.25531914893617,11147,244,15796,28
+oa_author_lam_tung_nguyen,Lam-Tung Nguyen,https://openalex.org/A5110523329,2,27140,3,6805.25,7.333333333333333,27190,2,27305,0
+oa_author_satish_chandel,Satish Chandel,https://openalex.org/A5027396968,2,3518,13,888.5166666666667,4.538461538461538,10,9,3558,1
+oa_author_e__emary,E. Emary,https://openalex.org/A5041750849,29,4712,74,1419.4833333333338,3.5,3226,35,4605,2
+oa_author_nasrin_sultana,Nasrin Sultana,https://openalex.org/A5050852426,10,711,33,180.9190476190476,4.757575757575758,539,14,717,0
+oa_author_pingping_zhang,Pingping Zhang,https://openalex.org/A5100451855,37,6822,166,1388.6857503607507,4.885542168674699,2399,55,6853,9
+oa_author_pranav_rajpurkar,Pranav Rajpurkar,https://openalex.org/A5001094226,49,29890,199,5632.880321430245,8.974874371859297,21378,119,30135,1
+oa_author_frank_bossen,Frank Bossen,https://openalex.org/A5037174849,16,3842,34,2165.255555555556,3.8823529411764706,2863,19,3843,4
+oa_author_mark_b__swindells,Mark B. Swindells,https://openalex.org/A5111458722,30,10128,76,4260.753571428571,5.421052631578948,7988,43,10181,18
+oa_author_katharina_eggensperger,Katharina Eggensperger,https://openalex.org/A5081813991,15,5741,46,786.6888888888884,6.260869565217392,213,16,5782,0
+oa_author_ijsbrand_jan_aalbersberg,IJsbrand Jan Aalbersberg,https://openalex.org/A5028351438,16,18425,40,714.0461464483982,11.875,748,24,18588,4
+oa_author_alan_edelman,Alan Edelman,https://openalex.org/A5029673947,45,18186,250,6843.32743922744,4.06,9500,162,18229,24
+oa_author_yongs_zeng,Yongs Zeng,https://openalex.org/A5110654429,1,1506,1,504.0,3.0,1512,1,1512,0
+oa_author_tyler_day,Tyler Day,https://openalex.org/A5022073517,27,13894,52,2663.358658008658,10.48076923076923,645,10,13903,2
+oa_author_seyed_mohsen_moosavi_dezfooli,Seyed-Mohsen Moosavi-Dezfooli,https://openalex.org/A5053991440,22,9857,59,2963.7285714285704,3.9152542372881354,8425,19,9881,0
+oa_author_andreas_kamilaris,Andreas Kamilaris,https://openalex.org/A5007428307,26,9095,136,3876.022011144885,4.073529411764706,8615,103,9199,9
+oa_author_patrick_r__verhoest,Patrick R. Verhoest,https://openalex.org/A5090904031,33,7362,108,901.6613321605325,14.601851851851851,981,28,7398,0
+oa_author_david_duce,David Duce,https://openalex.org/A5003165248,20,2527,194,705.7280773574253,3.7938144329896906,1435,111,2527,35
+oa_author_yajin_zhou,Yajin Zhou,https://openalex.org/A5088790914,30,7633,190,2299.574927849928,6.205263157894737,3940,51,7642,1
+oa_author_wenhui_wu,Wenhui Wu,https://openalex.org/A5081114494,17,1584,67,307.05357142857144,5.074626865671642,1167,23,1591,1
+oa_author_philip_a__cook,Philip A. Cook,https://openalex.org/A5015338409,43,22899,170,2917.6709644018183,11.788235294117648,369,14,23063,1
+oa_author_simon_knight,Simon Knight,https://openalex.org/A5090694114,28,5247,147,1218.73088023088,4.27891156462585,3390,91,5287,22
+oa_author_tobias_melchior,Tobias Melchior,https://openalex.org/A5009731340,6,846,16,167.83333333333337,4.0625,76,8,851,0
+oa_author_vadim_smelyanskiy,Vadim Smelyanskiy,https://openalex.org/A5004248032,48,12338,237,1443.9023781217127,10.20675105485232,2175,109,9940,2
+oa_author_ludwik_kuniarz,Ludwik Kuźniarz,https://openalex.org/A5028630744,13,3071,55,1031.8166666666666,2.909090909090909,2770,39,3086,3
+oa_author_harini_raval,Harini Raval,https://openalex.org/A5113490760,4,806,9,270.66666666666663,2.7777777777777777,45,8,806,1
+oa_author_christian_f__guerrerojuarez,Christian F. Guerrero‐Juarez,https://openalex.org/A5037405025,29,13109,70,1469.3951666613277,13.9,744,12,13262,0
+oa_author_timnit_gebru,Timnit Gebru,https://openalex.org/A5089275971,21,12118,40,3808.8641025641027,5.025,5347,25,12301,4
+oa_author_dimitra_dodou,Dimitra Dodou,https://openalex.org/A5010003168,35,6763,153,2516.6230519480523,4.065359477124183,3659,65,6802,0
+oa_author_yair_rivenson,Yair Rivenson,https://openalex.org/A5058629781,43,11755,247,2001.8059450491023,7.336032388663968,4295,58,11816,1
+oa_author_neil_c__rabinowitz,Neil C. Rabinowitz,https://openalex.org/A5010900024,24,11906,49,1096.443628834186,9.020408163265307,847,12,11966,1
+oa_author_fan_yang,Fan Yang,https://openalex.org/A5100623582,12,3085,33,284.9166666666667,8.878787878787879,74,11,3096,0
+oa_author_serge_egelman,Serge Egelman,https://openalex.org/A5000020874,46,8544,136,2117.1396825396814,4.794117647058823,3798,75,8559,8
+oa_author_karol_gregor,Karol Gregor,https://openalex.org/A5022506974,23,8873,54,2362.0061342912404,11.74074074074074,3956,26,8876,2
+oa_author_mara_averick,Mara Averick,https://openalex.org/A5035946951,5,21104,12,915.1416666666668,7.166666666666667,144,5,21339,1
+oa_author_antoine_bosselut,Antoine Bosselut,https://openalex.org/A5088410008,26,5457,168,569.1035562222926,8.553571428571429,1424,69,5497,1
+oa_author_antonio_iera,Antonio Iera,https://openalex.org/A5010762556,44,26209,379,7654.2232045732,5.176781002638522,2726,177,26253,4
+oa_author_mathew_hahn,Mathew Hahn,https://openalex.org/A5057027219,7,8173,9,4184.608333333334,2.888888888888889,8187,7,8232,2
+oa_author_georgios_kambourakis,Georgios Kambourakis,https://openalex.org/A5047345306,40,7344,212,1992.5047619047623,3.9150943396226414,2152,102,7377,1
+oa_author_john_rozewicki,John Rozewicki,https://openalex.org/A5041175337,9,9912,10,3155.275,11.3,825,2,9977,0
+oa_author_junho_yim,Junho Yim,https://openalex.org/A5044320085,10,3197,24,738.5166666666667,4.25,2029,8,3201,1
+oa_author_peter_anderson,Peter Anderson,https://openalex.org/A5020091255,30,10930,172,2262.132287157287,5.459302325581396,9088,127,10961,54
+oa_author_hans_j__jansen,Hans J. Jansen,https://openalex.org/A5063286596,31,6659,141,1107.7296431343443,9.418439716312056,614,37,6673,1
+oa_author_wei_yang_bryan_lim,Wei Yang Bryan Lim,https://openalex.org/A5027969322,28,7045,125,935.1845667095668,8.032,4130,39,7084,0
+oa_author_jasper_feine,Jasper Feine,https://openalex.org/A5079055295,10,868,16,224.98333333333332,3.6875,786,10,876,0
+oa_author_lilly_irani,Lilly Irani,https://openalex.org/A5005874730,33,6439,89,3096.742857142857,3.337078651685393,4086,59,6459,33
+oa_author_gabriel_black,Gabriel Black,https://openalex.org/A5083028022,2,4823,2,302.5625,10.0,4,1,4829,0
+oa_author_andrew_l__maas,Andrew L. Maas,https://openalex.org/A5007879982,13,6465,20,1314.5238095238092,4.6,3866,12,6466,0
+oa_author_konstantin_berlin,Konstantin Berlin,https://openalex.org/A5059139229,17,10789,46,2170.5499999999993,3.6956521739130435,2499,41,10825,1
+oa_author_chen_zhang,Chen Zhang,https://openalex.org/A5100374160,13,2372,81,427.8126984126982,6.283950617283951,2010,45,2398,6
+oa_author_laura_poggio,Laura Poggio,https://openalex.org/A5080709410,37,9225,168,1164.9005032773584,11.31547619047619,3245,70,9310,8
+oa_author_rob_rubin,Rob Rubin,https://openalex.org/A5020630555,1,1773,1,593.0,3.0,1779,1,1779,0
+oa_author_tareq_abed_mohammed,Tareq Abed Mohammed,https://openalex.org/A5101825527,8,4177,31,1389.3999999999999,3.2903225806451615,129,17,4187,0
+oa_author_yvonne_vergouwe,Yvonne Vergouwe,https://openalex.org/A5009766171,61,27164,216,5175.156156630605,6.981481481481482,6150,59,27270,8
+oa_author_marick_la,Marick Laé,https://openalex.org/A5040900547,49,9666,280,1011.274482481115,15.5,1898,31,9691,0
+oa_author_changsheng_you,Changsheng You,https://openalex.org/A5010397043,46,18744,273,4642.924084249078,4.791208791208791,5087,61,18816,1
+oa_author_michal_dziemianko,Michal Dziemianko,https://openalex.org/A5083564491,4,2460,10,821.1666666666667,2.7,2457,9,2461,1
+oa_author_jiankun_hu,Jiankun Hu,https://openalex.org/A5075234257,69,16976,512,4872.088852813855,4.298828125,9777,297,17055,8
+oa_author_ying_cheng,Ying Cheng,https://openalex.org/A5060790908,32,5710,120,1130.1452380952383,4.875,1780,47,5720,9
+oa_author_guoguo_chen,Guoguo Chen,https://openalex.org/A5081371370,17,9462,37,2258.4521825396823,7.783783783783784,1160,14,9479,2
+oa_author_v__kavitha,V. Kavitha,https://openalex.org/A5100775975,16,3455,142,1660.3916666666667,2.8732394366197185,3283,107,3459,7
+oa_author_mohammad_khubeb_siddiqui,Mohammad Khubeb Siddiqui,https://openalex.org/A5013481282,16,2731,66,630.1547619047617,4.363636363636363,1103,36,2746,3
+oa_author_danqi_chen,Danqi Chen,https://openalex.org/A5051064208,44,18066,297,5206.24428848814,9.457912457912458,11846,139,18125,3
+oa_author_sbastien_devillard,Sébastien Devillard,https://openalex.org/A5089376490,29,8288,116,2309.004451798201,8.267241379310345,629,54,8323,3
+oa_author_yu_hsin_chen,Yu-Hsin Chen,https://openalex.org/A5046921007,3,4135,5,1034.75,4.8,4130,3,4144,0
+oa_author_johannes_bader,Johannes Bader,https://openalex.org/A5055598034,19,3923,28,1599.3357142857144,3.607142857142857,2666,14,3930,3
+oa_author_scott_lundberg,Scott Lundberg,https://openalex.org/A5024995037,29,23146,91,5925.28013794716,4.593406593406593,19438,38,23339,16
+oa_author_christian_wojek,Christian Wojek,https://openalex.org/A5026667648,20,6538,48,1727.5475404363465,6.916666666666667,1232,29,6549,4
+oa_author_michel_dumontier,Michel Dumontier,https://openalex.org/A5044836472,53,27872,436,1878.5789789875184,11.3348623853211,3751,219,28074,12
+oa_author_huina_mao,Huina Mao,https://openalex.org/A5111925801,18,8182,25,2665.266666666667,3.84,1833,20,8205,1
+oa_author_jihoon_bae,Ji‐Hoon Bae,https://openalex.org/A5114375862,19,2671,124,657.1071428571433,5.048387096774194,393,56,2676,3
+oa_author_noel_gorelick,Noel Gorelick,https://openalex.org/A5083192483,42,28383,106,4636.726969088822,10.132075471698114,15558,27,28626,1
+oa_author_josh_cowls,Josh Cowls,https://openalex.org/A5011861720,35,10395,98,2195.180985680986,4.724489795918367,2736,47,10604,11
+oa_author_ajmal_mian,Ajmal Mian,https://openalex.org/A5089986388,68,20912,535,6546.019394494394,4.689719626168224,15830,384,20876,12
+oa_author_arjun_singh,Arjun Singh,https://openalex.org/A5101665919,10,2647,22,458.2440476190477,5.045454545454546,326,7,2655,1
+oa_author_s__m__ali_eslami,S. M. Ali Eslami,https://openalex.org/A5037555476,28,11587,59,1761.0904459065994,10.525423728813559,1332,15,11599,2
+oa_author_marco_tlio_ribeiro,Marco Túlio Ribeiro,https://openalex.org/A5019726734,23,21207,45,6612.446825396826,4.688888888888889,19124,22,21443,1
+oa_author_chia_hao_chin,Chia-Hao Chin,https://openalex.org/A5043162263,3,7028,4,1179.9095238095238,6.0,6769,3,7070,0
+oa_author_c__h__bennett,C. H. Bennett,https://openalex.org/A5103040666,13,12353,22,7220.828571428571,3.227272727272727,12357,20,12359,5
+oa_author_jrmie_dubois_lacoste,Jérémie Dubois-Lacoste,https://openalex.org/A5062038657,12,2303,27,522.3666666666667,4.296296296296297,421,18,2306,0
+oa_author_amir_gandomi,Amir Gandomi,https://openalex.org/A5102887177,9,4359,30,2116.0175625028564,7.5,4210,13,4371,0
+oa_author_jie_tan,Jie Tan,https://openalex.org/A5103241086,30,6130,83,860.6814118491217,7.963855421686747,1109,17,6035,0
+oa_author_scott_nicholson,Scott Nicholson,https://openalex.org/A5008785515,34,5911,132,2800.1761432566927,3.878787878787879,3196,94,5949,57
+oa_author_zhiqin_chen,Zhiqin Chen,https://openalex.org/A5101856310,17,2833,73,1076.6329365079364,6.438356164383562,2345,32,2846,3
+oa_author_arnt_brre_salberg,Arnt-Børre Salberg,https://openalex.org/A5084672445,21,2278,96,734.5003968253967,4.572916666666667,1129,53,2289,3
+oa_author_marcel_salath,Marcel Salathé,https://openalex.org/A5010649096,47,15139,161,4931.041574704595,6.788819875776397,11456,97,15227,12
+oa_author_mathieu_aubry,Mathieu Aubry,https://openalex.org/A5061634216,28,5019,121,1202.5997257128845,4.867768595041323,3203,77,5023,4
+oa_author_edgar_simoserra,Edgar Simo‐Serra,https://openalex.org/A5061430475,24,6185,102,1807.066666666667,4.196078431372549,2389,50,6198,1
+oa_author_omkar_parkhi,Omkar Parkhi,https://openalex.org/A5088324533,17,10706,35,2939.755325814536,7.257142857142857,6744,9,10725,2
+oa_author_joey_j__lee,Joey J. Lee,https://openalex.org/A5076388427,13,2927,22,1223.242857142857,3.3636363636363638,2445,18,2933,2
+oa_author_mykhaylo_andriluka,Mykhaylo Andriluka,https://openalex.org/A5020328677,36,13511,67,3198.534951159951,4.776119402985074,5294,19,13526,3
+oa_author_pieter_vermeesch,Pieter Vermeesch,https://openalex.org/A5018733077,53,15361,324,9692.672632436903,6.29320987654321,10627,173,15464,96
+oa_author_nils_reimers,Nils Reimers,https://openalex.org/A5110592354,24,12597,87,5954.676804567978,5.528735632183908,11790,28,12744,2
+oa_author_joel_emer,Joel Emer,https://openalex.org/A5024384625,66,25938,281,5913.99275210084,8.391459074733095,11183,113,26004,7
+oa_author_steven_c__colbert,Steven C. Colbert,https://openalex.org/A5033947014,3,10987,6,3669.9333333333334,3.6666666666666665,7,4,11011,1
+oa_author_gavin_wood,Gavin Wood,https://openalex.org/A5007975958,3,5343,6,5318.941558441558,7.833333333333333,5340,4,5343,2
+oa_author_hang_zhang,Hang Zhang,https://openalex.org/A5100438461,26,7941,161,1431.445057720057,5.6645962732919255,4549,72,7981,7
+oa_author_s__bartholomew_craig,S. Bartholomew Craig,https://openalex.org/A5109164523,14,5039,59,2407.3333333333335,2.711864406779661,5026,52,5074,7
+oa_author_mohiuddin_ahmed,Mohiuddin Ahmed,https://openalex.org/A5101694896,31,6823,235,2340.220634920634,3.251063829787234,5443,167,6874,18
+oa_author_r_p__vivek_ananth,R.P. Vivek-Ananth,https://openalex.org/A5077842292,14,1596,30,306.7190476190476,5.733333333333333,632,15,1615,0
+oa_author_m__g__bostock,M. G. Bostock,https://openalex.org/A5005322254,45,11580,253,4579.747666318355,4.221343873517786,8233,138,11594,25
+oa_author_jean_pouget_abadie,Jean Pouget-Abadie,https://openalex.org/A5013723114,10,18108,38,2312.639365079365,7.447368421052632,169,24,18229,1
+oa_author_daniel_ldecke,Daniel Lüdecke,https://openalex.org/A5037774761,32,17297,165,7593.858166224017,5.224242424242425,14695,92,17502,31
+oa_author_gholamreza_salimikhorshidi,Gholamreza Salimi‐Khorshidi,https://openalex.org/A5005615304,29,12830,72,1447.2141109744146,10.13888888888889,3475,21,12879,1
+oa_author_aaron_klein,Aaron Klein,https://openalex.org/A5044806693,19,3950,59,785.6206349206349,4.88135593220339,840,23,3956,3
+oa_author_alexander_toshev,Alexander Toshev,https://openalex.org/A5064265174,35,19320,99,5285.358485047197,8.727272727272727,3669,24,19352,1
+oa_author_matthew_tancik,Matthew Tancik,https://openalex.org/A5058341556,26,18914,58,3286.005502830503,5.586206896551724,3645,16,19038,2
+oa_author_michael_spreitzenbarth,Michael Spreitzenbarth,https://openalex.org/A5019291322,9,2941,20,646.137012987013,3.85,648,12,2953,2
+oa_author_mohammed_issam_kabbaj,Mohammed Issam Kabbaj,https://openalex.org/A5002276421,11,924,30,249.33333333333337,3.3,247,13,931,2
+oa_author_andr_deutz,André Deutz,https://openalex.org/A5085426879,23,2324,84,761.0654761904761,4.5476190476190474,836,24,2326,1
+oa_author_paul_m__leonardi,Paul M. Leonardi,https://openalex.org/A5075070427,33,6665,97,4356.3214285714275,2.7010309278350517,5968,75,6713,28
+oa_author_kyoung_mu_lee,Kyoung Mu Lee,https://openalex.org/A5046504049,59,27361,398,8549.525688257698,5.909547738693467,23235,293,27426,2
+oa_author_gregg_a__swayze,Gregg A. Swayze,https://openalex.org/A5053599981,48,13667,183,1781.1445571937631,9.579234972677595,2369,59,13712,4
+oa_author_deng_ping_fan,Deng-Ping Fan,https://openalex.org/A5056294284,58,26919,191,4172.555227959175,6.984293193717278,12707,58,27057,0
+oa_author_alexandra_kuznetsova,Alexandra Kuznetsova,https://openalex.org/A5070348662,11,24670,63,8247.739285714286,4.777777777777778,24707,33,24876,2
+oa_author_martin_karafit,Martin Karafiát,https://openalex.org/A5065253688,33,9353,108,1752.7454212454213,6.861111111111111,446,35,9357,0
+oa_author_sardiman_sardiman,Sardiman Sardiman,https://openalex.org/A5032446491,3,2197,15,2196.5,2.466666666666667,2197,12,2197,6
+oa_author_shuchin_aeron,Shuchin Aeron,https://openalex.org/A5004738943,22,3403,195,1045.5309523809522,4.630769230769231,1846,128,3411,0
+oa_author_weihua_li,Weihua Li,https://openalex.org/A5100400650,53,14921,320,2044.7220143375719,7.4875,838,57,15002,8
+oa_author_jian_weng,Jian Weng,https://openalex.org/A5082041657,68,18239,584,3534.769151057041,5.493150684931507,5077,210,18349,12
+oa_author_james_kirkpatrick,James Kirkpatrick,https://openalex.org/A5102954368,36,17608,66,1931.6432257457031,7.666666666666667,8133,17,17680,3
+oa_author_fei_yan,Fei Yan,https://openalex.org/A5062663265,49,9108,153,1427.562513875014,7.562091503267974,2442,39,9171,1
+oa_author_aurlien_f__stalder,Aurélien F. Stalder,https://openalex.org/A5031503319,27,4129,69,623.8372655122655,9.014492753623188,2257,18,4137,1
+oa_author_pasquale_minervini,Pasquale Minervini,https://openalex.org/A5019106673,20,4429,191,1065.3869207928587,7.0890052356020945,614,69,4455,0
+oa_author_louisa_j__bellis,Louisa J. Bellis,https://openalex.org/A5021944314,13,10282,23,876.8309523809523,11.130434782608695,34,2,10328,0
+oa_author_gang_song,Gang Song,https://openalex.org/A5038672755,43,13446,338,2197.3266534545933,7.763313609467455,1947,105,13509,8
+oa_author_jasper_a__vrugt,Jasper A. Vrugt,https://openalex.org/A5025871169,70,23866,335,6521.827246217831,5.098507462686567,13791,188,23915,36
+oa_author_micha_rostkowski,Michał Rostkowski,https://openalex.org/A5065625027,12,7158,29,1792.1826007326006,5.482758620689655,521,7,7196,0
+oa_author_ye_yuan,Ye Yuan,https://openalex.org/A5082583182,31,5444,112,1047.1242063492066,6.142857142857143,1203,48,5479,7
+oa_author_kenji_nakahara,Kenji Nakahara,https://openalex.org/A5072656448,14,989,35,76.79795132359006,13.571428571428571,86,9,1003,0
+oa_author_katja_grace,Katja Grace,https://openalex.org/A5087999269,4,832,4,162.9968253968254,6.5,838,4,838,0
+oa_author_blair_lehman,Blair Lehman,https://openalex.org/A5026292394,19,2038,63,492.70833333333314,4.825396825396825,570,30,2056,3
+oa_author_vassil_panayotov,Vassil Panayotov,https://openalex.org/A5001112899,1,5946,1,1489.5,4.0,5958,1,5958,0
+oa_author_chuxu_zhang,Chuxu Zhang,https://openalex.org/A5022275632,30,5640,159,1049.6080048606364,5.8930817610062896,3482,58,5679,2
+oa_author_benjamin_j__shields,Benjamin J. Shields,https://openalex.org/A5029221011,20,4605,34,830.4535991529414,9.323529411764707,2064,12,4633,2
+oa_author_p_lenz,P Lenz,https://openalex.org/A5111040507,6,14655,67,4818.140320910972,8.940298507462687,5,25,14700,0
+oa_author_michelly_dias_da_silva,Michelly Dias da Silva,https://openalex.org/A5018170179,2,3884,3,1302.0000000000002,3.0,0,0,3906,0
+oa_author_guillaume_marais,Guillaume Marçais,https://openalex.org/A5009407234,23,14246,61,3691.2071853842926,8.163934426229508,8320,34,14298,1
+oa_author_kem_z_k__zhang,Kem Z.K. Zhang,https://openalex.org/A5024660472,32,4876,70,1450.9000000000003,4.0,3258,33,4898,0
+oa_author_nathaniel_saul,Nathaniel Saul,https://openalex.org/A5024399131,5,9681,15,2464.1499999999996,3.933333333333333,18,6,9766,3
+oa_author_marc_s__mendonca,Marc S. Mendonca,https://openalex.org/A5101461494,35,5849,219,1104.191367660119,6.968036529680365,1023,55,5867,5
+oa_author_david_f__steiner,David F. Steiner,https://openalex.org/A5003475212,23,9740,100,743.0730323920997,24.0,705,11,9002,1
+oa_author_alexandre_pouget,Alexandre Pouget,https://openalex.org/A5039593921,67,23024,177,7110.683077281329,6.966101694915254,18505,116,22974,4
+oa_author_joey_frazee,Joey Frazee,https://openalex.org/A5019318333,3,676,4,155.57142857142858,4.0,72,2,679,0
+oa_author_sidney_k__dmello,Sidney K. D’Mello,https://openalex.org/A5008316506,70,21429,439,7046.9336830159455,5.050113895216401,14723,289,21475,20
+oa_author_sairam_vakkalanka,Sairam Vakkalanka,https://openalex.org/A5062363002,3,2535,11,853.35,3.4545454545454546,9,5,2550,2
+oa_author_ranjay_krishna,Ranjay Krishna,https://openalex.org/A5032451496,31,13270,205,1563.5448884666532,9.404878048780487,6241,67,13339,0
+oa_author_dylan_freedman,Dylan Freedman,https://openalex.org/A5089627238,2,2975,4,374.4583333333333,4.5,34,3,2983,1
+oa_author_milan_tofiloski,Milan Tofiloski,https://openalex.org/A5087989305,3,3497,3,736.8,3.6666666666666665,78,1,3506,0
+oa_author_yifan_zhang,Yifan Zhang,https://openalex.org/A5114686064,36,9707,162,1985.6359368257317,6.611111111111111,2568,49,9775,6
+oa_author_erwin_coumans,Erwin Coumans,https://openalex.org/A5083125607,13,1464,37,354.17307969807973,10.243243243243244,198,4,1465,1
+oa_author_vimal_savsani,Vimal Savsani,https://openalex.org/A5036009160,32,10459,108,3647.292857142858,3.2777777777777777,2112,56,10490,3
+oa_author_mikel_galar,Mikel Galar,https://openalex.org/A5048848385,38,9501,172,1910.2305555555552,5.8313953488372094,5013,85,9534,0
+oa_author_slimane_ben_miled,Slimane Ben Miled,https://openalex.org/A5051321555,9,11193,67,2237.134704184704,5.626865671641791,83,31,11198,2
+oa_author_heng_wang,Heng Wang,https://openalex.org/A5100453983,20,15574,42,4481.8291666666655,5.214285714285714,9278,15,15601,1
+oa_author_xiao_lin,Xiao Lin,https://openalex.org/A5100450522,19,2220,95,391.7707805972511,5.442105263157894,1010,40,2230,10
+oa_author_brenden_m__lake,Brenden M. Lake,https://openalex.org/A5011713946,25,5652,136,1932.919047619047,3.2794117647058822,5402,94,5671,4
+oa_author_olivier_dauchot,Olivier Dauchot,https://openalex.org/A5031712229,46,7328,233,2056.4843641671223,4.373390557939914,3065,140,7369,11
+oa_author_jort_f__gemmeke,Jort F. Gemmeke,https://openalex.org/A5109012430,22,7254,109,1075.3967032967028,4.348623853211009,3865,43,7269,6
+oa_author_douglas_e__v__pires,Douglas E. V. Pires,https://openalex.org/A5071950872,45,13897,134,4051.5219749878183,8.805970149253731,9000,37,14002,1
+oa_author_marco_ribeiro,Marco Ribeiro,https://openalex.org/A5091368088,2,4997,2,1690.0,5.0,5067,1,5074,0
+oa_author_hidehisa_soejima,Hidehisa Soejima,https://openalex.org/A5003309953,11,1307,80,306.9266955266954,7.75,67,24,1329,4
+oa_author_n_h__batjes,N.H. Batjes,https://openalex.org/A5078952063,54,26502,249,11830.88685410147,5.907630522088353,13404,169,26572,102
+oa_author_per_b__brockhoff,Per B. Brockhoff,https://openalex.org/A5069382830,41,28390,174,9278.468650793657,3.9885057471264367,912,73,28598,10
+oa_author_wan_choi,Wan Choi,https://openalex.org/A5035102148,46,27260,411,2954.1082092837146,4.425790754257908,3370,300,13220,8
+oa_author_jinglan_zhang,Jinglan Zhang,https://openalex.org/A5101979224,32,12468,220,1662.1682539682552,5.25,1431,79,12581,11
+oa_author_david_g__andersen,David G. Andersen,https://openalex.org/A5085479490,64,16922,173,4196.038980913304,5.4393063583815024,7677,67,16943,8
+oa_author_chi_zhang,Chi Zhang,https://openalex.org/A5100458219,49,14826,588,2139.5709689927617,8.034013605442176,5053,285,14185,53
+oa_author_luke_zappia,Luke Zappia,https://openalex.org/A5060306874,28,10711,116,2029.0496334494296,11.905172413793103,2927,35,10810,6
+oa_author_junliang_fan,Junliang Fan,https://openalex.org/A5063213100,65,12109,220,1807.6553751803756,8.704545454545455,4405,69,12200,2
+oa_author_tianjian_chen,Tianjian Chen,https://openalex.org/A5068882233,35,12312,109,2517.311879666228,6.36697247706422,750,37,12455,1
+oa_author_bradford_m__beckmann,Bradford M. Beckmann,https://openalex.org/A5077056823,22,8360,61,1001.9801391683434,8.049180327868852,693,15,8367,1
+oa_author_lars_schmidt_thieme,Lars Schmidt-Thieme,https://openalex.org/A5039470755,46,17349,486,5207.516446886448,3.3641975308641974,15633,416,17372,19
+oa_author_j__zachery_cogan,J. Zachery Cogan,https://openalex.org/A5046410318,7,2156,12,148.70663013457133,13.166666666666666,0,0,2168,0
+oa_author_xavier_glorot,Xavier Glorot,https://openalex.org/A5067483843,18,29656,29,9796.956479241822,9.620689655172415,20114,8,29687,1
+oa_author_rean_griffith,Rean Griffith,https://openalex.org/A5035396004,17,16867,40,1795.6044372294375,5.05,265,19,16886,0
+oa_author_haoran_xie,Haoran Xie,https://openalex.org/A5013151488,57,20020,592,4117.008152958151,5.429054054054054,3344,137,20194,0
+oa_author_gabriela_hug,Gabriela Hug,https://openalex.org/A5029570783,47,9467,430,2721.817128047393,4.076744186046511,4653,287,9510,3
+oa_author_thomas_w__malone,Thomas W. Malone,https://openalex.org/A5079825006,61,28923,248,13871.320526695525,3.5443548387096775,26727,196,28978,49
+oa_author_kelvin_xu,Kelvin Xu,https://openalex.org/A5060717631,16,12255,36,1437.2026324842218,8.944444444444445,9350,10,11014,1
+oa_author_yu_zhang,Yu Zhang,https://openalex.org/A5100433691,55,14131,593,4866.239346363418,4.892074198988196,7464,251,14188,40
+oa_author_zihan_zhou,Zihan Zhou,https://openalex.org/A5102715927,22,3080,149,579.036473562557,6.671140939597316,1050,57,3094,3
+oa_author_ryan_shandler,Ryan Shandler,https://openalex.org/A5052044217,12,2602,34,2290.416666666667,3.0588235294117645,2491,25,2609,3
+oa_author_wenguan_wang,Wenguan Wang,https://openalex.org/A5101433884,72,19588,265,4272.568004818007,5.384905660377359,9433,98,19632,3
+oa_author_masanori_morise,Masanori Morise,https://openalex.org/A5075267422,17,2629,229,1014.3023809523809,4.0524017467248905,1775,86,2630,11
+oa_author_jasper_uijlings,Jasper Uijlings,https://openalex.org/A5020938231,29,12970,89,2902.0646825396816,4.573033707865169,6751,25,12995,1
+oa_author_dm_kepecs,Ádám Kepecs,https://openalex.org/A5049757389,47,13022,120,3315.8677775927777,7.016666666666667,9560,75,13059,9
+oa_author_jean_y__wu,Jean Y. Wu,https://openalex.org/A5047624579,5,7086,8,1053.488095238095,4.875,1,2,7108,2
+oa_author_davide_castelvecchi,Davide Castelvecchi,https://openalex.org/A5028423586,23,4543,679,4294.68999236058,1.455081001472754,4500,654,4561,605
+oa_author_lucas_hopkins,Lucas Hopkins,https://openalex.org/A5109319330,2,10817,6,2721.0,2.8333333333333335,3,4,10879,1
+oa_author_george_toderici,George Toderici,https://openalex.org/A5078347851,30,15443,68,2653.270634920634,5.911764705882353,4604,36,15453,2
+oa_author_christoph_stiller,Christoph Stiller,https://openalex.org/A5091574711,58,23412,448,6181.120531787416,4.96875,9510,379,23465,38
+oa_author_muhammad_ali_sodik,Muhammad Ali Sodik,https://openalex.org/A5064741106,11,2541,79,1254.247619047619,2.3544303797468356,2540,77,2541,4
+oa_author_eric_schulz,Eric Schulz,https://openalex.org/A5101768980,35,6701,262,1982.8641616513569,4.740458015267175,4400,167,6749,13
+oa_author_sander_pronk,Sander Pronk,https://openalex.org/A5051579614,16,8760,28,1014.0646520146519,5.892857142857143,8148,16,8790,4
+oa_author_will_y__zou,Will Y. Zou,https://openalex.org/A5086850268,7,1845,16,467.0,4.125,772,12,1845,0
+oa_author_ian_bruno,Ian Bruno,https://openalex.org/A5017379831,19,24393,72,4307.135891885891,7.597222222222222,5048,28,24497,3
+oa_author_roy_pea,Roy Pea,https://openalex.org/A5036567109,68,23791,350,10113.473671342424,4.314285714285714,14246,237,23115,55
+oa_author_cha_zhang,Cha Zhang,https://openalex.org/A5103551927,52,13168,193,3916.2667875854827,5.689119170984456,7300,112,13206,8
+oa_author_diego_ortego,Diego Ortego,https://openalex.org/A5028186506,11,1331,32,271.3333333333333,5.84375,115,12,1342,0
+oa_author_steven_l__brunton,Steven L. Brunton,https://openalex.org/A5062653961,69,29270,567,8836.587177936439,4.283950617283951,17154,279,29497,47
+oa_author_tianyu_gao,Tianyu Gao,https://openalex.org/A5006863331,19,6009,53,1654.3912698412696,5.943396226415095,4655,24,6044,1
+oa_author_jon_wade,Jon Wade,https://openalex.org/A5030190643,13,1842,80,823.0941558441558,4.525,1672,53,1861,3
+oa_author_suash_deb,Suash Deb,https://openalex.org/A5074194793,42,17000,136,7161.37619047619,3.5955882352941178,12131,60,17319,3
+oa_author_isaac_mbiti,Isaac Mbiti,https://openalex.org/A5038283229,20,4044,75,1978.3000000000002,3.36,3907,53,4071,2
+oa_author_mohamed_hamdi,Mohamed Hamdi,https://openalex.org/A5038440594,22,2660,260,912.6250000000003,4.061538461538461,1728,105,2665,4
+oa_author_saurabh_singh,Saurabh Singh,https://openalex.org/A5024043349,10,3422,32,908.0833333333335,3.875,651,16,3425,0
+oa_author_quanming_yao,Quanming Yao,https://openalex.org/A5072484211,38,9715,231,2184.4170940170948,4.515151515151516,1539,89,9777,3
+oa_author_senthilkumar_mohan,Senthilkumar Mohan,https://openalex.org/A5013635040,28,4559,78,1160.4416666666666,5.0,2337,25,4591,4
+oa_author_chi_wang,Chi Wang,https://openalex.org/A5100342204,43,7300,229,1661.2317404817406,6.283842794759825,1640,73,7316,7
+oa_author_harsh_panwar,Harsh Panwar,https://openalex.org/A5006172844,5,1529,5,272.81904761904764,6.2,1327,3,1535,0
+oa_author_kan_yang,Kan Yang,https://openalex.org/A5100329754,40,8306,141,2077.7805555555547,4.836879432624113,3047,64,8324,5
+oa_author_sren_wengerowsky,Sören Wengerowsky,https://openalex.org/A5019503790,13,2633,43,209.26942327649155,11.465116279069768,642,6,2646,0
+oa_author_christiaan_v__henkel,Christiaan V. Henkel,https://openalex.org/A5047504832,23,4688,79,692.0145598639403,9.69620253164557,618,23,4693,3
+oa_author_rebecca_kirsch,Rebecca Kirsch,https://openalex.org/A5027950078,15,18790,26,1592.656121656122,7.653846153846154,39,6,19049,1
+oa_author_rommert_dekker,Rommert Dekker,https://openalex.org/A5091597991,68,19256,572,6725.657719789164,4.18006993006993,10848,337,19259,23
+oa_author_amanpreet_singh,Amanpreet Singh,https://openalex.org/A5100672985,20,10019,89,1797.6339009287929,4.820224719101123,1444,51,10056,1
+oa_author_stefan_leutenegger,Stefan Leutenegger,https://openalex.org/A5006726091,38,14252,181,3359.9007919419746,6.044198895027624,9054,94,14298,2
+oa_author_jian_zhang,Jian Zhang,https://openalex.org/A5100409994,66,24961,899,5693.412824981604,5.553948832035595,6342,387,24718,25
+oa_author_li_yi,Li Yi,https://openalex.org/A5100419940,29,8132,104,1317.6930169830168,5.740384615384615,2444,49,8141,12
+oa_author_xianjie_chen,Xianjie Chen,https://openalex.org/A5102801200,15,2347,31,346.05707070707075,7.129032258064516,226,9,2354,1
+oa_author_jrme_eberhardt,Jérôme Eberhardt,https://openalex.org/A5090448722,16,7482,46,1745.4554891187245,7.760869565217392,6661,13,7602,3
+oa_author_p__k__gupta,P. K. Gupta,https://openalex.org/A5079299702,20,2988,164,803.1928571428576,3.5,1007,107,3014,6
+oa_author_hado_van_hasselt,Hado van Hasselt,https://openalex.org/A5033135596,30,11943,87,3031.3317227217212,6.045977011494253,5291,41,11958,5
+oa_author_bowen_baker,Bowen Baker,https://openalex.org/A5048522044,13,3042,24,333.7077884243128,20.625,943,10,3048,2
+oa_author_zongwei_zhou,Zongwei Zhou,https://openalex.org/A5084104975,32,20112,137,4012.5163651817256,8.408759124087592,15581,75,19467,1
+oa_author_robert_jenssen,Robert Jenssen,https://openalex.org/A5013414039,38,6192,261,1871.5735209235222,5.337164750957855,3732,156,6218,9
+oa_author_paolo_gerbaudo,Paolo Gerbaudo,https://openalex.org/A5023234629,27,4472,100,4131.666666666666,1.47,4472,96,4484,76
+oa_author_yasunobu_nohara,Yasunobu Nohara,https://openalex.org/A5040204315,15,1818,112,384.5214365459102,7.1875,1184,32,1843,1
+oa_author_v__ogievetsky,V. Ogievetsky,https://openalex.org/A5091278432,26,7144,81,2360.5,2.7777777777777777,1702,61,7148,5
+oa_author_seyedmahdad_mirsamadi,Seyedmahdad Mirsamadi,https://openalex.org/A5055022808,8,892,11,322.26666666666665,2.3636363636363638,893,11,893,0
+oa_author_zemin_zhang,Zemin Zhang,https://openalex.org/A5101809929,17,2530,52,667.8790385053542,6.134615384615385,1626,22,2540,0
+oa_author_hossam_faris,Hossam Faris,https://openalex.org/A5048560390,62,24787,214,4681.453968253966,5.158878504672897,5760,87,24849,2
+oa_author_bagavathy_shanmugam_karthikeyan,Bagavathy Shanmugam Karthikeyan,https://openalex.org/A5000368748,12,1118,26,195.2857142857143,4.8076923076923075,206,11,1129,0
+oa_author_m__six_silberman,M. Six Silberman,https://openalex.org/A5089242807,21,4112,54,1315.2552739375317,5.351851851851852,2697,31,4121,6
+oa_author_jiri_chod,Jiri Chod,https://openalex.org/A5042055682,17,2751,38,1175.9666666666665,2.710526315789474,2776,36,2779,6
+oa_author_liwei_duan,Liwei Duan,https://openalex.org/A5017858238,16,2254,96,725.465476190476,4.447916666666667,1844,40,2258,7
+oa_author_kenji_ozawa,Kenji Ozawa,https://openalex.org/A5049792294,12,2123,167,559.1849567099569,5.7604790419161676,1640,94,2124,3
+oa_author_yue_huang,Yue Huang,https://openalex.org/A5100772804,47,13085,454,2316.3540801628146,8.548458149779735,1559,115,13152,14
+oa_author_jing_liu,Jing Liu,https://openalex.org/A5108392430,40,13061,244,2132.3252691752696,5.549180327868853,1388,88,13116,0
+oa_author_maciek_chociej,Maciek Chociej,https://openalex.org/A5016448989,6,2594,6,167.07565789473688,11.833333333333334,10,1,2600,0
+oa_author_markus_k__oberthaler,Markus K. Oberthaler,https://openalex.org/A5009710300,49,14060,251,3063.558728963696,20.163346613545816,8999,89,14087,6
+oa_author_austin_g__fowler,Austin G. Fowler,https://openalex.org/A5010185866,57,18721,233,2999.2514228675727,23.51931330472103,5648,85,18847,26
+oa_author_anil_shaji,Anil Shaji,https://openalex.org/A5071201754,20,12145,121,2471.7472222222223,3.644628099173554,523,62,12173,6
+oa_author_rajiv_soundararajan,Rajiv Soundararajan,https://openalex.org/A5079266976,16,9253,94,3135.183333333334,3.021276595744681,1212,68,9291,2
+oa_author_chris_buehler,Chris Buehler,https://openalex.org/A5015566495,13,7881,16,1341.2202380952378,4.875,1122,7,7899,0
+oa_author_toshihiko_yanase,Toshihiko Yanase,https://openalex.org/A5020123456,53,16084,344,2584.8397684701945,9.662790697674419,1992,138,15832,17
+oa_author_xiao_yu,Xiao Yu,https://openalex.org/A5101859905,19,2107,86,355.5464285714285,5.837209302325581,1616,38,2120,1
+oa_author_joseba_saenz_de_navarrete,Joseba Saenz-de-Navarrete,https://openalex.org/A5077148616,2,2562,2,479.6666666666667,5.0,0,0,2569,0
+oa_author_stefan_morana,Stefan Morana,https://openalex.org/A5082082583,25,3142,112,750.1166666666666,4.1875,658,43,3175,6
+oa_author_sungdong_kim,Sungdong Kim,https://openalex.org/A5109196469,13,7322,67,1113.6841269841266,4.2388059701492535,153,29,7387,3
+oa_author_brenda_l__minor,Brenda L. Minor,https://openalex.org/A5088605588,3,23619,3,2168.69696969697,10.333333333333334,0,0,23855,0
+oa_author_shahidan_m__abdullah,Shahidan M. Abdullah,https://openalex.org/A5054079887,14,1232,33,291.1833333333332,3.8181818181818183,229,13,1237,0
+oa_author_vincent_rabaud,Vincent Rabaud,https://openalex.org/A5017786000,10,14086,17,3630.0,3.0,570,8,14107,2
+oa_author_mohsen_jamali,Mohsen Jamali,https://openalex.org/A5036052714,31,4718,80,1857.7885440043046,5.85,3539,38,4725,2
+oa_author_zicheng_liu,Zicheng Liu,https://openalex.org/A5101728117,65,20391,340,4720.322237122777,5.644117647058824,9208,132,20445,7
+oa_author_daniel_w__lewis,Daniel W. Lewis,https://openalex.org/A5111960857,7,898,24,440.3921379535796,4.333333333333333,829,16,898,8
+oa_author_xiaobai_liu,Xiaobai Liu,https://openalex.org/A5076498350,27,5012,89,937.8546536796539,5.337078651685394,683,39,5026,3
+oa_author_carlijn_j__m__wibbelink,Carlijn J. M. Wibbelink,https://openalex.org/A5004465634,8,1384,16,637.1894957983193,6.0,1345,12,1404,0
+oa_author_sarah_meiklejohn,Sarah Meiklejohn,https://openalex.org/A5038294203,35,4974,125,1193.8621794871794,4.832,3124,74,5002,11
+oa_author_daniil_stroyakovskiy,Daniil Stroyakovskiy,https://openalex.org/A5071263994,48,23798,206,979.7494185058918,21.199029126213592,20,12,22845,1
+oa_author_gabriele_paolacci,Gabriele Paolacci,https://openalex.org/A5050375077,19,9752,69,3635.650000000001,3.1739130434782608,8138,37,9784,4
+oa_author_thiago_augusto_vieira,Thiago Augusto Vieira,https://openalex.org/A5108504567,1,2397,13,605.2,2.923076923076923,4,10,2418,2
+oa_author_abdolreza_hatamlou,Abdolreza Hatamlou,https://openalex.org/A5057331381,15,5288,42,2839.25,2.7857142857142856,4996,29,5307,8
+oa_author_xinchen_yan,Xinchen Yan,https://openalex.org/A5052854215,23,8097,50,1735.7150793650792,6.64,1749,14,8105,1
+oa_author_hongyun_cai,Hongyun Cai,https://openalex.org/A5101912243,8,2744,25,845.2238095238096,10.28,2267,9,2749,0
+oa_author_a__patrcia_bento,A. Patrícia Bento,https://openalex.org/A5076510996,24,17068,40,1507.980479051457,13.25,2936,16,17176,1
+oa_author_jun_woo_park,Jun Woo Park,https://openalex.org/A5003494873,7,1592,12,221.81428571428572,5.916666666666667,60,1,1593,0
+oa_author_jin_chen,Jin Chen,https://openalex.org/A5100457173,28,3944,77,472.7940312915862,11.155844155844155,1758,30,3978,0
+oa_author_sandu_siyoto,Sandu Siyoto,https://openalex.org/A5048328452,7,2329,74,1137.6198412698413,2.810810810810811,2274,50,2329,9
+oa_author_nezih_tolga_yardimci,Nezih Tolga Yardimci,https://openalex.org/A5043009217,21,4194,103,768.2589285714284,5.135922330097087,766,48,4228,1
+oa_author_bowen_jiang,Bowen Jiang,https://openalex.org/A5101834122,10,943,43,187.7271212121212,6.883720930232558,673,19,951,5
+oa_author_donald_r__schoolmaster,Donald R. Schoolmaster,https://openalex.org/A5008015721,19,2791,50,669.5200799200801,6.12,1004,31,2801,7
+oa_author_h__imam_ghozali,H. Imam Ghozali,https://openalex.org/A5085294801,2,11153,2,11153.0,1.0,11153,2,11153,2
+oa_author_todd_e__humphreys,Todd E. Humphreys,https://openalex.org/A5026955319,32,4959,170,1882.41451914099,3.623529411764706,4112,137,4973,28
+oa_author_liyan_jia,Liyan Jia,https://openalex.org/A5112119356,18,2475,29,697.0857142857143,3.2413793103448274,720,18,2475,3
+oa_author_cludio_r__mirasso,Cláudio R. Mirasso,https://openalex.org/A5075774125,50,14309,373,2839.6926334776317,4.997319034852547,3682,168,14313,10
+oa_author_shuchi_grover,Shuchi Grover,https://openalex.org/A5006962369,26,5376,116,2326.188232845589,5.094827586206897,4715,69,5401,15
+oa_author_jalel_benothman,Jalel Ben‐Othman,https://openalex.org/A5085749623,36,5426,370,1756.36098901099,5.872972972972973,3110,192,5437,3
+oa_author_edzer_pebesma,Edzer Pebesma,https://openalex.org/A5054607061,48,21683,320,12757.525398947459,3.703125,14391,195,21794,28
+oa_author_iryna_gurevych,Iryna Gurevych,https://openalex.org/A5027450194,65,26659,890,10686.663440448454,4.521348314606741,23163,712,26819,12
+oa_author_ferat_sahin,Ferat Sahin,https://openalex.org/A5023942737,25,7325,277,3415.3826971109,24.458483754512635,6936,148,7350,5

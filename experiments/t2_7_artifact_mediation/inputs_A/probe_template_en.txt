@@ -1,0 +1,1 @@
+Tell me what you know about {name}, who is {context}. If you do not recognize this entity, respond with "unknown". Limit your response to about 150 words.

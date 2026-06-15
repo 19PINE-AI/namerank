@@ -1,0 +1,409 @@
+{
+  "gold_named_facts_definition": "capitalized_multiword_bigrams",
+  "oa_corr_named_facts": -0.03246511721480258,
+  "oa_corr_sentences": 0.011476018740892756,
+  "cross_model_r2": 0.5327068774302577,
+  "b_gold_chars": -0.0011183253348805043,
+  "b_gold_named_facts": 0.01784723823027523,
+  "baseline_raw_mean": 0.46388612191958495,
+  "matched_pairs_strict_tol_50": {
+    "n": 0
+  },
+  "matched_pairs_nearest_neighbor": {
+    "n": 50,
+    "mean_imo": 0.3648719999999999,
+    "mean_partner": 0.370702,
+    "delta": -0.005830000000000006,
+    "paired_t": -0.1874244049289767,
+    "mean_abs_dchars": 314.32
+  },
+  "matched_pairs_imo_vs_cmo": {
+    "n": 50,
+    "mean_imo": 0.3648719999999999,
+    "mean_partner": 0.290032,
+    "delta": 0.07484,
+    "paired_t": 4.694173043170401,
+    "mean_abs_dchars": 10.46
+  },
+  "imo_gold_chars_range": [
+    359,
+    392
+  ],
+  "openalex_gold_chars_range": [
+    662,
+    789
+  ],
+  "oa_slope_spec": {
+    "b_chars_oa": 0.0015087455442093281,
+    "b_facts_oa": -0.0077635179890732705,
+    "r2_oa": 0.02316903906947443,
+    "oa_mean_chars": 719.5499351491569,
+    "oa_mean_facts": 3.511024643320363
+  },
+  "focus_raw": [
+    {
+      "cohort": "cpho_china_first_prize",
+      "n": 50,
+      "mean_gold_chars": 424.98,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.182278,
+      "fe_vs_openalex_baseline": -0.6376072412006568,
+      "adjusted_mean_namerank_fe": -0.17372111928107187,
+      "adjusted_mean_namerank_oa_slope": 0.6382687640811904,
+      "shift_fe": -0.35599911928107186,
+      "shift_oa_slope": 0.4559907640811904
+    },
+    {
+      "cohort": "cmo_china_gold",
+      "n": 131,
+      "mean_gold_chars": 416.793893129771,
+      "mean_gold_named_facts": 4.015267175572519,
+      "raw_mean_namerank": 0.30206946564885495,
+      "fe_vs_openalex_baseline": -0.5093957449480874,
+      "adjusted_mean_namerank_fe": -0.04550962302850242,
+      "adjusted_mean_namerank_oa_slope": 0.7627659909980511,
+      "shift_fe": -0.3475790886773574,
+      "shift_oa_slope": 0.46069652534919614
+    },
+    {
+      "cohort": "rhodes_scholar",
+      "n": 36,
+      "mean_gold_chars": 466.5833333333333,
+      "mean_gold_named_facts": 3.3055555555555554,
+      "raw_mean_namerank": 0.3147666666666667,
+      "fe_vs_openalex_baseline": -0.42835135918387673,
+      "adjusted_mean_namerank_fe": 0.035534762735708214,
+      "adjusted_mean_namerank_oa_slope": 0.6948337370310053,
+      "shift_fe": -0.2792319039309585,
+      "shift_oa_slope": 0.38006707036433857
+    },
+    {
+      "cohort": "ioi_gold",
+      "n": 68,
+      "mean_gold_chars": 524.1029411764706,
+      "mean_gold_named_facts": 3.8970588235294117,
+      "raw_mean_namerank": 0.3412382352941177,
+      "fe_vs_openalex_baseline": -0.34811085559056854,
+      "adjusted_mean_namerank_fe": 0.11577526632901641,
+      "adjusted_mean_namerank_oa_slope": 0.6391149998819656,
+      "shift_fe": -0.22546296896510126,
+      "shift_oa_slope": 0.29787676458784795
+    },
+    {
+      "cohort": "msra_phd_fellowship",
+      "n": 237,
+      "mean_gold_chars": 513.2320675105485,
+      "mean_gold_named_facts": 5.818565400843882,
+      "raw_mean_namerank": 0.3425101265822785,
+      "fe_vs_openalex_baseline": -0.3932897233816667,
+      "adjusted_mean_namerank_fe": 0.07059639853791827,
+      "adjusted_mean_namerank_oa_slope": 0.6717059242543524,
+      "shift_fe": -0.2719137280443602,
+      "shift_oa_slope": 0.3291957976720739
+    },
+    {
+      "cohort": "imo_gold",
+      "n": 197,
+      "mean_gold_chars": 369.6243654822335,
+      "mean_gold_named_facts": 2.949238578680203,
+      "raw_mean_namerank": 0.36193705583756347,
+      "fe_vs_openalex_baseline": -0.48325336623294013,
+      "adjusted_mean_namerank_fe": -0.01936724431335518,
+      "adjusted_mean_namerank_oa_slope": 0.8855242636586004,
+      "shift_fe": -0.38130430015091865,
+      "shift_oa_slope": 0.5235872078210368
+    },
+    {
+      "cohort": "noi_china_gold",
+      "n": 29,
+      "mean_gold_chars": 439.0689655172414,
+      "mean_gold_named_facts": 4.344827586206897,
+      "raw_mean_namerank": 0.36753793103448273,
+      "fe_vs_openalex_baseline": -0.42489824493511147,
+      "adjusted_mean_namerank_fe": 0.03898787698447348,
+      "adjusted_mean_namerank_oa_slope": 0.7971855883485889,
+      "shift_fe": -0.32855005405000925,
+      "shift_oa_slope": 0.42964765731410615
+    },
+    {
+      "cohort": "long_tail_researcher_openalex",
+      "n": 771,
+      "mean_gold_chars": 719.5499351491569,
+      "mean_gold_named_facts": 3.511024643320363,
+      "raw_mean_namerank": 0.46388612191958495,
+      "fe_vs_openalex_baseline": 0.0,
+      "adjusted_mean_namerank_fe": 0.46388612191958495,
+      "adjusted_mean_namerank_oa_slope": 0.46388612191958495,
+      "shift_fe": 0.0,
+      "shift_oa_slope": 0.0
+    },
+    {
+      "cohort": "putnam_fellow",
+      "n": 35,
+      "mean_gold_chars": 506.1142857142857,
+      "mean_gold_named_facts": 5.6571428571428575,
+      "raw_mean_namerank": 0.6076085714285715,
+      "fe_vs_openalex_baseline": -0.1332703276531232,
+      "adjusted_mean_namerank_fe": 0.33061579426646176,
+      "adjusted_mean_namerank_oa_slope": 0.9462900838485464,
+      "shift_fe": -0.27699277716210974,
+      "shift_oa_slope": 0.3386815124199749
+    },
+    {
+      "cohort": "icpc_world_finals_gold",
+      "n": 18,
+      "mean_gold_chars": 393.6111111111111,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.6104111111111111,
+      "fe_vs_openalex_baseline": -0.24455475326104845,
+      "adjusted_mean_namerank_fe": 0.2193313686585365,
+      "adjusted_mean_namerank_oa_slope": 1.11372954653021,
+      "shift_fe": -0.3910797424525746,
+      "shift_oa_slope": 0.5033184354190988
+    }
+  ],
+  "focus_adj_fe": [
+    {
+      "cohort": "cpho_china_first_prize",
+      "n": 50,
+      "mean_gold_chars": 424.98,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.182278,
+      "fe_vs_openalex_baseline": -0.6376072412006568,
+      "adjusted_mean_namerank_fe": -0.17372111928107187,
+      "adjusted_mean_namerank_oa_slope": 0.6382687640811904,
+      "shift_fe": -0.35599911928107186,
+      "shift_oa_slope": 0.4559907640811904
+    },
+    {
+      "cohort": "cmo_china_gold",
+      "n": 131,
+      "mean_gold_chars": 416.793893129771,
+      "mean_gold_named_facts": 4.015267175572519,
+      "raw_mean_namerank": 0.30206946564885495,
+      "fe_vs_openalex_baseline": -0.5093957449480874,
+      "adjusted_mean_namerank_fe": -0.04550962302850242,
+      "adjusted_mean_namerank_oa_slope": 0.7627659909980511,
+      "shift_fe": -0.3475790886773574,
+      "shift_oa_slope": 0.46069652534919614
+    },
+    {
+      "cohort": "imo_gold",
+      "n": 197,
+      "mean_gold_chars": 369.6243654822335,
+      "mean_gold_named_facts": 2.949238578680203,
+      "raw_mean_namerank": 0.36193705583756347,
+      "fe_vs_openalex_baseline": -0.48325336623294013,
+      "adjusted_mean_namerank_fe": -0.01936724431335518,
+      "adjusted_mean_namerank_oa_slope": 0.8855242636586004,
+      "shift_fe": -0.38130430015091865,
+      "shift_oa_slope": 0.5235872078210368
+    },
+    {
+      "cohort": "rhodes_scholar",
+      "n": 36,
+      "mean_gold_chars": 466.5833333333333,
+      "mean_gold_named_facts": 3.3055555555555554,
+      "raw_mean_namerank": 0.3147666666666667,
+      "fe_vs_openalex_baseline": -0.42835135918387673,
+      "adjusted_mean_namerank_fe": 0.035534762735708214,
+      "adjusted_mean_namerank_oa_slope": 0.6948337370310053,
+      "shift_fe": -0.2792319039309585,
+      "shift_oa_slope": 0.38006707036433857
+    },
+    {
+      "cohort": "noi_china_gold",
+      "n": 29,
+      "mean_gold_chars": 439.0689655172414,
+      "mean_gold_named_facts": 4.344827586206897,
+      "raw_mean_namerank": 0.36753793103448273,
+      "fe_vs_openalex_baseline": -0.42489824493511147,
+      "adjusted_mean_namerank_fe": 0.03898787698447348,
+      "adjusted_mean_namerank_oa_slope": 0.7971855883485889,
+      "shift_fe": -0.32855005405000925,
+      "shift_oa_slope": 0.42964765731410615
+    },
+    {
+      "cohort": "msra_phd_fellowship",
+      "n": 237,
+      "mean_gold_chars": 513.2320675105485,
+      "mean_gold_named_facts": 5.818565400843882,
+      "raw_mean_namerank": 0.3425101265822785,
+      "fe_vs_openalex_baseline": -0.3932897233816667,
+      "adjusted_mean_namerank_fe": 0.07059639853791827,
+      "adjusted_mean_namerank_oa_slope": 0.6717059242543524,
+      "shift_fe": -0.2719137280443602,
+      "shift_oa_slope": 0.3291957976720739
+    },
+    {
+      "cohort": "ioi_gold",
+      "n": 68,
+      "mean_gold_chars": 524.1029411764706,
+      "mean_gold_named_facts": 3.8970588235294117,
+      "raw_mean_namerank": 0.3412382352941177,
+      "fe_vs_openalex_baseline": -0.34811085559056854,
+      "adjusted_mean_namerank_fe": 0.11577526632901641,
+      "adjusted_mean_namerank_oa_slope": 0.6391149998819656,
+      "shift_fe": -0.22546296896510126,
+      "shift_oa_slope": 0.29787676458784795
+    },
+    {
+      "cohort": "icpc_world_finals_gold",
+      "n": 18,
+      "mean_gold_chars": 393.6111111111111,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.6104111111111111,
+      "fe_vs_openalex_baseline": -0.24455475326104845,
+      "adjusted_mean_namerank_fe": 0.2193313686585365,
+      "adjusted_mean_namerank_oa_slope": 1.11372954653021,
+      "shift_fe": -0.3910797424525746,
+      "shift_oa_slope": 0.5033184354190988
+    },
+    {
+      "cohort": "putnam_fellow",
+      "n": 35,
+      "mean_gold_chars": 506.1142857142857,
+      "mean_gold_named_facts": 5.6571428571428575,
+      "raw_mean_namerank": 0.6076085714285715,
+      "fe_vs_openalex_baseline": -0.1332703276531232,
+      "adjusted_mean_namerank_fe": 0.33061579426646176,
+      "adjusted_mean_namerank_oa_slope": 0.9462900838485464,
+      "shift_fe": -0.27699277716210974,
+      "shift_oa_slope": 0.3386815124199749
+    },
+    {
+      "cohort": "long_tail_researcher_openalex",
+      "n": 771,
+      "mean_gold_chars": 719.5499351491569,
+      "mean_gold_named_facts": 3.511024643320363,
+      "raw_mean_namerank": 0.46388612191958495,
+      "fe_vs_openalex_baseline": 0.0,
+      "adjusted_mean_namerank_fe": 0.46388612191958495,
+      "adjusted_mean_namerank_oa_slope": 0.46388612191958495,
+      "shift_fe": 0.0,
+      "shift_oa_slope": 0.0
+    }
+  ],
+  "focus_adj_oa_slope": [
+    {
+      "cohort": "long_tail_researcher_openalex",
+      "n": 771,
+      "mean_gold_chars": 719.5499351491569,
+      "mean_gold_named_facts": 3.511024643320363,
+      "raw_mean_namerank": 0.46388612191958495,
+      "fe_vs_openalex_baseline": 0.0,
+      "adjusted_mean_namerank_fe": 0.46388612191958495,
+      "adjusted_mean_namerank_oa_slope": 0.46388612191958495,
+      "shift_fe": 0.0,
+      "shift_oa_slope": 0.0
+    },
+    {
+      "cohort": "cpho_china_first_prize",
+      "n": 50,
+      "mean_gold_chars": 424.98,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.182278,
+      "fe_vs_openalex_baseline": -0.6376072412006568,
+      "adjusted_mean_namerank_fe": -0.17372111928107187,
+      "adjusted_mean_namerank_oa_slope": 0.6382687640811904,
+      "shift_fe": -0.35599911928107186,
+      "shift_oa_slope": 0.4559907640811904
+    },
+    {
+      "cohort": "ioi_gold",
+      "n": 68,
+      "mean_gold_chars": 524.1029411764706,
+      "mean_gold_named_facts": 3.8970588235294117,
+      "raw_mean_namerank": 0.3412382352941177,
+      "fe_vs_openalex_baseline": -0.34811085559056854,
+      "adjusted_mean_namerank_fe": 0.11577526632901641,
+      "adjusted_mean_namerank_oa_slope": 0.6391149998819656,
+      "shift_fe": -0.22546296896510126,
+      "shift_oa_slope": 0.29787676458784795
+    },
+    {
+      "cohort": "msra_phd_fellowship",
+      "n": 237,
+      "mean_gold_chars": 513.2320675105485,
+      "mean_gold_named_facts": 5.818565400843882,
+      "raw_mean_namerank": 0.3425101265822785,
+      "fe_vs_openalex_baseline": -0.3932897233816667,
+      "adjusted_mean_namerank_fe": 0.07059639853791827,
+      "adjusted_mean_namerank_oa_slope": 0.6717059242543524,
+      "shift_fe": -0.2719137280443602,
+      "shift_oa_slope": 0.3291957976720739
+    },
+    {
+      "cohort": "rhodes_scholar",
+      "n": 36,
+      "mean_gold_chars": 466.5833333333333,
+      "mean_gold_named_facts": 3.3055555555555554,
+      "raw_mean_namerank": 0.3147666666666667,
+      "fe_vs_openalex_baseline": -0.42835135918387673,
+      "adjusted_mean_namerank_fe": 0.035534762735708214,
+      "adjusted_mean_namerank_oa_slope": 0.6948337370310053,
+      "shift_fe": -0.2792319039309585,
+      "shift_oa_slope": 0.38006707036433857
+    },
+    {
+      "cohort": "cmo_china_gold",
+      "n": 131,
+      "mean_gold_chars": 416.793893129771,
+      "mean_gold_named_facts": 4.015267175572519,
+      "raw_mean_namerank": 0.30206946564885495,
+      "fe_vs_openalex_baseline": -0.5093957449480874,
+      "adjusted_mean_namerank_fe": -0.04550962302850242,
+      "adjusted_mean_namerank_oa_slope": 0.7627659909980511,
+      "shift_fe": -0.3475790886773574,
+      "shift_oa_slope": 0.46069652534919614
+    },
+    {
+      "cohort": "noi_china_gold",
+      "n": 29,
+      "mean_gold_chars": 439.0689655172414,
+      "mean_gold_named_facts": 4.344827586206897,
+      "raw_mean_namerank": 0.36753793103448273,
+      "fe_vs_openalex_baseline": -0.42489824493511147,
+      "adjusted_mean_namerank_fe": 0.03898787698447348,
+      "adjusted_mean_namerank_oa_slope": 0.7971855883485889,
+      "shift_fe": -0.32855005405000925,
+      "shift_oa_slope": 0.42964765731410615
+    },
+    {
+      "cohort": "imo_gold",
+      "n": 197,
+      "mean_gold_chars": 369.6243654822335,
+      "mean_gold_named_facts": 2.949238578680203,
+      "raw_mean_namerank": 0.36193705583756347,
+      "fe_vs_openalex_baseline": -0.48325336623294013,
+      "adjusted_mean_namerank_fe": -0.01936724431335518,
+      "adjusted_mean_namerank_oa_slope": 0.8855242636586004,
+      "shift_fe": -0.38130430015091865,
+      "shift_oa_slope": 0.5235872078210368
+    },
+    {
+      "cohort": "putnam_fellow",
+      "n": 35,
+      "mean_gold_chars": 506.1142857142857,
+      "mean_gold_named_facts": 5.6571428571428575,
+      "raw_mean_namerank": 0.6076085714285715,
+      "fe_vs_openalex_baseline": -0.1332703276531232,
+      "adjusted_mean_namerank_fe": 0.33061579426646176,
+      "adjusted_mean_namerank_oa_slope": 0.9462900838485464,
+      "shift_fe": -0.27699277716210974,
+      "shift_oa_slope": 0.3386815124199749
+    },
+    {
+      "cohort": "icpc_world_finals_gold",
+      "n": 18,
+      "mean_gold_chars": 393.6111111111111,
+      "mean_gold_named_facts": 5.0,
+      "raw_mean_namerank": 0.6104111111111111,
+      "fe_vs_openalex_baseline": -0.24455475326104845,
+      "adjusted_mean_namerank_fe": 0.2193313686585365,
+      "adjusted_mean_namerank_oa_slope": 1.11372954653021,
+      "shift_fe": -0.3910797424525746,
+      "shift_oa_slope": 0.5033184354190988
+    }
+  ]
+}

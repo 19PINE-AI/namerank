@@ -1,0 +1,4 @@
+judge,judge_family,in_fam_residual_mean,n_in,out_fam_residual_mean,n_out,lift
+gemini,gemini,0.0136,53,-0.0479,562,0.0615
+claude,claude,0.0124,43,0.0221,572,-0.0097
+gpt5,gpt5,0.0603,31,0.0191,584,0.0412

@@ -1,0 +1,25 @@
+{
+  "n_pairs": 11,
+  "n_models_panel": 25,
+  "mean_NR_A": 0.5506,
+  "mean_NR_B": 0.6083,
+  "mean_delta": 0.0577,
+  "median_delta": 0.0292,
+  "min_delta": -0.0472,
+  "max_delta": 0.2879,
+  "n_positive_delta": 8,
+  "per_pair_delta": {
+    "simon_willison": 0.0728,
+    "dario_amodei": -0.0472,
+    "andrej_karpathy": 0.0176,
+    "jiayi_weng": 0.2879,
+    "tri_dao": 0.0938,
+    "lilian_weng": 0.0292,
+    "harrison_chase": 0.1512,
+    "aman_sanger": 0.0424,
+    "demis_hassabis": 0.0232,
+    "mira_murati": -0.014,
+    "aravind_srinivas": -0.022
+  },
+  "observational_jiayi_lift": 0.369
+}

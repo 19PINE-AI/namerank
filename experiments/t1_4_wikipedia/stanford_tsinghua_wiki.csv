@@ -1,0 +1,333 @@
+id,country,institution,namerank,has_wiki,sitelinks,pageviews_30d,log_pv,log_sl
+csrankings_fraser_brown,USA,Carnegie Mellon University,0.3051,0,0,0,0.0,0.0
+csrankings_oluwasanmi_koyejo,USA,Stanford University,0.5846,0,0,0,0.0,0.0
+csrankings_jon_froehlich,USA,University of Washington,0.6489,0,0,0,0.0,0.0
+csrankings_rajalakshmi_nandakumar_tech,USA,Cornell University,0.3659,0,0,0,0.0,0.0
+csrankings_ziv_bar_joseph,USA,Carnegie Mellon University,0.567,1,2,287,5.662960480135946,1.0986122886681096
+csrankings_emily_mower_provost,USA,University of Michigan,0.53,1,1,132,4.890349128221754,0.6931471805599453
+csrankings_jeff_a__bilmes,USA,University of Washington,0.6501,0,0,0,0.0,0.0
+csrankings_anind_k__dey,USA,University of Washington,0.6376,1,1,219,5.393627546352361,0.6931471805599453
+csrankings_christopher_peikert,USA,University of Michigan,0.6646,0,0,0,0.0,0.0
+csrankings_angelique_taylor_tech,USA,Cornell University,0.2786,0,0,0,0.0,0.0
+csrankings_adam_finkelstein,USA,Princeton University,0.5203,0,0,0,0.0,0.0
+csrankings_brian_w__kernighan,USA,Princeton University,0.5589,1,46,6812,8.826587830773668,3.8501476017100584
+csrankings_steve_marschner,USA,Cornell University,0.6486,0,0,0,0.0,0.0
+csrankings_wenting_zheng,USA,Carnegie Mellon University,0.3405,0,0,0,0.0,0.0
+csrankings_christoforos_e__kozyrakis,USA,Stanford University,0.6016,0,0,0,0.0,0.0
+csrankings_stefano_tessaro,USA,University of Washington,0.5732,0,0,0,0.0,0.0
+csrankings_anupam_datta,USA,Carnegie Mellon University,0.6562,0,0,0,0.0,0.0
+csrankings_qing_qu_0001,USA,University of Michigan,0.3673,0,0,0,0.0,0.0
+csrankings_jenna_wiens,USA,University of Michigan,0.5992,0,0,0,0.0,0.0
+csrankings_immanuel_trummer,USA,Cornell University,0.5468,0,0,0,0.0,0.0
+csrankings_roy_maxion,USA,Carnegie Mellon University,0.5195,1,1,82,4.418840607796598,0.6931471805599453
+csrankings_maneesh_agrawala,USA,Stanford University,0.5922,1,3,0,0.0,1.3862943611198906
+csrankings_tanushree_mitra,USA,University of Washington,0.4194,0,0,0,0.0,0.0
+csrankings_li_yang_tan,USA,Stanford University,0.39,0,0,0,0.0,0.0
+csrankings_anshul_kundaje,USA,Stanford University,0.6011,0,0,0,0.0,0.0
+csrankings_david_s__bindel,USA,Cornell University,0.5951,0,0,0,0.0,0.0
+csrankings_riad_wahby,USA,Carnegie Mellon University,0.5284,0,0,0,0.0,0.0
+csrankings_james_h__morris_jr_,USA,Carnegie Mellon University,0.5305,0,0,0,0.0,0.0
+csrankings_parastoo_abtahi,USA,Princeton University,0.2811,0,0,0,0.0,0.0
+csrankings_jialin_ding_0001,USA,Princeton University,0.1764,0,0,0,0.0,0.0
+csrankings_euiwoong_lee,USA,University of Michigan,0.467,0,0,0,0.0,0.0
+csrankings_hartmut_geyer,USA,Carnegie Mellon University,0.3659,0,0,0,0.0,0.0
+csrankings_william_l__scherlis,USA,Carnegie Mellon University,0.5529,0,0,0,0.0,0.0
+csrankings_bryan_parno,USA,Carnegie Mellon University,0.6643,0,0,0,0.0,0.0
+csrankings_huijia_lin,USA,University of Washington,0.5123,1,2,246,5.5093883366279774,1.0986122886681096
+csrankings_phoebe_sengers,USA,Cornell University,0.5841,1,3,188,5.241747015059643,1.3862943611198906
+csrankings_andrew_pavlo,USA,Carnegie Mellon University,0.5732,0,0,0,0.0,0.0
+csrankings_bogdan_vasilescu,USA,Carnegie Mellon University,0.4451,0,0,0,0.0,0.0
+csrankings_hanna_hajishirzi,USA,University of Washington,0.5592,1,1,391,5.971261839790462,0.6931471805599453
+csrankings_james_mccann,USA,Carnegie Mellon University,0.4076,0,0,0,0.0,0.0
+csrankings_mark_a__horowitz,USA,Stanford University,0.6035,1,4,847,6.742880635791903,1.6094379124341003
+csrankings_olga_g__troyanskaya,USA,Princeton University,0.6108,1,3,445,6.100318952020064,1.3862943611198906
+csrankings_yun_william_yu,USA,Carnegie Mellon University,0.23,0,0,0,0.0,0.0
+csrankings_abhinav_gupta_0001,USA,Carnegie Mellon University,0.4997,0,0,0,0.0,0.0
+csrankings_carolyn_penstein_ros,USA,Carnegie Mellon University,0.5081,1,1,162,5.093750200806762,0.6931471805599453
+csrankings_lorrie_faith_cranor,USA,Carnegie Mellon University,0.6303,1,3,301,5.71042701737487,1.3862943611198906
+csrankings_hun_seok_kim,USA,University of Michigan,0.4027,0,0,0,0.0,0.0
+csrankings_maria_florina_popa,USA,Carnegie Mellon University,0.1251,0,0,0,0.0,0.0
+csrankings_martha_e__pollack,USA,Cornell University,0.5122,1,7,1659,7.414572881350589,2.0794415416798357
+csrankings_yejin_choi_0001,USA,Stanford University,0.1355,0,0,0,0.0,0.0
+csrankings_michael_j__freedman,USA,Princeton University,0.5068,1,1,458,6.129050210060545,0.6931471805599453
+csrankings_joyce_yue_chai,USA,University of Michigan,0.5119,0,0,0,0.0,0.0
+csrankings_huijia_rachel_lin,USA,University of Washington,0.4935,1,2,246,5.5093883366279774,1.0986122886681096
+csrankings_arpita_ghosh,USA,Cornell University,0.4276,0,0,0,0.0,0.0
+csrankings_jonathan_r__mayer,USA,Princeton University,0.5509,0,0,0,0.0,0.0
+csrankings_amy_ogan,USA,Carnegie Mellon University,0.5435,0,0,0,0.0,0.0
+csrankings_ronald_g__dreslinski,USA,University of Michigan,0.5338,0,0,0,0.0,0.0
+csrankings_alan_m__frieze,USA,Carnegie Mellon University,0.6427,1,0,172,5.153291594497779,0.0
+csrankings_junyi_zhu_0001,USA,University of Michigan,0.2143,0,0,0,0.0,0.0
+csrankings_mae_milano,USA,Princeton University,0.1768,0,0,0,0.0,0.0
+csrankings_peter_m__chen,USA,University of Michigan,0.5209,0,0,0,0.0,0.0
+csrankings_andrew_clifford_myers,USA,Cornell University,0.5681,0,0,0,0.0,0.0
+csrankings_ben_shapiro_0001,USA,University of Washington,0.1311,0,0,0,0.0,0.0
+csrankings_anirudha_majumdar,USA,Princeton University,0.4808,0,0,0,0.0,0.0
+csrankings_jeffrey_michael_heer,USA,University of Washington,0.6338,1,2,568,6.343880434126331,1.0986122886681096
+csrankings_nicola_dell_tech,USA,Cornell University,0.4757,1,4,205,5.327876168789581,1.6094379124341003
+csrankings_thomas_rothvoss,USA,University of Washington,0.65,0,0,0,0.0,0.0
+csrankings_bharath_hariharan,USA,Cornell University,0.5232,0,0,0,0.0,0.0
+csrankings_paul_glz,USA,Cornell University,0.3392,0,0,0,0.0,0.0
+csrankings_anhong_guo,USA,University of Michigan,0.4138,0,0,0,0.0,0.0
+csrankings_vincent_josua_hellendoorn,USA,Carnegie Mellon University,0.3795,0,0,0,0.0,0.0
+csrankings_david_p__woodruff,USA,Carnegie Mellon University,0.6446,1,2,200,5.303304908059076,1.0986122886681096
+csrankings_brian_noble,USA,University of Michigan,0.5554,0,0,0,0.0,0.0
+csrankings_qingzi_vera_liao,USA,University of Michigan,0.3684,0,0,0,0.0,0.0
+csrankings_ke_sun_0012,USA,University of Michigan,0.1784,0,0,0,0.0,0.0
+csrankings_thomas_l__griffiths_0001,USA,Princeton University,0.4911,0,0,0,0.0,0.0
+csrankings_john_d__storey,USA,Princeton University,0.3295,1,1,240,5.484796933490655,0.6931471805599453
+csrankings_karem_a__sakallah,USA,University of Michigan,0.5716,1,1,154,5.043425116919247,0.6931471805599453
+csrankings_chenyan_xiong,USA,Carnegie Mellon University,0.4138,0,0,0,0.0,0.0
+csrankings_michael_p__kim,USA,Cornell University,0.393,0,0,0,0.0,0.0
+csrankings_paul_grubbs,USA,University of Michigan,0.4532,0,0,0,0.0,0.0
+csrankings_mark_guzdial,USA,University of Michigan,0.6103,1,2,307,5.730099782973575,1.0986122886681096
+csrankings_wen_sun_0002,USA,Cornell University,0.3405,0,0,0,0.0,0.0
+csrankings_norman_sadeh_koniecpol,USA,Carnegie Mellon University,0.4108,0,0,0,0.0,0.0
+csrankings_mahadev_satyanarayanan,USA,Carnegie Mellon University,0.5705,1,2,948,6.855408798609928,1.0986122886681096
+csrankings_dan_boneh,USA,Stanford University,0.6135,1,13,1309,7.177782416195197,2.639057329615259
+csrankings_ronald_j__brachman,USA,Cornell University,0.5346,1,5,329,5.799092654460526,1.791759469228055
+csrankings_jiasi_chen,USA,University of Michigan,0.3249,0,0,0,0.0,0.0
+csrankings_yin_tat_lee,USA,University of Washington,0.5513,0,0,0,0.0,0.0
+csrankings_odest_chadwicke_jenkins,USA,University of Michigan,0.5692,1,0,153,5.0369526024136295,0.0
+csrankings_mor_harchol_balter,USA,Carnegie Mellon University,0.6,1,1,0,0.0,0.6931471805599453
+csrankings_bernard_marie_chazelle,USA,Princeton University,0.5978,1,7,1587,7.370230641807081,2.0794415416798357
+csrankings_magdalena_balazinska,USA,University of Washington,0.6419,1,6,250,5.5254529391317835,1.9459101490553132
+csrankings_ioannis_gkioulekas,USA,Carnegie Mellon University,0.5062,0,0,0,0.0,0.0
+csrankings_cyrus_omar,USA,University of Michigan,0.4853,0,0,0,0.0,0.0
+csrankings_david_m__mimno,USA,Cornell University,0.6719,0,0,0,0.0,0.0
+csrankings_joel_mcmanus,USA,Carnegie Mellon University,0.0846,0,0,0,0.0,0.0
+csrankings_jason_li_0006,USA,Carnegie Mellon University,0.2246,0,0,0,0.0,0.0
+csrankings_li_fei_fei_0001,USA,Stanford University,0.4576,0,0,0,0.0,0.0
+csrankings_kunle_olukotun,USA,Stanford University,0.6246,1,6,856,6.75343791859778,1.9459101490553132
+csrankings_jaime_f__fisac,USA,Princeton University,0.5395,0,0,0,0.0,0.0
+csrankings_christos_faloutsos,USA,Carnegie Mellon University,0.6025,1,1,220,5.3981627015177525,0.6931471805599453
+csrankings_travis_d__breaux,USA,Carnegie Mellon University,0.5276,0,0,0,0.0,0.0
+csrankings_elizabeth_bondi_kelly,USA,University of Michigan,0.3416,0,0,0,0.0,0.0
+csrankings_maggie_makar,USA,University of Michigan,0.3395,0,0,0,0.0,0.0
+csrankings_giulia_guidi,USA,Cornell University,0.3116,0,0,0,0.0,0.0
+csrankings_mark_wah_newman,USA,University of Michigan,0.2127,0,0,0,0.0,0.0
+csrankings_adji_bousso_dieng,USA,Princeton University,0.497,1,7,347,5.8522024797744745,2.0794415416798357
+csrankings_matthew_otoole,USA,Carnegie Mellon University,0.3905,0,0,0,0.0,0.0
+csrankings_tadayoshi_kohno,USA,University of Washington,0.6578,1,1,252,5.53338948872752,0.6931471805599453
+csrankings_joe_halpern,USA,Cornell University,0.6703,0,0,0,0.0,0.0
+csrankings_riad_s__wahby,USA,Carnegie Mellon University,0.5005,0,0,0,0.0,0.0
+csrankings_ira_kemelmacher_shlizerman,USA,University of Washington,0.6632,0,0,0,0.0,0.0
+csrankings_jeremy_z__kolter,USA,Carnegie Mellon University,0.4886,0,0,0,0.0,0.0
+csrankings_m__satyanarayanan,USA,Carnegie Mellon University,0.6339,0,0,0,0.0,0.0
+csrankings_gordon_wetzstein,USA,Stanford University,0.6084,0,0,0,0.0,0.0
+csrankings_raj_p__n__rao,USA,University of Washington,0.5851,0,0,0,0.0,0.0
+csrankings_theophilus_benson,USA,Carnegie Mellon University,0.3654,0,0,0,0.0,0.0
+csrankings_lingjia_tang,USA,University of Michigan,0.4854,0,0,0,0.0,0.0
+csrankings_ashish_goel,USA,Stanford University,0.5923,1,2,457,6.126869184114185,1.0986122886681096
+csrankings_balaji_prabhakar,USA,Stanford University,0.5707,0,0,0,0.0,0.0
+csrankings_gillat_kol,USA,Princeton University,0.4386,0,0,0,0.0,0.0
+csrankings_norman_sadeh_0001,USA,Carnegie Mellon University,0.4878,0,0,0,0.0,0.0
+csrankings_pravesh_kothari,USA,Princeton University,0.4722,0,0,0,0.0,0.0
+csrankings_alex_lombardi,USA,Princeton University,0.2568,0,0,0,0.0,0.0
+csrankings_ravi_arun_netravali,USA,Princeton University,0.4022,0,0,0,0.0,0.0
+csrankings_fredrik_kjolstad,USA,Stanford University,0.4049,0,0,0,0.0,0.0
+csrankings_lin_ma_0006,USA,University of Michigan,0.1573,0,0,0,0.0,0.0
+csrankings_shixiang_zhu,USA,Carnegie Mellon University,0.1846,0,0,0,0.0,0.0
+csrankings_tanya_goyal,USA,Cornell University,0.2735,0,0,0,0.0,0.0
+csrankings_francesca_parise,USA,Cornell University,0.4451,0,0,0,0.0,0.0
+csrankings_yoav_artzi_tech,USA,Cornell University,0.5824,0,0,0,0.0,0.0
+csrankings_sheng_wang_0012,USA,University of Washington,0.1686,0,0,0,0.0,0.0
+csrankings_robert_d__gregg_iv,USA,University of Michigan,0.3684,1,1,102,4.634728988229636,0.6931471805599453
+csrankings_vincent_aleven,USA,Carnegie Mellon University,0.663,1,3,197,5.288267030694535,1.3862943611198906
+csrankings_michael_bedford_taylor,USA,University of Washington,0.3778,0,0,0,0.0,0.0
+csrankings_danqi_chen_0001,USA,Princeton University,0.4922,0,0,0,0.0,0.0
+csrankings_james_andrew_bagnell,USA,Carnegie Mellon University,0.5851,0,0,0,0.0,0.0
+csrankings_daphne_ippolito,USA,Carnegie Mellon University,0.4341,0,0,0,0.0,0.0
+csrankings_srinivasan_seshan,USA,Carnegie Mellon University,0.5845,1,1,128,4.859812404361672,0.6931471805599453
+csrankings_zak_kincaid,USA,Princeton University,0.4073,0,0,0,0.0,0.0
+csrankings_christian_cuba_samaniego,USA,Carnegie Mellon University,0.1078,0,0,0,0.0,0.0
+csrankings_steve_tanimoto,USA,University of Washington,0.6064,0,0,0,0.0,0.0
+csrankings_michael_d__ernst,USA,University of Washington,0.6335,0,0,0,0.0,0.0
+csrankings_jennifer_j__sun,USA,Cornell University,0.2484,0,0,0,0.0,0.0
+csrankings_greg_bodwin,USA,University of Michigan,0.5168,0,0,0,0.0,0.0
+csrankings_alexander_m__rush_tech,USA,Cornell University,0.6009,0,0,0,0.0,0.0
+csrankings_fernando_diaz_0001,USA,Carnegie Mellon University,0.2146,0,0,0,0.0,0.0
+csrankings_steven_rudich,USA,Carnegie Mellon University,0.5989,1,5,364,5.8998973535824915,1.791759469228055
+csrankings_karthik_sridharan,USA,Cornell University,0.4865,0,0,0,0.0,0.0
+csrankings_tapomayukh_bhattacharjee,USA,Cornell University,0.4143,0,0,0,0.0,0.0
+csrankings_karl_crary,USA,Carnegie Mellon University,0.4773,0,0,0,0.0,0.0
+csrankings_donald_greenberg,USA,Cornell University,0.5557,1,2,283,5.648974238161206,1.0986122886681096
+csrankings_andrew_begel,USA,Carnegie Mellon University,0.4681,0,0,0,0.0,0.0
+csrankings_radhika_nagpal,USA,Princeton University,0.4321,1,4,596,6.391917113392602,1.6094379124341003
+csrankings_satish_narayanasamy,USA,University of Michigan,0.4876,0,0,0,0.0,0.0
+csrankings_swarun_kumar,USA,Carnegie Mellon University,0.4832,0,0,0,0.0,0.0
+csrankings_emma_strubell,USA,Carnegie Mellon University,0.4959,0,0,0,0.0,0.0
+csrankings_adji_b__dieng,USA,Princeton University,0.4851,1,7,347,5.8522024797744745,2.0794415416798357
+csrankings_jignesh_m__patel,USA,Carnegie Mellon University,0.3792,0,0,0,0.0,0.0
+csrankings_amit_a__levy_0001,USA,Princeton University,0.3668,0,0,0,0.0,0.0
+csrankings_virgil_d__gligor,USA,Carnegie Mellon University,0.5459,1,1,320,5.771441123130016,0.6931471805599453
+csrankings_jennifer_mankoff,USA,University of Washington,0.6754,1,1,115,4.7535901911063645,0.6931471805599453
+csrankings_min_xu_0009,USA,Carnegie Mellon University,0.2659,0,0,0,0.0,0.0
+csrankings_chris_thachuk,USA,University of Washington,0.3552,0,0,0,0.0,0.0
+csrankings_nikola_banovic_0001,USA,University of Michigan,0.4014,0,0,0,0.0,0.0
+csrankings_helen_nissenbaum_tech,USA,Cornell University,0.6524,1,6,875,6.775366090936392,1.9459101490553132
+csrankings_christopher_batten,USA,Cornell University,0.5708,0,0,0,0.0,0.0
+csrankings_christopher_piech,USA,Stanford University,0.5982,0,0,0,0.0,0.0
+csrankings_scott_e__hudson,USA,Carnegie Mellon University,0.5711,1,1,148,5.003946305945459,0.6931471805599453
+csrankings_simon_peter_0001,USA,University of Washington,0.244,0,0,0,0.0,0.0
+csrankings_amy_xian_zhang,USA,University of Washington,0.4241,0,0,0,0.0,0.0
+csrankings_kyra_gan_tech,USA,Cornell University,0.1576,0,0,0,0.0,0.0
+csrankings_martin_strauss_0001,USA,University of Michigan,0.3784,0,0,0,0.0,0.0
+csrankings_ameet_talwalkar,USA,Carnegie Mellon University,0.567,0,0,0,0.0,0.0
+csrankings_michael_i__shamos,USA,Carnegie Mellon University,0.5768,0,0,0,0.0,0.0
+csrankings_david_lindlbauer,USA,Carnegie Mellon University,0.4878,0,0,0,0.0,0.0
+csrankings_carla_gomes_0001,USA,Cornell University,0.5181,0,0,0,0.0,0.0
+csrankings_tom_michael_mitchell,USA,Carnegie Mellon University,0.587,1,6,1251,7.132497551660044,1.9459101490553132
+csrankings_wyatt_lloyd,USA,Princeton University,0.4443,0,0,0,0.0,0.0
+csrankings_srinivasa_g__narasimhan,USA,Carnegie Mellon University,0.5662,0,0,0,0.0,0.0
+csrankings_gokul_subramanian_ravi,USA,University of Michigan,0.2757,0,0,0,0.0,0.0
+csrankings_ragunathan_raj_rajkumar,USA,Carnegie Mellon University,0.6054,1,1,129,4.867534450455582,0.6931471805599453
+csrankings_jiajun_wu_0001,USA,Stanford University,0.4319,0,0,0,0.0,0.0
+csrankings_shwetak_patel,USA,University of Washington,0.6738,1,4,658,6.490723534502507,1.6094379124341003
+csrankings_oussama_khatib,USA,Stanford University,0.578,1,7,643,6.467698726104354,2.0794415416798357
+csrankings_mendel_rosenblum,USA,Stanford University,0.5908,1,4,2203,7.698029170272805,1.6094379124341003
+csrankings_marijn_heule,USA,Carnegie Mellon University,0.6632,1,2,589,6.380122536899765,1.0986122886681096
+csrankings_adrian_sampson,USA,Cornell University,0.5688,0,0,0,0.0,0.0
+csrankings_jonathan_aldrich,USA,Carnegie Mellon University,0.6238,0,0,0,0.0,0.0
+csrankings_mona_t__diab,USA,Carnegie Mellon University,0.4749,1,4,301,5.71042701737487,1.6094379124341003
+csrankings_david_brumley,USA,Carnegie Mellon University,0.5905,1,1,360,5.8888779583328805,0.6931471805599453
+csrankings_zico_kolter,USA,Carnegie Mellon University,0.5322,1,2,2752,7.920446505142607,1.0986122886681096
+csrankings_guy_e__blelloch,USA,Carnegie Mellon University,0.6341,1,4,295,5.69035945432406,1.6094379124341003
+csrankings_kirstin_h__petersen,USA,Cornell University,0.5114,0,0,0,0.0,0.0
+csrankings_stefano_ermon,USA,Stanford University,0.6157,0,0,0,0.0,0.0
+csrankings_robert_e__tarjan,USA,Princeton University,0.56,1,29,2765,7.925157512224704,3.4011973816621555
+csrankings_vitaly_shmatikov_tech,USA,Cornell University,0.6086,1,1,182,5.209486152841421,0.6931471805599453
+csrankings_amy_j__ko,USA,University of Washington,0.5799,1,2,396,5.983936280687191,1.0986122886681096
+csrankings_steven_l__salzberg,USA,Johns Hopkins University,0.6662,1,3,516,6.248042874508429,1.3862943611198906
+csrankings_chris_thomas_0004,USA,Virginia Tech,0.1372,0,0,0,0.0,0.0
+csrankings_abraham_matta,USA,Boston University,0.4136,0,0,0,0.0,0.0
+csrankings_daniel_rakita,USA,Yale University,0.3538,0,0,0,0.0,0.0
+csrankings_jin_xu_0002,China,Peking University,0.2227,0,0,0,0.0,0.0
+csrankings_christopher_j__maclellan,USA,Georgia Institute of Technology,0.4135,0,0,0,0.0,0.0
+csrankings_zheng_jun_zha,China,USTC,0.4527,0,0,0,0.0,0.0
+csrankings_mingxing_xu,China,Tsinghua University,0.3273,0,0,0,0.0,0.0
+csrankings_mohsen_ghaffari_0001,USA,Massachusetts Inst. of Technology,0.4592,0,0,0,0.0,0.0
+csrankings_xinming_ou,USA,University of South Florida,0.51,0,0,0,0.0,0.0
+csrankings_sam_tobin_hochstadt,USA,Indiana University,0.5571,0,0,0,0.0,0.0
+csrankings_gangshan_wu,China,Nanjing University,0.3673,0,0,0,0.0,0.0
+csrankings_estrid_he,USA,RMIT University,0.1759,0,0,0,0.0,0.0
+csrankings_mark_yim,USA,University of Pennsylvania,0.563,0,0,0,0.0,0.0
+csrankings_bangalore_s__manjunath,USA,Univ. of California - Santa Barbara,0.5311,0,0,0,0.0,0.0
+csrankings_shijia_pan,USA,Univ. of California - Merced,0.4073,0,0,0,0.0,0.0
+csrankings_dan_mcquillan,USA,Goldsmiths University of London,0.5768,0,0,0,0.0,0.0
+csrankings_lesia_semenova,USA,Rutgers University,0.138,0,0,0,0.0,0.0
+csrankings_leonid_reyzin,USA,Boston University,0.6211,0,0,0,0.0,0.0
+csrankings_yuan_yao_0001,China,Nanjing University,0.2351,0,0,0,0.0,0.0
+csrankings_patrick_traynor,USA,University of Florida,0.5724,0,0,0,0.0,0.0
+csrankings_mohammed_safayet_arefin,USA,Colorado State University,0.1527,0,0,0,0.0,0.0
+csrankings_jeff_clune,USA,University of British Columbia,0.6108,1,1,492,6.20050917404269,0.6931471805599453
+csrankings_benjamin_m__marlin,USA,Univ. of Massachusetts Amherst,0.4943,0,0,0,0.0,0.0
+csrankings_ruihua_song,China,Renmin University of China,0.5127,0,0,0,0.0,0.0
+csrankings_jianxin_wu_0001,China,Nanjing University,0.4254,0,0,0,0.0,0.0
+csrankings_david_j__crandall,USA,Indiana University,0.5689,0,0,0,0.0,0.0
+csrankings_anand_bhattad,USA,Johns Hopkins University,0.193,0,0,0,0.0,0.0
+csrankings_yi_ming_li,China,Tsinghua University,0.153,0,0,0,0.0,0.0
+csrankings_geir_e__dullerud,USA,Univ. of Illinois at Urbana-Champaign,0.5965,0,0,0,0.0,0.0
+csrankings_john_edwards_0002,USA,Utah State University,0.1846,0,0,0,0.0,0.0
+csrankings_eugenia_ha_rim_rho,USA,Virginia Tech,0.3722,0,0,0,0.0,0.0
+csrankings_tinoosh_mohsenin,USA,Johns Hopkins University,0.4157,0,0,0,0.0,0.0
+csrankings_bill_punch_0001,USA,Michigan State University,0.3784,0,0,0,0.0,0.0
+csrankings_m__ani_hsieh,USA,University of Pennsylvania,0.463,0,0,0,0.0,0.0
+csrankings_kevin_r__b__butler,USA,University of Florida,0.5192,0,0,0,0.0,0.0
+csrankings_carl_f__disalvo,USA,Georgia Institute of Technology,0.6538,0,0,0,0.0,0.0
+csrankings_frank_a__drews,USA,Ohio University,0.2435,0,0,0,0.0,0.0
+csrankings_pascal_hitzler,USA,Kansas State University,0.6465,1,2,271,5.605802066295998,1.0986122886681096
+csrankings_hongzhi_wang_0001,China,Harbin Institute of Technology,0.4304,0,0,0,0.0,0.0
+csrankings_yaxiong_xie,USA,University at Buffalo,0.2822,0,0,0,0.0,0.0
+csrankings_debin_zhao,China,Harbin Institute of Technology,0.4219,0,0,0,0.0,0.0
+csrankings_kos_ldeczi,USA,Vanderbilt University,0.5469,0,0,0,0.0,0.0
+csrankings_xiaojian_liao,China,Beihang University,0.2241,0,0,0,0.0,0.0
+csrankings_elizabeth_cherry,USA,Georgia Institute of Technology,0.2332,0,0,0,0.0,0.0
+csrankings_dan_roth_0001,USA,University of Pennsylvania,0.4627,0,0,0,0.0,0.0
+csrankings_charalampos_papamanthou,USA,Yale University,0.5507,0,0,0,0.0,0.0
+csrankings_theodore_p__pavlic,USA,Arizona State University,0.4659,0,0,0,0.0,0.0
+csrankings_amir_houmansadr,USA,Univ. of Massachusetts Amherst,0.6162,0,0,0,0.0,0.0
+csrankings_robin_d__dowell,USA,University of Colorado Boulder,0.4468,0,0,0,0.0,0.0
+csrankings_najim_dehak,USA,Johns Hopkins University,0.5357,0,0,0,0.0,0.0
+csrankings_zeyun_yu,USA,Univ. of Wisconsin - Milwaukee,0.4781,0,0,0,0.0,0.0
+csrankings_carl_disalvo,USA,Georgia Institute of Technology,0.6008,0,0,0,0.0,0.0
+csrankings_angjoo_kanazawa,USA,Univ. of California - Berkeley,0.5119,0,0,0,0.0,0.0
+csrankings_hu_ding,China,USTC,0.3941,0,0,0,0.0,0.0
+csrankings_coskun_bayrak,USA,Univ. of Arkansas - Little Rock,0.4697,0,0,0,0.0,0.0
+csrankings_liangming_pan,China,Peking University,0.2695,0,0,0,0.0,0.0
+csrankings_uri_j__wilensky,USA,Northwestern University,0.6514,1,3,356,5.877735781779639,1.3862943611198906
+csrankings_sushil_k__prasad,USA,University of Texas at San Antonio,0.4068,0,0,0,0.0,0.0
+csrankings_seung_jun_kim_0002,USA,Univ. of Maryland - Baltimore County,0.3024,0,0,0,0.0,0.0
+csrankings_dongyoon_lee,USA,Stony Brook University,0.49,0,0,0,0.0,0.0
+csrankings_fuxin_li,USA,Oregon State University,0.4408,0,0,0,0.0,0.0
+csrankings_jian_huang_0006,USA,Univ. of Illinois at Urbana-Champaign,0.3127,0,0,0,0.0,0.0
+csrankings_bahman_kalantari,USA,Rutgers University,0.5011,0,0,0,0.0,0.0
+csrankings_david_m__brooks,USA,Harvard University,0.3927,0,0,0,0.0,0.0
+csrankings_cherri_m__pancake,USA,Oregon State University,0.4851,1,3,184,5.220355825078325,1.3862943611198906
+csrankings_jacob_murray,USA,Washington State University,0.183,0,0,0,0.0,0.0
+csrankings_monica_n__agrawal,USA,Duke University,0.2403,0,0,0,0.0,0.0
+csrankings_hannah_kerner,USA,Arizona State University,0.4189,0,0,0,0.0,0.0
+csrankings_laurie_williams,USA,North Carolina State University,0.6222,1,1,164,5.10594547390058,0.6931471805599453
+csrankings_aaron_mueller,USA,Boston University,0.2451,0,0,0,0.0,0.0
+csrankings_naomi_sirkin,USA,Drexel University,0.1186,0,0,0,0.0,0.0
+csrankings_james_t__canning,USA,University of Massachusetts Lowell,0.2089,0,0,0,0.0,0.0
+csrankings_sanjoy_dasgupta,USA,Univ. of California - San Diego,0.6197,0,0,0,0.0,0.0
+csrankings_tlay_adali,USA,Univ. of Maryland - Baltimore County,0.6646,1,4,544,6.300785794663244,1.6094379124341003
+csrankings_yubei_chen,USA,Univ. of California - Davis,0.3654,0,0,0,0.0,0.0
+csrankings_xia_zhou,USA,Columbia University,0.3746,1,6,111,4.718498871295094,1.9459101490553132
+csrankings_zhuoyue_zhao_0001,USA,University at Buffalo,0.2597,0,0,0,0.0,0.0
+csrankings_jiayi_ma_0001,China,Wuhan University,0.4605,0,0,0,0.0,0.0
+csrankings_lynn_l__peterson,USA,University of Texas at Arlington,0.186,0,0,0,0.0,0.0
+csrankings_ala_i__al_fuqaha,USA,Western Michigan University,0.5454,0,0,0,0.0,0.0
+csrankings_shanshan_feng_0001,China,Wuhan University,0.1597,0,0,0,0.0,0.0
+csrankings_yuqing_kong,China,Peking University,0.337,0,0,0,0.0,0.0
+csrankings_qiuyue_wang,China,Renmin University of China,0.2853,0,0,0,0.0,0.0
+csrankings_yan_song_0003,China,USTC,0.1116,0,0,0,0.0,0.0
+csrankings_iqbal_gondal,USA,RMIT University,0.3957,0,0,0,0.0,0.0
+csrankings_ben_reichardt,USA,University of Southern California,0.5305,0,0,0,0.0,0.0
+csrankings_jesse_l__barlow,USA,Pennsylvania State University,0.4108,0,0,0,0.0,0.0
+csrankings_bill_lin_0001,USA,Univ. of California - San Diego,0.3768,0,0,0,0.0,0.0
+csrankings_lei_sha,China,Beihang University,0.2841,0,0,0,0.0,0.0
+csrankings_judith_odili_uchidiuno,USA,Georgia Institute of Technology,0.2473,0,0,0,0.0,0.0
+csrankings_jeffrey_todd_ogle,USA,Virginia Tech,0.1973,0,0,0,0.0,0.0
+csrankings_swabha_swayamdipta,USA,University of Southern California,0.4868,0,0,0,0.0,0.0
+csrankings_xinming_zhang_0001,China,USTC,0.2832,0,0,0,0.0,0.0
+csrankings_nathan_jacobs,USA,Washington University in St. Louis,0.4173,1,1,65,4.189654742026425,0.6931471805599453
+csrankings_dingwen_wang,China,Wuhan University,0.273,0,0,0,0.0,0.0
+csrankings_zhitao_ying,USA,Yale University,0.2654,0,0,0,0.0,0.0
+csrankings_r__iris_bahar,USA,Colorado School of Mines,0.4254,1,1,130,4.875197323201151,0.6931471805599453
+csrankings_wajih_ul_hassan,USA,University of Virginia,0.3376,0,0,0,0.0,0.0
+csrankings_xin_liu_0002,USA,Univ. of California - Davis,0.4419,0,0,0,0.0,0.0
+csrankings_daniel_moyer,USA,Vanderbilt University,0.353,0,0,0,0.0,0.0
+csrankings_junichi_suzuki,USA,University of Massachusetts Boston,0.4249,0,0,0,0.0,0.0
+csrankings_jaroslaw_r__rossignac,USA,Georgia Institute of Technology,0.6207,0,0,0,0.0,0.0
+csrankings_ted_herman,USA,University of Iowa,0.5373,0,0,0,0.0,0.0
+csrankings_sumanta_n__pattanaik,USA,University of Central Florida,0.483,0,0,0,0.0,0.0
+csrankings_giovanni_vigna,USA,Univ. of California - Santa Barbara,0.6028,0,0,0,0.0,0.0
+csrankings_yuting_wang_0001,China,Shanghai Jiao Tong University,0.2341,0,0,0,0.0,0.0
+csrankings_jun_xiao_0001,China,Zhejiang University,0.4116,0,0,0,0.0,0.0
+csrankings_nazanin_rahnavard,USA,University of Central Florida,0.3205,0,0,0,0.0,0.0
+csrankings_william_yeoh_0001,USA,Washington University in St. Louis,0.3962,0,0,0,0.0,0.0
+csrankings_cheng_zhuo,China,Zhejiang University,0.2682,0,0,0,0.0,0.0
+csrankings_samira_manabi_khan,USA,University of Virginia,0.2581,0,0,0,0.0,0.0
+csrankings_bo_zhao_0023,China,Wuhan University,0.1876,0,0,0,0.0,0.0
+csrankings_marco_fyfe_pietro_gillies,USA,Goldsmiths University of London,0.3289,0,0,0,0.0,0.0
+csrankings_dae_hyun_kim_0004,USA,Washington State University,0.2489,0,0,0,0.0,0.0
+csrankings_stephanie_j__lunn,USA,Florida International University,0.2632,0,0,0,0.0,0.0
+csrankings_venkatachalam_anantharam,USA,Univ. of California - Berkeley,0.4981,0,0,0,0.0,0.0
+csrankings_juncheng_yang,USA,Harvard University,0.2143,0,0,0,0.0,0.0
+csrankings_hongliang_yu,China,Tsinghua University,0.2057,0,0,0,0.0,0.0
+csrankings_ronald_d__dutton,USA,University of Central Florida,0.2541,0,0,0,0.0,0.0
+csrankings_yong_li_0008,China,Tsinghua University,0.3446,0,0,0,0.0,0.0
+csrankings_hao_peng_0009,USA,Univ. of Illinois at Urbana-Champaign,0.3195,0,0,0,0.0,0.0
+csrankings_chad_mourning,USA,Ohio University,0.1981,0,0,0,0.0,0.0
+csrankings_xiaolin_huang,China,Shanghai Jiao Tong University,0.5289,0,0,0,0.0,0.0
+csrankings_shirin_nilizadeh,USA,University of Texas at Arlington,0.4505,0,0,0,0.0,0.0
+csrankings_iris_bahar,USA,Colorado School of Mines,0.5184,1,1,130,4.875197323201151,0.6931471805599453
+csrankings_shanghang_zhang,China,Peking University,0.3316,0,0,0,0.0,0.0
+csrankings_jenna_l__marquard,USA,Univ. of Massachusetts Amherst,0.3465,0,0,0,0.0,0.0
+csrankings_jay_ligatti,USA,University of South Florida,0.5572,0,0,0,0.0,0.0
+csrankings_robert_pless,USA,George Washington University,0.5038,0,0,0,0.0,0.0
+csrankings_xin_jiang_0001,China,Harbin Institute of Technology,0.173,0,0,0,0.0,0.0
+csrankings_eamonn_j__keogh,USA,Univ. of California - Riverside,0.6373,1,0,190,5.25227342804663,0.0
+csrankings_michael_a__forbes_0001,USA,Univ. of Illinois at Urbana-Champaign,0.393,0,0,0,0.0,0.0

@@ -1,0 +1,2584 @@
+[
+  {
+    "id": "csrankings_christoforos_e__kozyrakis",
+    "name": "Christoforos E. Kozyrakis",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://csl.stanford.edu/~christos",
+    "scholarid": "G2EJz5kAAAAJ"
+  },
+  {
+    "id": "csrankings_oluwasanmi_koyejo",
+    "name": "Oluwasanmi Koyejo",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://cs.stanford.edu/~sanmi",
+    "scholarid": "EaaOeJwAAAAJ"
+  },
+  {
+    "id": "csrankings_ashish_goel",
+    "name": "Ashish Goel",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://web.stanford.edu/~ashishg/ashishg.html",
+    "scholarid": "B_rKfusAAAAJ"
+  },
+  {
+    "id": "csrankings_mendel_rosenblum",
+    "name": "Mendel Rosenblum",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://web.stanford.edu/~mendel",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_oussama_khatib",
+    "name": "Oussama Khatib",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://cs.stanford.edu/group/manips/people/oussama-khatib",
+    "scholarid": "4arkOLcAAAAJ"
+  },
+  {
+    "id": "csrankings_jiajun_wu_0001",
+    "name": "Jiajun Wu 0001",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://jiajunwu.com",
+    "scholarid": "2efgcS0AAAAJ"
+  },
+  {
+    "id": "csrankings_balaji_prabhakar",
+    "name": "Balaji Prabhakar",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://web.stanford.edu/~balaji",
+    "scholarid": "TyPF9V4AAAAJ"
+  },
+  {
+    "id": "csrankings_christopher_piech",
+    "name": "Christopher Piech",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://stanford.edu/~cpiech/bio/index.html",
+    "scholarid": "fpT49d8AAAAJ"
+  },
+  {
+    "id": "csrankings_kunle_olukotun",
+    "name": "Kunle Olukotun",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://arsenalfc.stanford.edu/kunle",
+    "scholarid": "IzXDyR8AAAAJ"
+  },
+  {
+    "id": "csrankings_fredrik_kjolstad",
+    "name": "Fredrik Kjolstad",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://fredrikbk.com",
+    "scholarid": "bCCxZ28AAAAJ"
+  },
+  {
+    "id": "csrankings_stefano_ermon",
+    "name": "Stefano Ermon",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://cs.stanford.edu/~ermon",
+    "scholarid": "ogXTOZ4AAAAJ"
+  },
+  {
+    "id": "csrankings_gordon_wetzstein",
+    "name": "Gordon Wetzstein",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "https://stanford.edu/~gordonwz",
+    "scholarid": "VOf45S0AAAAJ"
+  },
+  {
+    "id": "csrankings_mark_a__horowitz",
+    "name": "Mark A. Horowitz",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://stanford.edu/~horowitz",
+    "scholarid": "e7V7-gEAAAAJ"
+  },
+  {
+    "id": "csrankings_dan_boneh",
+    "name": "Dan Boneh",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://crypto.stanford.edu/~dabo",
+    "scholarid": "MwLqCs4AAAAJ"
+  },
+  {
+    "id": "csrankings_li_fei_fei_0001",
+    "name": "Li Fei-Fei 0001",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Stanford University",
+    "homepage": "http://vision.stanford.edu/feifeili",
+    "scholarid": "rDfyQnIAAAAJ"
+  },
+  {
+    "id": "csrankings_vincent_aleven",
+    "name": "Vincent Aleven",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~./aleven",
+    "scholarid": "ztkfnCsAAAAJ"
+  },
+  {
+    "id": "csrankings_srinivasan_seshan",
+    "name": "Srinivasan Seshan",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~srini",
+    "scholarid": "0irVeiQAAAAJ"
+  },
+  {
+    "id": "csrankings_mahadev_satyanarayanan",
+    "name": "Mahadev Satyanarayanan",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://www.cs.cmu.edu/~satya",
+    "scholarid": "0y6JDD4AAAAJ"
+  },
+  {
+    "id": "csrankings_jeremy_z__kolter",
+    "name": "Jeremy Z. Kolter",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.zicokolter.com",
+    "scholarid": "UXh1I6UAAAAJ"
+  },
+  {
+    "id": "csrankings_joel_mcmanus",
+    "name": "Joel McManus",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://labs.bio.cmu.edu/mcmanus",
+    "scholarid": "28yZqbcAAAAJ"
+  },
+  {
+    "id": "csrankings_min_xu_0009",
+    "name": "Min Xu 0009",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://xulabs.github.io/min-xu",
+    "scholarid": "Y3Cqt0cAAAAJ"
+  },
+  {
+    "id": "csrankings_daphne_ippolito",
+    "name": "Daphne Ippolito",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://www.daphnei.com",
+    "scholarid": "COEsqLYAAAAJ"
+  },
+  {
+    "id": "csrankings_david_lindlbauer",
+    "name": "David Lindlbauer",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://www.davidlindlbauer.com",
+    "scholarid": "DBkNLiwAAAAJ"
+  },
+  {
+    "id": "csrankings_christian_cuba_samaniego",
+    "name": "Christian Cuba Samaniego",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "https://christiansami.wixsite.com/cecubasamaniego",
+    "scholarid": "F5JTlEcAAAAJ"
+  },
+  {
+    "id": "csrankings_carolyn_penstein_ros",
+    "name": "Carolyn Penstein Rosé",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~cprose",
+    "scholarid": "BMydCgcAAAAJ"
+  },
+  {
+    "id": "csrankings_roy_maxion",
+    "name": "Roy Maxion",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~maxion",
+    "scholarid": "2buw6_IAAAAJ"
+  },
+  {
+    "id": "csrankings_tom_michael_mitchell",
+    "name": "Tom Michael Mitchell",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~tom",
+    "scholarid": "_ZVyA_gAAAAJ"
+  },
+  {
+    "id": "csrankings_guy_e__blelloch",
+    "name": "Guy E. Blelloch",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~guyb",
+    "scholarid": "Z6nLCukAAAAJ"
+  },
+  {
+    "id": "csrankings_jonathan_aldrich",
+    "name": "Jonathan Aldrich",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~./aldrich",
+    "scholarid": "AzHmOtcAAAAJ"
+  },
+  {
+    "id": "csrankings_james_mccann",
+    "name": "James McCann",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu/~jmccann",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_mingxing_xu",
+    "name": "Mingxing Xu",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Tsinghua University",
+    "homepage": "http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224234904979660942/20101224234904979660942_.html",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_yi_ming_li",
+    "name": "Yi-Ming Li",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Tsinghua University",
+    "homepage": "https://collegeai.tsinghua.edu.cn/en/People/Full_time_PI/Yiming_Li.htm",
+    "scholarid": "i_aajNoAAAAJ"
+  },
+  {
+    "id": "csrankings_hongliang_yu",
+    "name": "Hongliang Yu",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Tsinghua University",
+    "homepage": "http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224235934865670879/20101224235934865670879_.html",
+    "scholarid": "QiqG_G4AAAAJ"
+  },
+  {
+    "id": "csrankings_yong_li_0008",
+    "name": "Yong Li 0008",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Tsinghua University",
+    "homepage": "http://fi.ee.tsinghua.edu.cn/~liyong",
+    "scholarid": "kmgzPeQAAAAJ"
+  },
+  {
+    "id": "csrankings_jin_xu_0002",
+    "name": "Jin Xu 0002",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Peking University",
+    "homepage": "http://eecs.pku.edu.cn/EN/People/Faculty/Detail/?ID=6062",
+    "scholarid": "NOSCHOLARPAGE"
+  },
+  {
+    "id": "csrankings_liangming_pan",
+    "name": "Liangming Pan",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Peking University",
+    "homepage": "https://cs.pku.edu.cn/info/1223/3939.htm",
+    "scholarid": "JcjjOTUAAAAJ"
+  },
+  {
+    "id": "csrankings_yuqing_kong",
+    "name": "Yuqing Kong",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Peking University",
+    "homepage": "https://cfcs.pku.edu.cn/yuqkong",
+    "scholarid": "U5k-29kAAAAJ"
+  },
+  {
+    "id": "csrankings_shanghang_zhang",
+    "name": "Shanghang Zhang",
+    "context": "a computer science researcher",
+    "cohort": "cs_faculty",
+    "credential_year": null,
+    "credential_country": null,
+    "institution": "Peking University",
+    "homepage": "https://www.shanghangzhang.com",
+    "scholarid": "voqw10cAAAAJ"
+  },
+  {
+    "id": "oa_author_olivier_dauchot",
+    "name": "Olivier Dauchot",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "FR",
+    "subfield": "Micro and Nano Robotics",
+    "h_index": 46,
+    "cited_by_count": 7328,
+    "openalex_id": "https://openalex.org/A5031712229",
+    "institution": "Centre National de la Recherche Scientifique"
+  },
+  {
+    "id": "oa_author_philip_koopman",
+    "name": "Philip Koopman",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Autonomous Vehicle Technology and Safety",
+    "h_index": 33,
+    "cited_by_count": 5152,
+    "openalex_id": "https://openalex.org/A5036158209",
+    "institution": "Carnegie Mellon University"
+  },
+  {
+    "id": "oa_author_s__m__ali_eslami",
+    "name": "S. M. Ali Eslami",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Advanced Image and Video Retrieval Techniques",
+    "h_index": 28,
+    "cited_by_count": 11587,
+    "openalex_id": "https://openalex.org/A5037555476",
+    "institution": "Microsoft Research (United Kingdom)"
+  },
+  {
+    "id": "oa_author_p__k__gupta",
+    "name": "P. K. Gupta",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "IN",
+    "subfield": "COVID-19 diagnosis using AI",
+    "h_index": 20,
+    "cited_by_count": 2988,
+    "openalex_id": "https://openalex.org/A5079299702",
+    "institution": "Jaypee University of Information Technology"
+  },
+  {
+    "id": "oa_author_rachel_harrison",
+    "name": "Rachel Harrison",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Technology Adoption and User Behaviour",
+    "h_index": 29,
+    "cited_by_count": 3999,
+    "openalex_id": "https://openalex.org/A5039467248",
+    "institution": "Oxford Brookes University"
+  },
+  {
+    "id": "oa_author_mamouna_diagne",
+    "name": "Maïmouna Diagne",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "RE",
+    "subfield": "Solar Radiation and Photovoltaics",
+    "h_index": 4,
+    "cited_by_count": 934,
+    "openalex_id": "https://openalex.org/A5069959639",
+    "institution": "Écologie Marine Tropicale des Océans Pacifique et Indien"
+  },
+  {
+    "id": "oa_author_vladimir_g__kim",
+    "name": "Vladimir G. Kim",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "3D Shape Modeling and Analysis",
+    "h_index": 33,
+    "cited_by_count": 6965,
+    "openalex_id": "https://openalex.org/A5041004771",
+    "institution": "Adobe Systems (United States)"
+  },
+  {
+    "id": "oa_author_fei_yan",
+    "name": "Fei Yan",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Quantum Information and Cryptography",
+    "h_index": 49,
+    "cited_by_count": 9108,
+    "openalex_id": "https://openalex.org/A5062663265",
+    "institution": "MIT Lincoln Laboratory"
+  },
+  {
+    "id": "oa_author_koutarou_matsumoto",
+    "name": "Koutarou Matsumoto",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JP",
+    "subfield": "Explainable Artificial Intelligence (XAI)",
+    "h_index": 8,
+    "cited_by_count": 1185,
+    "openalex_id": "https://openalex.org/A5054139714",
+    "institution": "Kurume University"
+  },
+  {
+    "id": "oa_author_tim_dettmers",
+    "name": "Tim Dettmers",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CH",
+    "subfield": "Advanced Graph Neural Networks",
+    "h_index": 14,
+    "cited_by_count": 4602,
+    "openalex_id": "https://openalex.org/A5067514564",
+    "institution": "Università della Svizzera italiana"
+  },
+  {
+    "id": "oa_author_maurice_b__loughrey",
+    "name": "Maurice B. Loughrey",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "GB",
+    "subfield": "Cell Image Analysis Techniques",
+    "h_index": 40,
+    "cited_by_count": 14351,
+    "openalex_id": "https://openalex.org/A5070895143",
+    "institution": "Queen's University Belfast"
+  },
+  {
+    "id": "oa_author_marijn_a__m__versteegh",
+    "name": "Marijn A. M. Versteegh",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "AT",
+    "subfield": "Quantum Mechanics and Applications",
+    "h_index": 15,
+    "cited_by_count": 2747,
+    "openalex_id": "https://openalex.org/A5001640937",
+    "institution": "Vienna Center for Quantum Science and Technology"
+  },
+  {
+    "id": "oa_author_anchi_guo",
+    "name": "AnChi Guo",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CA",
+    "subfield": "Metabolomics and Mass Spectrometry Studies",
+    "h_index": 6,
+    "cited_by_count": 2846,
+    "openalex_id": "https://openalex.org/A5112537837",
+    "institution": "University of Alberta"
+  },
+  {
+    "id": "oa_author_tushar_krishna",
+    "name": "Tushar Krishna",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 40,
+    "cited_by_count": 14256,
+    "openalex_id": "https://openalex.org/A5034089074",
+    "institution": "Georgia Institute of Technology"
+  },
+  {
+    "id": "oa_author_christoph_stiller",
+    "name": "Christoph Stiller",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "DE",
+    "subfield": "Robotics and Sensor-Based Localization",
+    "h_index": 58,
+    "cited_by_count": 23412,
+    "openalex_id": "https://openalex.org/A5091574711",
+    "institution": "Karlsruhe Institute of Technology"
+  },
+  {
+    "id": "oa_author_xue_yang",
+    "name": "Xue Yang",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "Advanced Image and Video Retrieval Techniques",
+    "h_index": 29,
+    "cited_by_count": 5975,
+    "openalex_id": "https://openalex.org/A5043503650",
+    "institution": "Shanghai Jiao Tong University"
+  },
+  {
+    "id": "oa_author_lixing_han",
+    "name": "Lixing Han",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Optimization Algorithms Research",
+    "h_index": 11,
+    "cited_by_count": 1724,
+    "openalex_id": "https://openalex.org/A5115589125",
+    "institution": "University of Michigan–Flint"
+  },
+  {
+    "id": "oa_author_wim_vanhaverbeke",
+    "name": "Wim Vanhaverbeke",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "BE",
+    "subfield": "Open Source Software Innovations",
+    "h_index": 51,
+    "cited_by_count": 15395,
+    "openalex_id": "https://openalex.org/A5004361048",
+    "institution": "Hasselt University"
+  },
+  {
+    "id": "oa_author_wei_peng",
+    "name": "Wei Peng",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "AU",
+    "subfield": "Network Security and Intrusion Detection",
+    "h_index": 1,
+    "cited_by_count": 500,
+    "openalex_id": "https://openalex.org/A5101887303",
+    "institution": "La Trobe University"
+  },
+  {
+    "id": "oa_author_miguel_c__soriano",
+    "name": "Miguel C. Soriano",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "ES",
+    "subfield": "Neural Networks and Reservoir Computing",
+    "h_index": 37,
+    "cited_by_count": 8882,
+    "openalex_id": "https://openalex.org/A5034369995",
+    "institution": "Universitat de les Illes Balears"
+  },
+  {
+    "id": "oa_author_carlijn_j__m__wibbelink",
+    "name": "Carlijn J. M. Wibbelink",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "NL",
+    "subfield": "Mental Health Research Topics",
+    "h_index": 8,
+    "cited_by_count": 1384,
+    "openalex_id": "https://openalex.org/A5004465634",
+    "institution": "University of Amsterdam"
+  },
+  {
+    "id": "oa_author_daniil_stroyakovskiy",
+    "name": "Daniil Stroyakovskiy",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "RU",
+    "subfield": "Melanoma and MAPK Pathways",
+    "h_index": 48,
+    "cited_by_count": 23798,
+    "openalex_id": "https://openalex.org/A5071263994",
+    "institution": "Moscow City Oncology Hospital №62"
+  },
+  {
+    "id": "oa_author_fumiya_yokomori",
+    "name": "Fumiya Yokomori",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JP",
+    "subfield": "Speech Recognition and Synthesis",
+    "h_index": 1,
+    "cited_by_count": 1127,
+    "openalex_id": "https://openalex.org/A5034380772",
+    "institution": "University of Yamanashi"
+  },
+  {
+    "id": "oa_author_jon_wade",
+    "name": "Jon Wade",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Complex Systems and Decision Making",
+    "h_index": 13,
+    "cited_by_count": 1842,
+    "openalex_id": "https://openalex.org/A5030190643",
+    "institution": "Stevens Institute of Technology"
+  },
+  {
+    "id": "oa_author_xavier_glorot",
+    "name": "Xavier Glorot",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CA",
+    "subfield": "Neural Networks and Applications",
+    "h_index": 18,
+    "cited_by_count": 29656,
+    "openalex_id": "https://openalex.org/A5067483843",
+    "institution": "Université de Montréal"
+  },
+  {
+    "id": "oa_author_nasrin_sultana",
+    "name": "Nasrin Sultana",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "AU",
+    "subfield": "Network Security and Intrusion Detection",
+    "h_index": 10,
+    "cited_by_count": 711,
+    "openalex_id": "https://openalex.org/A5050852426",
+    "institution": "La Trobe University"
+  },
+  {
+    "id": "oa_author_jirui_yang",
+    "name": "Jirui Yang",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 9,
+    "cited_by_count": 2034,
+    "openalex_id": "https://openalex.org/A5006570592",
+    "institution": "University of Chinese Academy of Sciences"
+  },
+  {
+    "id": "oa_author_jiwan_ge",
+    "name": "Jiwan Ge",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "SARS-CoV-2 and COVID-19 Research",
+    "h_index": 17,
+    "cited_by_count": 11443,
+    "openalex_id": "https://openalex.org/A5005832520",
+    "institution": "Tsinghua University"
+  },
+  {
+    "id": "oa_author_henrik_lehrmann_christiansen",
+    "name": "Henrik Lehrmann Christiansen",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "DK",
+    "subfield": "Advanced MIMO Systems Optimization",
+    "h_index": 18,
+    "cited_by_count": 3056,
+    "openalex_id": "https://openalex.org/A5069309470",
+    "institution": "Technical University of Denmark"
+  },
+  {
+    "id": "oa_author_yasunobu_nohara",
+    "name": "Yasunobu Nohara",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JP",
+    "subfield": "Explainable Artificial Intelligence (XAI)",
+    "h_index": 15,
+    "cited_by_count": 1818,
+    "openalex_id": "https://openalex.org/A5040204315",
+    "institution": "Kumamoto University"
+  },
+  {
+    "id": "oa_author_isabelle_lajoie",
+    "name": "Isabelle Lajoie",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Image and Signal Denoising Methods",
+    "h_index": 2,
+    "cited_by_count": 5045,
+    "openalex_id": "https://openalex.org/A5073443794",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_kenji_ozawa",
+    "name": "Kenji Ozawa",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JP",
+    "subfield": "Speech Recognition and Synthesis",
+    "h_index": 12,
+    "cited_by_count": 2123,
+    "openalex_id": "https://openalex.org/A5049792294",
+    "institution": "University of Yamanashi"
+  },
+  {
+    "id": "oa_author_johan_bollen",
+    "name": "Johan Bollen",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Complex Systems and Time Series Analysis",
+    "h_index": 41,
+    "cited_by_count": 13567,
+    "openalex_id": "https://openalex.org/A5082461253",
+    "institution": "Indiana University Bloomington"
+  },
+  {
+    "id": "oa_author_tlin_ztrk",
+    "name": "Tülin Öztürk",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "TR",
+    "subfield": "COVID-19 diagnosis using AI",
+    "h_index": 5,
+    "cited_by_count": 2754,
+    "openalex_id": "https://openalex.org/A5033281429",
+    "institution": "Elazığ Eğitim ve Araştırma Hastanesi"
+  },
+  {
+    "id": "oa_author_joel_emer",
+    "name": "Joel Emer",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 66,
+    "cited_by_count": 25938,
+    "openalex_id": "https://openalex.org/A5024384625",
+    "institution": "Nvidia (United States)"
+  },
+  {
+    "id": "oa_author_janmichael_frahm",
+    "name": "Jan‐Michael Frahm",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Robotics and Sensor-Based Localization",
+    "h_index": 49,
+    "cited_by_count": 16164,
+    "openalex_id": "https://openalex.org/A5018151384",
+    "institution": "University of North Carolina at Chapel Hill"
+  },
+  {
+    "id": "oa_author_sebastian_raisch",
+    "name": "Sebastian Raisch",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CH",
+    "subfield": "Blockchain Technology Applications and Security",
+    "h_index": 27,
+    "cited_by_count": 12124,
+    "openalex_id": "https://openalex.org/A5006145895",
+    "institution": "University of Geneva"
+  },
+  {
+    "id": "oa_author_fan_yang",
+    "name": "Fan Yang",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Video Surveillance and Tracking Methods",
+    "h_index": 12,
+    "cited_by_count": 3085,
+    "openalex_id": "https://openalex.org/A5100623582",
+    "institution": "Temple University"
+  },
+  {
+    "id": "oa_author_r__urtasun",
+    "name": "R. Urtasun",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Robotics and Sensor-Based Localization",
+    "h_index": 3,
+    "cited_by_count": 14269,
+    "openalex_id": "https://openalex.org/A5043370575",
+    "institution": "Toyota Motor Corporation (United States)"
+  },
+  {
+    "id": "oa_author_vimal_savsani",
+    "name": "Vimal Savsani",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "IN",
+    "subfield": "Metaheuristic Optimization Algorithms Research",
+    "h_index": 32,
+    "cited_by_count": 10459,
+    "openalex_id": "https://openalex.org/A5036009160",
+    "institution": "Sardar Vallabhbhai National Institute of Technology Surat"
+  },
+  {
+    "id": "oa_author_thiago_augusto_vieira",
+    "name": "Thiago Augusto Vieira",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Blockchain Technology Applications and Security",
+    "h_index": 1,
+    "cited_by_count": 2397,
+    "openalex_id": "https://openalex.org/A5108504567",
+    "institution": "Massachusetts Institute of Technology"
+  },
+  {
+    "id": "oa_author_fabien_reyal",
+    "name": "Fabien Reyal",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "FR",
+    "subfield": "AI in cancer detection",
+    "h_index": 54,
+    "cited_by_count": 12328,
+    "openalex_id": "https://openalex.org/A5003301011",
+    "institution": "Institut Curie"
+  },
+  {
+    "id": "oa_author_roozbeh_mottaghi",
+    "name": "Roozbeh Mottaghi",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Advanced Neural Network Applications",
+    "h_index": 31,
+    "cited_by_count": 8775,
+    "openalex_id": "https://openalex.org/A5070375939",
+    "institution": "Stanford University"
+  },
+  {
+    "id": "oa_author_dirk_andreas_zetzsche",
+    "name": "Dirk Andreas Zetzsche",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Blockchain Technology Applications and Security",
+    "h_index": 34,
+    "cited_by_count": 4896,
+    "openalex_id": "https://openalex.org/A5049980841",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_bowen_jiang",
+    "name": "Bowen Jiang",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "Visual Attention and Saliency Detection",
+    "h_index": 10,
+    "cited_by_count": 943,
+    "openalex_id": "https://openalex.org/A5101834122",
+    "institution": "Dalian University of Technology"
+  },
+  {
+    "id": "oa_author_johannes_bader",
+    "name": "Johannes Bader",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CH",
+    "subfield": "Advanced Multi-Objective Optimization Algorithms",
+    "h_index": 19,
+    "cited_by_count": 3923,
+    "openalex_id": "https://openalex.org/A5055598034",
+    "institution": "ETH Zurich"
+  },
+  {
+    "id": "oa_author_jun_xie",
+    "name": "Jun Xie",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "US",
+    "subfield": "Video Surveillance and Tracking Methods",
+    "h_index": 24,
+    "cited_by_count": 2980,
+    "openalex_id": "https://openalex.org/A5101791703",
+    "institution": "Google (United States)"
+  },
+  {
+    "id": "oa_author_muhammad_ali_sodik",
+    "name": "Muhammad Ali Sodik",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "",
+    "subfield": "Edcuational Technology Systems",
+    "h_index": 11,
+    "cited_by_count": 2541,
+    "openalex_id": "https://openalex.org/A5064741106",
+    "institution": ""
+  },
+  {
+    "id": "oa_author_jiabin_huang",
+    "name": "Jia‐Bin Huang",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "JM",
+    "subfield": "Video Surveillance and Tracking Methods",
+    "h_index": 60,
+    "cited_by_count": 24960,
+    "openalex_id": "https://openalex.org/A5101766030",
+    "institution": "International University of the Caribbean"
+  },
+  {
+    "id": "oa_author_jian_cheng",
+    "name": "Jian Cheng",
+    "context": "an academic researcher",
+    "cohort": "long_tail_researcher_openalex",
+    "credential_year": null,
+    "credential_country": "CN",
+    "subfield": "Human Pose and Action Recognition",
+    "h_index": 47,
+    "cited_by_count": 15197,
+    "openalex_id": "https://openalex.org/A5112149353",
+    "institution": "Chinese Academy of Sciences"
+  },
+  {
+    "id": "imo_jetze_zoethout",
+    "name": "Jetze Zoethout",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Netherlands"
+  },
+  {
+    "id": "imo_mikhail_grigorev",
+    "name": "Mikhail Grigorev",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "imo_mitchell_lee",
+    "name": "Mitchell Lee",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "USA"
+  },
+  {
+    "id": "imo_vadym_kalashnykov",
+    "name": "Vadym Kalashnykov",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Ukraine"
+  },
+  {
+    "id": "imo_sung_jin_park",
+    "name": "Sung Jin Park",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Korea"
+  },
+  {
+    "id": "imo_rom_dudkiewicz",
+    "name": "Rom Dudkiewicz",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Israel"
+  },
+  {
+    "id": "imo_jialun_li",
+    "name": "Jialun Li",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_zipei_nie",
+    "name": "Zipei Nie",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_yau_wing_li",
+    "name": "Yau Wing Li",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Hong Kong"
+  },
+  {
+    "id": "imo_bobby_shen",
+    "name": "Bobby Shen",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "USA"
+  },
+  {
+    "id": "imo_melih_ucer",
+    "name": "Melih Üçer",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Türkiye"
+  },
+  {
+    "id": "imo_andrea_bianchi",
+    "name": "Andrea Bianchi",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Italy"
+  },
+  {
+    "id": "imo_motoki_takigiku",
+    "name": "Motoki Takigiku",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Japan"
+  },
+  {
+    "id": "imo_szymon_kanonowicz",
+    "name": "Szymon Kanonowicz",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Poland"
+  },
+  {
+    "id": "imo_artsiom_toyestseu",
+    "name": "Artsiom Toyestseu",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Belarus"
+  },
+  {
+    "id": "imo_pedram_safaee",
+    "name": "Pedram Safaee",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Iran"
+  },
+  {
+    "id": "imo_felix_drxler",
+    "name": "Felix Dräxler",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2010,
+    "credential_country": "Austria"
+  },
+  {
+    "id": "imo_takuma_kitamura",
+    "name": "Takuma Kitamura",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Japan"
+  },
+  {
+    "id": "imo_istvan_tomon",
+    "name": "István Tomon",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Hungary"
+  },
+  {
+    "id": "imo_ariel_zylber",
+    "name": "Ariel Zylber",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "Argentina"
+  },
+  {
+    "id": "imo_egor_voronetckii",
+    "name": "Egor Voronetckii",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "imo_thomas_swayze",
+    "name": "Thomas Swayze",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "USA"
+  },
+  {
+    "id": "imo_umut_varolgunes",
+    "name": "Umut Varolgüneş",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Türkiye"
+  },
+  {
+    "id": "imo_zarko_randelovi",
+    "name": "Žarko Ranđelović",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Serbia"
+  },
+  {
+    "id": "imo_ravi_jagadeeshan",
+    "name": "Ravi Jagadeeshan",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "USA"
+  },
+  {
+    "id": "imo_lin_chen",
+    "name": "Lin Chen",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2011,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_kazuhiro_hosaka",
+    "name": "Kazuhiro Hosaka",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2009,
+    "credential_country": "Japan"
+  },
+  {
+    "id": "imo_stephen_sanjaya",
+    "name": "Stephen Sanjaya",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "Indonesia"
+  },
+  {
+    "id": "imo_yuxuan_liao",
+    "name": "Yuxuan Liao",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2013,
+    "credential_country": "China"
+  },
+  {
+    "id": "imo_aleksandr_kalmynin",
+    "name": "Aleksandr Kalmynin",
+    "context": "a high-school mathematics competitor",
+    "cohort": "imo_gold",
+    "credential_year": 2012,
+    "credential_country": "Russia"
+  },
+  {
+    "id": "msra_dongzhe_ma_2011",
+    "name": "Dongzhe Ma",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2011,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Tsinghua University"
+  },
+  {
+    "id": "msra_qitian_wu_2021",
+    "name": "Qitian Wu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2021,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Shanghai Jiao Tong University"
+  },
+  {
+    "id": "msra_kaizhang_kang_2021",
+    "name": "Kaizhang Kang",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2021,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Zhejiang University"
+  },
+  {
+    "id": "msra_seunghoon_hong_2014",
+    "name": "Seunghoon Hong",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2014,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Pohang University of Science and Technology"
+  },
+  {
+    "id": "msra_tomoaki_higo_2008",
+    "name": "Tomoaki Higo",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2008,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Tokyo"
+  },
+  {
+    "id": "msra_yi_hsuan_yang_2008",
+    "name": "Yi-Hsuan Yang",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2008,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "National Taiwan University"
+  },
+  {
+    "id": "msra_yu_chen_sun_2009",
+    "name": "Yu-Chen Sun",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2009,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "National Chiao Tung University"
+  },
+  {
+    "id": "msra_bo_yu_2009",
+    "name": "Bo Yu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2009,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Harbin Institute of Technology"
+  },
+  {
+    "id": "msra_haotian_li_2022",
+    "name": "Haotian Li",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2022,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Hong Kong University of Science and Technology"
+  },
+  {
+    "id": "msra_wenhao_li_2016",
+    "name": "Wenhao Li",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2016,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Shanghai Jiao Tong University"
+  },
+  {
+    "id": "msra_linghe_kong_2010",
+    "name": "Linghe Kong",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2010,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Shanghai Jiao Tong University"
+  },
+  {
+    "id": "msra_ki_woong_park_2008",
+    "name": "Ki-woong Park",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2008,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "KAIST"
+  },
+  {
+    "id": "msra_dong_chen_2013",
+    "name": "Dong Chen",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2013,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Science and Technology of China"
+  },
+  {
+    "id": "msra_yizhong_zhang_2012",
+    "name": "Yizhong Zhang",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2012,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Zhejiang University"
+  },
+  {
+    "id": "msra_zili_meng_2020",
+    "name": "Zili Meng",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2020,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Tsinghua University"
+  },
+  {
+    "id": "msra_kazi_rubaiat_habib_2011",
+    "name": "Kazi Rubaiat Habib",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2011,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "National University of Singapore"
+  },
+  {
+    "id": "msra_wenping_hu_2014",
+    "name": "Wenping Hu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2014,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Science and Technology of China"
+  },
+  {
+    "id": "msra_muoi_tran_2019",
+    "name": "Muoi Tran",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2019,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "National University of Singapore"
+  },
+  {
+    "id": "msra_dong_liu_2009",
+    "name": "Dong Liu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2009,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Harbin Institute of Technology"
+  },
+  {
+    "id": "msra_nobuyuki_umetani_2011",
+    "name": "Nobuyuki Umetani",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2011,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Tokyo"
+  },
+  {
+    "id": "msra_william_voorsluys_2009",
+    "name": "William Voorsluys",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2009,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Melbourne"
+  },
+  {
+    "id": "msra_tiankuang_zhou_2021",
+    "name": "Tiankuang Zhou",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2021,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Tsinghua University"
+  },
+  {
+    "id": "msra_da_yu_2021",
+    "name": "Da Yu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2021,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Sun Yat-sen University"
+  },
+  {
+    "id": "msra_jing_yuan_2011",
+    "name": "Jing Yuan",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2011,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Science and Technology of China"
+  },
+  {
+    "id": "msra_yantao_zheng_2008",
+    "name": "Yantao Zheng",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2008,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "National University of Singapore"
+  },
+  {
+    "id": "msra_li_chen_2016",
+    "name": "Li Chen",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2016,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Hong Kong University of Science and Technology"
+  },
+  {
+    "id": "msra_yongxin_tong_2012",
+    "name": "Yongxin Tong",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2012,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Hong Kong University of Science and Technology"
+  },
+  {
+    "id": "msra_chong_zu_2012",
+    "name": "Chong Zu",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2012,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Tsinghua University"
+  },
+  {
+    "id": "msra_luwei_cheng_2013",
+    "name": "Luwei Cheng",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2013,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "University of Hong Kong"
+  },
+  {
+    "id": "msra_xiaoyin_wang_2009",
+    "name": "Xiaoyin Wang",
+    "context": "a PhD researcher",
+    "cohort": "msra_phd_fellowship",
+    "credential_year": 2009,
+    "credential_country": "Asia-Pacific",
+    "credential_university": "Peking University"
+  },
+  {
+    "id": "mid_tier_writer_liu_cixin",
+    "name": "Liu Cixin",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_frederick_busch",
+    "name": "Frederick Busch",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q1452813",
+    "sitelinks_count": 5
+  },
+  {
+    "id": "mid_tier_writer_emma_scarr_booth",
+    "name": "Emma Scarr Booth",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q47089531",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_kate_braverman",
+    "name": "Kate Braverman",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6375391",
+    "sitelinks_count": 5
+  },
+  {
+    "id": "mid_tier_writer_everything_is_illuminated",
+    "name": "Everything Is Illuminated",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q923551",
+    "sitelinks_count": 12
+  },
+  {
+    "id": "mid_tier_writer_david_bradley_novelist",
+    "name": "David Bradley (novelist)",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5231656",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_holly_black",
+    "name": "Holly Black",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_march_novel",
+    "name": "March (novel)",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6756693",
+    "sitelinks_count": 2
+  },
+  {
+    "id": "mid_tier_writer_charlie_jane_anders",
+    "name": "Charlie Jane Anders",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_kenneth_fearing",
+    "name": "Kenneth Fearing",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6390093",
+    "sitelinks_count": 6
+  },
+  {
+    "id": "mid_tier_writer_camp_concentration",
+    "name": "Camp Concentration",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q3654602",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_brit_bennett",
+    "name": "Brit Bennett",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_tamsyn_muir",
+    "name": "Tamsyn Muir",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_edward_dahlberg",
+    "name": "Edward Dahlberg",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q1292012",
+    "sitelinks_count": 15
+  },
+  {
+    "id": "mid_tier_writer_sally_rooney",
+    "name": "Sally Rooney",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_bora_chung",
+    "name": "Bora Chung",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_karin_tidbeck",
+    "name": "Karin Tidbeck",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_daniel_h__pink",
+    "name": "Daniel H. Pink",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_shelley_parker_chan",
+    "name": "Shelley Parker-Chan",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_j__california_cooper",
+    "name": "J. California Cooper",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6105084",
+    "sitelinks_count": 6
+  },
+  {
+    "id": "mid_tier_writer_harriet_the_spy",
+    "name": "Harriet the Spy",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q2899700",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_laura_abbot",
+    "name": "Laura Abbot",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6498596",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_colleen_coble",
+    "name": "Colleen Coble",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q5146243",
+    "sitelinks_count": 3
+  },
+  {
+    "id": "mid_tier_writer_dennis_cooper",
+    "name": "Dennis Cooper",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q1189056",
+    "sitelinks_count": 14
+  },
+  {
+    "id": "mid_tier_writer_casey_mcquiston",
+    "name": "Casey McQuiston",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_adrian_tchaikovsky",
+    "name": "Adrian Tchaikovsky",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_kinflicks",
+    "name": "Kinflicks",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q6410824",
+    "sitelinks_count": 1
+  },
+  {
+    "id": "mid_tier_writer_hanya_yanagihara",
+    "name": "Hanya Yanagihara",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "mid_tier_writer_atia_abawi",
+    "name": "Atia Abawi",
+    "context": "a writer",
+    "cohort": "mid_tier_writer",
+    "credential_year": null,
+    "credential_country": null,
+    "wikidata_id": "Q24053483",
+    "sitelinks_count": 4
+  },
+  {
+    "id": "mid_tier_writer_premee_mohamed",
+    "name": "Premee Mohamed",
+    "context": "a writer",
+    "cohort": "mid_tier_writer"
+  },
+  {
+    "id": "artifact_streamlit",
+    "name": "Streamlit",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_llama_stack",
+    "name": "Llama-Stack",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_alpaca",
+    "name": "Alpaca",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_allennlp",
+    "name": "AllenNLP",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_chain_of_thought",
+    "name": "Chain-of-Thought",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_q_lora",
+    "name": "Q-LoRA",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_colbert_v2",
+    "name": "ColBERT-v2",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_pytorch",
+    "name": "PyTorch",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_fastai",
+    "name": "FastAI",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_rllib",
+    "name": "RLlib",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_polyglot",
+    "name": "Polyglot",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_aider",
+    "name": "Aider",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_clicknp",
+    "name": "ClickNP",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_cursor",
+    "name": "Cursor",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_ollama",
+    "name": "Ollama",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_statsmodels",
+    "name": "statsmodels",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_instructor",
+    "name": "Instructor",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_whisper",
+    "name": "Whisper",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_pyro",
+    "name": "Pyro",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_onnx_runtime",
+    "name": "ONNX Runtime",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_openspiel",
+    "name": "OpenSpiel",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_dgl",
+    "name": "DGL",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_eagle",
+    "name": "EAGLE",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_cub",
+    "name": "CUB",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_sockeye",
+    "name": "Sockeye",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_rocm",
+    "name": "ROCm",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_catboost",
+    "name": "CatBoost",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_perplexity",
+    "name": "Perplexity",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_ray_serve",
+    "name": "Ray Serve",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_pydantic",
+    "name": "Pydantic",
+    "context": "an open-source software project",
+    "cohort": "oss_project",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "mid_tier_politician_kyrsten_sinema",
+    "name": "Kyrsten Sinema",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_ilhan_omar",
+    "name": "Ilhan Omar",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_douard_philippe",
+    "name": "Édouard Philippe",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_adam_schiff",
+    "name": "Adam Schiff",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_narendra_modi",
+    "name": "Narendra Modi",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_ayanna_pressley",
+    "name": "Ayanna Pressley",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_friedrich_merz",
+    "name": "Friedrich Merz",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_arvind_kejriwal",
+    "name": "Arvind Kejriwal",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_ron_desantis",
+    "name": "Ron DeSantis",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_yair_lapid",
+    "name": "Yair Lapid",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_pierre_poilievre",
+    "name": "Pierre Poilievre",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_lee_jae_myung",
+    "name": "Lee Jae-myung",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_kay_ivey",
+    "name": "Kay Ivey",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_gideon_saar",
+    "name": "Gideon Saar",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_peter_dutton",
+    "name": "Peter Dutton",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_j_d__vance",
+    "name": "J.D. Vance",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_cori_bush",
+    "name": "Cori Bush",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_josh_hawley",
+    "name": "Josh Hawley",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_mark_warner",
+    "name": "Mark Warner",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_robert_habeck",
+    "name": "Robert Habeck",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_jordan_bardella",
+    "name": "Jordan Bardella",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_katie_porter",
+    "name": "Katie Porter",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_joe_manchin",
+    "name": "Joe Manchin",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_henry_mcmaster",
+    "name": "Henry McMaster",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_christopher_luxon",
+    "name": "Christopher Luxon",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_cory_booker",
+    "name": "Cory Booker",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_annalena_baerbock",
+    "name": "Annalena Baerbock",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_tim_kaine",
+    "name": "Tim Kaine",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_anthony_desposito",
+    "name": "Anthony D'Esposito",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "mid_tier_politician_gabriel_attal",
+    "name": "Gabriel Attal",
+    "context": "a politician",
+    "cohort": "mid_tier_politician"
+  },
+  {
+    "id": "artifact_adept",
+    "name": "Adept",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_rabbit",
+    "name": "Rabbit",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_baichuan_ai",
+    "name": "Baichuan AI",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_meta_ai_research",
+    "name": "Meta AI Research",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_tabnine",
+    "name": "Tabnine",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_elevenlabs_company",
+    "name": "ElevenLabs (company)",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_stability_ai",
+    "name": "Stability AI",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_langchain_company",
+    "name": "LangChain (company)",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_crew_ai_company",
+    "name": "Crew AI (company)",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_runway",
+    "name": "Runway",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_step",
+    "name": "Step",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_mistral_ai_company",
+    "name": "Mistral AI (company)",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_cursor_company",
+    "name": "Cursor (company)",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_sierra",
+    "name": "Sierra",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_manus",
+    "name": "Manus",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_01_ai",
+    "name": "01.AI",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_mintlify",
+    "name": "Mintlify",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_tbingen_ai_center",
+    "name": "Tübingen AI Center",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_genspark",
+    "name": "GenSpark",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "artifact_lightning_ai",
+    "name": "Lightning AI",
+    "context": "a technology company",
+    "cohort": "ai_startup_or_company",
+    "credential_year": null,
+    "credential_country": null
+  },
+  {
+    "id": "mid_tier_filmmaker_spike_lee",
+    "name": "Spike Lee",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_boots_riley",
+    "name": "Boots Riley",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_noah_baumbach",
+    "name": "Noah Baumbach",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_david_fincher",
+    "name": "David Fincher",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_olivier_assayas",
+    "name": "Olivier Assayas",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_carla_simn",
+    "name": "Carla Simón",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_barry_jenkins",
+    "name": "Barry Jenkins",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_claire_denis",
+    "name": "Claire Denis",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_ava_duvernay",
+    "name": "Ava DuVernay",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_ruben_stlund",
+    "name": "Ruben Östlund",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_charlie_kaufman",
+    "name": "Charlie Kaufman",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_bruno_dumont",
+    "name": "Bruno Dumont",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_lulu_wang",
+    "name": "Lulu Wang",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_cline_sciamma",
+    "name": "Céline Sciamma",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_ari_aster",
+    "name": "Ari Aster",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_alfonso_cuarn",
+    "name": "Alfonso Cuarón",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_paul_thomas_anderson",
+    "name": "Paul Thomas Anderson",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_lila_avils",
+    "name": "Lila Avilés",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_denis_villeneuve",
+    "name": "Denis Villeneuve",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "mid_tier_filmmaker_alejandro_gonzlez_irritu",
+    "name": "Alejandro González Iñárritu",
+    "context": "a filmmaker",
+    "cohort": "mid_tier_filmmaker"
+  },
+  {
+    "id": "bojie_li",
+    "name": "Bojie Li",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "jiayi_weng",
+    "name": "Jiayi Weng",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "tianshou",
+    "name": "Tianshou",
+    "context": "a software project",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "tuixue_online",
+    "name": "tuixue.online",
+    "context": "a software project",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "tri_dao",
+    "name": "Tri Dao",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "andrej_karpathy",
+    "name": "Andrej Karpathy",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "suresh_kumar",
+    "name": "Suresh Kumar",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "sam_altman",
+    "name": "Sam Altman",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "geoffrey_hinton",
+    "name": "Geoffrey Hinton",
+    "context": "a software engineer",
+    "cohort": "reference_pilot"
+  },
+  {
+    "id": "flashattention",
+    "name": "FlashAttention",
+    "context": "a software project",
+    "cohort": "reference_pilot"
+  }
+]

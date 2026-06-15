@@ -5,9 +5,10 @@
 
 A continuous cross-model recognition metric for people and named artifacts in the LLM era. NameRank operationalizes the 65% recognition-variance residual that bibliometrics cannot explain (Li 2026, IKP §5.7) into a $[0,1]$ score computed against a 37-model frontier panel.
 
-- **Paper:** [`paper/main.pdf`](paper/main.pdf) (39 pages) · source: [`paper/main.tex`](paper/main.tex)
+- **Paper:** [`paper/main.pdf`](paper/main.pdf) (53 pages) · source: [`paper/main.tex`](paper/main.tex)
 - **Companion site:** [`web/index.html`](web/index.html) — interactive cohort explorer, per-entity lookup, conditional-pair attribution-flow visualizer, cross-language deltas. Mirror: <https://01.me/research/namerank>.
 - **Released artifacts:** 5,719 entities, 37-model panel, 211,603 English probe records, 8,880 Chinese-prompt records.
+- **Robustness experiments:** [`experiments/`](experiments/) — 9 follow-up audits (gold-length, context, synthetic-null, Wikipedia, prompt-paraphrase, artifact-mediation, gender, fractional-citation, cross-judge, training-cutoff). See [§ Robustness experiments](#robustness-experiments-experiments).
 
 ## Five headline findings
 
@@ -27,8 +28,9 @@ namerank/
 │   ├── references.bib
 │   ├── main.pdf                   # compiled paper
 │   └── figures/
-│       ├── fig{1..5}*.pdf         # figure PDFs included by main.tex
-│       └── make_fig{1..5}*.py     # regenerate any figure from data/
+│       ├── fig*.pdf               # figure PDFs included by main.tex
+│       └── make_fig*.py           # regenerate any figure from data/ or experiments/
+│                                  #   (incl. fig_prompt_sensitivity, fig_cutoff_gradient)
 ├── data/
 │   ├── inputs/                    # what goes into the probe pipeline
 │   │   ├── pilot_entities.json    # 5,719 entities w/ disambiguating context
@@ -69,6 +71,11 @@ namerank/
 │   ├── regenerate_all.sh          # rebuild every CSV from data/raw
 │   ├── panel.py                   # 37-model Western/Chinese partition
 │   └── _paths.py                  # repo-relative path helpers
+├── experiments/                   # post-hoc robustness audits (see § below)
+│   ├── t1_1_gold_length/  t1_2_context_ab/  t1_3_synthetic_null/
+│   ├── t1_4_wikipedia/    t2_6_prompt_sensitivity/  t2_7_artifact_mediation/
+│   ├── t2_8_gendered_names/  t2_9_fractional_citations/  t2_10_cross_judge/
+│   └── t3_1_cutoff_gradient/      # each: analyze.py + outputs + README.md
 ├── requirements.txt               # python dependencies
 └── web/                            # static companion site (no build step)
     ├── index.html  cohorts.html  lookup.html  inversion.html
@@ -175,6 +182,31 @@ The companion-site data files in `web/assets/data/` are regenerated from `data/a
 - **`data/inputs/pilot_entities.json`** — list of `{id, name, cohort, context, ...}` records with disambiguating context per entity; cohort-specific fields like `cited_by_count`, `h_index`, `institution`, `credential_year`.
 - **`data/inputs/gold_answers.json`** — `{entity_id: gold_answer_text}` (100–200 words each).
 - **`data/inputs/model_set.json`** — list of model definitions (`id`, `openrouter_id`, `thinking` flag, `vendor`, `family`, `lab`). The Western/Chinese partition is derived from the `vendor` field by `code/panel.py`.
+
+## Robustness experiments (`experiments/`)
+
+Post-hoc audits of the headline findings. Each subdirectory is self-contained
+(`analyze.py` + derived CSV/JSON outputs + a `README.md` with the headline and
+reproduction command) and reads only released artifacts under `data/`. The
+large raw per-(entity, model) probe dumps are not committed (regenerable via
+`code/run_probe.py`); the derived summaries the analyses actually consume are.
+
+| Experiment | Question | Headline |
+|---|---|---|
+| `t1_1_gold_length` | Does gold-answer length drive the credential gap? | No; treadmill ordering survives every length adjustment. |
+| `t1_2_context_ab` | Does the disambiguating context leak the answer? | Minimal-context ablation drops absolute levels but preserves the Stanford–Tsinghua gradient (~5% shrinkage). |
+| `t1_3_synthetic_null` | What does a never-seen name score? | Noise floor ~0.04 (~0.20 for short-gold cohorts); frontier reasoning models score 0. |
+| `t1_4_wikipedia` | Is NameRank just "has a Wikipedia page"? | No; Wikipedia explains 8% of variance, h-index dominance survives the control. |
+| `t2_6_prompt_sensitivity` | Is the metric robust to probe wording? | **Ordering robust (Pearson 0.93–0.98); absolute levels are wording-conditional. → paper §6.7.4, Fig. 14, App. I.** |
+| `t2_7_artifact_mediation` | Is named-artifact amplification causal? | Yes; naming the artifact in context lifts recognition (+0.058 mean, +5.8σ on Jiayi). |
+| `t2_8_gendered_names` | Is there a gender bias? | Small but reproducible +0.038 (CS faculty) / +0.027 (OpenAlex) man-coded lift, surviving controls. |
+| `t2_9_fractional_citations` | Is h-index dominance about attribution density? | Partly; fractional citations do not beat raw citations — mechanism is "recurrent named papers". |
+| `t2_10_cross_judge` | Are findings a Gemini-judge artifact? | No; Pearson 0.87–0.93 across Gemini/GPT-5/Claude judges, orderings invariant (residual in-family lift +0.04). |
+| `t3_1_cutoff_gradient` | Is the silent zone a corpus-timing artifact? | **No — intrinsic; matched DiD ≈ 0. Exposes ~0.13/yr cross-vintage capability drift. → paper §6.7.5, Fig. 15, App. J.** |
+
+The two bold-faced experiments (`t2_6`, `t3_1`) are written into the paper; the
+rest inform the Discussion and the Appendix K limitations table. Reproduce any
+one with `cd experiments/<name> && python3 analyze.py`.
 
 ## Citation
 

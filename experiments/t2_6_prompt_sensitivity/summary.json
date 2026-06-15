@@ -1,0 +1,95 @@
+{
+  "n_records": 29600,
+  "n_entities": 200,
+  "n_models": 37,
+  "templates": [
+    "T0",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "grand_mean": 0.3371831756756717,
+  "total_SS": 4073.8972988220553,
+  "SS": {
+    "entity": 985.3318829431086,
+    "model": 1079.9311648339842,
+    "template": 72.38321544445652,
+    "cohort": 551.8679960241935,
+    "residual_after_main_effects": 1936.251035599941
+  },
+  "pct_of_total": {
+    "entity": 24.186468402824286,
+    "model": 26.508551532367797,
+    "template": 1.7767560185031108,
+    "cohort": 13.546438595390294,
+    "residual_after_main_effects": 47.52822404629093
+  },
+  "template_means": {
+    "T0": 0.4200528378378374,
+    "T1": 0.3053075675675688,
+    "T2": 0.2943962162162192,
+    "T3": 0.3289760810810806
+  },
+  "within_cell_sigma": {
+    "mean": 0.13931154457388295,
+    "median": 0.10897247358851685,
+    "p90": 0.34641016151377546,
+    "p95": 0.40926763859362253,
+    "n_cells": 7400
+  },
+  "pairwise_pearson_panel_mean_NR": {
+    "T0_T1": 0.968977661111977,
+    "T0_T2": 0.9757672970164513,
+    "T0_T3": 0.9270268942903802,
+    "T1_T2": 0.9768013043953694,
+    "T1_T3": 0.9587269875411858,
+    "T2_T3": 0.9475951554836665
+  },
+  "variance_ratio_panel_to_cross_model": {
+    "median_b_over_a": 0.04166726966363459,
+    "median_cross_model_var_T0": 0.07226420745069392,
+    "median_panel_mean_var_across_templates": 0.002642395795288535
+  },
+  "cohort_ordering": {
+    "T0": [
+      "mid_tier_filmmaker",
+      "mid_tier_writer",
+      "research_paper",
+      "oss_project",
+      "long_tail_researcher_openalex",
+      "cs_faculty",
+      "imo_gold",
+      "gpt5_system_card_author"
+    ],
+    "T1": [
+      "mid_tier_filmmaker",
+      "research_paper",
+      "mid_tier_writer",
+      "long_tail_researcher_openalex",
+      "oss_project",
+      "cs_faculty",
+      "imo_gold",
+      "gpt5_system_card_author"
+    ],
+    "T2": [
+      "mid_tier_filmmaker",
+      "mid_tier_writer",
+      "research_paper",
+      "long_tail_researcher_openalex",
+      "oss_project",
+      "cs_faculty",
+      "imo_gold",
+      "gpt5_system_card_author"
+    ],
+    "T3": [
+      "mid_tier_filmmaker",
+      "long_tail_researcher_openalex",
+      "mid_tier_writer",
+      "research_paper",
+      "oss_project",
+      "cs_faculty",
+      "imo_gold",
+      "gpt5_system_card_author"
+    ]
+  }
+}
