@@ -259,18 +259,18 @@ Full regression results for NameRank on external impact metrics, restricted to t
 
 \begin{center}
 \small
-\begin{tabular}{lrrr}
+\begin{tabular}{lrr}
 \toprule
-Predictor set & $R^2$ & Out-of-sample $R^2$ & Pearson $r$ (held-out) \\
+Predictor set & Full-sample $R^2$ & $10$-fold CV $R^2$ (mean $\pm$ sd) \\
 \midrule
-$\log(\text{citations})$ & 0.137 & 0.130 & 0.379 \\
-$\log(h\text{-index})$ & 0.398 & 0.428 & 0.671 \\
-$\log(\text{citations}) + \log(h\text{-index})$ & 0.398 & 0.498 & 0.719 \\
+$\log(\text{citations})$ & 0.137 & $0.12 \pm 0.07$ \\
+$\log(h\text{-index})$ & 0.398 & $0.38 \pm 0.09$ \\
+$\log(\text{citations}) + \log(h\text{-index})$ & 0.398 & $0.38 \pm 0.09$ \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Train/test split is 70/30 random with fixed seed. The marginal $R^2$ of $\log(\text{citations})$ given $\log(h\text{-index})$ is $0.000$; the coefficient on $\log(\text{citations})$ in joint regression is $-0.002$, indistinguishable from zero.
+Cross-validation is repeated $10$-fold ($20$ repeats, $200$ folds, fixed seed); the $\pm$ is the across-fold standard deviation. We use repeated CV rather than a single $70/30$ split because at $n = 771$ a single split's held-out $R^2$ varies by ${\sim}0.15$ across seeds (one favorable split gave $0.50$), which would overstate generalization. The marginal $R^2$ of $\log(\text{citations})$ given $\log(h\text{-index})$ is $0.000$; the coefficient on $\log(\text{citations})$ in joint regression is $-0.002$, indistinguishable from zero, and citations add no held-out signal.
 
 \textbf{Decile breakdown of NameRank by $h$-index} (Table~\ref{tab:h-index-decile}):
 
@@ -641,6 +641,8 @@ mid\_tier\_comedian & 18 & 17 & $-0.045$ & 0.23 \\
 
 The within-researcher-cohort gap ($+0.027$ to $+0.054$, ${\sim}6$--$8\%$ relative attenuation) is roughly $4\times$ smaller than the ${\sim}2\times$ East-Asian-surname attenuation reported by \citet{li2026ikp}, but reproducible across three researcher cohorts and robust to dropping medium-confidence gender labels. The large cross-profession gaps (actor, athlete) are excluded from the bias claim because the sampled men and women in those cohorts differ in actual fame.
 
+\textbf{Name-coding caveat.} \texttt{gender-guesser} infers gender from first names against a predominantly Western-name dictionary; it returns ``unknown'' or ``andy'' (androgynous) for most Chinese, Korean, and other romanized East-Asian given names, which are then dropped. The gendered sub-sample is therefore enriched for Western names, and the residual gender gap is partly entangled with the East-Asian-surname attenuation it sits beside---a name that codes as gender-unknown also tends to be one of the low-recognition non-Anglophone names. The $n_\text{woman}$ counts (e.g.\ $76$--$97$ across the researcher cohorts) reflect this attrition. We report the gap as an inherited corpus-and-judge property restricted to the controlled within-cohort comparison, not as a clean estimate of a pure gender effect net of name origin; disentangling the two would require a gender labeling that is accurate on CJK names (e.g.\ manual coding or a name-origin-aware classifier).
+
 \section{Limitations Summary Table}
 \label{app:limitations}
 
@@ -665,6 +667,9 @@ Tsinghua/Peking small samples ($n = 4$) & Institution-level reads noisy at the b
 Tianshou case study sample of $1$ for per-response mediation analysis & Cannot generalize the $+0.36$ score lift cleanly & Extend per-response mediation analysis to all $11$ verified (creator, artifact) pairs \\
 Inherited gender bias (Appendix~\ref{app:gender}) & Man-coded researcher names score $+0.03$--$0.05$ over woman-coded & \emph{Measured, not corrected:} report alongside the East-Asian-surname effect; restrict to controlled within-cohort comparisons \\
 Short-boilerplate-gold cohorts have an elevated noise floor (Appendix~\ref{app:synthetic}) & Olympiad-credential scores up to $\sim 0.20$ are partly context-prior leakage & Read scores against the synthetic floor ($\sim 0.04$ dense-gold, $\sim 0.20$ short-gold); the floor widens, not narrows, the credential gap \\
+Institution variance share inflated by category count (Section~\ref{sec:results-geography}) & Naive $R^2 = 0.54$ counts $319$ dummies on $698$ points; true share ${\sim}16\%$ & \emph{Corrected:} report adjusted $R^2$/$\omega^2$/ICC (${\sim}0.16$) and the large-cell Stanford--Tsinghua contrast; country-level aggregation is not inflated \\
+Context-injection lift includes a coverage-echo component (Section~\ref{sec:results-mediation-causal}) & Overstates the named-artifact-amplification effect; lift is an upper bound & Re-judge arm~B against an artifact-redacted gold crediting only non-injected facts; report the residual lift \\
+Gold/training-source overlap for Wikipedia-derived golds (Section~\ref{sec:method}) & For ${\sim}60\%$ of entities, coverage partly measures Wikipedia memorization & \emph{Tested:} a binary Wikipedia flag explains only ${\sim}2\%$ of long-tail variance vs.\ $40\%$ for $h$-index (Appendix~\ref{app:confounds}) \\
 \bottomrule
 \end{tabular}
 \end{table}
