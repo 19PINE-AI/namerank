@@ -75,23 +75,24 @@ def main() -> None:
     vals = [r[2] for r in rows]
     colors = [color_for(c) for c, _, _ in rows]
 
-    ax.barh(ys, vals, color=colors, edgecolor="white",
-            linewidth=0.6, height=0.72, zorder=3,
-            alpha=0.92)
+    # Firmly-sampled cells (n >= 10, the only ones the text ranks) are drawn
+    # solid; small-n point estimates are faded so the eye does not over-read
+    # their order.
+    bars = ax.barh(ys, vals, color=colors, edgecolor="white",
+                   linewidth=0.6, height=0.72, zorder=3)
+    for bar, k in zip(bars, ns):
+        bar.set_alpha(0.95 if k >= 10 else 0.42)
     ax.set_yticks(ys)
-    ax.set_yticklabels([f"{n}  (n={k})" for n, k in zip(names, ns)],
-                       fontsize=10)
+    ax.set_yticklabels(
+        [(r"$\bf{" + n.replace(' ', r'\ ') + r"}$" + f"  (n={k})") if k >= 10
+         else f"{n}  (n={k})" for n, k in zip(names, ns)],
+        fontsize=10)
     ax.axvline(usa_mean, ls="--", color=PALETTE["baseline"], linewidth=1.4,
                zorder=5, label=f"USA baseline  ({usa_mean:.3f})")
 
-    for i, (v, name) in enumerate(zip(vals, names)):
+    for i, (v, name, k) in enumerate(zip(vals, names, ns)):
         annotate_value(ax, v, i, f"{v:.3f}", dx=0.006,
-                       fontsize=9, color="#222")
-        # Highlight USA differently.
-        if name == "USA":
-            ax.text(v + 0.043, i, "(baseline)",
-                    va="center", ha="left",
-                    fontsize=8.5, color="#666", style="italic")
+                       fontsize=9, color="#222" if k >= 10 else "#888")
 
     lo = min(vals) - 0.04
     hi = max(vals) + 0.07
@@ -116,10 +117,11 @@ def main() -> None:
               framealpha=0.95, ncol=2)
 
     ax.set_title(
-        "Corpus-density gradient.  Small high-output Western tech ecosystems "
-        "(Israel, Singapore, Sweden) lead;\n"
-        "China, India, Spain, France cluster at the bottom.  "
-        "Region colour groups countries; the gradient is corpus-density, not research-quality.",
+        "Corpus-density gradient in CS-faculty NameRank.  The firm, well-sampled "
+        "contrast is USA $>$ China $>$ India\n"
+        r"(bold, $n \geq 10$, non-overlapping CIs); faded $n < 10$ rows are point "
+        "estimates only.  The gradient is\ncorpus-density, not research-quality "
+        "(Tsinghua/Peking rank low despite top-tier research reputations).",
         fontsize=10.0, pad=10,
     )
     grid_x(ax, alpha=0.28)

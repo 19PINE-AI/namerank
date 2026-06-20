@@ -62,6 +62,10 @@ def main() -> None:
                   baseline_n, baseline, PALETTE["baseline"]))
     creds.sort(key=lambda x: x[2])
 
+    # The two large-team co-authorship cohorts are shown for context but are
+    # NOT credentials; hatch them and exclude them from the "k of 9" count.
+    COAUTHOR = {"DeepSeek-V3 paper author", "GPT-5 system-card author"}
+
     fig, ax = plt.subplots(figsize=(10.0, 6.8))
     ys = list(range(len(creds)))
     names = [c[0] for c in creds]
@@ -69,8 +73,13 @@ def main() -> None:
     ns = [c[1] for c in creds]
     colors = [c[3] for c in creds]
 
+    hatches = ["////" if n in COAUTHOR else "" for n in names]
     bars = ax.barh(ys, vals, color=colors, edgecolor="white",
                    linewidth=0.6, height=0.72, zorder=3)
+    for bar, h in zip(bars, hatches):
+        if h:
+            bar.set_hatch(h)
+            bar.set_edgecolor("white")
 
     # Baseline rule.
     ax.axvline(baseline, ls="--", color=PALETTE["baseline"], linewidth=1.4,
@@ -92,35 +101,45 @@ def main() -> None:
                     fontsize=8.5, color=color, alpha=0.85)
 
     ax.set_yticks(ys)
-    ax.set_yticklabels([f"{n}  (n={k})" for n, k in zip(names, ns)],
-                       fontsize=10)
+    ylabels = []
+    for n, k in zip(names, ns):
+        tag = "  †" if n in COAUTHOR else ""
+        ylabels.append(f"{n}  (n={k}){tag}")
+    ax.set_yticklabels(ylabels, fontsize=10)
     ax.set_xlabel("Mean NameRank", fontsize=10.5)
-    ax.set_xlim(0, max(vals) + 0.22)
+    ax.set_xlim(0, max(vals) + 0.24)
 
-    # Annotate the two cohorts that clear baseline.
-    above = [(i, n) for i, (n, _, v, _) in enumerate(creds)
-             if v > baseline and n != "OpenAlex working researcher"]
+    # Bracket the two credentials that clear the baseline, in clear open space
+    # to the right of the bars (no crossing leader lines).
+    above = [i for i, (n, _, v, _) in enumerate(creds)
+             if v > baseline and n != "OpenAlex working researcher"
+             and n not in COAUTHOR]
     if above:
-        idx_top = above[-1][0]
-        ax.annotate(
-            "Only 2 of 9 prestigious credentials\n"
-            "clear the working-researcher baseline",
-            xy=(vals[idx_top], idx_top),
-            xytext=(vals[idx_top] - 0.32, idx_top - 0.7),
-            ha="left", va="top", fontsize=9.5, color="#222",
-            arrowprops=dict(arrowstyle="-", color="#888", lw=0.7,
-                            connectionstyle="arc3,rad=0.15"),
-        )
+        y_lo, y_hi = min(above), max(above)
+        x_br = max(vals[i] for i in above) + 0.085
+        ax.plot([x_br, x_br], [y_lo - 0.34, y_hi + 0.34],
+                color="#555", lw=1.0, zorder=6)
+        for yy in (y_lo - 0.34, y_hi + 0.34):
+            ax.plot([x_br - 0.012, x_br], [yy, yy], color="#555", lw=1.0, zorder=6)
+        ax.text(x_br + 0.018, 0.5 * (y_lo + y_hi),
+                "only ICPC and Putnam\nclear the baseline\n(2 of 9 credentials)",
+                ha="left", va="center", fontsize=9.0, color="#333")
 
     n_below = sum(1 for label, _, v, _ in creds
-                  if label != "OpenAlex working researcher" and v <= baseline)
-    n_cred = len(creds) - 1
+                  if label not in COAUTHOR
+                  and label != "OpenAlex working researcher" and v <= baseline)
+    n_cred = sum(1 for label, _, _, _ in creds
+                 if label not in COAUTHOR and label != "OpenAlex working researcher")
     ax.set_title(
         f"The credential treadmill: {n_below} of {n_cred} once-prestigious "
-        "intellectual credentials sit at or below the working-researcher baseline.",
+        "credentials sit at or below the working-researcher baseline.",
         fontsize=10.5, pad=10,
     )
-    ax.legend(loc="lower right", fontsize=9.5, framealpha=0.95)
+    handles, labs = ax.get_legend_handles_labels()
+    from matplotlib.patches import Patch
+    handles.append(Patch(facecolor="#bbb", edgecolor="white", hatch="////",
+                         label="† large-team co-authorship cohort (not a credential)"))
+    ax.legend(handles=handles, loc="lower right", fontsize=9.0, framealpha=0.95)
     grid_x(ax, alpha=0.28)
     thin_spines(ax)
     plt.tight_layout()

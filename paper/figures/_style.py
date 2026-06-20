@@ -67,10 +67,13 @@ def apply_style() -> None:
     Axes. It is safe to call repeatedly.
     """
     mpl.rcParams.update({
-        # Font: built-in CM serif (no LaTeX dependency at figure build time)
+        # Font: Times-clone serif so figures blend into the mathptmx (Times)
+        # LaTeX body. Nimbus Roman is the URW Times metric-compatible clone;
+        # STIX supplies matching Times-like math glyphs.
         "font.family":        "serif",
-        "font.serif":         ["cmr10", "DejaVu Serif", "Liberation Serif"],
-        "mathtext.fontset":   "cm",
+        "font.serif":         ["Nimbus Roman", "Times New Roman",
+                               "Liberation Serif", "DejaVu Serif"],
+        "mathtext.fontset":   "stix",
         "axes.formatter.use_mathtext": True,
 
         # Sizes — tuned for an 11pt body

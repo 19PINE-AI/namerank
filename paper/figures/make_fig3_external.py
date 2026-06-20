@@ -68,11 +68,13 @@ def fit(x, y):
 
 sh, ih_ = fit(log_h, ys)
 sc, ic_ = fit(log_c, ys)
-xs_plot = np.linspace(0, 5, 50)
-ax.plot(xs_plot, sh * xs_plot + ih_, "-",
-        color=C_H, linewidth=2.4, zorder=5)
-ax.plot(xs_plot, sc * xs_plot + ic_, "-",
-        color=C_C, linewidth=2.4, zorder=5)
+# Draw each fit only across the span its data actually covers (no extrapolation).
+xs_h_line = np.linspace(log_h.min(), log_h.max(), 50)
+xs_c_line = np.linspace(log_c.min(), log_c.max(), 50)
+ax.plot(xs_h_line, sh * xs_h_line + ih_, "-",
+        color=C_H, linewidth=2.6, zorder=5)
+ax.plot(xs_c_line, sc * xs_c_line + ic_, "-",
+        color=C_C, linewidth=2.6, zorder=5)
 
 # In-axes annotation summarising the joint regression.
 ax.text(0.05, 0.93,

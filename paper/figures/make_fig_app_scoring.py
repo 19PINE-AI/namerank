@@ -72,8 +72,8 @@ def main() -> None:
     ax.set_ylabel("Accuracy", fontsize=10.5)
     ax.set_aspect("equal", adjustable="box")
     thin_spines(ax)
-    ax.set_title("(a)  NameRank contribution = $\\mathrm{cov}\\times \\mathrm{acc}$.  "
-                 "Hallucinations collapse on the bottom edge.",
+    ax.set_title("(a)  Contribution $= \\mathrm{cov}\\times \\mathrm{acc}$: fluent\n"
+                 "hallucinations collapse on the bottom edge.",
                  fontsize=10.5, loc="left")
 
     # ── Panel (b) alternative scoring rules, evaluated on the same 3 points ──
