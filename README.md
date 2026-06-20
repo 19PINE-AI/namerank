@@ -224,7 +224,7 @@ table is Appendix P. Reproduce any one with
 
 ## License
 
-Code: MIT. Data (probe specifications, gold answers, raw probe responses, analysis CSVs): CC BY 4.0.
+Dual-licensed — see [`LICENSE`](LICENSE). Code: MIT. Data (probe specifications, gold answers, raw probe responses, analysis CSVs): CC BY 4.0.
 
 ## Status
 
