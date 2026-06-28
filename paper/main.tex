@@ -1,8 +1,11 @@
-\documentclass[10pt]{article}
+\documentclass[11pt]{article}
 
-% ── Look & feel (fonts, geometry, headings, captions, title, colours) ──
+% Encoding
 \usepackage[utf8]{inputenc}
-\usepackage{dmstyle}
+\usepackage[T1]{fontenc}
+
+% Professional preprint style (shared template).
+\usepackage{arxiv}
 
 % ── Content packages ──────────────────────────────────────────
 \usepackage{amsmath,amssymb,amsfonts}
@@ -17,22 +20,27 @@
 \usepackage{tabularx}
 \usepackage{lscape}
 \usepackage{pdflscape}
-\usepackage{float}
 % CJK characters in the text are romanized (pinyin) in this version of the paper.
 % To render the original Chinese directly, compile with XeLaTeX and add xeCJK.
 
-% hyperref loads last (after natbib); uses dmblue from dmstyle.
+% hyperref loads last (after natbib).
 \usepackage{hyperref}
-\hypersetup{colorlinks=true, linkcolor=dmblue, citecolor=dmblue, urlcolor=dmblue, breaklinks=true}
+\usepackage{xurl}
+\hypersetup{colorlinks=true, linkcolor=arxivaccent, citecolor=arxivaccent, urlcolor=arxivaccent, breaklinks=true}
+\setlength{\emergencystretch}{2em}
 
-\setrunningtitle{NameRank: Measuring LLM-Mediated Recognition}
-\dmtitle{NameRank: Measuring LLM-Mediated Recognition\\[2pt]as the Post-Bibliometric Impact Channel}
-\dmauthor{Bojie Li}
-\dmaffil{Pine AI}
-\dmdate{}
+\runningtitle{NameRank: Measuring LLM-Mediated Recognition as the Post-Bibliometric Impact Channel}
+\title{NameRank: Measuring LLM-Mediated Recognition\\[2pt]as the Post-Bibliometric Impact Channel}
+\author{%
+  \begin{tabular}{@{}c@{\hspace{4em}}c@{}}
+    Bojie Li & Noah Shi \\
+    Pine AI & University of Washington
+  \end{tabular}%
+}
+\date{}
 
 \begin{document}
-\dmmaketitle
+\maketitle
 
 % ══════════════════════════════════════════════════════════════
 \begin{abstract}
@@ -858,7 +866,8 @@ NameRank operationalizes the $65\%$ recognition-variance residual that \citet{li
 % ══════════════════════════════════════════════════════════════
 \section*{Acknowledgements}
 
-The author thanks the IKP project~\citep{li2026ikp} for surfacing the $65\%$ recognition-variance residual that motivates this work, Jiayi Weng for the life-score formulation that supplies the normative anchor, and the competition-math / programming-contest cohort for years of conversations that shaped the framing of recognition as a measurand. Thanks to the MSRA PhD Fellowship 2017 cohort for early-career discussions of credential value and post-credential career trajectories.
+This paper was produced using a voice-directed \emph{whisper coding} workflow~\citep{pineai2025whispercoding}, in which the author specifies and reviews the work by voice while AI agents carry out the coding and experiments. AI tools including Pine Copilot and Claude Code with Claude Opus 4.8 were used during this research.
+We thank BSQL Networking for hosting the NVIDIA RTX PRO 6000 Blackwell Workstation Edition GPU.
 
 % ══════════════════════════════════════════════════════════════
 \bibliographystyle{plainnat}
