@@ -46,6 +46,12 @@
 \begin{abstract}
 \citet{li2026ikp} found that bibliometrics explain only ${\sim}35\%$ of whether a frontier model recognizes a researcher, the residual driven by name uniqueness, named-artifact attachment, and subfield density. We treat that residual as the measurand. \textbf{NameRank} is a continuous $[0,1]$ recognition score: we probe a panel of $M=37$ frontier models with one open-ended question per entity (``tell me what you know about [name], who [context]'') and score each response on a multiplicative coverage$\times$accuracy axis with an independent LLM judge against a curated gold answer. Across $5{,}719$ entities in $54$ cohorts ($211{,}603$ records, plus an $8{,}880$-record Chinese sub-run), four findings stand out. \textbf{(i)~The credential treadmill}: $7$ of $9$ Olympic-style credentials (IMO, IOI, CMO, Rhodes, MSRA) score \emph{at or below} a long-tail working-researcher baseline---the credential no longer propagates a name, named post-credential production does. \textbf{(ii)~Artifact${>}$creator inversion}: in $8$ of $11$ verified (creator, artifact) pairs the tool out-ranks its maker, and a context-injection experiment corroborates the underlying attribution mechanism. \textbf{(iii)~$h$-index dominates raw citations} (within-cohort $R^2{=}0.40$ vs.\ $0.14$, $10$-fold CV $R^2{=}0.38$; citations add zero marginal value), because NameRank rewards name-recurrence across distinct works. \textbf{(iv)~A corpus-density gradient}: Stanford-affiliated CS faculty score ${\sim}2\times$ Tsinghua-affiliated ($0.54$ vs.\ $0.26$), part of a country-level English-text ladder (institution explains ${\sim}16\%$ of within-cohort variance by adjusted $R^2$/ICC; the naive $54\%$ is inflated by $320$ near-singleton institution categories). The metric is largely \emph{silent rather than misleading} below threshold---a contemporaneously-published author cohort scores $0.042$, read against a calibrated synthetic-null floor---and a battery of robustness checks (paraphrase, training-cutoff, three-judge, synthetic-null, confound controls) confirms the findings are not artifacts of wording, model vintage, judge family, or gold-answer length. We release all probes, gold answers, responses, and code: \url{https://github.com/19PINE-AI/namerank}.
 \end{abstract}
+\begin{center}
+\small
+Code: \url{https://github.com/19PINE-AI/namerank} \\[2pt]
+Website: \url{https://01.me/research/namerank}
+\end{center}
+\vspace{-0.6em}
 
 % ══════════════════════════════════════════════════════════════
 \section{Introduction}
