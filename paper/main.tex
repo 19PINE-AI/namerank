@@ -42,7 +42,7 @@
 
 % ══════════════════════════════════════════════════════════════
 \begin{abstract}
-\citet{li2026ikp} found that bibliometrics explain only ${\sim}35\%$ of whether a frontier model recognizes a researcher, the residual driven by name uniqueness, named-artifact attachment, and subfield density. We treat that residual as the measurand. \textbf{NameRank} is a continuous $[0,1]$ recognition score: we probe a panel of $M=37$ frontier models with one open-ended question per entity (``tell me what you know about [name], who [context]'') and score each response on a multiplicative coverage$\times$accuracy axis with an independent LLM judge against a curated gold answer. Across $5{,}719$ entities in $54$ cohorts ($211{,}603$ records, plus an $8{,}880$-record Chinese sub-run), four findings stand out. \textbf{(i)~The credential treadmill}: $7$ of $9$ Olympic-style credentials (IMO, IOI, CMO, Rhodes, MSRA) score \emph{at or below} a long-tail working-researcher baseline---the credential no longer propagates a name, named post-credential production does. \textbf{(ii)~Artifact${>}$creator inversion}: in $8$ of $11$ verified (creator, artifact) pairs the tool out-ranks its maker, and a context-injection experiment corroborates the underlying attribution mechanism. \textbf{(iii)~$h$-index dominates raw citations} (within-cohort $R^2{=}0.40$ vs.\ $0.14$, $10$-fold CV $R^2{=}0.38$; citations add zero marginal value), because NameRank rewards name-recurrence across distinct works. \textbf{(iv)~A corpus-density gradient}: Stanford-affiliated CS faculty score ${\sim}2\times$ Tsinghua-affiliated ($0.54$ vs.\ $0.26$), part of a country-level English-text ladder (institution explains ${\sim}16\%$ of within-cohort variance by adjusted $R^2$/ICC; the naive $54\%$ is inflated by $320$ near-singleton institution categories). The metric is largely \emph{silent rather than misleading} below threshold---a contemporaneously-published author cohort scores $0.042$, read against a calibrated synthetic-null floor---and a battery of robustness checks (paraphrase, training-cutoff, three-judge, synthetic-null, confound controls) confirms the findings are not artifacts of wording, model vintage, judge family, or gold-answer length. We release all probes, gold answers, responses, and code: \url{https://github.com/19PINE-AI/namerank}.
+What a frontier language model says about a researcher, founder, or tool is increasingly the first description a curious human sees---so whether an entity's name has propagated into the models' training corpora is now a measurement problem in its own right. Bibliometrics answer only a fraction of it: citation counts explain about a third of the variance in whether a model recognizes a researcher \citep{li2026ikp}. We treat the residual as the quantity of interest and introduce \textbf{NameRank}, a continuous $[0,1]$ recognition score: each of $5{,}719$ entities in $54$ cohorts is probed with one open-ended question across $37$ frontier models, and an independent LLM judge scores every response against a curated gold answer on multiplicative coverage$\times$accuracy, so fluent hallucinations earn nothing ($211{,}603$ records, plus a Chinese-prompt sub-run). Four findings stand out. \textbf{(i)~The credential treadmill:} seven of nine Olympic-style credentials (IMO, IOI, CMO, Rhodes, MSRA) score at or below a long-tail working-researcher baseline---the credential no longer propagates a name; named post-credential production does. \textbf{(ii)~The artifact-over-creator inversion:} in $8$ of $11$ verified (creator, artifact) pairs the tool out-ranks its maker, and a context-injection experiment corroborates the attribution mechanism. \textbf{(iii)~$h$-index dominates raw citations} as a recognition predictor, because NameRank rewards name-recurrence across distinct works; citations add no marginal signal. \textbf{(iv)~A corpus-density gradient:} Stanford-affiliated CS faculty score roughly twice Tsinghua-affiliated, part of an English-corpus ladder that runs across institutions, countries, and prompt languages. Below its threshold the metric is silent rather than misleading, and the findings survive paraphrase, training-cutoff, cross-judge, synthetic-null, and confound controls. We release all probes, gold answers, responses, and code: \url{https://github.com/19PINE-AI/namerank}.
 \end{abstract}
 \begin{center}
 \small
@@ -183,7 +183,7 @@ We evaluate $N = 5{,}719$ entities in $54$ cohorts, organized into the seven gro
 \small
 \caption{Entity cohorts by top-level group. Full per-cohort breakdown in Appendix~\ref{app:cohort}.}
 \label{tab:cohort-groups}
-\begin{tabular}{lrl}
+\begin{tabularx}{\textwidth}{lrX}
 \toprule
 Group & $n$ & Representative cohorts \\
 \midrule
@@ -195,7 +195,7 @@ Mid-tier cross-profession & 1{,}461 & writers, athletes, actors, chefs, journali
 Diagnostic reference set & 37 & hand-curated public figures, engineers, and artifacts \\
 Special cohorts & 212 & GPT-5 system-card authors, DeepSeek-V3 authors, conferences, awards \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Cross-Language Sub-Run, Execution, and Release}
@@ -505,22 +505,39 @@ The mechanism is attribution convention. tuixue.online circulated in chat groups
 \section{Robustness and Validation}
 \label{sec:results-validation}
 
-{\sloppy
-The findings above rest on three design choices---an LLM judge over embedding
-similarity, a multiplicative coverage$\times$accuracy rule, and open-ended over
-closed-factoid probes---and on the headline numbers not being artifacts of
-wording, model vintage, judge family, or gold-answer construction. This section
-validates each in turn: the metric's internal structure
-(Sections~\ref{sec:val-variance}--\ref{sec:val-embedding}), then a battery of
-controls against the obvious confounds
-(Sections~\ref{sec:results-prompt}--\ref{sec:results-confounds}).\par}
+The findings above rest on three design choices---an LLM judge over embedding similarity, a multiplicative coverage$\times$accuracy rule, and open-ended over closed-factoid probes---and on the headline numbers not being artifacts of wording, model vintage, judge family, or gold-answer construction. Table~\ref{tab:threats} summarizes the validation battery; the subsections give the evidence, with full tables in the appendices.
 
-\subsection{Variance decomposition}
+\begin{table}[H]
+\centering
+\small
+\caption{The validation battery: each threat to the findings, the check run against it, and the outcome.}
+\label{tab:threats}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{3.8cm}>{\raggedright\arraybackslash}p{6.0cm}c}
+\toprule
+\textbf{Threat} & \textbf{Check} & \textbf{Outcome} & \\
+\midrule
+Score reflects panel composition, not the entity & Variance decomposition over all $211{,}603$ records & Entity variance ${\approx}3.3\times$ model variance & \S\ref{sec:val-variance} \\
+Fluent hallucinators inflate scores & Refusal and generosity structure across the panel & Accuracy axis zeroes wrong-person bios; refusal rate tracks the silent zone & \S\ref{sec:val-refusal} \\
+A judge-free embedding score would suffice & Judge-vs-embedding comparison, $175$K records & Embedding similarity is flat across judge scores and credits hallucinations & \S\ref{sec:val-embedding} \\
+Findings are an artifact of probe wording & Four-template re-probe, $29{,}600$ records & Rankings invariant ($r \geq 0.93$); absolute levels are template-conditional & \S\ref{sec:results-prompt} \\
+The silent zone is corpus timing, not obscurity & Training-cutoff natural experiment & Matched difference-in-differences ${\approx}0$; silence is intrinsic & \S\ref{sec:results-cutoff} \\
+Findings depend on the judge's model family & Three-judge re-grade, $615$ records & Judges agree ($r = 0.87$--$0.93$); small own-family lift moves no finding & \S\ref{sec:results-judge} \\
+Unknown names could score above zero & $30$ fictional entities through the full pipeline & Floor ${\approx}0.04$ (dense golds), ${\approx}0.20$ (boilerplate golds); adjusting for it \emph{widens} the credential gap & \S\ref{sec:results-synthetic} \\
+Gold length, context leakage, or Wikipedia presence drive the results & Dedicated ablations and regressions & All three rejected & \S\ref{sec:results-confounds} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The Score Measures the Entity, Not the Panel}
 \label{sec:val-variance}
 
-For $211{,}603$ records across $5{,}719$ entities $\times$ $37$ models $\times$ $54$ cohorts, we report each factor's independent share of the total sum of squares. Entity and Cohort are nested (each entity belongs to exactly one cohort), so their SS contributions overlap and the rows do not partition the total; each row gives the fraction of total SS that factor independently explains.
+Decomposing the total sum of squares over all records (Table~\ref{tab:variance}), the entity factor explains more than three times the variance the model factor does. NameRank measures the entity; model identity contributes a minority share, and the per-model generosity differences that produce it (frontier reasoning models at the generous end, small RL-tuned-against-hallucination models at the strict end) are tabulated in full in Appendix~\ref{app:per-model}. Per-cohort within-entity disagreement---itself an informative signal about which recognition is corpus-pocket-specific---is broken down in Appendix~\ref{app:variance}.
 
-\begin{center}\small
+\begin{table}[H]
+\centering
+\small
+\caption{Variance decomposition over $211{,}603$ records ($5{,}719$ entities $\times$ $37$ models). Entity and cohort are nested, so their rows overlap rather than partitioning the total; each row is the share of total SS that the factor independently explains.}
+\label{tab:variance}
 \begin{tabular}{lrr}
 \toprule
 Source & SS & \% of total \\
@@ -531,71 +548,28 @@ Cohort & 4{,}425 & 16.8\% \\
 Residual (interactions) & 14{,}035 & 53.3\% \\
 \bottomrule
 \end{tabular}
-\end{center}
+\end{table}
 
-$\sigma^2_\text{entity}/\sigma^2_\text{model} = 3.3$: the entity signal dominates model-level bias by more than a factor of three. NameRank measures the entity, not the panel. Per-cohort within-entity disagreement is broken down in Appendix~\ref{app:variance}.
+\subsection{Refusal Structure Validates the Multiplicative Rule}
+\label{sec:val-refusal}
 
-\textbf{Per-model marginal mean scores} (a proxy for model generosity):
+The refusal rate---the fraction of the panel answering ``unknown''---inverts NameRank almost perfectly at cohort level (the full cohort table with refusal rates is Appendix~\ref{app:cohort}): the silent cohorts draw refusal rates above $50\%$, the universal cohorts near zero. Models honestly refuse on low-recognition cohorts rather than hallucinating, which is the threshold-cleanliness property surfacing in raw response behavior.
 
-\begin{center}\small
-\begin{tabular}{lr}
-\toprule
-Generous models (mean $> 0.55$) & ~ \\
-\midrule
-gemini-3-flash-think & 0.660 \\
-gpt-5.5-think & 0.619 \\
-deepseek-v4-pro-think & 0.604 \\
-claude-opus-4.6-think & 0.603 \\
-ernie-4.5-300b-a47b & 0.603 \\
-\midrule
-Strict models (mean $< 0.30$) & ~ \\
-\midrule
-qwen3-32b-think & 0.284 \\
-qwen3-8b-think & 0.286 \\
-gpt-oss-20b-think & 0.265 \\
-mistral-small-24b & 0.225 \\
-llama-3.2-1b & 0.201 \\
-\bottomrule
-\end{tabular}
-\end{center}
+The per-model refusal signature shows why the multiplicative rule is load-bearing. The high-refusal cluster is dominated by RL-tuned-against-hallucination models; the zero-refusal cluster consists of \emph{fluent hallucinators} that always produce a confident-looking biography (Appendix~\ref{app:per-model}). The accuracy axis is what disciplines the latter: a wrong-person bio scores high coverage but near-zero accuracy, so its product contributes nothing. A coverage-only or refusal-only metric would systematically over-credit the fluent-hallucinator cluster.
 
-Thinking mode does not correlate systematically with generosity (both gemini-3-flash-think and qwen3-32b-think are thinking-mode). The strict cluster is dominated by smaller models and by RL-tuned-against-hallucination defaults (gpt-oss, qwen3, mistral-small); the generous cluster has the frontier reasoning models. Full per-model generosity and refusal statistics for all $37$ models are in Appendix~\ref{app:per-model}.
-
-\subsection{Refusal patterns}
-
-The refusal rate (fraction of panel responding ``unknown'') inverts NameRank almost perfectly at cohort level:
-
-\begin{center}\small
-\begin{tabular}{lrr}
-\toprule
-Cohort & Refusal rate & NameRank mean \\
-\midrule
-gpt5\_system\_card\_author & \textbf{58\%} & \textbf{0.042} \\
-mid\_tier\_yc\_company & 57\% & 0.101 \\
-cpho\_china\_first\_prize & 53\% & 0.182 \\
-long\_tail\_researcher\_ikp & 47\% & 0.158 \\
-deepseek\_v3\_author & 42\% & 0.178 \\
-$\cdots$ & $\cdots$ & $\cdots$ \\
-research\_paper & 3\% & 0.625 \\
-mid\_tier\_book & 3\% & 0.363 \\
-oss\_project & 3\% & 0.519 \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-{\sloppy Models honestly refuse on low-NameRank cohorts rather than hallucinating, which is the threshold-cleanliness property surfacing in raw response behavior.\par}
-
-\textbf{Per-model refusal signature.} The very-high-refusal cluster (gpt-oss-20b $48\%$, grok-4.20-think $46\%$, mistral-small-24b $46\%$, minimax-m2.7-think $45\%$) is dominated by RL-tuned-against-hallucination defaults. The zero-refusal cluster (llama-3.2-1b $0.001\%$, gemma-3-4b $0\%$, phi-4 $0\%$, ernie-4.5-300b $0\%$, ministral-3b $0.001\%$, llama-4-maverick $0.001\%$) consists of \emph{fluent hallucinators}---models that always produce a confident-looking bio whose multiplicative coverage$\times$accuracy correctly down-weights through the accuracy axis ($\to 0$ when the bio is wrong). This validates the multiplicative score: a coverage-only or refusal-only metric would systematically over-credit the fluent-hallucinator cluster.
-
-\subsection{Judge vs.\ embedding gap}
+\subsection{Embedding Similarity Cannot Replace the Judge}
 \label{sec:val-embedding}
 
-Pearson(judge score, embedding similarity) $= 0.152$ across $175{,}397$ non-refusal records. Embedding similarity is essentially flat across judge-score buckets:
+Across $175{,}397$ non-refusal records, the correlation between judge score and embedding similarity is only $0.152$, and embedding similarity is essentially flat across judge-score buckets (Table~\ref{tab:embedding}). The reason is that embeddings measure topical similarity, which is high even for hallucinated bios: a fabricated biography of a CS researcher still embeds close to a gold answer about that researcher's actual subfield. The most extreme disagreements---judge $0.0$, embedding ${\approx}0.97$---are confident, entirely fabricated bios of Chinese-name long-tail researchers, exactly the fluent-hallucination case the judge exists to catch (a worked example is in Appendix~\ref{app:examples}). An embedding-only NameRank would credit these as recognized.
 
-\begin{center}\small
+\begin{table}[H]
+\centering
+\small
+\caption{Mean embedding similarity by judge-score bucket ($175{,}397$ non-refusal records). Embedding similarity does not separate unrecognized from recognized entities.}
+\label{tab:embedding}
 \begin{tabular}{rrr}
 \toprule
-Judge score bucket & $n$ & Mean embedding\_sim \\
+Judge score bucket & $n$ & Mean embedding sim. \\
 \midrule
 0.0--0.1 & 23{,}621 & 0.819 \\
 0.1--0.3 & 14{,}358 & 0.798 \\
@@ -605,86 +579,59 @@ Judge score bucket & $n$ & Mean embedding\_sim \\
 0.9--1.0 & 28{,}977 & 0.829 \\
 \bottomrule
 \end{tabular}
-\end{center}
+\end{table}
 
-Embedding measures topical/lexical similarity, which is high even for fluent-hallucination bios because the wrong-bio of a CS researcher still embeds close to the gold-about-that-researcher's actual subfield. Judge measures factual accuracy.
-
-The most informative disagreement cases (judge low, embedding high):
-
-\begin{center}\small
-\begin{tabular}{lllr@{ }r@{ }r}
-\toprule
-Entity & Model & Judge & Emb. & Gap \\
-\midrule
-Hao Tang & claude-opus-think & 0.00 & 0.97 & $+0.97$ \\
-Yuji Roh & phi-4 & 0.00 & 0.97 & $+0.97$ \\
-Xuanhe Zhou & mistral-medium-3.1 & 0.00 & 0.97 & $+0.97$ \\
-Linfeng Zhang & mistral-medium-3.1 & 0.00 & 0.96 & $+0.96$ \\
-Daya Guo & mistral-medium-3.1 & 0.00 & 0.96 & $+0.96$ \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-All Chinese-name long-tail CS researchers. Models produce confident bios in the actual subfield---embedding rates $0.97$---but the bios are factually about the wrong person or fabricated. The judge correctly assigns $0$.
-
-\textbf{Implication.} An embedding-only NameRank would credit these fluent hallucinations as ``recognized.'' Multiplicative coverage$\times$accuracy with an LLM judge is the necessary defense; embedding similarity cannot substitute for the judge step.
-
-\subsection{Prompt-paraphrase robustness}
+\subsection{Rankings Are Wording-Robust; Levels Are Not}
 \label{sec:results-prompt}
 
-The headline metric uses a single fixed probe template (Section~\ref{sec:construct}). To characterize sensitivity to the exact wording, we re-probed a cohort-stratified $200$-entity subset (spanning the silent-to-universal range) on the full $37$-model panel under three paraphrases of the probe (T1--T3) alongside the original (T0), for $200 \times 37 \times 4 = 29{,}600$ records. The four templates preserve the name slot, the context cue, the literal ``unknown'' escape token, and the ${\sim}150$-word length hint; they differ only in phrasing (e.g., T3 is \emph{``Briefly describe [name], who is [context]''}; full text in Appendix~\ref{app:prompt-sensitivity}).
+The headline metric uses a single fixed probe template (Section~\ref{sec:construct}). To characterize wording sensitivity, we re-probed a cohort-stratified $200$-entity subset on the full panel under three paraphrases alongside the original template, holding the name slot, context cue, ``unknown'' escape token, and length hint fixed (full templates and tables in Appendix~\ref{app:prompt-sensitivity}).
 
-Two results (Appendix~\ref{app:prompt-sensitivity}). First, \textbf{the ordering is robust to paraphrase.} Panel-mean NameRank is preserved across templates at pairwise Pearson $r = 0.93$--$0.98$, and the cohort ladder is invariant: filmmaker ranks first under every template, the GPT-5 system-card cohort last, and---crucially---the working-researcher-above-IMO-gold relationship that underlies the credential-treadmill thesis (Section~\ref{sec:results-credentials}) holds under all four templates. In an additive variance decomposition over the $29{,}600$ records, template is the smallest main effect ($1.78\%$ of total SS, vs.\ model $26.5\%$ and entity $24.2\%$ on this cohort-stratified subset).
+The \emph{ordering} is robust: panel-mean NameRank correlates at $r = 0.93$--$0.98$ across template pairs, the cohort ladder is invariant under all four templates---including the working-researcher-above-IMO-gold relationship that underlies the credential treadmill---and template is by far the smallest main effect in the variance decomposition. The \emph{absolute level} is not: the original template (``tell me what you know about\ldots'') draws fuller responses, and hence systematically higher coverage, than terser paraphrases, and within a single (entity, model) cell the wording sensitivity is comparable to the model-identity sensitivity. What rescues the metric is the panel mean, whose cross-template variance is more than an order of magnitude smaller than any single model's. NameRank values should therefore be read as template-conditional, and cross-study comparisons must hold the probe wording fixed.
 
-Second, \textbf{the absolute level is not paraphrase-invariant.} The original template T0 elicits systematically higher scores than the three paraphrases (template means T0 $=0.420$ vs.\ T1 $=0.305$, T2 $=0.294$, T3 $=0.329$); at the top of the range the gap reaches ${\sim}0.20$ (filmmaker $0.76 \to 0.51$). \emph{``Tell me what you know about''} draws fuller responses---and hence higher coverage---than \emph{``Briefly describe.''} Within a single (entity, model) cell the cross-template standard deviation has median $0.109$, \emph{comparable to} the cross-model $\sigma$ (${\sim}0.10$): an individual probe is about as sensitive to wording as it is to model identity. What rescues the metric is the panel \emph{mean}, whose variance across the four templates is $24\times$ smaller than the single-model cross-template variance.
-
-\textbf{Implication.} NameRank's \emph{rankings} are wording-robust, but its \emph{absolute values are conditional on the T0 template}: the headline numbers throughout this paper should be read as T0-specific, and cross-study comparisons must hold the probe wording fixed. This refines Appendix~\ref{app:limitations} Limitation~1---the mitigation for prompt sensitivity is the panel mean, not insensitivity of the individual probe.
-
-\subsection{The silent zone is intrinsic, not a corpus-timing artifact}
+\subsection{The Silent Zone Is Intrinsic, Not a Corpus-Timing Artifact}
 \label{sec:results-cutoff}
 
-A natural worry about the silent zone (Section~\ref{sec:scope}) is that it reflects \emph{corpus timing} rather than \emph{intrinsic obscurity}: perhaps low-NameRank entities are merely too recent for current models to have ingested, and a future model fleet would lift them. The two contemporaneously-published cohorts let us test this directly. The DeepSeek-V3 author cohort ($n = 69$) became nameable in any indexable corpus only at the arXiv posting of the technical report (2024-12); the GPT-5 system-card author cohort ($n = 80$) only at the system card's publication (2025-08). The panel's training cutoffs span 2023-10 to 2026-03, straddling both dates, so a model whose cutoff predates an emergence date \emph{cannot} have ingested the corresponding document.
+A natural worry about the silent zone (Section~\ref{sec:scope}) is that it reflects \emph{corpus timing} rather than \emph{intrinsic obscurity}: perhaps low-NameRank entities are merely too recent for current models to have ingested, and a future fleet would lift them. Two contemporaneously-published cohorts test this directly. The DeepSeek-V3 author cohort became nameable in any indexable corpus only when the technical report was posted (December 2024); the GPT-5 system-card author cohort only at the system card's publication (August 2025). The panel's training cutoffs straddle both dates, so a model whose cutoff predates an emergence date \emph{cannot} have ingested the document.
 
-The result (Figure~\ref{fig:cutoff-gradient}) cleanly separates two effects. \textbf{First, a model-vintage confound dominates the cutoff axis.} Every cohort's per-model mean recognition rises with training cutoff at ${\sim}0.10$--$0.20$ per year---including cohorts nameable long before any cutoff. The \texttt{reference\_pilot} cohort (which contains Geoffrey Hinton) rises $+0.16$/yr; Hinton did not become more nameable in 2025. This is capability and willingness-to-commit drift, not corpus growth. \textbf{Second, once that drift is removed, no corpus-timing signal remains.} The DeepSeek-V3 cohort's raw pre/post-emergence jump ($+0.121$) is fully accounted for by the same-split jump on the stable controls ($+0.137$): the matched difference-in-differences is $-0.016$. The GPT-5 system-card cohort goes \emph{more} silent in post-cutoff models---its refusal rate rises from $0.49$ to $0.79$---because the post-2025-08 fleet is dominated by RL-tuned-against-hallucination frontier models that demonstrably could have ingested the system card yet correctly refuse on a name appearing only in a $486$-person contributor list (matched DiD $-0.061$).
+The result (Figure~\ref{fig:cutoff-gradient}) separates two effects. First, a model-vintage confound dominates the cutoff axis: \emph{every} cohort's recognition rises with training cutoff at roughly $0.10$--$0.20$ per year, including cohorts (containing, e.g., Geoffrey Hinton) nameable long before any cutoff---capability and willingness-to-commit drift, not corpus growth. Second, once that drift is netted out by matched difference-in-differences against stable control cohorts, no corpus-timing signal remains: the DeepSeek-V3 cohort's pre/post-emergence jump matches the controls', and the GPT-5 system-card cohort goes \emph{more} silent in post-cutoff models, whose hallucination-averse tuning correctly refuses on a name appearing only in a $486$-person contributor list (full tables in Appendix~\ref{app:cutoff}).
 
-\textbf{Two implications.} (i)~\emph{Recognition is not ingestion.} Presence in the training corpus is necessary but far from sufficient: crossing a model's cutoff does not manufacture recognition for an entity that sits below the corpus-density threshold. This is the threshold-cleanliness property (Section~\ref{sec:scope}) surfacing as a timing-controlled result. (ii)~\emph{NameRank is not comparable across model vintages.} The ${\sim}0.13$/yr drift means a naive longitudinal re-run conflates corpus growth with model-capability gains; longitudinal claims---including the predictions in Section~\ref{sec:predictions}---must be made on within-run \emph{relative} gaps, never absolute levels. Per-cohort cutoff slopes and the full difference-in-differences are in Appendix~\ref{app:cutoff}.
+Two implications follow. \emph{Recognition is not ingestion}: presence in the training corpus is necessary but far from sufficient, so crossing a cutoff does not manufacture recognition for an entity below the corpus-density threshold. And \emph{NameRank is not comparable across model vintages}: the ${\sim}0.13$/yr drift means longitudinal claims---including the predictions in Section~\ref{sec:predictions}---must be made on within-run \emph{relative} gaps, never absolute levels.
+
 The thresholded behavior has a mechanistic basis in how transformers store and retrieve facts. Feed-forward layers act as key--value memories for factual associations~\citep{geva2021transformer}, with identifiable knowledge neurons per fact~\citep{dai2022knowledge, meng2022locating}; pretrained models function as implicit knowledge bases~\citep{petroni2019language} whose factual capacity scales with model size~\citep{roberts2020much}; accuracy on rare facts scales log-linearly with fact popularity~\citep{kandpal2023, mallen2023trust}; and popular knowledge actively suppresses less popular knowledge~\citep{overshadow2025}. Below the corpus-density threshold, silence rather than noise is what this retrieval stack predicts---which is what we observe.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_cutoff_gradient.pdf}
-    \caption{Training-cutoff gradient. \textbf{(a)}~Per-model mean NameRank vs.\ training cutoff for two first-appearance ``recency'' cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, 2025-08) and two stable controls nameable since well before any cutoff. \emph{Every} cohort rises with cutoff at ${\sim}0.10$--$0.20$/yr---a model-capability/generosity confound, not corpus timing (reference pilot contains Hinton). \textbf{(b)}~Natural experiment: the recency cohorts' pre/post-emergence jump matches the same-split jump on the stable controls (the hatched ``capability-only expectation'' bar), so the matched difference-in-differences is ${\approx}0$. Crossing a model's training cutoff is necessary but not sufficient for recognition.}
+    \caption{Training-cutoff gradient. \textbf{(a)}~Per-model mean NameRank vs.\ training cutoff for two first-appearance ``recency'' cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, 2025-08) and two stable controls nameable since well before any cutoff. \emph{Every} cohort rises with cutoff at ${\sim}0.10$--$0.20$/yr---a model-capability confound, not corpus timing (one control cohort contains Geoffrey Hinton). \textbf{(b)}~Natural experiment: the recency cohorts' pre/post-emergence jump matches the same-split jump on the stable controls (hatched ``capability-only expectation'' bar), so the matched difference-in-differences is ${\approx}0$. Crossing a model's training cutoff is necessary but not sufficient for recognition.}
     \label{fig:cutoff-gradient}
 \end{figure}
 
-\subsection{Judge robustness: cross-judge agreement and family bias}
+\subsection{Judge Family Does Not Drive the Findings}
 \label{sec:results-judge}
 
-NameRank uses a single LLM judge (Section~\ref{sec:method-judge}). To test whether the findings depend on that choice, we re-judged a $615$-record stratified sample (spanning \texttt{reference\_pilot}, \texttt{cs\_faculty}, \texttt{long\_tail\_researcher\_openalex}, \texttt{imo\_gold}, \texttt{gpt5\_system\_card\_author}, \texttt{mid\_tier\_writer}, \texttt{oss\_project}) with two additional judges from different families---Claude Opus 4.6 and GPT-5.5---holding the gold answers and judge prompt fixed.
+NameRank uses a single LLM judge (Section~\ref{sec:method-judge}). To test whether the findings depend on that choice, we re-judged a $615$-record stratified sample---spanning the diagnostic reference set, CS faculty, OpenAlex researchers, IMO gold medalists, GPT-5 system-card authors, writers, and OSS projects---with two additional judges from different families (Claude Opus 4.6 and GPT-5.5), holding gold answers and judge prompt fixed.
 
-\textbf{Agreement.} The three judges agree closely (Appendix~\ref{app:cross-judge}): pairwise Pearson $0.87$--$0.93$ across the full sample and $0.95$ on the \texttt{reference\_pilot} anchors, and the cohort ladder is preserved under all three. The credential-treadmill ordering, the near-zero score for this paper's author, and the cohort gradient are therefore not artifacts of the Gemini judge. The one cell where judges diverge is \texttt{oss\_project} ($n = 15$, Gemini--Claude $r = 0.10$), driven by a few records where Gemini credits a generic project description that Claude penalizes for omitting the creator/date named in the gold; the sample is too small to over-read.
+The three judges agree closely: pairwise Pearson $0.87$--$0.93$ across the full sample, $0.95$ on the reference-set anchors, and the cohort ladder---including the credential-treadmill ordering---is preserved under all three (Appendix~\ref{app:cross-judge}). A self-preference exists but is small once response capability is controlled: comparing each judge to the mean of the other two on the same response, Gemini awards its own family a residual $+0.062$ and GPT-5.5 $+0.041$, while Claude shows none. This offset shifts per-vendor score tables (Appendix~\ref{app:per-model}) but not the entity- and cohort-level comparisons that constitute the findings, which average over the full panel and are invariant to the judge. For future runs, Claude is the least self-favoring single judge, and a three-judge mean removes the offset entirely.
 
-\textbf{Family bias.} A self-preference exists but is small once response capability is controlled. For each response we compute a judge's deviation from the mean of the \emph{other two} judges on that same response, then compare own-family to other-family responses (Appendix~\ref{app:cross-judge}). Gemini awards Gemini-family responses a residual $+0.062$, GPT-5.5 awards GPT-family $+0.041$, and Claude shows no own-family preference ($-0.010$). This exceeds the near-zero within-entity estimate that a matched-pair check suggested (Section~\ref{sec:method-judge}), so per-vendor score \emph{tables}---e.g., the generosity ranking in Section~\ref{sec:results-validation}, in which gemini-3-flash-think tops the list---carry a ${\sim}0.06$ Gemini-judging-Gemini allowance. It does not affect the entity- and cohort-level comparisons that constitute the paper's findings, which are computed across the full panel and are invariant to the judge (Appendix~\ref{app:cross-judge}). For future runs, Claude is the least self-favoring single judge, and a three-judge mean removes the offset entirely.
-
-\subsection{Synthetic-null floor}
+\subsection{The Synthetic-Null Floor}
 \label{sec:results-synthetic}
 
-To establish what NameRank assigns to a name absent from every pretraining corpus, we constructed $30$ entirely fictional entities spanning the archetypes the paper measures (CS faculty, founders, IMO golds, OSS projects, mid-tier figures), with deliberately ungoogleable names (each verified to surface no notable real person), cohort-matched disambiguating contexts, and matched gold answers, and ran them through the full pipeline.
+To establish what NameRank assigns to a name absent from every pretraining corpus, we ran $30$ entirely fictional entities---spanning the archetypes the paper measures, with verified-ungoogleable names, cohort-matched contexts, and matched gold answers---through the full pipeline.
 
-The synthetic floor is low but archetype-dependent (Appendix~\ref{app:synthetic}). Dense-gold cohorts---where the gold lists specific named contributions---floor near $\sim 0.04$ (synthetic founders $0.012$, CS faculty $0.027$), essentially the main-run silent-zone level (the real GPT-5 system-card cohort sits at $0.042$). But the synthetic \emph{IMO-gold} archetype floors at $0.199$, because its gold answer is mostly cohort boilerplate (year $+$ country $+$ medal $+$ a generic outcome sentence): a model can satisfy much of that template from the disambiguating context alone, without recognizing the (nonexistent) person. The floor is driven by two model populations (Appendix~\ref{app:synthetic}): small open-weights fluent hallucinators (gemma-3-4b reaches $0.293$ on synthetics) and, for the short-gold archetype, a few frontier models that complete the boilerplate; $15$ of $37$ models score the synthetics at exactly $0$.
+The floor is low but gold-dependent (Appendix~\ref{app:synthetic}). Archetypes with dense, specific gold answers floor near $0.04$, essentially the main-run silent-zone level. But the synthetic IMO-gold archetype floors near $0.20$, because its gold is mostly cohort boilerplate (year, country, medal) that a model can partly satisfy from the disambiguating context alone without recognizing the nonexistent person. The floor is produced by small fluent-hallucinator models plus, for the boilerplate-gold archetype, a few frontier models completing the template; $15$ of $37$ models score every synthetic at exactly zero.
 
-\textbf{Implication for the credential numbers.} Cohorts whose gold answers are short boilerplate---the olympiad credentials---carry a $\sim 0.20$ noise floor, whereas dense-gold cohorts carry $\sim 0.04$. This does not overturn the credential treadmill; it sharpens it. IMO gold ($0.362$) clears its $\sim 0.20$ floor by only $\sim 0.16$, while the OpenAlex baseline ($0.464$, dense golds) clears its $\sim 0.04$ floor by $\sim 0.42$, so the floor-adjusted credential-vs-baseline gap is \emph{wider}, not narrower, than the raw gap. The corollary caveat is that the lowest credential cohorts (CPhO $0.182$, DeepSeek-V3 authors $0.178$) sit at or below the short-gold floor and should be read as silent rather than weakly recognized. Differences smaller than the relevant floor are not evidence of recognition (Appendix~\ref{app:synthetic}).
+This calibration \emph{sharpens} the credential treadmill rather than threatening it. The olympiad cohorts carry the ${\sim}0.20$ boilerplate-gold floor, so IMO gold clears its floor by far less than the OpenAlex baseline clears its ${\sim}0.04$ dense-gold floor---the floor-adjusted gap is wider than the raw gap. The corollary caveat: the lowest credential cohorts sit at or below their floor and should be read as silent rather than weakly recognized. Differences smaller than the relevant floor are not evidence of recognition.
 
-\subsection{Confound checks: gold length, context, and Wikipedia}
+\subsection{Confound Checks: Gold Length, Context, and Wikipedia}
 \label{sec:results-confounds}
 
 Three alternative explanations for the headline findings were tested and rejected (details in Appendix~\ref{app:confounds}).
 
-\textbf{Gold-answer length does not drive the credential gap.} Credential cohorts have shorter gold answers than OpenAlex researchers, raising the worry that the treadmill is a length artifact. It is not: within the credential cohorts that matter, gold length explains almost no NameRank variance (within-cohort $R^2 < 0.07$ for IMO, IOI, MSRA), and the credential-vs-baseline ordering survives both a pooled fixed-effects length adjustment (which \emph{widens} the gap) and a within-OpenAlex-slope adjustment. The strict length-matched-pairs test is in fact infeasible---IMO and OpenAlex gold answers have non-overlapping length distributions (a ${\sim}270$-character gap)---which is itself the point: the cohorts differ in entity attributes, not merely in gold-answer length.
+\textbf{Gold-answer length does not drive the credential gap.} Credential cohorts have shorter gold answers than the researcher baseline, raising the worry that the treadmill is a length artifact. Within the credential cohorts, gold length explains almost none of the NameRank variance, and the credential-vs-baseline ordering survives a pooled length adjustment---which widens rather than narrows the gap.
 
-\textbf{Disambiguating context anchors but does not leak.} Re-running a $288$-entity subset with the specific context replaced by a minimal generic descriptor (e.g.\ ``an academic researcher'') drops absolute NameRank substantially (OpenAlex $-0.37$, IMO $-0.31$), confirming that context is necessary for disambiguation. But it does \emph{not} leak the gold: the Stanford-vs-Tsinghua institutional gradient is preserved almost intact (relative shrinkage $\sim 5\%$). Levels depend on context; the cross-entity comparisons the paper draws do not.
+\textbf{Disambiguating context anchors but does not leak.} Replacing the specific context with a minimal generic descriptor (``an academic researcher'') on a $288$-entity subset drops absolute scores sharply---context is necessary for disambiguation---but preserves the Stanford-vs-Tsinghua institutional gradient almost intact. Levels depend on context; the cross-entity comparisons the paper draws do not.
 
-\textbf{NameRank is not ``has a Wikipedia page.''} A binary Wikipedia-presence flag explains only $2\%$ of NameRank variance among long-tail researchers ($8\%$ across the full cohort), versus $40\%$ for $h$-index, which retains a marginal $R^2$ of $0.376$ after a full Wikipedia block (presence $+$ log-sitelinks $+$ log-pageviews). Wikipedia presence accounts for only ${\sim}1/4$ of the Stanford--Tsinghua gap; the other ${\sim}3/4$ is the broader anglophone-corpus exposure NameRank is designed to capture.
+\textbf{NameRank is not ``has a Wikipedia page.''} A binary Wikipedia-presence flag explains ${\sim}2\%$ of NameRank variance among long-tail researchers, against ${\sim}40\%$ for $h$-index, which retains nearly all its explanatory power after a full Wikipedia block (presence, sitelinks, pageviews). Wikipedia presence accounts for only about a quarter of the Stanford--Tsinghua gap; the rest is the broader anglophone-corpus exposure the metric is designed to capture.
 
 % ══════════════════════════════════════════════════════════════
 \section{Discussion}
@@ -692,7 +639,7 @@ Three alternative explanations for the headline findings were tested and rejecte
 
 \subsection{What We Have Built and What We Have Not}
 
-NameRank is a continuous cross-domain instrument with empirical threshold cleanliness, validated external correlates ($h$-index, institution), and mechanism-level structure (named-artifact amplification, conditional-probe asymmetry). It is suitable for: cross-domain placement of individuals and artifacts on a common scale; tracking propagation of specific names into frontier-model training corpora over time; measuring the recognition-impact channel that bibliometrics misses (the IKP Sec.~5.7 residual). It is not suitable for: quality assessment (it measures what models absorbed, not what is worth absorbing); attribution of authorship to specific contributions (it measures the name, not the deed); inference about future events (a 2026 measurement reflects 2025-and-earlier corpus state).
+NameRank is a continuous cross-domain instrument with empirical threshold cleanliness, validated external correlates ($h$-index, institution), and mechanism-level structure (named-artifact amplification, conditional-probe asymmetry). It is suitable for: cross-domain placement of individuals and artifacts on a common scale; tracking propagation of specific names into frontier-model training corpora over time; measuring the recognition-impact channel that bibliometrics miss (the residual documented by \citet{li2026ikp}). It is not suitable for: quality assessment (it measures what models absorbed, not what is worth absorbing); attribution of authorship to specific contributions (it measures the name, not the deed); inference about future events (a 2026 measurement reflects 2025-and-earlier corpus state).
 
 \subsection{The Credential Treadmill Thesis in Context}
 \label{sec:discussion-credentials}

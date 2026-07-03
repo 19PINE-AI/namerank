@@ -2,7 +2,7 @@
 \section{Full Cohort Specification}
 \label{app:cohort}
 
-Table~\ref{tab:full-cohort} lists all $54$ cohorts with sample size, mean NameRank, refusal rate, and inclusion criteria.
+Table~\ref{tab:full-cohort} lists all $54$ cohorts with sample size, mean NameRank, refusal rate, and inclusion criteria. Rows are keyed by the cohort identifiers used in the released dataset; the body text refers to the same cohorts by readable names.
 
 {\small
 \begin{longtable}{@{}lrrr>{\raggedright\arraybackslash}p{5.5cm}@{}}
@@ -48,7 +48,7 @@ mid\_tier\_journalist & 84 & 0.512 & 2\% & Working journalists at major outlets 
 mid\_tier\_religious & 30 & 0.486 & 1\% & Notable religious leaders \\
 mid\_tier\_athlete & 134 & 0.477 & 10\% & Working professional athletes \\
 \textbf{long\_tail\_researcher\_openalex} & \textbf{771} & \textbf{0.464} & 24\% & OpenAlex researchers $500$--$30{,}000$ citations \\
-reference\_pilot & 37 & 0.452 & 15\% & C5/C6 diagnostic entities (hand-curated) \\
+reference\_pilot & 37 & 0.452 & 15\% & Hand-curated diagnostic reference set \\
 website\_or\_service & 9 & 0.437 & 10\% & Public-utility websites/services \\
 mid\_tier\_online\_course & 40 & 0.434 & 0\% & Notable online courses (CS50, MIT 6.006, etc.) \\
 mid\_tier\_podcast & 57 & 0.427 & 2\% & Notable podcasts \\
@@ -66,7 +66,7 @@ cmo\_china\_gold & 131 & 0.302 & 38\% & China Math Olympiad gold 2005--2012 \\
 mid\_tier\_architect & 36 & 0.255 & 18\% & Working architects without star status \\
 cpho\_china\_first\_prize & 50 & 0.182 & 53\% & China Physics Olympiad first prize 2009 \\
 deepseek\_v3\_author & 69 & 0.178 & 42\% & DeepSeek-V3 paper author list \\
-long\_tail\_researcher\_ikp & 159 & 0.158 & 47\% & IKP Sec.~5.7 researcher subset \\
+long\_tail\_researcher\_ikp & 159 & 0.158 & 47\% & Researcher subset from \citet[\S5.7]{li2026ikp} \\
 mid\_tier\_activist & 2 & 0.111 & 15\% & Working-level activists ($n=2$, retained as placeholder; excluded from cohort-level claims) \\
 mid\_tier\_yc\_company & 25 & 0.101 & 57\% & YC company sample from older batches (W19--S22) \\
 gpt5\_system\_card\_author & 80 & 0.042 & 58\% & GPT-5 system card author list \\
@@ -291,7 +291,7 @@ The pattern is consistent: Chinese-character names lift on Chinese prompts; Engl
 \section{External Validity Regressions}
 \label{app:external}
 
-Full regression results for NameRank on external impact metrics, restricted to the \texttt{long\_tail\_\allowbreak{}researcher\_\allowbreak{}openalex} cohort ($n = 771$, citations $500$--$30{,}000$, $h$-index from OpenAlex).
+Full regression results for NameRank on external impact metrics, restricted to the OpenAlex long-tail researcher cohort ($n = 771$, citations $500$--$30{,}000$, $h$-index from OpenAlex).
 
 \begin{center}
 \small
@@ -313,7 +313,7 @@ Cross-validation is repeated $10$-fold ($20$ repeats, $200$ folds, fixed seed); 
 \begin{table}[H]
 \centering
 \small
-\caption{Mean NameRank by $h$-index decile within long\_tail\_researcher\_openalex.}
+\caption{Mean NameRank by $h$-index decile within OpenAlex long-tail researchers.}
 \label{tab:h-index-decile}
 \begin{tabular}{rrrr}
 \toprule
@@ -385,19 +385,19 @@ The within-entity model-disagreement (standard deviation across the $37$-model p
 \toprule
 Cohort & Mean within-entity $\sigma$ \\
 \midrule
-noi\_china\_gold & 0.404 \\
-icpc\_world\_finals\_gold & 0.381 \\
-cmo\_china\_gold & 0.359 \\
-long\_tail\_researcher\_openalex & 0.356 \\
-imo\_gold & 0.333 \\
-putnam\_fellow & 0.331 \\
+NOI China gold & 0.404 \\
+ICPC World Finals gold & 0.381 \\
+CMO China gold & 0.359 \\
+OpenAlex long-tail researchers & 0.356 \\
+IMO gold & 0.333 \\
+Putnam fellows & 0.331 \\
 $\cdots$ & $\cdots$ \\
-mid\_tier\_book & 0.157 \\
-mid\_tier\_podcast & 0.152 \\
-named\_method & 0.144 \\
+Books & 0.157 \\
+Podcasts & 0.152 \\
+Named methods & 0.144 \\
 conference & 0.131 \\
-gpt5\_system\_card\_author & 0.126 \\
-mid\_tier\_online\_course & 0.113 \\
+GPT-5 system-card authors & 0.126 \\
+Online courses & 0.113 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -456,7 +456,7 @@ This is the case that motivates the multiplicative coverage$\times$accuracy stru
 \section{Prompt-Paraphrase Sensitivity}
 \label{app:prompt-sensitivity}
 
-We re-probed a cohort-stratified $200$-entity subset ($30$ each from \texttt{imo\_gold}, \texttt{long\_tail\_researcher\_openalex}, \texttt{cs\_faculty}, \texttt{mid\_tier\_writer}, \texttt{oss\_project}, \texttt{gpt5\_system\_card\_author}; $10$ each from \texttt{research\_paper} and \texttt{mid\_tier\_filmmaker}) on the full $37$-model panel under three paraphrased probe templates (T1--T3) alongside the original (T0), for $29{,}600$ records. The four templates:
+We re-probed a cohort-stratified $200$-entity subset ($30$ each from IMO gold, OpenAlex long-tail researchers, CS faculty, Writers, OSS projects, GPT-5 system-card authors; $10$ each from Research papers and Filmmakers) on the full $37$-model panel under three paraphrased probe templates (T1--T3) alongside the original (T0), for $29{,}600$ records. The four templates:
 
 \begin{verbatim}
 T0: Tell me what you know about {name}, who is {context}. If you do
@@ -498,14 +498,14 @@ Residual (after entity+model+template) & 1936.3 & 47.53\% \\
 \toprule
 Cohort & T0 & T1 & T2 & T3 \\
 \midrule
-mid\_tier\_filmmaker & 0.761 & 0.506 & 0.513 & 0.532 \\
-mid\_tier\_writer & 0.597 & 0.388 & 0.403 & 0.405 \\
-research\_paper & 0.581 & 0.391 & 0.394 & 0.401 \\
-oss\_project & 0.504 & 0.334 & 0.335 & 0.331 \\
-long\_tail\_researcher\_openalex & 0.465 & 0.362 & 0.341 & 0.455 \\
-cs\_faculty & 0.384 & 0.300 & 0.295 & 0.319 \\
-imo\_gold & 0.356 & 0.290 & 0.260 & 0.302 \\
-gpt5\_system\_card\_author & 0.047 & 0.063 & 0.027 & 0.070 \\
+Filmmakers & 0.761 & 0.506 & 0.513 & 0.532 \\
+Writers & 0.597 & 0.388 & 0.403 & 0.405 \\
+Research papers & 0.581 & 0.391 & 0.394 & 0.401 \\
+OSS projects & 0.504 & 0.334 & 0.335 & 0.331 \\
+OpenAlex long-tail researchers & 0.465 & 0.362 & 0.341 & 0.455 \\
+CS faculty & 0.384 & 0.300 & 0.295 & 0.319 \\
+IMO gold & 0.356 & 0.290 & 0.260 & 0.302 \\
+GPT-5 system-card authors & 0.047 & 0.063 & 0.027 & 0.070 \\
 \midrule
 \textbf{Panel template mean} & \textbf{0.420} & \textbf{0.305} & \textbf{0.294} & \textbf{0.329} \\
 \bottomrule
@@ -515,19 +515,19 @@ gpt5\_system\_card\_author & 0.047 & 0.063 & 0.027 & 0.070 \\
 \section{Training-Cutoff Gradient}
 \label{app:cutoff}
 
-The two first-appearance cohorts (\texttt{deepseek\_v3\_author}, emergence 2024-12; \texttt{gpt5\_system\_card\_author}, emergence 2025-08) test whether the silent zone is corpus timing or intrinsic obscurity (Section~\ref{sec:results-cutoff}). Model training cutoffs are from \texttt{data/analysis/model\_cutoffs.json} and span 2023-10 to 2026-03.
+The two first-appearance cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, emergence 2025-08) test whether the silent zone is corpus timing or intrinsic obscurity (Section~\ref{sec:results-cutoff}). Model training cutoffs are from \texttt{data/analysis/model\_cutoffs.json} and span 2023-10 to 2026-03.
 
 \begin{table}[H]
 \centering
 \small
-\caption{Natural experiment: per-model mean recognition split by whether the model's training cutoff predates (pre) or postdates (post) each cohort's emergence date. The raw jump is decomposed by a matched difference-in-differences (DiD) that subtracts the same-split jump averaged over three stable controls (\texttt{cs\_faculty}, \texttt{long\_tail\_researcher\_openalex}, \texttt{imo\_gold}), which nets out the cross-vintage capability drift. Both matched DiDs are $\leq 0$.}
+\caption{Natural experiment: per-model mean recognition split by whether the model's training cutoff predates (pre) or postdates (post) each cohort's emergence date. The raw jump is decomposed by a matched difference-in-differences (DiD) that subtracts the same-split jump averaged over three stable controls (CS faculty, OpenAlex long-tail researchers, IMO gold), which nets out the cross-vintage capability drift. Both matched DiDs are $\leq 0$.}
 \label{tab:cutoff-natexp}
 \begin{tabular}{lrrrrr}
 \toprule
-Cohort & pre mean (refusal) & post mean (refusal) & raw jump & control jump & matched DiD \\
+Cohort & pre (refusal) & post (refusal) & raw jump & control & DiD \\
 \midrule
-deepseek\_v3\_author & 0.113 (0.38) & 0.233 (0.45) & $+0.121$ & $+0.137$ & $\mathbf{-0.016}$ \\
-gpt5\_system\_card\_author & 0.051 (0.49) & 0.020 (0.79) & $-0.031$ & $+0.030$ & $\mathbf{-0.061}$ \\
+DeepSeek-V3 authors & 0.113 (0.38) & 0.233 (0.45) & $+0.121$ & $+0.137$ & $\mathbf{-0.016}$ \\
+GPT-5 system-card authors & 0.051 (0.49) & 0.020 (0.79) & $-0.031$ & $+0.030$ & $\mathbf{-0.061}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -541,15 +541,15 @@ gpt5\_system\_card\_author & 0.051 (0.49) & 0.020 (0.79) & $-0.031$ & $+0.030$ &
 \toprule
 Cohort & slope (/yr) & Pearson $r$ \\
 \midrule
-mid\_tier\_comedian & $+0.196$ & $+0.66$ \\
-foundation\_model & $+0.171$ & $+0.76$ \\
-cs\_faculty (control) & $+0.158$ & $+0.57$ \\
-reference\_pilot (control; incl.\ Hinton) & $+0.157$ & $+0.77$ \\
-research\_paper & $+0.125$ & $+0.74$ \\
-long\_tail\_researcher\_openalex (control) & $+0.094$ & $+0.32$ \\
-\textbf{deepseek\_v3\_author} (recency) & $+0.065$ & $+0.23$ \\
-imo\_gold & $+0.043$ & $+0.15$ \\
-\textbf{gpt5\_system\_card\_author} (recency) & $-0.021$ & $-0.25$ \\
+Comedians & $+0.196$ & $+0.66$ \\
+Foundation models & $+0.171$ & $+0.76$ \\
+CS faculty (control) & $+0.158$ & $+0.57$ \\
+Reference set (control; incl.\ Hinton) & $+0.157$ & $+0.77$ \\
+Research papers & $+0.125$ & $+0.74$ \\
+OpenAlex long-tail researchers (control) & $+0.094$ & $+0.32$ \\
+\textbf{DeepSeek-V3 authors} (recency) & $+0.065$ & $+0.23$ \\
+IMO gold & $+0.043$ & $+0.15$ \\
+\textbf{GPT-5 system-card authors} (recency) & $-0.021$ & $-0.25$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -588,21 +588,21 @@ A $615$-record stratified sample (Section~\ref{sec:results-judge}) was re-graded
 \begin{table}[H]
 \centering
 \small
-\caption{Pairwise Pearson correlation between judges, by cohort. Agreement is high everywhere except the $n = 15$ \texttt{oss\_project} cell (generic-description disagreement). The \texttt{reference\_pilot} anchors---including its four Chinese-name entities---show the tightest agreement, refuting a ``Chinese name $\to$ judge disagreement'' hypothesis.}
+\caption{Pairwise Pearson correlation between judges, by cohort. Agreement is high everywhere except the $n = 15$ OSS projects cell (generic-description disagreement). The Reference set anchors---including its four Chinese-name entities---show the tightest agreement, refuting a ``Chinese name $\to$ judge disagreement'' hypothesis.}
 \label{tab:cross-judge-corr}
 \begin{tabular}{lrrrr}
 \toprule
 Subset & $n$ & Gem--Claude & Gem--GPT-5 & Claude--GPT-5 \\
 \midrule
 ALL & 615 & 0.868 & 0.893 & 0.934 \\
-reference\_pilot & 185 & 0.952 & 0.941 & 0.972 \\
+Reference set & 185 & 0.952 & 0.941 & 0.972 \\
 \quad (Chinese-name subset) & 74 & 0.957 & 0.945 & 0.970 \\
-long\_tail\_researcher\_openalex & 100 & 0.855 & 0.920 & 0.935 \\
-cs\_faculty & 100 & 0.712 & 0.894 & 0.781 \\
-imo\_gold & 100 & 0.785 & 0.808 & 0.924 \\
-gpt5\_system\_card\_author & 100 & 0.781 & 0.917 & 0.830 \\
-mid\_tier\_writer & 15 & 0.872 & 0.853 & 0.878 \\
-oss\_project & 15 & 0.103 & 0.455 & 0.486 \\
+OpenAlex long-tail researchers & 100 & 0.855 & 0.920 & 0.935 \\
+CS faculty & 100 & 0.712 & 0.894 & 0.781 \\
+IMO gold & 100 & 0.785 & 0.808 & 0.924 \\
+GPT-5 system-card authors & 100 & 0.781 & 0.917 & 0.830 \\
+Writers & 15 & 0.872 & 0.853 & 0.878 \\
+OSS projects & 15 & 0.103 & 0.455 & 0.486 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -639,14 +639,14 @@ Thirty fictional entities (ungoogleable names verified to surface no notable rea
 \toprule
 Synthetic archetype & $n$ & Mean NameRank & Refusal \\
 \midrule
-synthetic\_imo\_gold & 6 & \textbf{0.199} & 21\% \\
-synthetic\_mid\_tier\_chef & 1 & 0.123 & 27\% \\
-synthetic\_mid\_tier\_journalist & 1 & 0.092 & 27\% \\
-synthetic\_mid\_tier\_podcast & 1 & 0.075 & 32\% \\
-synthetic\_oss\_project & 4 & 0.065 & 39\% \\
-synthetic\_mid\_tier\_musician & 1 & 0.057 & 41\% \\
-synthetic\_cs\_faculty & 10 & \textbf{0.027} & 45\% \\
-synthetic\_founder & 6 & \textbf{0.012} & 47\% \\
+IMO gold (boilerplate gold) & 6 & \textbf{0.199} & 21\% \\
+Chef & 1 & 0.123 & 27\% \\
+Journalist & 1 & 0.092 & 27\% \\
+Podcast & 1 & 0.075 & 32\% \\
+OSS project & 4 & 0.065 & 39\% \\
+Musician & 1 & 0.057 & 41\% \\
+CS faculty & 10 & \textbf{0.027} & 45\% \\
+Founders & 6 & \textbf{0.012} & 47\% \\
 \midrule
 All synthetics & 30 & 0.072 & --- \\
 All except IMO archetype & 24 & \textbf{0.040} & --- \\
@@ -672,8 +672,8 @@ The floor is concentrated in small open-weights fluent hallucinators: gemma-3-4b
 \toprule
 Comparison & Specific context & Minimal context \\
 \midrule
-long\_tail\_researcher\_openalex (mean) & 0.446 & 0.077 \\
-imo\_gold (mean) & 0.345 & 0.039 \\
+OpenAlex long-tail researchers (mean) & 0.446 & 0.077 \\
+IMO gold (mean) & 0.345 & 0.039 \\
 Stanford mean & 0.565 & 0.355 \\
 Tsinghua mean & 0.258 & 0.062 \\
 \textbf{Stanford$-$Tsinghua gap} & \textbf{0.308} & \textbf{0.293} ($-4.8\%$) \\
@@ -699,16 +699,16 @@ First-name-inferred gender (via \texttt{gender-guesser}; ambiguous and unisex na
 \toprule
 Cohort & $n_\text{man}$ & $n_\text{woman}$ & $\Delta$ (man$-$woman) & $p$ \\
 \midrule
-cs\_faculty & 354 & 97 & $+0.038$ & 0.014 \\
+CS faculty & 354 & 97 & $+0.038$ & 0.014 \\
 \quad institution-matched ($60$ pairs) & --- & --- & $+0.054$ & 0.042 \\
-long\_tail\_researcher\_openalex & 388 & 76 & $+0.031$ & 0.182 \\
+OpenAlex long-tail researchers & 388 & 76 & $+0.031$ & 0.182 \\
 \quad $h$-index-decile-adjusted & --- & --- & $+0.032$ & --- \\
-long\_tail\_researcher\_ikp & 56 & 22 & $+0.044$ & 0.015 \\
+IKP long-tail researchers & 56 & 22 & $+0.044$ & 0.015 \\
 \midrule
-mid\_tier\_actor & 38 & 63 & $+0.341$ & $<10^{-3}$ \\
-mid\_tier\_athlete & 64 & 32 & $+0.254$ & $<10^{-3}$ \\
-mid\_tier\_writer & 62 & 77 & $+0.041$ & 0.41 \\
-mid\_tier\_comedian & 18 & 17 & $-0.045$ & 0.23 \\
+Actors & 38 & 63 & $+0.341$ & $<10^{-3}$ \\
+Athletes & 64 & 32 & $+0.254$ & $<10^{-3}$ \\
+Writers & 62 & 77 & $+0.041$ & 0.41 \\
+Comedians & 18 & 17 & $-0.045$ & 0.23 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -722,10 +722,10 @@ The within-researcher-cohort gap ($+0.027$ to $+0.054$, ${\sim}6$--$8\%$ relativ
 
 \begin{table}[H]
 \centering
-\small
+\footnotesize
 \caption{Compact summary of methodological caveats, their direction (could overstate or understate findings), and mitigations available for future runs.}
 \label{tab:limitations}
-\begin{tabular}{>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{6cm}}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{5.9cm}}
 \toprule
 \textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
 \midrule
