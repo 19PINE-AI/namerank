@@ -43,7 +43,7 @@
 
 % ══════════════════════════════════════════════════════════════
 \begin{abstract}
-What a frontier language model says about a researcher, founder, or tool is increasingly the first description a curious human sees---so whether an entity's name has propagated into the models' training corpora is now a measurement problem in its own right. Bibliometrics answer only a fraction of it: citation counts explain about a third of the variance in whether a model recognizes a researcher \citep{li2026ikp}. We treat the residual as the quantity of interest and introduce \textbf{NameRank}, a continuous $[0,1]$ recognition score: each of $5{,}719$ entities in $54$ cohorts is probed with one open-ended question across $37$ frontier models, and an independent LLM judge scores every response against a curated gold answer on multiplicative coverage$\times$accuracy, so fluent hallucinations earn nothing ($211{,}603$ records, plus a Chinese-prompt sub-run). Four findings stand out. \textbf{(i)~The credential treadmill:} seven of nine Olympic-style credentials (IMO, IOI, CMO, Rhodes, MSRA) score at or below a long-tail working-researcher baseline---the credential no longer propagates a name; named post-credential production does. \textbf{(ii)~The artifact-over-creator inversion:} in $8$ of $11$ verified (creator, artifact) pairs the tool out-ranks its maker, and a context-injection experiment corroborates the attribution mechanism. \textbf{(iii)~$h$-index dominates raw citations} as a recognition predictor, because NameRank rewards name-recurrence across distinct works; citations add no marginal signal. \textbf{(iv)~A corpus-density gradient:} Stanford-affiliated CS faculty score roughly twice Tsinghua-affiliated, part of an English-corpus ladder that runs across institutions, countries, and prompt languages. Below its threshold the metric is silent rather than misleading, and the findings survive paraphrase, training-cutoff, cross-judge, synthetic-null, and confound controls. We release all probes, gold answers, responses, and code: \url{https://github.com/19PINE-AI/namerank}.
+What a frontier language model says about a researcher, founder, or tool is increasingly the first description a curious human sees---so whether an entity's name has propagated into the models' training corpora is now a measurement problem in its own right. Bibliometrics answer only a fraction of it: citation counts explain about a third of the variance in whether a model recognizes a researcher \citep{li2026ikp}. We treat the residual as the quantity of interest and introduce \textbf{NameRank}, a continuous $[0,1]$ recognition score: each of $5{,}719$ entities in $54$ cohorts is probed with one open-ended question across $37$ frontier models, and an independent LLM judge scores every response against a curated gold answer on multiplicative coverage$\times$accuracy, so fluent hallucinations earn nothing ($211{,}603$ records, plus a Chinese-prompt sub-run). Four findings stand out. \textbf{(i)~The credential treadmill:} seven of nine Olympic-style credentials (IMO, IOI, CMO, Rhodes, MSRA) score at or below a long-tail working-researcher baseline---the credential no longer propagates a name; named post-credential production does. \textbf{(ii)~The artifact-over-creator inversion:} in $8$ of $11$ verified (creator, artifact) pairs the tool out-ranks its maker, and a context-injection experiment corroborates the attribution mechanism. \textbf{(iii)~$h$-index dominates raw citations} as a recognition predictor, because NameRank rewards name-recurrence across distinct works; citations add no marginal signal. \textbf{(iv)~A corpus-density gradient:} Stanford-affiliated CS faculty score roughly twice Tsinghua-affiliated, part of an English-corpus ladder that runs across institutions, countries, and prompt languages. Below its threshold the metric is silent rather than misleading, and the findings survive paraphrase, training-cutoff, cross-judge, synthetic-null, and confound controls. We release all probes, gold answers, responses, and code.
 \end{abstract}
 \begin{center}
 \small
@@ -74,12 +74,12 @@ To the extent the deployment surface is approximately constant across entities a
     \item The \textbf{credential treadmill}: most Olympic-style intellectual credentials (IMO, IOI, CMO, Rhodes, MSRA Fellowship) score at or below a working-researcher baseline. The credential no longer propagates a name; named post-credential production does (Section~\ref{sec:results-credentials}).
     \item The \textbf{artifact-over-creator inversion}: for independent creators, the tool out-ranks its maker. The effect is measured observationally, corroborated by a context-injection experiment, and traced to an attribution-direction asymmetry in the corpus (Section~\ref{sec:results-mechanism}).
     \item \textbf{What predicts recognition}: $h$-index dominates raw citations, because NameRank rewards name-recurrence across distinct works rather than citation volume; and a corpus-density gradient runs across institutions, countries, and prompt languages (Sections~\ref{sec:results-external}--\ref{sec:results-language}).
-    \item A \textbf{validation battery} covering wording, model vintage, judge family, synthetic nulls, and gold-answer confounds (Section~\ref{sec:results-validation}), with an \textbf{open release} of all probes, gold answers, responses, and code: \url{https://github.com/19PINE-AI/namerank}.
+    \item A \textbf{validation battery} covering wording, model vintage, judge family, synthetic nulls, and gold-answer confounds (Section~\ref{sec:results-validation}), with an \textbf{open release} of all probes, gold answers, responses, and code (links on page~1).
 \end{enumerate}
 
 Figure~\ref{fig:overview} previews the central result: a single recognition axis on which every cohort in the study is placed.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.95\textwidth]{figures/fig1_cohort_distribution.pdf}
     \caption{Per-cohort NameRank distribution. Each box is a cohort ($n \geq 10$); the dot is the cohort mean, the box covers the IQR, and the inner line is the median. Three zones are visible on the same axis: \emph{silent} (mean $\leq 0.1$, dominated by the GPT-5 system-card author cohort at $0.042$ with $71\%$ of responses scoring near zero), \emph{discriminative} ($0.3$--$0.6$: working academics and credentialed individuals), and \emph{universal} ($> 0.7$: named artifacts and high-profile mid-tier figures). The nine credential cohorts (bold labels) cluster in the lower half of the discriminative zone, below the working-researcher baseline (Section~\ref{sec:results-credentials}).}
@@ -92,7 +92,7 @@ Figure~\ref{fig:overview} previews the central result: a single recognition axis
 
 Figure~\ref{fig:pipeline} summarizes the pipeline this section unpacks: a fixed open-ended probe is sent to a $37$-model panel for each entity; an independent LLM judge scores every (entity, model) response against a curated gold answer on multiplicative coverage$\times$accuracy; and the per-entity NameRank is the unweighted panel mean.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_pipeline.pdf}
     \caption{NameRank pipeline. The probe template is fixed, with two slots: the entity name and a short role/affiliation/field context. Each of the $37$ panel models answers the open-ended probe; an LLM judge grades the response against the gold answer on independent coverage and accuracy axes in $[0,1]$, and their product is the per-record contribution. An embedding similarity (BAAI/bge-large-en-v1.5) is stored for diagnostics only---it is \emph{not} part of the score (Section~\ref{sec:val-embedding}). Totals: $211{,}603$ English-prompt records over $5{,}719$ entities, plus an $8{,}880$-record Chinese-prompt sub-run on a $240$-entity subset.}
@@ -154,7 +154,7 @@ NameRank is the unweighted mean of $\mathrm{cov} \cdot \mathrm{acc}$ across the 
 
 The panel comprises $37$ frontier and near-frontier models accessed via OpenRouter, balanced across Western and Chinese vendors (Table~\ref{tab:panel}). Thinking mode is enabled wherever a thinking variant exists: for a recognition metric, thinking mode is the operational mode in which most user queries are answered, so the panel reflects deployment reality. The Western/Chinese partition is used only for the cross-vendor analysis (Section~\ref{sec:results-language}); the headline NameRank is the unweighted mean over all $37$ models.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \footnotesize
 \caption{The $37$-model panel, by vendor class. Thinking-mode variants are used wherever available.}
@@ -179,7 +179,7 @@ Grok-4, Grok-4.20-think, Phi-4 & \\
 
 We evaluate $N = 5{,}719$ entities in $54$ cohorts, organized into the seven groups of Table~\ref{tab:cohort-groups}; full per-cohort sizes, means, and inclusion criteria are in the released cohort specification (\repodoc{cohorts.md}). The design goal is coverage of the axes the metric claims to unify: credentialed individuals whose recognition should be carried by the credential if credentials propagate; working academics with known bibliometrics, as the external-validity anchor; industry figures whom no bibliometric measures; named artifacts, to compare things against their makers; and mid-tier cross-profession figures, to test the axis outside the technology world. A hand-curated $37$-entity diagnostic reference set with higher-detail gold answers---public figures (e.g., Sam Altman, Geoffrey Hinton, Andrej Karpathy), less-prominent engineers and researchers, and artifacts (e.g., Tianshou, FlashAttention, LangChain, nanoGPT)---supports the case-level analyses used throughout the paper.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Entity cohorts by top-level group. Full per-cohort breakdown in the released cohort specification (\repodoc{cohorts.md}).}
@@ -222,7 +222,7 @@ Figure~\ref{fig:overview} shows the per-cohort NameRank distribution. The instru
 
 The cross-domain placement is the headline result. Table~\ref{tab:headline-placement} puts a best-selling author, AI executives, working researchers, open-source tools, a public-utility website, and a Fortune-10 CTO on the same scale. No prior instrument supports this placement: citation counts do not measure Sam Altman or a Walmart CTO, $h$-index does not measure the creator of nanoGPT, and GitHub stars do not measure Yuval Noah Harari. NameRank measures them all.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Selected cross-domain entities on a single NameRank axis, spanning the universal, discriminative, and silent zones.}
@@ -254,7 +254,7 @@ Below the corpus-presence threshold, the metric goes quiet rather than wrong. Th
 
 We measure nine prestigious competition and fellowship credentials---each once a career-defining distinction---against a baseline cohort of ordinary citation-tracked researchers (OpenAlex, $500$--$30{,}000$ citations). Figure~\ref{fig:credentials} shows the ladder; the full table, with cohort sizes and temporal breakdowns, is in Appendix~\ref{app:credentials}. Seven of the nine credential cohorts sit \emph{at or below} the working-researcher baseline. An IMO gold medal---the canonical intellectual credential of the past four decades---predicts less LLM recognition than being an average citation-tracked researcher ($0.36$ vs.\ $0.46$).
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.85\textwidth]{figures/fig4_credentials.pdf}
     \caption{The credential treadmill. Bars are cohort mean NameRank; the dashed grey line is the working-researcher baseline (OpenAlex long-tail cohort, $0.464$). Red: silent or near-silent cohorts. Orange: at or just below the baseline. Blue: above the baseline. Of the nine prestigious credentials, only two (ICPC, Putnam) clear the baseline. The two hatched bars ($\dagger$) are large-team co-authorship cohorts shown for context, not credentials, and are excluded from the ``$7$ of $9$'' count. Full table in Appendix~\ref{app:credentials}.}
@@ -274,7 +274,7 @@ We measure nine prestigious competition and fellowship credentials---each once a
 
 For $11$ verified (creator, artifact) pairs we measure both members independently (Table~\ref{tab:inversion}). In $8$ of the $11$ pairs, the artifact out-ranks its creator. The three exceptions are senior leaders of large, young organizations (DeepMind, Thinking Machines Lab, Perplexity), where the leader accumulated independent corpus presence before the organization existed. For independent creators of single artifacts---Datasette, nanoGPT, Tianshou, LangChain, Cursor, FlashAttention---\emph{the artifact uniformly exceeds the creator}.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{The artifact-over-creator inversion. $\mathrm{NR}_c$ and $\mathrm{NR}_a$ are creator and artifact NameRank; $C\!\to\!A$ is the fraction of responses about the creator that mention the artifact, $A\!\to\!C$ the reverse. Boldface: artifact exceeds creator.}
@@ -309,7 +309,7 @@ The last two columns of Table~\ref{tab:inversion} quantify the direction of attr
 
 Jiayi Weng (author of the Tianshou reinforcement-learning library, then an OpenAI infrastructure engineer) is the sharpest single-entity illustration of the mechanism. Table~\ref{tab:tianshou-case} compares him with eight broadly-matched OpenAI engineering and research individual contributors drawn from public model-authorship attributions---matched in the loose sense that all share the OpenAI affiliation and public technical-contribution attribution, not formally matched on hiring year or role. He out-scores the comparison-set mean by $+1.24\sigma$, and the lift is artifact-mediated: Tianshou's own NameRank exceeds his. Both English and Chinese prompts produce essentially identical scores for both him and the library (Appendix~\ref{app:cross-lang}), so the attribution channel is language-invariant here.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{The Tianshou case: Jiayi Weng against eight OpenAI individual-contributor peers who share the affiliation but not a named artifact. Refusal rate is the fraction of the panel answering ``unknown''.}
@@ -343,7 +343,7 @@ A per-response signature points the same way: the panel models that mention Tian
 
 To manipulate the artifact mention directly, we re-probed all $11$ pairs under a controlled intervention: arm~A uses a role-only disambiguating context for the creator; arm~B appends one clause naming the artifact (e.g., ``creator of Tianshou''), holding everything else fixed. Table~\ref{tab:injection} reports the per-pair lift. Injecting the artifact name raises creator NameRank by a mean of $+0.058$, positive in $8$ of $11$ pairs, and the effect lands exactly where the observational analysis predicts: largest for creators the panel barely stores (Jiayi Weng), null or negative for senior leaders whose recognition is already saturated. By model tier, the lift grows monotonically as capability decreases---frontier-reasoning models gain almost nothing, small models gain the most---so naming the artifact is load-bearing precisely for models that have not independently stored the creator.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Context-injection experiment. $\Delta$ is the creator's NameRank change when the artifact name is added to the disambiguating context (arm B $-$ arm A), with the paired $t$-statistic across the model panel. Bottom block: mean lift by model tier.}
@@ -383,7 +383,7 @@ Lift by model tier & frontier-reasoning & $+0.008$ & \\
 
 On the OpenAlex working-researcher cohort ($n = 771$, with bibliometrics from OpenAlex), the $h$-index explains roughly three times the NameRank variance that raw citations do, and citations add \emph{zero} marginal predictive power once $h$-index is in the model (Figure~\ref{fig:external}). The pattern is stable out of sample under repeated cross-validation; full regressions are in Appendix~\ref{app:external}.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig3_external.pdf}
     \caption{$h$-index dominates raw citations as a NameRank predictor ($n = 771$ OpenAlex researchers). \textbf{(a)}~NameRank against $\log_{10}(h\text{-index})$ (blue) and $\log_{10}(\text{citations})$ (red): the $h$-index fit explains $R^2 = 0.40$ of within-cohort variance against $0.14$ for citations, and the advantage persists out of sample ($10$-fold CV $R^2 = 0.38$ vs.\ $0.12$; Appendix~\ref{app:external}). \textbf{(b)}~Mean NameRank by decile of each bibliometric: the $h$-index ladder rises monotonically from $0.22$ to $0.60$, while the citation ladder is much flatter. In joint regression, citations contribute zero marginal $R^2$.}
@@ -392,7 +392,7 @@ On the OpenAlex working-researcher cohort ($n = 771$, with bibliometrics from Op
 
 \textbf{The mechanism is name-recurrence, not attribution weighting.} $h$-index counts distinct works that each carry non-trivial citation mass---a sustained pattern of citable artifacts recurring under the author's name across the corpus. We tested the natural alternative, that $h$-index wins by implicitly discounting per-paper name dilution in hyperauthored papers~\citep{cronin2001hyperauthorship}, and it fails: attribution-weighted citation measures barely improve on raw citations and stay far below $h$-index, while the raw count of distinct works tracks $h$-index closely (Figure~\ref{fig:bibliometric-decomp}; regression detail in Appendix~\ref{app:bibliometric}). NameRank is a \emph{name-recurrence} metric: it rewards how many distinct citable works repeat the author's name, not how cleanly attribution divides within any one paper. This also refines the predecessor estimate in \citet{li2026ikp}: the ${\sim}35\%$ bibliometric share reported there averaged over predictors; the $h$-index channel alone carries ${\sim}40\%$, and the raw-citation channel almost none.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_bibliometric_decomp.pdf}
     \caption{Bibliometric predictor decomposition ($n = 771$). \textbf{(a)}~Sole-predictor $R^2$ on NameRank: if $h$-index dominated by discounting per-paper attribution, the attribution-weighted measures (fractional and first/last-author citations) would match it; instead they barely beat raw citations, and mean authors-per-paper carries no signal. The count of distinct works ($n_\text{works}$) is the closest cousin of $h$-index. \textbf{(b)}~Mean NameRank by predictor decile: $h$-index and $n_\text{works}$ rise steeply and monotonically; fractional citations track raw citations on a flat slope.}
@@ -404,7 +404,7 @@ On the OpenAlex working-researcher cohort ($n = 771$, with bibliometrics from Op
 
 Within the CS-faculty cohort ($n = 698$ across $320$ institutions), affiliation is a substantial correlate of NameRank---but its variance share must be estimated with penalization, because $320$ categories fit to $698$ observations inflate the naive figure severely. The penalized estimates agree with one another: institution explains ${\sim}16\%$ of within-cohort variance (adjusted $R^2$, $\omega^2$, and intraclass correlation all ${\approx}0.16$; the naive categorical $R^2$ of $0.54$ is mostly a degrees-of-freedom artifact). What survives cleanly is the large-cell contrast: Stanford-affiliated faculty score about twice Tsinghua-affiliated ($0.54$ vs.\ $0.26$; Table~\ref{tab:cs-institution}).
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{CS-faculty NameRank by institution (selected institutions with $n \geq 4$). Stanford-affiliated faculty score roughly twice Tsinghua-affiliated. The Chinese-institution samples are small ($n = 4$ each); the gradient they anchor recurs at country level (Figure~\ref{fig:country}), where the samples are larger.}
@@ -434,7 +434,7 @@ Peking University & 4 & 0.290 & 0.22 & 0.34 \\
 
 Aggregating by country (Figure~\ref{fig:country}; full table in Appendix~\ref{app:geography}) shows the gradient at population scale. The firm, well-sampled contrast is the USA ($n = 302$) against China ($n = 30$) and India ($n = 10$), whose confidence intervals do not overlap the USA's; the apparent small-country leaders (Israel, Singapore, Sweden, at $n = 5$--$7$ each) sit above the USA in point estimate only and should be read as suggestive.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/fig5_country.pdf}
     \caption{Country gradient in CS-faculty NameRank (whiskers: $95\%$ CIs; faded bars: $n < 10$, point estimates only). The firmly-separated contrast is USA ($n = 302$, dark) vs.\ China ($n = 30$) and India ($n = 10$) (red), whose CIs do not overlap the USA's. The gradient tracks English-language web-text production per affiliation, not research quality: Tsinghua, Peking, and USTC carry global research reputations comparable to upper US institutions yet sit at the bottom.}
@@ -452,7 +452,7 @@ Two experiments separate what the \emph{models} contribute from what the \emph{p
 
 \textbf{Prompt language routes retrieval into language-specific corpus pockets.} Re-probing the $240$-entity subset in Chinese produces a clean prompt-language $\times$ entity-name interaction (Table~\ref{tab:cross-lang}): cohorts of Chinese-named individuals gain under Chinese prompts, while English-coded entities lose. The per-entity extremes follow the same signature, and the effect is universal across the panel rather than specific to Chinese models---Western and Chinese models shift together (Appendix~\ref{app:cross-lang}). Our reading: even Western models hold Chinese-text pockets about Chinese-named entities, and the prompt language is the routing signal that unlocks them; inversely, an English-coded artifact is best recalled from English text, and a Chinese probe routes retrieval into thinner corpus regions.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Cross-language NameRank by cohort: $\Delta = \mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en}$ on the $240$-entity Chinese-prompt sub-run. Chinese prompts lift Chinese-named cohorts and slightly suppress English-coded ones; per-entity extremes in Appendix~\ref{app:cross-lang}.}
@@ -481,7 +481,7 @@ MSRA PhD Fellowship & 30 & 0.339 & 0.319 & $-0.021$ \\
 
 One entity in the diagnostic set falsifies the tempting reading of NameRank as ``impact.'' tuixue.online is a Chinese-language website that monitored US F1-visa appointment availability between 2019 and 2024, with a peak user base near one million applicants who relied on it during the post-COVID visa backlog. By any conventional reach metric---active users, downstream effect on visa appointments---it exceeds nanoGPT, whose audience is tens of thousands of developers. Its NameRank is nonetheless a third of nanoGPT's (Table~\ref{tab:reach-dissociation}), and the dissociation is not an English-corpus artifact: the Chinese-prompt score is essentially identical, so the name-attribution absence is symmetric across both training corpora.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Reach and recognition dissociate. tuixue.online has the largest human reach in this comparison set and the lowest NameRank; its Chinese-prompt score ($0.262$) matches its English-prompt score, so the gap is not a language artifact.}
@@ -508,7 +508,7 @@ The mechanism is attribution convention. tuixue.online circulated in chat groups
 
 The findings above rest on three design choices---an LLM judge over embedding similarity, a multiplicative coverage$\times$accuracy rule, and open-ended over closed-factoid probes---and on the headline numbers not being artifacts of wording, model vintage, judge family, or gold-answer construction. Table~\ref{tab:threats} summarizes the validation battery; the subsections give the evidence, with full tables in the appendices.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{The validation battery: each threat to the findings, the check run against it, and the outcome.}
@@ -534,7 +534,7 @@ Gold length, context leakage, or Wikipedia presence drive the results & Dedicate
 
 Decomposing the total sum of squares over all records (Table~\ref{tab:variance}), the entity factor explains more than three times the variance the model factor does. NameRank measures the entity; model identity contributes a minority share, and the per-model generosity differences that produce it (frontier reasoning models at the generous end, small RL-tuned-against-hallucination models at the strict end) are tabulated in full in the released per-model statistics (\repodoc{per-model-stats.md}). Per-cohort within-entity disagreement---itself an informative signal about which recognition is corpus-pocket-specific---is broken down in Appendix~\ref{app:variance}.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Variance decomposition over $211{,}603$ records ($5{,}719$ entities $\times$ $37$ models). Entity and cohort are nested, so their rows overlap rather than partitioning the total; each row is the share of total SS that the factor independently explains.}
@@ -563,7 +563,7 @@ The per-model refusal signature shows why the multiplicative rule is load-bearin
 
 Across $175{,}397$ non-refusal records, the correlation between judge score and embedding similarity is only $0.152$, and embedding similarity is essentially flat across judge-score buckets (Table~\ref{tab:embedding}). The reason is that embeddings measure topical similarity, which is high even for hallucinated bios: a fabricated biography of a CS researcher still embeds close to a gold answer about that researcher's actual subfield. The most extreme disagreements---judge $0.0$, embedding ${\approx}0.97$---are confident, entirely fabricated bios of Chinese-name long-tail researchers, exactly the fluent-hallucination case the judge exists to catch (a worked example is in \repodoc{worked-examples.md}). An embedding-only NameRank would credit these as recognized.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Mean embedding similarity by judge-score bucket ($175{,}397$ non-refusal records). Embedding similarity does not separate unrecognized from recognized entities.}
@@ -600,7 +600,7 @@ Two implications follow. \emph{Recognition is not ingestion}: presence in the tr
 
 The thresholded behavior has a mechanistic basis in how transformers store and retrieve facts. Feed-forward layers act as key--value memories for factual associations~\citep{geva2021transformer}, with identifiable knowledge neurons per fact~\citep{dai2022knowledge, meng2022locating}; pretrained models function as implicit knowledge bases~\citep{petroni2019language} whose factual capacity scales with model size~\citep{roberts2020much}; accuracy on rare facts scales log-linearly with fact popularity~\citep{kandpal2023, mallen2023trust}; and popular knowledge actively suppresses less popular knowledge~\citep{overshadow2025}. Below the corpus-density threshold, silence rather than noise is what this retrieval stack predicts---which is what we observe.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_cutoff_gradient.pdf}
     \caption{Training-cutoff gradient. \textbf{(a)}~Per-model mean NameRank vs.\ training cutoff for two first-appearance ``recency'' cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, 2025-08) and two stable controls nameable since well before any cutoff. \emph{Every} cohort rises with cutoff at ${\sim}0.10$--$0.20$/yr---a model-capability confound, not corpus timing (one control cohort contains Geoffrey Hinton). \textbf{(b)}~Natural experiment: the recency cohorts' pre/post-emergence jump matches the same-split jump on the stable controls (hatched ``capability-only expectation'' bar), so the matched difference-in-differences is ${\approx}0$. Crossing a model's training cutoff is necessary but not sufficient for recognition.}

@@ -80,13 +80,14 @@ def main() -> None:
         axa.plot(xx, [slope * x + intc for x in xx], color=color,
                  linewidth=1.6, zorder=2,
                  label=f"{label}  ({slope*12:+.2f}/yr)")
-    # emergence verticals, labelled at the foot of the axis to avoid the
-    # scatter and the legend
+    # emergence verticals, labelled above the axes so the labels never
+    # collide with the scatter or the legend
     for coh, ym in EMERGENCE.items():
         m = ym_to_month(ym)
         axa.axvline(m, ls=":", color="#999", linewidth=1.0, zorder=1)
-        axa.text(m + 0.4, 0.012, f"emergence {ym}", rotation=90,
-                 va="bottom", ha="left", fontsize=7.3, color="#777")
+        axa.annotate(f"emergence {ym}", xy=(m, 1.0), xycoords=("data", "axes fraction"),
+                     xytext=(0, 3), textcoords="offset points",
+                     ha="center", va="bottom", fontsize=7.3, color="#777")
     # x ticks as year labels
     ticks = [ym_to_month(f"{y}-01") for y in (2024, 2025, 2026)]
     axa.set_xticks(ticks)
@@ -95,8 +96,8 @@ def main() -> None:
     axa.set_ylim(0, 0.8)
     axa.set_xlabel("Model training cutoff")
     axa.set_ylabel("Per-model mean NameRank")
-    axa.set_title("(a) Every cohort rises with cutoff: capability drift,\nnot corpus timing",
-                  fontsize=10.0)
+    axa.set_title("(a) Every cohort rises with cutoff: capability drift, not corpus timing",
+                  fontsize=10.0, pad=16)
     axa.legend(loc="upper left", fontsize=7.6, framealpha=0.95)
     grid_y(axa, alpha=0.25)
     thin_spines(axa)

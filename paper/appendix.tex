@@ -4,7 +4,7 @@
 
 Table~\ref{tab:credential-treadmill} gives the full credential ladder summarized in Figure~\ref{fig:credentials}.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Credential ladder. The OpenAlex long-tail researcher cohort ($n = 771$, citations $500$--$30{,}000$) supplies the working-researcher baseline. The two rows marked $\dagger$ are large-team co-authorship cohorts shown for context, not credentials, and are excluded from the ``$7$ of $9$'' count.}
@@ -101,7 +101,7 @@ Cross-validation is repeated $10$-fold ($20$ repeats, $200$ folds, fixed seed); 
 
 \textbf{Decile breakdown of NameRank by $h$-index} (Table~\ref{tab:h-index-decile}):
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Mean NameRank by $h$-index decile within OpenAlex long-tail researchers.}
@@ -132,7 +132,7 @@ The relationship is monotonic and saturates above $h \geq 40$. The bottom decile
 
 Table~\ref{tab:cs-country} gives the full country-level aggregation behind Figure~\ref{fig:country}.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{CS-faculty NameRank by country of institutional affiliation, for countries with $\geq 3$ sampled faculty. An \emph{Other/Unknown} bucket ($n=236$; CS-Rankings affiliations not matched by the keyword-prefix country lookup) is omitted. Only the USA ($n=302$), China ($30$), UK ($16$), Australia and Hong Kong ($11$), and Brazil and India ($10$) reach $n \geq 10$; the remaining rows are point estimates with wide intervals and should not be finely ranked against one another.}
@@ -168,34 +168,11 @@ The well-sampled backbone of the gradient is USA (mean $0.460$, $95\%$ CI $[0.44
 \section{Variance Decomposition: Per-Cohort Within-Entity Disagreement}
 \label{app:variance}
 
-The within-entity model-disagreement (standard deviation across the $37$-model panel for each entity, averaged within cohort) ranges over an order of magnitude:
-
-\begin{center}
-\small
-\begin{tabular}{lr}
-\toprule
-Cohort & Mean within-entity $\sigma$ \\
-\midrule
-NOI China gold & 0.404 \\
-ICPC World Finals gold & 0.381 \\
-CMO China gold & 0.359 \\
-OpenAlex long-tail researchers & 0.356 \\
-IMO gold & 0.333 \\
-Putnam fellows & 0.331 \\
-$\cdots$ & $\cdots$ \\
-Books & 0.157 \\
-Podcasts & 0.152 \\
-Named methods & 0.144 \\
-conference & 0.131 \\
-GPT-5 system-card authors & 0.126 \\
-Online courses & 0.113 \\
-\bottomrule
-\end{tabular}
-\end{center}
+The within-entity model-disagreement (standard deviation across the $37$-model panel for each entity, averaged within cohort) ranges over an order of magnitude, from $0.404$ (NOI China gold) down to $0.113$ (online courses); Figure~\ref{fig:app-sigma} gives the full ladder.
 
 \textbf{Interpretation.} High within-entity $\sigma$ cohorts (NOI/ICPC/CMO/IMO/long-tail-OpenAlex) exhibit genuine corpus-pocket-specific recognition: different models trained on different fractions of available corpus see different fractions of the entity's coverage. Low within-entity $\sigma$ cohorts (online courses, conferences, named methods, books) have universal corpus presence: all models agree because the entity name appears in nearly every training-data source.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.92\textwidth]{figures/fig_app_sigma.pdf}
     \caption{Full within-entity $\sigma$ ladder across all cohorts with $n \geq 10$. Color bands group cohorts by the four $\sigma$ regimes (universal $\to$ corpus-pocket-specific). The high-$\sigma$ end is dominated by competition-credential and long-tail academic cohorts whose recognition is genuinely corpus-fragment-specific; the low-$\sigma$ end is dominated by entities whose names appear in nearly every training source (online courses, conferences, named methods, books).}
@@ -223,7 +200,7 @@ T3: Briefly describe {name}, who is {context}. Respond "unknown" if
     you have no information. Around 150 words please.
 \end{verbatim}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Additive variance decomposition over the $29{,}600$ prompt-sensitivity records (entity, model, template, cohort as main effects). Template is the smallest main effect. The model share exceeds the full-panel $10.9\%$ (Section~\ref{sec:results-validation}) because this cohort-stratified subset over-represents silent and universal cohorts, compressing the entity-vs-model contrast; the valid within-experiment comparison is template ($1.78\%$) vs model ($26.5\%$).}
@@ -241,7 +218,7 @@ Residual (after entity+model+template) & 1936.3 & 47.53\% \\
 \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Cohort-mean NameRank under each template (sorted by T0). The ordering is preserved; T0 is systematically higher. Pairwise panel-mean Pearson across all six template pairs is $0.927$--$0.977$ (lowest: T0--T3); within-(entity, model) cross-template $\sigma$ has median $0.109$; the panel-mean variance across templates is $0.042\times$ the single-template cross-model variance.}
@@ -269,7 +246,7 @@ GPT-5 system-card authors & 0.047 & 0.063 & 0.027 & 0.070 \\
 
 The two first-appearance cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, emergence 2025-08) test whether the silent zone is corpus timing or intrinsic obscurity (Section~\ref{sec:results-cutoff}). Model training cutoffs are from \texttt{data/analysis/model\_cutoffs.json} and span 2023-10 to 2026-03.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Natural experiment: per-model mean recognition split by whether the model's training cutoff predates (pre) or postdates (post) each cohort's emergence date. The raw jump is decomposed by a matched difference-in-differences (DiD) that subtracts the same-split jump averaged over three stable controls (CS faculty, OpenAlex long-tail researchers, IMO gold), which nets out the cross-vintage capability drift. Both matched DiDs are $\leq 0$.}
@@ -284,7 +261,7 @@ GPT-5 system-card authors & 0.051 (0.49) & 0.020 (0.79) & $-0.031$ & $+0.030$ & 
 \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Selected per-cohort slopes of per-model mean NameRank on training cutoff (NameRank per year of cutoff), with Pearson $r$ over the $37$ models. \emph{Every} established cohort rises with cutoff at ${\sim}0.10$--$0.20$/yr---a model-capability/generosity confound, since these entities were nameable long before any cutoff. The two recency cohorts are \emph{not} steeper; once the drift is removed (Table~\ref{tab:cutoff-natexp}) no corpus-timing signal remains.}
@@ -311,7 +288,7 @@ IMO gold & $+0.043$ & $+0.15$ \\
 
 Six bibliometric predictors regressed on NameRank for the $n = 771$ OpenAlex long-tail cohort (Section~\ref{sec:results-external}), testing whether $h$-index dominates because it discounts per-paper name attribution. \texttt{fractional\_citations} divides each paper's citations by its author count; \texttt{first\_last\_citations} counts only papers where the researcher is first or last author; \texttt{n\_works} is the raw count of works; \texttt{mean\_authors} is the mean author count per paper. All $R^2$ on $\log(1+x)$-transformed predictors.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Sole-predictor $R^2$ on NameRank and marginal $R^2$ when added to $h$-index alone. Attribution-weighted measures (fractional, first/last) do not approach $h$-index, and add almost nothing on top of it; author count carries no signal. The count of distinct works ($n_\text{works}$) is the closest cousin of $h$-index.}
@@ -337,7 +314,7 @@ In a joint OLS over all six (total $R^2 = 0.428$), the standardized coefficients
 
 A $615$-record stratified sample (Section~\ref{sec:results-judge}) was re-graded by Claude Opus 4.6 and GPT-5.5 alongside the primary Gemini 3 Flash Preview judge, holding gold answers and judge prompt fixed.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Pairwise Pearson correlation between judges, by cohort. Agreement is high everywhere except the $n = 15$ OSS projects cell (generic-description disagreement). The Reference set anchors---including its four Chinese-name entities---show the tightest agreement, refuting a ``Chinese name $\to$ judge disagreement'' hypothesis.}
@@ -359,7 +336,7 @@ OSS projects & 15 & 0.103 & 0.455 & 0.486 \\
 \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Capability-controlled in-family lift. For each response, a judge's score is compared to the mean of the \emph{other two} judges on that same response; the lift is the own-family residual minus the other-family residual. Gemini and GPT-5 modestly favor their own family; Claude does not.}
@@ -380,9 +357,9 @@ Cohort-mean NameRank is stable across judges, and the silent$\to$discriminative$
 \section{Synthetic-Null Floor}
 \label{app:synthetic}
 
-Thirty fictional entities (ungoogleable names verified to surface no notable real person; cohort-matched contexts and gold answers) were run through the full pipeline (Section~\ref{sec:results-synthetic}). The per-archetype floor:
+Thirty fictional entities (ungoogleable names verified to surface no notable real person; cohort-matched contexts and gold answers) were run through the full pipeline (Section~\ref{sec:results-synthetic}). Table~\ref{tab:synthetic} gives the per-archetype floor.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Synthetic-null mean NameRank by archetype. Dense-gold archetypes (founder, CS faculty) floor near the main-run silent level; the short-boilerplate-gold IMO archetype floors much higher, because its generic year$+$country$+$medal gold is partly satisfiable from the disambiguating context without recognizing the (nonexistent) person.}
@@ -415,7 +392,7 @@ The floor is concentrated in small open-weights fluent hallucinators: gemma-3-4b
 
 \textbf{Disambiguating context.} A $288$-entity subset re-probed with the specific context replaced by a minimal generic descriptor:
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Minimal-context ablation. Stripping the specific disambiguating context to a generic descriptor drops absolute NameRank substantially but preserves the cross-entity gradient.}
@@ -440,9 +417,9 @@ Absolute levels fall sharply (the model cannot identify which researcher without
 \section{Gender Gap by Cohort}
 \label{app:gender}
 
-First-name-inferred gender (via \texttt{gender-guesser}; ambiguous and unisex names dropped) for the person cohorts, restricted to cohorts with $\geq 5$ man- and woman-coded names. The man-minus-woman NameRank gap:
+First-name-inferred gender (via \texttt{gender-guesser}; ambiguous and unisex names dropped) for the person cohorts, restricted to cohorts with $\geq 5$ man- and woman-coded names. Table~\ref{tab:gender} reports the man-minus-woman NameRank gap.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \small
 \caption{Man-minus-woman NameRank gap by cohort. The controlled researcher cohorts (top) show a small reproducible man-coded advantage that survives institution- and $h$-index-matching. The cross-profession cohorts (bottom) show much larger raw gaps that reflect real-world fame differences in the sampled individuals, not a NameRank artifact---hence the bias claim is restricted to the controlled researcher comparison.}
@@ -472,7 +449,7 @@ The within-researcher-cohort gap ($+0.027$ to $+0.054$, ${\sim}6$--$8\%$ relativ
 \section{Limitations Summary Table}
 \label{app:limitations}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \footnotesize
 \caption{Compact summary of methodological caveats, their direction (could overstate or understate findings), and mitigations available for future runs.}
