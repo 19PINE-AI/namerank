@@ -23,7 +23,7 @@ A continuous cross-model recognition metric for people and named artifacts in th
 ```
 namerank/
 ├── paper/                         # LaTeX sources + compiled PDF
-│   ├── main.tex                   # main paper (41 pages)
+│   ├── main.tex                   # main paper (42 pages)
 │   ├── appendix.tex               # appendices
 │   ├── references.bib
 │   ├── dmstyle.sty                # clean single-column tech-report style
@@ -32,6 +32,11 @@ namerank/
 │       ├── fig*.pdf               # figure PDFs included by main.tex
 │       └── make_fig*.py           # regenerate any figure from data/ or experiments/
 │                                  #   (incl. fig_prompt_sensitivity, fig_cutoff_gradient)
+├── docs/                          # reproducibility documentation
+│   ├── probe-templates.md         # verbatim probe + judge prompts (EN/ZH)
+│   ├── cohorts.md                 # full 54-cohort specification
+│   ├── per-model-stats.md         # per-model generosity/refusal table
+│   └── worked-examples.md         # what a score of 0 / 0.5 / 1 looks like
 ├── data/
 │   ├── inputs/                    # what goes into the probe pipeline
 │   │   ├── pilot_entities.json    # 5,719 entities w/ disambiguating context
