@@ -118,31 +118,17 @@ ax.plot(xs_d, dec_c_y, "s-", color=C_C, markersize=8.5, linewidth=2.4,
         markeredgecolor="white", markeredgewidth=1.0,
         label=r"by citations decile")
 
-# Annotate endpoints.
-ax.annotate(f"D1: {dec_h_y[0]:.2f}", xy=(1, dec_h_y[0]),
-            xytext=(0.85, dec_h_y[0] - 0.06), fontsize=8.5,
-            color=C_H, ha="left", va="top")
-ax.annotate(f"D10: {dec_h_y[-1]:.2f}", xy=(10, dec_h_y[-1]),
-            xytext=(10.05, dec_h_y[-1] + 0.02), fontsize=8.5,
-            color=C_H, ha="right", va="bottom")
-
-# Slope width: show the spread span between D1 and D10 for each metric.
-ax.annotate("",
-            xy=(10.4, dec_h_y[-1]), xytext=(10.4, dec_h_y[0]),
-            arrowprops=dict(arrowstyle="<->", color=C_H, lw=1.2))
-ax.text(10.6, 0.5 * (dec_h_y[0] + dec_h_y[-1]),
-        f"$h$ span\n{dec_h_y[-1] - dec_h_y[0]:+.2f}",
-        fontsize=8.5, color=C_H, va="center", ha="left")
-ax.annotate("",
-            xy=(10.9, dec_c_y[-1]), xytext=(10.9, dec_c_y[0]),
-            arrowprops=dict(arrowstyle="<->", color=C_C, lw=1.2))
-ax.text(11.1, 0.5 * (dec_c_y[0] + dec_c_y[-1]),
-        f"citation\nspan {dec_c_y[-1] - dec_c_y[0]:+.2f}",
-        fontsize=8.5, color=C_C, va="center", ha="left")
+# Direct-label the D1->D10 rise of each series at the right edge.
+ax.text(10.35, dec_h_y[-1],
+        f"$h$-index: {dec_h_y[0]:.2f} $\\rightarrow$ {dec_h_y[-1]:.2f}",
+        fontsize=8.8, color=C_H, va="center", ha="left")
+ax.text(10.35, dec_c_y[-1] - 0.035,
+        f"citations: {dec_c_y[0]:.2f} $\\rightarrow$ {dec_c_y[-1]:.2f}",
+        fontsize=8.8, color=C_C, va="center", ha="left")
 
 ax.set_xticks(xs_d)
 ax.set_xticklabels([f"D{i}" for i in xs_d])
-ax.set_xlim(0.4, 12.6)
+ax.set_xlim(0.4, 13.2)
 ax.set_xlabel("Bibliometric decile", fontsize=10.5)
 ax.set_ylabel("Mean NameRank in decile", fontsize=10.5)
 ax.set_ylim(0.15, 0.7)

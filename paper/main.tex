@@ -81,7 +81,7 @@ Figure~\ref{fig:overview} previews the central result: a single recognition axis
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{figures/fig1_cohort_distribution.pdf}
-    \caption{Per-cohort NameRank distribution. Each box is a cohort ($n \geq 10$); the dot is the cohort mean, the box covers the IQR, and the inner line is the median. Three zones are visible on the same axis: \emph{silent} (mean $\leq 0.1$, dominated by the GPT-5 system-card author cohort at $0.042$ with $71\%$ of responses scoring near zero), \emph{discriminative} ($0.3$--$0.6$: working academics and credentialed individuals), and \emph{universal} ($> 0.7$: named artifacts and high-profile mid-tier figures). The credential cohorts (IMO, IOI, CMO, Rhodes, MSRA; bold labels) cluster in the lower half of the discriminative zone, below the working-researcher baseline (Section~\ref{sec:results-credentials}).}
+    \caption{Per-cohort NameRank distribution. Each box is a cohort ($n \geq 10$); the dot is the cohort mean, the box covers the IQR, and the inner line is the median. Three zones are visible on the same axis: \emph{silent} (mean $\leq 0.1$, dominated by the GPT-5 system-card author cohort at $0.042$ with $71\%$ of responses scoring near zero), \emph{discriminative} ($0.3$--$0.6$: working academics and credentialed individuals), and \emph{universal} ($> 0.7$: named artifacts and high-profile mid-tier figures). The nine credential cohorts (bold labels) cluster in the lower half of the discriminative zone, below the working-researcher baseline (Section~\ref{sec:results-credentials}).}
     \label{fig:overview}
 \end{figure}
 
@@ -436,7 +436,7 @@ Aggregating by country (Figure~\ref{fig:country}; full table in Appendix~\ref{ap
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/fig5_country.pdf}
-    \caption{Country gradient in CS-faculty NameRank. The firmly-separated contrast is USA ($n = 302$) vs.\ China ($n = 30$) and India ($n = 10$), whose $95\%$ CIs do not overlap the USA's; countries with $n < 10$ are point estimates with wide intervals and should be ranked with caution. The gradient tracks English-language web-text production per affiliation, not research quality: Tsinghua, Peking, and USTC carry global research reputations comparable to upper US institutions yet sit at the bottom.}
+    \caption{Country gradient in CS-faculty NameRank (whiskers: $95\%$ CIs; faded bars: $n < 10$, point estimates only). The firmly-separated contrast is USA ($n = 302$, dark) vs.\ China ($n = 30$) and India ($n = 10$) (red), whose CIs do not overlap the USA's. The gradient tracks English-language web-text production per affiliation, not research quality: Tsinghua, Peking, and USTC carry global research reputations comparable to upper US institutions yet sit at the bottom.}
     \label{fig:country}
 \end{figure}
 

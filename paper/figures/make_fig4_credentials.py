@@ -98,7 +98,9 @@ def main() -> None:
             color = PALETTE["cat0"] if delta > 0 else PALETTE["silent"]
             ax.text(v + dx, i, f"({delta:+.3f})",
                     va="center", ha="left",
-                    fontsize=8.5, color=color, alpha=0.85)
+                    fontsize=8.5, color=color, alpha=0.9, zorder=8,
+                    bbox=dict(facecolor="white", edgecolor="none",
+                              boxstyle="square,pad=0.08"))
 
     ax.set_yticks(ys)
     ylabels = []
@@ -107,7 +109,7 @@ def main() -> None:
         ylabels.append(f"{n}  (n={k}){tag}")
     ax.set_yticklabels(ylabels, fontsize=10)
     ax.set_xlabel("Mean NameRank", fontsize=10.5)
-    ax.set_xlim(0, max(vals) + 0.24)
+    ax.set_xlim(0, max(vals) + 0.30)
 
     # Bracket the two credentials that clear the baseline, in clear open space
     # to the right of the bars (no crossing leader lines).
@@ -116,7 +118,7 @@ def main() -> None:
              and n not in COAUTHOR]
     if above:
         y_lo, y_hi = min(above), max(above)
-        x_br = max(vals[i] for i in above) + 0.085
+        x_br = max(vals[i] for i in above) + 0.135
         ax.plot([x_br, x_br], [y_lo - 0.34, y_hi + 0.34],
                 color="#555", lw=1.0, zorder=6)
         for yy in (y_lo - 0.34, y_hi + 0.34):

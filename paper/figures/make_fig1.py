@@ -12,8 +12,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from _style import (PALETTE, ZONE_BANDS, add_zone_bands, apply_style,
-                    grid_x, thin_spines, zone_color)
+from _style import (CREDENTIAL_COHORTS, PALETTE, ZONE_BANDS, add_zone_bands,
+                    apply_style, grid_x, pretty_cohort, thin_spines, zone_color)
 
 apply_style()
 
@@ -41,12 +41,8 @@ means = [statistics.mean(s) for s in data]
 ns = [len(s) for s in data]
 colors = [zone_color(m) for m in means]
 
-# Cohorts to bold-face (drawn directly from the paper's narrative).
-HIGHLIGHT = {
-    "gpt5_system_card_author", "imo_gold", "cs_faculty",
-    "long_tail_researcher_openalex", "mid_tier_filmmaker",
-    "msra_phd_fellowship", "rhodes_scholar",
-}
+# Bold-faced cohorts: the nine credential cohorts (matches the caption).
+HIGHLIGHT = CREDENTIAL_COHORTS
 
 fig, ax = plt.subplots(figsize=(11, 13))
 positions = list(range(len(names)))
@@ -74,17 +70,13 @@ for i, (m, c) in enumerate(zip(means, colors)):
     ax.plot(m, i, "o", color=c, markersize=7.5,
             markeredgecolor="white", markeredgewidth=1.2, zorder=10)
 
-# Y labels — emphasise key cohorts.
-labels = []
-for c, n in zip(names, ns):
-    pretty = c.replace("_", " ")
-    if c in HIGHLIGHT:
-        labels.append(r"$\bf{" + c.replace("_", r"\_") + r"}$" + f"  (n={n})")
-    else:
-        labels.append(f"{pretty}  (n={n})")
-
+# Y labels — readable names, credential cohorts bold.
+labels = [f"{pretty_cohort(c)}  (n={n})" for c, n in zip(names, ns)]
 ax.set_yticks(positions)
 ax.set_yticklabels(labels, fontsize=9.0)
+for tick, c in zip(ax.get_yticklabels(), names):
+    if c in HIGHLIGHT:
+        tick.set_fontweight("bold")
 ax.set_xlabel("NameRank", fontsize=11)
 ax.set_xlim(-0.02, 1.05)
 ax.set_ylim(-2.4, len(names) + 0.4)
@@ -109,9 +101,9 @@ def find_idx(cohort: str):
         return None
 
 ann_targets = [
-    ("gpt5_system_card_author", "GPT-5 system-card cohort: mean 0.042;\n71% of responses near zero"),
+    ("gpt5_system_card_author", "GPT-5 system-card authors: mean 0.042;\n71% of responses near zero"),
     ("long_tail_researcher_openalex", "Working-researcher baseline\n(mean 0.464)"),
-    ("mid_tier_filmmaker", "Mid-tier filmmakers: universal\nzone, mean 0.786"),
+    ("mid_tier_filmmaker", "Filmmakers: universal zone\n(mean 0.786)"),
 ]
 for cohort, msg in ann_targets:
     i = find_idx(cohort)
@@ -129,8 +121,7 @@ for cohort, msg in ann_targets:
 grid_x(ax, alpha=0.30)
 thin_spines(ax)
 ax.set_title(
-    "Per-cohort NameRank distribution  ($n \\geq 10$ cohorts).  "
-    "Three zones on a single instrument.",
+    "Per-cohort NameRank distribution  ($n \\geq 10$ cohorts; credential cohorts in bold).",
     fontsize=11, pad=14,
 )
 

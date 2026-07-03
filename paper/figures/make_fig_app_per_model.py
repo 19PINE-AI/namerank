@@ -1,9 +1,8 @@
 """Appendix figure: per-model generosity and refusal across the 37-model
 panel, sorted by mean score.
 
-A horizontal bar chart with overlaid refusal-rate markers, so each row
-shows both per-model statistics together. The chart is the graphical form
-of the per-model table in Appendix §C.
+Two aligned panels sharing the model axis: mean score (left) and refusal
+rate (right). One measure per axis — no overlaid secondary scale.
 """
 import csv
 from pathlib import Path
@@ -33,67 +32,59 @@ def main() -> None:
         r["chinese"] = r["vendor"] in CHINESE_VENDORS
     rows.sort(key=lambda r: r["mean_score"])
 
-    fig, ax = plt.subplots(figsize=(11.5, 11.0))
+    fig, (axl, axr) = plt.subplots(
+        1, 2, figsize=(11.5, 10.5), sharey=True,
+        gridspec_kw={"width_ratios": [2.4, 1.0], "wspace": 0.04})
+
     ys = list(range(len(rows)))
     means = [r["mean_score"] for r in rows]
     refs = [r["refusal_rate"] for r in rows]
-    colors = [PALETTE["silent"] if r["chinese"] else PALETTE["cat0"] for r in rows]
+    colors = [PALETTE["silent"] if r["chinese"] else PALETTE["cat0"]
+              for r in rows]
 
-    # Mean-score bars
-    ax.barh(ys, means, color=colors, edgecolor="white",
-            linewidth=0.5, height=0.74, alpha=0.85, zorder=3)
+    # ── Left: mean score ──
+    axl.barh(ys, means, color=colors, edgecolor="white",
+             linewidth=0.5, height=0.74, alpha=0.88, zorder=3)
     for i, m in enumerate(means):
-        ax.text(m + 0.003, i, f"{m:.3f}", va="center", ha="left",
-                fontsize=8, color="#222")
-
-    # Refusal markers — secondary axis on top.
-    ax2 = ax.twiny()
-    ax2.plot(refs, ys, "o", color=PALETTE["highlight"],
-             markersize=7, markeredgecolor="white", markeredgewidth=1.0,
-             zorder=8, linestyle="none")
-    for i, ref in enumerate(refs):
-        if ref > 0.001:
-            ax2.text(ref + 0.005, i, f"{ref:.0%}",
-                     va="center", ha="left", fontsize=7,
-                     color=PALETTE["highlight"])
-    ax2.set_xlim(0, 0.62)
-    ax2.set_xlabel("Refusal rate",
-                   color=PALETTE["highlight"], fontsize=10.5)
-    ax2.tick_params(axis="x", colors=PALETTE["highlight"])
-    for s in ("top", "right", "left"):
-        ax2.spines[s].set_visible(False)
-    ax2.spines["bottom"].set_visible(False)
-
-    ax.set_yticks(ys)
-    ax.set_yticklabels([r["model_id"] for r in rows], fontsize=8.5)
-    ax.set_xlim(0, 0.78)
-    ax.set_xlabel("Mean score across $5{,}719$ entities",
-                  color=PALETTE["cat0"], fontsize=10.5)
-    ax.tick_params(axis="x", colors=PALETTE["cat0"])
-    grid_x(ax, alpha=0.25)
-    thin_spines(ax)
-
-    # Custom legend.
+        axl.text(m + 0.004, i, f"{m:.3f}", va="center", ha="left",
+                 fontsize=8, color="#222")
+    axl.set_yticks(ys)
+    axl.set_yticklabels([r["model_id"] for r in rows], fontsize=8.5)
+    axl.set_xlim(0, 0.74)
+    axl.set_xlabel("Mean score across $5{,}719$ entities", fontsize=10.5)
+    grid_x(axl, alpha=0.25)
+    thin_spines(axl)
     handles = [
         Line2D([0], [0], marker="s", color="w",
                markerfacecolor=PALETTE["cat0"], markersize=10,
-               label="Mean score  (Western)"),
+               label="Western vendor"),
         Line2D([0], [0], marker="s", color="w",
                markerfacecolor=PALETTE["silent"], markersize=10,
-               label="Mean score  (Chinese)"),
-        Line2D([0], [0], marker="o", color="w",
-               markerfacecolor=PALETTE["highlight"], markersize=8,
-               markeredgecolor="white", label="Refusal rate"),
+               label="Chinese vendor"),
     ]
-    ax.legend(handles=handles, loc="lower right", fontsize=9,
-              framealpha=0.95)
+    axl.legend(handles=handles, loc="lower right", fontsize=9,
+               framealpha=0.95)
 
-    ax.set_title(
-        "Per-model generosity and refusal across the 37-model panel  "
-        "(graphical form of Table~3, Appendix~C).  Sorted by mean score.",
-        fontsize=10.5, pad=14,
+    # ── Right: refusal rate ──
+    axr.barh(ys, refs, color=PALETTE["highlight"], edgecolor="white",
+             linewidth=0.5, height=0.74, alpha=0.88, zorder=3)
+    for i, ref in enumerate(refs):
+        if ref >= 0.005:
+            axr.text(ref + 0.008, i, f"{ref:.0%}", va="center", ha="left",
+                     fontsize=7.5, color="#222")
+    axr.set_xlim(0, 0.66)
+    axr.set_xlabel("Refusal rate", fontsize=10.5)
+    axr.tick_params(axis="y", length=0)
+    grid_x(axr, alpha=0.25)
+    thin_spines(axr)
+    axr.spines["left"].set_visible(False)
+
+    fig.suptitle(
+        "Per-model generosity (left) and refusal rate (right), "
+        "sorted by mean score.",
+        fontsize=10.5, y=0.995,
     )
-    plt.tight_layout()
+    plt.tight_layout(rect=(0, 0, 1, 0.985))
     out = HERE / "fig_app_per_model.pdf"
     plt.savefig(out)
     print(f"Wrote {out}")

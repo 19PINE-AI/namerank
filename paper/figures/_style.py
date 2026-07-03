@@ -184,3 +184,75 @@ def annotate_value(ax, x, y, text, *, dx=0.008, fontsize=9, color="#222") -> Non
     """Place a small numeric label just past a bar end."""
     ax.text(x + dx, y, text, va="center", ha="left",
             fontsize=fontsize, color=color)
+
+
+# ── Readable cohort names ──────────────────────────────────────
+# Dataset cohort identifiers -> reader-facing names (matches paper prose).
+COHORT_NAMES = {
+    "mid_tier_gov_ai_policy": "AI-policy officials",
+    "mid_tier_filmmaker": "Filmmakers",
+    "programming_language": "Programming languages",
+    "mid_tier_artist": "Artists",
+    "database_or_data_system": "Databases & data systems",
+    "award": "Awards",
+    "benchmark": "ML benchmarks",
+    "ai_hardware": "AI hardware",
+    "dataset": "ML datasets",
+    "mid_tier_musician": "Musicians",
+    "mid_tier_chef": "Chefs",
+    "ai_startup_or_company": "AI startups & companies",
+    "mid_tier_comedian": "Comedians",
+    "research_paper": "Research papers (>10K cites)",
+    "mid_tier_historical": "Historical figures",
+    "conference": "Conferences",
+    "icpc_world_finals_gold": "ICPC World Finals gold",
+    "putnam_fellow": "Putnam top-25",
+    "mid_tier_medical": "Medical figures",
+    "mid_tier_product": "Consumer products",
+    "industry_product": "Industry products",
+    "named_method": "Named ML methods",
+    "mid_tier_actor": "Actors",
+    "mid_tier_founder": "Founders",
+    "mid_tier_oss_maintainer": "OSS maintainers",
+    "mid_tier_writer": "Writers",
+    "oss_project": "OSS projects",
+    "foundation_model": "Foundation models",
+    "mid_tier_journalist": "Journalists",
+    "mid_tier_religious": "Religious figures",
+    "mid_tier_athlete": "Athletes",
+    "long_tail_researcher_openalex": "OpenAlex researchers (long tail)",
+    "reference_pilot": "Diagnostic reference set",
+    "website_or_service": "Websites & services",
+    "mid_tier_online_course": "Online courses",
+    "mid_tier_podcast": "Podcasts",
+    "cs_faculty": "CS faculty",
+    "mid_tier_vc": "VCs",
+    "long_tail_paper": "Long-tail papers (50-500 cites)",
+    "noi_china_gold": "NOI China gold",
+    "mid_tier_book": "Books",
+    "imo_gold": "IMO gold",
+    "mid_tier_politician": "Politicians",
+    "msra_phd_fellowship": "MSRA PhD Fellowship",
+    "ioi_gold": "IOI gold",
+    "rhodes_scholar": "Rhodes Scholars",
+    "cmo_china_gold": "CMO China gold",
+    "mid_tier_architect": "Architects",
+    "cpho_china_first_prize": "CPhO China first prize",
+    "deepseek_v3_author": "DeepSeek-V3 authors",
+    "long_tail_researcher_ikp": "IKP researchers (long tail)",
+    "mid_tier_activist": "Activists",
+    "mid_tier_yc_company": "YC companies",
+    "gpt5_system_card_author": "GPT-5 system-card authors",
+}
+
+# The nine credential cohorts (bold labels in cohort-level figures).
+CREDENTIAL_COHORTS = {
+    "imo_gold", "ioi_gold", "cmo_china_gold", "noi_china_gold",
+    "cpho_china_first_prize", "rhodes_scholar", "msra_phd_fellowship",
+    "icpc_world_finals_gold", "putnam_fellow",
+}
+
+
+def pretty_cohort(slug: str) -> str:
+    """Reader-facing cohort name for a dataset identifier."""
+    return COHORT_NAMES.get(slug, slug.replace("_", " "))

@@ -60,7 +60,7 @@ def main() -> None:
     ys = list(range(len(ORDER)))[::-1]
     vals = [sole[p] for p in ORDER]
     colors = [PALETTE["discriminative"] if p == "h_index"
-              else (PALETTE["cat0"] if p == "n_works" else PALETTE["baseline"])
+              else (PALETTE["cat5"] if p == "n_works" else PALETTE["baseline"])
               for p in ORDER]
     axa.barh(ys, vals, color=colors, edgecolor="white", height=0.68, zorder=3)
     for y, v in zip(ys, vals):
@@ -78,7 +78,7 @@ def main() -> None:
 
     # ── (b) decile curves ──
     show = [("h_index", PALETTE["discriminative"], "o", "-"),
-            ("n_works", PALETTE["cat0"], "s", "-"),
+            ("n_works", PALETTE["cat5"], "s", "-"),
             ("fractional_citations", PALETTE["highlight"], "^", "--"),
             ("cited_by_count", PALETTE["silent"], "v", "--")]
     for p, color, marker, ls in show:

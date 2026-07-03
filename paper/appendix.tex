@@ -238,7 +238,7 @@ llama-3.2-1b & 0.201 & 0.1\% & 5{,}719 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{figures/fig_app_per_model.pdf}
-    \caption{Per-model panel statistics, sorted by mean score (graphical form of Table~\ref{tab:per-model}). Bars are mean per-record score across $5{,}719$ entities (lower x-axis, blue/red for Western/Chinese vendor); orange markers on the upper x-axis are the per-model refusal rate, with labels for refusal $> 0.001$. Two failure regions appear at the row level: the strict cluster at the bottom (gpt-oss-20b-think, mistral-small-24b, qwen3-32b/8b-think) refuses heavily; the fluent-hallucinator cluster (ernie, llama-4-maverick, gemma-3-4b, phi-4, ministral-3b, llama-3.2-1b) shows $0$\% or near-zero refusal, with widely varying mean scores. The panel mean integrates over both styles.}
+    \caption{Per-model panel statistics, sorted by mean score (graphical form of Table~\ref{tab:per-model}). Left panel: mean per-record score across $5{,}719$ entities, colored by vendor class. Right panel: refusal rate, aligned to the same model axis. Two failure styles are visible: the strict cluster at the bottom (gpt-oss-20b-think, mistral-small-24b, qwen3-32b/8b-think) refuses heavily, while the fluent-hallucinator cluster (ernie, llama-4-maverick, gemma-3-4b, phi-4, ministral-3b, llama-3.2-1b) shows near-zero refusal with widely varying mean scores. The panel mean integrates over both styles.}
     \label{fig:app-per-model}
 \end{figure}
 

@@ -14,7 +14,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from _style import PALETTE, apply_style, annotate_value, grid_x, thin_spines
+from _style import PALETTE, apply_style, annotate_value, grid_x, pretty_cohort, thin_spines
 
 apply_style()
 
@@ -36,7 +36,7 @@ def main() -> None:
             summary.append((cohort, len(sds), statistics.mean(sds)))
     summary.sort(key=lambda x: x[2])
 
-    cohorts = [c.replace("_", " ") for c, _, _ in summary]
+    cohorts = [pretty_cohort(c) for c, _, _ in summary]
     ns = [n for _, n, _ in summary]
     sigmas = [s for _, _, s in summary]
 
@@ -67,20 +67,18 @@ def main() -> None:
     ax.set_xlabel("Mean within-entity $\\sigma$  (sd across 37-model panel)",
                   fontsize=10.5)
 
-    # Annotation explaining the two extremes.
-    ax.annotate("low $\\sigma$: universal corpus presence\n"
-                "(named methods, conferences, online courses)",
-                xy=(sigmas[0], 0),
-                xytext=(0.15, 1.5), fontsize=9, color="#2f8f4f",
-                arrowprops=dict(arrowstyle="-", color="#888", lw=0.6,
-                                connectionstyle="arc3,rad=0.2"))
-    ax.annotate("high $\\sigma$: corpus-pocket-specific\n"
-                "(NOI/CMO/ICPC/IMO golds, long-tail OpenAlex)",
-                xy=(sigmas[-1], len(sigmas) - 1),
-                xytext=(0.10, len(sigmas) - 3.5),
-                fontsize=9, color=PALETTE["silent"],
-                arrowprops=dict(arrowstyle="-", color="#888", lw=0.6,
-                                connectionstyle="arc3,rad=-0.2"))
+    # Legend for the four sigma regimes (replaces in-plot annotations).
+    from matplotlib.patches import Patch
+    handles = [
+        Patch(color=PALETTE["silent"],
+              label=r"$\sigma \geq 0.35$: corpus-pocket-specific"),
+        Patch(color=PALETTE["highlight"], label=r"$0.28 \leq \sigma < 0.35$"),
+        Patch(color=PALETTE["cat0"], label=r"$0.18 \leq \sigma < 0.28$"),
+        Patch(color="#2f8f4f",
+              label=r"$\sigma < 0.18$: universal corpus presence"),
+    ]
+    ax.legend(handles=handles, loc="lower right", fontsize=9,
+              framealpha=0.95, title="model disagreement", title_fontsize=9)
 
     ax.set_title(
         "Within-entity model disagreement by cohort.  "
