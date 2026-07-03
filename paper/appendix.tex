@@ -75,6 +75,41 @@ gpt5\_system\_card\_author & 80 & 0.042 & 58\% & GPT-5 system card author list \
 }
 
 % ══════════════════════════════════════════════════════════════
+\section{Credential Ladder Detail}
+\label{app:credentials}
+
+Table~\ref{tab:credential-treadmill} gives the full credential ladder summarized in Figure~\ref{fig:credentials}.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Credential ladder. The OpenAlex long-tail researcher cohort ($n = 771$, citations $500$--$30{,}000$) supplies the working-researcher baseline. The two rows marked $\dagger$ are large-team co-authorship cohorts shown for context, not credentials, and are excluded from the ``$7$ of $9$'' count.}
+\label{tab:credential-treadmill}
+\begin{tabular}{lrrr}
+\toprule
+Credential & $n$ & Mean NameRank & vs.\ baseline \\
+\midrule
+ICPC World Finalist gold & 18 & 0.610 & $+0.146$ \\
+Putnam top-25 fellow & 35 & 0.608 & $+0.144$ \\
+\textbf{OpenAlex long-tail researchers (baseline)} & \textbf{771} & \textbf{0.464} & --- \\
+NOI China gold & 29 & 0.368 & $-0.096$ \\
+\textbf{IMO gold (2005--2015)} & \textbf{197} & \textbf{0.362} & $\mathbf{-0.102}$ \\
+MSRA PhD Fellowship & 237 & 0.343 & $-0.121$ \\
+IOI gold & 68 & 0.341 & $-0.123$ \\
+Rhodes Scholarship & 36 & 0.315 & $-0.149$ \\
+CMO China gold & 131 & 0.302 & $-0.162$ \\
+CPhO China first prize & 50 & 0.182 & $-0.282$ \\
+DeepSeek-V3 paper author$^\dagger$ & 69 & 0.178 & $-0.286$ \\
+GPT-5 system-card author$^\dagger$ & 80 & 0.042 & $-0.422$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Career-track split.} Within IMO gold medalists, US-tracked academic/industry careers---the subset most comparable to the citation-floored OpenAlex baseline---score ${\sim}0.50$; non-Anglophone-tracked golds score ${\sim}0.30$. The medal-and-name pair propagates only where the post-medal career produces English text.
+
+\textbf{Temporal patterns.} Within MSRA fellows, five-year-cohort means rise from $0.312$ (2005--2009) to $0.337$ (2010--2014) to $0.382$ (2015--2019) and dip to $0.343$ (2020--2024), consistent with recent fellows having had less time for post-fellowship production to propagate. Within IMO 2005--2015, Pearson(year, NameRank) $= -0.042$, indistinguishable from zero: the credential signal neither strengthens nor decays within the ten-year window.
+
+% ══════════════════════════════════════════════════════════════
 \section{Probe Template Details}
 \label{app:probe}
 
@@ -216,10 +251,16 @@ For each of the $11$ verified (creator, artifact) pairs, the full per-model brea
 \textbf{Per-model mention table for Jiayi Weng / Tianshou.} Of the $28$ non-refusal responses to ``tell me about Jiayi Weng,'' $7$ name Tianshou: claude-opus-4.6-think, claude-sonnet-4.6-think, gemini-3-flash-think, gemini-3.1-pro, glm-5.1-think, gpt-5.5-think, kimi-k2.6-think. All other models that respond do not name Tianshou. The $7$ mentioning models have judge scores ranging $0.70$ to $0.80$ (mean $0.71$); the $21$ non-mentioning responding models range $0.00$ to $0.50$ (mean $0.35$). The score lift from artifact-mention is $+0.36$.
 
 % ══════════════════════════════════════════════════════════════
-\section{Cross-Language Per-Entity Deltas}
+\section{Cross-Language and East--West Detail}
 \label{app:cross-lang}
 
-The Chinese-prompt sub-run covers $240$ entities. The full per-entity $\Delta(\mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en})$ table is released as a supplementary CSV. Selected diagnostic entries:
+\textbf{Sub-run cohort selection.} The Chinese-prompt sub-run covers $240$ entities: the full diagnostic reference set ($37$), all NOI China gold medalists ($29$), all DeepSeek-V3 paper authors ($69$), $30$ random samples each from the CMO, CPhO, and MSRA Fellowship cohorts, and $5$ each from the writer, filmmaker, and politician cohorts as Western controls---$240 \times 37 = 8{,}880$ records.
+
+\textbf{English-prompt East--West extremes.} On English prompts, the strongest Chinese-panel lifts over the Western panel are Chinese-content entities: Wei Dongyi (Chinese mathematics figure; Chinese-panel mean $0.80$ vs.\ Western $0.53$) and Zhang Fang (NOI gold; $0.45$ vs.\ $0.20$). The strongest Western-panel lifts are non-Chinese names on which Chinese models refuse: Saad Albawi ($0.59$ Western vs.\ $0.16$ Chinese) and Qingzi Vera Liao (Chinese-name CS faculty at a Western institution; $0.50$ vs.\ $0.15$).
+
+\textbf{Per-model prompt-language deltas.} The Chinese-prompt shift is universal rather than vendor-specific: models gaining on Chinese prompts include Western (claude-sonnet-think $+0.17$, gemini-3.1-pro $+0.12$, gemma-3-12b $+0.12$) and Chinese (deepseek-v4-pro-think $+0.14$, qwen3-235b $+0.10$) models, and models losing include both classes as well (llama-4-maverick $-0.20$, gpt-5.4 $-0.12$, glm-4-32b $-0.05$, kimi-k2 $-0.05$). The class averages are $+0.014$ (Western) and $+0.028$ (Chinese): both lift slightly, and the dominant signal is entity-name match, not model origin.
+
+\textbf{Per-entity deltas.} The full per-entity $\Delta(\mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en})$ table is released as a supplementary CSV. Selected diagnostic entries (the largest suppressions beyond the table: Leng Junsheng $-0.17$, Du Zhuofan $-0.15$, Aleksander Madry $-0.12$):
 
 \begin{center}
 \small
@@ -227,19 +268,19 @@ The Chinese-prompt sub-run covers $240$ entities. The full per-entity $\Delta(\m
 \toprule
 Entity & $\mathrm{NR}_\mathrm{en}$ & $\mathrm{NR}_\mathrm{zh}$ & $\Delta$ & Cohort \\
 \midrule
-Jiayi Weng & 0.331 & 0.327 & $-0.004$ & reference\_pilot \\
-Tianshou & 0.420 & 0.399 & $-0.021$ & reference\_pilot \\
-tuixue.online & 0.250 & 0.262 & $+0.012$ & reference\_pilot \\
-Andrej Karpathy & 0.614 & 0.549 & $-0.066$ & reference\_pilot \\
-Tri Dao & 0.532 & 0.488 & $-0.044$ & reference\_pilot \\
-FlashAttention & 0.607 & 0.470 & $-0.137$ & reference\_pilot \\
-Bojie Li & 0.090 & 0.105 & $+0.014$ & reference\_pilot \\
+Jiayi Weng & 0.331 & 0.327 & $-0.004$ & reference set \\
+Tianshou & 0.420 & 0.399 & $-0.021$ & reference set \\
+tuixue.online & 0.250 & 0.262 & $+0.012$ & reference set \\
+Andrej Karpathy & 0.614 & 0.549 & $-0.066$ & reference set \\
+Tri Dao & 0.532 & 0.488 & $-0.044$ & reference set \\
+FlashAttention & 0.607 & 0.470 & $-0.137$ & reference set \\
+Bojie Li & 0.090 & 0.105 & $+0.014$ & reference set \\
 \midrule
-Wang Haoyu (Wang Hao-yu) & 0.260 & 0.430 & $+0.170$ & cmo\_china\_gold \\
-Yao Xuanrong (Yao Xuan-rong) & 0.250 & 0.420 & $+0.160$ & noi\_china\_gold \\
-Wang Zhongjian (Wang Zhong-jian) & 0.260 & 0.420 & $+0.160$ & cmo\_china\_gold \\
-Zijia Zhu & 0.100 & 0.290 & $+0.190$ & deepseek\_v3\_author \\
-Peng Zhang & 0.160 & 0.330 & $+0.170$ & deepseek\_v3\_author \\
+Wang Haoyu (Wang Hao-yu) & 0.260 & 0.430 & $+0.170$ & CMO China gold \\
+Yao Xuanrong (Yao Xuan-rong) & 0.250 & 0.420 & $+0.160$ & NOI China gold \\
+Wang Zhongjian (Wang Zhong-jian) & 0.260 & 0.420 & $+0.160$ & CMO China gold \\
+Zijia Zhu & 0.100 & 0.290 & $+0.190$ & DeepSeek-V3 author \\
+Peng Zhang & 0.160 & 0.330 & $+0.170$ & DeepSeek-V3 author \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -293,6 +334,44 @@ D10 & 77 & 60.4 & 0.601 \\
 \end{table}
 
 The relationship is monotonic and saturates above $h \geq 40$. The bottom decile ($h < 5$) shows NameRank floored at $0.22$---the working-researcher floor, not zero.
+
+% ══════════════════════════════════════════════════════════════
+\section{Institution and Country Gradient Detail}
+\label{app:geography}
+
+Table~\ref{tab:cs-country} gives the full country-level aggregation behind Figure~\ref{fig:country}.
+
+\begin{table}[H]
+\centering
+\small
+\caption{CS-faculty NameRank by country of institutional affiliation, for countries with $\geq 3$ sampled faculty. An \emph{Other/Unknown} bucket ($n=236$; CS-Rankings affiliations not matched by the keyword-prefix country lookup) is omitted. Only the USA ($n=302$), China ($30$), UK ($16$), Australia and Hong Kong ($11$), and Brazil and India ($10$) reach $n \geq 10$; the remaining rows are point estimates with wide intervals and should not be finely ranked against one another.}
+\label{tab:cs-country}
+\begin{tabular}{lrrrr}
+\toprule
+Country & $n$ & Mean & Median & frac $\geq 0.5$ \\
+\midrule
+Israel & 7 & 0.506 & 0.528 & 57\% \\
+Singapore & 7 & 0.497 & 0.480 & 43\% \\
+Sweden & 5 & 0.492 & 0.490 & 40\% \\
+Germany & 9 & 0.490 & 0.488 & 44\% \\
+Switzerland & 4 & 0.489 & 0.467 & 50\% \\
+Canada & 9 & 0.478 & 0.463 & 22\% \\
+USA & 302 & 0.460 & 0.488 & 46\% \\
+Netherlands & 9 & 0.447 & 0.432 & 33\% \\
+UK & 16 & 0.438 & 0.440 & 38\% \\
+Hong Kong & 11 & 0.431 & 0.452 & 36\% \\
+Portugal & 5 & 0.427 & 0.442 & 20\% \\
+Brazil & 10 & 0.388 & 0.409 & 10\% \\
+Australia & 11 & 0.341 & 0.291 & 18\% \\
+France & 3 & 0.312 & 0.341 & 0\% \\
+\textbf{China} & 30 & \textbf{0.311} & 0.285 & 7\% \\
+Spain & 8 & 0.303 & 0.288 & 13\% \\
+India & 10 & 0.292 & 0.279 & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The well-sampled backbone of the gradient is USA (mean $0.460$, $95\%$ CI $[0.443, 0.476]$) against China ($0.311$, $[0.271, 0.350]$) and India ($0.292$, $[0.234, 0.351]$): the intervals do not overlap. The apparent leaders (Israel, Singapore, Sweden) sit above the USA in point estimate with intervals that overlap it, and are read as suggestive only.
 
 % ══════════════════════════════════════════════════════════════
 \section{Variance Decomposition: Per-Cohort Within-Entity Disagreement}
