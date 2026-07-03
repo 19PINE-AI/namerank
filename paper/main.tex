@@ -20,8 +20,6 @@
 \usepackage{tabularx}
 \usepackage{lscape}
 \usepackage{pdflscape}
-% CJK characters in the text are romanized (pinyin) in this version of the paper.
-% To render the original Chinese directly, compile with XeLaTeX and add xeCJK.
 
 % hyperref loads last (after natbib).
 \usepackage{hyperref}
@@ -63,16 +61,11 @@ We argue here that the $65\%$ residual is the measurand, and we build a continuo
 
 The substantive motivation is that the channel through which human curiosity is mediated is changing. A practitioner deciding whether to read a paper, hire a candidate, attend a talk, or invest in a startup increasingly arrives at the question with whatever a frontier language model says about the entity, often before any human source intervenes. We do not measure the prevalence of this LLM-first lookup behavior---it is a usage trend we take as a premise, not a result---but conditional on it mattering, what the model says is determined by whether the entity's name has propagated into the training corpus. If the corpus has absorbed the name with a clean attribution chain, the practitioner is presented with a coherent summary; if it has not, the model says ``unknown'' or, worse, fabricates a plausible-sounding bio. The information surface that mattered ten years ago---Google rankings, conference plenaries, paper citation counts---has been re-mediated by a small number of frontier models, and the question of whether an entity's name has propagated into those models' weights is now itself a substantive measurement problem.
 
-A normative grounding makes the operationalization sharper. The IKP author's competition-math cohort circulated, for years, the following definition due to Jiayi Weng (an OpenAI infrastructure engineer and author of the Tianshou reinforcement-learning library):
-\begin{quote}
-\emph{rúguǒ rénshēng shì yóuxì, fēnshù jiùshì jìzhù nǐ míngzi de rénshù}\\
----\emph{If life is a game, the score is the number of people who remember your name.}
-\end{quote}
-In the LLM era this suggests a heuristic factorization (not an identity we estimate---the second factor is left unmeasured):
+A heuristic factorization makes the operationalization sharper (it is a framing device, not an identity we estimate---the second factor is left unmeasured):
 \begin{equation*}
 \text{Recognition impact} \;\approx\; \underbrace{\text{NameRank}}_{\text{per-LLM presence}} \;\times\; \underbrace{\text{Deployment surface}}_{\text{humans querying that LLM}}
 \end{equation*}
-To the extent the deployment surface is approximately constant across well-known entities at the relevant time horizon, the first factor carries the cross-entity variation. That first factor is what we measure. We do not claim NameRank measures \emph{quality} or \emph{merit}; we measure whether the corpus that mediates human curiosity at scale has internalized the entity's name. That is what ``remember'' means in the LLM era.
+To the extent the deployment surface is approximately constant across well-known entities at the relevant time horizon, the first factor carries the cross-entity variation. That first factor is what we measure. We do not claim NameRank measures \emph{quality} or \emph{merit}; we measure whether the corpus that mediates human curiosity at scale has internalized the entity's name.
 
 {\sloppy
 \paragraph{Why a new metric rather than reading IKP Sec.~5.7 off the shelf.} IKP's recognition section was constructed as a side-product of a 6-landmark tier ladder, with a binary CORRECT/WRONG verdict per probe and a 4-way evidence-aware judge for researcher probes specifically. The resulting recognition scores live on a tier scale (S/A/B/C/D/F) at population level and a $[0,1]$ per-probe rate at individual level; they are calibrated for parameter estimation, not for cross-entity comparison. Three properties needed for an impact metric are absent: (i)~a continuous score that places industry founders, OSS maintainers, podcast hosts, mid-career CS faculty, and Walmart CTOs on the same axis; (ii)~a hallucination-resistant scoring rule that distinguishes ``confident bio of the right person'' from ``confident bio about the wrong person on the same topic''; (iii)~explicit cross-model variance as a separate, retained signal rather than absorbed into a tier label.\par}
@@ -589,7 +582,7 @@ msra\_phd\_fellowship & 30 & 0.339 & 0.319 & $-0.021$ \\
 
 \subsubsection{C5---Jiayi Weng and named-artifact amplification}
 
-Jiayi Weng (Tianshou author, OpenAI infrastructure engineer) was the originator of the life-score = number-of-people-who-remember-your-name formulation that motivates this paper. We measure him against eight broadly-matched OpenAI engineering/research individual contributors from publicly-listed model authorship attributions: Aaditya Singh, Adam Fry, AJ Ostrow, Alex Wei, Andrea Vallone, Pamela Vagata, Trevor Blackwell, and Vicki Cheung. We label the comparison set ``matched'' in the loose sense that all are OpenAI ICs with public technical-contribution attribution; we do not claim formal matching on hiring year, role title, or pre-OpenAI background. The point of the comparison is to show that Jiayi's NameRank lift over the comparison set is driven by a named, attributable, well-named artifact (Tianshou) rather than by the OpenAI affiliation that everyone in the set shares.
+Jiayi Weng (Tianshou author, OpenAI infrastructure engineer) is the sharpest single-entity illustration of artifact-mediated recognition in our data. We measure him against eight broadly-matched OpenAI engineering/research individual contributors from publicly-listed model authorship attributions: Aaditya Singh, Adam Fry, AJ Ostrow, Alex Wei, Andrea Vallone, Pamela Vagata, Trevor Blackwell, and Vicki Cheung. We label the comparison set ``matched'' in the loose sense that all are OpenAI ICs with public technical-contribution attribution; we do not claim formal matching on hiring year, role title, or pre-OpenAI background. The point of the comparison is to show that Jiayi's NameRank lift over the comparison set is driven by a named, attributable, well-named artifact (Tianshou) rather than by the OpenAI affiliation that everyone in the set shares.
 
 \begin{center}\small
 \begin{tabular}{lcc}

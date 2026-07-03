@@ -86,20 +86,15 @@ If you do not recognize this entity, respond with "unknown".
 Limit your response to about 150 words.
 \end{verbatim}
 
-\subsection{Chinese Probe Template (romanized; original Chinese released separately)}
+\subsection{Chinese Probe Template}
 
-The actual probe template used in the Chinese sub-run is the Mandarin translation of the English template, with the literal Chinese characters supplied to the model. We render it here in pinyin (with English translation in parentheses) because the default pdf\LaTeX{} build does not include CJK font support; the literal Chinese version is in the released artifact, and the document can be rebuilt with XeLaTeX to display the characters directly.
+The probe template used in the Chinese sub-run is the Mandarin translation of the English template, supplied to the models in Chinese characters. The literal template is included in the released artifact (\texttt{data/inputs/probe\_template\_zh.txt}); its English back-translation is:
 
 \begin{verbatim}
-Qing gaosu wo ni liaojie de guanyu {name} de xinxi,
-gai shiti shi {context}.
-Ruguo ni bu renshi ci shiti, qing huida "weizhi".
-Qing jiang huida kongzhi zai dayue 150 zi yi nei.
-
-(Please tell me what you know about {name},
+Please tell me what you know about {name},
 which is {context}. If you do not recognize
 this entity, respond with "unknown". Please
-keep your response to about 150 characters.)
+keep your response to about 150 characters.
 \end{verbatim}
 
 \subsection{Judge Prompt}
