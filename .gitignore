@@ -42,3 +42,6 @@ experiments/**/log_*.txt
 .envrc
 .venv/
 node_modules/
+
+# Explainer site build output (source + generated data assets ARE tracked)
+site/dist/

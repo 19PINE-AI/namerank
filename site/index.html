@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NameRank — What do AI models know about a name?</title>
+    <meta name="description" content="Interactive companion to the NameRank paper: 5,719 people and tools, 37 frontier AI models, one simple question — who does the machine actually remember?" />
+    <script>
+      // set theme before first paint to avoid flash
+      (function () {
+        var saved = localStorage.getItem('nr-theme');
+        var dark = saved ? saved === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.dataset.theme = 'dark';
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
