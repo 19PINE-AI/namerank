@@ -1,0 +1,110 @@
+{
+"event_2022_russian_invasion_of_ukraine": {
+"query": "\"Russian invasion of Ukraine\"",
+"gdelt_sum": 63.9606,
+"gdelt_peak": 1.588,
+"gdelt_n": 366
+},
+"event_2022_fifa_world_cup": {
+"query": "\"FIFA World Cup\"",
+"gdelt_sum": 33.8077,
+"gdelt_peak": 0.8602,
+"gdelt_n": 365
+},
+"event_2020_summer_olympics": {
+"query": "\"2020 Summer Olympics\"",
+"gdelt_sum": 1.7081,
+"gdelt_peak": 0.1496,
+"gdelt_n": 366
+},
+"event_2023_asia_cup": {
+"query": "\"Asia Cup\"",
+"gdelt_sum": 3.3884,
+"gdelt_peak": 0.1574,
+"gdelt_n": 366
+},
+"event_2023_fiba_basketball_world_cup": {
+"query": "\"FIBA Basketball World Cup\"",
+"gdelt_sum": 0.558,
+"gdelt_peak": 0.0475,
+"gdelt_n": 366
+},
+"event_2021_canadian_federal_election": {
+"query": "\"Canadian federal election\"",
+"gdelt_sum": 0.131,
+"gdelt_peak": 0.0114,
+"gdelt_n": 366
+},
+"event_2022_brazilian_general_election": {
+"query": "\"Brazilian general election\"",
+"gdelt_sum": 0.0105,
+"gdelt_peak": 0.0031,
+"gdelt_n": 365
+},
+"event_siege_of_mariupol": {
+"query": "\"Siege of Mariupol\"",
+"gdelt_sum": 3.0241,
+"gdelt_peak": 0.4455,
+"gdelt_n": 366
+},
+"event_2022_buffalo_shooting": {
+"query": "\"Buffalo shooting\"",
+"gdelt_sum": 4.226,
+"gdelt_peak": 0.5029,
+"gdelt_n": 365
+},
+"event_assassination_of_shinzo_abe": {
+"query": "\"Assassination of Shinzo Abe\"",
+"gdelt_sum": 0.1405,
+"gdelt_peak": 0.0342,
+"gdelt_n": 365
+},
+"event_2022_philippine_presidential_election": {
+"query": "\"Philippine presidential election\"",
+"gdelt_sum": 0.14,
+"gdelt_peak": 0.0302,
+"gdelt_n": 365
+},
+"event_2022_wimbledon_championships_men_s_singles": {
+"query": "\"Wimbledon Championships Men's singles\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_fifa_u_20_world_cup": {
+"query": "\"FIFA U 20 World Cup\"",
+"gdelt_sum": 0.2676,
+"gdelt_peak": 0.012,
+"gdelt_n": 366
+},
+"event_2021_california_gubernatorial_recall_election": {
+"query": "\"California gubernatorial recall election\"",
+"gdelt_sum": 0.331,
+"gdelt_peak": 0.056,
+"gdelt_n": 366
+},
+"event_2022_world_snooker_championship": {
+"query": "\"World Snooker Championship\"",
+"gdelt_sum": 0.4581,
+"gdelt_peak": 0.0611,
+"gdelt_n": 365
+},
+"event_2022_italian_general_election": {
+"query": "\"Italian general election\"",
+"gdelt_sum": 0.0359,
+"gdelt_peak": 0.0052,
+"gdelt_n": 365
+},
+"event_2023_men_s_fih_hockey_world_cup": {
+"query": "\"Men's FIH Hockey World Cup\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_nba_playoffs": {
+"query": "\"NBA playoffs\"",
+"gdelt_sum": 3.2148,
+"gdelt_peak": 0.0971,
+"gdelt_n": 366
+}
+}

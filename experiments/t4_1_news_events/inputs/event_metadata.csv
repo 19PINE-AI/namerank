@@ -1,0 +1,259 @@
+id,title,article,start_year,start_month,country,region,region_group,category,peak_views,total_views,eff_duration,days_above_10,tail_daily,peak_date,gold_words
+event_2022_russian_invasion_of_ukraine,2022 Russian invasion of Ukraine,2022_Russian_invasion_of_Ukraine,2022,2,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,2095287,51992090,24.81,51,48373.4,20220224,192
+event_2022_fifa_world_cup,2022 FIFA World Cup,2022_FIFA_World_Cup,2022,11,Qatar,Middle East & North Africa,Middle East & Africa,sports,1866116,39302580,21.06,39,11765.2,20221130,198
+event_2020_summer_olympics,2020 Summer Olympics,2020_Summer_Olympics,2021,7,Japan,East Asia,East Asia,sports,685967,13291970,19.38,31,3761.3,20210724,198
+event_2023_asia_cup,2023 Asia Cup,2023_Asia_Cup,2023,8,Pakistan,South Asia,South & Southeast Asia,sports,873775,11169094,12.78,21,1630.5,20230914,180
+event_2023_rugby_world_cup,2023 Rugby World Cup,2023_Rugby_World_Cup,2023,9,France,Western Europe,Western Europe,sports,199005,4363377,21.93,54,1153.2,20231015,195
+event_94th_academy_awards,94th Academy Awards,94th_Academy_Awards,2022,3,United States,North America,Anglo-America & Oceania,entertainment_culture,1254922,4217697,3.36,3,6639.5,20220328,161
+event_93rd_academy_awards,93rd Academy Awards,93rd_Academy_Awards,2021,4,United States,North America,Anglo-America & Oceania,entertainment_culture,1060002,3950451,3.73,3,6544.1,20210426,186
+event_2023_fiba_basketball_world_cup,2023 FIBA Basketball World Cup,2023_FIBA_Basketball_World_Cup,2023,8,International,Southeast Asia,South & Southeast Asia,sports,328639,3779428,11.5,19,2750.0,20230903,192
+event_2021_copa_am_rica,2021 Copa América,2021_Copa_América,2021,6,Brazil,Latin America,Latin America,sports,362737,3327557,9.17,29,1405.6,20210711,198
+event_2021_canadian_federal_election,2021 Canadian federal election,2021_Canadian_federal_election,2021,9,Canada,North America,Anglo-America & Oceania,politics_elections,623058,3019295,4.85,4,2000.2,20210921,178
+event_2022_brazilian_general_election,2022 Brazilian general election,2022_Brazilian_general_election,2022,10,Brazil,Latin America,Latin America,politics_elections,788593,2690271,3.41,4,681.9,20221002,185
+event_siege_of_mariupol,Siege of Mariupol,Siege_of_Mariupol,2022,2,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,57593,2645693,45.94,90,1316.2,20220517,184
+event_2022_french_presidential_election,2022 French presidential election,2022_French_presidential_election,2022,4,France,Western Europe,Western Europe,politics_elections,265945,2602989,9.79,23,1723.8,20220410,178
+event_2022_buffalo_shooting,2022 Buffalo shooting,2022_Buffalo_shooting,2022,5,United States,North America,Anglo-America & Oceania,conflict_terrorism,340170,2306140,6.78,12,2176.9,20220515,189
+event_assassination_of_shinzo_abe,Assassination of Shinzo Abe,Assassination_of_Shinzo_Abe,2022,7,Japan,East Asia,East Asia,conflict_terrorism,557750,2233877,4.01,4,2116.6,20220708,169
+event_2021_israel_palestine_crisis,2021 Israel–Palestine crisis,2021_Israel–Palestine_crisis,2021,5,Israel,Middle East & North Africa,Middle East & Africa,conflict_terrorism,159497,2086305,13.08,17,1361.8,20210516,189
+event_2023_sag_aftra_strike,2023 SAG-AFTRA strike,2023_SAG-AFTRA_strike,2023,7,United States,North America,Anglo-America & Oceania,civil_unrest,68278,1889780,27.68,119,1023.8,20230714,199
+event_2023_turkish_presidential_election,2023 Turkish presidential election,2023_Turkish_presidential_election,2023,5,Turkey,Middle East & North Africa,Middle East & Africa,politics_elections,488507,1877681,3.84,6,1083.8,20230514,199
+event_hurricane_ian,Hurricane Ian,Hurricane_Ian,2022,9,United States,North America,Anglo-America & Oceania,natural_disaster,120641,1843621,15.28,24,3598.5,20220930,196
+event_2022_philippine_presidential_election,2022 Philippine presidential election,2022_Philippine_presidential_election,2022,5,Philippines,Southeast Asia,South & Southeast Asia,politics_elections,288762,1747356,6.05,8,743.1,20220509,169
+event_2022_wimbledon_championships_men_s_singles,2022 Wimbledon Championships – Men's singles,2022_Wimbledon_Championships_–_Men's_singles,2022,6,United Kingdom,Western Europe,Western Europe,sports,105188,1668241,15.86,24,450.3,20220704,189
+event_mahsa_amini_protests,Mahsa Amini protests,Mahsa_Amini_protests,2022,9,Iran,Middle East & North Africa,Middle East & Africa,civil_unrest,49024,1628334,33.22,109,924.3,20220923,175
+event_battle_of_bakhmut,Battle of Bakhmut,Battle_of_Bakhmut,2022,5,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,24291,1610541,66.3,194,10923.8,20230304,182
+event_2023_fifa_u_20_world_cup,2023 FIFA U-20 World Cup,2023_FIFA_U-20_World_Cup,2023,5,Argentina,Latin America,Latin America,sports,83324,1607978,19.3,27,587.2,20230528,188
+event_gamestop_short_squeeze,GameStop short squeeze,GameStop_short_squeeze,2021,1,United States,North America,Anglo-America & Oceania,business_tech,219456,1576682,7.18,10,1158.2,20210129,185
+event_2021_california_gubernatorial_recall_election,2021 California gubernatorial recall election,2021_California_gubernatorial_recall_election,2021,8,United States,North America,Anglo-America & Oceania,politics_elections,217033,1575000,7.26,7,940.2,20210915,194
+event_2022_world_snooker_championship,2022 World Snooker Championship,2022_World_Snooker_Championship,2022,4,United Kingdom,Western Europe,Western Europe,sports,103643,1568234,15.13,32,424.3,20220502,189
+event_2022_italian_general_election,2022 Italian general election,2022_Italian_general_election,2022,9,Italy,Western Europe,Western Europe,politics_elections,299175,1489307,4.98,6,938.3,20220926,193
+event_2023_men_s_fih_hockey_world_cup,2023 Men's FIH Hockey World Cup,2023_Men's_FIH_Hockey_World_Cup,2023,1,India,South Asia,South & Southeast Asia,sports,141844,1469669,10.36,21,807.2,20230113,100
+event_2021_nba_playoffs,2021 NBA playoffs,2021_NBA_playoffs,2021,5,United States,North America,Anglo-America & Oceania,sports,37514,1456239,38.82,94,2718.2,20210517,195
+event_bucha_massacre,Bucha massacre,Bucha_massacre,2022,3,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,171195,1383888,8.08,9,1650.2,20220405,192
+event_swimming_at_the_2020_summer_olympics,Swimming at the 2020 Summer Olympics,Swimming_at_the_2020_Summer_Olympics,2021,7,Japan,East Asia,East Asia,sports,121725,1383196,11.36,17,582.1,20210729,92
+event_2023_argentine_general_election,2023 Argentine general election,2023_Argentine_general_election,2023,10,Argentina,Latin America,Latin America,politics_elections,170433,1313048,7.7,9,535.2,20231120,193
+event_2022_malaysian_general_election,2022 Malaysian general election,2022_Malaysian_general_election,2022,11,Malaysia,Southeast Asia,South & Southeast Asia,politics_elections,270539,1306837,4.83,6,399.7,20221119,198
+event_coronation_of_charles_iii_and_camilla,Coronation of Charles III and Camilla,Coronation_of_Charles_III_and_Camilla,2023,5,United Kingdom,Western Europe,Western Europe,royalty_ceremony,225953,1291813,5.72,11,962.7,20230506,172
+event_2023_fifa_u_17_world_cup,2023 FIFA U-17 World Cup,2023_FIFA_U-17_World_Cup,2023,11,Indonesia,Southeast Asia,South & Southeast Asia,sports,82437,1280023,15.53,25,395.2,20231117,193
+event_2021_suez_canal_obstruction,2021 Suez Canal obstruction,2021_Suez_Canal_obstruction,2021,3,Egypt,Middle East & North Africa,Middle East & Africa,accident_disaster,150343,1230405,8.18,11,1216.3,20210329,163
+event_united_states_at_the_2020_summer_olympics,United States at the 2020 Summer Olympics,United_States_at_the_2020_Summer_Olympics,2021,7,Japan,East Asia,East Asia,sports,87286,1228330,14.07,18,200.4,20210725,193
+event_2022_swedish_general_election,2022 Swedish general election,2022_Swedish_general_election,2022,9,Sweden,Western Europe,Western Europe,politics_elections,154925,1184728,7.65,14,717.8,20220912,198
+event_2023_g20_new_delhi_summit,2023 G20 New Delhi summit,2023_G20_New_Delhi_summit,2023,9,India,South Asia,South & Southeast Asia,politics_elections,107376,1184684,11.03,19,387.1,20230909,44
+event_2021_peruvian_general_election,2021 Peruvian general election,2021_Peruvian_general_election,2021,4,Peru,Latin America,Latin America,politics_elections,177564,1180975,6.65,12,288.7,20210607,185
+event_world_chess_championship_2021,World Chess Championship 2021,World_Chess_Championship_2021,2021,11,United Arab Emirates,Middle East & North Africa,Middle East & Africa,sports,56489,1180071,20.89,27,500.5,20211210,184
+event_2023_uefa_champions_league_final,2023 UEFA Champions League final,2023_UEFA_Champions_League_final,2023,6,Turkey,Middle East & North Africa,Middle East & Africa,sports,201136,1172912,5.83,5,2565.8,20230610,193
+event_platinum_jubilee_of_elizabeth_ii,Platinum Jubilee of Elizabeth II,Platinum_Jubilee_of_Elizabeth_II,2022,2,United Kingdom,Western Europe,Western Europe,royalty_ceremony,76776,1132183,14.75,27,600.2,20220603,194
+event_2021_israeli_legislative_election,2021 Israeli legislative election,2021_Israeli_legislative_election,2021,3,Israel,Middle East & North Africa,Middle East & Africa,politics_elections,101351,1126315,11.11,25,442.1,20210324,69
+event_2022_fifa_world_cup_final,2022 FIFA World Cup final,2022_FIFA_World_Cup_final,2022,12,Qatar,Middle East & North Africa,Middle East & Africa,sports,35012,1116740,31.9,54,3747.5,20221220,172
+event_2023_rajasthan_legislative_assembly_election,2023 Rajasthan Legislative Assembly election,2023_Rajasthan_Legislative_Assembly_election,2023,11,India,South Asia,South & Southeast Asia,politics_elections,180140,1112006,6.17,10,430.5,20231203,86
+event_seoul_halloween_crowd_crush,Seoul Halloween crowd crush,Seoul_Halloween_crowd_crush,2022,10,South Korea,East Asia,East Asia,accident_disaster,135940,1087097,8.0,8,1441.9,20221030,190
+event_2021_fifa_arab_cup,2021 FIFA Arab Cup,2021_FIFA_Arab_Cup,2021,11,Qatar,Middle East & North Africa,Middle East & Africa,sports,62553,1042934,16.67,25,343.0,20211207,199
+event_death_and_funeral_of_prince_philip_duke_of_edinburgh,"Death and funeral of Prince Philip, Duke of Edinburgh","Death_and_funeral_of_Prince_Philip,_Duke_of_Edinburgh",2021,4,United Kingdom,Western Europe,Western Europe,royalty_ceremony,289444,1042715,3.6,6,765.3,20210409,197
+event_acquisition_of_twitter_by_elon_musk,Acquisition of Twitter by Elon Musk,Acquisition_of_Twitter_by_Elon_Musk,2022,4,United States,North America,Anglo-America & Oceania,business_tech,77351,1038358,13.42,32,1276.0,20220426,189
+event_2021_london_mayoral_election,2021 London mayoral election,2021_London_mayoral_election,2021,5,United Kingdom,Western Europe,Western Europe,politics_elections,114920,1026411,8.93,15,565.8,20210509,178
+event_2022_israeli_legislative_election,2022 Israeli legislative election,2022_Israeli_legislative_election,2022,11,Israel,Middle East & North Africa,Middle East & Africa,politics_elections,118410,965662,8.16,9,2141.5,20221102,193
+event_red_sea_crisis,Red Sea crisis,Red_Sea_crisis,2023,10,Yemen,Middle East & North Africa,Middle East & Africa,conflict_terrorism,19411,929299,47.87,132,1635.4,20240112,183
+event_2022_french_legislative_election,2022 French legislative election,2022_French_legislative_election,2022,6,France,Western Europe,Western Europe,politics_elections,124694,881513,7.07,11,649.5,20220620,137
+event_2021_chilean_general_election,2021 Chilean general election,2021_Chilean_general_election,2021,11,Chile,Latin America,Latin America,politics_elections,81825,647597,7.91,9,427.0,20211220,193
+event_2023_sea_games,2023 SEA Games,2023_SEA_Games,2023,5,Cambodia,Southeast Asia,South & Southeast Asia,sports,122474,641029,5.23,6,212.1,20230516,183
+event_assassination_of_jovenel_mo_se,Assassination of Jovenel Moïse,Assassination_of_Jovenel_Moïse,2021,7,Haiti,Latin America,Latin America,crime_legal,107690,585557,5.44,7,281.0,20210707,167
+event_surfside_condominium_collapse,Surfside condominium collapse,Surfside_condominium_collapse,2021,6,United States,North America,Anglo-America & Oceania,accident_disaster,12131,575378,47.43,232,1744.1,20210727,180
+event_2021_japanese_general_election,2021 Japanese general election,2021_Japanese_general_election,2021,10,Japan,East Asia,East Asia,politics_elections,51486,538718,10.46,13,345.4,20211031,194
+event_2023_chinese_balloon_incident,2023 Chinese balloon incident,2023_Chinese_balloon_incident,2023,1,United States,North America,Anglo-America & Oceania,conflict_terrorism,47416,534637,11.28,13,874.1,20230213,197
+event_2022_pakistan_super_league,2022 Pakistan Super League,2022_Pakistan_Super_League,2022,1,Pakistan,South Asia,South & Southeast Asia,sports,14246,455253,31.96,62,527.3,20220127,196
+event_hurricane_fiona,Hurricane Fiona,Hurricane_Fiona,2022,9,Puerto Rico,Latin America,Latin America,natural_disaster,26364,454348,17.23,24,473.6,20220924,176
+event_2021_european_floods,2021 European floods,2021_European_floods,2021,7,International,Western Europe,Western Europe,natural_disaster,53136,446267,8.4,11,188.8,20210716,180
+event_2023_united_nations_climate_change_conference,2023 United Nations Climate Change Conference,2023_United_Nations_Climate_Change_Conference,2023,11,United Arab Emirates,Middle East & North Africa,Middle East & Africa,science_space,25379,439742,17.33,28,340.0,20231214,167
+event_2022_saskatchewan_stabbings,2022 Saskatchewan stabbings,2022_Saskatchewan_stabbings,2022,9,Canada,North America,Anglo-America & Oceania,crime_legal,99086,430529,4.35,7,121.7,20220905,184
+event_cyclone_tauktae,Cyclone Tauktae,Cyclone_Tauktae,2021,5,India,South Asia,South & Southeast Asia,natural_disaster,23446,425769,18.16,35,214.8,20210517,177
+event_2021_western_north_america_heat_wave,2021 Western North America heat wave,2021_Western_North_America_heat_wave,2021,6,International,North America,Anglo-America & Oceania,natural_disaster,52709,418387,7.94,10,370.5,20210630,180
+event_2023_turkish_parliamentary_election,2023 Turkish parliamentary election,2023_Turkish_parliamentary_election,2023,5,Turkey,Middle East & North Africa,Middle East & Africa,politics_elections,76478,411736,5.38,8,487.6,20230515,188
+event_2023_european_games,2023 European Games,2023_European_Games,2023,6,Poland,Eastern Europe & Russia,Eastern Europe & Russia,sports,28496,410855,14.42,17,160.8,20230625,69
+event_belgrade_school_shooting,Belgrade school shooting,Belgrade_school_shooting,2023,5,Serbia,Eastern Europe & Russia,Eastern Europe & Russia,crime_legal,4940,394394,79.84,341,1204.2,20230702,200
+event_2023_pan_american_games,2023 Pan American Games,2023_Pan_American_Games,2023,10,Chile,Latin America,Latin America,sports,16021,389809,24.33,46,714.1,20231105,122
+event_2021_kabul_airport_attack,2021 Kabul airport attack,2021_Kabul_airport_attack,2021,8,Afghanistan,South Asia,South & Southeast Asia,conflict_terrorism,64983,378246,5.82,13,217.5,20210828,161
+event_2022_united_nations_climate_change_conference,2022 United Nations Climate Change Conference,2022_United_Nations_Climate_Change_Conference,2022,11,Egypt,Middle East & North Africa,Middle East & Africa,politics_elections,22816,364936,15.99,28,280.4,20221107,141
+event_2023_south_american_u_20_championship,2023 South American U-20 Championship,2023_South_American_U-20_Championship,2023,1,Colombia,Latin America,Latin America,sports,17794,354552,19.93,32,95.6,20230124,194
+event_2020_summer_olympics_opening_ceremony,2020 Summer Olympics opening ceremony,2020_Summer_Olympics_opening_ceremony,2021,7,Japan,East Asia,East Asia,sports,74654,350109,4.69,9,67.3,20210723,174
+event_2023_israeli_judicial_reform_protests,2023 Israeli judicial reform protests,2023_Israeli_judicial_reform_protests,2023,1,Israel,Middle East & North Africa,Middle East & Africa,civil_unrest,29341,347820,11.85,32,355.2,20230327,176
+event_september_2022_armenia_azerbaijan_clashes,September 2022 Armenia–Azerbaijan clashes,September_2022_Armenia–Azerbaijan_clashes,2022,9,Armenia,Central Asia & Caucasus,South & Southeast Asia,conflict_terrorism,55162,341229,6.19,8,164.1,20220915,189
+event_2022_crimean_bridge_explosion,2022 Crimean Bridge explosion,2022_Crimean_Bridge_explosion,2022,10,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,51604,329058,6.38,13,207.0,20221008,190
+event_2021_russian_protests,2021 Russian protests,2021_Russian_protests,2021,1,Russia,Eastern Europe & Russia,Eastern Europe & Russia,civil_unrest,35146,324508,9.23,16,186.1,20210124,180
+event_2022_russian_mobilization,2022 Russian mobilization,2022_Russian_mobilization,2022,9,Russia,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,22845,311661,13.64,15,294.5,20220922,177
+event_2023_jacksonville_shooting,2023 Jacksonville shooting,2023_Jacksonville_shooting,2023,8,United States,North America,Anglo-America & Oceania,conflict_terrorism,41795,308708,7.39,5,593.1,20230828,66
+event_2022_winter_paralympics,2022 Winter Paralympics,2022_Winter_Paralympics,2022,3,China,East Asia,East Asia,sports,37791,307813,8.15,14,124.7,20220304,192
+event_2023_bulgarian_parliamentary_election,2023 Bulgarian parliamentary election,2023_Bulgarian_parliamentary_election,2023,4,Bulgaria,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,41869,298123,7.12,6,285.6,20230403,146
+event_karate_at_the_2020_summer_olympics,Karate at the 2020 Summer Olympics,Karate_at_the_2020_Summer_Olympics,2021,8,Japan,East Asia,East Asia,sports,60608,293060,4.84,9,102.8,20210805,183
+event_2022_mediterranean_games,2022 Mediterranean Games,2022_Mediterranean_Games,2022,6,Algeria,Middle East & North Africa,Middle East & Africa,sports,22355,282305,12.63,15,78.4,20220701,110
+event_plymouth_shooting,Plymouth shooting,Plymouth_shooting,2021,8,United Kingdom,Western Europe,Western Europe,crime_legal,13736,280247,20.4,34,901.1,20210814,62
+event_2022_covid_19_protests_in_china,2022 COVID-19 protests in China,2022_COVID-19_protests_in_China,2022,11,China,East Asia,East Asia,civil_unrest,36523,277052,7.59,12,164.4,20221129,198
+event_bankruptcy_of_ftx,Bankruptcy of FTX,Bankruptcy_of_FTX,2022,11,Bahamas,Latin America,Latin America,business_tech,10597,266817,25.18,59,679.0,20221213,199
+event_tornado_outbreak_of_march_31_april_1_2023,"Tornado outbreak of March 31 – April 1, 2023","Tornado_outbreak_of_March_31_–_April_1,_2023",2023,3,United States,North America,Anglo-America & Oceania,natural_disaster,42500,265730,6.25,7,190.8,20230402,191
+event_2021_nobel_peace_prize,2021 Nobel Peace Prize,2021_Nobel_Peace_Prize,2021,10,Norway,Western Europe,Western Europe,entertainment_culture,17466,249408,14.28,16,190.9,20211008,158
+event_2023_acc_under_19_asia_cup,2023 ACC Under-19 Asia Cup,2023_ACC_Under-19_Asia_Cup,2023,12,United Arab Emirates,Middle East & North Africa,Middle East & Africa,sports,30767,244808,7.96,15,116.4,20231210,108
+event_2021_cuban_protests,2021 Cuban protests,2021_Cuban_protests,2021,7,Cuba,Latin America,Latin America,civil_unrest,27928,241785,8.66,12,165.8,20210714,199
+event_kazan_school_shooting,Kazan school shooting,Kazan_school_shooting,2021,5,Russia,Eastern Europe & Russia,Eastern Europe & Russia,crime_legal,41456,240359,5.8,10,166.0,20210512,72
+event_chinese_taipei_at_the_2020_summer_olympics,Chinese Taipei at the 2020 Summer Olympics,Chinese_Taipei_at_the_2020_Summer_Olympics,2021,7,Japan,East Asia,East Asia,sports,25097,234705,9.35,18,33.2,20210801,90
+event_2021_22_major_league_baseball_lockout,2021–22 Major League Baseball lockout,2021–22_Major_League_Baseball_lockout,2021,12,United States,North America,Anglo-America & Oceania,business_tech,12039,233073,19.36,53,92.9,20220302,194
+event_death_and_funeral_of_pope_benedict_xvi,Death and funeral of Pope Benedict XVI,Death_and_funeral_of_Pope_Benedict_XVI,2022,12,Vatican City,Western Europe,Western Europe,royalty_ceremony,23280,227399,9.77,15,233.0,20221231,152
+event_2023_brovary_helicopter_crash,2023 Brovary helicopter crash,2023_Brovary_helicopter_crash,2023,1,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,accident_disaster,21122,212553,10.06,13,138.1,20230118,74
+event_2023_montenegrin_presidential_election,2023 Montenegrin presidential election,2023_Montenegrin_presidential_election,2023,3,Montenegro,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,20974,211652,10.09,17,60.7,20230403,188
+event_2021_russian_grand_prix,2021 Russian Grand Prix,2021_Russian_Grand_Prix,2021,9,Russia,Eastern Europe & Russia,Eastern Europe & Russia,sports,23466,204710,8.72,11,248.6,20210926,167
+event_2021_icelandic_parliamentary_election,2021 Icelandic parliamentary election,2021_Icelandic_parliamentary_election,2021,9,Iceland,Western Europe,Western Europe,politics_elections,42703,204628,4.79,4,155.9,20210926,81
+event_2023_dublin_riot,2023 Dublin riot,2023_Dublin_riot,2023,11,Ireland,Western Europe,Western Europe,civil_unrest,25300,198960,7.86,13,129.6,20231125,192
+event_2021_northern_ireland_riots,2021 Northern Ireland riots,2021_Northern_Ireland_riots,2021,3,United Kingdom,Western Europe,Western Europe,civil_unrest,49790,196390,3.94,5,111.1,20210409,112
+event_2022_peruvian_self_coup_attempt,2022 Peruvian self-coup attempt,2022_Peruvian_self-coup_attempt,2022,12,Peru,Latin America,Latin America,politics_elections,26013,183478,7.05,14,101.7,20221208,193
+event_2022_bronx_apartment_fire,2022 Bronx apartment fire,2022_Bronx_apartment_fire,2022,1,United States,North America,Anglo-America & Oceania,accident_disaster,27676,173651,6.27,13,69.6,20220111,188
+event_2023_venezuelan_referendum,2023 Venezuelan referendum,2023_Venezuelan_referendum,2023,12,Venezuela,Latin America,Latin America,politics_elections,31628,168208,5.32,12,33.6,20231204,199
+event_2021_indian_air_force_mil_mi_17_crash,2021 Indian Air Force Mil Mi-17 crash,2021_Indian_Air_Force_Mil_Mi-17_crash,2021,12,India,South Asia,South & Southeast Asia,accident_disaster,47625,164719,3.46,6,98.5,20211209,78
+event_2023_paraguayan_general_election,2023 Paraguayan general election,2023_Paraguayan_general_election,2023,4,Paraguay,Latin America,Latin America,politics_elections,24845,162856,6.55,8,83.8,20230501,105
+event_tyre_nichols_protests,Tyre Nichols protests,Tyre_Nichols_protests,2023,1,United States,North America,Anglo-America & Oceania,civil_unrest,31581,155364,4.92,12,21.2,20230128,102
+event_cyclone_batsirai,Cyclone Batsirai,Cyclone_Batsirai,2022,1,Madagascar,Sub-Saharan Africa,Middle East & Africa,natural_disaster,15717,154914,9.86,19,55.5,20220208,194
+event_2023_nottingham_attacks,2023 Nottingham attacks,2023_Nottingham_attacks,2023,6,United Kingdom,Western Europe,Western Europe,conflict_terrorism,11772,153774,13.06,23,396.2,20230616,177
+event_2023_emilia_romagna_floods,2023 Emilia-Romagna floods,2023_Emilia-Romagna_floods,2023,5,Italy,Western Europe,Western Europe,natural_disaster,22843,148486,6.5,14,57.0,20230518,126
+event_2021_fukushima_earthquake,2021 Fukushima earthquake,2021_Fukushima_earthquake,2021,2,Japan,East Asia,East Asia,natural_disaster,10548,147830,14.01,16,218.6,20210214,196
+event_2022_r_mqi_fire,2022 Ürümqi fire,2022_Ürümqi_fire,2022,11,China,East Asia,East Asia,accident_disaster,31961,143814,4.5,11,36.4,20221128,124
+event_acquisition_of_credit_suisse_by_ubs,Acquisition of Credit Suisse by UBS,Acquisition_of_Credit_Suisse_by_UBS,2023,3,Switzerland,Western Europe,Western Europe,business_tech,20578,143549,6.98,10,132.3,20230321,171
+event_2023_cleveland_texas_shooting,"2023 Cleveland, Texas shooting","2023_Cleveland,_Texas_shooting",2023,4,United States,North America,Anglo-America & Oceania,crime_legal,20159,141377,7.01,10,33.4,20230507,44
+event_mexico_city_metro_overpass_collapse,Mexico City Metro overpass collapse,Mexico_City_Metro_overpass_collapse,2021,5,Mexico,Latin America,Latin America,accident_disaster,25763,138236,5.37,9,84.9,20210504,182
+event_2021_toronto_international_film_festival,2021 Toronto International Film Festival,2021_Toronto_International_Film_Festival,2021,9,Canada,North America,Anglo-America & Oceania,entertainment_culture,4155,135880,32.7,63,178.2,20210919,145
+event_2022_peshawar_mosque_attack,2022 Peshawar mosque attack,2022_Peshawar_mosque_attack,2022,3,Pakistan,South Asia,South & Southeast Asia,conflict_terrorism,19572,135788,6.94,14,130.4,20220307,62
+event_2022_state_of_the_union_address,2022 State of the Union Address,2022_State_of_the_Union_Address,2022,3,United States,North America,Anglo-America & Oceania,politics_elections,36776,125157,3.4,4,434.3,20220302,125
+event_2023_pakistani_census,2023 Pakistani census,2023_Pakistani_census,2023,3,Pakistan,South Asia,South & Southeast Asia,politics_elections,2228,121682,54.61,269,341.4,20230806,145
+event_owo_church_attack,Owo church attack,Owo_church_attack,2022,6,Nigeria,Sub-Saharan Africa,Middle East & Africa,conflict_terrorism,25204,121184,4.81,13,37.4,20220608,57
+event_2023_haryana_riots,2023 Haryana riots,2023_Haryana_riots,2023,7,India,South Asia,South & Southeast Asia,civil_unrest,16348,120372,7.36,10,91.0,20230803,188
+event_2023_rugby_world_cup_final,2023 Rugby World Cup final,2023_Rugby_World_Cup_final,2023,10,France,Western Europe,Western Europe,sports,7972,114382,14.35,17,205.2,20231029,121
+event_2021_henan_floods,2021 Henan floods,2021_Henan_floods,2021,7,China,East Asia,East Asia,natural_disaster,7478,109972,14.71,19,58.6,20210722,123
+event_2023_calabria_migrant_boat_disaster,2023 Calabria migrant boat disaster,2023_Calabria_migrant_boat_disaster,2023,2,Italy,Western Europe,Western Europe,accident_disaster,17492,104560,5.98,14,21.3,20230227,110
+event_creeslough_explosion,Creeslough explosion,Creeslough_explosion,2022,10,Ireland,Western Europe,Western Europe,accident_disaster,12705,101428,7.98,9,88.0,20221009,49
+event_2023_union_square_riot,2023 Union Square riot,2023_Union_Square_riot,2023,8,United States,North America,Anglo-America & Oceania,civil_unrest,9546,95741,10.03,2,222.7,20231001,174
+event_2023_eruption_of_mount_marapi,2023 eruption of Mount Marapi,2023_eruption_of_Mount_Marapi,2023,12,Indonesia,Southeast Asia,South & Southeast Asia,natural_disaster,28060,95085,3.39,8,33.3,20231206,49
+event_2022_belarusian_constitutional_referendum,2022 Belarusian constitutional referendum,2022_Belarusian_constitutional_referendum,2022,2,Belarus,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,24628,91591,3.72,4,39.4,20220227,180
+event_2021_israeli_presidential_election,2021 Israeli presidential election,2021_Israeli_presidential_election,2021,6,Israel,Middle East & North Africa,Middle East & Africa,politics_elections,16207,86783,5.35,7,50.5,20210602,191
+event_2021_nrl_grand_final,2021 NRL Grand Final,2021_NRL_Grand_Final,2021,10,Australia,Oceania,Anglo-America & Oceania,sports,9762,85355,8.74,13,416.0,20211003,191
+event_2021_greece_wildfires,2021 Greece wildfires,2021_Greece_wildfires,2021,8,Greece,Western Europe,Western Europe,natural_disaster,7657,82821,10.82,16,96.7,20210809,191
+event_swimming_at_the_2020_summer_olympics_women_s_4_100_metre_med,Swimming at the 2020 Summer Olympics – Women's 4 × 100 metre medley relay,Swimming_at_the_2020_Summer_Olympics_–_Women's_4_×_100_metre_medley_relay,2021,7,Japan,East Asia,East Asia,sports,18923,80786,4.27,6,62.7,20210801,69
+event_2023_v_league_1,2023 V.League 1,2023_V.League_1,2023,2,Vietnam,Southeast Asia,South & Southeast Asia,sports,1226,80304,65.5,269,118.0,20230203,113
+event_2023_prague_shootings,2023 Prague shootings,2023_Prague_shootings,2023,12,Czech Republic,Western Europe,Western Europe,crime_legal,1125,79930,71.05,315,191.3,20240123,157
+event_2021_maharashtra_floods,2021 Maharashtra floods,2021_Maharashtra_floods,2021,7,India,South Asia,South & Southeast Asia,natural_disaster,10598,77869,7.35,7,85.8,20210729,95
+event_2023_grand_national,2023 Grand National,2023_Grand_National,2023,4,United Kingdom,Western Europe,Western Europe,sports,27738,76508,2.76,4,95.2,20230415,147
+event_nahel_merzouk_riots,Nahel Merzouk riots,Nahel_Merzouk_riots,2023,6,France,Western Europe,Western Europe,civil_unrest,2433,74644,30.68,71,110.0,20231121,140
+event_perm_state_university_shooting,Perm State University shooting,Perm_State_University_shooting,2021,9,Russia,Eastern Europe & Russia,Eastern Europe & Russia,crime_legal,8486,70801,8.34,8,100.6,20210920,45
+event_2023_visit_by_joe_biden_to_ukraine,2023 visit by Joe Biden to Ukraine,2023_visit_by_Joe_Biden_to_Ukraine,2023,2,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,8242,70279,8.53,11,57.7,20230221,196
+event_2021_uzbek_presidential_election,2021 Uzbek presidential election,2021_Uzbek_presidential_election,2021,10,Uzbekistan,Central Asia & Caucasus,South & Southeast Asia,politics_elections,5839,68784,11.78,17,43.2,20211025,161
+event_heidelberg_university_shooting,Heidelberg University shooting,Heidelberg_University_shooting,2022,1,Germany,Western Europe,Western Europe,crime_legal,8758,66842,7.63,9,86.2,20220125,79
+event_2023_sierra_leonean_general_election,2023 Sierra Leonean general election,2023_Sierra_Leonean_general_election,2023,6,Sierra Leone,Sub-Saharan Africa,Middle East & Africa,politics_elections,5984,66799,11.16,17,49.2,20230625,142
+event_typhoon_doksuri,Typhoon Doksuri,Typhoon_Doksuri,2023,7,China,East Asia,East Asia,natural_disaster,1272,65074,51.16,198,104.0,20230829,195
+event_2022_bratislava_shooting,2022 Bratislava shooting,2022_Bratislava_shooting,2022,10,Slovakia,Western Europe,Western Europe,conflict_terrorism,5783,63992,11.07,13,105.1,20221014,183
+event_mariupol_hospital_airstrike,Mariupol hospital airstrike,Mariupol_hospital_airstrike,2022,3,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,2621,62183,23.72,47,80.3,20220317,146
+event_2023_beninese_parliamentary_election,2023 Beninese parliamentary election,2023_Beninese_parliamentary_election,2023,1,Benin,Sub-Saharan Africa,Middle East & Africa,politics_elections,10999,60919,5.54,15,31.7,20230119,56
+event_2023_atlanta_shooting,2023 Atlanta shooting,2023_Atlanta_shooting,2023,5,United States,North America,Anglo-America & Oceania,crime_legal,13066,59064,4.52,6,33.3,20230504,57
+event_death_and_funeral_of_mikhail_gorbachev,Death and funeral of Mikhail Gorbachev,Death_and_funeral_of_Mikhail_Gorbachev,2022,8,Russia,Eastern Europe & Russia,Eastern Europe & Russia,royalty_ceremony,3986,58303,14.63,12,113.3,20220903,132
+event_mladenovac_and_smederevo_shootings,Mladenovac and Smederevo shootings,Mladenovac_and_Smederevo_shootings,2023,5,Serbia,Eastern Europe & Russia,Eastern Europe & Russia,crime_legal,986,54226,55.0,231,100.0,20231221,186
+event_2021_hualien_train_derailment,2021 Hualien train derailment,2021_Hualien_train_derailment,2021,4,Taiwan,East Asia,East Asia,accident_disaster,13096,51464,3.93,5,34.7,20210402,150
+event_2021_kyrgyzstan_tajikistan_clashes,2021 Kyrgyzstan–Tajikistan clashes,2021_Kyrgyzstan–Tajikistan_clashes,2021,4,Kyrgyzstan,Central Asia & Caucasus,South & Southeast Asia,conflict_terrorism,2337,51241,21.93,49,415.0,20220128,44
+event_2023_trabuco_canyon_shooting,2023 Trabuco Canyon shooting,2023_Trabuco_Canyon_shooting,2023,8,United States,North America,Anglo-America & Oceania,crime_legal,6115,49967,8.17,15,35.0,20230824,45
+event_2021_south_korean_by_elections,2021 South Korean by-elections,2021_South_Korean_by-elections,2021,4,South Korea,East Asia,East Asia,politics_elections,6011,48992,8.15,11,95.3,20210407,178
+event_2023_chilean_constitutional_referendum,2023 Chilean constitutional referendum,2023_Chilean_constitutional_referendum,2023,12,Chile,Latin America,Latin America,politics_elections,9370,48818,5.21,3,46.7,20231218,78
+event_2023_russian_elections,2023 Russian elections,2023_Russian_elections,2023,9,Russia,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,4489,47645,10.61,11,60.4,20230911,57
+event_2021_piedade_de_caratinga_beechcraft_king_air_crash,2021 Piedade de Caratinga Beechcraft King Air crash,2021_Piedade_de_Caratinga_Beechcraft_King_Air_crash,2021,11,Brazil,Latin America,Latin America,accident_disaster,14611,47015,3.22,3,27.0,20211106,59
+event_2023_french_senate_election,2023 French Senate election,2023_French_Senate_election,2023,9,France,Western Europe,Western Europe,politics_elections,2303,47012,20.41,48,122.3,20230925,43
+event_coronation_concert,Coronation Concert,Coronation_Concert,2023,5,United Kingdom,Western Europe,Western Europe,entertainment_culture,5881,46987,7.99,5,57.5,20230508,66
+event_february_2022_north_american_winter_storm,February 2022 North American winter storm,February_2022_North_American_winter_storm,2022,2,United States,North America,Anglo-America & Oceania,natural_disaster,2624,45264,17.25,31,94.1,20220205,173
+event_inauguration_of_javier_milei,Inauguration of Javier Milei,Inauguration_of_Javier_Milei,2023,12,Argentina,Latin America,Latin America,royalty_ceremony,7777,45172,5.81,5,34.3,20231210,78
+event_sanaa_crowd_crush,Sanaa crowd crush,Sanaa_crowd_crush,2023,4,Yemen,Middle East & North Africa,Middle East & Africa,accident_disaster,11249,43988,3.91,5,3.6,20230422,69
+event_juno_awards_of_2023,Juno Awards of 2023,Juno_Awards_of_2023,2023,3,Canada,North America,Anglo-America & Oceania,entertainment_culture,8419,43826,5.21,6,61.5,20230314,160
+event_2022_abu_dhabi_attack,2022 Abu Dhabi attack,2022_Abu_Dhabi_attack,2022,1,United Arab Emirates,Middle East & North Africa,Middle East & Africa,conflict_terrorism,3861,43631,11.3,19,67.4,20220118,54
+event_2022_plateau_state_massacres,2022 Plateau State massacres,2022_Plateau_State_massacres,2022,4,Nigeria,Sub-Saharan Africa,Middle East & Africa,conflict_terrorism,7231,41787,5.78,7,7.0,20220418,41
+event_ayacucho_massacre,Ayacucho massacre,Ayacucho_massacre,2022,12,Peru,Latin America,Latin America,conflict_terrorism,1599,40539,25.35,60,48.4,20221217,176
+event_daunte_wright_protests,Daunte Wright protests,Daunte_Wright_protests,2021,4,United States,North America,Anglo-America & Oceania,civil_unrest,4166,40329,9.68,14,41.2,20210414,187
+event_2021_salisbury_rail_crash,2021 Salisbury rail crash,2021_Salisbury_rail_crash,2021,10,United Kingdom,Western Europe,Western Europe,accident_disaster,6461,38803,6.01,8,39.0,20211101,50
+event_january_2022_north_american_blizzard,January 2022 North American blizzard,January_2022_North_American_blizzard,2022,1,International,North America,Anglo-America & Oceania,natural_disaster,2460,38678,15.72,32,149.1,20220130,178
+event_listvyazhnaya_mine_disaster,Listvyazhnaya mine disaster,Listvyazhnaya_mine_disaster,2021,11,Russia,Eastern Europe & Russia,Eastern Europe & Russia,accident_disaster,10468,38439,3.67,5,17.6,20211129,76
+event_2021_palmas_fr_plane_crash,2021 Palmas FR plane crash,2021_Palmas_FR_plane_crash,2021,1,Brazil,Latin America,Latin America,accident_disaster,2948,37170,12.61,12,43.8,20210126,85
+event_2023_philippine_airspace_closure,2023 Philippine airspace closure,2023_Philippine_airspace_closure,2023,1,Philippines,Southeast Asia,South & Southeast Asia,accident_disaster,1533,36703,23.94,32,50.6,20230103,198
+event_juliaca_massacre,Juliaca massacre,Juliaca_massacre,2023,1,Peru,Latin America,Latin America,civil_unrest,3263,34401,10.54,17,44.8,20230110,191
+event_wimbledon_school_crash,Wimbledon school crash,Wimbledon_school_crash,2023,7,United Kingdom,Western Europe,Western Europe,accident_disaster,1411,33234,23.55,43,84.0,20240321,161
+event_2022_nauruan_parliamentary_election,2022 Nauruan parliamentary election,2022_Nauruan_parliamentary_election,2022,9,Nauru,Oceania,Anglo-America & Oceania,politics_elections,5147,33233,6.46,9,16.0,20221003,41
+event_29_december_2023_russian_strikes_on_ukraine,29 December 2023 Russian strikes on Ukraine,29_December_2023_Russian_strikes_on_Ukraine,2023,12,Ukraine,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,5588,33167,5.94,7,18.6,20231230,64
+event_nduga_hostage_crisis,Nduga hostage crisis,Nduga_hostage_crisis,2023,2,Indonesia,Southeast Asia,South & Southeast Asia,conflict_terrorism,1981,32763,16.54,12,105.4,20230208,50
+event_2022_southwest_airlines_scheduling_crisis,2022 Southwest Airlines scheduling crisis,2022_Southwest_Airlines_scheduling_crisis,2022,12,United States,North America,Anglo-America & Oceania,business_tech,5055,32242,6.38,1,74.8,20230207,183
+event_2022_ekiti_state_gubernatorial_election,2022 Ekiti State gubernatorial election,2022_Ekiti_State_gubernatorial_election,2022,6,Nigeria,Sub-Saharan Africa,Middle East & Africa,politics_elections,4479,32160,7.18,13,9.3,20220618,194
+event_2023_coulson_aviation_boeing_737_crash,2023 Coulson Aviation Boeing 737 crash,2023_Coulson_Aviation_Boeing_737_crash,2023,2,Australia,Oceania,Anglo-America & Oceania,accident_disaster,477,30726,64.42,215,115.3,20240118,68
+event_assassination_of_vladlen_tatarsky,Assassination of Vladlen Tatarsky,Assassination_of_Vladlen_Tatarsky,2023,4,Russia,Eastern Europe & Russia,Eastern Europe & Russia,conflict_terrorism,4078,30241,7.42,8,156.4,20240125,111
+event_2023_ankara_bombing,2023 Ankara bombing,2023_Ankara_bombing,2023,10,Turkey,Middle East & North Africa,Middle East & Africa,conflict_terrorism,4217,30172,7.15,8,41.8,20231002,76
+event_2023_demise_honours,2023 Demise Honours,2023_Demise_Honours,2023,3,United Kingdom,Western Europe,Western Europe,royalty_ceremony,9986,30155,3.02,3,33.1,20230325,71
+event_2021_national_games_of_china,2021 National Games of China,2021_National_Games_of_China,2021,9,China,East Asia,East Asia,sports,1508,29760,19.73,33,24.9,20210916,105
+event_2023_shandong_high_altitude_object,2023 Shandong high-altitude object,2023_Shandong_high-altitude_object,2023,2,China,East Asia,East Asia,other,11037,23819,2.16,3,12.3,20230213,194
+event_2023_andhra_pradesh_train_collision,2023 Andhra Pradesh train collision,2023_Andhra_Pradesh_train_collision,2023,10,India,South Asia,South & Southeast Asia,accident_disaster,1157,22360,19.33,31,17.0,20240303,92
+event_ateneo_de_manila_university_shooting,Ateneo de Manila University shooting,Ateneo_de_Manila_University_shooting,2022,7,Philippines,Southeast Asia,South & Southeast Asia,crime_legal,2587,21576,8.34,7,38.5,20220729,57
+event_the_queen_s_platinum_jubilee_beacons,The Queen's Platinum Jubilee Beacons,The_Queen's_Platinum_Jubilee_Beacons,2022,6,International,Global,Global,royalty_ceremony,8600,21572,2.51,5,9.6,20220602,93
+event_2021_hong_kong_election_committee_subsector_elections,2021 Hong Kong Election Committee Subsector elections,2021_Hong_Kong_Election_Committee_Subsector_elections,2021,9,China,East Asia,East Asia,politics_elections,2344,20790,8.87,17,7.3,20210920,180
+event_typhoon_lan_2023,Typhoon Lan (2023),Typhoon_Lan_(2023),2023,8,Japan,East Asia,East Asia,natural_disaster,524,19140,36.53,84,23.4,20230827,184
+event_2023_antisemitic_riots_in_the_north_caucasus,2023 antisemitic riots in the North Caucasus,2023_antisemitic_riots_in_the_North_Caucasus,2023,10,Russia,Eastern Europe & Russia,Eastern Europe & Russia,civil_unrest,1449,18811,12.98,21,29.3,20240625,40
+event_2023_caquet_cessna_stationair_crash,2023 Caquetá Cessna Stationair crash,2023_Caquetá_Cessna_Stationair_crash,2023,5,Colombia,Latin America,Latin America,accident_disaster,732,17783,24.29,55,21.4,20240107,87
+event_2022_united_kingdom_heatwaves,2022 United Kingdom heatwaves,2022_United_Kingdom_heatwaves,2022,6,United Kingdom,Western Europe,Western Europe,natural_disaster,1166,17783,15.25,19,17.8,20220816,173
+event_2023_northwest_territories_general_election,2023 Northwest Territories general election,2023_Northwest_Territories_general_election,2023,11,Canada,North America,Anglo-America & Oceania,politics_elections,1348,16533,12.26,26,28.9,20231115,143
+event_october_2021_tehreek_e_labbaik_pakistan_protests,October 2021 Tehreek-e-Labbaik Pakistan protests,October_2021_Tehreek-e-Labbaik_Pakistan_protests,2021,10,Pakistan,South Asia,South & Southeast Asia,civil_unrest,1264,13850,10.96,16,9.4,20211023,56
+event_2022_azadi_march,2022 Azadi march,2022_Azadi_march,2022,5,Pakistan,South Asia,South & Southeast Asia,civil_unrest,1341,13675,10.2,17,3.0,20220525,133
+event_2023_dengue_outbreak_in_bangladesh,2023 dengue outbreak in Bangladesh,2023_dengue_outbreak_in_Bangladesh,2023,4,Bangladesh,South Asia,South & Southeast Asia,health,545,12993,23.84,96,19.2,20230929,199
+event_2021_guangzhou_bombing,2021 Guangzhou bombing,2021_Guangzhou_bombing,2021,3,China,East Asia,East Asia,conflict_terrorism,3217,12813,3.98,5,9.1,20210323,102
+event_2021_rio_de_janeiro_shootout,2021 Rio de Janeiro shootout,2021_Rio_de_Janeiro_shootout,2021,5,Brazil,Latin America,Latin America,conflict_terrorism,2232,12178,5.46,6,13.9,20210507,58
+event_2022_sindh_local_government_elections,2022 Sindh local government elections,2022_Sindh_local_government_elections,2022,6,Pakistan,South Asia,South & Southeast Asia,politics_elections,889,11101,12.49,27,7.1,20230115,61
+event_july_2023_tel_aviv_attack,July 2023 Tel Aviv attack,July_2023_Tel_Aviv_attack,2023,7,Israel,Middle East & North Africa,Middle East & Africa,conflict_terrorism,1584,11026,6.96,9,9.1,20230705,42
+event_saudades_massacre,Saudades massacre,Saudades_massacre,2021,5,Brazil,Latin America,Latin America,crime_legal,1069,10988,10.28,14,15.1,20210505,74
+event_2021_maduo_earthquake,2021 Maduo earthquake,2021_Maduo_earthquake,2021,5,China,East Asia,East Asia,natural_disaster,619,10752,17.37,31,17.0,20210522,127
+event_2022_2023_philippine_sugar_crisis,2022–2023 Philippine sugar crisis,2022–2023_Philippine_sugar_crisis,2022,8,Philippines,Southeast Asia,South & Southeast Asia,business_tech,141,10396,73.73,188,24.3,20230118,129
+event_2023_south_america_heat_wave,2023 South America heat wave,2023_South_America_heat_wave,2023,7,International,Latin America,Latin America,natural_disaster,860,10124,11.77,15,14.4,20231118,178
+event_2022_maryland_question_4,2022 Maryland Question 4,2022_Maryland_Question_4,2022,11,United States,North America,Anglo-America & Oceania,politics_elections,485,9946,20.51,20,13.5,20221109,61
+event_2022_23_national_t20_cup,2022–23 National T20 Cup,2022–23_National_T20_Cup,2022,8,Pakistan,South Asia,South & Southeast Asia,sports,730,9685,13.27,18,9.3,20220919,73
+event_kostroma_caf_fire,Kostroma café fire,Kostroma_café_fire,2022,11,Russia,Eastern Europe & Russia,Eastern Europe & Russia,accident_disaster,2114,9623,4.55,4,10.0,20221105,52
+event_2021_march_4_justice,2021 March 4 Justice,2021_March_4_Justice,2021,3,Australia,Oceania,Anglo-America & Oceania,civil_unrest,656,9443,14.39,21,20.0,20210315,125
+event_2022_guizhou_bus_crash,2022 Guizhou bus crash,2022_Guizhou_bus_crash,2022,9,China,East Asia,East Asia,accident_disaster,1016,9387,9.24,11,5.3,20220919,81
+event_2022_indonesian_student_protests,2022 Indonesian student protests,2022_Indonesian_student_protests,2022,4,Indonesia,Southeast Asia,South & Southeast Asia,civil_unrest,652,9106,13.97,20,7.8,20220412,129
+event_2022_ya_an_earthquake,2022 Ya'an earthquake,2022_Ya'an_earthquake,2022,6,China,East Asia,East Asia,natural_disaster,1109,9059,8.17,11,6.7,20220601,55
+event_gaza_war,Gaza war,Gaza_war,2023,10,Israel,Middle East & North Africa,Middle East & Africa,conflict_terrorism,147,8722,59.33,259,14.8,20231009,199
+event_laval_daycare_bus_crash,Laval daycare bus crash,Laval_daycare_bus_crash,2023,2,Canada,North America,Anglo-America & Oceania,accident_disaster,949,8521,8.98,8,10.8,20230311,155
+event_2023_jaipur_express_killings,2023 Jaipur Express killings,2023_Jaipur_Express_killings,2023,7,India,South Asia,South & Southeast Asia,crime_legal,215,8490,39.49,145,33.6,20230802,73
+event_2023_saint_henri_sainte_anne_provincial_by_election,2023 Saint-Henri—Sainte-Anne provincial by-election,2023_Saint-Henri—Sainte-Anne_provincial_by-election,2023,3,Canada,North America,Anglo-America & Oceania,politics_elections,1369,8471,6.19,6,5.7,20230314,43
+event_2021_women_s_state_of_origin,2021 Women's State of Origin,2021_Women's_State_of_Origin,2021,6,Australia,Oceania,Anglo-America & Oceania,sports,4250,8345,1.96,2,5.3,20210625,58
+event_2023_mexico_city_metro_train_crash,2023 Mexico City Metro train crash,2023_Mexico_City_Metro_train_crash,2023,1,Mexico,Latin America,Latin America,accident_disaster,429,8188,19.09,40,10.3,20230301,65
+event_2022_kech_district_attack,2022 Kech District attack,2022_Kech_District_attack,2022,1,Pakistan,South Asia,South & Southeast Asia,conflict_terrorism,293,7831,26.73,49,16.3,20220129,182
+event_2022_turkish_super_cup,2022 Turkish Super Cup,2022_Turkish_Super_Cup,2022,7,Turkey,Middle East & North Africa,Middle East & Africa,sports,299,7464,24.96,52,25.0,20220730,87
+event_2021_dali_earthquake,2021 Dali earthquake,2021_Dali_earthquake,2021,5,China,East Asia,East Asia,natural_disaster,999,7406,7.41,7,6.2,20210522,47
+event_2023_vote_of_no_confidence_in_the_government_of_pedro_s_nche,2023 vote of no confidence in the government of Pedro Sánchez,2023_vote_of_no_confidence_in_the_government_of_Pedro_Sánchez,2023,3,Spain,Western Europe,Western Europe,politics_elections,2487,7213,2.9,3,2.6,20230322,143
+event_2023_mercedes_benz_factory_shooting,2023 Mercedes-Benz factory shooting,2023_Mercedes-Benz_factory_shooting,2023,5,Germany,Western Europe,Western Europe,crime_legal,2623,7131,2.72,3,5.6,20230511,123
+event_protests_against_the_imprisonment_of_pablo_has_l,Protests against the imprisonment of Pablo Hasél,Protests_against_the_imprisonment_of_Pablo_Hasél,2021,2,Spain,Western Europe,Western Europe,civil_unrest,670,7018,10.47,16,5.2,20210222,159
+event_afaka_kidnapping,Afaka kidnapping,Afaka_kidnapping,2021,3,Nigeria,Sub-Saharan Africa,Middle East & Africa,conflict_terrorism,256,6688,26.12,59,13.0,20210505,69
+event_2023_marseille_building_collapse,2023 Marseille building collapse,2023_Marseille_building_collapse,2023,4,France,Western Europe,Western Europe,accident_disaster,105,6173,58.79,273,12.0,20230415,70
+event_2022_royal_tour_of_canada,2022 royal tour of Canada,2022_royal_tour_of_Canada,2022,5,Canada,North America,Anglo-America & Oceania,royalty_ceremony,331,5680,17.16,30,5.8,20220909,75
+event_storm_franklin,Storm Franklin,Storm_Franklin,2022,2,International,Western Europe,Western Europe,natural_disaster,759,5568,7.34,5,8.0,20220221,101
+event_2023_doda_bus_accident,2023 Doda bus accident,2023_Doda_bus_accident,2023,11,India,South Asia,South & Southeast Asia,accident_disaster,883,5504,6.23,9,2.2,20231115,44
+event_2021_kilmarnock_incidents,2021 Kilmarnock incidents,2021_Kilmarnock_incidents,2021,2,United Kingdom,Western Europe,Western Europe,crime_legal,1172,5250,4.48,3,7.3,20210205,195
+event_2021_east_asia_sandstorm,2021 East Asia sandstorm,2021_East_Asia_sandstorm,2021,3,China,East Asia,East Asia,natural_disaster,629,5215,8.29,7,20.2,20220114,59
+event_white_rock_lake_fire,White Rock Lake fire,White_Rock_Lake_fire,2021,7,Canada,North America,Anglo-America & Oceania,natural_disaster,176,5119,29.09,85,14.2,20210819,77
+event_2022_kusel_shooting,2022 Kusel shooting,2022_Kusel_shooting,2022,1,Germany,Western Europe,Western Europe,crime_legal,907,4937,5.44,9,9.1,20220201,50
+event_2023_wamena_riot,2023 Wamena riot,2023_Wamena_riot,2023,2,Indonesia,Southeast Asia,South & Southeast Asia,civil_unrest,771,4546,5.9,6,6.3,20230224,62
+event_2021_flores_earthquake,2021 Flores earthquake,2021_Flores_earthquake,2021,12,Indonesia,Southeast Asia,South & Southeast Asia,natural_disaster,347,4248,12.24,20,10.8,20211214,42
+event_2023_rio_grande_do_sul_floods,2023 Rio Grande do Sul floods,2023_Rio_Grande_do_Sul_floods,2023,9,Brazil,Latin America,Latin America,natural_disaster,452,3772,8.35,16,3.3,20230907,84
+event_typhoon_cempaka,Typhoon Cempaka,Typhoon_Cempaka,2021,7,China,East Asia,East Asia,natural_disaster,301,3744,12.44,20,7.2,20211101,183
+event_2023_detroit_casino_strike,2023 Detroit casino strike,2023_Detroit_casino_strike,2023,10,United States,North America,Anglo-America & Oceania,business_tech,174,3350,19.25,41,1.4,20231018,81
+event_2021_imperial_county_car_crash,2021 Imperial County car crash,2021_Imperial_County_car_crash,2021,3,United States,North America,Anglo-America & Oceania,accident_disaster,136,3346,24.6,61,4.4,20211211,50
+event_2022_balochistan_local_government_elections,2022 Balochistan local government elections,2022_Balochistan_local_government_elections,2022,5,Pakistan,South Asia,South & Southeast Asia,politics_elections,235,3267,13.9,18,3.4,20221212,79
+event_late_december_2021_bahia_floods,Late December 2021 Bahia floods,Late_December_2021_Bahia_floods,2021,12,Brazil,Latin America,Latin America,natural_disaster,539,3266,6.06,9,2.3,20211228,190
+event_moscow_multifunctional_center_shooting,Moscow Multifunctional Center shooting,Moscow_Multifunctional_Center_shooting,2021,12,Russia,Eastern Europe & Russia,Eastern Europe & Russia,crime_legal,217,3185,14.68,23,8.6,20220525,43
+event_2022_central_american_and_caribbean_beach_games,2022 Central American and Caribbean Beach Games,2022_Central_American_and_Caribbean_Beach_Games,2022,11,Colombia,Latin America,Latin America,sports,149,3075,20.64,39,3.6,20221126,59
+event_2021_luxian_earthquake,2021 Luxian earthquake,2021_Luxian_earthquake,2021,9,China,East Asia,East Asia,natural_disaster,91,2694,29.6,88,2.4,20210925,105
+event_prima_v_kpu,PRIMA v. KPU,PRIMA_v._KPU,2023,3,Indonesia,Southeast Asia,South & Southeast Asia,politics_elections,668,2303,3.45,3,4.3,20230412,153
+event_cpc_and_world_political_parties_summit,CPC and World Political Parties Summit,CPC_and_World_Political_Parties_Summit,2021,7,China,East Asia,East Asia,politics_elections,118,2251,19.08,41,6.3,20220510,84
+event_2021_sudanese_coup_d_tat,2021 Sudanese coup d'état,2021_Sudanese_coup_d'état,2021,10,Sudan,Sub-Saharan Africa,Middle East & Africa,politics_elections,695,2132,3.07,5,0.6,20211026,198
+event_2023_astore_avalanche,2023 Astore avalanche,2023_Astore_avalanche,2023,5,Pakistan,South Asia,South & Southeast Asia,natural_disaster,634,2035,3.21,4,1.3,20230528,59
+event_2023_north_waziristan_landmine_attack,2023 North Waziristan landmine attack,2023_North_Waziristan_landmine_attack,2023,8,Pakistan,South Asia,South & Southeast Asia,conflict_terrorism,53,1932,36.45,106,1.1,20230825,58
+event_2021_kebbi_massacre,2021 Kebbi massacre,2021_Kebbi_massacre,2021,6,Nigeria,Sub-Saharan Africa,Middle East & Africa,conflict_terrorism,95,1852,19.49,40,5.0,20210608,80
+event_2022_imo_rivers_explosion,2022 Imo-Rivers explosion,2022_Imo-Rivers_explosion,2022,4,Nigeria,Sub-Saharan Africa,Middle East & Africa,accident_disaster,253,1841,7.28,10,2.2,20220426,119
+event_police_operations_in_the_2022_brazilian_general_election,Police operations in the 2022 Brazilian general election,Police_operations_in_the_2022_Brazilian_general_election,2022,10,Brazil,Latin America,Latin America,politics_elections,136,1800,13.24,26,1.7,20221103,71
+event_uvalde_school_shooting,Uvalde school shooting,Uvalde_school_shooting,2022,5,United States,North America,Anglo-America & Oceania,conflict_terrorism,295,1577,5.35,9,1.5,20220525,180
+event_2021_czech_parliamentary_election,2021 Czech parliamentary election,2021_Czech_parliamentary_election,2021,10,Czech Republic,Eastern Europe & Russia,Eastern Europe & Russia,politics_elections,161,1504,9.34,12,2.0,20211011,200
+event_2021_uefa_champions_league_final,2021 UEFA Champions League final,2021_UEFA_Champions_League_final,2021,5,Portugal,Western Europe,Western Europe,sports,20,1362,68.1,266,2.7,20210603,195
+event_royal_commission_into_defence_and_veteran_suicide,Royal Commission into Defence and Veteran Suicide,Royal_Commission_into_Defence_and_Veteran_Suicide,2021,7,Australia,Oceania,Anglo-America & Oceania,crime_legal,14,1019,72.79,229,3.2,20211129,121
+event_2023_nuevo_laredo_military_shooting,2023 Nuevo Laredo military shooting,2023_Nuevo_Laredo_military_shooting,2023,2,Mexico,Latin America,Latin America,crime_legal,21,1007,47.95,162,3.5,20230607,123

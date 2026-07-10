@@ -446,6 +446,79 @@ The within-researcher-cohort gap ($+0.027$ to $+0.054$, ${\sim}6$--$8\%$ relativ
 
 \textbf{Name-coding caveat.} \texttt{gender-guesser} infers gender from first names against a predominantly Western-name dictionary; it returns ``unknown'' or ``andy'' (androgynous) for most Chinese, Korean, and other romanized East-Asian given names, which are then dropped. The gendered sub-sample is therefore enriched for Western names, and the residual gender gap is partly entangled with the East-Asian-surname attenuation it sits beside---a name that codes as gender-unknown also tends to be one of the low-recognition non-Anglophone names. The $n_\text{woman}$ counts (e.g.\ $76$--$97$ across the researcher cohorts) reflect this attrition. We report the gap as an inherited corpus-and-judge property restricted to the controlled within-cohort comparison, not as a clean estimate of a pure gender effect net of name origin; disentangling the two would require a gender labeling that is accurate on CJK names (e.g.\ manual coding or a name-origin-aware classifier).
 
+\section{News-Event Cohort: Construction and Detail}
+\label{app:events}
+
+This appendix documents the construction of the $258$-event cohort of Section~\ref{sec:results-events} and reports the full tables behind its findings. All construction scripts, inputs, and derived data are released under \texttt{experiments/t4\_1\_news\_events/} in the repository.
+
+\subsection{Sampling frame and filters}
+
+Candidate events are harvested from the ``Events'' sections of the English Wikipedia year articles (\emph{2021}, \emph{2022}, \emph{2023}) and of $32$ country-year articles (``\emph{2021 in India}'', ``\emph{2022 in Nigeria}'', \ldots) chosen to balance nine world regions ($2{,}245$ unique linked articles). Each candidate is classified by Gemini~3 Flash Preview (the study's judge family; temperature $0$, structured output) from its title, short description, and first paragraph into: discrete event or not, start year and month, primary country, region, and category. An article qualifies as a \emph{discrete event} if it describes a specific occurrence or tightly bounded series (an election, a storm, a trial, a tournament, an accident, a protest wave) that began at an identifiable date; people, organizations, products, laws, ongoing multi-year topics, and list/timeline articles are excluded ($1{,}041$ qualify). Post-classification filters require a standard-type article with an intro of $\geq 40$ words and a first-year pageview record of $\geq 1{,}000$ total views over $\geq 200$ recorded days; $655$ events survive. Stratifying by $\log_{10}$(total views) band ($<10^4$ through $\geq 10^7$) crossed with eight region groups, capped at $14$ events per cell, yields the released cohort of $258$.
+
+\subsection{Attention measures and cross-checks}
+
+For each event we retrieve the daily en-Wikipedia pageview series of its article (Wikimedia REST API, user traffic only) for the $365$ days from the first day of the event's start month, and define \textbf{total attention} (summed daily views), \textbf{peak attention} (maximum daily views), and \textbf{effective duration} $=$ total$/$peak in days, linked by the identity $\log(\text{total}) = \log(\text{peak}) + \log(\text{duration})$. Wikipedia pageviews are a standard collective-attention proxy~\citep{mestyan2013early,ripberger2011capturing}; we prefer them to Google Trends because the pageview record is absolute, archived, and reproducible, whereas the public Trends interface returns only normalized indices under heavy rate limits. Two caveats. First, the ledger is attention \emph{to the event's English Wikipedia article}, so all matched-attention comparisons condition on English-audience interest; this is a feature for the region analysis (it holds English exposure fixed) but means globally quiet, locally enormous events enter as quiet. Second, attention can fragment across sibling articles (\emph{Killing of Tyre Nichols} vs.\ \emph{Tyre Nichols protests}), adding measurement noise that biases dose--response estimates toward zero. A GDELT news-coverage-volume cross-check~\citep{leetaru2013gdelt} on the event's name phrase over the same window was attempted for all $258$ events; GDELT's public API is heavily rate-limited, and results for the subset it returned are released with the data (\texttt{outputs/gdelt.json}).
+
+\subsection{Probes and panel}
+
+Golds are the article's intro truncated to $100$--$200$ words at a sentence boundary (the main run's Wikipedia gold recipe); disambiguating contexts are generated deterministically from the classification fields only---category phrase, location, month, year---never from article content, mirroring the main run's role/affiliation/field rule. Probe template, judge model, judge prompt, refusal detection, and scoring are unchanged from Section~\ref{sec:method}. Eight of the $37$ main-run models were no longer routable through OpenRouter at event-run time ($2026$-$07$; provider delistings and deprecations: Ernie-4.5-300b, Mistral-Large-2411, Mistral-Medium-3.1, Ministral-3b, Kimi-K2, Grok-4, GLM-4-32b, Llama-3.2-1b); Grok-4.20-think was recovered via the direct xAI API. Event NameRank is therefore a $29$-model panel mean over $7{,}482$ records. The change is immaterial: recomputing the full main run on the same $29$-model sub-panel correlates with the released $37$-model scores at $r = 0.994$ per entity (mean shift $+0.007$), so main-run numbers are quoted unadjusted alongside event scores.
+
+\textbf{Cutoff coverage.} Three panel models have training cutoffs inside the final months of the event window (Mistral-Small-24b, $2023$-$10$; Llama-3.1-8b and Llama-3.3-70b, $2023$-$12$). Neither exclusion matters: dropping the $22$ events that begin in October--December $2023$ leaves the joint attention decomposition at peak $+0.052$ / duration $-0.002$; dropping the three models for all events gives $+0.045$ / $-0.005$ (vs.\ $+0.048$ / $-0.003$ headline).
+
+\subsection{Full results}
+
+\textbf{Dose--response.} Table~\ref{tab:events-deciles} gives the decile ladder with the coverage/accuracy channel decomposition. Sole-predictor $R^2$ on NameRank: $\log$ total views $0.133$ (repeated $10$-fold CV $0.13 \pm 0.13$), $\log$ peak $0.154$ ($0.15 \pm 0.13$), $\log$ effective duration $0.028$ ($0.02 \pm 0.07$), $\log$ tail interest (mean daily views in days $300$--$365$) $0.094$. Gold length alone explains $0.001$; adding it to $\log$ total views raises $R^2$ to $0.193$ and the attention slope from $+0.048$ to $+0.067$ per decade (gold density suppresses).
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{NameRank by decile of total first-year pageviews ($n = 258$). Attention converts refusal into accurate specifics: accuracy rises steeply, coverage gently.}
+\label{tab:events-deciles}
+\begin{tabular}{rrrrrr}
+\toprule
+Decile & $n$ & Geo.\ mean views & NameRank & Refusal & (cov, acc) \\
+\midrule
+D1 & 25 & 2{,}415 & 0.351 & 0.11 & (0.43, 0.58) \\
+D2 & 26 & 7{,}395 & 0.354 & 0.11 & (0.43, 0.56) \\
+D3 & 26 & 16{,}514 & 0.373 & 0.12 & (0.43, 0.60) \\
+D4 & 26 & 39{,}348 & 0.417 & 0.08 & (0.49, 0.61) \\
+D5 & 26 & 67{,}583 & 0.402 & 0.06 & (0.47, 0.68) \\
+D6 & 25 & 133{,}127 & 0.491 & 0.07 & (0.54, 0.73) \\
+D7 & 26 & 251{,}374 & 0.467 & 0.04 & (0.53, 0.76) \\
+D8 & 26 & 480{,}323 & 0.462 & 0.02 & (0.52, 0.83) \\
+D9 & 26 & 1{,}223{,}071 & 0.475 & 0.01 & (0.53, 0.84) \\
+D10 & 26 & 3{,}312{,}033 & 0.481 & 0.01 & (0.53, 0.86) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Peak vs.\ duration.} Joint regression of NameRank on the standardized log-components: peak $+0.048$ (HC1 se $0.008$), duration $-0.003$ (se $0.009$), joint $R^2 = 0.155$ (CV $0.14 \pm 0.13$); marginal $R^2$ of duration given peak $= 0.000$. With recurring-name and gold-length controls: peak $+0.074$ (se $0.011$), duration $+0.008$ (se $0.009$). Within peak terciles, moving from the shortest to the longest duration tercile moves NameRank by $-0.05$, $+0.02$, and $-0.01$ respectively---no duration channel at matched peak.
+
+\textbf{Recurring-series flag.} An event is a series instance if substituting a nearby year (or adjacent ordinal/Roman edition marker) into its title yields another standard Wikipedia article; the detector sweeps $y \pm 1..6$ to cover $4$--$6$-year election cycles. $106$ of $258$ events flag as recurring; at matched attention the penalty is $-0.057$ (se $0.015$). The flag is conservative---renamed series (\emph{2023 Men's FIH Hockey World Cup} vs.\ \emph{2018 Men's Hockey World Cup}) escape detection and dilute the estimate.
+
+\textbf{Region and vintage.} Table~\ref{tab:events-region} reports raw and attention-adjusted region contrasts. Event-year effects at matched attention: $2022$ vs.\ $2021$: $-0.011$ (se $0.019$); $2023$ vs.\ $2021$: $-0.046$ (se $0.017$).
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Region groups: raw mean NameRank and the adjusted delta vs.\ the Anglo-America \& Oceania baseline after controlling $\log_{10}$ total views (HC1 standard errors). The single Global-classified event (the Queen's Platinum Jubilee Beacons) is omitted.}
+\label{tab:events-region}
+\begin{tabular}{lrrr}
+\toprule
+Region group & $n$ & Raw mean & Adj.\ $\Delta$ (se) \\
+\midrule
+Anglo-America \& Oceania & 45 & 0.438 & (baseline) \\
+Eastern Europe \& Russia & 28 & 0.483 & $+0.039$ (0.028) \\
+Middle East \& Africa & 35 & 0.455 & $+0.008$ (0.027) \\
+Western Europe & 44 & 0.429 & $-0.012$ (0.024) \\
+Latin America & 32 & 0.419 & $-0.015$ (0.025) \\
+East Asia & 31 & 0.399 & $-0.034$ (0.030) \\
+South \& Southeast Asia & 42 & 0.375 & $-0.055$ (0.026) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ══════════════════════════════════════════════════════════════
 \section{Limitations Summary Table}
 \label{app:limitations}
 

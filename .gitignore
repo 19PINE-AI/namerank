@@ -45,3 +45,8 @@ node_modules/
 
 # Explainer site build output (source + generated data assets ARE tracked)
 site/dist/
+
+# t4_1 news-events: derived outputs ARE tracked (overrides the global
+# `outputs/` rule above); the raw probe dump stays ignored via the
+# experiments/**/pilot_results*.json rule.
+!experiments/t4_1_news_events/outputs/

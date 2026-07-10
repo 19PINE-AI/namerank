@@ -1,0 +1,2066 @@
+[
+ {
+  "id": "event_2022_russian_invasion_of_ukraine",
+  "name": "2022 Russian invasion of Ukraine",
+  "context": "an armed conflict, attack, or military event that occurred in Ukraine in February 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2022_fifa_world_cup",
+  "name": "2022 FIFA World Cup",
+  "context": "a sporting event that took place in Qatar in November 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Qatar"
+ },
+ {
+  "id": "event_2020_summer_olympics",
+  "name": "2020 Summer Olympics",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_asia_cup",
+  "name": "2023 Asia Cup",
+  "context": "a sporting event that took place in Pakistan and Sri Lanka in August 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2023_rugby_world_cup",
+  "name": "2023 Rugby World Cup",
+  "context": "a sporting event that took place in France in September 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_94th_academy_awards",
+  "name": "94th Academy Awards",
+  "context": "a cultural or entertainment event that took place in Los Angeles, California in March 2022",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_93rd_academy_awards",
+  "name": "93rd Academy Awards",
+  "context": "a cultural or entertainment event that took place in Los Angeles, California in April 2021",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2023_fiba_basketball_world_cup",
+  "name": "2023 FIBA Basketball World Cup",
+  "context": "a sporting event that took place in the Philippines, Japan, and Indonesia in August 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2021_copa_am_rica",
+  "name": "2021 Copa América",
+  "context": "a sporting event that took place in Brazil in June 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_2021_canadian_federal_election",
+  "name": "2021 Canadian federal election",
+  "context": "a political event that took place in Canada in September 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2022_brazilian_general_election",
+  "name": "2022 Brazilian general election",
+  "context": "a political event that took place in Brazil in October 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_siege_of_mariupol",
+  "name": "Siege of Mariupol",
+  "context": "an armed conflict, attack, or military event that occurred in Mariupol, Ukraine in February 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2022_french_presidential_election",
+  "name": "2022 French presidential election",
+  "context": "a political event that took place in France in April 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_2022_buffalo_shooting",
+  "name": "2022 Buffalo shooting",
+  "context": "an armed conflict, attack, or military event that occurred in Buffalo, New York in May 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_assassination_of_shinzo_abe",
+  "name": "Assassination of Shinzo Abe",
+  "context": "an armed conflict, attack, or military event that occurred in Nara, Japan in July 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2021_israel_palestine_crisis",
+  "name": "2021 Israel–Palestine crisis",
+  "context": "an armed conflict, attack, or military event that occurred in Israel and the Gaza Strip in May 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_2023_sag_aftra_strike",
+  "name": "2023 SAG-AFTRA strike",
+  "context": "an episode of protests or civil unrest that began in the United States in July 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2023_turkish_presidential_election",
+  "name": "2023 Turkish presidential election",
+  "context": "a political event that took place in Turkey in May 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Turkey"
+ },
+ {
+  "id": "event_hurricane_ian",
+  "name": "Hurricane Ian",
+  "context": "a natural disaster that occurred in Florida and the Caribbean in September 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_philippine_presidential_election",
+  "name": "2022 Philippine presidential election",
+  "context": "a political event that took place in the Philippines in May 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Philippines"
+ },
+ {
+  "id": "event_2022_wimbledon_championships_men_s_singles",
+  "name": "2022 Wimbledon Championships – Men's singles",
+  "context": "a sporting event that took place at Wimbledon, United Kingdom in June 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_mahsa_amini_protests",
+  "name": "Mahsa Amini protests",
+  "context": "an episode of protests or civil unrest that began in Iran in September 2022",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2022,
+  "credential_country": "Iran"
+ },
+ {
+  "id": "event_battle_of_bakhmut",
+  "name": "Battle of Bakhmut",
+  "context": "an armed conflict, attack, or military event that occurred in Bakhmut, Ukraine in May 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2023_fifa_u_20_world_cup",
+  "name": "2023 FIFA U-20 World Cup",
+  "context": "a sporting event that took place in Argentina in May 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Argentina"
+ },
+ {
+  "id": "event_gamestop_short_squeeze",
+  "name": "GameStop short squeeze",
+  "context": "a business or technology event that occurred in the United States in January 2021",
+  "cohort": "news_business_tech",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_california_gubernatorial_recall_election",
+  "name": "2021 California gubernatorial recall election",
+  "context": "a political event that took place in California, United States in August 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_world_snooker_championship",
+  "name": "2022 World Snooker Championship",
+  "context": "a sporting event that took place in Sheffield, England in April 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2022_italian_general_election",
+  "name": "2022 Italian general election",
+  "context": "a political event that took place in Italy in September 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Italy"
+ },
+ {
+  "id": "event_2023_men_s_fih_hockey_world_cup",
+  "name": "2023 Men's FIH Hockey World Cup",
+  "context": "a sporting event that took place in India in January 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2021_nba_playoffs",
+  "name": "2021 NBA playoffs",
+  "context": "a sporting event that took place in the United States and Canada in May 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_bucha_massacre",
+  "name": "Bucha massacre",
+  "context": "an armed conflict, attack, or military event that occurred in Bucha, Ukraine in March 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_swimming_at_the_2020_summer_olympics",
+  "name": "Swimming at the 2020 Summer Olympics",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_argentine_general_election",
+  "name": "2023 Argentine general election",
+  "context": "a political event that took place in Argentina in October 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Argentina"
+ },
+ {
+  "id": "event_2022_malaysian_general_election",
+  "name": "2022 Malaysian general election",
+  "context": "a political event that took place in Malaysia in November 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Malaysia"
+ },
+ {
+  "id": "event_coronation_of_charles_iii_and_camilla",
+  "name": "Coronation of Charles III and Camilla",
+  "context": "a ceremonial or royal event that took place in the United Kingdom in May 2023",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2023_fifa_u_17_world_cup",
+  "name": "2023 FIFA U-17 World Cup",
+  "context": "a sporting event that took place in Indonesia in November 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2021_suez_canal_obstruction",
+  "name": "2021 Suez Canal obstruction",
+  "context": "an accident or disaster that occurred in the Suez Canal in March 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Egypt"
+ },
+ {
+  "id": "event_united_states_at_the_2020_summer_olympics",
+  "name": "United States at the 2020 Summer Olympics",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2022_swedish_general_election",
+  "name": "2022 Swedish general election",
+  "context": "a political event that took place in Sweden in September 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Sweden"
+ },
+ {
+  "id": "event_2023_g20_new_delhi_summit",
+  "name": "2023 G20 New Delhi summit",
+  "context": "a political event that took place in New Delhi, India in September 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2021_peruvian_general_election",
+  "name": "2021 Peruvian general election",
+  "context": "a political event that took place in Peru in April 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Peru"
+ },
+ {
+  "id": "event_world_chess_championship_2021",
+  "name": "World Chess Championship 2021",
+  "context": "a sporting event that took place in Dubai, United Arab Emirates in November 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "United Arab Emirates"
+ },
+ {
+  "id": "event_2023_uefa_champions_league_final",
+  "name": "2023 UEFA Champions League final",
+  "context": "a sporting event that took place in Istanbul, Turkey in June 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Turkey"
+ },
+ {
+  "id": "event_platinum_jubilee_of_elizabeth_ii",
+  "name": "Platinum Jubilee of Elizabeth II",
+  "context": "a ceremonial or royal event that took place in the United Kingdom and Commonwealth in February 2022",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2022,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2021_israeli_legislative_election",
+  "name": "2021 Israeli legislative election",
+  "context": "a political event that took place in Israel in March 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_2022_fifa_world_cup_final",
+  "name": "2022 FIFA World Cup final",
+  "context": "a sporting event that took place in Lusail, Qatar in December 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Qatar"
+ },
+ {
+  "id": "event_2023_rajasthan_legislative_assembly_election",
+  "name": "2023 Rajasthan Legislative Assembly election",
+  "context": "a political event that took place in Rajasthan, India in November 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_seoul_halloween_crowd_crush",
+  "name": "Seoul Halloween crowd crush",
+  "context": "an accident or disaster that occurred in Seoul, South Korea in October 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "South Korea"
+ },
+ {
+  "id": "event_2021_fifa_arab_cup",
+  "name": "2021 FIFA Arab Cup",
+  "context": "a sporting event that took place in Qatar in November 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Qatar"
+ },
+ {
+  "id": "event_death_and_funeral_of_prince_philip_duke_of_edinburgh",
+  "name": "Death and funeral of Prince Philip, Duke of Edinburgh",
+  "context": "a ceremonial or royal event that took place in the United Kingdom in April 2021",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_acquisition_of_twitter_by_elon_musk",
+  "name": "Acquisition of Twitter by Elon Musk",
+  "context": "a business or technology event that occurred in the United States in April 2022",
+  "cohort": "news_business_tech",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_london_mayoral_election",
+  "name": "2021 London mayoral election",
+  "context": "a political event that took place in London in May 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2022_israeli_legislative_election",
+  "name": "2022 Israeli legislative election",
+  "context": "a political event that took place in Israel in November 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_red_sea_crisis",
+  "name": "Red Sea crisis",
+  "context": "an armed conflict, attack, or military event that occurred in the Red Sea in October 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Yemen"
+ },
+ {
+  "id": "event_2022_french_legislative_election",
+  "name": "2022 French legislative election",
+  "context": "a political event that took place in France in June 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_2021_chilean_general_election",
+  "name": "2021 Chilean general election",
+  "context": "a political event that took place in Chile in November 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Chile"
+ },
+ {
+  "id": "event_2023_sea_games",
+  "name": "2023 SEA Games",
+  "context": "a sporting event that took place in Phnom Penh, Cambodia in May 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Cambodia"
+ },
+ {
+  "id": "event_assassination_of_jovenel_mo_se",
+  "name": "Assassination of Jovenel Moïse",
+  "context": "a criminal case or legal proceeding that came to public attention in Port-au-Prince, Haiti in July 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Haiti"
+ },
+ {
+  "id": "event_surfside_condominium_collapse",
+  "name": "Surfside condominium collapse",
+  "context": "an accident or disaster that occurred in Surfside, Florida in June 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_japanese_general_election",
+  "name": "2021 Japanese general election",
+  "context": "a political event that took place in Japan in October 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_chinese_balloon_incident",
+  "name": "2023 Chinese balloon incident",
+  "context": "an armed conflict, attack, or military event that occurred over North America in January 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_pakistan_super_league",
+  "name": "2022 Pakistan Super League",
+  "context": "a sporting event that took place in Pakistan in January 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_hurricane_fiona",
+  "name": "Hurricane Fiona",
+  "context": "a natural disaster that occurred in the Caribbean and Atlantic Canada in September 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "Puerto Rico"
+ },
+ {
+  "id": "event_2021_european_floods",
+  "name": "2021 European floods",
+  "context": "a natural disaster that occurred in Europe in July 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2023_united_nations_climate_change_conference",
+  "name": "2023 United Nations Climate Change Conference",
+  "context": "a science or spaceflight event that occurred in Dubai, United Arab Emirates in November 2023",
+  "cohort": "news_science_space",
+  "credential_year": 2023,
+  "credential_country": "United Arab Emirates"
+ },
+ {
+  "id": "event_2022_saskatchewan_stabbings",
+  "name": "2022 Saskatchewan stabbings",
+  "context": "a criminal case or legal proceeding that came to public attention in Saskatchewan, Canada in September 2022",
+  "cohort": "news_crime_legal",
+  "credential_year": 2022,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_cyclone_tauktae",
+  "name": "Cyclone Tauktae",
+  "context": "a natural disaster that occurred in the Arabian Sea and India in May 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2021_western_north_america_heat_wave",
+  "name": "2021 Western North America heat wave",
+  "context": "a natural disaster that occurred in Western North America in June 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2023_turkish_parliamentary_election",
+  "name": "2023 Turkish parliamentary election",
+  "context": "a political event that took place in Turkey in May 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Turkey"
+ },
+ {
+  "id": "event_2023_european_games",
+  "name": "2023 European Games",
+  "context": "a sporting event that took place in Kraków and Małopolska, Poland in June 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Poland"
+ },
+ {
+  "id": "event_belgrade_school_shooting",
+  "name": "Belgrade school shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Belgrade, Serbia in May 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "Serbia"
+ },
+ {
+  "id": "event_2023_pan_american_games",
+  "name": "2023 Pan American Games",
+  "context": "a sporting event that took place in Santiago, Chile in October 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Chile"
+ },
+ {
+  "id": "event_2021_kabul_airport_attack",
+  "name": "2021 Kabul airport attack",
+  "context": "an armed conflict, attack, or military event that occurred in Kabul, Afghanistan in August 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Afghanistan"
+ },
+ {
+  "id": "event_2022_united_nations_climate_change_conference",
+  "name": "2022 United Nations Climate Change Conference",
+  "context": "a political event that took place in Sharm El Sheikh, Egypt in November 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Egypt"
+ },
+ {
+  "id": "event_2023_south_american_u_20_championship",
+  "name": "2023 South American U-20 Championship",
+  "context": "a sporting event that took place in Colombia in January 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Colombia"
+ },
+ {
+  "id": "event_2020_summer_olympics_opening_ceremony",
+  "name": "2020 Summer Olympics opening ceremony",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_israeli_judicial_reform_protests",
+  "name": "2023 Israeli judicial reform protests",
+  "context": "an episode of protests or civil unrest that began in Israel in January 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_september_2022_armenia_azerbaijan_clashes",
+  "name": "September 2022 Armenia–Azerbaijan clashes",
+  "context": "an armed conflict, attack, or military event that occurred along the Armenia–Azerbaijan border in September 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Armenia"
+ },
+ {
+  "id": "event_2022_crimean_bridge_explosion",
+  "name": "2022 Crimean Bridge explosion",
+  "context": "an armed conflict, attack, or military event that occurred at the Crimean Bridge in October 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2021_russian_protests",
+  "name": "2021 Russian protests",
+  "context": "an episode of protests or civil unrest that began in Russia in January 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2022_russian_mobilization",
+  "name": "2022 Russian mobilization",
+  "context": "a political event that took place in Russia in September 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2023_jacksonville_shooting",
+  "name": "2023 Jacksonville shooting",
+  "context": "an armed conflict, attack, or military event that occurred in Jacksonville, Florida in August 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_winter_paralympics",
+  "name": "2022 Winter Paralympics",
+  "context": "a sporting event that took place in Beijing, China in March 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_bulgarian_parliamentary_election",
+  "name": "2023 Bulgarian parliamentary election",
+  "context": "a political event that took place in Bulgaria in April 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Bulgaria"
+ },
+ {
+  "id": "event_karate_at_the_2020_summer_olympics",
+  "name": "Karate at the 2020 Summer Olympics",
+  "context": "a sporting event that took place in Tokyo, Japan in August 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2022_mediterranean_games",
+  "name": "2022 Mediterranean Games",
+  "context": "a sporting event that took place in Oran, Algeria in June 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Algeria"
+ },
+ {
+  "id": "event_plymouth_shooting",
+  "name": "Plymouth shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Plymouth, England in August 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2022_covid_19_protests_in_china",
+  "name": "2022 COVID-19 protests in China",
+  "context": "an episode of protests or civil unrest that began in China in November 2022",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2022,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_bankruptcy_of_ftx",
+  "name": "Bankruptcy of FTX",
+  "context": "a business or technology event that occurred in the Bahamas in November 2022",
+  "cohort": "news_business_tech",
+  "credential_year": 2022,
+  "credential_country": "Bahamas"
+ },
+ {
+  "id": "event_tornado_outbreak_of_march_31_april_1_2023",
+  "name": "Tornado outbreak of March 31 – April 1, 2023",
+  "context": "a natural disaster that occurred in the Midwestern and Southern United States in March 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_nobel_peace_prize",
+  "name": "2021 Nobel Peace Prize",
+  "context": "a cultural or entertainment event that took place in Oslo, Norway in October 2021",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2021,
+  "credential_country": "Norway"
+ },
+ {
+  "id": "event_2023_acc_under_19_asia_cup",
+  "name": "2023 ACC Under-19 Asia Cup",
+  "context": "a sporting event that took place in the United Arab Emirates in December 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "United Arab Emirates"
+ },
+ {
+  "id": "event_2021_cuban_protests",
+  "name": "2021 Cuban protests",
+  "context": "an episode of protests or civil unrest that began in Cuba in July 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "Cuba"
+ },
+ {
+  "id": "event_kazan_school_shooting",
+  "name": "Kazan school shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Kazan, Russia in May 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_chinese_taipei_at_the_2020_summer_olympics",
+  "name": "Chinese Taipei at the 2020 Summer Olympics",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2021_22_major_league_baseball_lockout",
+  "name": "2021–22 Major League Baseball lockout",
+  "context": "a business or technology event that occurred in the United States in December 2021",
+  "cohort": "news_business_tech",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_death_and_funeral_of_pope_benedict_xvi",
+  "name": "Death and funeral of Pope Benedict XVI",
+  "context": "a ceremonial or royal event that took place in Vatican City in December 2022",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2022,
+  "credential_country": "Vatican City"
+ },
+ {
+  "id": "event_2023_brovary_helicopter_crash",
+  "name": "2023 Brovary helicopter crash",
+  "context": "an accident or disaster that occurred in Brovary, Ukraine in January 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2023_montenegrin_presidential_election",
+  "name": "2023 Montenegrin presidential election",
+  "context": "a political event that took place in Montenegro in March 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Montenegro"
+ },
+ {
+  "id": "event_2021_russian_grand_prix",
+  "name": "2021 Russian Grand Prix",
+  "context": "a sporting event that took place in Sochi, Russia in September 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2021_icelandic_parliamentary_election",
+  "name": "2021 Icelandic parliamentary election",
+  "context": "a political event that took place in Iceland in September 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Iceland"
+ },
+ {
+  "id": "event_2023_dublin_riot",
+  "name": "2023 Dublin riot",
+  "context": "an episode of protests or civil unrest that began in Dublin, Ireland in November 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "Ireland"
+ },
+ {
+  "id": "event_2021_northern_ireland_riots",
+  "name": "2021 Northern Ireland riots",
+  "context": "an episode of protests or civil unrest that began in Northern Ireland in March 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2022_peruvian_self_coup_attempt",
+  "name": "2022 Peruvian self-coup attempt",
+  "context": "a political event that took place in Peru in December 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Peru"
+ },
+ {
+  "id": "event_2022_bronx_apartment_fire",
+  "name": "2022 Bronx apartment fire",
+  "context": "an accident or disaster that occurred in the Bronx, New York in January 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2023_venezuelan_referendum",
+  "name": "2023 Venezuelan referendum",
+  "context": "a political event that took place in Venezuela in December 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Venezuela"
+ },
+ {
+  "id": "event_2021_indian_air_force_mil_mi_17_crash",
+  "name": "2021 Indian Air Force Mil Mi-17 crash",
+  "context": "an accident or disaster that occurred in Tamil Nadu, India in December 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2023_paraguayan_general_election",
+  "name": "2023 Paraguayan general election",
+  "context": "a political event that took place in Paraguay in April 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Paraguay"
+ },
+ {
+  "id": "event_tyre_nichols_protests",
+  "name": "Tyre Nichols protests",
+  "context": "an episode of protests or civil unrest that began in the United States in January 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_cyclone_batsirai",
+  "name": "Cyclone Batsirai",
+  "context": "a natural disaster that occurred in Madagascar in January 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "Madagascar"
+ },
+ {
+  "id": "event_2023_nottingham_attacks",
+  "name": "2023 Nottingham attacks",
+  "context": "an armed conflict, attack, or military event that occurred in Nottingham, United Kingdom in June 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2023_emilia_romagna_floods",
+  "name": "2023 Emilia-Romagna floods",
+  "context": "a natural disaster that occurred in Emilia-Romagna, Italy in May 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "Italy"
+ },
+ {
+  "id": "event_2021_fukushima_earthquake",
+  "name": "2021 Fukushima earthquake",
+  "context": "a natural disaster that occurred off the coast of Fukushima, Japan in February 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2022_r_mqi_fire",
+  "name": "2022 Ürümqi fire",
+  "context": "an accident or disaster that occurred in Ürümqi, China in November 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_acquisition_of_credit_suisse_by_ubs",
+  "name": "Acquisition of Credit Suisse by UBS",
+  "context": "a business or technology event that occurred in Switzerland in March 2023",
+  "cohort": "news_business_tech",
+  "credential_year": 2023,
+  "credential_country": "Switzerland"
+ },
+ {
+  "id": "event_2023_cleveland_texas_shooting",
+  "name": "2023 Cleveland, Texas shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Texas, United States in April 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_mexico_city_metro_overpass_collapse",
+  "name": "Mexico City Metro overpass collapse",
+  "context": "an accident or disaster that occurred in Mexico City, Mexico in May 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Mexico"
+ },
+ {
+  "id": "event_2021_toronto_international_film_festival",
+  "name": "2021 Toronto International Film Festival",
+  "context": "a cultural or entertainment event that took place in Toronto, Canada in September 2021",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2021,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2022_peshawar_mosque_attack",
+  "name": "2022 Peshawar mosque attack",
+  "context": "an armed conflict, attack, or military event that occurred in Peshawar, Pakistan in March 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2022_state_of_the_union_address",
+  "name": "2022 State of the Union Address",
+  "context": "a political event that took place in Washington, D.C. in March 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2023_pakistani_census",
+  "name": "2023 Pakistani census",
+  "context": "a political event that took place in Pakistan in March 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_owo_church_attack",
+  "name": "Owo church attack",
+  "context": "an armed conflict, attack, or military event that occurred in Owo, Nigeria in June 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_2023_haryana_riots",
+  "name": "2023 Haryana riots",
+  "context": "an episode of protests or civil unrest that began in Haryana, India in July 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2023_rugby_world_cup_final",
+  "name": "2023 Rugby World Cup final",
+  "context": "a sporting event that took place in Saint-Denis, France in October 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_2021_henan_floods",
+  "name": "2021 Henan floods",
+  "context": "a natural disaster that occurred in Henan, China in July 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_calabria_migrant_boat_disaster",
+  "name": "2023 Calabria migrant boat disaster",
+  "context": "an accident or disaster that occurred off the coast of Calabria, Italy in February 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Italy"
+ },
+ {
+  "id": "event_creeslough_explosion",
+  "name": "Creeslough explosion",
+  "context": "an accident or disaster that occurred in Creeslough, Ireland in October 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "Ireland"
+ },
+ {
+  "id": "event_2023_union_square_riot",
+  "name": "2023 Union Square riot",
+  "context": "an episode of protests or civil unrest that began in Manhattan, New York in August 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2023_eruption_of_mount_marapi",
+  "name": "2023 eruption of Mount Marapi",
+  "context": "a natural disaster that occurred at Mount Marapi, Indonesia in December 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2022_belarusian_constitutional_referendum",
+  "name": "2022 Belarusian constitutional referendum",
+  "context": "a political event that took place in Belarus in February 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Belarus"
+ },
+ {
+  "id": "event_2021_israeli_presidential_election",
+  "name": "2021 Israeli presidential election",
+  "context": "a political event that took place in Israel in June 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_2021_nrl_grand_final",
+  "name": "2021 NRL Grand Final",
+  "context": "a sporting event that took place in Brisbane, Australia in October 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Australia"
+ },
+ {
+  "id": "event_2021_greece_wildfires",
+  "name": "2021 Greece wildfires",
+  "context": "a natural disaster that occurred in Greece in August 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "Greece"
+ },
+ {
+  "id": "event_swimming_at_the_2020_summer_olympics_women_s_4_100_metre_med",
+  "name": "Swimming at the 2020 Summer Olympics – Women's 4 × 100 metre medley relay",
+  "context": "a sporting event that took place in Tokyo, Japan in July 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_v_league_1",
+  "name": "2023 V.League 1",
+  "context": "a sporting event that took place in Vietnam in February 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "Vietnam"
+ },
+ {
+  "id": "event_2023_prague_shootings",
+  "name": "2023 Prague shootings",
+  "context": "a criminal case or legal proceeding that came to public attention in Prague, Czech Republic in December 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "Czech Republic"
+ },
+ {
+  "id": "event_2021_maharashtra_floods",
+  "name": "2021 Maharashtra floods",
+  "context": "a natural disaster that occurred in Maharashtra, India in July 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2023_grand_national",
+  "name": "2023 Grand National",
+  "context": "a sporting event that took place at Aintree, England in April 2023",
+  "cohort": "news_sports",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_nahel_merzouk_riots",
+  "name": "Nahel Merzouk riots",
+  "context": "an episode of protests or civil unrest that began in France in June 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_perm_state_university_shooting",
+  "name": "Perm State University shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Perm, Russia in September 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2023_visit_by_joe_biden_to_ukraine",
+  "name": "2023 visit by Joe Biden to Ukraine",
+  "context": "a political event that took place in Kyiv, Ukraine in February 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2021_uzbek_presidential_election",
+  "name": "2021 Uzbek presidential election",
+  "context": "a political event that took place in Uzbekistan in October 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Uzbekistan"
+ },
+ {
+  "id": "event_heidelberg_university_shooting",
+  "name": "Heidelberg University shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Heidelberg, Germany in January 2022",
+  "cohort": "news_crime_legal",
+  "credential_year": 2022,
+  "credential_country": "Germany"
+ },
+ {
+  "id": "event_2023_sierra_leonean_general_election",
+  "name": "2023 Sierra Leonean general election",
+  "context": "a political event that took place in Sierra Leone in June 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Sierra Leone"
+ },
+ {
+  "id": "event_typhoon_doksuri",
+  "name": "Typhoon Doksuri",
+  "context": "a natural disaster that occurred in China and the Philippines in July 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2022_bratislava_shooting",
+  "name": "2022 Bratislava shooting",
+  "context": "an armed conflict, attack, or military event that occurred in Bratislava, Slovakia in October 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Slovakia"
+ },
+ {
+  "id": "event_mariupol_hospital_airstrike",
+  "name": "Mariupol hospital airstrike",
+  "context": "an armed conflict, attack, or military event that occurred in Mariupol, Ukraine in March 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_2023_beninese_parliamentary_election",
+  "name": "2023 Beninese parliamentary election",
+  "context": "a political event that took place in Benin in January 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Benin"
+ },
+ {
+  "id": "event_2023_atlanta_shooting",
+  "name": "2023 Atlanta shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Atlanta, Georgia in May 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_death_and_funeral_of_mikhail_gorbachev",
+  "name": "Death and funeral of Mikhail Gorbachev",
+  "context": "a ceremonial or royal event that took place in Moscow, Russia in August 2022",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2022,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_mladenovac_and_smederevo_shootings",
+  "name": "Mladenovac and Smederevo shootings",
+  "context": "a criminal case or legal proceeding that came to public attention in Mladenovac and Smederevo, Serbia in May 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "Serbia"
+ },
+ {
+  "id": "event_2021_hualien_train_derailment",
+  "name": "2021 Hualien train derailment",
+  "context": "an accident or disaster that occurred in Hualien, Taiwan in April 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Taiwan"
+ },
+ {
+  "id": "event_2021_kyrgyzstan_tajikistan_clashes",
+  "name": "2021 Kyrgyzstan–Tajikistan clashes",
+  "context": "an armed conflict, attack, or military event that occurred on the Kyrgyzstan–Tajikistan border in April 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Kyrgyzstan"
+ },
+ {
+  "id": "event_2023_trabuco_canyon_shooting",
+  "name": "2023 Trabuco Canyon shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Trabuco Canyon, California in August 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_south_korean_by_elections",
+  "name": "2021 South Korean by-elections",
+  "context": "a political event that took place in South Korea in April 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "South Korea"
+ },
+ {
+  "id": "event_2023_chilean_constitutional_referendum",
+  "name": "2023 Chilean constitutional referendum",
+  "context": "a political event that took place in Chile in December 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Chile"
+ },
+ {
+  "id": "event_2023_russian_elections",
+  "name": "2023 Russian elections",
+  "context": "a political event that took place in Russia in September 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2021_piedade_de_caratinga_beechcraft_king_air_crash",
+  "name": "2021 Piedade de Caratinga Beechcraft King Air crash",
+  "context": "an accident or disaster that occurred in Piedade de Caratinga, Brazil in November 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_2023_french_senate_election",
+  "name": "2023 French Senate election",
+  "context": "a political event that took place in France in September 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_coronation_concert",
+  "name": "Coronation Concert",
+  "context": "a cultural or entertainment event that took place at Windsor Castle, England in May 2023",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_february_2022_north_american_winter_storm",
+  "name": "February 2022 North American winter storm",
+  "context": "a natural disaster that occurred across the United States in February 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_inauguration_of_javier_milei",
+  "name": "Inauguration of Javier Milei",
+  "context": "a ceremonial or royal event that took place in Buenos Aires, Argentina in December 2023",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2023,
+  "credential_country": "Argentina"
+ },
+ {
+  "id": "event_sanaa_crowd_crush",
+  "name": "Sanaa crowd crush",
+  "context": "an accident or disaster that occurred in Sanaa, Yemen in April 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Yemen"
+ },
+ {
+  "id": "event_juno_awards_of_2023",
+  "name": "Juno Awards of 2023",
+  "context": "a cultural or entertainment event that took place in Edmonton, Alberta in March 2023",
+  "cohort": "news_entertainment_culture",
+  "credential_year": 2023,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2022_abu_dhabi_attack",
+  "name": "2022 Abu Dhabi attack",
+  "context": "an armed conflict, attack, or military event that occurred in Abu Dhabi, United Arab Emirates in January 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "United Arab Emirates"
+ },
+ {
+  "id": "event_2022_plateau_state_massacres",
+  "name": "2022 Plateau State massacres",
+  "context": "an armed conflict, attack, or military event that occurred in Plateau State, Nigeria in April 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_ayacucho_massacre",
+  "name": "Ayacucho massacre",
+  "context": "an armed conflict, attack, or military event that occurred in Ayacucho, Peru in December 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Peru"
+ },
+ {
+  "id": "event_daunte_wright_protests",
+  "name": "Daunte Wright protests",
+  "context": "an episode of protests or civil unrest that began in the United States in April 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_salisbury_rail_crash",
+  "name": "2021 Salisbury rail crash",
+  "context": "an accident or disaster that occurred in Salisbury, England in October 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_january_2022_north_american_blizzard",
+  "name": "January 2022 North American blizzard",
+  "context": "a natural disaster that occurred along the Atlantic coast of North America in January 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_listvyazhnaya_mine_disaster",
+  "name": "Listvyazhnaya mine disaster",
+  "context": "an accident or disaster that occurred in Kemerovo Oblast, Russia in November 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2021_palmas_fr_plane_crash",
+  "name": "2021 Palmas FR plane crash",
+  "context": "an accident or disaster that occurred near Porto Nacional, Brazil in January 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_2023_philippine_airspace_closure",
+  "name": "2023 Philippine airspace closure",
+  "context": "an accident or disaster that occurred in the Philippines in January 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Philippines"
+ },
+ {
+  "id": "event_juliaca_massacre",
+  "name": "Juliaca massacre",
+  "context": "an episode of protests or civil unrest that began in Juliaca, Peru in January 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "Peru"
+ },
+ {
+  "id": "event_wimbledon_school_crash",
+  "name": "Wimbledon school crash",
+  "context": "an accident or disaster that occurred in Wimbledon, London in July 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2022_nauruan_parliamentary_election",
+  "name": "2022 Nauruan parliamentary election",
+  "context": "a political event that took place in Nauru in September 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Nauru"
+ },
+ {
+  "id": "event_29_december_2023_russian_strikes_on_ukraine",
+  "name": "29 December 2023 Russian strikes on Ukraine",
+  "context": "an armed conflict, attack, or military event that occurred in Ukraine in December 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Ukraine"
+ },
+ {
+  "id": "event_nduga_hostage_crisis",
+  "name": "Nduga hostage crisis",
+  "context": "an armed conflict, attack, or military event that occurred in Nduga, Highland Papua, Indonesia in February 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2022_southwest_airlines_scheduling_crisis",
+  "name": "2022 Southwest Airlines scheduling crisis",
+  "context": "a business or technology event that occurred in the United States in December 2022",
+  "cohort": "news_business_tech",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_ekiti_state_gubernatorial_election",
+  "name": "2022 Ekiti State gubernatorial election",
+  "context": "a political event that took place in Ekiti State, Nigeria in June 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_2023_coulson_aviation_boeing_737_crash",
+  "name": "2023 Coulson Aviation Boeing 737 crash",
+  "context": "an accident or disaster that occurred in Western Australia in February 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Australia"
+ },
+ {
+  "id": "event_assassination_of_vladlen_tatarsky",
+  "name": "Assassination of Vladlen Tatarsky",
+  "context": "an armed conflict, attack, or military event that occurred in Saint Petersburg, Russia in April 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2023_ankara_bombing",
+  "name": "2023 Ankara bombing",
+  "context": "an armed conflict, attack, or military event that occurred in Ankara, Turkey in October 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Turkey"
+ },
+ {
+  "id": "event_2023_demise_honours",
+  "name": "2023 Demise Honours",
+  "context": "a ceremonial or royal event that took place in the United Kingdom in March 2023",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2023,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2021_national_games_of_china",
+  "name": "2021 National Games of China",
+  "context": "a sporting event that took place in Shaanxi, China in September 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_shandong_high_altitude_object",
+  "name": "2023 Shandong high-altitude object",
+  "context": "a news event that occurred off the coast of Shandong, China in February 2023",
+  "cohort": "news_other",
+  "credential_year": 2023,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_andhra_pradesh_train_collision",
+  "name": "2023 Andhra Pradesh train collision",
+  "context": "an accident or disaster that occurred in Andhra Pradesh, India in October 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_ateneo_de_manila_university_shooting",
+  "name": "Ateneo de Manila University shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Quezon City, Philippines in July 2022",
+  "cohort": "news_crime_legal",
+  "credential_year": 2022,
+  "credential_country": "Philippines"
+ },
+ {
+  "id": "event_the_queen_s_platinum_jubilee_beacons",
+  "name": "The Queen's Platinum Jubilee Beacons",
+  "context": "a ceremonial or royal event that took place across the Commonwealth in June 2022",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2022,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2021_hong_kong_election_committee_subsector_elections",
+  "name": "2021 Hong Kong Election Committee Subsector elections",
+  "context": "a political event that took place in Hong Kong in September 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_typhoon_lan_2023",
+  "name": "Typhoon Lan (2023)",
+  "context": "a natural disaster that occurred in central Japan in August 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "Japan"
+ },
+ {
+  "id": "event_2023_antisemitic_riots_in_the_north_caucasus",
+  "name": "2023 antisemitic riots in the North Caucasus",
+  "context": "an episode of protests or civil unrest that began in the North Caucasus, Russia in October 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2023_caquet_cessna_stationair_crash",
+  "name": "2023 Caquetá Cessna Stationair crash",
+  "context": "an accident or disaster that occurred in Caquetá, Colombia in May 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Colombia"
+ },
+ {
+  "id": "event_2022_united_kingdom_heatwaves",
+  "name": "2022 United Kingdom heatwaves",
+  "context": "a natural disaster that occurred in the United Kingdom in June 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2023_northwest_territories_general_election",
+  "name": "2023 Northwest Territories general election",
+  "context": "a political event that took place in the Northwest Territories, Canada in November 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_october_2021_tehreek_e_labbaik_pakistan_protests",
+  "name": "October 2021 Tehreek-e-Labbaik Pakistan protests",
+  "context": "an episode of protests or civil unrest that began in Pakistan in October 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2022_azadi_march",
+  "name": "2022 Azadi march",
+  "context": "an episode of protests or civil unrest that began in Pakistan in May 2022",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2023_dengue_outbreak_in_bangladesh",
+  "name": "2023 dengue outbreak in Bangladesh",
+  "context": "a public-health event that began in Bangladesh in April 2023",
+  "cohort": "news_health",
+  "credential_year": 2023,
+  "credential_country": "Bangladesh"
+ },
+ {
+  "id": "event_2021_guangzhou_bombing",
+  "name": "2021 Guangzhou bombing",
+  "context": "an armed conflict, attack, or military event that occurred in Guangzhou, China in March 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2021_rio_de_janeiro_shootout",
+  "name": "2021 Rio de Janeiro shootout",
+  "context": "an armed conflict, attack, or military event that occurred in Rio de Janeiro, Brazil in May 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_2022_sindh_local_government_elections",
+  "name": "2022 Sindh local government elections",
+  "context": "a political event that took place in Sindh, Pakistan in June 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_july_2023_tel_aviv_attack",
+  "name": "July 2023 Tel Aviv attack",
+  "context": "an armed conflict, attack, or military event that occurred in Tel Aviv, Israel in July 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_saudades_massacre",
+  "name": "Saudades massacre",
+  "context": "a criminal case or legal proceeding that came to public attention in Saudades, Brazil in May 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_2021_maduo_earthquake",
+  "name": "2021 Maduo earthquake",
+  "context": "a natural disaster that occurred in Qinghai, China in May 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2022_2023_philippine_sugar_crisis",
+  "name": "2022–2023 Philippine sugar crisis",
+  "context": "a business or technology event that occurred in the Philippines in August 2022",
+  "cohort": "news_business_tech",
+  "credential_year": 2022,
+  "credential_country": "Philippines"
+ },
+ {
+  "id": "event_2023_south_america_heat_wave",
+  "name": "2023 South America heat wave",
+  "context": "a natural disaster that occurred across South America in July 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2022_maryland_question_4",
+  "name": "2022 Maryland Question 4",
+  "context": "a political event that took place in Maryland, United States in November 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_23_national_t20_cup",
+  "name": "2022–23 National T20 Cup",
+  "context": "a sporting event that took place in Pakistan in August 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_kostroma_caf_fire",
+  "name": "Kostroma café fire",
+  "context": "an accident or disaster that occurred in Kostroma, Russia in November 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2021_march_4_justice",
+  "name": "2021 March 4 Justice",
+  "context": "an episode of protests or civil unrest that began across Australia in March 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "Australia"
+ },
+ {
+  "id": "event_2022_guizhou_bus_crash",
+  "name": "2022 Guizhou bus crash",
+  "context": "an accident or disaster that occurred in Guizhou, China in September 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2022_indonesian_student_protests",
+  "name": "2022 Indonesian student protests",
+  "context": "an episode of protests or civil unrest that began in Indonesia in April 2022",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2022,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2022_ya_an_earthquake",
+  "name": "2022 Ya'an earthquake",
+  "context": "a natural disaster that occurred in Ya'an, China in June 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_gaza_war",
+  "name": "Gaza war",
+  "context": "an armed conflict, attack, or military event that occurred in the Gaza Strip and Israel in October 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Israel"
+ },
+ {
+  "id": "event_laval_daycare_bus_crash",
+  "name": "Laval daycare bus crash",
+  "context": "an accident or disaster that occurred in Laval, Quebec in February 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2023_jaipur_express_killings",
+  "name": "2023 Jaipur Express killings",
+  "context": "a criminal case or legal proceeding that came to public attention near Palghar, India in July 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2023_saint_henri_sainte_anne_provincial_by_election",
+  "name": "2023 Saint-Henri—Sainte-Anne provincial by-election",
+  "context": "a political event that took place in Quebec, Canada in March 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2021_women_s_state_of_origin",
+  "name": "2021 Women's State of Origin",
+  "context": "a sporting event that took place in Queensland, Australia in June 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Australia"
+ },
+ {
+  "id": "event_2023_mexico_city_metro_train_crash",
+  "name": "2023 Mexico City Metro train crash",
+  "context": "an accident or disaster that occurred in Mexico City, Mexico in January 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "Mexico"
+ },
+ {
+  "id": "event_2022_kech_district_attack",
+  "name": "2022 Kech District attack",
+  "context": "an armed conflict, attack, or military event that occurred in Kech District, Pakistan in January 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2022_turkish_super_cup",
+  "name": "2022 Turkish Super Cup",
+  "context": "a sporting event that took place in Istanbul, Turkey in July 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Turkey"
+ },
+ {
+  "id": "event_2021_dali_earthquake",
+  "name": "2021 Dali earthquake",
+  "context": "a natural disaster that occurred in Dali, China in May 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_vote_of_no_confidence_in_the_government_of_pedro_s_nche",
+  "name": "2023 vote of no confidence in the government of Pedro Sánchez",
+  "context": "a political event that took place in Spain in March 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Spain"
+ },
+ {
+  "id": "event_2023_mercedes_benz_factory_shooting",
+  "name": "2023 Mercedes-Benz factory shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Sindelfingen, Germany in May 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "Germany"
+ },
+ {
+  "id": "event_protests_against_the_imprisonment_of_pablo_has_l",
+  "name": "Protests against the imprisonment of Pablo Hasél",
+  "context": "an episode of protests or civil unrest that began in Spain in February 2021",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2021,
+  "credential_country": "Spain"
+ },
+ {
+  "id": "event_afaka_kidnapping",
+  "name": "Afaka kidnapping",
+  "context": "an armed conflict, attack, or military event that occurred in Kaduna State, Nigeria in March 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_2023_marseille_building_collapse",
+  "name": "2023 Marseille building collapse",
+  "context": "an accident or disaster that occurred in Marseille, France in April 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "France"
+ },
+ {
+  "id": "event_2022_royal_tour_of_canada",
+  "name": "2022 royal tour of Canada",
+  "context": "a ceremonial or royal event that took place in Canada in May 2022",
+  "cohort": "news_royalty_ceremony",
+  "credential_year": 2022,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_storm_franklin",
+  "name": "Storm Franklin",
+  "context": "a natural disaster that occurred in Western Europe in February 2022",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2022,
+  "credential_country": "International"
+ },
+ {
+  "id": "event_2023_doda_bus_accident",
+  "name": "2023 Doda bus accident",
+  "context": "an accident or disaster that occurred in Doda, India in November 2023",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2023,
+  "credential_country": "India"
+ },
+ {
+  "id": "event_2021_kilmarnock_incidents",
+  "name": "2021 Kilmarnock incidents",
+  "context": "a criminal case or legal proceeding that came to public attention in Kilmarnock, Scotland in February 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "United Kingdom"
+ },
+ {
+  "id": "event_2021_east_asia_sandstorm",
+  "name": "2021 East Asia sandstorm",
+  "context": "a natural disaster that occurred in East Asia in March 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_white_rock_lake_fire",
+  "name": "White Rock Lake fire",
+  "context": "a natural disaster that occurred in British Columbia, Canada in July 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "Canada"
+ },
+ {
+  "id": "event_2022_kusel_shooting",
+  "name": "2022 Kusel shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Kusel, Germany in January 2022",
+  "cohort": "news_crime_legal",
+  "credential_year": 2022,
+  "credential_country": "Germany"
+ },
+ {
+  "id": "event_2023_wamena_riot",
+  "name": "2023 Wamena riot",
+  "context": "an episode of protests or civil unrest that began in Wamena, Highland Papua, Indonesia in February 2023",
+  "cohort": "news_civil_unrest",
+  "credential_year": 2023,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2021_flores_earthquake",
+  "name": "2021 Flores earthquake",
+  "context": "a natural disaster that occurred in the Flores Sea, Indonesia in December 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_2023_rio_grande_do_sul_floods",
+  "name": "2023 Rio Grande do Sul floods",
+  "context": "a natural disaster that occurred in Rio Grande do Sul, Brazil in September 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_typhoon_cempaka",
+  "name": "Typhoon Cempaka",
+  "context": "a natural disaster that occurred in China and Vietnam in July 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2023_detroit_casino_strike",
+  "name": "2023 Detroit casino strike",
+  "context": "a business or technology event that occurred in Detroit, Michigan in October 2023",
+  "cohort": "news_business_tech",
+  "credential_year": 2023,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_imperial_county_car_crash",
+  "name": "2021 Imperial County car crash",
+  "context": "an accident or disaster that occurred in Imperial County, California in March 2021",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2021,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2022_balochistan_local_government_elections",
+  "name": "2022 Balochistan local government elections",
+  "context": "a political event that took place in Balochistan, Pakistan in May 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_late_december_2021_bahia_floods",
+  "name": "Late December 2021 Bahia floods",
+  "context": "a natural disaster that occurred in Bahia, Brazil in December 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_moscow_multifunctional_center_shooting",
+  "name": "Moscow Multifunctional Center shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Moscow, Russia in December 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Russia"
+ },
+ {
+  "id": "event_2022_central_american_and_caribbean_beach_games",
+  "name": "2022 Central American and Caribbean Beach Games",
+  "context": "a sporting event that took place in Santa Marta, Colombia in November 2022",
+  "cohort": "news_sports",
+  "credential_year": 2022,
+  "credential_country": "Colombia"
+ },
+ {
+  "id": "event_2021_luxian_earthquake",
+  "name": "2021 Luxian earthquake",
+  "context": "a natural disaster that occurred in Sichuan Province, China in September 2021",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_prima_v_kpu",
+  "name": "PRIMA v. KPU",
+  "context": "a political event that took place in Indonesia in March 2023",
+  "cohort": "news_politics_elections",
+  "credential_year": 2023,
+  "credential_country": "Indonesia"
+ },
+ {
+  "id": "event_cpc_and_world_political_parties_summit",
+  "name": "CPC and World Political Parties Summit",
+  "context": "a political event that took place via video conference from China in July 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "China"
+ },
+ {
+  "id": "event_2021_sudanese_coup_d_tat",
+  "name": "2021 Sudanese coup d'état",
+  "context": "a political event that took place in Sudan in October 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Sudan"
+ },
+ {
+  "id": "event_2023_astore_avalanche",
+  "name": "2023 Astore avalanche",
+  "context": "a natural disaster that occurred in Astore, Pakistan in May 2023",
+  "cohort": "news_natural_disaster",
+  "credential_year": 2023,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2023_north_waziristan_landmine_attack",
+  "name": "2023 North Waziristan landmine attack",
+  "context": "an armed conflict, attack, or military event that occurred in North Waziristan, Pakistan in August 2023",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2023,
+  "credential_country": "Pakistan"
+ },
+ {
+  "id": "event_2021_kebbi_massacre",
+  "name": "2021 Kebbi massacre",
+  "context": "an armed conflict, attack, or military event that occurred in Kebbi State, Nigeria in June 2021",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2021,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_2022_imo_rivers_explosion",
+  "name": "2022 Imo-Rivers explosion",
+  "context": "an accident or disaster that occurred in Southern Nigeria in April 2022",
+  "cohort": "news_accident_disaster",
+  "credential_year": 2022,
+  "credential_country": "Nigeria"
+ },
+ {
+  "id": "event_police_operations_in_the_2022_brazilian_general_election",
+  "name": "Police operations in the 2022 Brazilian general election",
+  "context": "a political event that took place in Brazil in October 2022",
+  "cohort": "news_politics_elections",
+  "credential_year": 2022,
+  "credential_country": "Brazil"
+ },
+ {
+  "id": "event_uvalde_school_shooting",
+  "name": "Uvalde school shooting",
+  "context": "an armed conflict, attack, or military event that occurred in Uvalde, Texas in May 2022",
+  "cohort": "news_conflict_terrorism",
+  "credential_year": 2022,
+  "credential_country": "United States"
+ },
+ {
+  "id": "event_2021_czech_parliamentary_election",
+  "name": "2021 Czech parliamentary election",
+  "context": "a political event that took place in the Czech Republic in October 2021",
+  "cohort": "news_politics_elections",
+  "credential_year": 2021,
+  "credential_country": "Czech Republic"
+ },
+ {
+  "id": "event_2021_uefa_champions_league_final",
+  "name": "2021 UEFA Champions League final",
+  "context": "a sporting event that took place in Porto, Portugal in May 2021",
+  "cohort": "news_sports",
+  "credential_year": 2021,
+  "credential_country": "Portugal"
+ },
+ {
+  "id": "event_royal_commission_into_defence_and_veteran_suicide",
+  "name": "Royal Commission into Defence and Veteran Suicide",
+  "context": "a criminal case or legal proceeding that came to public attention in Australia in July 2021",
+  "cohort": "news_crime_legal",
+  "credential_year": 2021,
+  "credential_country": "Australia"
+ },
+ {
+  "id": "event_2023_nuevo_laredo_military_shooting",
+  "name": "2023 Nuevo Laredo military shooting",
+  "context": "a criminal case or legal proceeding that came to public attention in Nuevo Laredo, Mexico in February 2023",
+  "cohort": "news_crime_legal",
+  "credential_year": 2023,
+  "credential_country": "Mexico"
+ }
+]

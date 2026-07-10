@@ -1,0 +1,450 @@
+{
+ "n": 258,
+ "r2_total_views": 0.133,
+ "cv_total_views": [
+  0.128,
+  0.132
+ ],
+ "r2_peak_views": 0.154,
+ "cv_peak_views": [
+  0.15,
+  0.132
+ ],
+ "r2_eff_duration": 0.028,
+ "cv_eff_duration": [
+  0.018,
+  0.072
+ ],
+ "r2_days_above_10": 0.012,
+ "cv_days_above_10": [
+  0.004,
+  0.046
+ ],
+ "r2_tail_daily": 0.094,
+ "cv_tail_daily": [
+  0.092,
+  0.115
+ ],
+ "deciles": [
+  {
+   "decile": 1,
+   "n": 25,
+   "geomean_views": 2415,
+   "mean_nr": 0.351,
+   "refusal": 0.112
+  },
+  {
+   "decile": 2,
+   "n": 26,
+   "geomean_views": 7395,
+   "mean_nr": 0.354,
+   "refusal": 0.114
+  },
+  {
+   "decile": 3,
+   "n": 26,
+   "geomean_views": 16514,
+   "mean_nr": 0.373,
+   "refusal": 0.118
+  },
+  {
+   "decile": 4,
+   "n": 26,
+   "geomean_views": 39348,
+   "mean_nr": 0.417,
+   "refusal": 0.084
+  },
+  {
+   "decile": 5,
+   "n": 26,
+   "geomean_views": 67583,
+   "mean_nr": 0.402,
+   "refusal": 0.064
+  },
+  {
+   "decile": 6,
+   "n": 25,
+   "geomean_views": 133127,
+   "mean_nr": 0.491,
+   "refusal": 0.068
+  },
+  {
+   "decile": 7,
+   "n": 26,
+   "geomean_views": 251374,
+   "mean_nr": 0.467,
+   "refusal": 0.041
+  },
+  {
+   "decile": 8,
+   "n": 26,
+   "geomean_views": 480323,
+   "mean_nr": 0.462,
+   "refusal": 0.017
+  },
+  {
+   "decile": 9,
+   "n": 26,
+   "geomean_views": 1223071,
+   "mean_nr": 0.475,
+   "refusal": 0.011
+  },
+  {
+   "decile": 10,
+   "n": 26,
+   "geomean_views": 3312033,
+   "mean_nr": 0.481,
+   "refusal": 0.013
+  }
+ ],
+ "gold_length_control": {
+  "r2_base": 0.133,
+  "r2_with_gw": 0.193,
+  "r2_gw_only": 0.001,
+  "slope_lt_given_gw": 0.067,
+  "se_lt_given_gw": 0.01,
+  "beta_gw": -0.036
+ },
+ "channels": [
+  {
+   "decile": 1,
+   "cov": 0.428,
+   "acc": 0.581
+  },
+  {
+   "decile": 2,
+   "cov": 0.431,
+   "acc": 0.555
+  },
+  {
+   "decile": 3,
+   "cov": 0.425,
+   "acc": 0.6
+  },
+  {
+   "decile": 4,
+   "cov": 0.486,
+   "acc": 0.614
+  },
+  {
+   "decile": 5,
+   "cov": 0.465,
+   "acc": 0.684
+  },
+  {
+   "decile": 6,
+   "cov": 0.544,
+   "acc": 0.728
+  },
+  {
+   "decile": 7,
+   "cov": 0.53,
+   "acc": 0.763
+  },
+  {
+   "decile": 8,
+   "cov": 0.516,
+   "acc": 0.832
+  },
+  {
+   "decile": 9,
+   "cov": 0.528,
+   "acc": 0.841
+  },
+  {
+   "decile": 10,
+   "cov": 0.525,
+   "acc": 0.86
+  }
+ ],
+ "peak_vs_duration": {
+  "beta_peak": 0.048,
+  "se_peak": 0.008,
+  "beta_dur": -0.003,
+  "se_dur": 0.009,
+  "r2_joint": 0.155,
+  "cv_joint": [
+   0.142,
+   0.133
+  ],
+  "marg_peak": 0.127,
+  "marg_dur": 0.0
+ },
+ "matched_peak_contrast": [
+  {
+   "peak_tercile": 1,
+   "nr_by_dur_tercile": [
+    0.382,
+    0.36,
+    0.328
+   ],
+   "n": [
+    29,
+    28,
+    29
+   ]
+  },
+  {
+   "peak_tercile": 2,
+   "nr_by_dur_tercile": [
+    0.425,
+    0.455,
+    0.446
+   ],
+   "n": [
+    29,
+    28,
+    29
+   ]
+  },
+  {
+   "peak_tercile": 3,
+   "nr_by_dur_tercile": [
+    0.477,
+    0.503,
+    0.471
+   ],
+   "n": [
+    29,
+    28,
+    29
+   ]
+  }
+ ],
+ "recurring": {
+  "n_recurring": 106,
+  "raw_recurring": 0.414,
+  "raw_singular": 0.436,
+  "adj_delta": -0.057,
+  "se": 0.015,
+  "peak_dur_ctrl": {
+   "beta_peak": 0.074,
+   "se_peak": 0.011,
+   "beta_dur": 0.008,
+   "se_dur": 0.009,
+   "beta_rec": -0.054,
+   "se_rec": 0.015
+  }
+ },
+ "region": {
+  "baseline": "Anglo-America & Oceania",
+  "base_n": 45,
+  "base_raw": 0.438,
+  "rows": [
+   {
+    "group": "East Asia",
+    "n": 31,
+    "raw_mean": 0.399,
+    "coef": -0.034,
+    "se": 0.03
+   },
+   {
+    "group": "Eastern Europe & Russia",
+    "n": 28,
+    "raw_mean": 0.483,
+    "coef": 0.039,
+    "se": 0.028
+   },
+   {
+    "group": "Global",
+    "n": 1,
+    "raw_mean": 0.643,
+    "coef": 0.235,
+    "se": 0.019
+   },
+   {
+    "group": "Latin America",
+    "n": 32,
+    "raw_mean": 0.419,
+    "coef": -0.015,
+    "se": 0.025
+   },
+   {
+    "group": "Middle East & Africa",
+    "n": 35,
+    "raw_mean": 0.455,
+    "coef": 0.008,
+    "se": 0.027
+   },
+   {
+    "group": "South & Southeast Asia",
+    "n": 42,
+    "raw_mean": 0.375,
+    "coef": -0.055,
+    "se": 0.026
+   },
+   {
+    "group": "Western Europe",
+    "n": 44,
+    "raw_mean": 0.429,
+    "coef": -0.012,
+    "se": 0.024
+   }
+  ]
+ },
+ "year": {
+  "delta_2022": -0.011,
+  "se_2022": 0.019,
+  "delta_2023": -0.046,
+  "se_2023": 0.017,
+  "raw": {
+   "2021": 0.445,
+   "2022": 0.443,
+   "2023": 0.398
+  }
+ },
+ "category": [
+  {
+   "category": "accident_disaster",
+   "n": 29,
+   "raw": 0.43,
+   "resid": 0.02
+  },
+  {
+   "category": "business_tech",
+   "n": 8,
+   "raw": 0.493,
+   "resid": 0.063
+  },
+  {
+   "category": "civil_unrest",
+   "n": 21,
+   "raw": 0.478,
+   "resid": 0.056
+  },
+  {
+   "category": "conflict_terrorism",
+   "n": 35,
+   "raw": 0.46,
+   "resid": 0.032
+  },
+  {
+   "category": "crime_legal",
+   "n": 21,
+   "raw": 0.392,
+   "resid": -0.013
+  },
+  {
+   "category": "entertainment_culture",
+   "n": 6,
+   "raw": 0.368,
+   "resid": -0.085
+  },
+  {
+   "category": "natural_disaster",
+   "n": 31,
+   "raw": 0.389,
+   "resid": -0.016
+  },
+  {
+   "category": "politics_elections",
+   "n": 54,
+   "raw": 0.429,
+   "resid": -0.005
+  },
+  {
+   "category": "royalty_ceremony",
+   "n": 9,
+   "raw": 0.493,
+   "resid": 0.062
+  },
+  {
+   "category": "sports",
+   "n": 41,
+   "raw": 0.404,
+   "resid": -0.053
+  }
+ ],
+ "top": [
+  {
+   "t": "Tyre Nichols protests",
+   "nr": 0.846,
+   "views": 155364
+  },
+  {
+   "t": "Owo church attack",
+   "nr": 0.835,
+   "views": 121184
+  },
+  {
+   "t": "2021 East Asia sandstorm",
+   "nr": 0.718,
+   "views": 5215
+  },
+  {
+   "t": "Siege of Mariupol",
+   "nr": 0.701,
+   "views": 2645693
+  },
+  {
+   "t": "2022 Abu Dhabi attack",
+   "nr": 0.683,
+   "views": 43631
+  },
+  {
+   "t": "2023 European Games",
+   "nr": 0.676,
+   "views": 410855
+  },
+  {
+   "t": "2021 Indian Air Force Mil Mi-17 crash",
+   "nr": 0.673,
+   "views": 164719
+  },
+  {
+   "t": "Creeslough explosion",
+   "nr": 0.67,
+   "views": 101428
+  }
+ ],
+ "bottom": [
+  {
+   "t": "2021 South Korean by-elections",
+   "nr": 0.197,
+   "views": 48992,
+   "refusal": 0.0
+  },
+  {
+   "t": "Royal Commission into Defence and Veteran Suicide",
+   "nr": 0.187,
+   "views": 1019,
+   "refusal": 0.06896551724137931
+  },
+  {
+   "t": "2023 Shandong high-altitude object",
+   "nr": 0.185,
+   "views": 23819,
+   "refusal": 0.20689655172413793
+  },
+  {
+   "t": "2022 Sindh local government elections",
+   "nr": 0.178,
+   "views": 11101,
+   "refusal": 0.06896551724137931
+  },
+  {
+   "t": "2022 Malaysian general election",
+   "nr": 0.164,
+   "views": 1306837,
+   "refusal": 0.034482758620689655
+  },
+  {
+   "t": "2023 North Waziristan landmine attack",
+   "nr": 0.155,
+   "views": 1932,
+   "refusal": 0.20689655172413793
+  },
+  {
+   "t": "2021 Kilmarnock incidents",
+   "nr": 0.152,
+   "views": 5250,
+   "refusal": 0.3793103448275862
+  },
+  {
+   "t": "2021 Guangzhou bombing",
+   "nr": 0.114,
+   "views": 12813,
+   "refusal": 0.5172413793103449
+  }
+ ]
+}

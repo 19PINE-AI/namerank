@@ -22,10 +22,14 @@ kept.
 | `t2_9_fractional_citations` | Is h-index dominance attribution-density? | No — name-recurrence across works, not per-paper attribution. → §6.4.1, App. K. |
 | `t2_10_cross_judge` | A Gemini-judge artifact? | No; r 0.87–0.93 across three judges, ladder preserved; in-family lift Gemini +0.06. → §6.7.6, App. L. |
 | `t3_1_cutoff_gradient` | Is the silent zone corpus-timing? | No — intrinsic; matched DiD ≈ 0; ~0.13/yr vintage drift. → §6.7.5, App. J. |
+| `t4_1_news_events` | *(extension cohort)* Does recognition track a directly recorded attention ledger? | Yes (R² 0.13/0.19 gold-adjusted) — via **peak**, not duration; templated series names −0.057. → §3.5 + App. "News-Event Cohort". |
 
-All ten experiments are written into the paper (Sections 6.3.4, 6.4.1,
-6.7.4–6.7.8, and 7.5; Appendices I–O). The limitations
-summary is Appendix P.
+All ten audits are written into the paper (Sections 6.3.4, 6.4.1,
+6.7.4–6.7.8, and 7.5; Appendices I–O), as is the t4_1 news-events extension
+(own Results subsection + appendix). The limitations summary is Appendix P.
+Unlike the audits, t4_1 has its own probe run (258 events × 29 models; 8
+main-run models were unroutable by 2026-07, sub-panel equivalence r=0.994)
+and its own `inputs/`; see its README.
 
 ```bash
 cd <experiment-dir> && python3 analyze.py
