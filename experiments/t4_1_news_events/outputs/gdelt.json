@@ -106,5 +106,851 @@
 "gdelt_sum": 3.2148,
 "gdelt_peak": 0.0971,
 "gdelt_n": 366
+},
+"event_bucha_massacre": {
+"query": "\"Bucha massacre\"",
+"gdelt_sum": 0.4704,
+"gdelt_peak": 0.0681,
+"gdelt_n": 366
+},
+"event_swimming_at_the_2020_summer_olympics": {
+"query": "\"Swimming at the 2020 Summer Olympics\"",
+"gdelt_sum": 0.0187,
+"gdelt_peak": 0.0091,
+"gdelt_n": 366
+},
+"event_2022_malaysian_general_election": {
+"query": "\"Malaysian general election\"",
+"gdelt_sum": 0.0185,
+"gdelt_peak": 0.0026,
+"gdelt_n": 365
+},
+"event_2021_suez_canal_obstruction": {
+"query": "\"Suez Canal obstruction\"",
+"gdelt_sum": 0.0109,
+"gdelt_peak": 0.0022,
+"gdelt_n": 366
+},
+"event_2022_fifa_world_cup_final": {
+"query": "\"FIFA World Cup final\"",
+"gdelt_sum": 1.3207,
+"gdelt_peak": 0.1604,
+"gdelt_n": 365
+},
+"event_death_and_funeral_of_prince_philip_duke_of_edinburgh": {
+"query": "\"Death and funeral of Prince Philip,\"",
+"gdelt_sum": 0.0022,
+"gdelt_peak": 0.0009,
+"gdelt_n": 366
+},
+"event_2022_israeli_legislative_election": {
+"query": "\"Israeli legislative election\"",
+"gdelt_sum": 0.0069,
+"gdelt_peak": 0.0033,
+"gdelt_n": 365
+},
+"event_red_sea_crisis": {
+"query": "\"Red Sea crisis\"",
+"gdelt_sum": 1.6737,
+"gdelt_peak": 0.0761,
+"gdelt_n": 366
+},
+"event_2022_french_legislative_election": {
+"query": "\"French legislative election\"",
+"gdelt_sum": 0.0092,
+"gdelt_peak": 0.0018,
+"gdelt_n": 365
+},
+"event_2021_chilean_general_election": {
+"query": "\"Chilean general election\"",
+"gdelt_sum": 0.0003,
+"gdelt_peak": 0.0003,
+"gdelt_n": 366
+},
+"event_2023_sea_games": {
+"query": "\"SEA Games\"",
+"gdelt_sum": 2.1282,
+"gdelt_peak": 0.0899,
+"gdelt_n": 366
+},
+"event_assassination_of_jovenel_mo_se": {
+"query": "\"Assassination of Jovenel Mo\u00efse\"",
+"gdelt_sum": 2.7206,
+"gdelt_peak": 0.2873,
+"gdelt_n": 366
+},
+"event_surfside_condominium_collapse": {
+"query": "\"Surfside condominium collapse\"",
+"gdelt_sum": 0.5068,
+"gdelt_peak": 0.147,
+"gdelt_n": 366
+},
+"event_hurricane_fiona": {
+"query": "\"Hurricane Fiona\"",
+"gdelt_sum": 6.1575,
+"gdelt_peak": 0.5682,
+"gdelt_n": 365
+},
+"event_2021_european_floods": {
+"query": "\"European floods\"",
+"gdelt_sum": 0.1392,
+"gdelt_peak": 0.026,
+"gdelt_n": 366
+},
+"event_2023_united_nations_climate_change_conference": {
+"query": "\"United Nations Climate Change Conference\"",
+"gdelt_sum": 2.0407,
+"gdelt_peak": 0.091,
+"gdelt_n": 366
+},
+"event_2022_saskatchewan_stabbings": {
+"query": "\"Saskatchewan stabbings\"",
+"gdelt_sum": 0.027,
+"gdelt_peak": 0.0062,
+"gdelt_n": 365
+},
+"event_cyclone_tauktae": {
+"query": "\"Cyclone Tauktae\"",
+"gdelt_sum": 1.74,
+"gdelt_peak": 0.2727,
+"gdelt_n": 366
+},
+"event_2021_western_north_america_heat_wave": {
+"query": "\"Western North America heat wave\"",
+"gdelt_sum": 0.0026,
+"gdelt_peak": 0.0007,
+"gdelt_n": 366
+},
+"event_2023_turkish_parliamentary_election": {
+"query": "\"Turkish parliamentary election\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_european_games": {
+"query": "\"European Games\"",
+"gdelt_sum": 0.4159,
+"gdelt_peak": 0.0085,
+"gdelt_n": 366
+},
+"event_2021_kabul_airport_attack": {
+"query": "\"Kabul airport attack\"",
+"gdelt_sum": 1.0699,
+"gdelt_peak": 0.2617,
+"gdelt_n": 366
+},
+"event_2022_united_nations_climate_change_conference": {
+"query": "\"United Nations Climate Change Conference\"",
+"gdelt_sum": 2.6114,
+"gdelt_peak": 0.106,
+"gdelt_n": 365
+},
+"event_2023_israeli_judicial_reform_protests": {
+"query": "\"Israeli judicial reform protests\"",
+"gdelt_sum": 0.0039,
+"gdelt_peak": 0.0011,
+"gdelt_n": 365
+},
+"event_september_2022_armenia_azerbaijan_clashes": {
+"query": "\"September 2022 Armenia Azerbaijan clashes\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_russian_protests": {
+"query": "\"Russian protests\"",
+"gdelt_sum": 0.0711,
+"gdelt_peak": 0.014,
+"gdelt_n": 366
+},
+"event_2023_jacksonville_shooting": {
+"query": "\"Jacksonville shooting\"",
+"gdelt_sum": 0.6291,
+"gdelt_peak": 0.2833,
+"gdelt_n": 366
+},
+"event_2022_winter_paralympics": {
+"query": "\"Winter Paralympics\"",
+"gdelt_sum": 1.216,
+"gdelt_peak": 0.2058,
+"gdelt_n": 366
+},
+"event_2023_bulgarian_parliamentary_election": {
+"query": "\"Bulgarian parliamentary election\"",
+"gdelt_sum": 0.0015,
+"gdelt_peak": 0.0015,
+"gdelt_n": 366
+},
+"event_karate_at_the_2020_summer_olympics": {
+"query": "\"Karate at the 2020 Summer Olympics\"",
+"gdelt_sum": 0.0018,
+"gdelt_peak": 0.0011,
+"gdelt_n": 366
+},
+"event_2022_mediterranean_games": {
+"query": "\"Mediterranean Games\"",
+"gdelt_sum": 0.1018,
+"gdelt_peak": 0.0051,
+"gdelt_n": 365
+},
+"event_plymouth_shooting": {
+"query": "\"Plymouth shooting\"",
+"gdelt_sum": 0.5455,
+"gdelt_peak": 0.2457,
+"gdelt_n": 366
+},
+"event_2022_covid_19_protests_in_china": {
+"query": "\"COVID 19 protests in China\"",
+"gdelt_sum": 0.011,
+"gdelt_peak": 0.0029,
+"gdelt_n": 365
+},
+"event_bankruptcy_of_ftx": {
+"query": "\"Bankruptcy of FTX\"",
+"gdelt_sum": 0.284,
+"gdelt_peak": 0.0141,
+"gdelt_n": 365
+},
+"event_tornado_outbreak_of_march_31_april_1_2023": {
+"query": "\"Tornado outbreak of March 31 April\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_nobel_peace_prize": {
+"query": "\"Nobel Peace Prize\"",
+"gdelt_sum": 13.5367,
+"gdelt_peak": 1.0872,
+"gdelt_n": 366
+},
+"event_2023_acc_under_19_asia_cup": {
+"query": "\"ACC Under 19 Asia Cup\"",
+"gdelt_sum": 0.0062,
+"gdelt_peak": 0.0023,
+"gdelt_n": 366
+},
+"event_2021_cuban_protests": {
+"query": "\"Cuban protests\"",
+"gdelt_sum": 0.1255,
+"gdelt_peak": 0.0119,
+"gdelt_n": 366
+},
+"event_kazan_school_shooting": {
+"query": "\"Kazan school shooting\"",
+"gdelt_sum": 0.0407,
+"gdelt_peak": 0.0341,
+"gdelt_n": 366
+},
+"event_chinese_taipei_at_the_2020_summer_olympics": {
+"query": "\"Chinese Taipei at the 2020 Summer\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_22_major_league_baseball_lockout": {
+"query": "\"Major League Baseball lockout\"",
+"gdelt_sum": 0.2019,
+"gdelt_peak": 0.024,
+"gdelt_n": 366
+},
+"event_death_and_funeral_of_pope_benedict_xvi": {
+"query": "\"Death and funeral of Pope Benedict\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_brovary_helicopter_crash": {
+"query": "\"Brovary helicopter crash\"",
+"gdelt_sum": 0.0071,
+"gdelt_peak": 0.0027,
+"gdelt_n": 365
+},
+"event_2023_montenegrin_presidential_election": {
+"query": "\"Montenegrin presidential election\"",
+"gdelt_sum": 0.001,
+"gdelt_peak": 0.0006,
+"gdelt_n": 365
+},
+"event_2021_russian_grand_prix": {
+"query": "\"Russian Grand Prix\"",
+"gdelt_sum": 1.4594,
+"gdelt_peak": 0.3509,
+"gdelt_n": 366
+},
+"event_2023_dublin_riot": {
+"query": "\"Dublin riot\"",
+"gdelt_sum": 0.0607,
+"gdelt_peak": 0.006,
+"gdelt_n": 366
+},
+"event_2021_northern_ireland_riots": {
+"query": "\"Northern Ireland riots\"",
+"gdelt_sum": 0.0137,
+"gdelt_peak": 0.0061,
+"gdelt_n": 366
+},
+"event_2022_peruvian_self_coup_attempt": {
+"query": "\"Peruvian self coup attempt\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_bronx_apartment_fire": {
+"query": "\"Bronx apartment fire\"",
+"gdelt_sum": 0.2948,
+"gdelt_peak": 0.0496,
+"gdelt_n": 366
+},
+"event_2023_venezuelan_referendum": {
+"query": "\"Venezuelan referendum\"",
+"gdelt_sum": 0.0419,
+"gdelt_peak": 0.0058,
+"gdelt_n": 366
+},
+"event_2021_indian_air_force_mil_mi_17_crash": {
+"query": "\"Indian Air Force Mil Mi 17\"",
+"gdelt_sum": 0.0004,
+"gdelt_peak": 0.0004,
+"gdelt_n": 366
+},
+"event_2023_paraguayan_general_election": {
+"query": "\"Paraguayan general election\"",
+"gdelt_sum": 0.0008,
+"gdelt_peak": 0.0008,
+"gdelt_n": 366
+},
+"event_tyre_nichols_protests": {
+"query": "\"Tyre Nichols protests\"",
+"gdelt_sum": 0.0196,
+"gdelt_peak": 0.0041,
+"gdelt_n": 365
+},
+"event_cyclone_batsirai": {
+"query": "\"Cyclone Batsirai\"",
+"gdelt_sum": 0.5085,
+"gdelt_peak": 0.0899,
+"gdelt_n": 366
+},
+"event_2023_emilia_romagna_floods": {
+"query": "\"Emilia Romagna floods\"",
+"gdelt_sum": 0.0098,
+"gdelt_peak": 0.0012,
+"gdelt_n": 366
+},
+"event_2022_r_mqi_fire": {
+"query": "\"\u00dcr\u00fcmqi fire\"",
+"gdelt_sum": 0.0022,
+"gdelt_peak": 0.0009,
+"gdelt_n": 365
+},
+"event_2022_state_of_the_union_address": {
+"query": "\"State of the Union Address\"",
+"gdelt_sum": 15.2229,
+"gdelt_peak": 2.2497,
+"gdelt_n": 366
+},
+"event_2023_pakistani_census": {
+"query": "\"Pakistani census\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_owo_church_attack": {
+"query": "\"Owo church attack\"",
+"gdelt_sum": 0.0598,
+"gdelt_peak": 0.0111,
+"gdelt_n": 365
+},
+"event_2023_haryana_riots": {
+"query": "\"Haryana riots\"",
+"gdelt_sum": 0.0067,
+"gdelt_peak": 0.0023,
+"gdelt_n": 366
+},
+"event_2023_rugby_world_cup_final": {
+"query": "\"Rugby World Cup final\"",
+"gdelt_sum": 0.5296,
+"gdelt_peak": 0.0416,
+"gdelt_n": 366
+},
+"event_2021_henan_floods": {
+"query": "\"Henan floods\"",
+"gdelt_sum": 0.0886,
+"gdelt_peak": 0.026,
+"gdelt_n": 366
+},
+"event_creeslough_explosion": {
+"query": "\"Creeslough explosion\"",
+"gdelt_sum": 0.4113,
+"gdelt_peak": 0.1468,
+"gdelt_n": 365
+},
+"event_2023_union_square_riot": {
+"query": "\"Union Square riot\"",
+"gdelt_sum": 0.009,
+"gdelt_peak": 0.0034,
+"gdelt_n": 366
+},
+"event_2021_nrl_grand_final": {
+"query": "\"NRL Grand Final\"",
+"gdelt_sum": 0.2857,
+"gdelt_peak": 0.0436,
+"gdelt_n": 366
+},
+"event_2021_greece_wildfires": {
+"query": "\"Greece wildfires\"",
+"gdelt_sum": 0.6065,
+"gdelt_peak": 0.1088,
+"gdelt_n": 366
+},
+"event_swimming_at_the_2020_summer_olympics_women_s_4_100_metre_med": {
+"query": "\"Swimming at the 2020 Summer Olympics\"",
+"gdelt_sum": 0.0187,
+"gdelt_peak": 0.0091,
+"gdelt_n": 366
+},
+"event_2023_prague_shootings": {
+"query": "\"Prague shootings\"",
+"gdelt_sum": 0.0006,
+"gdelt_peak": 0.0006,
+"gdelt_n": 366
+},
+"event_2021_maharashtra_floods": {
+"query": "\"Maharashtra floods\"",
+"gdelt_sum": 0.0211,
+"gdelt_peak": 0.0041,
+"gdelt_n": 366
+},
+"event_2023_grand_national": {
+"query": "\"Grand National\"",
+"gdelt_sum": 6.1543,
+"gdelt_peak": 0.4723,
+"gdelt_n": 366
+},
+"event_nahel_merzouk_riots": {
+"query": "\"Nahel Merzouk riots\"",
+"gdelt_sum": 0.0011,
+"gdelt_peak": 0.0006,
+"gdelt_n": 366
+},
+"event_heidelberg_university_shooting": {
+"query": "\"Heidelberg University shooting\"",
+"gdelt_sum": 0.0003,
+"gdelt_peak": 0.0003,
+"gdelt_n": 366
+},
+"event_typhoon_doksuri": {
+"query": "\"Typhoon Doksuri\"",
+"gdelt_sum": 1.9271,
+"gdelt_peak": 0.1799,
+"gdelt_n": 366
+},
+"event_2022_bratislava_shooting": {
+"query": "\"Bratislava shooting\"",
+"gdelt_sum": 0.0056,
+"gdelt_peak": 0.0016,
+"gdelt_n": 365
+},
+"event_mariupol_hospital_airstrike": {
+"query": "\"Mariupol hospital airstrike\"",
+"gdelt_sum": 0.0015,
+"gdelt_peak": 0.0006,
+"gdelt_n": 366
+},
+"event_2023_atlanta_shooting": {
+"query": "\"Atlanta shooting\"",
+"gdelt_sum": 0.3605,
+"gdelt_peak": 0.1565,
+"gdelt_n": 366
+},
+"event_death_and_funeral_of_mikhail_gorbachev": {
+"query": "\"Death and funeral of Mikhail Gorbachev\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_hualien_train_derailment": {
+"query": "\"Hualien train derailment\"",
+"gdelt_sum": 0.0017,
+"gdelt_peak": 0.0005,
+"gdelt_n": 366
+},
+"event_2021_kyrgyzstan_tajikistan_clashes": {
+"query": "\"Kyrgyzstan Tajikistan clashes\"",
+"gdelt_sum": 0.0028,
+"gdelt_peak": 0.0016,
+"gdelt_n": 366
+},
+"event_2023_trabuco_canyon_shooting": {
+"query": "\"Trabuco Canyon shooting\"",
+"gdelt_sum": 0.0032,
+"gdelt_peak": 0.0013,
+"gdelt_n": 366
+},
+"event_2021_south_korean_by_elections": {
+"query": "\"South Korean by elections\"",
+"gdelt_sum": 0.0009,
+"gdelt_peak": 0.0003,
+"gdelt_n": 366
+},
+"event_2023_chilean_constitutional_referendum": {
+"query": "\"Chilean constitutional referendum\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_russian_elections": {
+"query": "\"Russian elections\"",
+"gdelt_sum": 0.5731,
+"gdelt_peak": 0.0924,
+"gdelt_n": 366
+},
+"event_2021_piedade_de_caratinga_beechcraft_king_air_crash": {
+"query": "\"Piedade de Caratinga Beechcraft King Air\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_coronation_concert": {
+"query": "\"Coronation Concert\"",
+"gdelt_sum": 3.4797,
+"gdelt_peak": 0.7764,
+"gdelt_n": 366
+},
+"event_february_2022_north_american_winter_storm": {
+"query": "\"February 2022 North American winter storm\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_inauguration_of_javier_milei": {
+"query": "\"Inauguration of Javier Milei\"",
+"gdelt_sum": 0.0158,
+"gdelt_peak": 0.0056,
+"gdelt_n": 366
+},
+"event_sanaa_crowd_crush": {
+"query": "\"Sanaa crowd crush\"",
+"gdelt_sum": 0.0006,
+"gdelt_peak": 0.0006,
+"gdelt_n": 366
+},
+"event_2022_plateau_state_massacres": {
+"query": "\"Plateau State massacres\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_ayacucho_massacre": {
+"query": "\"Ayacucho massacre\"",
+"gdelt_sum": 0.0009,
+"gdelt_peak": 0.0006,
+"gdelt_n": 365
+},
+"event_daunte_wright_protests": {
+"query": "\"Daunte Wright protests\"",
+"gdelt_sum": 0.0711,
+"gdelt_peak": 0.02,
+"gdelt_n": 366
+},
+"event_january_2022_north_american_blizzard": {
+"query": "\"January 2022 North American blizzard\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_juliaca_massacre": {
+"query": "\"Juliaca massacre\"",
+"gdelt_sum": 0.0336,
+"gdelt_peak": 0.03,
+"gdelt_n": 365
+},
+"event_wimbledon_school_crash": {
+"query": "\"Wimbledon school crash\"",
+"gdelt_sum": 0.0431,
+"gdelt_peak": 0.0242,
+"gdelt_n": 366
+},
+"event_29_december_2023_russian_strikes_on_ukraine": {
+"query": "\"29 December 2023 Russian strikes on\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_southwest_airlines_scheduling_crisis": {
+"query": "\"Southwest Airlines scheduling crisis\"",
+"gdelt_sum": 0.0004,
+"gdelt_peak": 0.0004,
+"gdelt_n": 365
+},
+"event_2023_coulson_aviation_boeing_737_crash": {
+"query": "\"Coulson Aviation Boeing 737 crash\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_ankara_bombing": {
+"query": "\"Ankara bombing\"",
+"gdelt_sum": 0.0185,
+"gdelt_peak": 0.0046,
+"gdelt_n": 366
+},
+"event_2023_shandong_high_altitude_object": {
+"query": "\"Shandong high altitude object\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_the_queen_s_platinum_jubilee_beacons": {
+"query": "\"The Queen's Platinum Jubilee Beacons\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_hong_kong_election_committee_subsector_elections": {
+"query": "\"Hong Kong Election Committee Subsector elections\"",
+"gdelt_sum": 0.0014,
+"gdelt_peak": 0.0008,
+"gdelt_n": 366
+},
+"event_typhoon_lan_2023": {
+"query": "\"Typhoon Lan (2023)\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_antisemitic_riots_in_the_north_caucasus": {
+"query": "\"antisemitic riots in the North Caucasus\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_northwest_territories_general_election": {
+"query": "\"Northwest Territories general election\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_october_2021_tehreek_e_labbaik_pakistan_protests": {
+"query": "\"October 2021 Tehreek e Labbaik Pakistan\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_azadi_march": {
+"query": "\"Azadi march\"",
+"gdelt_sum": 1.0064,
+"gdelt_peak": 0.0504,
+"gdelt_n": 365
+},
+"event_2021_rio_de_janeiro_shootout": {
+"query": "\"Rio de Janeiro shootout\"",
+"gdelt_sum": 0.0033,
+"gdelt_peak": 0.0016,
+"gdelt_n": 366
+},
+"event_2022_sindh_local_government_elections": {
+"query": "\"Sindh local government elections\"",
+"gdelt_sum": 0.0401,
+"gdelt_peak": 0.006,
+"gdelt_n": 365
+},
+"event_july_2023_tel_aviv_attack": {
+"query": "\"July 2023 Tel Aviv attack\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_saudades_massacre": {
+"query": "\"Saudades massacre\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_2023_philippine_sugar_crisis": {
+"query": "\"Philippine sugar crisis\"",
+"gdelt_sum": 0.0007,
+"gdelt_peak": 0.0007,
+"gdelt_n": 365
+},
+"event_2023_south_america_heat_wave": {
+"query": "\"South America heat wave\"",
+"gdelt_sum": 0.0013,
+"gdelt_peak": 0.0008,
+"gdelt_n": 366
+},
+"event_kostroma_caf_fire": {
+"query": "\"Kostroma caf\u00e9 fire\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_march_4_justice": {
+"query": "\"March 4 Justice\"",
+"gdelt_sum": 0.4794,
+"gdelt_peak": 0.0709,
+"gdelt_n": 366
+},
+"event_2022_guizhou_bus_crash": {
+"query": "\"Guizhou bus crash\"",
+"gdelt_sum": 0.0057,
+"gdelt_peak": 0.0029,
+"gdelt_n": 365
+},
+"event_2022_indonesian_student_protests": {
+"query": "\"Indonesian student protests\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_ya_an_earthquake": {
+"query": "\"Ya'an earthquake\"",
+"gdelt_sum": 0.0037,
+"gdelt_peak": 0.002,
+"gdelt_n": 365
+},
+"event_gaza_war": {
+"query": "\"Gaza war\"",
+"gdelt_sum": 32.3105,
+"gdelt_peak": 0.4121,
+"gdelt_n": 366
+},
+"event_2023_jaipur_express_killings": {
+"query": "\"Jaipur Express killings\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_saint_henri_sainte_anne_provincial_by_election": {
+"query": "\"Saint Henri Sainte Anne provincial by\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2021_women_s_state_of_origin": {
+"query": "\"Women's State of Origin\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_mexico_city_metro_train_crash": {
+"query": "\"Mexico City Metro train crash\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_turkish_super_cup": {
+"query": "\"Turkish Super Cup\"",
+"gdelt_sum": 0.0053,
+"gdelt_peak": 0.0018,
+"gdelt_n": 365
+},
+"event_2023_vote_of_no_confidence_in_the_government_of_pedro_s_nche": {
+"query": "\"vote of no confidence in the\"",
+"gdelt_sum": 0.4282,
+"gdelt_peak": 0.0129,
+"gdelt_n": 365
+},
+"event_afaka_kidnapping": {
+"query": "\"Afaka kidnapping\"",
+"gdelt_sum": 0.0021,
+"gdelt_peak": 0.0005,
+"gdelt_n": 366
+},
+"event_2023_marseille_building_collapse": {
+"query": "\"Marseille building collapse\"",
+"gdelt_sum": 0.1663,
+"gdelt_peak": 0.0876,
+"gdelt_n": 366
+},
+"event_storm_franklin": {
+"query": "\"Storm Franklin\"",
+"gdelt_sum": 1.1917,
+"gdelt_peak": 0.6178,
+"gdelt_n": 366
+},
+"event_2021_east_asia_sandstorm": {
+"query": "\"East Asia sandstorm\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_kusel_shooting": {
+"query": "\"Kusel shooting\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_detroit_casino_strike": {
+"query": "\"Detroit casino strike\"",
+"gdelt_sum": 0.0105,
+"gdelt_peak": 0.007,
+"gdelt_n": 366
+},
+"event_2021_imperial_county_car_crash": {
+"query": "\"Imperial County car crash\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_late_december_2021_bahia_floods": {
+"query": "\"Late December 2021 Bahia floods\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_moscow_multifunctional_center_shooting": {
+"query": "\"Moscow Multifunctional Center shooting\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_central_american_and_caribbean_beach_games": {
+"query": "\"Central American and Caribbean Beach Games\"",
+"gdelt_sum": 0.0009,
+"gdelt_peak": 0.0006,
+"gdelt_n": 365
+},
+"event_cpc_and_world_political_parties_summit": {
+"query": "\"CPC and World Political Parties Summit\"",
+"gdelt_sum": 0.1277,
+"gdelt_peak": 0.0417,
+"gdelt_n": 366
+},
+"event_2021_sudanese_coup_d_tat": {
+"query": "\"Sudanese coup d'\u00e9tat\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_astore_avalanche": {
+"query": "\"Astore avalanche\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2023_north_waziristan_landmine_attack": {
+"query": "\"North Waziristan landmine attack\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_2022_imo_rivers_explosion": {
+"query": "\"Imo Rivers explosion\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_police_operations_in_the_2022_brazilian_general_election": {
+"query": "\"Police operations in the 2022 Brazilian\"",
+"gdelt_sum": 0.0,
+"gdelt_peak": 0.0,
+"gdelt_n": 0
+},
+"event_uvalde_school_shooting": {
+"query": "\"Uvalde school shooting\"",
+"gdelt_sum": 6.1432,
+"gdelt_peak": 0.3868,
+"gdelt_n": 365
 }
 }

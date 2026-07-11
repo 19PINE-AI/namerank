@@ -1,271 +1,271 @@
 {
- "per_entity_corr": 0.99432,
- "mean_shift": 0.0071,
- "max_abs_shift": 0.1172,
+ "per_entity_corr": 0.99343,
+ "mean_shift": 0.0106,
+ "max_abs_shift": 0.1401,
  "cohorts": {
   "reference_pilot": {
    "n": 37,
    "full": 0.452,
-   "sub29": 0.466
+   "sub28": 0.466
   },
   "ai_startup_or_company": {
    "n": 102,
    "full": 0.638,
-   "sub29": 0.651
+   "sub28": 0.65
   },
   "conference": {
    "n": 30,
    "full": 0.61,
-   "sub29": 0.611
+   "sub28": 0.611
   },
   "award": {
    "n": 15,
    "full": 0.772,
-   "sub29": 0.781
+   "sub28": 0.779
   },
   "oss_project": {
    "n": 184,
    "full": 0.519,
-   "sub29": 0.524
+   "sub28": 0.521
   },
   "research_paper": {
    "n": 298,
    "full": 0.625,
-   "sub29": 0.641
+   "sub28": 0.64
   },
   "named_method": {
    "n": 73,
    "full": 0.557,
-   "sub29": 0.562
+   "sub28": 0.561
   },
   "benchmark": {
    "n": 47,
    "full": 0.747,
-   "sub29": 0.761
+   "sub28": 0.759
   },
   "foundation_model": {
    "n": 107,
    "full": 0.518,
-   "sub29": 0.531
+   "sub28": 0.529
   },
   "ai_hardware": {
    "n": 20,
    "full": 0.73,
-   "sub29": 0.741
+   "sub28": 0.739
   },
   "database_or_data_system": {
    "n": 30,
    "full": 0.773,
-   "sub29": 0.778
+   "sub28": 0.777
   },
   "dataset": {
    "n": 45,
    "full": 0.725,
-   "sub29": 0.745
+   "sub28": 0.743
   },
   "programming_language": {
    "n": 29,
    "full": 0.779,
-   "sub29": 0.791
+   "sub28": 0.791
   },
   "cmo_china_gold": {
    "n": 131,
    "full": 0.302,
-   "sub29": 0.281
+   "sub28": 0.29
   },
   "cpho_china_first_prize": {
    "n": 50,
    "full": 0.182,
-   "sub29": 0.152
+   "sub28": 0.158
   },
   "cs_faculty": {
    "n": 698,
    "full": 0.417,
-   "sub29": 0.436
+   "sub28": 0.44
   },
   "deepseek_v3_author": {
    "n": 69,
    "full": 0.178,
-   "sub29": 0.187
+   "sub28": 0.194
   },
   "mid_tier_gov_ai_policy": {
    "n": 42,
    "full": 0.803,
-   "sub29": 0.818
+   "sub28": 0.818
   },
   "gpt5_system_card_author": {
    "n": 80,
    "full": 0.042,
-   "sub29": 0.045
+   "sub28": 0.047
   },
   "icpc_world_finals_gold": {
    "n": 18,
    "full": 0.61,
-   "sub29": 0.614
+   "sub28": 0.633
   },
   "long_tail_researcher_ikp": {
    "n": 159,
    "full": 0.158,
-   "sub29": 0.152
+   "sub28": 0.158
   },
   "imo_gold": {
    "n": 197,
    "full": 0.362,
-   "sub29": 0.34
+   "sub28": 0.352
   },
   "ioi_gold": {
    "n": 68,
    "full": 0.341,
-   "sub29": 0.326
+   "sub28": 0.336
   },
   "mid_tier_founder": {
    "n": 48,
    "full": 0.526,
-   "sub29": 0.542
+   "sub28": 0.541
   },
   "mid_tier_product": {
    "n": 88,
    "full": 0.603,
-   "sub29": 0.614
+   "sub28": 0.613
   },
   "mid_tier_actor": {
    "n": 123,
    "full": 0.536,
-   "sub29": 0.543
+   "sub28": 0.542
   },
   "mid_tier_architect": {
    "n": 36,
    "full": 0.255,
-   "sub29": 0.256
+   "sub28": 0.26
   },
   "mid_tier_artist": {
    "n": 45,
    "full": 0.774,
-   "sub29": 0.788
+   "sub28": 0.785
   },
   "mid_tier_athlete": {
    "n": 134,
    "full": 0.477,
-   "sub29": 0.487
+   "sub28": 0.484
   },
   "mid_tier_book": {
    "n": 130,
    "full": 0.363,
-   "sub29": 0.37
+   "sub28": 0.368
   },
   "mid_tier_chef": {
    "n": 47,
    "full": 0.645,
-   "sub29": 0.655
+   "sub28": 0.653
   },
   "mid_tier_comedian": {
    "n": 46,
    "full": 0.632,
-   "sub29": 0.645
+   "sub28": 0.64
   },
   "mid_tier_filmmaker": {
    "n": 38,
    "full": 0.786,
-   "sub29": 0.8
+   "sub28": 0.796
   },
   "mid_tier_historical": {
    "n": 105,
    "full": 0.622,
-   "sub29": 0.63
+   "sub28": 0.628
   },
   "mid_tier_journalist": {
    "n": 84,
    "full": 0.512,
-   "sub29": 0.52
+   "sub28": 0.518
   },
   "mid_tier_medical": {
    "n": 44,
    "full": 0.603,
-   "sub29": 0.612
+   "sub28": 0.611
   },
   "mid_tier_musician": {
    "n": 64,
    "full": 0.692,
-   "sub29": 0.707
+   "sub28": 0.701
   },
   "mid_tier_online_course": {
    "n": 40,
    "full": 0.434,
-   "sub29": 0.439
+   "sub28": 0.439
   },
   "mid_tier_oss_maintainer": {
    "n": 51,
    "full": 0.525,
-   "sub29": 0.544
+   "sub28": 0.543
   },
   "mid_tier_podcast": {
    "n": 57,
    "full": 0.427,
-   "sub29": 0.433
+   "sub28": 0.432
   },
   "mid_tier_politician": {
    "n": 103,
    "full": 0.356,
-   "sub29": 0.364
+   "sub28": 0.361
   },
   "mid_tier_religious": {
    "n": 30,
    "full": 0.486,
-   "sub29": 0.49
+   "sub28": 0.486
   },
   "mid_tier_writer": {
    "n": 194,
    "full": 0.519,
-   "sub29": 0.524
+   "sub28": 0.523
   },
   "mid_tier_vc": {
    "n": 31,
    "full": 0.402,
-   "sub29": 0.407
+   "sub28": 0.411
   },
   "msra_phd_fellowship": {
    "n": 237,
    "full": 0.343,
-   "sub29": 0.345
+   "sub28": 0.356
   },
   "noi_china_gold": {
    "n": 29,
    "full": 0.368,
-   "sub29": 0.353
+   "sub28": 0.366
   },
   "long_tail_researcher_openalex": {
    "n": 771,
    "full": 0.464,
-   "sub29": 0.481
+   "sub28": 0.491
   },
   "long_tail_paper": {
    "n": 499,
    "full": 0.368,
-   "sub29": 0.366
+   "sub28": 0.373
   },
   "putnam_fellow": {
    "n": 35,
    "full": 0.608,
-   "sub29": 0.603
+   "sub28": 0.619
   },
   "rhodes_scholar": {
    "n": 36,
    "full": 0.315,
-   "sub29": 0.301
+   "sub28": 0.311
   },
   "mid_tier_yc_company": {
    "n": 25,
    "full": 0.101,
-   "sub29": 0.083
+   "sub28": 0.086
   }
  },
  "reference": {
-  "nanogpt": 0.735,
-  "flashattention": 0.629,
-  "sam_altman": 0.631,
-  "tianshou": 0.415,
-  "geoffrey_hinton": 0.638,
-  "langchain": 0.509,
-  "vllm": 0.558
+  "nanogpt": 0.736,
+  "flashattention": 0.623,
+  "sam_altman": 0.629,
+  "tianshou": 0.408,
+  "geoffrey_hinton": 0.635,
+  "langchain": 0.506,
+  "vllm": 0.552
  }
 }

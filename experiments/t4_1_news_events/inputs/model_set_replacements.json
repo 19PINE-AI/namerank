@@ -1,0 +1,10 @@
+[
+  {"id": "claude-fable-5-think", "openrouter_id": "anthropic/claude-fable-5", "thinking": true, "vendor": "anthropic", "family": "claude", "lab": "Anthropic"},
+  {"id": "glm-5.2-think", "openrouter_id": "z-ai/glm-5.2", "thinking": true, "vendor": "zhipu", "family": "glm", "lab": "Zhipu"},
+  {"id": "qwen3.7-max-think", "openrouter_id": "qwen/qwen3.7-max", "thinking": true, "vendor": "alibaba", "family": "qwen3.7", "lab": "Alibaba"},
+  {"id": "kimi-k2.7-code-think", "openrouter_id": "moonshotai/kimi-k2.7-code", "thinking": true, "vendor": "moonshot", "family": "kimi", "lab": "Moonshot"},
+  {"id": "minimax-m3-think", "openrouter_id": "minimax/minimax-m3", "thinking": true, "vendor": "minimax", "family": "minimax", "lab": "Minimax"},
+  {"id": "step-3.7-flash-think", "openrouter_id": "stepfun/step-3.7-flash", "thinking": true, "vendor": "stepfun", "family": "step", "lab": "StepFun"},
+  {"id": "nemotron-3-ultra-think", "openrouter_id": "nvidia/nemotron-3-ultra-550b-a55b", "thinking": true, "vendor": "nvidia", "family": "nemotron", "lab": "Nvidia"},
+  {"id": "nemotron-3-nano-30b-think", "openrouter_id": "nvidia/nemotron-3-nano-30b-a3b", "thinking": true, "vendor": "nvidia", "family": "nemotron", "lab": "Nvidia"}
+]

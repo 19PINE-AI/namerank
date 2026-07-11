@@ -90,6 +90,16 @@ def main() -> None:
         covs[r["entity_id"]].append(float(r["coverage"]))
         accs[r["entity_id"]].append(float(r["accuracy"]))
 
+    # panel composition: survivors (main-run models) vs 2026-07 replacements
+    repl_path = INP / "model_set_replacements.json"
+    repl_ids = ({m["id"] for m in json.loads(repl_path.read_text())}
+                if repl_path.exists() else set())
+    per_old: dict[str, list] = defaultdict(list)
+    per_new: dict[str, list] = defaultdict(list)
+    for r in csv.DictReader(open(OUT / "event_summary.csv", encoding="utf-8")):
+        (per_new if r["model_id"] in repl_ids else per_old)[
+            r["entity_id"]].append(float(r["score"]))
+
     rows = []
     for eid, scores in per_ent.items():
         if eid not in meta or len(scores) < 25:
@@ -117,6 +127,25 @@ def main() -> None:
     rows.sort(key=lambda r: -r["namerank"])
     print(f"n = {len(rows)} events with full panel records\n")
 
+    # panel-replacement invariance: survivor-29 mean vs replacement-8 mean
+    if repl_ids:
+        both = [(float(np.mean(per_old[r["id"]])), float(np.mean(per_new[r["id"]])))
+                for r in rows if per_new.get(r["id"]) and len(per_new[r["id"]]) >= 6]
+        if len(both) > 30:
+            o = np.array([b[0] for b in both])
+            nw = np.array([b[1] for b in both])
+            r_panels = float(np.corrcoef(o, nw)[0, 1])
+            print(f"Panel invariance: survivor-28 vs replacement-8 per-event "
+                  f"r = {r_panels:.3f}, mean shift = {float(np.mean(nw - o)):+.3f} "
+                  f"(n={len(both)})\n")
+            res_panel = {"r": round(r_panels, 3),
+                         "mean_shift": round(float(np.mean(nw - o)), 3),
+                         "n": len(both)}
+        else:
+            res_panel = None
+    else:
+        res_panel = None
+
     with open(OUT / "event_namerank.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
@@ -130,6 +159,8 @@ def main() -> None:
     ld10 = np.array([math.log10(max(r["days_above_10"], 1)) for r in rows])
 
     res: dict = {"n": len(rows)}
+    if res_panel:
+        res["panel_invariance"] = res_panel
 
     # ── 1. dose-response ──────────────────────────────────────────
     print("=== 1. Dose-response: NameRank ~ log10(attention) ===")

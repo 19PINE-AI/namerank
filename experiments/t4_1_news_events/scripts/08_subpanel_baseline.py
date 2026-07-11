@@ -1,8 +1,8 @@
-"""Recompute main-run cohort means on the event run's 29-model sub-panel.
+"""Recompute main-run cohort means on the event run's surviving sub-panel.
 
 8 of the 37 main-run models are no longer routable (see 06_run_probe.py), so
-the event cohort is scored by a 29-model panel. Any placement of event scores
-against main-run cohorts must use main-run NameRank recomputed on the same 29
+the event cohort is scored by the surviving main-run sub-panel. Any placement of event scores
+against main-run cohorts must use main-run NameRank recomputed on the same surviving
 models. This script derives those baselines from the released per-record file
 data/raw/pilot_summary_en.csv.gz and reports how little the sub-panel moves
 the main-run numbers (per-entity correlation, cohort-mean shifts).
@@ -27,6 +27,7 @@ sys.path.insert(0, str(HERE / "scripts"))
 DEAD_MODELS = {
     "ernie-4.5-300b-a47b", "mistral-large", "mistral-medium-3.1",
     "ministral-3b", "kimi-k2", "grok-4", "glm-4-32b", "llama-3.2-1b",
+    "grok-4.20-think",  # xAI credits exhausted mid-run; dropped from events panel
 }
 
 
@@ -52,7 +53,7 @@ def main() -> None:
     r = float(np.corrcoef(xf, xs)[0, 1])
     mean_shift = float(np.mean(xs - xf))
     max_shift = float(np.max(np.abs(xs - xf)))
-    print(f"n={len(common)} entities; per-entity corr full-vs-29 = {r:.5f}")
+    print(f"n={len(common)} entities; per-entity corr full-vs-28 = {r:.5f}")
     print(f"mean shift = {mean_shift:+.4f}, max |shift| = {max_shift:.3f}")
 
     coh_full: dict[str, list] = defaultdict(list)
@@ -63,11 +64,11 @@ def main() -> None:
             coh_full[c].append(per_full[e])
             coh_sub[c].append(per_sub[e])
     cohorts = {c: {"n": len(v), "full": round(float(np.mean(v)), 3),
-                   "sub29": round(float(np.mean(coh_sub[c])), 3)}
+                   "sub28": round(float(np.mean(coh_sub[c])), 3)}
                for c, v in coh_full.items() if len(v) >= 10}
-    for c in sorted(cohorts, key=lambda c: -cohorts[c]["sub29"])[:12]:
+    for c in sorted(cohorts, key=lambda c: -cohorts[c]["sub28"])[:12]:
         d = cohorts[c]
-        print(f"  {c:34s} n={d['n']:<5} full={d['full']:.3f} sub29={d['sub29']:.3f}")
+        print(f"  {c:34s} n={d['n']:<5} full={d['full']:.3f} sub28={d['sub28']:.3f}")
 
     out = {"per_entity_corr": round(r, 5), "mean_shift": round(mean_shift, 4),
            "max_abs_shift": round(max_shift, 4), "cohorts": cohorts,

@@ -9,9 +9,13 @@ Panel note (2026-07): 8 of the 37 main-run models are no longer routable on
 OpenRouter (provider churn: ernie-4.5-300b-a47b, mistral-large-2411,
 mistral-medium-3.1, ministral-3b, kimi-k2, grok-4, glm-4-32b, llama-3.2-1b);
 they are skipped. grok-4.20-think is recovered via the direct xAI API
-(grok-4.20-0309-reasoning). Event NameRank is therefore a 29-model panel
-mean; any level comparison against the main run must recompute main-run
-scores on the same 29-model sub-panel.
+(grok-4.20-0309-reasoning). The 8 dead models are replaced by the
+representative July-2026 releases evaluated in IKP v2
+(inputs/model_set_replacements.json: Claude Fable 5, GLM-5.2, Qwen3.7-Max,
+Kimi-K2.7-code, MiniMax-M3, Step-3.7-Flash, Nemotron-3-Ultra,
+Nemotron-3-Nano-30b), restoring a 37-model panel. Any level comparison
+against the main run must recompute main-run scores on the 29-model
+surviving sub-panel.
 
 Usage: python 06_run_probe.py [--parallel 12] [--max-entities N] [--dry-run]
 """
@@ -35,16 +39,19 @@ from run_probe import (call_judge, call_probed_model, cosine,  # noqa: E402
 from openai import OpenAI  # noqa: E402
 from google import genai  # noqa: E402
 
-# Models with no routable OpenRouter endpoint as of 2026-07.
+# Models with no routable OpenRouter endpoint as of 2026-07, plus
+# grok-4.20-think: initially recovered via the direct xAI API
+# (grok-4.20-0309-reasoning), but the xAI account exhausted its credits at
+# 143/258 events during the 2026-07-11 run and OpenRouter has no allowed
+# Grok provider, so its partial coverage is discarded from the released
+# summary (a model must cover the full cohort to enter the panel mean).
 DEAD_MODELS = {
     "ernie-4.5-300b-a47b", "mistral-large", "mistral-medium-3.1",
     "ministral-3b", "kimi-k2", "grok-4", "glm-4-32b", "llama-3.2-1b",
+    "grok-4.20-think",
 }
 # Models recovered via a direct vendor API: id -> (env key, base_url, model).
-DIRECT_ROUTES = {
-    "grok-4.20-think": ("XAI_API_KEY", "https://api.x.ai/v1",
-                        "grok-4.20-0309-reasoning"),
-}
+DIRECT_ROUTES = {}
 
 
 def main() -> None:
@@ -62,6 +69,9 @@ def main() -> None:
 
     models = json.loads((main_inputs / "model_set.json").read_text())
     models = [m for m in models if m["id"] not in DEAD_MODELS]
+    repl_path = inputs / "model_set_replacements.json"
+    if repl_path.exists():
+        models += json.loads(repl_path.read_text())
     entities = json.loads((inputs / "event_entities.json").read_text())
     gold = json.loads((inputs / "event_gold.json").read_text())
     probe_tpl = (main_inputs / "probe_template_en.txt").read_text()
