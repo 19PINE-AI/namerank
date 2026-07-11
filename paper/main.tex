@@ -225,21 +225,21 @@ The cross-domain placement is the headline result. Table~\ref{tab:headline-place
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Selected cross-domain entities on a single NameRank axis, spanning the universal, discriminative, and silent zones.}
+\caption{Selected cross-domain entities on a single NameRank axis, spanning the universal, discriminative, and silent zones. Diagnostic reference-set entities (Altman, Hinton, Karpathy, and below) carry deliberately high-detail gold answers, which cap coverage for any $150$-word response---levels are gold-conditional (Sections~\ref{sec:results-events}, \ref{sec:results-synthetic}), so even universally known figures sit near $0.6$ here.}
 \label{tab:headline-placement}
 \begin{tabular}{lrl}
 \toprule
 Entity & NameRank & Role \\
 \midrule
 Yuval Noah Harari & 1.00 & best-selling author \\
-Sam Altman & 0.95 & CEO, OpenAI \\
-Geoffrey Hinton & 0.93 & deep-learning pioneer \\
 Aravind Srinivas & 0.66 & CEO, Perplexity \\
+Geoffrey Hinton & 0.62 & deep-learning pioneer \\
+Sam Altman & 0.61 & CEO, OpenAI \\
 Andrej Karpathy & 0.61 & founder, Eureka Labs \\
 Tri Dao & 0.53 & FlashAttention author; Princeton faculty \\
+Suresh Kumar & 0.52 & CTO, Walmart \\
 Tianshou & 0.42 & open-source RL library \\
 Jiayi Weng & 0.33 & Tianshou author; OpenAI engineer \\
-Suresh Kumar & 0.27 & CTO, Walmart \\
 tuixue.online & 0.25 & visa-monitoring website, ${\sim}1$M users \\
 Bojie Li & 0.09 & this paper's first author \\
 GPT-5 system-card authors & 0.04 & cohort mean over $80$ contributors \\
@@ -272,7 +272,7 @@ We measure nine prestigious competition and fellowship credentials---each once a
 
 \subsubsection{The artifact-over-creator inversion}
 
-For $11$ verified (creator, artifact) pairs we measure both members independently (Table~\ref{tab:inversion}). In $8$ of the $11$ pairs, the artifact out-ranks its creator. The three exceptions are senior leaders of large, young organizations (DeepMind, Thinking Machines Lab, Perplexity), where the leader accumulated independent corpus presence before the organization existed. For independent creators of single artifacts---Datasette, nanoGPT, Tianshou, LangChain, Cursor, FlashAttention---\emph{the artifact uniformly exceeds the creator}.
+For $11$ verified (creator, artifact) pairs we measure both members independently (Table~\ref{tab:inversion}). In $8$ of the $11$ pairs, the artifact out-ranks its creator.\footnote{Artifact rows use the bare product name as it circulates in text (\emph{Perplexity}, \emph{Cursor}). The release also contains disambiguated variants---\emph{Perplexity AI (company)} scores $0.776$ and \emph{Cursor (company)} $0.840$, far above the bare names ($0.193$, $0.305$)---because qualification removes the collision with the perplexity metric and the UI cursor. The bare-name choice is conservative for the inversion count: it depresses the artifact side, and under the qualified variants the Srinivas/Perplexity exception itself flips, making $9$ of $11$ pairs invert. The collision penalty on bare artifact names is not a nuisance term; it is the name-uniqueness mechanism (Sections~\ref{sec:results-events}, \ref{sec:related}) acting on artifacts.} The three exceptions are senior leaders of large, young organizations (DeepMind, Thinking Machines Lab, Perplexity), where the leader accumulated independent corpus presence before the organization existed. For independent creators of single artifacts---Datasette, nanoGPT, Tianshou, LangChain, Cursor, FlashAttention---\emph{the artifact uniformly exceeds the creator}.
 
 \begin{table}[!htbp]
 \centering
@@ -341,7 +341,7 @@ A per-response signature points the same way: the panel models that mention Tian
 \subsubsection{Context injection corroborates the mechanism}
 \label{sec:results-mediation-causal}
 
-To manipulate the artifact mention directly, we re-probed all $11$ pairs under a controlled intervention: arm~A uses a role-only disambiguating context for the creator; arm~B appends one clause naming the artifact (e.g., ``creator of Tianshou''), holding everything else fixed. Table~\ref{tab:injection} reports the per-pair lift. Injecting the artifact name raises creator NameRank by a mean of $+0.058$, positive in $8$ of $11$ pairs, and the effect lands exactly where the observational analysis predicts: largest for creators the panel barely stores (Jiayi Weng), null or negative for senior leaders whose recognition is already saturated. By model tier, the lift grows monotonically as capability decreases---frontier-reasoning models gain almost nothing, small models gain the most---so naming the artifact is load-bearing precisely for models that have not independently stored the creator.
+To manipulate the artifact mention directly, we re-probed all $11$ pairs under a controlled intervention: arm~A uses a role-only disambiguating context for the creator; arm~B appends one clause naming the artifact (e.g., ``creator of Tianshou''), holding everything else fixed. Table~\ref{tab:injection} reports the per-pair lift. Injecting the artifact name raises creator NameRank by a mean of $+0.058$, positive in $8$ of $11$ pairs, and the effect lands exactly where the observational analysis predicts: largest for creators the panel barely stores (Jiayi Weng), null or negative for senior leaders whose recognition is already saturated. By model tier, the lift grows as capability decreases---from $+0.008$ for frontier-reasoning models to ${\sim}+0.10$ for mid-weight and small models---so naming the artifact is load-bearing precisely for models that have not independently stored the creator.
 
 \begin{table}[!htbp]
 \centering
@@ -386,7 +386,7 @@ On the OpenAlex working-researcher cohort ($n = 771$, with bibliometrics from Op
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig3_external.pdf}
-    \caption{$h$-index dominates raw citations as a NameRank predictor ($n = 771$ OpenAlex researchers). \textbf{(a)}~NameRank against $\log_{10}(h\text{-index})$ (blue) and $\log_{10}(\text{citations})$ (red): the $h$-index fit explains $R^2 = 0.40$ of within-cohort variance against $0.14$ for citations, and the advantage persists out of sample ($10$-fold CV $R^2 = 0.38$ vs.\ $0.12$; Appendix~\ref{app:external}). \textbf{(b)}~Mean NameRank by decile of each bibliometric: the $h$-index ladder rises monotonically from $0.22$ to $0.60$, while the citation ladder is much flatter. In joint regression, citations contribute zero marginal $R^2$.}
+    \caption{$h$-index dominates raw citations as a NameRank predictor ($n = 771$ OpenAlex researchers). \textbf{(a)}~NameRank against $\log_{10}(h\text{-index})$ (blue) and $\log_{10}(\text{citations})$ (red): the $h$-index fit explains $R^2 = 0.40$ of within-cohort variance against $0.14$ for citations, and the advantage persists out of sample ($10$-fold CV $R^2 = 0.38$ vs.\ $0.12$; Appendix~\ref{app:external}). \textbf{(b)}~Mean NameRank by decile of each bibliometric: the $h$-index ladder rises from $0.22$ to $0.60$ (near-monotonically, with a single dip at D9), while the citation ladder is much flatter. In joint regression, citations contribute zero marginal $R^2$.}
     \label{fig:external}
 \end{figure}
 
@@ -395,7 +395,7 @@ On the OpenAlex working-researcher cohort ($n = 771$, with bibliometrics from Op
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_bibliometric_decomp.pdf}
-    \caption{Bibliometric predictor decomposition ($n = 771$). \textbf{(a)}~Sole-predictor $R^2$ on NameRank: if $h$-index dominated by discounting per-paper attribution, the attribution-weighted measures (fractional and first/last-author citations) would match it; instead they barely beat raw citations, and mean authors-per-paper carries no signal. The count of distinct works ($n_\text{works}$) is the closest cousin of $h$-index. \textbf{(b)}~Mean NameRank by predictor decile: $h$-index and $n_\text{works}$ rise steeply and monotonically; fractional citations track raw citations on a flat slope.}
+    \caption{Bibliometric predictor decomposition ($n = 771$). \textbf{(a)}~Sole-predictor $R^2$ on NameRank: if $h$-index dominated by discounting per-paper attribution, the attribution-weighted measures (fractional and first/last-author citations) would match it; instead they barely beat raw citations, and mean authors-per-paper carries no signal. The count of distinct works ($n_\text{works}$) is the closest cousin of $h$-index. \textbf{(b)}~Mean NameRank by predictor decile: $h$-index and $n_\text{works}$ rise steeply and near-monotonically; fractional citations track raw citations on a flat slope.}
     \label{fig:bibliometric-decomp}
 \end{figure}
 
@@ -565,7 +565,7 @@ The findings above rest on three design choices---an LLM judge over embedding si
 \toprule
 \textbf{Threat} & \textbf{Check} & \textbf{Outcome} & \\
 \midrule
-Score reflects panel composition, not the entity & Variance decomposition over all $211{,}603$ records & Entity variance ${\approx}3.3\times$ model variance & \S\ref{sec:val-variance} \\
+Score reflects panel composition, not the entity & Variance decomposition over all $211{,}603$ records; disjoint-panel re-score of the event cohort & Entity variance ${\approx}3.3\times$ model variance; eight $2026$ replacement models rank events at $r = 0.905$ with the surviving panel (\S\ref{sec:results-events}) & \S\ref{sec:val-variance} \\
 Fluent hallucinators inflate scores & Refusal and generosity structure across the panel & Accuracy axis zeroes wrong-person bios; refusal rate tracks the silent zone & \S\ref{sec:val-refusal} \\
 A judge-free embedding score would suffice & Judge-vs-embedding comparison, $175$K records & Embedding similarity is flat across judge scores and credits hallucinations & \S\ref{sec:val-embedding} \\
 Findings are an artifact of probe wording & Four-template re-probe, $29{,}600$ records & Rankings invariant ($r \geq 0.93$); absolute levels are template-conditional & \S\ref{sec:results-prompt} \\
@@ -719,7 +719,7 @@ Appendix~\ref{app:limitations} tabulates each caveat with its direction and miti
 \subsection{Registered Predictions for Future Re-Runs}
 \label{sec:predictions}
 
-NameRank is a snapshot, so a re-run each release cycle yields a longitudinal trajectory. Because of the ${\sim}0.13$/yr vintage drift, we state predictions as within-run \emph{relative} gaps (so the drift cancels) and register three falsifiable ones for the 2027 fleet: (i)~the IMO-gold-vs-OpenAlex gap widens from $-0.102$ to $\leq -0.13$ within 12 months (named-artifact-attached careers accumulate text, credential-only cohorts do not); (ii)~the median artifact-minus-creator delta on independent-creator pairs grows from $+0.09$ to $\geq +0.14$ within 18 months; (iii)~the Stanford-vs-Tsinghua gap narrows by $\geq 25\%$ but does not close within 24 months as Chinese-language training data enters frontier models.
+NameRank is a snapshot, so a re-run each release cycle yields a longitudinal trajectory. Because of the ${\sim}0.13$/yr vintage drift, we state predictions as within-run \emph{relative} gaps (so the drift cancels) and register four falsifiable ones for the 2027 fleet: (i)~the IMO-gold-vs-OpenAlex gap widens from $-0.102$ to $\leq -0.13$ within 12 months (named-artifact-attached careers accumulate text, credential-only cohorts do not); (ii)~the median artifact-minus-creator delta on independent-creator pairs grows from $+0.09$ to $\geq +0.14$ within 18 months; (iii)~the Stanford-vs-Tsinghua gap narrows by $\geq 25\%$ but does not close within 24 months as Chinese-language training data enters frontier models; (iv)~on a re-run of the news-event cohort (Section~\ref{sec:results-events})---the cleanest of the four, since its exposure side is frozen in the pageview archive---the $2023$-vs-$2021$ vintage gap ($-0.049$ at matched attention) shrinks by at least half within 18 months as post-event derivative text accumulates.
 
 % ══════════════════════════════════════════════════════════════
 \section{Related Work}
@@ -749,12 +749,12 @@ A longitudinal literature finds that early mathematical talent and olympiad meda
 \section{Conclusion}
 \label{sec:conclusion}
 
-NameRank operationalizes the $65\%$ recognition-variance residual that \citet{li2026ikp} characterized but did not measure: a continuous, cross-domain, hallucination-resistant recognition score over a $37$-model panel. Its findings each subvert a default expectation---olympiad credentials no longer propagate names, named tools out-rank their makers, the structure of citation production beats its volume, and on news events, where world attention is directly recorded, peak salience rather than persistence drives propagation---and each is mechanistically grounded and survives a battery of robustness checks. The broader claim is that human curiosity about people and artifacts is now re-mediated by a few frontier models, and whether a name has propagated into their training corpora is itself a measurable quantity. Three uses follow: a cross-domain impact metric (a Walmart CTO at $0.27$ is directly comparable to a Stanford professor at $0.54$), a longitudinal tracker of how discourse reaches training pipelines, and a normative indicator for career strategy (build and name your own tool). All probes, gold answers, responses, and code are released at \url{https://github.com/19PINE-AI/namerank}; companion site \url{https://01.me/research/namerank}.
+NameRank operationalizes the $65\%$ recognition-variance residual that \citet{li2026ikp} characterized but did not measure: a continuous, cross-domain, hallucination-resistant recognition score over a $37$-model panel. Its findings each subvert a default expectation---olympiad credentials no longer propagate names, named tools out-rank their makers, the structure of citation production beats its volume, and on news events, where world attention is directly recorded, peak salience rather than persistence drives propagation---and each is mechanistically grounded and survives a battery of robustness checks. The broader claim is that human curiosity about people and artifacts is now re-mediated by a few frontier models, and whether a name has propagated into their training corpora is itself a measurable quantity. Three uses follow: a cross-domain impact metric (a Walmart CTO at $0.52$ is directly comparable to a Stanford professor at $0.54$), a longitudinal tracker of how discourse reaches training pipelines, and a normative indicator for career strategy (build and name your own tool). All probes, gold answers, responses, and code are released at \url{https://github.com/19PINE-AI/namerank}; companion site \url{https://01.me/research/namerank}.
 
 % ══════════════════════════════════════════════════════════════
 \section*{Acknowledgements}
 
-This paper was produced using Pine Copilot's voice-directed \emph{whisper coding} workflow~\citep{pineai2026whispercoding}, in which the authors specify, discuss, and review the work by voice while a coding agent---Claude Code with Claude Opus 4.8---carries out the planning, coding, experiments, and paper writing.
+This paper was produced using Pine Copilot's voice-directed \emph{whisper coding} workflow~\citep{pineai2026whispercoding}, in which the authors specify, discuss, and review the work by voice while a coding agent---Claude Code with Claude Opus 4.8 and Claude Fable 5---carries out the planning, coding, experiments, and paper writing.
 We thank BSQL Networking for hosting the NVIDIA RTX PRO 6000 GPU.
 
 % ══════════════════════════════════════════════════════════════

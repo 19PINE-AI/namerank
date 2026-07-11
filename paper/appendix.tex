@@ -49,7 +49,7 @@ For each of the $11$ verified (creator, artifact) pairs, the full per-model brea
 
 \textbf{English-prompt East--West extremes.} On English prompts, the strongest Chinese-panel lifts over the Western panel are Chinese-content entities: Wei Dongyi (Chinese mathematics figure; Chinese-panel mean $0.80$ vs.\ Western $0.53$) and Zhang Fang (NOI gold; $0.45$ vs.\ $0.20$). The strongest Western-panel lifts are non-Chinese names on which Chinese models refuse: Saad Albawi ($0.59$ Western vs.\ $0.16$ Chinese) and Qingzi Vera Liao (Chinese-name CS faculty at a Western institution; $0.50$ vs.\ $0.15$).
 
-\textbf{Per-model prompt-language deltas.} The Chinese-prompt shift is universal rather than vendor-specific: models gaining on Chinese prompts include Western (claude-sonnet-think $+0.17$, gemini-3.1-pro $+0.12$, gemma-3-12b $+0.12$) and Chinese (deepseek-v4-pro-think $+0.14$, qwen3-235b $+0.10$) models, and models losing include both classes as well (llama-4-maverick $-0.20$, gpt-5.4 $-0.12$, glm-4-32b $-0.05$, kimi-k2 $-0.05$). The class averages are $+0.014$ (Western) and $+0.028$ (Chinese): both lift slightly, and the dominant signal is entity-name match, not model origin.
+\textbf{Per-model prompt-language deltas.} The Chinese-prompt shift is universal rather than vendor-specific: models gaining on Chinese prompts include Western (claude-sonnet-4.6-think $+0.17$, gemini-3.1-pro $+0.12$, gemma-3-12b $+0.12$) and Chinese (deepseek-v4-pro-think $+0.14$, qwen3-235b $+0.10$) models, and models losing include both classes as well (llama-4-maverick $-0.20$, gpt-5.4 $-0.12$, glm-4-32b $-0.05$, kimi-k2 $-0.05$). The class averages are $+0.014$ (Western) and $+0.028$ (Chinese): both lift slightly, and the dominant signal is entity-name match, not model origin.
 
 \textbf{Per-entity deltas.} The full per-entity $\Delta(\mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en})$ table is released as a supplementary CSV. Selected diagnostic entries (the largest suppressions beyond the table: Leng Junsheng $-0.17$, Du Zhuofan $-0.15$, Aleksander Madry $-0.12$):
 
@@ -124,7 +124,7 @@ D10 & 77 & 60.4 & 0.601 \\
 \end{tabular}
 \end{table}
 
-The relationship is monotonic and saturates above $h \geq 40$. The bottom decile ($h < 5$) shows NameRank floored at $0.22$---the working-researcher floor, not zero.
+The relationship is near-monotonic (a single dip at D9) and saturates above $h \geq 40$. The bottom decile ($h < 5$) shows NameRank floored at $0.22$---the working-researcher floor, not zero.
 
 % ══════════════════════════════════════════════════════════════
 \section{Institution and Country Gradient Detail}
@@ -352,7 +352,7 @@ Claude & $+0.012$ & $+0.022$ & $\mathbf{-0.010}$ \\
 \end{tabular}
 \end{table}
 
-Cohort-mean NameRank is stable across judges, and the silent$\to$discriminative$\to$universal ladder is preserved under all three: the GPT-5 system-card cohort scores $0.087$/$0.165$/$0.123$ under Gemini/Claude/GPT-5, and the OpenAlex long-tail cohort $0.669$/$0.630$/$0.631$. The headline findings are not a single-judge artifact.
+Cohort-mean NameRank is stable across judges, and the silent$\to$discriminative$\to$universal ladder is preserved under all three: on this stratified $615$-record subsample (whose per-cohort means differ from the full-run means by construction), the GPT-5 system-card cohort scores $0.087$/$0.165$/$0.123$ under Gemini/Claude/GPT-5, and the OpenAlex long-tail cohort $0.669$/$0.630$/$0.631$. The headline findings are not a single-judge artifact.
 
 \section{Synthetic-Null Floor}
 \label{app:synthetic}
@@ -550,6 +550,9 @@ Short-boilerplate-gold cohorts have an elevated noise floor (Appendix~\ref{app:s
 Institution variance share inflated by category count (Section~\ref{sec:results-geography}) & Naive $R^2 = 0.54$ counts $319$ dummies on $698$ points; true share ${\sim}16\%$ & \emph{Corrected:} report adjusted $R^2$/$\omega^2$/ICC (${\sim}0.16$) and the large-cell Stanford--Tsinghua contrast; country-level aggregation is not inflated \\
 Context-injection lift includes a coverage-echo component (Section~\ref{sec:results-mediation-causal}) & Overstates the named-artifact-amplification effect; lift is an upper bound & Re-judge arm~B against an artifact-redacted gold crediting only non-injected facts; report the residual lift \\
 Gold/training-source overlap for Wikipedia-derived golds (Section~\ref{sec:method}) & For ${\sim}60\%$ of entities, coverage partly measures Wikipedia memorization & \emph{Tested:} a binary Wikipedia flag explains only ${\sim}2\%$ of long-tail variance vs.\ $40\%$ for $h$-index (Appendix~\ref{app:confounds}) \\
+Event attention ledger conditions on English-Wikipedia interest (Appendix~\ref{app:events}) & Matched-attention region contrasts hold English exposure fixed; globally quiet, locally enormous events enter as quiet & Add non-English pageview ledgers (major Wikipedia editions) as parallel exposure measures \\
+Event attention fragments across sibling articles (Appendix~\ref{app:events}) & Attenuates the dose--response slope toward zero & Aggregate pageviews over each event's article cluster before computing the ledger \\
+Event panel differs from the main-run panel ($36$ models: $28$ survivors $+$ $8$ replacements) & Cross-run level comparisons shift ($+0.011$ survivors, $+0.091$ replacements) & \emph{Tested:} survivor sub-panel $r = 0.993$ with released scores; replacements rank events at $r = 0.905$; quote cross-run placements on the survivor sub-panel \\
 \bottomrule
 \end{tabular}
 \end{table}
