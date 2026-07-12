@@ -89,6 +89,53 @@ GPT-5 system-card author$^\dagger$ & 80 & 0.042 & $-0.422$ \\
 
 % ══════════════════════════════════════════════════════════════
 
+\section{Mid/Late-Career Awards as Recognition Predictors}
+\label{app:awards}
+
+This appendix gives the construction and full tables behind Section~\ref{sec:results-awards} and Figure~\ref{fig:awards}.
+
+\textbf{Cohorts.} Laureate rosters were pulled from Wikidata (award-received statements, with the award-date qualifier supplying the year): Turing Award ($77$ human laureates with an English label), Fields Medal ($64$), Nobel Prize in Physics restricted to $2000$--$2023$ ($64$), G\"odel Prize ($80$), ACM Prize in Computing ($18$), and, sampled to $60$ each from their $2000$--$2023$ Wikidata-listed recipients, the MacArthur Fellowship and ACM Fellow honors; the Sloan Research Fellowship ($49$ listed for $2000$--$2023$) is the early-career anchor. The five prize cohorts (Turing, Fields, Nobel, G\"odel, ACM Prize) are complete rosters by construction---every laureate has a Wikidata item. The three fellowship/honor cohorts (MacArthur, ACM Fellow, Sloan) are sampled from Wikidata's coverage, which omits lower-profile recipients, so their means are \emph{upper bounds} and are read as such.
+
+\textbf{Panel and in-run controls.} The run uses the $36$-model $2026$ panel of the news-event cohort (Appendix~\ref{app:events}: $28$ main-run survivors $+$ $8$ IKP-v2 replacements). Because absolute levels shift across fleets (${\sim}0.13$/yr drift, Appendix~\ref{app:cutoff}), the ladder is anchored by controls re-probed on this same panel with contexts and gold answers copied verbatim from the main run: $60$ OpenAlex long-tail researchers (the working-researcher baseline) and $40$ IMO golds. All comparisons in Section~\ref{sec:results-awards} are within this run.
+
+\textbf{Golds and contexts.} Contexts follow the main run's credential convention---award name and year only, never contributions (e.g., \emph{``a mathematician who received the Fields Medal in 2014''}). Gold answers are the laureate's en-Wikipedia lead section trimmed to ${\sim}200$ words where available ($372$ of $472$ laureates), and otherwise the boilerplate recipe used for the MSRA/IMO golds (award fact plus two-to-three sentences describing the award), so gold density mirrors the credential cohorts. The per-entity gold source is recorded and used in the robustness column below.
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{The award ladder. Mean NameRank over the $36$-model panel with $\pm 1$ SEM; \emph{Wiki-only} restricts to members carrying a dense Wikipedia-intro gold (the conservative subset, since dense golds cap coverage); \emph{vs.\ base} is relative to the in-run OpenAlex baseline ($0.494$); \emph{yr.\ corr} is Pearson(award year, NameRank) within the cohort. The three marquee late-career awards clear the baseline by $+0.15$ to $+0.20$ and show a negative year correlation (older laureates score higher); the mid-career honors and the IMO early credential sit at or below it.}
+\label{tab:award-ladder}
+\begin{tabular}{llrrrrr}
+\toprule
+Award & Stage & $n$ & Mean & Wiki-only & vs.\ base & yr.\ corr \\
+\midrule
+Nobel Prize in Physics ($2000$--$23$) & late & $64$ & $0.695$ & $0.696$ & $+0.201$ & $-0.124$ \\
+Turing Award & late & $77$ & $0.674$ & $0.652$ & $+0.180$ & $-0.175$ \\
+Fields Medal & late & $64$ & $0.640$ & $0.657$ & $+0.146$ & $-0.218$ \\
+ACM Prize in Computing & mid & $18$ & $0.563$ & $0.509$ & $+0.070$ & $-0.215$ \\
+Sloan Research Fellowship$^\ddagger$ & early & $49$ & $0.519$ & $0.384$ & $+0.026$ & $+0.253$ \\
+\textbf{OpenAlex researchers (baseline)} & --- & $60$ & $0.494$ & --- & --- & --- \\
+ACM Fellow$^\ddagger$ & mid & $60$ & $0.473$ & $0.400$ & $-0.021$ & $+0.368$ \\
+G\"odel Prize & mid & $80$ & $0.467$ & $0.446$ & $-0.027$ & $-0.154$ \\
+MacArthur Fellowship$^\ddagger$ & mid & $60$ & $0.443$ & $0.452$ & $-0.051$ & $+0.013$ \\
+IMO gold (in-run control) & early cred. & $40$ & $0.386$ & --- & $-0.108$ & --- \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}
+{\footnotesize $^\ddagger$ Wikidata-coverage sample (omits lower-profile recipients); cohort mean is an upper bound.}
+\end{table}
+
+\textbf{The lead is not a gold-density artifact.} Denser golds cap the coverage a $150$-word response can achieve, so the marquee laureates---who carry rich Wikipedia intros---are if anything understated. The \emph{Wiki-only} column confirms it: restricted to Wikipedia-gold members, Nobel/Turing/Fields remain at $0.696/0.652/0.657$, far above baseline. Where boilerplate golds inflate a cohort (they are partly satisfiable from the context, the synthetic-null effect of Appendix~\ref{app:synthetic}), it works \emph{against} the finding: the mid/early cohorts' boilerplate members lift their means, and the marquee awards still lead.
+
+\textbf{The award adds signal beyond bibliometrics.} On the $140$ ladder members with a confident OpenAlex author match (name-similarity $\geq 0.85$; the $80$ marquee laureates plus the $60$ OpenAlex controls), $\log_{10}(h\text{-index})$ alone explains $R^2 = 0.05$ of NameRank---the pool is compressed at high $h$, so bibliometric spread is small---while a marquee-award indicator explains $R^2 = 0.23$, and in joint regression the award adds $R^2 = 0.19$ beyond $h$-index, with a coefficient of $+0.158$ at matched $\log_{10}(h\text{-index})$. The award marks recognition the bibliometrics miss. Caveat: the OpenAlex match for a famous laureate probed by common name is imperfect (the top search hit may carry a truncated profile), so we read the regression as directional support for the ladder, not a calibrated effect size.
+
+\textbf{The lifetime signal.} Within each marquee award, standardizing NameRank against the award's own mean and pooling isolates time since the award from each award's level and year-span. Binned by years since the award, mean standardized NameRank runs $-0.51$ ($0$--$10$ yr, $n=41$), $+0.10$ ($10$--$20$, $n=46$), $+0.16$ ($20$--$30$, $n=44$), $+0.25$ ($30$--$40$, $n=20$), $+0.09$ ($40+$, $n=54$); the pooled Pearson correlation is $+0.15$. Recognition keeps accumulating for roughly three decades after even a Nobel, Turing, or Fields award, confirming the cumulative-ledger reading of Section~\ref{sec:discussion-clock}. The positive within-cohort year correlations for ACM Fellow ($+0.37$) and Sloan ($+0.25$) run the other way but are sampling artifacts: for these Wikidata-coverage cohorts, the more recent recipients who already have an article are the more prominent ones.
+
+\textbf{Two utility websites (Section~\ref{sec:results-cases}).} Probed on the same panel: Hackergame $0.459$, icourse.club $0.211$, tuixue.online $0.182$ (this panel), against nanoGPT $0.743$ as the named-artifact anchor. Hackergame's lead over the two course/visa sites tracks its uniquely-named, GitHub-documented English-readable write-ups; the others spread functionally under anonymous-by-convention attribution.
+
+% ══════════════════════════════════════════════════════════════
+
 \section{Medal Tiers: The Complete NOI 2009 Roster}
 \label{app:medal-tiers}
 
