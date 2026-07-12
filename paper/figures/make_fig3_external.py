@@ -78,7 +78,7 @@ ax.plot(xs_c_line, sc * xs_c_line + ic_, "-",
 
 # In-axes annotation summarising the joint regression.
 ax.text(0.05, 0.93,
-        r"$h$-index is the dominant signal:" + "\n"
+        r"Citations carry no marginal signal:" + "\n"
         r"joint regression coefficient on" + "\n"
         r"$\log(\mathrm{citations})$ is $-0.002$,"
         + "\nindistinguishable from zero.",

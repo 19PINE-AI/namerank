@@ -93,31 +93,6 @@ for x0, x1, name in [(0.0, 0.10, "silent"),
             ha="center", va="bottom",
             fontsize=10, color=ZONE_BANDS[name][1], weight="bold")
 
-# Annotate the three exemplar cohorts mentioned in the caption.
-def find_idx(cohort: str):
-    try:
-        return names.index(cohort)
-    except ValueError:
-        return None
-
-ann_targets = [
-    ("gpt5_system_card_author", "GPT-5 system-card authors: mean 0.042;\n71% of responses near zero"),
-    ("long_tail_researcher_openalex", "Working-researcher baseline\n(mean 0.464)"),
-    ("mid_tier_filmmaker", "Filmmakers: universal zone\n(mean 0.786)"),
-]
-for cohort, msg in ann_targets:
-    i = find_idx(cohort)
-    if i is None:
-        continue
-    ax.annotate(
-        msg,
-        xy=(means[i], i), xytext=(means[i] + 0.20, i - 0.6),
-        fontsize=8.5, color="#333",
-        ha="left", va="top",
-        arrowprops=dict(arrowstyle="-", color="#888", lw=0.7,
-                        connectionstyle="arc3,rad=-0.15"),
-    )
-
 grid_x(ax, alpha=0.30)
 thin_spines(ax)
 ax.set_title(

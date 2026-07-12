@@ -134,19 +134,20 @@ def main() -> None:
         fontsize=10.5, subtitle_fontsize=8.5)
     arrow(ax, 9.2, 3.55, 9.95, 3.55)            # judge -> NameRank (solid)
     flow_label(ax, GAP3, LABEL_Y, "cov $\\times$ acc")
-    # Embedding is a terminal diagnostic (not part of NameRank), marked with a stub.
-    ax.text(9.575, 2.5, "diagnostic\nonly", ha="center", va="center",
+    # Embedding is a terminal diagnostic (not part of NameRank); label it
+    # just below its box, clear of the gap and the NameRank box.
+    ax.text(7.925, 1.78, "diagnostic only", ha="center", va="center",
             fontsize=8.0, color="#9a7a8a", style="italic")
 
     # ── Below: data scale callout ────────────────────────────
-    ax.add_patch(FancyBboxPatch((1.0, 0.28), 10.6, 0.52,
+    ax.add_patch(FancyBboxPatch((0.3, 0.28), 12.0, 0.52,
                                 boxstyle="round,pad=0.02,rounding_size=0.04",
                                 linewidth=0.8, facecolor="#fbfbfb",
                                 edgecolor="#d4d4d4", zorder=0))
     ax.text(6.3, 0.54,
             r"$N = 5{,}719$ entities  $\times$  $M = 37$ models  "
             r"$=\;211{,}603$ probe records (English run)  $+$  $8{,}880$ records (Chinese sub-run, $n = 240$ entities)",
-            ha="center", va="center", fontsize=10.5, color="#222", zorder=1)
+            ha="center", va="center", fontsize=9.8, color="#222", zorder=1)
 
     # Title
     ax.set_title(

@@ -44,9 +44,10 @@
         outranks its creator. For independent solo creators (Datasette, nanoGPT, Tianshou, LangChain, Cursor) the
         inversion is uniform.
         <a href="inversion.html">Explore the pairs →</a></li>
-      <li><strong>h-index ≫ raw citations.</strong> <span class="mono">log(h-index)</span> explains R²=0.40 of NameRank
+      <li><strong>Among bibliometrics, h-index carries the signal.</strong> <span class="mono">log(h-index)</span> explains R²=0.40 of NameRank
         variance for OpenAlex researchers; <span class="mono">log(citations)</span> explains 0.14 with zero marginal
-        value beyond h-index.
+        value beyond h-index. Even h-index leaves ~60% of individual-level variance unexplained — that residual is
+        what NameRank measures.
         <a href="about.html#external">Methodology →</a></li>
       <li><strong>Corpus-density gradient.</strong> Stanford CS faculty mean NameRank 0.54 vs. Tsinghua 0.26.
         Country effects place Israel/Singapore/Sweden above the USA baseline.
@@ -76,7 +77,7 @@
   <h2>Cite</h2>
   <pre class="mono" style="background:#f5f5f1;padding:12px;border-radius:6px;overflow:auto;">@article{li2026namerank,
   title={NameRank: Measuring LLM-Mediated Recognition as the Post-Bibliometric Impact Channel},
-  author={Li, Bojie},
+  author={Li, Bojie and Shi, Noah},
   journal={arXiv preprint},
   year={2026},
   note={Code: https://github.com/19PINE-AI/namerank}
@@ -84,7 +85,7 @@
 </main>
 
 <footer>
-  Bojie Li · Pine AI · 2026 — NameRank · <a href="https://github.com/19PINE-AI/namerank">repo</a>
+  Bojie Li (Pine AI) · Noah Shi (University of Washington) · 2026 — NameRank · <a href="https://github.com/19PINE-AI/namerank">repo</a>
 </footer>
 </body>
 </html>
