@@ -50,3 +50,7 @@ site/dist/
 # `outputs/` rule above); the raw probe dump stays ignored via the
 # experiments/**/pilot_results*.json rule.
 !experiments/t4_1_news_events/outputs/
+
+# t5_2 attention baseline: derived outputs ARE tracked (same override
+# pattern as t4_1; ~60KB of pageview counts + summary stats).
+!experiments/t5_2_attention_baseline/outputs/

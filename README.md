@@ -1,7 +1,7 @@
 # NameRank
 
 **NameRank: Measuring LLM-Mediated Recognition as the Post-Bibliometric Impact Channel**
-*by Bojie Li, Pine AI.*
+*by Bojie Li (Pine AI) and Noah Shi (University of Washington).*
 
 A continuous cross-model recognition metric for people and named artifacts in the LLM era. NameRank operationalizes the 65% recognition-variance residual that bibliometrics cannot explain (Li 2026, IKP §5.7) into a $[0,1]$ score computed against a 37-model frontier panel.
 
@@ -209,6 +209,7 @@ large raw per-(entity, model) probe dumps are not committed (regenerable via
 | `t2_9_fractional_citations` | Is h-index dominance about attribution density? | **No — mechanism is name-recurrence across distinct works, not attribution-per-paper (fractional R²=0.15 ≈ raw 0.14). → paper §6.4.1, App. K.** |
 | `t2_10_cross_judge` | Are findings a Gemini-judge artifact? | **No; Pearson 0.87–0.93 across Gemini/GPT-5/Claude, ladder preserved; capability-controlled in-family lift Gemini +0.06. → paper §6.7.6, App. L.** |
 | `t3_1_cutoff_gradient` | Is the silent zone a corpus-timing artifact? | **No — intrinsic; matched DiD ≈ 0. Exposes ~0.13/yr cross-vintage capability drift. → paper §6.7.5, App. J.** |
+| `t5_2_attention_baseline` | Is NameRank just Wikipedia-pageview rank? | **No — undefined for 71% of entities; R²=0.06 where defined, *negative* within technical cohorts (flow vs stock). → §3.1, App. confounds + fig_attention.** |
 
 All ten experiments are now written into the paper (Sections 6.3.4, 6.4.1,
 6.7.4–6.7.8, and 7.5; Appendices I–O); the limitations
@@ -220,7 +221,7 @@ table is Appendix P. Reproduce any one with
 ```bibtex
 @article{li2026namerank,
   title={NameRank: Measuring LLM-Mediated Recognition as the Post-Bibliometric Impact Channel},
-  author={Li, Bojie},
+  author={Li, Bojie and Shi, Noah},
   journal={arXiv preprint},
   year={2026},
   note={Code: https://github.com/19PINE-AI/namerank}

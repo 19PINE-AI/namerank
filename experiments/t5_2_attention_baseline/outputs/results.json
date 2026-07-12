@@ -1,0 +1,177 @@
+{
+  "coverage": {
+    "n_total": 5719,
+    "n_matched": 1617,
+    "n_article_post_window": 48,
+    "n_title_mismatch_dropped": 16,
+    "pct_matched": 28.3,
+    "unmatched_namerank_mean": 0.419,
+    "unmatched_namerank_p10": 0.164,
+    "unmatched_namerank_p90": 0.678,
+    "unmatched_pct_above_0.3": 71.8
+  },
+  "matched_overall": {
+    "n": 1617,
+    "pearson_r": 0.245,
+    "r2": 0.06
+  },
+  "within_cohort": {
+    "pooled_partial_r": 0.315,
+    "pooled_partial_r2": 0.099,
+    "per_cohort": {
+      "mid_tier_writer": {
+        "n": 175,
+        "r": 0.62,
+        "r2": 0.384
+      },
+      "mid_tier_athlete": {
+        "n": 120,
+        "r": 0.767,
+        "r2": 0.588
+      },
+      "mid_tier_actor": {
+        "n": 114,
+        "r": 0.811,
+        "r2": 0.657
+      },
+      "mid_tier_politician": {
+        "n": 96,
+        "r": -0.248,
+        "r2": 0.061
+      },
+      "mid_tier_historical": {
+        "n": 96,
+        "r": -0.299,
+        "r2": 0.089
+      },
+      "mid_tier_book": {
+        "n": 85,
+        "r": 0.065,
+        "r2": 0.004
+      },
+      "cs_faculty": {
+        "n": 84,
+        "r": 0.058,
+        "r2": 0.003
+      },
+      "long_tail_researcher_openalex": {
+        "n": 58,
+        "r": -0.332,
+        "r2": 0.11
+      },
+      "mid_tier_musician": {
+        "n": 57,
+        "r": -0.133,
+        "r2": 0.018
+      },
+      "mid_tier_journalist": {
+        "n": 56,
+        "r": -0.279,
+        "r2": 0.078
+      },
+      "oss_project": {
+        "n": 49,
+        "r": -0.535,
+        "r2": 0.286
+      },
+      "research_paper": {
+        "n": 45,
+        "r": -0.248,
+        "r2": 0.061
+      },
+      "ai_startup_or_company": {
+        "n": 45,
+        "r": 0.27,
+        "r2": 0.073
+      },
+      "mid_tier_artist": {
+        "n": 44,
+        "r": -0.076,
+        "r2": 0.006
+      },
+      "mid_tier_comedian": {
+        "n": 44,
+        "r": -0.274,
+        "r2": 0.075
+      },
+      "mid_tier_chef": {
+        "n": 39,
+        "r": -0.179,
+        "r2": 0.032
+      },
+      "mid_tier_filmmaker": {
+        "n": 38,
+        "r": 0.328,
+        "r2": 0.108
+      },
+      "mid_tier_architect": {
+        "n": 34,
+        "r": 0.664,
+        "r2": 0.44
+      },
+      "mid_tier_medical": {
+        "n": 30,
+        "r": -0.303,
+        "r2": 0.092
+      },
+      "programming_language": {
+        "n": 28,
+        "r": -0.349,
+        "r2": 0.122
+      },
+      "mid_tier_podcast": {
+        "n": 28,
+        "r": -0.342,
+        "r2": 0.117
+      },
+      "mid_tier_founder": {
+        "n": 25,
+        "r": -0.381,
+        "r2": 0.145
+      },
+      "database_or_data_system": {
+        "n": 23,
+        "r": -0.438,
+        "r2": 0.192
+      },
+      "mid_tier_religious": {
+        "n": 22,
+        "r": -0.155,
+        "r2": 0.024
+      },
+      "mid_tier_product": {
+        "n": 21,
+        "r": 0.241,
+        "r2": 0.058
+      },
+      "mid_tier_gov_ai_policy": {
+        "n": 20,
+        "r": -0.437,
+        "r2": 0.191
+      },
+      "foundation_model": {
+        "n": 19,
+        "r": 0.279,
+        "r2": 0.078
+      },
+      "named_method": {
+        "n": 17,
+        "r": 0.271,
+        "r2": 0.073
+      },
+      "mid_tier_oss_maintainer": {
+        "n": 15,
+        "r": 0.327,
+        "r2": 0.107
+      }
+    }
+  },
+  "long_tail": {
+    "n_all": 771,
+    "r2_hindex_all": 0.398,
+    "r2_pageviews_zero_coded_all": 0.015,
+    "n_with_article": 58,
+    "r2_hindex_subset": 0.388,
+    "r2_pageviews_subset": 0.11
+  }
+}

@@ -1,0 +1,1682 @@
+entity_id,title,months_returned,views_24m
+imo_dongyi_wei,Wei Dongyi,24,32694
+imo_makoto_soejima,Makoto Soejima,24,26706
+imo_lisa_sauermann,Lisa Sauermann,24,41265
+imo_omer_cerrahoglu,Ömer Cerrahoğlu,24,10308
+imo_evan_odorney,Evan O'Dorney,24,47866
+imo_raul_arturo_chavez_sarmiento,Raúl Chávez Sarmiento,24,14727
+imo_tae_hwan_park,Park Tae-hwan,24,116086
+icpc_gennady_korotkevich_2013,Gennady Korotkevich,24,267957
+icpc_gennady_korotkevich_2015,Gennady Korotkevich,24,267957
+gpt5_kenny_nguyen,Kenny Nguyen,0,0
+gpt5_roy_ziv,Roy Ziv,24,13719
+ioi_gennady_korotkevich,Gennady Korotkevich,24,267957
+ioi_oleg_ivanov,Oleg Ivanov,24,5654
+ioi_scott_wu,Scott Wu,15,113415
+putnam_omer_cerrahoglu,Ömer Cerrahoğlu,24,10308
+msra_kun_zhou_2022,Kun Zhou,24,366
+msra_jie_zhang_2016,Zhang Jie (physicist),24,994
+msra_dong_chen_2013,Dong Chen,24,1240
+msra_xiong_li_2010,Li Xiong (computer scientist),19,1323
+msra_wei_wu_2010,Weili Wu,7,680
+msra_dong_liu_2009,Dong Liu,24,411
+msra_wei_wang_2009,Wei Wang (computer scientist),24,2367
+msra_kaiming_he_2009,Kaiming He,16,27824
+msra_feng_zhang_2008,Feng Zhang,24,76619
+msra_li_xu_2008,Lixu,24,476
+msra_sunghyun_cho_2008,Sunghyun Choi,24,1070
+msra_jun_hong_2008,Hong Jun,24,2384
+cmo_xu_ze_2009,Xu Ze,24,440
+cmo_wei_dongyi_2009,Wei Dongyi,24,32694
+cmo_ma_rui_2010,Ma Rui,24,431
+cmo_liu_shuai_2010,Liu Shuai,24,349
+cmo_li_fu_2010,Li Fu,24,1788
+cmo_huang_zhengyu_2010,Huang Zhengyu,24,5715
+cpho_sun_jian_2009,Sun Jian,24,96514
+cpho_chen_si_2009,Chen Si,24,23604
+cmo_xu_jingcheng_2012,Xu Jingcheng,24,4863
+cmo_liu_siyu_2012,Liu Siyu,24,869
+artifact_vllm,VLLM,0,0
+artifact_langchain,LangChain,24,334511
+artifact_ollama,Ollama,0,0
+artifact_crewai,CrewAI,0,0
+artifact_controlnet,ControlNet,24,22517
+artifact_stable_diffusion,Stable Diffusion,24,1333958
+artifact_gpt_2,GPT-2,24,263773
+artifact_roberta,Open Roberta,24,7928
+artifact_whisper,Open Whisper Systems,24,43383
+artifact_dall_e,DALL-E,24,854649
+artifact_pytorch,PyTorch,24,461210
+artifact_tensorflow,TensorFlow,24,536532
+artifact_jax,JAX (software),5,19558
+artifact_deepspeed,DeepSpeed,24,22867
+artifact_faiss,FAISS,7,5868
+artifact_replit,Replit,24,316910
+artifact_claude,Claude (language model),18,850325
+artifact_cursor,Cursor (company),0,0
+artifact_perplexity,Perplexity AI,16,1286632
+artifact_lora,LoRA (machine learning),0,0
+artifact_accelerate,Accelerated Reader,24,231767
+artifact_qwen,Qwen,8,103969
+artifact_speculative_decoding,Speculative decoding,0,0
+artifact_batch_normalization,Batch normalization,24,186797
+artifact_generative_adversarial_network,Generative adversarial network,24,745197
+artifact_variational_autoencoder,Variational autoencoder,24,379972
+artifact_diffusion_model,Diffusion model,24,489323
+artifact_transformer,Transformer (deep learning),0,0
+artifact_word2vec,Word2vec,24,379358
+artifact_alphago,AlphaGo,24,379168
+artifact_alphafold,AlphaFold,24,432345
+artifact_mmlu,MMLU,15,73775
+artifact_codeforces,Codeforces,24,258559
+artifact_math,Mathematics,24,3228670
+artifact_imagenet,ImageNet,24,217374
+artifact_common_crawl,Common Crawl,24,118060
+artifact_cifar_10,CIFAR-10,24,96975
+artifact_mnist,MNIST database,24,445077
+artifact_kaggle,Kaggle,24,339807
+artifact_gpt_4,GPT-4,24,2383334
+artifact_gpt_5,GPT-5,18,2881
+artifact_github_copilot,GitHub Copilot,24,617246
+artifact_chatgpt,ChatGPT,24,52203649
+artifact_perplexity_ai,Perplexity AI,16,1286632
+ds_liang_zhao,Liang Zhao,12,1335
+ds_wenfeng_liang,Liang Wenfeng,6,593236
+artifact_attention_is_all_you_need,Attention Is All You Need,24,549016
+artifact_gpt_4_technical_report,GPT-4,24,2383334
+artifact_llama_paper,Llama (language model),24,408684
+artifact_qwen_paper,Qwen,8,103969
+artifact_stable_diffusion_paper,Stable Diffusion,24,1333958
+artifact_alexnet_paper,AlexNet,24,436621
+artifact_efficientnet_paper,EfficientNet,9,6594
+artifact_inception_paper,Inception (deep learning architecture),9,21036
+artifact_mobilenet_paper,MobileNet,9,7601
+artifact_stylegan_paper,StyleGAN,24,88085
+artifact_word2vec_paper,Word2vec,24,379358
+artifact_glove_paper,GloVe,24,36781
+artifact_elmo_paper,ELMo,24,34366
+artifact_batch_normalization_paper,Batch normalization,24,186797
+artifact_alphago_zero_paper,AlphaGo Zero,24,60466
+artifact_alphazero_paper,AlphaZero,24,254678
+artifact_muzero_paper,MuZero,24,56068
+artifact_openai_five_paper,OpenAI Five,24,183515
+artifact_alphafold_paper,AlphaFold,24,432345
+artifact_pagerank_paper,PageRank,24,746110
+artifact_rag_paper,Rag paper,24,3954
+artifact_universal_approximation_theorem,Universal approximation theorem,24,282305
+artifact_hopfield_network_paper,Hopfield network,24,259424
+artifact_wavenet_paper,WaveNet,24,42033
+artifact_codex_paper,Codex,24,449752
+artifact_megatron_paper,Megatron,24,866265
+artifact_pagedattention_paper,PagedAttention,0,0
+artifact_lora_paper,LoRA (machine learning),0,0
+artifact_autogpt_paper,AutoGPT,24,29670
+artifact_openai_o1_paper,OpenAI o1,10,238558
+artifact_apple_intelligence_paper,Apple Intelligence,13,566651
+artifact_scikit_learn,Scikit-learn,24,222480
+artifact_xgboost,XGBoost,24,309841
+artifact_keras,Keras,24,120003
+artifact_lightgbm,LightGBM,24,119168
+artifact_catboost,CatBoost,24,41864
+artifact_scipy,SciPy,24,76330
+artifact_pytorch_lightning,PyTorch Lightning,24,31573
+artifact_numpy,NumPy,24,215551
+artifact_mxnet,Apache MXNet,24,14485
+artifact_caffe,Caffe (software),24,28009
+artifact_theano,Theano (software),24,25602
+artifact_chainer,Chainer,24,6381
+artifact_mindspore,MindSpore,17,5583
+artifact_numba,Numba,24,26385
+artifact_rocm,ROCm,24,141926
+artifact_cuda,CUDA,24,1266289
+artifact_opencl,OpenCL,24,229126
+artifact_cupy,CuPy,24,13111
+artifact_cub,ICub,24,17783
+artifact_thrust,Thrust (video game),24,8969
+artifact_guidance,Guidance Software,24,6538
+artifact_haystack,Haystack (MIT project),24,7920
+artifact_comfyui,ComfyUI,12,79647
+artifact_automatic1111,Automatic1111,8,20979
+artifact_fooocus,Fooocus,12,12929
+artifact_spacy,SpaCy,24,49163
+artifact_marian,Marian Petre,24,1193
+artifact_polyglot,Polyglot (computing),24,45311
+artifact_gpt_4o,GPT-4o,14,1224273
+artifact_o1,OpenAI o1,10,238558
+artifact_o4_mini,OpenAI o4-mini,3,22098
+artifact_palm,PaLM,24,103049
+artifact_chinchilla,Chinchilla,24,1335792
+artifact_lamda,LaMDA,24,173228
+artifact_bard,Bard,24,631211
+artifact_bloom,BLOOM (language model),24,56744
+artifact_bleu,BLEU,24,236306
+artifact_meteor,METEOR,24,44355
+artifact_fashion_mnist,Fashion-MNIST,0,0
+artifact_common_voice,Common Voice,24,10203
+artifact_aaai,AAAI Conference on Artificial Intelligence,24,24878
+artifact_sigcomm,SIGCOMM,24,4448
+artifact_micro,Micro-conference,24,543
+artifact_c,C++,24,2119054
+artifact_python,Python (programming language),24,3967749
+artifact_rust,Rust (programming language),24,1659564
+artifact_java,Java (programming language),24,2327694
+artifact_go,Go (programming language),24,1900625
+artifact_javascript,JavaScript,24,2259922
+artifact_typescript,TypeScript,24,702935
+artifact_kotlin,Kotlin,24,19840
+artifact_scala,Scala (programming language),24,367083
+artifact_r,R,24,516332
+artifact_swift,Swift (programming language),24,463421
+artifact_matlab,MATLAB,24,621716
+artifact_julia,Julia (programming language),24,383642
+artifact_mojo,Mojo (programming language),24,230058
+artifact_carbon,Carbon (programming language),24,166831
+artifact_zig,Zig (programming language),24,397471
+artifact_nim,Nim (programming language),24,145775
+artifact_haskell,Haskell,24,385367
+artifact_crystal,Crystal (programming language),24,62836
+artifact_elixir,Elixir (programming language),24,344364
+artifact_erlang,Erlang (programming language),24,360177
+artifact_clojure,Clojure,24,208338
+artifact_ocaml,OCaml,24,347226
+artifact_lua,Lua,24,68860
+artifact_racket,Racket (programming language),24,125524
+artifact_php,PHP,24,995512
+artifact_postgresql,PostgreSQL,24,811830
+artifact_ruby,Ruby (programming language),24,545706
+artifact_oracle_database,Oracle Database,24,463140
+artifact_mysql,MySQL,24,834740
+artifact_dart,Dart (programming language),24,371867
+artifact_sqlite,SQLite,24,349273
+artifact_microsoft_sql_server,Microsoft SQL Server,24,501249
+artifact_redis,Redis,24,430949
+artifact_mongodb,MongoDB,24,759783
+artifact_hbase,Apache HBase,24,43234
+artifact_dynamodb,Amazon DynamoDB,24,143107
+artifact_tidb,TiDB,24,36304
+artifact_cassandra,Apache Cassandra,24,235087
+artifact_cockroachdb,CockroachDB,24,102472
+artifact_spanner,Spanner (database),24,52623
+artifact_bigquery,BigQuery,24,132695
+artifact_foundationdb,FoundationDB,24,32829
+artifact_snowflake,Snowflake schema,24,88983
+artifact_databricks,Databricks,24,788035
+artifact_redshift,Amazon Redshift,24,108343
+artifact_clickhouse,ClickHouse,24,134480
+artifact_duckdb,DuckDB,24,88245
+artifact_parquet,Apache Parquet,24,174264
+artifact_milvus,Milvus (vector database),8,7669
+artifact_chroma,ChromaDB,0,0
+artifact_elasticsearch,Elasticsearch,24,487005
+artifact_tesla_dojo,Tesla Dojo,24,252616
+artifact_openai,OpenAI,24,7939298
+artifact_google_deepmind,Google DeepMind,24,755713
+artifact_anthropic,Anthropic,24,1316174
+artifact_mistral_ai,Mistral AI,19,485940
+artifact_deepseek,DeepSeek,8,4371757
+artifact_moonshot_ai,Moonshot AI,10,35676
+artifact_xai,SpaceXAI,0,0
+artifact_01_ai,01.AI,13,16076
+artifact_minimax,Minimax,24,499104
+artifact_doubao,Doubao,0,0
+artifact_cohere,Cohere,24,147507
+artifact_hugging_face,Hugging Face,24,665431
+artifact_modal,Modal (company),6,908
+artifact_llamaindex_company,Company,24,711739
+artifact_langchain_company,LangChain,24,334511
+artifact_adept,Adept,24,49013
+artifact_character_ai,Character.ai,24,1880333
+artifact_inflection_ai,Inflection AI,24,182627
+artifact_sierra,Sierra Ventures,24,5450
+artifact_perplexity_ai_company,Perplexity AI,16,1286632
+artifact_glean,Glean Technologies,19,39291
+artifact_thinking_machines_lab,Thinking Machines Lab,5,12929
+artifact_safe_superintelligence_inc_,Safe Superintelligence Inc.,13,60558
+artifact_runway,Runway,24,498308
+artifact_elevenlabs,ElevenLabs,24,919384
+artifact_granola_company,Granola,24,424462
+artifact_vercel,Vercel,24,273260
+artifact_replit_company,Replit,24,316910
+artifact_manus,Manus (AI agent),4,119969
+artifact_rabbit,Rabbit r1,18,149576
+artifact_humane,Humane Inc.,21,151104
+artifact_mistral_ai_company,Mistral AI,19,485940
+artifact_stability_ai,Stability AI,24,102327
+artifact_midjourney,Midjourney,24,1448439
+artifact_turing_award,Turing Award,24,475479
+artifact_fields_medal,Fields Medal,24,811497
+artifact_abel_prize,Abel Prize,24,310778
+artifact_gdel_prize,Gödel Prize,24,61163
+artifact_nobel_prize_in_physics,Nobel Prize in Physics,24,848128
+artifact_acm_prize_in_computing,ACM Prize in Computing,24,6163
+artifact_nobel_prize_in_chemistry,Nobel Prize in Chemistry,24,400803
+artifact_ijcai_computers_and_thought_award,IJCAI Computers and Thought Award,24,3679
+artifact_ieee_medal_of_honor,IEEE Medal of Honor,24,34029
+artifact_knuth_prize,Knuth Prize,24,17161
+artifact_marconi_prize,Marconi Prize,24,25825
+artifact_acm_software_system_award,ACM Software System Award,24,11109
+artifact_adaboost_paper,AdaBoost,24,128663
+artifact_k_means_paper,K-means clustering,24,942241
+artifact_naive_bayes_classifier,Naive Bayes classifier,24,420814
+artifact_decision_tree_paper,Decision tree,24,430694
+artifact_c4_5_paper,C4.5 algorithm,24,47898
+artifact_markov_chain_monte_carlo_paper,Markov chain Monte Carlo,24,435449
+artifact_kalman_filter_paper,Kalman filter,24,1144723
+artifact_differential_privacy_paper,Differential privacy,24,207395
+artifact_bigtable_paper,Bigtable,24,63980
+artifact_openai_o3_paper,OpenAI o3,7,283072
+artifact_hadoop_paper,Apache Hadoop,24,304718
+artifact_frontiermath_paper,FrontierMath,0,0
+artifact_lenet_paper,LeNet,24,112429
+artifact_pcp_theorem_paper,PCP theorem,24,37293
+artifact_rsa_cryptosystem_paper,RSA cryptosystem,24,85969
+artifact_shors_algorithm_paper,Shor's algorithm,24,571765
+artifact_grovers_algorithm_paper,Grover's algorithm,24,302818
+artifact_softmax,Softmax function,24,729329
+artifact_huber_loss,Huber loss,24,211030
+artifact_triplet_loss,Triplet loss,24,60897
+artifact_self_supervised_learning,Self-supervised learning,24,176822
+artifact_zero_shot_learning,Zero-shot learning,24,220065
+artifact_meta_learning,Meta-learning,24,21615
+artifact_gibbs_sampling,Gibbs sampling,24,148893
+artifact_backpropagation_through_time,Backpropagation through time,24,42754
+artifact_teacher_forcing,Teacher forcing,24,18955
+artifact_beam_search,Beam search,24,127861
+artifact_dolly,Dolly Chaiwala,1,10
+artifact_moss,Moss & Freud,0,0
+artifact_gpt_j,GPT-J,24,47344
+artifact_pythia,Pythia (machine learning),24,1742
+artifact_aya,Aya Asahina,12,166952
+artifact_granite,Granite,24,892433
+artifact_dbrx,DBRX,16,21477
+artifact_smaug,Smaug,24,333914
+artifact_udio,Udio,15,111608
+artifact_bark,Bark (sound),24,202514
+artifact_phind_company,Company,24,711739
+artifact_eleutherai,EleutherAI,24,50258
+artifact_laion,LAION,24,33183
+artifact_ai2_allen_institute,Allen Institute,24,41838
+artifact_scale_ai,Scale AI,18,512199
+artifact_surge_ai,Surge AI,0,0
+artifact_roboflow,Roboflow,1,398
+artifact_galaxy_ai,Galaxy AI,17,13605
+artifact_crew_ai_company,Company,24,711739
+artifact_ai21_labs,AI21 Labs,24,32612
+artifact_synthesia,Synthesia (company),24,91844
+artifact_heygen,HeyGen,4,10195
+artifact_cursor_company,Cursor (company),0,0
+artifact_cognition_ai,Cognition AI,14,50378
+artifact_tabnine,Tabnine,22,23935
+artifact_figma,Figma,24,844036
+artifact_elevenlabs_company,ElevenLabs,24,919384
+artifact_notion_company,Company,24,711739
+artifact_spline,Non-uniform rational B-spline,24,135882
+artifact_runway_company,Runway (company),20,154878
+artifact_dspy_stanford,Stanford University,24,2657607
+artifact_fastapi,FastAPI,24,182686
+artifact_outlines_library,Library,24,752631
+artifact_datasets_hugging_face,Hugging Face,24,665431
+artifact_networkx,NetworkX,24,25200
+artifact_pymc,PyMC,24,21479
+artifact_stan,Stan (software),0,0
+artifact_haiku,Haiku (operating system),24,198037
+artifact_sonnet,Sonnet (software),24,1353
+artifact_sweep,Sweep (software),24,2671
+ikp_t67_dan_suciu,Dan Suciu,24,3685
+oa_paper_ieee_transactions_on_image_processing,IEEE Transactions on Image Processing,24,4650
+oa_paper_quantum_computational_chemistry,Quantum computational chemistry,19,7081
+csrankings_emily_mower_provost,Emily Mower Provost,24,1307
+csrankings_ziv_bar_joseph,Ziv Bar-Joseph,24,3011
+csrankings_brian_w__kernighan,Brian Kernighan,24,197123
+csrankings_anind_k__dey,Anind Dey,24,2292
+csrankings_roy_maxion,Roy Maxion,24,518
+csrankings_maneesh_agrawala,Maneesh Agrawala,24,6512
+csrankings_huijia_lin,Huijia (Rachel) Lin,11,746
+csrankings_phoebe_sengers,Phoebe Sengers,18,1120
+csrankings_hanna_hajishirzi,Hanna Hajishirzi,0,0
+csrankings_mark_a__horowitz,Mark Alan Horowitz,3,1389
+csrankings_olga_g__troyanskaya,Olga Troyanskaya,24,4518
+csrankings_lorrie_faith_cranor,Lorrie Cranor,24,3290
+csrankings_carolyn_penstein_ros,Carolyn Rosé,24,2299
+csrankings_martha_e__pollack,Martha Pollack,24,6504
+csrankings_michael_j__freedman,Michael J. Freedman,24,4864
+csrankings_huijia_rachel_lin,Huijia (Rachel) Lin,11,746
+csrankings_alan_m__frieze,Alan M. Frieze,24,2596
+csrankings_jeffrey_michael_heer,Jeffrey Heer,24,6135
+csrankings_nicola_dell_tech,Nicola Dell,9,3111
+csrankings_david_p__woodruff,David P. Woodruff,5,43
+csrankings_karem_a__sakallah,Karem A. Sakallah,24,1677
+csrankings_john_d__storey,John D. Storey,24,2872
+csrankings_mark_guzdial,Mark Guzdial,24,3171
+csrankings_mahadev_satyanarayanan,Mahadev Satyanarayanan,24,20823
+csrankings_ronald_j__brachman,Ronald J. Brachman,24,2186
+csrankings_dan_boneh,Dan Boneh,24,19848
+csrankings_mor_harchol_balter,Mor Harchol-Balter,24,4279
+csrankings_magdalena_balazinska,Magdalena Bałazińska,24,1805
+csrankings_odest_chadwicke_jenkins,Odest Chadwicke Jenkins,24,1212
+csrankings_bernard_marie_chazelle,Bernard Chazelle,24,50348
+csrankings_christos_faloutsos,Christos Faloutsos,24,2797
+csrankings_kunle_olukotun,Kunle Olukotun,24,18387
+csrankings_adji_bousso_dieng,Adji Bousso Dieng,24,5503
+csrankings_tadayoshi_kohno,Tadayoshi Kohno,24,1921
+csrankings_ashish_goel,Ashish Goel,24,8168
+csrankings_vincent_aleven,Vincent Aleven,24,1418
+csrankings_robert_d__gregg_iv,Robert D. Gregg,15,683
+csrankings_srinivasan_seshan,Srinivasan Seshan,24,1939
+csrankings_steven_rudich,Steven Rudich,24,6208
+csrankings_donald_greenberg,Donald P. Greenberg,24,3716
+csrankings_radhika_nagpal,Radhika Nagpal,24,8630
+csrankings_adji_b__dieng,Adji Bousso Dieng,24,5503
+csrankings_jennifer_mankoff,Jennifer Mankoff,24,1293
+csrankings_virgil_d__gligor,Virgil D. Gligor,24,2685
+csrankings_helen_nissenbaum_tech,Helen Nissenbaum,24,8473
+csrankings_scott_e__hudson,Scott Hudson (computer scientist),24,1262
+csrankings_tom_michael_mitchell,Tom M. Mitchell,24,20828
+csrankings_shwetak_patel,Shwetak Patel,24,8277
+csrankings_ragunathan_raj_rajkumar,Ragunathan Rajkumar,24,3119
+csrankings_mendel_rosenblum,Mendel Rosenblum,24,28176
+csrankings_oussama_khatib,Oussama Khatib,24,11484
+csrankings_marijn_heule,Marijn Heule,24,4950
+csrankings_david_brumley,David Brumley,24,3880
+csrankings_zico_kolter,Zico Kolter,5,3174
+csrankings_guy_e__blelloch,Guy Blelloch,24,4063
+csrankings_mona_t__diab,Mona Diab,24,5106
+csrankings_robert_e__tarjan,Robert Tarjan,24,47049
+csrankings_vitaly_shmatikov_tech,Vitaly Shmatikov,16,2350
+csrankings_amy_j__ko,Amy J. Ko,8,757
+csrankings_steven_l__salzberg,Steven Salzberg,24,10705
+csrankings_wee_sun_lee,Lee Sun-kyun,24,3355157
+csrankings_teresa_a__dahlberg,Teresa Abi-Nader Dahlberg,19,8725
+csrankings_xiaohua_jia,Xiaohua Jia,24,449
+csrankings_dov_dori,Dov Dori,24,1643
+csrankings_jeff_clune,Jeff Clune,0,0
+csrankings_jugal_kalita,Jugal Kalita,24,1606
+csrankings_james_f__allen,James F. Allen (computer scientist),24,2100
+csrankings_pascal_hitzler,Pascal Hitzler,24,2634
+csrankings_susanne_bdker,Susanne Bødker,24,1837
+csrankings_uri_j__wilensky,Uri Wilensky,2,1
+csrankings_cherri_m__pancake,Cherri M. Pancake,24,1995
+csrankings_jos_tribolet,José Tribolet,24,790
+csrankings_laurie_williams,Laurie Williams (software engineer),24,1616
+csrankings_tlay_adali,Tülay Adalı,24,2648
+csrankings_xia_zhou,Xia Zhou,24,789
+csrankings_tony_f__chan,Tony F. Chan,24,21154
+csrankings_lionel_m__ni,Lionel Ni,24,2245
+csrankings_gregor_v__bochmann,Gregor von Bochmann (computer scientist),24,546
+csrankings_nathan_jacobs,Nathan L. Jacobs,24,527
+csrankings_r__iris_bahar,R. Iris Bahar,24,1029
+csrankings_anat_bremler_barr,Anat Bremler-Barr,24,1069
+csrankings_ronald_ron_m__baecker,Ronald Baecker,24,2385
+csrankings_eamonn_oneill,Eamonn O'Neill,24,1128
+csrankings_jessica_burgner_kahrs,Jessica Burgner-Kahrs,17,635
+csrankings_iris_bahar,R. Iris Bahar,24,1029
+csrankings_yannis_smaragdakis,Yannis Smaragdakis,24,1272
+csrankings_eamonn_j__keogh,Eamonn J. Keogh,0,0
+oa_author_elchanan_mossel,Elchanan Mossel,24,3977
+oa_author_samuel_a__mehr,Samuel Mehr,13,700
+oa_author_zhi_tian,Zhi Tian,0,0
+oa_author_deb_roy,Deb Roy,24,23681
+oa_author_cristopher_moore,Cristopher Moore,24,5964
+oa_author_ross_arnold,Arnold Ross,24,3957
+oa_author_alberto_fernndez,Alberto Fernández,24,740442
+oa_author_cynthia_rudin,Cynthia Rudin,24,11293
+oa_author_wes_mckinney,Wes McKinney,24,46417
+oa_author_xiaojun_chen,Xiaojun Chen,24,1577
+oa_author_moeness_g__amin,Moeness Amin,24,1476
+oa_author_brigitta_sipcz,Brigitta Sipőcz,24,652
+oa_author_johan_bollen,Johan Bollen,24,1267
+oa_author_elad_hazan,Elad Hazan,24,4403
+oa_author_aja_huang,Aja Huang,24,8305
+oa_author_marissa_giustina,Marissa Giustina,24,4182
+oa_author_jeffrey_heer,Jeffrey Heer,24,6135
+oa_author_alexander_mathis,Alexander Mathis,24,5206
+oa_author_michael_s__landy,Michael S. Landy,24,643
+oa_author_jeff_bezanson,Jeff Bezanson,24,4022
+oa_author_yu_xie,Yu Xie,24,3098
+oa_author_frank_keller,Frank Keller,24,1081
+oa_author_mustafa_suleyman,Mustafa Suleyman,24,894822
+oa_author_himanshu_jain,Himanshu Jain,24,5189
+oa_author_rachel_harrison,Rachel Harrison (computer scientist),24,402
+oa_author_zhengyou_zhang,Zhengyou Zhang,24,2518
+oa_author_adrienne_porter_felt,Adrienne Porter Felt,24,2571
+oa_author_ariel_ekblaw,Ariel Ekblaw,23,8895
+oa_author_rob_tibshirani,Robert Tibshirani,24,35597
+oa_author_ahna_r__girshick,Ahna Girshick,6,183
+oa_author_effy_vayena,Effy Vayena,24,2412
+oa_author_david_cox,David Cox (statistician),24,36182
+oa_author_emily_m__bender,Emily M. Bender,24,31651
+oa_author_weisong_shi,Weisong Shi,24,941
+oa_author_mirella_lapata,Mirella Lapata,24,8502
+oa_author_douglas_w__arner,Douglas W. Arner,24,2037
+oa_author_alan_edelman,Alan Edelman,24,25099
+oa_author_timnit_gebru,Timnit Gebru,24,182581
+oa_author_hans_j__jansen,Hans Jansen,24,10219
+oa_author_lilly_irani,Lilly Irani,24,2837
+oa_author_danqi_chen,Danqi Chen,24,6374
+oa_author_michel_dumontier,Michel Dumontier,24,1304
+oa_author_ajmal_mian,Ajmal Mian,24,5356
+oa_author_marcel_salath,Marcel Salathé,24,2368
+oa_author_joel_emer,Joel Emer,24,2944
+oa_author_gavin_wood,Gavin Wood,24,159827
+oa_author_paul_m__leonardi,Paul Leonardi,24,1805
+oa_author_jasper_a__vrugt,Jasper A. Vrugt,24,919
+oa_author_alexandre_pouget,Alexandre Pouget,24,1986
+oa_author_xiao_lin,Xiao Lin,24,925
+oa_author_gabriela_hug,Gabriela Hug,24,1998
+oa_author_thomas_w__malone,Thomas W. Malone,24,5596
+oa_author_steven_l__brunton,Steven L. Brunton,0,0
+oa_author_eric_schulz,Eric Schulz,24,1386
+oa_author_roy_pea,Roy Pea,24,2343
+oa_author_kenji_ozawa,Kenji Ozawa,24,19135
+oa_author_zicheng_liu,Zicheng Liu,24,362
+oa_author_sarah_meiklejohn,Sarah Meiklejohn,13,2434
+oa_author_iryna_gurevych,Iryna Gurevych,24,3512
+oa_author_shuchi_grover,Shuchi Grover,24,1703
+gov_ai_drago_tudorache,Dragoș Tudorache,24,8637
+gov_ai_brando_benifei,Brando Benifei,24,7990
+gov_ai_suresh_venkatasubramanian,Suresh Venkatasubramanian,24,7125
+gov_ai_alondra_nelson,Alondra Nelson,24,44569
+gov_ai_marietje_schaake,Marietje Schaake,24,19225
+gov_ai_lina_khan,Lina Khan,24,1560124
+gov_ai_tim_wu,Tim Wu,24,66775
+gov_ai_renee_diresta,Renée DiResta,24,79651
+gov_ai_arati_prabhakar,Arati Prabhakar,24,117590
+gov_ai_susan_ariel_aaronson,Susan Ariel Aaronson,24,1657
+gov_ai_kate_crawford,Kate Crawford,24,44576
+gov_ai_meredith_whittaker,Meredith Whittaker,24,228498
+gov_ai_inioluwa_deborah_raji,Deborah Raji,24,13688
+gov_ai_joy_buolamwini,Joy Buolamwini,24,73279
+gov_ai_latanya_sweeney,Latanya Sweeney,24,17184
+gov_ai_toby_ord,Toby Ord,24,42509
+gov_ai_holden_karnofsky,Holden Karnofsky,24,78172
+gov_ai_dylan_matthews,Dylan Matthews,24,23594
+gov_ai_kelsey_piper,Kelsey Piper,24,19585
+gov_ai_owain_evans,Owain Evans,0,0
+gov_ai_robin_hanson,Robin Hanson,24,71689
+mid_founder_dylan_field,Dylan Field,24,142769
+mid_founder_kunal_shah,Kunal Shah,18,37058
+mid_founder_spencer_rascoff,Spencer Rascoff,24,42287
+mid_founder_jen_rubio,Jen Rubio,24,58385
+mid_founder_tom_preston_werner,Tom Preston-Werner,24,216927
+mid_founder_naval_ravikant,Naval Ravikant,24,942718
+mid_founder_chris_wanstrath,Chris Wanstrath,24,89992
+mid_founder_aaron_levie,Aaron Levie,24,73118
+mid_founder_adam_cheyer,Adam Cheyer,24,22330
+mid_founder_scott_farquhar,Scott Farquhar,24,137183
+mid_founder_mike_cannon_brookes,Mike Cannon-Brookes,24,226727
+mid_founder_dylan_smith,Dylan Smith (businessman),24,29334
+mid_founder_tom_gruber,Tom Gruber,24,10590
+mid_founder_joe_gebbia,Joe Gebbia,24,315511
+mid_founder_steve_huffman,Steve Huffman,24,798965
+mid_founder_alexis_ohanian,Alexis Ohanian,24,2060326
+mid_founder_tobi_ltke,Tobias Lütke,24,279597
+mid_founder_christopher_poole,Christopher Poole,24,502925
+mid_founder_patrick_collison,Patrick Collison,24,360675
+mid_founder_vlad_tenev,Vlad Tenev,24,301504
+mid_founder_john_collison,John Collison,24,248168
+mid_founder_baiju_bhatt,Baiju Bhatt,24,229213
+mid_founder_drew_houston,Drew Houston,24,98945
+mid_founder_jyoti_bansal,Jyoti Bansal,24,43674
+mid_founder_arash_ferdowsi,Arash Ferdowsi,24,80881
+mid_vc_kirsten_green,Kirsten Green,24,11471
+mid_vc_cyan_banister,Cyan Banister,24,96468
+mid_vc_scott_banister,Scott Banister,24,50077
+mid_vc_susan_lyne,Susan Lyne,3,691
+mid_vc_aileen_lee,Aileen Lee,24,41148
+mid_vc_theresia_gouw,Theresia Gouw,24,20083
+mid_vc_lauren_kolodny,Lauren Kolodny,4,843
+mid_vc_brian_singerman,Brian Singerman,24,20035
+mid_product_logseq,Logseq,8,4686
+mid_product_reflect,Macrium Reflect,24,66745
+mid_product_todoist,Todoist,5,1
+mid_product_omnifocus,OmniFocus,24,13465
+mid_product_craft_productivity,Craft,24,188584
+mid_product_airtable,Airtable,24,231272
+mid_product_webflow,Webflow,24,204930
+mid_product_zapier_product,Zapier,24,216451
+mid_product_n8n,N8n,0,0
+mid_product_mixpanel_product,Mixpanel,24,52164
+mid_product_amplitude,"Amplitude, Inc.",14,26738
+mid_product_shortcut,Shortcut Software,24,8914
+mid_product_loom,Fruit of the Loom,24,506170
+mid_product_elevenlabs_product,ElevenLabs,24,919384
+mid_product_midjourney_product,Midjourney,24,1448439
+mid_product_figma_product,Figma,24,844036
+mid_product_canva_product,Canva,0,0
+mid_product_adobe_xd,Adobe XD,24,188882
+mid_product_miro,Miro (collaboration platform),24,272756
+mid_product_lucidchart,Lucidchart,24,97681
+mid_product_firebase,Firebase,24,451981
+mid_product_neon_database,Neon Genesis Evangelion,24,2693704
+mid_product_mongoose,Mongoose (company),24,34382
+mid_tier_actor_lance_reddick,Lance Reddick,24,4845517
+mid_product_click,DoubleClick,24,197151
+mid_tier_actor_wendell_pierce,Wendell Pierce,24,1719178
+mid_tier_actor_margo_martindale,Margo Martindale,24,1396776
+mid_tier_actor_toby_jones,Toby Jones,24,2135602
+mid_tier_actor_mark_strong,Mark Strong,24,2735317
+mid_tier_actor_stephen_root,Stephen Root,24,1558479
+mid_tier_actor_brian_tyree_henry,Brian Tyree Henry,24,2023160
+mid_tier_actor_lakeith_stanfield,LaKeith Stanfield,24,1679330
+mid_tier_actor_lana_condor,Lana Condor,24,1134464
+mid_tier_actor_ke_huy_quan,Ke Huy Quan,24,3746273
+mid_tier_actor_stephanie_hsu,Stephanie Hsu,24,1828858
+mid_tier_actor_anthony_mackie,Anthony Mackie,24,2963874
+mid_tier_actor_sebastian_stan,Sebastian Stan,24,4333074
+mid_tier_actor_aubrey_plaza,Aubrey Plaza,24,8494539
+mid_tier_actor_brett_goldstein,Brett Goldstein,24,3010621
+mid_tier_actor_sandra_oh,Sandra Oh,24,3050089
+mid_tier_actor_jodie_comer,Jodie Comer,24,4754718
+mid_tier_actor_juno_temple,Juno Temple,24,4883720
+mid_tier_actor_hannah_waddingham,Hannah Waddingham,24,7445385
+mid_tier_actor_bel_powley,Bel Powley,24,1190141
+mid_tier_actor_phoebe_waller_bridge,Phoebe Waller-Bridge,24,3958965
+mid_tier_actor_riz_ahmed,Riz Ahmed,24,1734629
+mid_tier_actor_dev_patel,Dev Patel,24,3760512
+mid_tier_actor_walton_goggins,Walton Goggins,24,8794098
+mid_tier_actor_wes_bentley,Wes Bentley,24,2193609
+mid_tier_actor_wyatt_russell,Wyatt Russell,24,4675435
+mid_tier_actor_cole_hauser,Cole Hauser,24,5023511
+mid_tier_actor_beth_behrs,Beth Behrs,24,1462252
+mid_tier_actor_steven_yeun,Steven Yeun,24,2732211
+mid_tier_actor_ali_wong,Ali Wong,24,3429414
+mid_tier_actor_ashley_park,Ashley Park (actress),24,2801353
+mid_tier_actor_jamie_demetriou,Jamie Demetriou,24,1078208
+mid_tier_actor_hong_chau,Hong Chau,24,1869238
+mid_tier_actor_natasia_demetriou,Natasia Demetriou,24,1938442
+mid_tier_actor_matt_berry,Matt Berry,24,2445659
+mid_tier_actor_kayvan_novak,Kayvan Novak,24,1301270
+mid_tier_actor_harvey_guilln,Harvey Guillén,24,1203816
+mid_tier_actor_henry_golding,Henry Golding,24,2248421
+mid_tier_actor_awkwafina,Awkwafina,24,4805817
+mid_tier_actor_constance_wu,Constance Wu,24,2138080
+mid_tier_actor_gemma_chan,Gemma Chan,0,0
+mid_tier_actor_rosa_salazar,Rosa Salazar,24,1220035
+mid_tier_actor_alex_wolff,Alex Wolff,24,1917996
+mid_tier_actor_boyd_holbrook,Boyd Holbrook,24,2060817
+mid_tier_actor_glen_powell,Glen Powell,24,10416920
+mid_tier_actor_hunter_schafer,Hunter Schafer,0,0
+mid_tier_actor_jacob_elordi,Jacob Elordi,24,7438625
+mid_tier_actor_sydney_sweeney,Sydney Sweeney,24,17677361
+mid_tier_actor_barry_keoghan,Barry Keoghan,24,13060081
+mid_tier_actor_colin_farrell,Colin Farrell,24,6181768
+mid_tier_actor_brendan_gleeson,Brendan Gleeson,24,3154257
+mid_tier_actor_cillian_murphy,Cillian Murphy,24,15700146
+mid_tier_actor_florence_pugh,Florence Pugh,24,11043027
+mid_tier_actor_park_chan_wook,Park Chan-wook,24,1041358
+mid_tier_actor_yorgos_lanthimos,Yorgos Lanthimos,24,3350766
+mid_tier_actor_hirokazu_kore_eda,Hirokazu Kore-eda,24,460856
+mid_tier_writer_andy_weir,Andy Weir,24,782343
+mid_tier_actor_wim_wenders,Wim Wenders,24,1125674
+mid_tier_actor_asghar_farhadi,Asghar Farhadi,24,228313
+mid_tier_writer_brandon_sanderson,Brandon Sanderson,24,2294827
+mid_tier_writer_ted_chiang,Ted Chiang,24,498377
+mid_tier_writer_liu_cixin,Liu Cixin,24,1281129
+mid_tier_writer_becky_chambers,Becky Chambers,24,202646
+mid_tier_writer_tamsyn_muir,Tamsyn Muir,24,191292
+mid_tier_writer_tochi_onyebuchi,Tochi Onyebuchi,24,15878
+mid_tier_writer_rebecca_roanhorse,Rebecca Roanhorse,24,67398
+mid_tier_writer_martha_wells,Martha Wells,24,308046
+mid_tier_writer_naomi_novik,Naomi Novik,24,212519
+mid_tier_writer_lauren_groff,Lauren Groff,24,167823
+mid_tier_writer_madeline_miller,Madeline Miller,24,306707
+mid_tier_writer_min_jin_lee,Min Jin Lee,24,249640
+mid_tier_writer_ocean_vuong,Ocean Vuong,24,548133
+mid_tier_writer_hanya_yanagihara,Hanya Yanagihara,24,650177
+mid_tier_writer_sally_rooney,Sally Rooney,24,891685
+mid_tier_writer_emily_st__john_mandel,Emily St. John Mandel,24,275877
+mid_tier_writer_garth_greenwell,Garth Greenwell,24,44193
+mid_tier_writer_rachel_cusk,Rachel Cusk,24,176594
+mid_tier_writer_sigrid_nunez,Sigrid Nunez,24,122502
+mid_tier_writer_jenny_offill,Jenny Offill,24,24253
+mid_tier_writer_maggie_ofarrell,Maggie O'Farrell,24,202612
+mid_tier_writer_ling_ma,Ling Ma,24,61938
+mid_tier_writer_carmen_maria_machado,Carmen Maria Machado,24,130252
+mid_tier_writer_megha_majumdar,Megha Majumdar,24,7785
+mid_tier_writer_leigh_bardugo,Leigh Bardugo,24,490765
+mid_tier_writer_sarah_j__maas,Sarah J. Maas,24,1813926
+mid_tier_writer_holly_black,Holly Black,24,181287
+mid_tier_writer_marie_lu,Marie Lu,24,50011
+mid_tier_writer_tomi_adeyemi,Tomi Adeyemi,24,112377
+mid_tier_writer_sabaa_tahir,Sabaa Tahir,24,74482
+mid_tier_writer_casey_mcquiston,Casey McQuiston,24,331904
+mid_tier_writer_talia_hibbert,Talia Hibbert,24,20076
+mid_tier_writer_tessa_bailey,Tessa Bailey,23,38887
+mid_tier_writer_emily_henry,Emily Henry,24,345172
+mid_tier_writer_helen_hoang,Helen Hoang,24,33150
+mid_tier_writer_bonnie_garmus,Bonnie Garmus,24,382027
+mid_tier_writer_amor_towles,Amor Towles,24,509740
+mid_tier_writer_anthony_doerr,Anthony Doerr,24,339227
+mid_tier_writer_yaa_gyasi,Yaa Gyasi,24,83602
+mid_tier_writer_gabrielle_zevin,Gabrielle Zevin,24,416459
+mid_tier_writer_brit_bennett,Brit Bennett,24,45571
+mid_tier_writer_tayari_jones,Tayari Jones,24,37684
+mid_tier_writer_mariana_enriquez,Mariana Enríquez,24,81772
+mid_tier_writer_bryan_washington,Bryan Washington,24,27406
+mid_tier_writer_olga_tokarczuk,Olga Tokarczuk,24,363150
+mid_tier_writer_ottessa_moshfegh,Ottessa Moshfegh,24,482359
+mid_tier_writer_saou_ichikawa,Saou Ichikawa,5,7753
+mid_tier_writer_mieko_kawakami,Mieko Kawakami,24,126659
+mid_tier_writer_sayaka_murata,Sayaka Murata,24,128621
+mid_tier_writer_han_kang,Han Kang,24,863424
+mid_tier_writer_karin_tidbeck,Karin Tidbeck,24,5735
+mid_tier_writer_yoko_ogawa,Yōko Ogawa,24,97527
+mid_tier_writer_bora_chung,Bora Chung,24,27834
+mid_tier_writer_tasha_suri,Tasha Suri,24,25256
+mid_tier_writer_shelley_parker_chan,Shelley Parker-Chan,24,32470
+mid_tier_writer_adrian_tchaikovsky,Adrian Tchaikovsky,24,472797
+mid_tier_writer_saara_el_arifi,Saara El-Arifi,12,8393
+mid_tier_writer_aliya_whiteley,Aliya Whiteley,24,4445
+mid_tier_writer_aliette_de_bodard,Aliette de Bodard,24,22632
+mid_tier_writer_premee_mohamed,Premee Mohamed,24,11698
+mid_tier_writer_sarah_pinsker,Sarah Pinsker,24,13100
+mid_tier_writer_charlie_jane_anders,Charlie Jane Anders,24,65292
+mid_tier_writer_kim_stanley_robinson,Kim Stanley Robinson,24,293039
+mid_tier_writer_eliyahu_m__goldratt,Eliyahu M. Goldratt,24,69447
+mid_tier_writer_patrick_lencioni,Patrick Lencioni,24,90068
+mid_tier_writer_adam_grant,Adam Grant,24,312267
+mid_tier_writer_bren_brown,Brené Brown,24,642854
+mid_tier_writer_charles_duhigg,Charles Duhigg,24,78127
+mid_tier_writer_daniel_h__pink,Daniel H. Pink,24,81958
+mid_tier_writer_adam_tooze,Adam Tooze,24,148960
+mid_tier_writer_atul_gawande,Atul Gawande,24,267257
+mid_tier_writer_yuval_noah_harari,Yuval Noah Harari,24,1673453
+mid_tier_writer_jared_diamond,Jared Diamond,24,340343
+mid_tier_writer_steven_pinker,Steven Pinker,24,581244
+mid_tier_writer_daniel_kahneman,Daniel Kahneman,24,986647
+mid_tier_writer_cal_newport,Cal Newport,24,207021
+mid_tier_writer_tim_urban,Tim Urban,24,22654
+mid_tier_writer_ryan_holiday,Ryan Holiday,24,456813
+mid_tier_writer_james_clear,James Clear,24,382481
+mid_tier_writer_eliezer_yudkowsky,Eliezer Yudkowsky,24,391889
+mid_tier_writer_alex_tabarrok,Alex Tabarrok,24,20957
+mid_tier_writer_tyler_cowen,Tyler Cowen,24,190825
+mid_tier_athlete_tobias_harris,Tobias Harris,24,609225
+mid_tier_athlete_patrick_beverley,Patrick Beverley,24,1391905
+mid_tier_athlete_bobby_portis,Bobby Portis,24,469427
+mid_tier_athlete_aaron_holiday,Aaron Holiday,24,350302
+mid_tier_athlete_deanthony_melton,De'Anthony Melton,24,269392
+mid_tier_athlete_royce_oneale,Royce O'Neale,24,167104
+mid_tier_athlete_coby_white,Coby White,24,457582
+mid_tier_athlete_jalen_brunson,Jalen Brunson,24,3751718
+mid_tier_athlete_pat_connaughton,Pat Connaughton,24,238584
+mid_tier_athlete_donte_divincenzo,Donte DiVincenzo,24,2131014
+mid_tier_athlete_mikal_bridges,Mikal Bridges,24,1261947
+mid_tier_athlete_josh_hart,Josh Hart,24,1335683
+mid_tier_athlete_og_anunoby,OG Anunoby,24,974139
+mid_tier_athlete_caris_levert,Caris LeVert,24,276381
+mid_tier_athlete_christian_wood,Christian Wood,24,505555
+mid_tier_athlete_andrew_wiggins,Andrew Wiggins,24,1514386
+mid_tier_athlete_buddy_hield,Buddy Hield,24,1251347
+mid_tier_athlete_brandin_podziemski,Brandin Podziemski,24,1163518
+mid_tier_athlete_markieff_morris,Markieff Morris,24,622844
+mid_tier_athlete_marcus_smart,Marcus Smart,24,760963
+mid_tier_athlete_marcus_morris,Marcus Morris Sr.,24,502207
+mid_tier_athlete_bismack_biyombo,Bismack Biyombo,24,333613
+mid_tier_athlete_jonas_valaninas,Jonas Valančiūnas,24,551769
+mid_tier_athlete_tyus_jones,Tyus Jones,24,379671
+mid_tier_athlete_domantas_sabonis,Domantas Sabonis,24,1521656
+mid_tier_athlete_tre_jones,Tre Jones,24,238829
+mid_tier_athlete_saddiq_bey,Saddiq Bey,24,242326
+mid_tier_athlete_aaron_nesmith,Aaron Nesmith,24,521462
+mid_tier_athlete_andrew_nembhard,Andrew Nembhard,24,746398
+mid_tier_athlete_cole_anthony,Cole Anthony,24,377603
+mid_tier_athlete_bennedict_mathurin,Bennedict Mathurin,24,633401
+mid_tier_athlete_jonathan_isaac,Jonathan Isaac,24,399909
+mid_tier_athlete_wendell_carter_jr_,Wendell Carter Jr.,24,231200
+mid_tier_athlete_daniel_theis,Daniel Theis,24,412149
+mid_tier_athlete_anfernee_simons,Anfernee Simons,24,387324
+mid_tier_athlete_toumani_camara,Toumani Camara,24,279379
+mid_tier_athlete_cristian_roldan,Cristian Roldan,24,83421
+mid_tier_athlete_tajon_buchanan,Tajon Buchanan,24,435383
+mid_tier_athlete_cyle_larin,Cyle Larin,24,254081
+mid_tier_athlete_alphonso_davies,Alphonso Davies,24,1495389
+mid_tier_athlete_hirving_lozano,Hirving Lozano,24,649388
+mid_tier_athlete_kerem_aktrkolu,Kerem Aktürkoğlu,24,313093
+mid_tier_athlete_daichi_kamada,Daichi Kamada,24,501778
+mid_tier_athlete_alexis_snchez,Alexis Sánchez,24,2001195
+mid_tier_athlete_toms_etcheverry,Tomás Etcheverry,24,2864
+mid_tier_athlete_sebastin_bez,Sebastián Báez,24,214349
+mid_tier_athlete_cengiz_nder,Cengiz Ünder,24,230141
+mid_tier_athlete_francisco_cerndolo,Francisco Cerúndolo,24,375973
+mid_tier_athlete_mariano_navone,Mariano Navone,24,158890
+mid_tier_athlete_tallon_griekspoor,Tallon Griekspoor,24,366682
+mid_tier_athlete_cody_gakpo,Cody Gakpo,24,1599949
+mid_tier_athlete_botic_van_de_zandschulp,Botic van de Zandschulp,24,325750
+mid_tier_athlete_brandon_nakashima,Brandon Nakashima,24,333740
+mid_tier_athlete_reilly_opelka,Reilly Opelka,24,478277
+mid_tier_athlete_ariya_jutanugarn,Ariya Jutanugarn,24,51801
+mid_tier_athlete_lydia_ko,Lydia Ko,24,709365
+mid_tier_athlete_patty_tavatanakit,Patty Tavatanakit,24,84280
+mid_tier_athlete_wyndham_clark,Wyndham Clark,24,667377
+mid_tier_athlete_cam_davis,Cameron Davis (golfer),24,134388
+mid_tier_athlete_maverick_mcnealy,Maverick McNealy,24,335065
+mid_tier_athlete_filipe_toledo,Filipe Toledo,24,52819
+mid_tier_athlete_adam_hadwin,Adam Hadwin,24,106894
+mid_tier_athlete_yuki_tsunoda,Yuki Tsunoda,24,1282540
+mid_tier_athlete_esteban_ocon,Esteban Ocon,24,1147633
+mid_tier_athlete_nico_hlkenberg,Nico Hülkenberg,24,1111208
+mid_tier_athlete_pierre_gasly,Pierre Gasly,24,1059684
+mid_tier_athlete_kevin_magnussen,Kevin Magnussen,24,773350
+mid_tier_athlete_kyler_murray,Kyler Murray,24,1704421
+mid_tier_athlete_sam_howell,Sam Howell,24,1642070
+mid_tier_athlete_bo_nix,Bo Nix,24,3469926
+mid_tier_athlete_caleb_williams,Caleb Williams,24,3193499
+mid_tier_athlete_drake_maye,Drake Maye,24,1765511
+mid_tier_athlete_jayden_daniels,Jayden Daniels,24,4629504
+mid_tier_athlete_bryce_harper,Bryce Harper,24,2054826
+mid_tier_athlete_trea_turner,Trea Turner,24,743152
+mid_tier_athlete_kyle_schwarber,Kyle Schwarber,24,802134
+mid_tier_athlete_elly_de_la_cruz,Elly De La Cruz,24,994518
+mid_tier_athlete_ronald_acua_jr_,Ronald Acuña Jr.,24,960414
+mid_tier_athlete_matt_olson,Matt Olson,24,447178
+mid_tier_athlete_spencer_steer,Spencer Steer,24,75554
+mid_tier_athlete_austin_riley,Austin Riley,24,231361
+mid_tier_musician_phoebe_bridgers,Phoebe Bridgers,24,3781226
+mid_tier_musician_lucy_dacus,Lucy Dacus,24,1329102
+mid_tier_musician_julien_baker,Julien Baker,24,1587131
+mid_tier_musician_japanese_breakfast,Japanese Breakfast,24,615386
+mid_tier_musician_mitski,Mitski,24,1869639
+mid_tier_musician_big_thief,Big Thief,24,534717
+mid_tier_musician_adrianne_lenker,Adrianne Lenker,24,921376
+mid_tier_musician_bon_iver,Bon Iver,24,1622392
+mid_tier_musician_sufjan_stevens,Sufjan Stevens,24,1788026
+mid_tier_musician_father_john_misty,Father John Misty,24,987672
+mid_tier_musician_vampire_weekend,Vampire Weekend,24,1177537
+mid_tier_musician_wilco,Wilco,24,743832
+mid_tier_musician_beach_house,Beach House,24,488106
+mid_tier_musician_cigarettes_after_sex,Cigarettes After Sex,24,1399368
+mid_tier_musician_tame_impala,Tame Impala,24,1488428
+mid_tier_musician_animal_collective,Animal Collective,24,303882
+mid_tier_musician_mgmt,MGMT,24,1937817
+mid_tier_musician_kevin_parker_musician,Kevin Parker,24,2146
+mid_tier_musician_grizzly_bear,Grizzly bear,24,1538692
+mid_tier_musician_fleet_foxes,Fleet Foxes,24,441282
+mid_tier_musician_of_monsters_and_men,Of Monsters and Men,24,443783
+mid_tier_musician_hozier,Hozier,24,3513343
+mid_tier_musician_james_bay,James Bay (singer),24,359707
+mid_tier_musician_lewis_capaldi,Lewis Capaldi,24,3203466
+mid_tier_musician_lord_huron,Lord Huron,24,589813
+mid_tier_musician_george_ezra,George Ezra,24,597759
+mid_tier_musician_the_lumineers,The Lumineers,24,746627
+mid_tier_musician_mumford__sons,Mumford & Sons,24,1543884
+mid_tier_musician_lana_del_rey,Lana Del Rey,24,8718850
+mid_tier_musician_maggie_rogers,Maggie Rogers,24,1521559
+mid_tier_musician_clairo,Clairo,24,1287394
+mid_tier_musician_soccer_mommy,Soccer Mommy,24,208095
+mid_tier_musician_snail_mail,Snail Mail (musician),24,287547
+mid_tier_musician_rex_orange_county,Rex Orange County,24,466075
+mid_tier_musician_omar_apollo,Omar Apollo,24,749510
+mid_tier_musician_steve_lacy,Steve Lacy,24,715163
+mid_tier_musician_tyler_the_creator,"Tyler, the Creator",24,4675485
+mid_tier_musician_vince_staples,Vince Staples,24,1110544
+mid_tier_musician_earl_sweatshirt,Earl Sweatshirt,24,772738
+mid_tier_musician_mac_miller,Mac Miller,24,4706676
+mid_tier_musician_anderson__paak,Anderson .Paak,24,1268577
+mid_tier_musician_snoh_aalegra,Snoh Aalegra,24,393604
+mid_tier_musician_daniel_caesar,Daniel Caesar,24,724535
+mid_tier_musician_jorja_smith,Jorja Smith,24,696862
+mid_tier_musician_leon_bridges,Leon Bridges,24,655961
+mid_tier_musician_sampha,Sampha,24,345359
+mid_tier_musician_fka_twigs,FKA Twigs,24,2832074
+mid_tier_musician_rosala,Rosalía,24,2597380
+mid_tier_musician_james_blake,James Blake (musician),24,1112735
+mid_tier_musician_c__tangana,C. Tangana,24,186597
+mid_tier_musician_karol_g,Karol G,24,2063823
+mid_tier_musician_bad_bunny,Bad Bunny,24,5440607
+mid_tier_musician_maluma,Maluma,24,915482
+mid_tier_musician_j_balvin,J Balvin,24,706174
+mid_tier_musician_sebastin_yatra,Sebastián Yatra,24,328862
+mid_tier_musician_aitana_bonmat,Aitana Bonmatí,24,1429193
+mid_tier_musician_rosario_flores,Rosario Flores,24,60785
+mid_tier_artist_yayoi_kusama,Yayoi Kusama,24,1035140
+mid_tier_artist_toms_saraceno,Tomás Saraceno,24,16027
+mid_tier_artist_doris_salcedo,Doris Salcedo,24,34408
+mid_tier_artist_olafur_eliasson,Olafur Eliasson,24,123762
+mid_tier_artist_rachel_whiteread,Rachel Whiteread,24,49832
+mid_tier_artist_wolfgang_tillmans,Wolfgang Tillmans,24,75816
+mid_tier_artist_theaster_gates,Theaster Gates,24,51849
+mid_tier_artist_anish_kapoor,Anish Kapoor,24,507224
+mid_tier_artist_mark_bradford,Mark Bradford,24,44539
+mid_tier_artist_amy_sherald,Amy Sherald,24,81804
+mid_tier_artist_kerry_james_marshall,Kerry James Marshall,24,96806
+mid_tier_artist_kehinde_wiley,Kehinde Wiley,24,256181
+mid_tier_artist_julie_mehretu,Julie Mehretu,24,94660
+mid_tier_artist_lynette_yiadom_boakye,Lynette Yiadom-Boakye,24,22671
+mid_tier_artist_toyin_ojih_odutola,Toyin Ojih Odutola,24,15053
+mid_tier_artist_njideka_akunyili_crosby,Njideka Akunyili Crosby,24,39145
+mid_tier_artist_glenn_ligon,Glenn Ligon,24,27815
+mid_tier_artist_kara_walker,Kara Walker,24,132786
+mid_tier_artist_mickalene_thomas,Mickalene Thomas,24,82498
+mid_tier_artist_andreas_gursky,Andreas Gursky,24,63405
+mid_tier_artist_thomas_demand,Thomas Demand,24,11715
+mid_tier_artist_carrie_mae_weems,Carrie Mae Weems,24,51909
+mid_tier_artist_lorna_simpson,Lorna Simpson,24,31558
+mid_tier_artist_catherine_opie,Catherine Opie,24,38682
+mid_tier_artist_anicka_yi,Anicka Yi,24,17888
+mid_tier_artist_camille_henrot,Camille Henrot,24,8793
+mid_tier_artist_pierre_huyghe,Pierre Huyghe,0,0
+mid_tier_artist_wangechi_mutu,Wangechi Mutu,24,38489
+mid_tier_artist_tania_bruguera,Tania Bruguera,24,19656
+mid_tier_artist_dominique_gonzalez_foerster,Dominique Gonzalez-Foerster,24,6807
+mid_tier_artist_marina_abramovi,Marina Abramović,24,2250305
+mid_tier_artist_jenny_holzer,Jenny Holzer,24,118143
+mid_tier_artist_cindy_sherman,Cindy Sherman,24,331444
+mid_tier_artist_barbara_kruger,Barbara Kruger,24,153100
+mid_tier_artist_tino_sehgal,Tino Sehgal,24,20545
+mid_tier_artist_sherrie_levine,Sherrie Levine,24,26050
+mid_tier_artist_louise_bourgeois,Louise Bourgeois,24,305771
+mid_tier_artist_ai_weiwei,Ai Weiwei,24,460478
+mid_tier_artist_cao_fei,Cao Fei,24,16438
+mid_tier_artist_liu_xiaodong,Liu Xiaodong,24,8162
+mid_tier_artist_zhang_xiaogang,Zhang Xiaogang,24,11734
+mid_tier_artist_yan_pei_ming,Yan Pei-Ming,24,16207
+mid_tier_artist_song_dong,Song Dong,24,5019
+mid_tier_actor_bridget_everett,Bridget Everett,24,773662
+mid_tier_actor_daria_halprin,Daria Halprin,24,145894
+mid_tier_artist_zhang_huan,Zhang Huan,24,18468
+mid_tier_artist_xu_bing,Xu Bing,24,37463
+mid_tier_actor_hala_finley,Hala Finley,24,189180
+mid_tier_actor_colleen_clinkenbeard,Colleen Clinkenbeard,24,391753
+mid_tier_actor_jody_gilbert,Jody Gilbert,24,23935
+mid_tier_actor_holly_fields,Holly Fields,24,143704
+mid_tier_actor_gia_crovatin,Gia Crovatin,24,114763
+mid_tier_actor_idalis_delen,Idalis DeLeón,24,59498
+mid_tier_actor_caroline_damore,Caroline D'Amore,0,0
+mid_tier_actor_florence_gilbert,Florence Gilbert,24,13898
+mid_tier_actor_jere_fields,Jere Fields,24,23595
+mid_tier_actor_jane_elliot,Jane Elliot,24,245343
+mid_tier_actor_jamie_anne_allman,Jamie Anne Allman,24,175970
+mid_tier_actor_jane_cowl,Jane Cowl,24,16697
+mid_tier_actor_helen_gilbert_actress,Helen Gilbert (actress),24,38419
+mid_tier_actor_diane_franklin,Diane Franklin,24,432686
+mid_tier_actor_heather_dubrow,Heather Dubrow,24,631440
+mid_tier_actor_beverly_archer,Beverly Archer,24,229942
+mid_tier_actor_fern_emmett,Fern Emmett,24,8640
+mid_tier_actor_elaine_giftos,Elaine Giftos,24,86192
+mid_tier_actor_ami_dolenz,Ami Dolenz,24,385887
+mid_tier_actor_erica_ash,Erica Ash,24,864084
+mid_tier_actor_florence_halop,Florence Halop,24,162328
+mid_tier_actor_elle_graham,Elle Graham,21,90134
+mid_tier_actor_candice_azzara,Candice Azzara,24,169014
+mid_tier_actor_alaina_reed_hall,Alaina Reed Hall,24,365006
+mid_tier_actor_jennifer_dundas,Jennifer Dundas,24,78006
+mid_tier_actor_holliston_coleman,Holliston Coleman,24,30131
+mid_tier_actor_jennifer_flavin,Jennifer Flavin,24,2269881
+mid_tier_actor_ann_flood,Ann Flood,24,18652
+mid_tier_actor_alycia_delmore,Alycia Delmore,24,5257
+mid_tier_actor_chloe_coleman,Chloe Coleman,24,862118
+mid_tier_actor_jaqueline_fleming,Jaqueline Fleming,24,20738
+mid_tier_actor_jane_gilbert_actress,Jane Gilbert (actress),24,91871
+mid_tier_actor_claudia_barrett,Claudia Barrett,24,21864
+mid_tier_actor_judy_canova,Judy Canova,24,99605
+mid_tier_actor_izabella_alvarez,Izabella Alvarez,24,42929
+mid_tier_actor_estelle_evans,Estelle Evans,24,126301
+mid_tier_actor_eva_ceja,Eva Ceja,23,6743
+mid_tier_actor_jenilee_harrison,Jenilee Harrison,24,464823
+mid_tier_actor_emma_berman,Emma Berman,24,96405
+mid_tier_actor_anitra_ford,Anitra Ford,24,147305
+mid_tier_actor_carlin_glynn,Carlin Glynn,24,171283
+mid_tier_actor_anise_boyer,Anise Boyer,24,5273
+mid_tier_actor_eileen_bowman,Eileen Bowman,24,152
+mid_tier_actor_chip_fields,Chip Fields,24,293621
+mid_tier_actor_joy_harmon,Joy Harmon,24,146571
+mid_tier_actor_christine_dunford,Christine Dunford,24,52844
+mid_tier_actor_doris_dowling,Doris Dowling,24,119281
+mid_tier_actor_jean_dixon,Jean Dixon,24,35252
+mid_tier_actor_calico_cooper,Calico Cooper,24,350156
+mid_tier_actor_carolyn_craig,Carolyn Craig,24,126492
+mid_tier_actor_erica_gavin,Erica Gavin,24,86372
+mid_tier_actor_eugenia_gilbert,Eugenia Gilbert,24,2782
+mid_tier_actor_barbara_baxley,Barbara Baxley,24,92590
+mid_tier_actor_chelsea_brown,Chelsea Brown,24,51145
+mid_tier_actor_irene_dailey,Irene Dailey,24,40393
+mid_tier_actor_constance_ford,Constance Ford,24,220177
+mid_tier_writer_dennis_cooper,Dennis Cooper,24,112445
+mid_tier_actor_denise_dowse,Denise Dowse,24,127168
+mid_tier_writer_camp_concentration,Camp Concentration,24,17537
+mid_tier_writer_dorothy_salisbury_davis,Dorothy Salisbury Davis,24,4367
+mid_tier_writer_geek_love,Geek Love,24,85066
+mid_tier_writer_arna_bontemps,Arna Bontemps,24,26993
+mid_tier_writer_little_big_man_novel,Little Big Man (novel),24,26336
+mid_tier_writer_jude_deveraux,Jude Deveraux,24,42178
+mid_tier_writer_kenneth_fearing,Kenneth Fearing,24,14936
+mid_tier_writer_david_bradley_novelist,David Bradley (novelist),0,0
+mid_tier_writer_colleen_coble,Colleen Coble,24,10939
+mid_tier_writer_kate_braverman,Kate Braverman,24,5428
+mid_tier_writer_kay_boyle,Kay Boyle,0,0
+mid_tier_writer_alan_cheuse,Alan Cheuse,24,3240
+mid_tier_writer_madeleine_vinton_dahlgren,Madeleine Vinton Dahlgren,24,4585
+mid_tier_writer_da_vincis_bicycle,Da Vinci's Bicycle,24,1421
+mid_tier_writer_harriet_the_spy,Harriet the Spy,24,144765
+mid_tier_writer_jonathan_bayliss,Jonathan Bayliss,24,1603
+mid_tier_writer_leigh_bale,Leigh Bale,24,679
+mid_tier_writer_darren_defrain,Darren DeFrain,24,378
+mid_tier_writer_alice_brown_writer,Alice Brown (writer),24,3269
+mid_tier_writer_cyteen,Cyteen,24,24171
+mid_tier_writer_edward_dahlberg,Edward Dahlberg,24,7201
+mid_tier_writer_gary_buslik,Gary Buslik,24,394
+mid_tier_writer_democracy_an_american_novel,Democracy: An American Novel,24,9636
+mid_tier_writer_clifford_lindsey_alderman,Clifford Lindsey Alderman,24,762
+mid_tier_writer_lillian_barrett,Lillian Barrett,11,457
+mid_tier_writer_katherine_dunn,Katherine Dunn,24,37036
+mid_tier_writer_anne_reeve_aldrich,Anne Reeve Aldrich,24,1625
+mid_tier_writer_lest_darkness_fall,Lest Darkness Fall,24,39102
+mid_tier_writer_blood_on_the_forge,Blood on the Forge,24,3067
+mid_tier_writer_margaret_craven_writer,Writer,24,220902
+mid_tier_writer_atia_abawi,Atia Abawi,24,5390
+mid_tier_writer_carolyn_gold_heilbrun,Carolyn Gold Heilbrun,24,16298
+mid_tier_writer_caroline_b__cooney,Caroline B. Cooney,24,26302
+mid_tier_writer_christopher_dow_author,Christopher Dow (author),24,1090
+mid_tier_writer_james_chapman_author,James Chapman (author),24,1904
+mid_tier_writer_frederick_busch,Frederick Busch,24,6038
+mid_tier_writer_marta_acosta,Marta Acosta,24,1090
+mid_tier_writer_louise_fitzhugh,Louise Fitzhugh,24,61418
+mid_tier_writer_kiran_bhat,Kiran Bhat,24,16781
+mid_tier_writer_coma_novel,Coma (novel),24,40120
+mid_tier_writer_chris_culver,Chris Culver,24,3324
+mid_tier_writer_martha_haines_butt,Martha Haines Butt,24,1318
+mid_tier_writer_james_robert_baker,James Robert Baker,24,22606
+mid_tier_writer_margret_holmes_bates,Margret Holmes Bates,24,1581
+mid_tier_writer_edward_eggleston,Edward Eggleston,24,8162
+mid_tier_writer_amber_brock,Amber Brock,24,1029
+mid_tier_writer_joan_abelove,Joan Abelove,24,1862
+mid_tier_writer_fred_chappell,Fred Chappell,24,19428
+mid_tier_writer_bree_despain,Bree Despain,24,1290
+mid_tier_writer_h__l__davis,H. L. Davis,24,4222
+mid_tier_writer_inez_asher,Inez Asher,24,8146
+mid_tier_writer_mary_abbott_golfer,Mary Abbott (golfer),24,3948
+mid_tier_writer_diana_abu_jaber,Diana Abu-Jaber,24,8207
+mid_tier_writer_last_one_home,Last One Home,24,981
+mid_tier_writer_been_down_so_long_it_looks_like_up_to_me,Been Down So Long It Looks Like Up to Me,24,43833
+mid_tier_writer_how_german_is_it,How German Is It,24,5099
+mid_tier_writer_kola_boof,Kola Boof,24,38948
+mid_tier_writer_harry_brown_writer,Harry Brown (writer),24,12344
+mid_tier_writer_hiag_akmakjian,Hiag Akmakjian,24,748
+mid_tier_writer_dhalgren,Dhalgren,24,110791
+mid_tier_writer_kathryn_adams_doty,Kathryn Adams Doty,24,100084
+mid_tier_writer_american_literary_regionalism,American literary regionalism,24,36595
+mid_tier_writer_giles_goat_boy,Giles Goat-Boy,24,26592
+mid_tier_writer_jeremiah_clemens,Jeremiah Clemens,24,4218
+mid_tier_writer_everything_is_illuminated,Everything Is Illuminated,24,128575
+mid_tier_writer_esther_forbes,Esther Forbes,24,14995
+mid_tier_writer_isabel_c__clarke,Isabel C. Clarke,24,885
+mid_tier_writer_malin_alegria,Malin Alegria,24,1024
+mid_tier_writer_mary_cruger,Mary Cruger,24,374
+mid_tier_writer_emma_scarr_booth,Emma Scarr Booth,24,930
+mid_tier_writer_anna_maynard_barbour,Anna Maynard Barbour,24,1011
+mid_tier_writer_a_visit_from_the_goon_squad,A Visit from the Goon Squad,24,260015
+mid_tier_writer_bebe_moore_campbell,Bebe Moore Campbell,24,71536
+mid_tier_writer_house_of_leaves,House of Leaves,24,1997349
+mid_tier_writer_ivan_doig,Ivan Doig,24,45719
+mid_tier_writer_jerome_charyn,Jerome Charyn,24,29710
+mid_tier_writer_donald_antrim,Donald Antrim,24,17948
+mid_tier_writer_hailey_abbott,Hailey Abbott,24,2019
+mid_tier_writer_harriette_simpson_arnow,Harriette Simpson Arnow,24,8165
+mid_tier_writer_john_ehle,John Ehle,24,144142
+mid_tier_writer_jaime_clarke,Jaime Clarke,24,2059
+mid_tier_writer_billy_lee_brammer,Billy Lee Brammer,24,4472
+mid_tier_writer_laura_abbot,Laura Abbot,24,2030
+mid_tier_writer_cherry_adair,Cherry Adair,24,2140
+mid_tier_writer_hannah_webster_foster,Hannah Webster Foster,24,8617
+mid_tier_writer_henry_chang,Henry Chang,24,2349
+mid_tier_writer_amber_dermont,Amber Dermont,24,1089
+mid_tier_writer_margaret_culkin_banning,Margaret Culkin Banning,24,2693
+mid_tier_writer_clyde_brion_davis,Clyde Brion Davis,24,4257
+mid_tier_writer_kinflicks,Kinflicks,24,6235
+mid_tier_writer_j__california_cooper,J. California Cooper,24,9540
+mid_tier_writer_blood_work_novel,Blood Work (novel),24,43573
+mid_tier_writer_eugene_burdick,Eugene Burdick,24,12400
+mid_tier_writer_marcia_davenport,Marcia Davenport,24,37323
+mid_tier_athlete_jeanne_arth,Jeanne Arth,24,2260
+mid_tier_athlete_list_of_grand_slam_girls_singles_champions,List of Grand Slam girls' singles champions,24,28456
+mid_tier_athlete_christine_matison,Christine Matison,24,2154
+mid_tier_athlete_chronological_list_of_womens_grand_slam_tennis_champions,Chronological list of women's Grand Slam tennis champions,24,15719
+mid_tier_athlete_astrid_suurbeek,Astrid Suurbeek,24,595
+mid_tier_athlete_marianne_werdel,Marianne Werdel,24,4060
+mid_tier_athlete_list_of_grand_slam_womens_singles_finals,List of Grand Slam women's singles finals,24,35815
+mid_tier_athlete_christiane_mercelis,Christiane Mercelis,24,1598
+mid_tier_athlete_kathy_may,Kathy May,24,241802
+mid_tier_athlete_louie_bickerton,Louie Bickerton,24,1380
+mid_tier_athlete_joannette_kruger,Joannette Kruger,24,3551
+mid_tier_athlete_list_of_tennis_players_career_achievements,List of tennis players career achievements,24,5192
+mid_tier_athlete_barbara_potter,Barbara Potter,24,5523
+mid_tier_athlete_donna_floyd,Donna Floyd,24,1662
+mid_tier_athlete_betty_hilton,Betty Hilton,24,705
+mid_tier_athlete_joy_mottram,Joy Mottram,24,1815
+mid_tier_athlete_beverly_baker_fleitz,Beverly Baker Fleitz,24,3643
+mid_tier_athlete_atp_masters_1000_doubles_records_and_statistics,ATP Masters 1000 doubles records and statistics,11,2534
+mid_tier_athlete_anne_galle_sidot,Anne-Gaëlle Sidot,24,1967
+mid_tier_athlete_list_of_grand_slam_mixed_doubles_champions,List of Grand Slam mixed doubles champions,24,30295
+mid_tier_athlete_kate_gompert,Kate Gompert,24,2661
+mid_tier_athlete_lisa_bonder,Lisa Bonder,24,107084
+mid_tier_athlete_edith_rotch,Edith Rotch,24,705
+mid_tier_athlete_list_of_wta_tour_top_level_tournament_doubles_champions,List of WTA Tour top-level tournament doubles champions,24,2494
+mid_tier_athlete_list_of_atp_big_titles_singles_champions,List of ATP Big Titles singles champions,24,155392
+mid_tier_athlete_linky_boshoff,Linky Boshoff,24,5886
+mid_tier_athlete_list_of_grand_slam_boys_doubles_champions,List of Grand Slam boys' doubles champions,24,5048
+mid_tier_athlete_bonnie_gadusek,Bonnie Gadusek,24,3073
+mid_tier_athlete_jane_albert,Jane Albert,24,2314
+mid_tier_athlete_isabel_cueto,Isabel Cueto,24,1500
+mid_tier_athlete_heather_brewer_segal,Heather Brewer-Segal,24,1028
+mid_tier_athlete_mary_ann_eisel,Mary-Ann Eisel,24,2988
+mid_tier_athlete_marise_kruger,Marise Kruger,24,1828
+mid_tier_athlete_lolette_payot,Lolette Payot,24,2022
+mid_tier_athlete_list_of_british_singles_finalists_at_grand_slam_tennis_tourn,List of British singles finalists at Grand Slam tennis tournaments,24,27756
+mid_tier_athlete_jean_quertier,Jean Quertier,24,860
+mid_tier_athlete_kathleen_horvath,Kathleen Horvath,24,8038
+mid_tier_athlete_list_of_mens_wheelchair_tennis_champions,List of men's wheelchair tennis champions,24,20230
+mid_tier_architect_gregory_ain,Gregory Ain,24,8167
+mid_tier_architect_james_pennethorne,James Pennethorne,24,4046
+mid_tier_architect_charles_moore_architect,Charles Moore (architect),24,28500
+mid_tier_athlete_eileen_bennett_whittingstall,Eileen Bennett Whittingstall,24,2788
+mid_tier_architect_diana_agrest,Diana Agrest,24,3511
+mid_tier_architect_arthur_u__gerber,Arthur U. Gerber,24,629
+mid_tier_architect_harwell_hamilton_harris,Harwell Hamilton Harris,24,3431
+mid_tier_architect_clair_tisseur,Clair Tisseur,24,568
+mid_tier_architect_edward_b__rust,Edward B. Rust,24,934
+mid_tier_architect_duncan_g__stroik,Duncan G. Stroik,24,5725
+mid_tier_architect_marshall_and_fox,Marshall and Fox,24,4380
+mid_tier_architect_hans_kollhoff,Hans Kollhoff,24,5118
+mid_tier_architect_berthold_lubetkin,Berthold Lubetkin,24,18844
+mid_tier_architect_ann_r__chaintreuil,Ann R. Chaintreuil,24,473
+mid_tier_architect_henry_engelbert,Henry Engelbert,24,1260
+mid_tier_architect_gannon_and_hands,Gannon and Hands,24,506
+mid_tier_architect_alfred_giles_architect,Alfred Giles (architect),24,4122
+mid_tier_architect_e__w__pugin,E. W. Pugin,24,10638
+mid_tier_architect_a__t__mann,A. T. Mann,24,2728
+mid_tier_architect_henry_tanner_architect,Henry Tanner (architect),24,1412
+mid_tier_architect_john_almy_tompkins_ii,John Almy Tompkins II,2,117
+mid_tier_architect_archimedes_russell,Archimedes Russell,24,2882
+mid_tier_architect_anna_pendleton_schenck,Anna Pendleton Schenck,24,333
+mid_tier_architect_judith_edelman,Judith Edelman,24,1156
+mid_tier_architect_gertrude_comfort_morrow,Gertrude Comfort Morrow,24,1177
+mid_tier_architect_henry_john_klutho,Henry John Klutho,24,4724
+mid_tier_architect_herman_hertzberger,Herman Hertzberger,24,15476
+mid_tier_architect_f__burrall_hoffman,F. Burrall Hoffman,24,4390
+mid_tier_architect_frank_hoar,Frank Hoar,24,1736
+mid_tier_architect_henry_forbes_bigelow,Henry Forbes Bigelow,24,2349
+mid_tier_architect_ignazio_gardella,Ignazio Gardella,24,3071
+mid_tier_architect_bertram_goodhue,Bertram Goodhue,24,24008
+mid_tier_architect_geoffrey_harley_mewton,Geoffrey Harley Mewton,24,429
+mid_tier_architect_carl_koch_architect,Carl Koch (architect),24,3787
+mid_tier_architect_atanasije_nikoli,Atanasije Nikolić,24,889
+mid_tier_activist_list_of_lgbtq_rights_activists,List of LGBTQ rights activists,9,12950
+mid_tier_book_list_of_best_selling_fiction_authors,List of best-selling fiction authors,24,966892
+mid_tier_book_marabel_morgan,Marabel Morgan,24,12045
+mid_tier_book_autobiographical_novel,Autobiographical novel,24,82392
+mid_tier_book_dirk_pitt,Dirk Pitt,24,141353
+mid_tier_book_doc_savage,List of Doc Savage novels,24,43997
+mid_tier_book_books_in_the_united_kingdom,Books in the United Kingdom,24,12369
+mid_tier_book_diana_her_true_story_book,Diana: Her True Story (book),24,116575
+mid_tier_comedian_joel_kim_booster,Joel Kim Booster,24,639806
+mid_tier_comedian_iliza_shlesinger,Iliza Shlesinger,24,1157911
+mid_tier_comedian_cristela_alonzo,Cristela Alonzo,24,225490
+mid_tier_comedian_nate_bargatze,Nate Bargatze,24,3555582
+mid_tier_comedian_tim_dillon,Tim Dillon (comedian),24,1133528
+mid_tier_comedian_mark_normand,Mark Normand,24,648786
+mid_tier_comedian_sam_morril,Sam Morril,24,770589
+mid_tier_comedian_shane_gillis,Shane Gillis,24,5967855
+mid_tier_comedian_andrew_schulz,Andrew Schulz,24,2236692
+mid_tier_comedian_akaash_singh,Akaash Singh,24,447550
+mid_tier_comedian_andrew_santino,Andrew Santino,24,1368914
+mid_tier_comedian_bobby_lee,Bobby Lee,24,2699022
+mid_tier_comedian_whitney_cummings,Whitney Cummings,24,1949069
+mid_tier_comedian_hannah_berner,Hannah Berner,16,272274
+mid_tier_comedian_roy_wood_jr_,Roy Wood Jr.,24,510189
+mid_tier_comedian_jaboukie_young_white,Jaboukie Young-White,24,423207
+mid_tier_comedian_hasan_minhaj,Hasan Minhaj,24,1490335
+mid_tier_comedian_maria_bamford,Maria Bamford,24,657106
+mid_tier_comedian_tig_notaro,Tig Notaro,24,1660269
+mid_tier_comedian_patton_oswalt,Patton Oswalt,24,2390233
+mid_tier_comedian_bill_burr,Bill Burr,24,3875419
+mid_tier_comedian_sarah_silverman,Sarah Silverman,24,3381481
+mid_tier_comedian_anthony_jeselnik,Anthony Jeselnik,24,918952
+mid_tier_comedian_jim_jefferies,Jim Jefferies,24,671475
+mid_tier_comedian_james_acaster,James Acaster,24,1439622
+mid_tier_comedian_jimmy_carr,Jimmy Carr,24,2235213
+mid_tier_comedian_daniel_sloss,Daniel Sloss,24,329860
+mid_tier_comedian_mae_martin,Mae Martin,24,1822734
+mid_tier_comedian_demetri_martin,Demetri Martin,24,329808
+mid_tier_comedian_hannah_gadsby,Hannah Gadsby,24,481056
+mid_tier_comedian_paul_f__tompkins,Paul F. Tompkins,24,512578
+mid_tier_comedian_lauren_lapkus,Lauren Lapkus,24,1279537
+mid_tier_comedian_kate_berlant,Kate Berlant,24,334190
+mid_tier_comedian_john_early,John Early (comedian),24,275865
+mid_tier_comedian_patti_harrison,Patti Harrison,24,683101
+mid_tier_comedian_catherine_cohen,Catherine Cohen,24,158928
+mid_tier_comedian_atsuko_okatsuka,Atsuko Okatsuka,24,400472
+mid_tier_comedian_jacqueline_novak,Jacqueline Novak,24,157481
+mid_tier_comedian_ronny_chieng,Ronny Chieng,24,1489490
+mid_tier_comedian_steph_tolev,Steph Tolev,24,150181
+mid_tier_comedian_sheng_wang,Sheng Wang,24,123003
+mid_tier_comedian_chelsea_handler,Chelsea Handler,24,1599353
+mid_tier_comedian_wanda_sykes,Wanda Sykes,24,1230146
+mid_tier_comedian_michelle_wolf,Michelle Wolf,24,720363
+mid_tier_journalist_yamiche_alcindor,Yamiche Alcindor,24,186027
+mid_tier_journalist_lisa_lerer,Lisa Lerer,0,0
+mid_tier_journalist_astead_herndon,Astead Herndon,4,4282
+mid_tier_journalist_maggie_haberman,Maggie Haberman,24,318594
+mid_tier_journalist_annie_karni,Annie Karni,24,32505
+mid_tier_journalist_ezra_klein,Ezra Klein,24,1089608
+mid_tier_journalist_michelle_goldberg,Michelle Goldberg,24,134879
+mid_tier_journalist_charles_blow,Charles M. Blow,24,120958
+mid_tier_journalist_bret_stephens,Bret Stephens,24,466991
+mid_tier_journalist_david_brooks,David Brooks (commentator),24,904946
+mid_tier_journalist_kara_swisher,Kara Swisher,24,1184079
+mid_tier_journalist_casey_newton,Casey Newton,24,42833
+mid_tier_journalist_karen_hao,Karen Hao,24,33651
+mid_tier_journalist_kashmir_hill,Kashmir Hill,9,5395
+mid_tier_journalist_steven_levy,Steven Levy,24,36216
+mid_tier_journalist_ben_smith,Ben Smith (journalist),24,75445
+mid_tier_journalist_justin_smith,Justin B. Smith,24,20393
+mid_tier_journalist_anand_giridharadas,Anand Giridharadas,24,122714
+mid_tier_journalist_jon_lovett,Jon Lovett,24,1305077
+mid_tier_journalist_jon_favreau,Jon Favreau,24,3231149
+mid_tier_journalist_tommy_vietor,Tommy Vietor,24,297592
+mid_tier_journalist_mehdi_hasan,Mehdi Hasan,24,1501953
+mid_tier_journalist_bari_weiss,Bari Weiss,24,1397656
+mid_tier_journalist_krystal_ball,Krystal Ball,24,636765
+mid_tier_journalist_saagar_enjeti,Saagar Enjeti,24,306649
+mid_tier_journalist_glenn_greenwald,Glenn Greenwald,24,1057126
+mid_tier_journalist_matt_taibbi,Matt Taibbi,24,589591
+mid_tier_journalist_andrew_marantz,Andrew Marantz,24,19148
+mid_tier_journalist_andrew_sullivan,Andrew Sullivan,24,419016
+mid_tier_journalist_patrick_radden_keefe,Patrick Radden Keefe,24,274566
+mid_tier_journalist_ronan_farrow,Ronan Farrow,24,3120681
+mid_tier_journalist_jane_mayer,Jane Mayer,24,65008
+mid_tier_journalist_susan_glasser,Susan Glasser,0,0
+mid_tier_journalist_evan_osnos,Evan Osnos,24,63608
+mid_tier_journalist_jia_tolentino,Jia Tolentino,24,159775
+mid_tier_journalist_kelefa_sanneh,Kelefa Sanneh,24,50383
+mid_tier_journalist_jay_caspian_kang,Jay Caspian Kang,24,44341
+mid_tier_journalist_vinson_cunningham,Vinson Cunningham,0,0
+mid_tier_journalist_rachel_aviv,Rachel Aviv,24,43264
+mid_tier_journalist_rebecca_mead,Rebecca Mead,24,8238
+mid_tier_journalist_anne_applebaum,Anne Applebaum,24,709924
+mid_tier_journalist_adam_serwer,Adam Serwer,24,56081
+mid_tier_journalist_mckay_coppins,McKay Coppins,0,0
+mid_tier_journalist_caitlin_dickerson,Caitlin Dickerson,24,40276
+mid_tier_journalist_olivia_nuzzi,Olivia Nuzzi,24,718070
+mid_tier_journalist_jonathan_chait,Jonathan Chait,24,82474
+mid_tier_journalist_rebecca_traister,Rebecca Traister,24,39591
+mid_tier_journalist_frank_rich,Frank Rich,24,120204
+mid_tier_journalist_mark_joseph_stern,Mark Joseph Stern,7,11338
+mid_tier_journalist_dahlia_lithwick,Dahlia Lithwick,24,60448
+mid_tier_journalist_astra_taylor,Astra Taylor,24,115103
+mid_tier_journalist_jamelle_bouie,Jamelle Bouie,24,152664
+mid_tier_journalist_matt_yglesias,Matthew Yglesias,24,212966
+mid_tier_journalist_dwarkesh_patel,Dwarkesh Patel,3,386
+mid_tier_journalist_russ_roberts,Russ Roberts,24,29972
+mid_tier_journalist_lex_fridman,Lex Fridman,24,2718107
+mid_tier_journalist_sam_harris,Sam Harris,24,1793158
+mid_tier_journalist_tim_ferriss,Tim Ferriss,24,436972
+mid_tier_journalist_andrew_huberman,Andrew Huberman,24,1698983
+mid_tier_journalist_joe_rogan,Joe Rogan,24,6893087
+mid_tier_politician_ayanna_pressley,Ayanna Pressley,24,684115
+mid_tier_politician_ilhan_omar,Ilhan Omar,24,2482653
+mid_tier_politician_rashida_tlaib,Rashida Tlaib,24,1771668
+mid_tier_politician_alexandria_ocasio_cortez,Alexandria Ocasio-Cortez,24,6468156
+mid_tier_politician_jamaal_bowman,Jamaal Bowman,24,1092600
+mid_tier_politician_pramila_jayapal,Pramila Jayapal,24,661626
+mid_tier_politician_cori_bush,Cori Bush,24,979201
+mid_tier_politician_ro_khanna,Ro Khanna,24,964434
+mid_tier_politician_eric_swalwell,Eric Swalwell,24,817074
+mid_tier_politician_katie_porter,Katie Porter,24,1071248
+mid_tier_politician_adam_schiff,Adam Schiff,24,2180737
+mid_tier_politician_greg_casar,Greg Casar,24,478266
+mid_tier_politician_maxwell_frost,Maxwell Frost,24,794754
+mid_tier_politician_delia_ramirez,Delia Ramirez,24,226402
+mid_tier_politician_maxwell_alejandro_frost,Maxwell Frost,24,794754
+mid_tier_politician_summer_lee,Summer Lee,24,409826
+mid_tier_politician_lauren_boebert,Lauren Boebert,24,3932231
+mid_tier_politician_jim_jordan,Jim Jordan,24,1422504
+mid_tier_politician_matt_gaetz,Matt Gaetz,0,0
+mid_tier_politician_marjorie_taylor_greene,Marjorie Taylor Greene,24,4741829
+mid_tier_politician_chip_roy,Chip Roy,24,446276
+mid_tier_politician_mike_lawler,Mike Lawler,24,755348
+mid_tier_politician_thomas_massie,Thomas Massie,24,1437032
+mid_tier_politician_andy_biggs,Andy Biggs,24,311948
+mid_tier_politician_anthony_desposito,Anthony D'Esposito,24,211887
+mid_tier_politician_george_santos,George Santos,24,4425470
+mid_tier_politician_marc_molinaro,Marc Molinaro,24,194214
+mid_tier_politician_adam_frisch,Adam Frisch,24,119601
+mid_tier_politician_tim_sheehy,Tim Sheehy,24,118883
+mid_tier_politician_josh_hawley,Josh Hawley,24,2229377
+mid_tier_politician_bill_hagerty,Bill Hagerty,24,345261
+mid_tier_politician_marsha_blackburn,Marsha Blackburn,24,837881
+mid_tier_politician_ted_cruz,Ted Cruz,24,2760840
+mid_tier_politician_tom_cotton,Tom Cotton,24,1344673
+mid_tier_politician_tim_scott,Tim Scott,24,2151055
+mid_tier_politician_cory_booker,Cory Booker,24,2801545
+mid_tier_politician_mark_kelly,Mark Kelly,24,3365430
+mid_tier_politician_raphael_warnock,Raphael Warnock,24,776603
+mid_tier_politician_jon_ossoff,Jon Ossoff,24,1180928
+mid_tier_politician_kyrsten_sinema,Kyrsten Sinema,24,1361282
+mid_tier_politician_sherrod_brown,Sherrod Brown,24,1205609
+mid_tier_politician_joe_manchin,Joe Manchin,24,1603574
+mid_tier_politician_tammy_baldwin,Tammy Baldwin,24,892697
+mid_tier_politician_tina_smith,Tina Smith,24,393797
+mid_tier_politician_mark_warner,Mark Warner,24,731561
+mid_tier_politician_tim_kaine,Tim Kaine,24,1538498
+mid_tier_politician_maggie_hassan,Maggie Hassan,24,351559
+mid_tier_politician_jeanne_shaheen,Jeanne Shaheen,24,407334
+mid_tier_politician_wes_moore,Wes Moore,24,2070263
+mid_tier_politician_glenn_youngkin,Glenn Youngkin,24,1261755
+mid_tier_politician_josh_shapiro,Josh Shapiro,24,4779747
+mid_tier_politician_greg_abbott,Greg Abbott,24,2108644
+mid_tier_politician_brian_kemp,Brian Kemp,24,770040
+mid_tier_politician_ron_desantis,Ron DeSantis,24,4564135
+mid_tier_politician_henry_mcmaster,Henry McMaster,24,359928
+mid_tier_politician_tate_reeves,Tate Reeves,24,282675
+mid_tier_politician_phil_murphy,Phil Murphy,24,639480
+mid_tier_politician_kathy_hochul,Kathy Hochul,24,1591599
+mid_tier_politician_kay_ivey,Kay Ivey,24,563501
+mid_tier_politician_jared_polis,Jared Polis,24,904815
+mid_tier_politician_ned_lamont,Ned Lamont,24,243349
+mid_tier_politician_maura_healey,Maura Healey,0,0
+mid_tier_politician_rishi_sunak,Rishi Sunak,24,10580452
+mid_tier_politician_liz_truss,Liz Truss,24,4095305
+mid_tier_politician_keir_starmer,Keir Starmer,24,11621151
+mid_tier_politician_olaf_scholz,Olaf Scholz,24,2161691
+mid_tier_politician_friedrich_merz,Friedrich Merz,24,1958996
+mid_tier_politician_annalena_baerbock,Annalena Baerbock,24,650912
+mid_tier_politician_robert_habeck,Robert Habeck,24,298041
+mid_tier_politician_christian_lindner,Christian Lindner,24,306731
+mid_tier_politician_pierre_poilievre,Pierre Poilievre,24,5902945
+mid_tier_politician_anthony_albanese,Anthony Albanese,24,2677680
+mid_tier_politician_justin_trudeau,Justin Trudeau,24,9755545
+mid_tier_politician_peter_dutton,Peter Dutton,24,1219458
+mid_tier_politician_jacinda_ardern,Jacinda Ardern,24,1686460
+mid_tier_politician_christopher_luxon,Christopher Luxon,24,1186418
+mid_tier_politician_lai_ching_te,Lai Ching-te,24,1131660
+mid_tier_politician_han_dong_hoon,Han Dong-hoon,24,180390
+mid_tier_politician_fumio_kishida,Fumio Kishida,24,1313596
+mid_tier_politician_shigeru_ishiba,Shigeru Ishiba,24,1058723
+mid_tier_politician_sanae_takaichi,Sanae Takaichi,24,122531
+mid_tier_politician_yuriko_koike,Yuriko Koike,24,180000
+mid_tier_politician_jordan_bardella,Jordan Bardella,24,1508766
+mid_tier_politician_douard_philippe,Édouard Philippe,24,370696
+mid_tier_politician_marine_le_pen,Marine Le Pen,24,2186547
+mid_tier_politician_gabriel_attal,Gabriel Attal,24,2323518
+mid_tier_politician_yair_lapid,Yair Lapid,24,1161135
+mid_tier_politician_lula_da_silva,Luiz Inácio Lula da Silva,24,1932524
+mid_tier_politician_naftali_bennett,Naftali Bennett,24,1016612
+mid_tier_politician_jair_bolsonaro,Jair Bolsonaro,24,1504865
+mid_tier_politician_javier_milei,Javier Milei,24,5934929
+mid_tier_politician_gabriel_boric,Gabriel Boric,24,986104
+mid_tier_politician_gustavo_petro,Gustavo Petro,24,937434
+mid_tier_politician_andrs_manuel_lpez_obrador,Andrés Manuel López Obrador,24,1902076
+mid_tier_politician_narendra_modi,Narendra Modi,24,10536401
+mid_tier_politician_arvind_kejriwal,Arvind Kejriwal,24,2500691
+mid_tier_politician_rahul_gandhi,Rahul Gandhi,24,4544200
+mid_tier_chef_massimo_bottura,Massimo Bottura,24,180217
+mid_tier_chef_daniel_humm,Daniel Humm,24,226724
+mid_tier_chef_ren_redzepi,René Redzepi,24,317124
+mid_tier_chef_albert_adri,Albert Adrià,24,71322
+mid_tier_chef_dominique_crenn,Dominique Crenn,24,794637
+mid_tier_chef_christina_tosi,Christina Tosi,24,397410
+mid_tier_politician_claudia_sheinbaum,Claudia Sheinbaum,24,6281809
+mid_tier_chef_michael_solomonov,Michael Solomonov,24,73597
+mid_tier_chef_april_bloomfield,April Bloomfield,24,47692
+mid_tier_chef_dan_barber,Dan Barber,24,56159
+mid_tier_chef_kwame_onwuachi,Kwame Onwuachi,24,205245
+mid_tier_chef_mashama_bailey,Mashama Bailey,24,24618
+mid_tier_chef_niki_nakayama,Niki Nakayama,24,21017
+mid_tier_chef_vicky_cheng,Vicky Cheng,0,0
+mid_tier_chef_sean_brock,Sean Brock,24,85808
+mid_tier_chef_andr_chiang,André Chiang,24,30806
+mid_tier_chef_alain_passard,Alain Passard,24,53706
+mid_tier_chef_pierre_herm,Pierre Hermé,24,65528
+mid_tier_chef_cdric_grolet,Cédric Grolet,24,211996
+mid_tier_chef_amaury_guichon,Amaury Guichon,24,725691
+mid_tier_chef_quique_dacosta,Quique Dacosta,24,15349
+mid_tier_chef_michel_roux_jr_,Michel Albert Roux,24,426955
+mid_tier_chef_tom_kerridge,Tom Kerridge,24,347525
+mid_tier_chef_martn_berasategui,Martín Berasategui,24,27107
+mid_tier_chef_ina_garten,Ina Garten,24,1065770
+mid_tier_chef_sami_tamimi,Sami Tamimi,24,58031
+mid_tier_chef_alison_roman,Alison Roman,24,136576
+mid_tier_chef_sohla_el_waylly,Sohla El-Waylly,24,179226
+mid_tier_chef_samin_nosrat,Samin Nosrat,24,180116
+mid_tier_chef_yotam_ottolenghi,Yotam Ottolenghi,24,488411
+mid_tier_chef_carla_lalli_music,Carla Lalli Music,24,62445
+mid_tier_chef_molly_baz,Molly Baz,24,149575
+mid_tier_chef_claire_saffitz,Claire Saffitz,24,290719
+mid_tier_chef_brad_leone,Brad Leone,24,114060
+mid_tier_chef_andy_baraghani,Andy Baraghani,24,47177
+mid_tier_chef_stella_parks,Stella Parks,24,16552
+mid_tier_chef_j__kenji_lpez_alt,J. Kenji López-Alt,24,481837
+mid_tier_chef_nadiya_hussain,Nadiya Hussain,24,469133
+mid_tier_chef_mary_berry,Mary Berry,24,1366782
+mid_tier_podcast_99_invisible,99% Invisible,24,60520
+mid_tier_chef_paul_hollywood,Paul Hollywood,24,1773408
+mid_tier_chef_prue_leith,Prue Leith,24,1464761
+mid_tier_podcast_this_american_life,This American Life,24,203557
+mid_tier_podcast_reply_all,Reply All (podcast),24,115915
+mid_tier_podcast_planet_money,Planet Money,24,26324
+mid_tier_podcast_freakonomics_radio,Freakonomics Radio,24,17860
+mid_tier_podcast_invisibilia,Invisibilia,24,14514
+mid_tier_podcast_note_to_self,Note to Self,24,2075
+mid_tier_podcast_crime_junkie,Crime Junkie,24,57452
+mid_tier_podcast_hidden_brain,Hidden Brain,24,12378
+mid_tier_podcast_my_favorite_murder,My Favorite Murder,24,91270
+mid_tier_podcast_the_ezra_klein_show,Ezra Klein,24,1089608
+mid_tier_podcast_acquired,Acquired,12,26529
+mid_tier_podcast_lex_fridman_podcast,Lex Fridman,24,2718107
+mid_tier_podcast_on_being,On Being,24,15911
+mid_tier_podcast_wtf_with_marc_maron,WTF with Marc Maron,24,106641
+mid_tier_podcast_tim_ferriss_show,Tim Ferriss,24,436972
+mid_tier_podcast_smartless,SmartLess,0,0
+mid_tier_podcast_conan_obrien_needs_a_friend,Conan O'Brien Needs a Friend,24,281784
+mid_tier_podcast_armchair_expert,Armchair Expert,24,120990
+mid_tier_podcast_stuff_you_should_know,Stuff You Should Know,24,112685
+mid_tier_podcast_hardcore_history,Hardcore History,24,88580
+mid_tier_podcast_the_rest_is_politics,The Rest Is Politics,17,182703
+mid_tier_podcast_pod_save_america,Pod Save America,24,241205
+mid_tier_podcast_pod_save_the_world,Pod Save the World,24,25780
+mid_tier_podcast_strict_scrutiny,Strict Scrutiny,24,36845
+mid_tier_podcast_hysteria,Hysteria,24,653116
+mid_tier_podcast_the_daily_wire,The Daily Wire,24,1275869
+mid_tier_podcast_the_joe_rogan_experience,The Joe Rogan Experience,24,890173
+mid_tier_podcast_the_diary_of_a_ceo,The Diary of a CEO,11,23977
+mid_tier_online_course_cs50,CS50,24,141197
+mid_tier_historical_ada_lovelace,Ada Lovelace,24,2693051
+mid_tier_historical_charles_babbage,Charles Babbage,24,1204838
+mid_tier_historical_alan_turing,Alan Turing,24,5267319
+mid_tier_historical_john_von_neumann,John von Neumann,24,1945170
+mid_tier_historical_claude_shannon,Claude Shannon,24,574281
+mid_tier_historical_grace_hopper,Grace Hopper,24,836329
+mid_tier_historical_norbert_wiener,Norbert Wiener,24,258440
+mid_tier_historical_donald_knuth,Donald Knuth,24,459342
+mid_tier_historical_edsger_dijkstra,Edsger W. Dijkstra,24,354119
+mid_tier_historical_tony_hoare,Tony Hoare,24,148118
+mid_tier_historical_niklaus_wirth,Niklaus Wirth,24,195654
+mid_tier_historical_dennis_ritchie,Dennis Ritchie,24,551016
+mid_tier_historical_ken_thompson,Ken Thompson,24,422233
+mid_tier_historical_brian_kernighan,Brian Kernighan,24,197123
+mid_tier_historical_guido_van_rossum,Guido van Rossum,24,613417
+mid_tier_historical_bjarne_stroustrup,Bjarne Stroustrup,24,314374
+mid_tier_historical_larry_wall,Larry Wall,24,71268
+mid_tier_historical_linus_torvalds,Linus Torvalds,24,1319837
+mid_tier_historical_james_gosling,James Gosling,24,293512
+mid_tier_historical_richard_stallman,Richard Stallman,24,632652
+mid_tier_historical_anders_hejlsberg,Anders Hejlsberg,24,153028
+mid_tier_historical_yukihiro_matsumoto,Yukihiro Matsumoto,24,75631
+mid_tier_historical_rasmus_lerdorf,Rasmus Lerdorf,24,65200
+mid_tier_historical_john_backus,John Backus,24,71325
+mid_tier_historical_joe_armstrong,Billie Joe Armstrong,24,3328609
+mid_tier_historical_marvin_minsky,Marvin Minsky,24,407157
+mid_tier_historical_allen_newell,Allen Newell,24,46445
+mid_tier_historical_seymour_papert,Seymour Papert,24,69346
+mid_tier_historical_vint_cerf,Vint Cerf,24,345837
+mid_tier_historical_joseph_weizenbaum,Joseph Weizenbaum,24,79304
+mid_tier_historical_herbert_simon,Herbert A. Simon,24,226018
+mid_tier_historical_martin_hellman,Martin Hellman,24,54213
+mid_tier_historical_whitfield_diffie,Whitfield Diffie,24,70549
+mid_tier_historical_tim_berners_lee,Tim Berners-Lee,24,1483502
+mid_tier_historical_ralph_merkle,Ralph Merkle,24,54377
+mid_tier_historical_adi_shamir,Adi Shamir,24,113213
+mid_tier_historical_ron_rivest,Ron Rivest,24,96433
+mid_tier_historical_manuel_blum,Manuel Blum,24,67583
+mid_tier_historical_leonard_adleman,Leonard Adleman,24,68818
+mid_tier_historical_stephen_cook,Stephen Cook,24,51906
+mid_tier_historical_leonid_levin,Leonid Levin,24,20490
+mid_tier_historical_richard_karp,Richard M. Karp,24,34490
+mid_tier_historical_andrew_yao,Andrew Yao,24,53854
+mid_tier_historical_leslie_lamport,Leslie Lamport,24,166129
+mid_tier_historical_barbara_liskov,Barbara Liskov,24,103020
+mid_tier_historical_frances_allen,Frances Allen,24,26290
+mid_tier_historical_edwin_catmull,Edwin Catmull,24,164735
+mid_tier_historical_alan_kay,Alan Kay,24,158387
+mid_tier_historical_ivan_sutherland,Ivan Sutherland,24,77673
+mid_tier_historical_henri_poincar,Henri Poincaré,24,366557
+mid_tier_historical_david_hilbert,David Hilbert,24,470432
+mid_tier_historical_emmy_noether,Emmy Noether,24,490678
+mid_tier_historical_ramanujan_srinivasa,Srinivasa Ramanujan,24,3958822
+mid_tier_historical_bertrand_russell,Bertrand Russell,24,1735011
+mid_tier_historical_alfred_north_whitehead,Alfred North Whitehead,24,284812
+mid_tier_historical_kurt_gdel,Kurt Gödel,24,929377
+mid_tier_historical_ludwig_wittgenstein,Ludwig Wittgenstein,24,1233093
+mid_tier_historical_saul_kripke,Saul Kripke,24,175345
+mid_tier_historical_hilary_putnam,Hilary Putnam,24,151237
+mid_tier_historical_richard_rorty,Richard Rorty,24,186459
+mid_tier_historical_daniel_dennett,Daniel Dennett,24,689370
+mid_tier_historical_donald_davidson,Donald Davidson (philosopher),24,83374
+mid_tier_historical_thomas_nagel,Thomas Nagel,24,183399
+mid_tier_historical_david_chalmers,David Chalmers,24,191150
+mid_tier_historical_paul_churchland,Paul Churchland,24,47825
+mid_tier_historical_john_searle,John Searle,24,212631
+mid_tier_historical_patricia_churchland,Patricia Churchland,24,40005
+mid_tier_historical_andy_clark,Andy Clark,24,40575
+mid_tier_historical_tim_maudlin,Tim Maudlin,24,38685
+mid_tier_historical_helena_cronin,Helena Cronin,24,4979
+mid_tier_historical_richard_dawkins,Richard Dawkins,24,1744156
+mid_tier_historical_stephen_jay_gould,Stephen Jay Gould,24,357151
+mid_tier_historical_niles_eldredge,Niles Eldredge,24,14619
+mid_tier_historical_francis_crick,Francis Crick,24,446430
+mid_tier_historical_maurice_wilkins,Maurice Wilkins,24,105638
+mid_tier_historical_rosalind_franklin,Rosalind Franklin,24,981212
+mid_tier_historical_james_watson,James Watson,24,610921
+mid_tier_historical_marie_curie,Marie Curie,24,5476456
+mid_tier_historical_linus_pauling,Linus Pauling,24,671375
+mid_tier_historical_pierre_curie,Pierre Curie,24,638781
+mid_tier_historical_niels_bohr,Niels Bohr,24,2467078
+mid_tier_historical_paul_dirac,Paul Dirac,24,723441
+mid_tier_historical_werner_heisenberg,Werner Heisenberg,24,3507617
+mid_tier_historical_erwin_schrdinger,Erwin Schrödinger,24,1095973
+mid_tier_historical_richard_feynman,Richard Feynman,24,2995575
+mid_tier_historical_steven_weinberg,Steven Weinberg,24,181508
+mid_tier_historical_murray_gell_mann,Murray Gell-Mann,24,198598
+mid_tier_historical_sheldon_glashow,Sheldon Glashow,24,76067
+mid_tier_historical_frank_wilczek,Frank Wilczek,24,113853
+mid_tier_historical_david_gross,David Gross,24,96334
+mid_tier_historical_lisa_randall,Lisa Randall,24,110973
+mid_tier_historical_lawrence_krauss,Lawrence Krauss,24,217897
+mid_tier_historical_brian_greene,Brian Greene,24,320903
+mid_tier_historical_roger_penrose,Roger Penrose,24,883435
+mid_tier_historical_andrei_linde,Andrei Linde,24,30779
+mid_tier_historical_sean_carroll,Sean B. Carroll,24,21989
+mid_tier_medical_anthony_fauci,Anthony Fauci,24,2357574
+mid_tier_medical_vivek_murthy,Vivek Murthy,24,625075
+mid_tier_medical_rochelle_walensky,Rochelle Walensky,24,138348
+mid_tier_medical_robert_califf,Robert Califf,24,88948
+mid_tier_medical_janet_woodcock,Janet Woodcock,24,126289
+mid_tier_medical_ashish_jha,Ashish Jha,24,51509
+mid_tier_medical_peter_marks,Peter Marks (physician),24,67130
+mid_tier_medical_mandy_cohen,Mandy Cohen,24,177719
+mid_tier_medical_eric_topol,Eric Topol,24,101200
+mid_tier_medical_sanjay_gupta,Sanjay Gupta,24,464698
+mid_tier_medical_leana_wen,Leana Wen,24,89318
+mid_tier_medical_megan_ranney,Megan Ranney,24,13675
+mid_tier_medical_saad_omer,Saad Omer,24,2567
+mid_tier_medical_michael_osterholm,Michael Osterholm,24,34590
+mid_tier_medical_akiko_iwasaki,Akiko Iwasaki,24,24211
+mid_tier_medical_marc_lipsitch,Marc Lipsitch,24,5048
+mid_tier_medical_jennifer_nuzzo,Jennifer Nuzzo,24,4097
+mid_tier_medical_caitlin_rivers,Caitlin Rivers,24,4315
+mid_tier_medical_nahid_bhadelia,Nahid Bhadelia,24,6436
+mid_tier_medical_eric_ding,Eric Feigl-Ding,24,22129
+mid_tier_medical_eric_feigl_ding,Eric Feigl-Ding,24,22129
+mid_tier_medical_vinay_prasad,Vinay Prasad,24,124905
+mid_tier_medical_eric_lander,Eric Lander,24,108680
+mid_tier_medical_francis_collins,Francis Collins,24,356332
+mid_tier_medical_jennifer_doudna,Jennifer Doudna,24,436727
+mid_tier_medical_richard_klausner,Richard Klausner,24,13123
+mid_tier_medical_emmanuelle_charpentier,Emmanuelle Charpentier,24,161861
+mid_tier_medical_aubrey_de_grey,Aubrey de Grey,24,124931
+mid_tier_medical_andrew_steele,Andrew Steele,24,24237
+mid_tier_medical_steve_horvath,Steve Horvath,24,24833
+mid_tier_religious_justin_welby,Justin Welby,24,932107
+mid_tier_religious_pope_francis,Pope Francis,24,19172795
+mid_tier_religious_sayyid_ali_khamenei,Ali Khamenei,0,0
+mid_tier_religious_ali_al_sistani,Ali al-Sistani,24,335243
+mid_tier_religious_ahmed_el_tayeb,Ahmed el-Tayeb,24,97327
+mid_tier_religious_pope_tawadros_ii,Pope Tawadros II of Alexandria,24,222708
+mid_tier_religious_bishop_robert_barron,Robert Barron,24,433515
+mid_tier_religious_russell_m__nelson,Russell M. Nelson,24,827407
+mid_tier_religious_cardinal_timothy_dolan,Timothy Dolan,24,138845
+mid_tier_religious_henry_b__eyring,Henry B. Eyring,24,180754
+mid_tier_religious_yonatan_neril,Yonatan Neril,24,2056
+mid_tier_religious_cardinal_blase_cupich,Blase Cupich,24,63341
+mid_tier_religious_sharon_brous,Sharon Brous,24,54239
+mid_tier_religious_joyce_meyer,Joyce Meyer,24,643095
+mid_tier_religious_hank_hanegraaff,Hank Hanegraaff,24,60560
+mid_tier_religious_joel_osteen,Joel Osteen,24,1680472
+mid_tier_religious_andy_stanley,Andy Stanley,24,335221
+mid_tier_religious_carl_trueman,Carl Trueman,24,62361
+mid_tier_religious_john_piper,John Piper (theologian),24,312362
+mid_tier_religious_tim_keller,Tim Keller (pastor),24,432446
+mid_tier_religious_russell_moore,Russell D. Moore,24,153950
+mid_tier_religious_bart_ehrman,Bart D. Ehrman,24,478329
+mid_tier_religious_jordan_peterson,Jordan Peterson,24,5690811
+mid_tier_filmmaker_lee_isaac_chung,Lee Isaac Chung,24,502632
+mid_tier_filmmaker_chlo_zhao,Chloé Zhao,24,595977
+mid_tier_filmmaker_lulu_wang,Lulu Wang (filmmaker),24,323653
+mid_tier_filmmaker_ari_aster,Ari Aster,24,2129400
+mid_tier_filmmaker_robert_eggers,Robert Eggers,24,2578653
+mid_tier_filmmaker_boots_riley,Boots Riley,24,399555
+mid_tier_filmmaker_jordan_peele,Jordan Peele,24,3970108
+mid_tier_filmmaker_sofia_coppola,Sofia Coppola,24,4099593
+mid_tier_filmmaker_spike_jonze,Spike Jonze,24,2066463
+mid_tier_filmmaker_ava_duvernay,Ava DuVernay,24,799708
+mid_tier_filmmaker_steve_mcqueen,Steve McQueen,24,4899925
+mid_tier_filmmaker_dee_rees,Dee Rees,24,76637
+mid_tier_filmmaker_barry_jenkins,Barry Jenkins,24,675730
+mid_tier_filmmaker_mati_diop,Mati Diop,24,118944
+mid_tier_filmmaker_claire_denis,Claire Denis,24,287916
+mid_tier_filmmaker_cline_sciamma,Céline Sciamma,24,245824
+mid_tier_filmmaker_olivier_assayas,Olivier Assayas,24,209264
+mid_tier_filmmaker_pablo_larran,Pablo Larraín,24,309456
+mid_tier_filmmaker_bruno_dumont,Bruno Dumont,24,59754
+mid_tier_filmmaker_ruben_stlund,Ruben Östlund,24,401647
+mid_tier_filmmaker_joachim_trier,Joachim Trier,24,232369
+mid_tier_filmmaker_lucrecia_martel,Lucrecia Martel,24,55338
+mid_tier_filmmaker_sean_baker,Sean Baker,24,817919
+mid_tier_filmmaker_carla_simn,Carla Simón,24,23156
+mid_tier_filmmaker_greta_gerwig,Greta Gerwig,24,7360587
+mid_tier_filmmaker_lila_avils,Lila Avilés,23,20976
+mid_tier_filmmaker_wes_anderson,Wes Anderson,24,4725691
+mid_tier_filmmaker_noah_baumbach,Noah Baumbach,24,3329402
+mid_tier_filmmaker_charlie_kaufman,Charlie Kaufman,24,1072220
+mid_tier_filmmaker_joel_coen,Joel Coen,24,48691
+mid_tier_filmmaker_paul_thomas_anderson,Paul Thomas Anderson,24,3702132
+mid_tier_filmmaker_ethan_coen,Ethan Coen,24,48847
+mid_tier_filmmaker_david_fincher,David Fincher,24,3359074
+mid_tier_filmmaker_spike_lee,Spike Lee,24,2625585
+mid_tier_filmmaker_alejandro_gonzlez_irritu,Alejandro González Iñárritu,24,1026201
+mid_tier_filmmaker_denis_villeneuve,Denis Villeneuve,24,3821608
+mid_tier_filmmaker_guillermo_del_toro,Guillermo del Toro,24,2442069
+mid_tier_filmmaker_alfonso_cuarn,Alfonso Cuarón,24,1372541
+mid_tier_book_the_incendiaries,The Incendiaries,24,14658
+mid_tier_book_freshwater,Freshwater (novel),24,32624
+mid_tier_book_american_spy,American Spy,24,5192
+mid_tier_book_chemistry,Lessons in Chemistry (novel),23,1386248
+mid_tier_book_a_little_life,A Little Life,24,3082364
+mid_tier_book_my_year_of_rest_and_relaxation,My Year of Rest and Relaxation,24,467621
+mid_tier_book_the_vegetarian,The Vegetarian,24,662536
+mid_tier_book_severance,Severance (novel),24,246140
+mid_tier_book_the_idiot,The Idiot,24,748095
+mid_tier_book_dept__of_speculation,Dept. of Speculation,24,26212
+mid_tier_book_the_friend,The Friend (novel),24,104677
+mid_tier_book_outline,Outline (novel),24,64107
+mid_tier_book_on_earth_were_briefly_gorgeous,On Earth We're Briefly Gorgeous,24,335397
+mid_tier_book_convenience_store_woman,Convenience Store Woman,24,160207
+mid_tier_book_pachinko,Pachinko (novel),24,758263
+mid_tier_book_asymmetry,Asymmetry (novel),24,9918
+mid_tier_book_breasts_and_eggs,Breasts and Eggs,24,70288
+mid_tier_book_heaven,The Lathe of Heaven,24,207119
+mid_tier_book_cursed_bunny,Cursed Bunny,17,15006
+mid_tier_book_hunchback,The Hunchback of Notre-Dame,24,1007015
+mid_tier_book_the_vanishing_half,The Vanishing Half,24,128192
+mid_tier_book_lessons_in_chemistry,Lessons in Chemistry (novel),23,1386248
+mid_tier_book_real_americans,Real Americans,9,11219
+mid_tier_book_transcendent_kingdom,Transcendent Kingdom,24,29644
+mid_tier_book_an_american_marriage,An American Marriage,24,46550
+mid_tier_book_homegoing,Homegoing (Gyasi novel),24,143809
+mid_tier_book_a_burning,A Burning,24,12547
+mid_tier_book_memorial,Memorial (novel),24,12300
+mid_tier_book_drive_your_plow_over_the_bones_of_the_dead,Drive Your Plow Over the Bones of the Dead,24,211415
+mid_tier_book_beach_read,Beach Read,24,116645
+mid_tier_book_the_idea_of_you,The Idea of You,24,4201215
+mid_tier_book_people_we_meet_on_vacation,People We Meet on Vacation,24,165287
+mid_tier_book_flights,Flights (novel),24,72777
+mid_tier_book_book_lovers,Book Lovers,23,88657
+mid_tier_book_the_kiss_quotient,The Kiss Quotient,24,31228
+mid_tier_book_funny_story,Funny Story (novel),19,128410
+mid_tier_book_the_bride_test,The Bride Test,24,9633
+mid_tier_book_one_last_stop,One Last Stop,24,84502
+mid_tier_book_babel,"Babel, or the Necessity of Violence",24,729362
+mid_tier_book_the_poppy_war,The Poppy War,24,629812
+mid_tier_book_mistborn_the_final_empire,Mistborn: The Final Empire,24,398955
+mid_tier_book_yellowface,Yellowface (novel),24,624635
+mid_tier_book_project_hail_mary,Project Hail Mary,24,1525437
+mid_tier_book_artemis,Artemis (novel),24,257312
+mid_tier_book_the_dark_forest,The Dark Forest,24,1723616
+mid_tier_book_deaths_end,Death's End,24,1539158
+mid_tier_book_the_three_body_problem,The Three-Body Problem (novel),24,8401507
+mid_tier_book_all_systems_red,All Systems Red,24,286424
+mid_tier_book_gideon_the_ninth,Gideon the Ninth,24,383987
+mid_tier_book_harrow_the_ninth,Harrow the Ninth,24,147328
+mid_tier_book_nona_the_ninth,Nona the Ninth,24,144761
+mid_tier_book_network_effect,Network Effect (novel),24,158315
+mid_tier_book_children_of_ruin,Children of Ruin,24,182101
+mid_tier_book_she_who_became_the_sun,She Who Became the Sun,24,116117
+mid_tier_book_the_final_strife,The Final Strife,24,8977
+mid_tier_book_children_of_time,Children of Time (novel),0,0
+mid_tier_book_the_city_we_became,The City We Became,24,113310
+mid_tier_book_the_stone_sky,The Stone Sky,24,110903
+mid_tier_book_riot_baby,Riot Baby,24,6072
+mid_tier_book_trail_of_lightning,Trail of Lightning,24,16779
+mid_tier_book_the_fifth_season,The Fifth Season (novel),24,521636
+mid_tier_book_a_memory_called_empire,A Memory Called Empire,24,217555
+mid_tier_book_a_desolation_called_peace,A Desolation Called Peace,24,118949
+mid_tier_book_the_five_dysfunctions_of_a_team,The Five Dysfunctions of a Team,24,144860
+mid_tier_book_a_psalm_for_the_wild_built,A Psalm for the Wild-Built,24,175019
+mid_tier_book_the_goal,The Goal (novel),24,136780
+mid_tier_book_drive,Drive (novel),24,119057
+mid_tier_book_atlas_of_the_heart,Atlas of the Heart,24,26751
+mid_tier_book_daring_greatly,Daring Greatly,24,26401
+mid_tier_book_the_power_of_habit,The Power of Habit,24,82710
+mid_tier_book_the_checklist_manifesto,The Checklist Manifesto,24,66327
+mid_tier_book_being_mortal,Being Mortal,24,128432
+mid_tier_book_homo_deus,Homo Deus: A Brief History of Tomorrow,24,238708
+mid_tier_book_sapiens,Sapiens: A Brief History of Humankind,24,771886
+mid_tier_book_21_lessons_for_the_21st_century,21 Lessons for the 21st Century,24,90246
+mid_tier_book_better_angels_of_our_nature,The Better Angels of Our Nature,24,116138
+mid_tier_book_enlightenment_now,Enlightenment Now,24,48270
+mid_tier_book_noise,White Noise (novel),0,0
+mid_tier_book_atomic_habits,Atomic Habits,21,18152
+mid_tier_book_the_daily_stoic,The Daily Stoic,24,78373
+mid_tier_oss_maintainer_travis_oliphant,Travis Oliphant,24,38164
+mid_tier_oss_maintainer_franois_chollet,François Chollet,24,74315
+mid_tier_oss_maintainer_fernando_perez,Fernando Pérez (software developer),24,17073
+mid_tier_oss_maintainer_jeremy_howard,Jeremy Howard (entrepreneur),24,45089
+mid_tier_oss_maintainer_aidan_gomez,Aidan Gomez,20,77290
+mid_tier_oss_maintainer_yoshua_bengio,Yoshua Bengio,24,363298
+mid_tier_oss_maintainer_doug_cutting,Doug Cutting,24,24862
+mid_tier_oss_maintainer_doug_lea,Doug Lea,24,14632
+mid_tier_oss_maintainer_martin_odersky,Martin Odersky,24,32654
+mid_tier_oss_maintainer_phil_wadler,Philip Wadler,24,16879
+mid_tier_oss_maintainer_john_carmack,John Carmack,24,745085
+mid_tier_oss_maintainer_sebastian_thrun,Sebastian Thrun,24,127510
+mid_tier_oss_maintainer_pieter_abbeel,Pieter Abbeel,24,40780
+mid_tier_oss_maintainer_sergey_levine,Sergey Levine,0,0
+mid_tier_oss_maintainer_percy_liang,Percy Liang,0,0
+mid_tier_oss_maintainer_christopher_manning,Christopher D. Manning,24,21417
+mid_tier_oss_maintainer_dan_klein,Dan Klein,24,6497
+andrej_karpathy,Andrej Karpathy,24,592548
+sam_altman,Sam Altman,24,10027458
+geoffrey_hinton,Geoffrey Hinton,24,1621513
+yann_lecun,Yann LeCun,24,645233
+demis_hassabis,Demis Hassabis,24,1183367
+dario_amodei,Dario Amodei,24,542307
+greg_brockman,Greg Brockman,24,663115
+mira_murati,Mira Murati,24,2079307
+simon_willison,Simon Willison,24,36235
+chris_olah,Chris Olah,0,0
+logan_kilpatrick,Logan Kilpatrick,2,113
+wojciech_zaremba,Wojciech Zaremba,24,118575
+trevor_blackwell,Trevor Blackwell,24,99564
+vllm,VLLM,0,0
+langchain,LangChain,24,334511
