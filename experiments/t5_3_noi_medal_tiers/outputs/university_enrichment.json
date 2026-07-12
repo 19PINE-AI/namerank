@@ -1,0 +1,826 @@
+[
+ {
+  "hanzi": "莫涛",
+  "undergrad": "清华大学",
+  "yao_class": false,
+  "career": "莫队算法提出者；ACM-ICPC World Finals 铜牌",
+  "evidence": "知乎专栏《#大牛榜 (清华)莫涛：一个人的OI》(zhuanlan.zhihu.com/p/84712491)及莫队算法相关介绍：本科保送清华大学计算机系，NOI金牌第一名",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "吴翼",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "清华大学交叉信息研究院助理教授（曾任 OpenAI 研究员）",
+  "evidence": "知乎《吴翼：另起一行——从姚班少年到教姚班的人》(zhuanlan.zhihu.com/p/335227461)；姚班2010级，IOI2010银牌，UC Berkeley博士，OpenAI，现清华IIIS助理教授",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "陈高远",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "梦里江河博客确认其为NOI2009金牌(北京101中学, 413分)，但未找到大学去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李恺威",
+  "undergrad": "清华大学",
+  "yao_class": null,
+  "career": null,
+  "evidence": "杭州学军中学新闻/NOI报道：NOI2009金牌被保送清华大学，CTSC2010进入国家队预备队前6",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "郭家宝",
+  "undergrad": "清华大学",
+  "yao_class": false,
+  "career": "软件工程师/独立开发者(BYVoid)，OpenCC 作者，曾任职 Google",
+  "evidence": "byvoid.com/zhs/about/ 及搜狗百科：河南人，清华大学计算机系2010级本科；河南省实验中学2009年NOI金牌记录",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "吴尚",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "确认为南京外国语学校信息学选手（APIO2010国际第二/全国第一金牌），大学去向未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "倪际楠",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOIP2009福建一等奖名单确认福建师大附中学生，大学去向未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "邓永行",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "吕潇",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "舒睿文",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOIP2009北京一等奖名单确认人大附中高三学生；疑似UGA数学助理教授Ruiwen Shu但本科信息未能验证",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "蒋林浩",
+  "undergrad": "清华大学",
+  "yao_class": false,
+  "career": "量化私募（正定高频）合伙人/投资经理",
+  "evidence": "雪球正定高频量化私募路演介绍(xueqiu.com/1696398643/315756130)：本科保送清华计算机系，APIO金牌，清华计算机+经济双学位，硕士清华AI；与华师大二附中NOI2009银牌选手蒋林浩背景吻合",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "马浩",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息（重名极多）",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "钱桥",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李佩谦",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "缪沛晗",
+  "undergrad": "上海交通大学",
+  "yao_class": false,
+  "career": "布朗大学计算机系助理教授（密码学）",
+  "evidence": "个人主页 sites.google.com/view/peihanmiao/home 及Brown官网：本科上海交大ACM班，UC Berkeley博士，曾Visa Research、UIC，现Brown助理教授；常州高级中学背景与NOI2009吻合",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "叶丹",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息（重名极多）",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "樊润冬",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOI2009记录确认（乌鲁木齐一中，227分，第65名，高二），大学去向未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "吕润东",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "陈怡",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息（重名极多）",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李润铭",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "易茜",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "宁可",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "魏正功",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "谭传奇",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "疑似阿里巴巴达摩院NLP研究员Chuanqi Tan（北航/MSRA联合培养博士2014-2019，时间线吻合2010年入学本科），但未能确认与武汉二中NOI2009选手为同一人",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "冯丹",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息（重名极多）",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "颜立峰",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "未找到可靠去向信息",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李新野",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "量化私募 Alpha Star Research 创始人兼CEO（曾任 Amazon/Meta/Citadel 软件工程师）",
+  "evidence": "百度百科及多处报道：2009 高二获 NOI 金牌，2010 保送清华姚班；后 MIT/Brown，任职 Amazon/Meta/Citadel Securities，现创办广东阿尔法星技术研究有限公司。汕头金山中学吻合。https://baike.baidu.com/item/李新野/66969536",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "吴佳俊",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "斯坦福大学计算机系助理教授（MIT 博士，计算机视觉/机器人）",
+  "evidence": "百度百科/搜狐/清华IIIS：华东师大二附中 2010 届，2010 NOI 一等奖保送清华，二次选拔入姚班；MIT 博士，2020 加入 Stanford CS 任助理教授。https://baike.baidu.com/item/吴佳俊/10637290",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "汪一宁",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "德州大学达拉斯分校（UT Dallas）运营管理副教授（CMU 机器学习博士）",
+  "evidence": "识别为学者 Yining Wang：清华姚班 B.Eng CS 2014（入学~2010，与高二2009吻合），CMU ML 博士，现 UT Dallas 副教授。CV: http://yining-wang.com/。注意：未找到明确提及南师附中的来源，身份系时间线/专业/姚班背景推断。",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "宋文杰",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅在 NOI2009 成绩列表确认（江苏苏州中学，373分，CCF-NOI09-014，高二）。存在同名北京理工大学自动化学院教师，但无法与本人建立联系。https://blog.sina.com.cn/s/blog_4ee63ce90100e4q6.html",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "陈键飞",
+  "undergrad": "清华大学",
+  "yao_class": false,
+  "career": "清华大学计算机系副教授（准聘），高效机器学习方向",
+  "evidence": "清华计算机系页面：2014 清华工学学士、2019 博士，现副教授，导师朱军（TSAIL/智能技术与系统实验室，非姚班）。山东师大附中 NOI2009 医金牌、2010 入学时间线吻合，身份为强推断。https://www.cs.tsinghua.edu.cn/info/1122/5622.htm",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "刘艺宁",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（湖南雅礼中学，348分）。未找到可靠的升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "王正宇",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（辽宁东北育才学校，340分）。同名者众，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "魏铭",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（山东师大附中，336分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "刘宇坤",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOI2009 成绩列表确认（河北保定二中，330分，CCF-NOI09-035，高二）。无进一步可靠信息。https://blog.sina.com.cn/s/blog_4ee63ce90100e4q6.html",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "向上",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（湖南雅礼中学，314分）。名字过于常见，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "黄偲",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOI2009 成绩列表确认（河北保定二中，301分，CCF-NOI09-043，高二）。无进一步可靠信息。https://blog.sina.com.cn/s/blog_4ee63ce90100e4q6.html",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李冠儒",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（天津南开中学，290分）。搜索到多名同名者（北大博士、市场营销等），均无法与本医金牌建立联系。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "王谟",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（湖北武钢三中，280分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "安宇杰",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 银牌（黑龙江大庆一中，263分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "王恩泽",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（内蒙古包头九中，250分）。名字常见，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "谢路昱",
+  "undergrad": null,
+  "yao_class": null,
+  "career": "数据空间研究院（合肥）副研究员/博士，智能化大健康方向",
+  "evidence": "福州一中成绩记录确认 2009 第26届 NOI 三等奖（铜牌）谢路昱；识别为同一人：安徽 2023 绿色通道评副研究员、数据空间研究院（idata.ah.cn）'谢路昱博士'。本科院校未确认。https://old.fzyz.net ; www.idata.ah.cn",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "朱炳琪",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（河北衡水中学，221分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "邹逊",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "NOI2009 铜牌及 2009 信息学联赛安徽一等奖确认（安徽蚌埠二中，高二）。无进一步可靠信息。http://blog.sina.com.cn/s/blog_4ee63ce90100g080.html",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "阿拉法特",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（新疆乌鲁木齐一中，210分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "蔡凝",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（江西九江一中，202分）。名字常见，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "朱旭东",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（重庆巴蜀中学，197分）。名字常见，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "梁錦鴻",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（澳门濠江中学，190分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "邢佳楠",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "确认为北京第八十中学信息学一等奖学生（IO90076，2009 NOI 铜牌，190分，梦里江河博客北京赛区名单）。有保送资格但升学去向未确认。https://blog.sina.com.cn/s/blog_4ee63ce90100gh8k.html",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "刘颖珊",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "确认 NOI2009 铜牌（广东中山纪念中学，GD-030，178分，高二，省一等奖）。无进一步可靠信息。https://www.xnw.com/m/weibo.php?id=1061673",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "申皓全",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（山西大学附中，170分）。未找到可靠升学/职业信息。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李松",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "仅确认 NOI2009 铜牌（海南临高中学，166分）。名字极常见，无法建立可靠关联。",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "陈可卿",
+  "undergrad": "清华大学",
+  "yao_class": false,
+  "career": "旷视科技5号员工、产品研发部产品总监",
+  "evidence": "清华校友总会文章《旷视5号员工陈可卿：1991生于绍兴、10岁买电脑改变命运，信息奥赛金牌保送清华》 https://www.tsinghua.org.cn/info/1953/14173.htm ：绍兴人，信息学奥赛金牌保送清华计算机系（非姚班），旷视创始团队5号员工",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "潘宇超",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "旷视科技（Face++）",
+  "evidence": "搜狐《最近十年的IOI中国选手都去哪儿了》 https://www.sohu.com/a/391561423_100039137 ：绍兴一中，IOI2010银牌685分，本科清华姚班2010-2014，硕士清华计算机2014-2017，就职Face++；OIerDb确认NOI2009金牌+IOI2010",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "李宇亮",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认杭州学军中学NOI2009金牌(rank 11)，进入2010国家集训队线，但未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "吕伟聪",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认南京外国语学校NOI2008/2009记录，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "冯齐纬",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "Google工程师",
+  "evidence": "搜狐IOI选手去向文章 https://www.sohu.com/a/391561423_100039137 ：中山一中，IOI2010金牌707分全球第10，本科清华姚班2011-2015，就职Google；OIerDb确认NOI2009金牌+NOI2010+IOI2010",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "范浩强",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "旷视6号员工/研究总经理，2025年创办具身智能公司",
+  "evidence": "清华校友总会 https://www.tsinghua.org.cn/info/1953/14154.htm 《旷视6号员工范浩强：高二开始实习，兼职读姚班》；IOI2011金牌全球第2；知乎报道其2025年与旷视旧部创办具身智能公司",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "范顺豪",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认杭州学军中学NOI2009银牌、NOI2010、CTSC/APIO2010，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "杨欢",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认天津南开中学NOI2008/2009银牌；姓名过于常见，未能可靠定位",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "严松柏",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认重庆一中NOI2009银牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "周奕超",
+  "undergrad": "清华大学",
+  "yao_class": true,
+  "career": "UC Berkeley计算机博士",
+  "evidence": "搜狐IOI选手去向文章 https://www.sohu.com/a/391561423_100039137 ：复旦附中，IOI2011银牌，本科清华姚班2011-2015，博士加州大学伯克利分校计算机2015-；OIerDb确认NOI2009银牌+IOI2011",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "胡张广达",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认福州一中NOI2009银牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "白彦博",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认西安83中NOI2008/2009记录，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "刘坷",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认湖南师大附中NOI2009银牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "程龙举",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认重庆巴蜀中学NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "张雪",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认绵阳南山中学NOI2009铜牌；姓名过于常见，未能可靠定位",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "郭晓旭",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认汕头潮阳实验学校NOI2009铜牌、NOI2010银牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李艺",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认山东师大附中NOI2009铜牌（后转烟台经济技术开发区高级中学参加NOI2010）；姓名常见，未能可靠定位",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "徐苒茨",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认绵阳南山中学NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "饶国腾",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认成都七中NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "何博硕",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认人大附中NOI2008/2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "彭禹涵",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认芜湖一中NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "侯佳旭",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认郑州101中学NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "董宇茜",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认哈师大附中NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "王思达",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认西安铁一中NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "赵志恒",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认东北师大附中NOI2009铜牌、NOI2011银牌(rank51)、CTSC/APIO2011，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "孙溯",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "OIerDb确认大连育明高中NOI2009铜牌，未检索到本科去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "赖陆航",
+  "undergrad": "北京大学（后转学至密歇根大学）",
+  "yao_class": false,
+  "career": "UC Berkeley 数学博士 (2014-2019)",
+  "evidence": "杭州网2010报道(hznews.hangzhou.com.cn/kejiao/content/2010-08/26/content_3403808.htm): 杭二中赖陆航IOI2010金牌(全球第11)、被北京大学录取; 搜狐文章《最近十年的IOI中国选手都去哪儿了》(sohu.com/a/391561423_100039137): 北大→密西根大学→伯克利数学博士2014-2019",
+  "confidence": "high"
+ },
+ {
+  "hanzi": "李晓潇",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "梦里江河新浪博客确认: 福州一中高二, NOI2009 429分rank8; 未找到大学去向",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "张放",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "梦里江河新浪博客(blog.sina.com.cn/s/blog_4ee63ce90100e4q6.html): 人大附中初三生, NOI2009一等奖总第12名, 一等奖中唯一初中生; 大学去向未找到(约2013年入学)",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "林衍凯",
+  "undergrad": "清华大学（计算机系）",
+  "yao_class": false,
+  "career": "中国人民大学高瓴人工智能学院准聘副教授（此前腾讯微信AI研究员）",
+  "evidence": "个人主页linyankai.github.io: 清华计算机系本科2010-2014、博士2014-2019, 现任RUC GSAI tenure-track; 时间线与NOI2009高二保送完全吻合, 姓名+汕头金山中学广东背景一致",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "何朴藩",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "梦里江河博客: 雅礼中学高一, 366分rank21; 大学去向未确认",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "周逸松",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "吉林一中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "傅强",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "山东省实验中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "孙祥彦",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "合肥一中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "潘哲逸",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "福建师大附中高一(2009), 入学约2012; 未确认",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "吴豪",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "武钢三中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "黄一峰",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "成都七中高一(2009), 入学约2011; 未确认",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "任春旭",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "绵阳中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "向子卿",
+  "undergrad": "上海交通大学（计算机科学，2010-2014）",
+  "yao_class": false,
+  "career": "南方科技大学数学系副教授（代数组合），佐治亚大学数学博士2014-2019",
+  "evidence": "南科大英文faculty页(sustech.edu.cn/en/faculties/xiangziqing.html): B.Sc. SJTU CS 2010.9-2014.6, PhD UGA数学, 2022起南科大副教授; 罕见姓名+入学年份与NOI2009高二保送吻合; 另有上交大䇹政学者页面(junzheng.sjtu.edu.cn/scholar/5)",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "辛超",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "广东北江中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李博放",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "绵阳南山中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "梁景元",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "广西师大附外高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "李博杰",
+  "undergrad": "中国科学技术大学",
+  "yao_class": false,
+  "career": "Pine AI 首席科学家（此前华为天才少年/中科大-微软亚洲研究院联合培养博士）",
+  "evidence": "任务方已知信息，待网络佐证",
+  "confidence": "medium"
+ },
+ {
+  "hanzi": "钟音",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "大庆实验中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "张冲",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "陕西师大附中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "杨舒柏",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "乌鲁木齐一中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "沙漠",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "大连育明高中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "范鸿博",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "华师一附中高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "许伦博",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "海南中学高二; 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "金凌子",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "温州中学高二女生(梦里江河博客); 未找到",
+  "confidence": "low"
+ },
+ {
+  "hanzi": "闫家宝",
+  "undergrad": null,
+  "yao_class": null,
+  "career": null,
+  "evidence": "河大附中高一; 未找到",
+  "confidence": "low"
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "msra_bojie_li_2017": {
+  "context": "a 2017 Microsoft Research Asia PhD Fellowship recipient at University of Science and Technology of China",
+  "namerank_vs_canonical": 0.17416666666666666,
+  "n": 36
+ },
+ "noi_b_li_bojie_2009": {
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河北省石家庄二中",
+  "namerank_vs_canonical": 0.14347222222222222,
+  "n": 36
+ },
+ "bojie_li": {
+  "context": "a researcher and entrepreneur in AI infrastructure, currently Chief Scientist of Pine AI",
+  "namerank_vs_canonical": 0.10375000000000001,
+  "n": 36
+ }
+}

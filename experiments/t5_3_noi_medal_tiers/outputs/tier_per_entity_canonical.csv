@@ -1,0 +1,147 @@
+entity_id,entity_name,cohort,tier,control,noi_score,noi_rank,gold_words,gold_sources,n_models,namerank,namerank_sd,refusal_rate
+oa_author_xavier_glorot,Xavier Glorot,long_tail_researcher_openalex,,True,,,,,36,0.8241666666666667,0.17142175085637956,0
+nanogpt,nanoGPT,reference_pilot,,True,,,,,36,0.7391666666666666,0.1050231455971069,0
+oa_author_cludio_r__mirasso,Cláudio R. Mirasso,long_tail_researcher_openalex,,True,,,,,36,0.7375,0.24505526587554355,0.027777777777777776
+oa_author_marco_cuturi,Marco Cuturi,long_tail_researcher_openalex,,True,,,,,36,0.7347222222222223,0.29205674972807666,0.027777777777777776
+oa_author_per_b__brockhoff,Per B. Brockhoff,long_tail_researcher_openalex,,True,,,,,36,0.7163888888888889,0.22419179261637392,0.027777777777777776
+oa_author_theo_gevers,Theo Gevers,long_tail_researcher_openalex,,True,,,,,36,0.7041666666666667,0.17335536718928934,0
+oa_author_marco_gruteser,Marco Gruteser,long_tail_researcher_openalex,,True,,,,,36,0.7,0.25026652459594617,0.027777777777777776
+oa_author_paul_m__leonardi,Paul M. Leonardi,long_tail_researcher_openalex,,True,,,,,36,0.6863888888888889,0.13163824118853107,0
+oa_author_abdolreza_hatamlou,Abdolreza Hatamlou,long_tail_researcher_openalex,,True,,,,,36,0.6861111111111111,0.35031951905667313,0.05555555555555555
+oa_author_noel_gorelick,Noel Gorelick,long_tail_researcher_openalex,,True,,,,,36,0.6838888888888889,0.3314553579608989,0.1111111111111111
+oa_author_zhiqin_chen,Zhiqin Chen,long_tail_researcher_openalex,,True,,,,,36,0.665,0.33392031650945975,0.1111111111111111
+oa_author_jan_drugowitsch,Jan Drugowitsch,long_tail_researcher_openalex,,True,,,,,36,0.6508333333333334,0.3276547556329511,0.1111111111111111
+oa_author_a__patrcia_bento,A. Patrícia Bento,long_tail_researcher_openalex,,True,,,,,36,0.6458333333333334,0.3256137367427172,0.1388888888888889
+oa_author_murtaza_haider,Murtaza Haider,long_tail_researcher_openalex,,True,,,,,36,0.6455555555555555,0.28673879368245436,0.08333333333333333
+noi_li_chao_2012,Li Chao (李超),noi_china_gold,,True,,,,,36,0.5944444444444444,0.4099488074032635,0.16666666666666666
+oa_author_xuejun_yang,Xuejun Yang,long_tail_researcher_openalex,,True,,,,,36,0.5547222222222222,0.40828561701550103,0.19444444444444445
+oa_author_mohamed_hamdi,Mohamed Hamdi,long_tail_researcher_openalex,,True,,,,,36,0.5436111111111112,0.38777966809472403,0.2777777777777778
+oa_author_hannah_rashkin,Hannah Rashkin,long_tail_researcher_openalex,,True,,,,,36,0.5369444444444444,0.3550572680290419,0.1111111111111111
+oa_author_douard_grave,Édouard Grave,long_tail_researcher_openalex,,True,,,,,36,0.5275,0.3521787346094467,0.08333333333333333
+oa_author_maciek_chociej,Maciek Chociej,long_tail_researcher_openalex,,True,,,,,36,0.5241666666666667,0.433745797289918,0.3333333333333333
+oa_author_shu_lih_oh,Shu Lih Oh,long_tail_researcher_openalex,,True,,,,,36,0.4902777777777778,0.41979152306770817,0.3333333333333333
+noi_du_yuhao_2013,Du Yuhao (杜瑜皓),noi_china_gold,,True,,,,,36,0.48333333333333334,0.49018137232842474,0.3888888888888889
+oa_author_xiaochuan_ni,Xiaochuan Ni,long_tail_researcher_openalex,,True,,,,,36,0.46694444444444444,0.41361428250407173,0.3055555555555556
+oa_author_brigitta_sipcz,Brigitta Sipőcz,long_tail_researcher_openalex,,True,,,,,36,0.45611111111111113,0.3950406292591081,0.3611111111111111
+noi_du_zhuofan_2013,Du Zhuofan (杜卓帆),noi_china_gold,,True,,,,,36,0.44166666666666665,0.47514617633828105,0.4444444444444444
+oa_author_yasunobu_nohara,Yasunobu Nohara,long_tail_researcher_openalex,,True,,,,,36,0.41805555555555557,0.40088665234039833,0.3888888888888889
+msra_bojie_li_2017,Bojie Li,msra_phd_fellowship,,True,,,,,36,0.4136111111111111,0.31430834805063795,0.2777777777777778
+noi_mao_xiao_2013,Mao Xiao (毛啸),noi_china_gold,,True,,,,,36,0.3983333333333333,0.47098891234885304,0.4722222222222222
+oa_author_gerry_tsoukalas,Gerry Tsoukalas,long_tail_researcher_openalex,,True,,,,,36,0.3763888888888889,0.40164351785146335,0.3888888888888889
+noi_ai_yuqing_2012,Ai Yuqing (艾雨青),noi_china_gold,,True,,,,,36,0.35694444444444445,0.43014092938919735,0.5
+oa_author_haozhi_qi,Haozhi Qi,long_tail_researcher_openalex,,True,,,,,36,0.34305555555555556,0.38632038693036214,0.3888888888888889
+noi_ru_yizhong_2012,Ru Yizhong (茹逸中),noi_china_gold,,True,,,,,36,0.33305555555555555,0.42790717739848183,0.5
+oa_author_tlin_ztrk,Tülin Öztürk,long_tail_researcher_openalex,,True,,,,,36,0.32083333333333336,0.4367453809461272,0.5277777777777778
+oa_author_michael_mller,Michael Müller,long_tail_researcher_openalex,,True,,,,,36,0.31805555555555554,0.402449578929146,0.4722222222222222
+noi_ouyang_qianyu_2013,Ouyang Qianyu (欧阳前宇),noi_china_gold,,True,,,,,36,0.31555555555555553,0.45242829047782956,0.5555555555555556
+oa_author_ye_yuan,Ye Yuan,long_tail_researcher_openalex,,True,,,,,36,0.30833333333333335,0.39747466725706065,0.4722222222222222
+oa_author_timnit_gebru,Timnit Gebru,long_tail_researcher_openalex,,True,,,,,36,0.28888888888888886,0.25007529730260775,0.05555555555555555
+noi_yao_xuanrong_2012,Yao Xuanrong (姚炫容),noi_china_gold,,True,,,,,36,0.2841666666666667,0.39559642032983283,0.4444444444444444
+noi_b_lyu_rundong_2009,Lyu Rundong (吕润东),noi_china_bronze,bronze,False,211,69,71,1,36,0.2763888888888889,0.3749974279747187,0.5555555555555556
+noi_mo_tao_2009,Mo Tao (莫涛),noi_china_gold,gold,False,577,1,123,0,36,0.24027777777777778,0.24724578539393088,0.2777777777777778
+tuixue_online,tuixue.online,reference_pilot,,True,,,,,36,0.23722222222222222,0.18855607935499824,0.2777777777777778
+noi_tang_shizhi_2013,Tang Shizhi (唐适之),noi_china_gold,,True,,,,,36,0.23666666666666666,0.4043513323831146,0.5555555555555556
+noi_s_li_guanru_2009,Li Guanru (李冠儒),noi_china_silver,silver,False,290,45,112,4,36,0.23555555555555555,0.2687878598081523,0.3611111111111111
+noi_wu_jiajun_2009,Wu Jiajun (吴佳俊),noi_china_gold,gold,False,528,6,125,15,36,0.235,0.22219235910454804,0.25
+oa_author_ilya_alexandrovich,Ilya Alexandrovich,long_tail_researcher_openalex,,True,,,,,36,0.22527777777777777,0.3711505093857261,0.5833333333333334
+oa_author_simon_j__shaw,Simon J. Shaw,long_tail_researcher_openalex,,True,,,,,36,0.21972222222222224,0.35777465060745145,0.6111111111111112
+noi_s_wu_hao_2009,Wu Hao (吴豪),noi_china_silver,silver,False,309,39,87,5,36,0.18916666666666665,0.2671804945475374,0.5277777777777778
+noi_b_liu_yingshan_2009,Liu Yingshan (刘颖珊),noi_china_bronze,bronze,False,178,94,64,4,36,0.1886111111111111,0.27685889685078224,0.5555555555555556
+noi_wu_yi_2009,Wu Yi (吴翼),noi_china_gold,gold,False,544,5,138,5,36,0.17972222222222223,0.19963141190024164,0.3888888888888889
+noi_s_fan_haoqiang_2009,Fan Haoqiang (范浩强),noi_china_silver,silver,False,348,22,128,3,36,0.17944444444444443,0.18302920902966469,0.2777777777777778
+noi_song_wenjie_2009,Song Wenjie (宋文杰),noi_china_gold,gold,False,373,14,114,2,36,0.17305555555555555,0.24902944319948778,0.5
+noi_s_liu_yukun_2009,Liu Yukun (刘宇坤),noi_china_silver,silver,False,330,33,104,3,36,0.16666666666666666,0.25768197453450253,0.5833333333333334
+noi_s_wang_mo_2009,Wang Mo (王谟),noi_china_silver,silver,False,280,48,108,1,36,0.1638888888888889,0.2123319960420706,0.4444444444444444
+noi_lin_yankai_2009,Lin Yankai (林衍凯),noi_china_gold,gold,False,371,16,124,6,36,0.16055555555555556,0.23790689640702872,0.4722222222222222
+noi_b_li_bojie_2009,Li Bojie (李博杰),noi_china_bronze,bronze,False,213,68,126,7,36,0.14805555555555555,0.20055228529189706,0.4444444444444444
+noi_b_fan_hongbo_2009,Fan Hongbo (范鸿博),noi_china_bronze,bronze,False,190,83,62,5,36,0.14672222222222223,0.2592691234895928,0.5277777777777778
+noi_pan_yuchao_2009,Pan Yuchao (潘宇超),noi_china_gold,gold,False,498,7,128,3,36,0.14222222222222222,0.15874702291366166,0.4444444444444444
+noi_b_sun_su_2009,Sun Su (孙溯),noi_china_bronze,bronze,False,165,103,83,0,36,0.14222222222222222,0.24934482049197018,0.5555555555555556
+noi_s_fu_qiang_2009,Fu Qiang (傅强),noi_china_silver,silver,False,336,28,77,4,36,0.14108333333333334,0.22385751606769874,0.5555555555555556
+noi_b_liang_jingyuan_2009,Liang Jingyuan (梁景元),noi_china_bronze,bronze,False,230,64,89,5,36,0.13722222222222222,0.27129945643463493,0.6388888888888888
+noi_li_xinye_2009,Li Xinye (李新野),noi_china_gold,gold,False,555,2,122,4,36,0.13361111111111112,0.1833659482773569,0.5277777777777778
+noi_b_ning_ke_2009,Ning Ke (宁可),noi_china_bronze,bronze,False,190,83,91,3,36,0.13305555555555554,0.26733062596763374,0.6388888888888888
+noi_guo_jiabao_2009,Guo Jiabao (郭家宝),noi_china_gold,gold,False,370,17,122,6,36,0.1325,0.19293601414861758,0.3888888888888889
+noi_b_zhu_xudong_2009,Zhu Xudong (朱旭东),noi_china_bronze,bronze,False,197,82,110,3,36,0.13083333333333333,0.20493054378929895,0.5277777777777778
+noi_s_liu_ke_2009,Liu Ke (刘坷),noi_china_silver,silver,False,279,51,94,2,36,0.12777777777777777,0.2328699101681632,0.5833333333333334
+noi_s_zhou_yisong_2009,Zhou Yisong (周逸松),noi_china_silver,silver,False,348,22,104,6,36,0.12722222222222224,0.17436569347703806,0.4722222222222222
+noi_chen_jianfei_2009,Chen Jianfei (陈键飞),noi_china_gold,gold,False,369,18,126,2,36,0.12486111111111112,0.1287519477258883,0.2777777777777778
+noi_b_chen_yi_2009,Chen Yi (陈怡),noi_china_bronze,bronze,False,210,70,79,3,36,0.12111111111111111,0.25564491191426897,0.6388888888888888
+noi_feng_qiwei_2009,Feng Qiwei (冯齐纬),noi_china_gold,gold,False,367,19,121,1,36,0.11805555555555555,0.16502221137444978,0.5277777777777778
+bojie_li,Bojie Li,reference_pilot,,True,,,,,36,0.11777777777777777,0.18782543773868438,0.4722222222222222
+noi_li_kaiwei_2009,Li Kaiwei (李恺威),noi_china_gold,gold,False,375,13,111,3,36,0.11333333333333334,0.15369522511198005,0.4166666666666667
+noi_b_hou_jiaxu_2009,Hou Jiaxu (侯佳旭),noi_china_bronze,bronze,False,190,83,97,4,36,0.11333333333333333,0.2357493961344923,0.6944444444444444
+noi_b_cai_ning_2009,Cai Ning (蔡凝),noi_china_bronze,bronze,False,202,78,73,7,36,0.11305555555555555,0.22639468295243992,0.5833333333333334
+noi_he_pufan_2009,He Pufan (何朴藩),noi_china_gold,gold,False,366,20,109,2,36,0.10527777777777778,0.1593996743184863,0.4722222222222222
+noi_s_liu_yining_2009,Liu Yining (刘艺宁),noi_china_silver,silver,False,348,22,77,2,36,0.09999999999999999,0.2007485989988473,0.6944444444444444
+noi_b_xing_jianan_2009,Xing Jianan (邢佳楠),noi_china_bronze,bronze,False,184,89,113,4,36,0.09638888888888889,0.17394368146324735,0.6111111111111112
+noi_s_li_peiqian_2009,Li Peiqian (李佩谦),noi_china_silver,silver,False,270,53,117,6,36,0.09583333333333334,0.16002386974726268,0.6111111111111112
+noi_b_yan_lifeng_2009,Yan Lifeng (颜立峰),noi_china_bronze,bronze,False,167,100,105,4,36,0.09583333333333333,0.21256861637284716,0.6944444444444444
+noi_s_yang_huan_2009,Yang Huan (杨欢),noi_china_silver,silver,False,335,31,92,4,36,0.09361111111111112,0.16578353989092354,0.6111111111111112
+noi_b_zhang_xue_2009,Zhang Xue (张雪),noi_china_bronze,bronze,False,250,57,81,2,36,0.09166666666666667,0.177035777928267,0.6666666666666666
+noi_s_wei_ming_2009,Wei Ming (魏铭),noi_china_silver,silver,False,336,28,102,3,36,0.0913888888888889,0.15328174454212265,0.5277777777777778
+noi_zhang_fang_2009,Zhang Fang (张放),noi_china_gold,gold,False,378,12,137,5,36,0.08722222222222223,0.11420281936369735,0.3888888888888889
+noi_s_ni_jinan_2009,Ni Jinan (倪际楠),noi_china_silver,silver,False,344,25,115,2,36,0.08472222222222223,0.1442699266250422,0.5277777777777778
+noi_b_wang_enze_2009,Wang Enze (王恩泽),noi_china_bronze,bronze,False,250,57,114,1,36,0.08444444444444445,0.15875285552015267,0.6111111111111112
+noi_b_he_boshuo_2009,He Boshuo (何博硕),noi_china_bronze,bronze,False,202,78,124,8,36,0.08444444444444445,0.1625738198898588,0.5277777777777778
+noi_b_cheng_longju_2009,Cheng Longju (程龙举),noi_china_bronze,bronze,False,260,55,122,4,36,0.08222222222222222,0.15830896498638897,0.6111111111111112
+noi_b_zhao_zhiheng_2009,Zhao Zhiheng (赵志恒),noi_china_bronze,bronze,False,168,99,117,7,36,0.08222222222222222,0.1557617680788894,0.6111111111111112
+noi_b_ye_dan_2009,Ye Dan (叶丹),noi_china_bronze,bronze,False,241,61,83,3,36,0.0813888888888889,0.14933468708050418,0.5833333333333334
+noi_b_yi_qian_2009,Yi Qian (易茜),noi_china_bronze,bronze,False,200,80,110,3,36,0.0811111111111111,0.17752586318270763,0.5833333333333334
+noi_s_wang_zhengyu_2009,Wang Zhengyu (王正宇),noi_china_silver,silver,False,340,26,120,3,36,0.08055555555555556,0.12697209764450973,0.5277777777777778
+noi_b_tan_chuanqi_2009,Tan Chuanqi (谭传奇),noi_china_bronze,bronze,False,180,92,145,3,36,0.08,0.16832508230603463,0.6111111111111112
+noi_b_yan_jiabao_2009,Yan Jiabao (闫家宝),noi_china_bronze,bronze,False,167,100,101,4,36,0.07916666666666666,0.16806703358415587,0.6666666666666666
+noi_b_zou_xun_2009,Zou Xun (邹逊),noi_china_bronze,bronze,False,210,70,135,5,36,0.0788888888888889,0.1527484820396985,0.6111111111111112
+noi_b_li_yi_2009,Li Yi (李艺),noi_china_bronze,bronze,False,220,67,108,0,36,0.07805555555555556,0.14277525938116178,0.6111111111111112
+noi_b_liang_jinhong_2009,Liang Jinhong (梁錦鴻),noi_china_bronze,bronze,False,190,83,103,5,36,0.07777777777777778,0.16685174908534675,0.6388888888888888
+noi_s_huang_yifeng_2009,Huang Yifeng (黄一峰),noi_china_silver,silver,False,300,43,95,0,36,0.07666666666666666,0.1549551906555928,0.5555555555555556
+noi_b_li_song_2009,Li Song (李松),noi_china_bronze,bronze,False,166,102,74,7,36,0.075,0.19139110626033687,0.6388888888888888
+noi_b_li_bofang_2009,Li Bofang (李博放),noi_china_bronze,bronze,False,248,60,93,5,36,0.07444444444444445,0.1339660911583484,0.5833333333333334
+noi_lyu_weicong_2009,Lyu Weicong (吕伟聪),noi_china_gold,gold,False,372,15,124,2,36,0.07340277777777778,0.11496852343651648,0.4722222222222222
+noi_s_yan_songbai_2009,Yan Songbai (严松柏),noi_china_silver,silver,False,328,35,121,5,36,0.07222222222222222,0.1254571886056734,0.5277777777777778
+noi_s_deng_yongxing_2009,Deng Yongxing (邓永行),noi_china_silver,silver,False,336,28,136,2,36,0.07166666666666667,0.10930334954713063,0.5
+noi_s_lyu_xiao_2009,Lyu Xiao (吕潇),noi_china_silver,silver,False,330,33,118,2,36,0.06861111111111111,0.12331425027541486,0.6388888888888888
+noi_b_zhang_chong_2009,Zhang Chong (张冲),noi_china_bronze,bronze,False,207,76,89,4,36,0.06833333333333333,0.17367754284561054,0.6666666666666666
+noi_b_wei_zhenggong_2009,Wei Zhenggong (魏正功),noi_china_bronze,bronze,False,184,89,79,0,36,0.06805555555555555,0.19900892560168199,0.6944444444444444
+noi_lai_luhang_2009,Lai Luhang (赖陆航),noi_china_gold,gold,False,548,3,129,1,36,0.06777777777777778,0.09336639626020318,0.4722222222222222
+noi_b_li_runming_2009,Li Runming (李润铭),noi_china_bronze,bronze,False,204,77,82,5,36,0.06727777777777778,0.1307433047172782,0.5555555555555556
+noi_wang_yining_2009,Wang Yining (汪一宁),noi_china_gold,gold,False,393,10,131,4,36,0.06611111111111112,0.08740956525898887,0.5277777777777778
+noi_chen_keqing_2009,Chen Keqing (陈可卿),noi_china_gold,gold,False,548,3,118,7,36,0.06583333333333334,0.10633738236805008,0.5
+noi_s_zhou_yichao_2009,Zhou Yichao (周奕超),noi_china_silver,silver,False,309,39,135,5,36,0.06527777777777778,0.10794767536767039,0.5555555555555556
+noi_s_ren_chunxu_2009,Ren Chunxu (任春旭),noi_china_silver,silver,False,280,48,129,1,36,0.06527777777777778,0.110541246980259,0.5277777777777778
+noi_li_yuliang_2009,Li Yuliang (李宇亮),noi_china_gold,gold,False,380,11,133,3,36,0.06416666666666666,0.09420353260656182,0.5277777777777778
+noi_li_xiaoxiao_2009,Li Xiaoxiao (李晓潇),noi_china_gold,gold,False,429,8,154,4,36,0.06305555555555556,0.1060350949357084,0.5277777777777778
+noi_b_rao_guoteng_2009,Rao Guoteng (饶国腾),noi_china_bronze,bronze,False,208,75,116,4,36,0.06277777777777778,0.11936431420727403,0.6388888888888888
+noi_s_fan_shunhao_2009,Fan Shunhao (范顺豪),noi_china_silver,silver,False,340,26,123,4,36,0.06222222222222223,0.09366343740314488,0.4444444444444444
+noi_chen_gaoyuan_2009,Chen Gaoyuan (陈高远),noi_china_gold,gold,False,413,9,123,5,36,0.06222222222222222,0.10421961617210902,0.5555555555555556
+noi_b_jin_lingzi_2009,Jin Lingzi (金凌子),noi_china_bronze,bronze,False,170,95,69,0,36,0.06222222222222222,0.16526260434551346,0.6388888888888888
+noi_b_feng_dan_2009,Feng Dan (冯丹),noi_china_bronze,bronze,False,170,95,115,2,36,0.06222222222222222,0.11979406197283159,0.6111111111111112
+noi_b_guo_xiaoxu_2009,Guo Xiaoxu (郭晓旭),noi_china_bronze,bronze,False,232,63,121,1,36,0.06180555555555556,0.10033383705422957,0.5555555555555556
+noi_s_bai_yanbo_2009,Bai Yanbo (白彦博),noi_china_silver,silver,False,288,47,103,4,36,0.06166666666666667,0.12232697531161674,0.5833333333333334
+noi_b_xin_chao_2009,Xin Chao (辛超),noi_china_bronze,bronze,False,255,56,104,1,36,0.06138888888888889,0.1300032644414443,0.6666666666666666
+noi_s_ma_hao_2009,Ma Hao (马浩),noi_china_silver,silver,False,290,45,115,2,36,0.06116666666666667,0.12069647421896337,0.6388888888888888
+noi_s_sun_xiangyan_2009,Sun Xiangyan (孙祥彦),noi_china_silver,silver,False,331,32,129,1,36,0.06055555555555556,0.13312367775961914,0.6388888888888888
+noi_s_an_yujie_2009,An Yujie (安宇杰),noi_china_silver,silver,False,263,54,118,2,36,0.06055555555555556,0.13312367775961914,0.6388888888888888
+noi_s_wu_shang_2009,Wu Shang (吴尚),noi_china_silver,silver,False,352,21,117,3,36,0.05972222222222222,0.11028967190265397,0.6111111111111112
+noi_b_zhong_yin_2009,Zhong Yin (钟音),noi_china_bronze,bronze,False,210,70,107,0,36,0.05777777777777778,0.1266252368893498,0.6666666666666666
+noi_b_miao_peihan_2009,Miao Peihan (缪沛晗),noi_china_bronze,bronze,False,250,57,116,6,36,0.05638888888888889,0.09192849811365406,0.4722222222222222
+noi_s_qian_qiao_2009,Qian Qiao (钱桥),noi_china_silver,silver,False,280,48,124,1,36,0.05583333333333333,0.09607216616227153,0.5833333333333334
+noi_b_wang_sida_2009,Wang Sida (王思达),noi_china_bronze,bronze,False,170,95,117,2,36,0.05583333333333333,0.10342401934646409,0.5833333333333334
+noi_b_fan_rundong_2009,Fan Rundong (樊润冬),noi_china_bronze,bronze,False,227,65,114,1,36,0.05527777777777778,0.10853791224757241,0.5833333333333334
+noi_b_dong_yuqian_2009,Dong Yuqian (董宇茜),noi_china_bronze,bronze,False,181,91,114,4,36,0.055,0.1306713434537198,0.6111111111111112
+noi_s_xiang_shang_2009,Xiang Shang (向上),noi_china_silver,silver,False,314,38,90,3,36,0.05472222222222222,0.15175795990675983,0.6666666666666666
+noi_b_yang_shubai_2009,Yang Shubai (杨舒柏),noi_china_bronze,bronze,False,200,80,122,3,36,0.05472222222222222,0.10927758007099553,0.6111111111111112
+noi_b_shen_haoquan_2009,Shen Haoquan (申皓全),noi_china_bronze,bronze,False,170,95,131,3,36,0.051944444444444446,0.10733694208334085,0.6111111111111112
+noi_b_xu_lunbo_2009,Xu Lunbo (许伦博),noi_china_bronze,bronze,False,180,92,137,0,36,0.050555555555555555,0.10595975243365978,0.6111111111111112
+noi_s_jiang_linhao_2009,Jiang Linhao (蒋林浩),noi_china_silver,silver,False,309,39,179,8,36,0.04791666666666667,0.09368516276456065,0.5277777777777778
+noi_s_huang_cai_2009,Huang Cai (黄偲),noi_china_silver,silver,False,301,42,122,2,36,0.04777777777777778,0.11693091766582883,0.7222222222222222
+noi_b_zhu_bingqi_2009,Zhu Bingqi (朱炳琪),noi_china_bronze,bronze,False,221,66,126,2,36,0.044444444444444446,0.09331679747697103,0.6388888888888888
+noi_b_peng_yuhan_2009,Peng Yuhan (彭禹涵),noi_china_bronze,bronze,False,190,83,127,1,36,0.042777777777777776,0.09968313997392803,0.6111111111111112
+noi_s_shu_ruiwen_2009,Shu Ruiwen (舒睿文),noi_china_silver,silver,False,322,37,126,4,36,0.04,0.06582805886043834,0.5555555555555556
+noi_s_xiang_ziqing_2009,Xiang Ziqing (向子卿),noi_china_silver,silver,False,271,52,131,11,36,0.03777777777777778,0.07223076872508893,0.5555555555555556
+noi_b_xie_luyu_2009,Xie Luyu (谢路昱),noi_china_bronze,bronze,False,240,62,143,2,36,0.036944444444444446,0.07050687296854449,0.5277777777777778
+noi_s_pan_zheyi_2009,Pan Zheyi (潘哲逸),noi_china_silver,silver,False,326,36,137,3,36,0.03666666666666667,0.07579211333934716,0.6388888888888888
+noi_b_xu_ranci_2009,Xu Ranci (徐苒茨),noi_china_bronze,bronze,False,210,70,114,4,36,0.034999999999999996,0.09397103572673633,0.6111111111111112
+noi_b_alafate_2009,Alafate (阿拉法特),noi_china_bronze,bronze,False,210,70,142,2,36,0.024444444444444446,0.06461185152914821,0.6388888888888888
+noi_b_sha_mo_2009,Sha Mo (沙漠),noi_china_bronze,bronze,False,190,83,103,1,36,0.021666666666666664,0.06755656066503747,0.7222222222222222
+noi_s_hu_zhangguangda_2009,Hu Zhangguangda (胡张广达),noi_china_silver,silver,False,300,43,131,2,36,0.02,0.06123724356957945,0.75

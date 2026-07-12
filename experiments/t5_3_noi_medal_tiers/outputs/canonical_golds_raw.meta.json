@@ -1,0 +1,620 @@
+{
+ "noi_chen_keqing_2009": {
+  "name": "Chen Keqing (陈可卿)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 浙江省绍兴市第一中学",
+  "n_sources": 7,
+  "n_queries": 4
+ },
+ "noi_wu_jiajun_2009": {
+  "name": "Wu Jiajun (吴佳俊)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 上海市华师大二附中",
+  "n_sources": 15,
+  "n_queries": 3
+ },
+ "noi_li_xinye_2009": {
+  "name": "Li Xinye (李新野)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 广东省汕头金山中学",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "noi_wu_yi_2009": {
+  "name": "Wu Yi (吴翼)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 江苏省常州高级中学",
+  "n_sources": 5,
+  "n_queries": 4
+ },
+ "noi_lai_luhang_2009": {
+  "name": "Lai Luhang (赖陆航)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 浙江省杭州第二中学",
+  "n_sources": 1,
+  "n_queries": 8
+ },
+ "noi_pan_yuchao_2009": {
+  "name": "Pan Yuchao (潘宇超)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 浙江省绍兴市第一中学",
+  "n_sources": 3,
+  "n_queries": 8
+ },
+ "noi_wang_yining_2009": {
+  "name": "Wang Yining (汪一宁)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 江苏省南师附中",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "noi_li_kaiwei_2009": {
+  "name": "Li Kaiwei (李恺威)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 浙江省杭州学军中学",
+  "n_sources": 3,
+  "n_queries": 4
+ },
+ "noi_mo_tao_2009": {
+  "name": "Mo Tao (莫涛)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 湖南省长沙长郡中学",
+  "n_sources": 0,
+  "n_queries": 11
+ },
+ "noi_li_yuliang_2009": {
+  "name": "Li Yuliang (李宇亮)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 浙江省杭州学军中学",
+  "n_sources": 3,
+  "n_queries": 8
+ },
+ "noi_li_xiaoxiao_2009": {
+  "name": "Li Xiaoxiao (李晓潇)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 福建省福州一中",
+  "n_sources": 4,
+  "n_queries": 12
+ },
+ "noi_chen_gaoyuan_2009": {
+  "name": "Chen Gaoyuan (陈高远)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 北京市北京101中学",
+  "n_sources": 5,
+  "n_queries": 9
+ },
+ "noi_zhang_fang_2009": {
+  "name": "Zhang Fang (张放)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 北京市人大附中",
+  "n_sources": 5,
+  "n_queries": 7
+ },
+ "noi_lyu_weicong_2009": {
+  "name": "Lyu Weicong (吕伟聪)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 江苏省南京外国语学校",
+  "n_sources": 2,
+  "n_queries": 4
+ },
+ "noi_lin_yankai_2009": {
+  "name": "Lin Yankai (林衍凯)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 广东省汕头金山中学",
+  "n_sources": 6,
+  "n_queries": 5
+ },
+ "noi_guo_jiabao_2009": {
+  "name": "Guo Jiabao (郭家宝)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 河南省实验中学",
+  "n_sources": 6,
+  "n_queries": 7
+ },
+ "noi_chen_jianfei_2009": {
+  "name": "Chen Jianfei (陈键飞)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 山东省山东师大附中",
+  "n_sources": 2,
+  "n_queries": 4
+ },
+ "noi_song_wenjie_2009": {
+  "name": "Song Wenjie (宋文杰)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 江苏省苏州中学",
+  "n_sources": 2,
+  "n_queries": 17
+ },
+ "noi_s_wu_shang_2009": {
+  "name": "Wu Shang (吴尚)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 江苏省南京外国语学校",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "noi_s_fan_haoqiang_2009": {
+  "name": "Fan Haoqiang (范浩强)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 北京市人大附中",
+  "n_sources": 3,
+  "n_queries": 4
+ },
+ "noi_s_liu_yining_2009": {
+  "name": "Liu Yining (刘艺宁)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 湖南省长沙雅礼中学",
+  "n_sources": 2,
+  "n_queries": 8
+ },
+ "noi_feng_qiwei_2009": {
+  "name": "Feng Qiwei (冯齐纬)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 广东省中山一中",
+  "n_sources": 1,
+  "n_queries": 17
+ },
+ "noi_s_ni_jinan_2009": {
+  "name": "Ni Jinan (倪际楠)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 福建省福建师大附中",
+  "n_sources": 2,
+  "n_queries": 22
+ },
+ "noi_s_zhou_yisong_2009": {
+  "name": "Zhou Yisong (周逸松)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 吉林省吉林一中",
+  "n_sources": 6,
+  "n_queries": 11
+ },
+ "noi_s_fan_shunhao_2009": {
+  "name": "Fan Shunhao (范顺豪)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 浙江省杭州学军中学",
+  "n_sources": 4,
+  "n_queries": 5
+ },
+ "noi_he_pufan_2009": {
+  "name": "He Pufan (何朴藩)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) gold medalist from 湖南省长沙雅礼中学",
+  "n_sources": 2,
+  "n_queries": 27
+ },
+ "noi_s_fu_qiang_2009": {
+  "name": "Fu Qiang (傅强)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 山东省实验中学",
+  "n_sources": 4,
+  "n_queries": 7
+ },
+ "noi_s_wei_ming_2009": {
+  "name": "Wei Ming (魏铭)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 山东省山东师大附中",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "noi_s_yang_huan_2009": {
+  "name": "Yang Huan (杨欢)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 天津市天津南开中学",
+  "n_sources": 4,
+  "n_queries": 9
+ },
+ "noi_s_wang_zhengyu_2009": {
+  "name": "Wang Zhengyu (王正宇)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 辽宁省东北育才学校",
+  "n_sources": 3,
+  "n_queries": 25
+ },
+ "noi_s_deng_yongxing_2009": {
+  "name": "Deng Yongxing (邓永行)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 上海市华师大二附中",
+  "n_sources": 2,
+  "n_queries": 17
+ },
+ "noi_s_liu_yukun_2009": {
+  "name": "Liu Yukun (刘宇坤)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 河北省保定二中",
+  "n_sources": 3,
+  "n_queries": 15
+ },
+ "noi_s_pan_zheyi_2009": {
+  "name": "Pan Zheyi (潘哲逸)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 福建省福建师大附中",
+  "n_sources": 3,
+  "n_queries": 12
+ },
+ "noi_s_shu_ruiwen_2009": {
+  "name": "Shu Ruiwen (舒睿文)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 北京市人大附中",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "noi_s_yan_songbai_2009": {
+  "name": "Yan Songbai (严松柏)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 重庆市重庆一中",
+  "n_sources": 5,
+  "n_queries": 14
+ },
+ "noi_s_lyu_xiao_2009": {
+  "name": "Lyu Xiao (吕潇)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 山东省山东师大附中",
+  "n_sources": 2,
+  "n_queries": 10
+ },
+ "noi_s_sun_xiangyan_2009": {
+  "name": "Sun Xiangyan (孙祥彦)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 安徽省合肥一中",
+  "n_sources": 1,
+  "n_queries": 24
+ },
+ "noi_s_zhou_yichao_2009": {
+  "name": "Zhou Yichao (周奕超)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 上海市复旦附中",
+  "n_sources": 5,
+  "n_queries": 12
+ },
+ "noi_s_wu_hao_2009": {
+  "name": "Wu Hao (吴豪)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 湖北省武钢三中",
+  "n_sources": 5,
+  "n_queries": 14
+ },
+ "noi_s_huang_cai_2009": {
+  "name": "Huang Cai (黄偲)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 河北省保定二中",
+  "n_sources": 2,
+  "n_queries": 13
+ },
+ "noi_s_hu_zhangguangda_2009": {
+  "name": "Hu Zhangguangda (胡张广达)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 福建省福州一中",
+  "n_sources": 2,
+  "n_queries": 12
+ },
+ "noi_s_jiang_linhao_2009": {
+  "name": "Jiang Linhao (蒋林浩)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 上海市华师大二附中",
+  "n_sources": 8,
+  "n_queries": 12
+ },
+ "noi_s_xiang_shang_2009": {
+  "name": "Xiang Shang (向上)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 湖南省长沙雅礼中学",
+  "n_sources": 3,
+  "n_queries": 24
+ },
+ "noi_s_ma_hao_2009": {
+  "name": "Ma Hao (马浩)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 河南省实验中学",
+  "n_sources": 2,
+  "n_queries": 11
+ },
+ "noi_s_qian_qiao_2009": {
+  "name": "Qian Qiao (钱桥)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 天津市天津南开中学",
+  "n_sources": 1,
+  "n_queries": 12
+ },
+ "noi_s_bai_yanbo_2009": {
+  "name": "Bai Yanbo (白彦博)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 陕西省西安83中",
+  "n_sources": 4,
+  "n_queries": 19
+ },
+ "noi_s_ren_chunxu_2009": {
+  "name": "Ren Chunxu (任春旭)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 四川省绵阳中学",
+  "n_sources": 1,
+  "n_queries": 21
+ },
+ "noi_s_xiang_ziqing_2009": {
+  "name": "Xiang Ziqing (向子卿)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 黑龙江省哈师大附中",
+  "n_sources": 11,
+  "n_queries": 7
+ },
+ "noi_s_wang_mo_2009": {
+  "name": "Wang Mo (王谟)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 湖北省武钢三中",
+  "n_sources": 1,
+  "n_queries": 21
+ },
+ "noi_b_cheng_longju_2009": {
+  "name": "Cheng Longju (程龙举)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 重庆市巴蜀中学",
+  "n_sources": 4,
+  "n_queries": 15
+ },
+ "noi_b_miao_peihan_2009": {
+  "name": "Miao Peihan (缪沛晗)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 江苏省常州高级中学",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "noi_b_xin_chao_2009": {
+  "name": "Xin Chao (辛超)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 广东北江中学",
+  "n_sources": 1,
+  "n_queries": 9
+ },
+ "noi_s_an_yujie_2009": {
+  "name": "An Yujie (安宇杰)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 黑龙江省大庆一中",
+  "n_sources": 2,
+  "n_queries": 13
+ },
+ "noi_s_huang_yifeng_2009": {
+  "name": "Huang Yifeng (黄一峰)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 四川省成都七中",
+  "n_sources": 0,
+  "n_queries": 39
+ },
+ "noi_s_li_peiqian_2009": {
+  "name": "Li Peiqian (李佩谦)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 吉林省东北师大附中",
+  "n_sources": 6,
+  "n_queries": 20
+ },
+ "noi_b_zhang_xue_2009": {
+  "name": "Zhang Xue (张雪)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 四川省绵阳南山中学",
+  "n_sources": 2,
+  "n_queries": 7
+ },
+ "noi_b_li_bofang_2009": {
+  "name": "Li Bofang (李博放)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 四川省绵阳南山中学",
+  "n_sources": 5,
+  "n_queries": 19
+ },
+ "noi_b_ye_dan_2009": {
+  "name": "Ye Dan (叶丹)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 重庆市巴蜀中学",
+  "n_sources": 3,
+  "n_queries": 13
+ },
+ "noi_b_xie_luyu_2009": {
+  "name": "Xie Luyu (谢路昱)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 福建省福州一中",
+  "n_sources": 2,
+  "n_queries": 13
+ },
+ "noi_b_guo_xiaoxu_2009": {
+  "name": "Guo Xiaoxu (郭晓旭)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 广东省潮阳实验学校",
+  "n_sources": 1,
+  "n_queries": 8
+ },
+ "noi_b_wang_enze_2009": {
+  "name": "Wang Enze (王恩泽)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 内蒙古包头市第九中学",
+  "n_sources": 1,
+  "n_queries": 20
+ },
+ "noi_b_liang_jingyuan_2009": {
+  "name": "Liang Jingyuan (梁景元)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 广西省广西师大附外",
+  "n_sources": 5,
+  "n_queries": 14
+ },
+ "noi_b_lyu_rundong_2009": {
+  "name": "Lyu Rundong (吕润东)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 重庆市重庆八中",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "noi_b_li_bojie_2009": {
+  "name": "Li Bojie (李博杰)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河北省石家庄二中",
+  "n_sources": 7,
+  "n_queries": 5
+ },
+ "noi_b_fan_rundong_2009": {
+  "name": "Fan Rundong (樊润冬)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 新疆乌鲁木齐一中",
+  "n_sources": 1,
+  "n_queries": 16
+ },
+ "noi_b_xu_ranci_2009": {
+  "name": "Xu Ranci (徐苒茨)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 四川省绵阳南山中学",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "noi_b_zhu_bingqi_2009": {
+  "name": "Zhu Bingqi (朱炳琪)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河北省衡水中学",
+  "n_sources": 2,
+  "n_queries": 19
+ },
+ "noi_b_chen_yi_2009": {
+  "name": "Chen Yi (陈怡)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 重庆市重庆八中",
+  "n_sources": 3,
+  "n_queries": 6
+ },
+ "noi_b_zou_xun_2009": {
+  "name": "Zou Xun (邹逊)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 安徽省蚌埠二中",
+  "n_sources": 5,
+  "n_queries": 11
+ },
+ "noi_b_li_yi_2009": {
+  "name": "Li Yi (李艺)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 山东省山东师大附中",
+  "n_sources": 0,
+  "n_queries": 21
+ },
+ "noi_b_rao_guoteng_2009": {
+  "name": "Rao Guoteng (饶国腾)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 四川省成都七中",
+  "n_sources": 4,
+  "n_queries": 22
+ },
+ "noi_b_zhang_chong_2009": {
+  "name": "Zhang Chong (张冲)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 陕西省陕西师大附中",
+  "n_sources": 4,
+  "n_queries": 15
+ },
+ "noi_b_li_runming_2009": {
+  "name": "Li Runming (李润铭)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 北京第八十中学",
+  "n_sources": 5,
+  "n_queries": 13
+ },
+ "noi_b_cai_ning_2009": {
+  "name": "Cai Ning (蔡凝)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 江西省九江一中",
+  "n_sources": 7,
+  "n_queries": 11
+ },
+ "noi_b_he_boshuo_2009": {
+  "name": "He Boshuo (何博硕)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 北京市人大附中",
+  "n_sources": 8,
+  "n_queries": 8
+ },
+ "noi_b_zhong_yin_2009": {
+  "name": "Zhong Yin (钟音)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 黑龙江省大庆实验中学",
+  "n_sources": 0,
+  "n_queries": 37
+ },
+ "noi_b_yang_shubai_2009": {
+  "name": "Yang Shubai (杨舒柏)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 新疆乌鲁木齐一中",
+  "n_sources": 3,
+  "n_queries": 8
+ },
+ "noi_b_alafate_2009": {
+  "name": "Alafate (阿拉法特)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 新疆乌鲁木齐一中",
+  "n_sources": 2,
+  "n_queries": 34
+ },
+ "noi_b_yi_qian_2009": {
+  "name": "Yi Qian (易茜)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 湖南省长沙市一中",
+  "n_sources": 3,
+  "n_queries": 11
+ },
+ "noi_b_liang_jinhong_2009": {
+  "name": "Liang Jinhong (梁錦鴻)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 澳门濠江中學",
+  "n_sources": 5,
+  "n_queries": 7
+ },
+ "noi_b_zhu_xudong_2009": {
+  "name": "Zhu Xudong (朱旭东)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 重庆市巴蜀中学",
+  "n_sources": 3,
+  "n_queries": 19
+ },
+ "noi_b_ning_ke_2009": {
+  "name": "Ning Ke (宁可)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 江西省九江一中",
+  "n_sources": 3,
+  "n_queries": 14
+ },
+ "noi_b_hou_jiaxu_2009": {
+  "name": "Hou Jiaxu (侯佳旭)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河南省郑州101中学",
+  "n_sources": 4,
+  "n_queries": 8
+ },
+ "noi_b_wei_zhenggong_2009": {
+  "name": "Wei Zhenggong (魏正功)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河北省唐山一中",
+  "n_sources": 0,
+  "n_queries": 11
+ },
+ "noi_b_dong_yuqian_2009": {
+  "name": "Dong Yuqian (董宇茜)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 黑龙江省哈师大附中",
+  "n_sources": 4,
+  "n_queries": 7
+ },
+ "noi_b_peng_yuhan_2009": {
+  "name": "Peng Yuhan (彭禹涵)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 安徽省芜湖一中",
+  "n_sources": 1,
+  "n_queries": 28
+ },
+ "noi_b_fan_hongbo_2009": {
+  "name": "Fan Hongbo (范鸿博)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 湖北省华师一附中",
+  "n_sources": 5,
+  "n_queries": 26
+ },
+ "noi_b_xing_jianan_2009": {
+  "name": "Xing Jianan (邢佳楠)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 北京第八十中学",
+  "n_sources": 4,
+  "n_queries": 24
+ },
+ "noi_b_sha_mo_2009": {
+  "name": "Sha Mo (沙漠)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 辽宁省大连育明高中",
+  "n_sources": 1,
+  "n_queries": 27
+ },
+ "noi_b_xu_lunbo_2009": {
+  "name": "Xu Lunbo (许伦博)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 海南省海南中学",
+  "n_sources": 0,
+  "n_queries": 21
+ },
+ "noi_b_wang_sida_2009": {
+  "name": "Wang Sida (王思达)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 陕西省西安铁一中",
+  "n_sources": 2,
+  "n_queries": 10
+ },
+ "noi_b_feng_dan_2009": {
+  "name": "Feng Dan (冯丹)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 上海市华师大二附中",
+  "n_sources": 2,
+  "n_queries": 14
+ },
+ "noi_b_shen_haoquan_2009": {
+  "name": "Shen Haoquan (申皓全)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 山西省山西大学附中",
+  "n_sources": 3,
+  "n_queries": 7
+ },
+ "noi_b_liu_yingshan_2009": {
+  "name": "Liu Yingshan (刘颖珊)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 广东省中山纪念中学",
+  "n_sources": 4,
+  "n_queries": 24
+ },
+ "noi_b_jin_lingzi_2009": {
+  "name": "Jin Lingzi (金凌子)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 浙江省温州中学",
+  "n_sources": 0,
+  "n_queries": 23
+ },
+ "noi_b_yan_jiabao_2009": {
+  "name": "Yan Jiabao (闫家宝)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 河南省河大附中",
+  "n_sources": 4,
+  "n_queries": 7
+ },
+ "noi_b_li_song_2009": {
+  "name": "Li Song (李松)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 海南省临高中学",
+  "n_sources": 7,
+  "n_queries": 11
+ },
+ "noi_b_zhao_zhiheng_2009": {
+  "name": "Zhao Zhiheng (赵志恒)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 吉林省东北师大附中",
+  "n_sources": 7,
+  "n_queries": 17
+ },
+ "noi_b_sun_su_2009": {
+  "name": "Sun Su (孙溯)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 辽宁省大连育明高中",
+  "n_sources": 0,
+  "n_queries": 13
+ },
+ "noi_s_li_guanru_2009": {
+  "name": "Li Guanru (李冠儒)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 天津市天津南开中学",
+  "n_sources": 4,
+  "n_queries": 27
+ },
+ "noi_s_liu_ke_2009": {
+  "name": "Liu Ke (刘坷)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) silver medalist from 湖南省湖南师大附中",
+  "n_sources": 2,
+  "n_queries": 56
+ },
+ "noi_b_yan_lifeng_2009": {
+  "name": "Yan Lifeng (颜立峰)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 广西省柳州高中",
+  "n_sources": 4,
+  "n_queries": 11
+ },
+ "noi_b_tan_chuanqi_2009": {
+  "name": "Tan Chuanqi (谭传奇)",
+  "context": "a 2009 NOI (China National Olympiad in Informatics) bronze medalist from 湖北省武汉二中",
+  "n_sources": 3,
+  "n_queries": 43
+ }
+}

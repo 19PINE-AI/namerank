@@ -48,3 +48,42 @@ models = 5,256 records.
 - `02_run_probe.py` — 36-model probe run (resumable)
 - `03_analyze.py` — tier distributions/tests, dose-response, covariates,
   main-run anchor, within-person triple
+
+## Results (run 2026-07-12, 5,256/5,256 records clean)
+
+| tier | n | mean [95% CI] | median | sd | range | above floor (0.199) |
+|---|---|---|---|---|---|---|
+| gold | 20 | 0.319 [0.281, 0.362] | 0.303 | 0.095 | 0.209–0.589 | 20/20 |
+| silver | 34 | 0.180 [0.160, 0.204] | 0.169 | 0.065 | 0.063–0.425 | 8/34 |
+| bronze | 49 | 0.165 [0.152, 0.179] | 0.162 | 0.050 | 0.077–0.353 | 8/49 |
+
+- **Gold vs non-gold is a cliff, silver vs bronze is nothing.** Kruskal-Wallis
+  H=39.3 (p<1e-8); gold>silver Cliff's δ=+0.85 (p<1e-6); silver vs bronze
+  p=0.245, δ=+0.15. Every gold clears the short-boilerplate synthetic-null
+  floor; the silver and bronze *means* sit at/below it — as cohorts they are
+  statistically silent, with a recognized tail of 16 individuals.
+- **Dose-response is the tier cliff, not the score.** Pooled NameRank ~
+  contest score R²=0.397 (ρ=+0.56), but within-tier R² collapses (gold 0.11,
+  silver 0.04, bronze 0.07): crossing the gold line matters; marginal points
+  do not. Consistent with the mechanism — NOI gold rosters are documented
+  (~top 20, 保送 coverage, media), silver/bronze rosters barely propagate.
+- **The recognized non-golds are career effects, pure treadmill.** Top
+  non-golds: Fan Haoqiang (范浩强, silver, 0.425 — above the *gold mean*;
+  Megvii researcher), Li Bojie (李博杰, bronze, 0.353 — contest rank 68,
+  recognition rank 7 of 103), Li Guanru (0.304). Post-medal named output,
+  not the medal, carries the name.
+- **Covariates.** Gender gap vanishes within tier (non-gold: men 0.173,
+  women 0.164; no female golds in 2009). Grade at contest is uninformative
+  (the 初二 outlier is Fan Haoqiang alone).
+- **Anchor.** 63 entities shared with the released main run: ρ=0.915, mean
+  shift −0.006 (panel equivalent). NOI golds alone ρ=0.66, shift −0.029 —
+  consistent with this cohort having the highest within-entity σ (0.404) in
+  the main run.
+- **Within-person triple (李博杰).** Bronze-roster boilerplate gold 0.353 /
+  MSRA-2017 framing 0.414 / dense reference gold 0.118 (released 0.090):
+  the same person spans 0.12–0.41 depending on gold density and framing —
+  NameRank levels are gold-recipe-conditional (matches App. M); only
+  within-recipe comparisons (the tier ladder above) are valid.
+
+Outputs: `outputs/tier_per_entity.csv` (per-entity), `outputs/tier_analysis.json`
+(stats), `outputs/pilot_results_tiers.json` (raw records, gitignored pattern).
