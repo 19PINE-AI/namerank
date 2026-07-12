@@ -54,3 +54,9 @@ site/dist/
 # t5_2 attention baseline: derived outputs ARE tracked (same override
 # pattern as t4_1; ~60KB of pageview counts + summary stats).
 !experiments/t5_2_attention_baseline/outputs/
+
+# t5_4 self-report: pairwise verdicts + derived outputs ARE tracked (same
+# override pattern; pairwise_results.json is the primary data analyze.py
+# consumes — 2.5MB of verdicts, not a raw probe dump). Logs stay out.
+!experiments/t5_4_self_report/outputs/
+experiments/t5_4_self_report/outputs/*.log

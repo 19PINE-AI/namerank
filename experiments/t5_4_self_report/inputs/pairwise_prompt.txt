@@ -1,0 +1,14 @@
+You will be shown two named entities. Base your answer only on what you actually know about each entity from memory — specific, verifiable facts such as works, roles, achievements, or dates.
+
+Entity A: {name_a} — {context_a}
+Entity B: {name_b} — {context_b}
+
+Which entity do you know more about?
+
+Respond with exactly one word:
+A — you know substantially more about Entity A
+B — you know substantially more about Entity B
+EQUAL — you genuinely recognize both and know them to a similar depth
+NEITHER — you do not recognize either entity
+
+Answer:

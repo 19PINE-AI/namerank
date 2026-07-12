@@ -23,6 +23,8 @@ kept.
 | `t2_10_cross_judge` | A Gemini-judge artifact? | No; r 0.87–0.93 across three judges, ladder preserved; in-family lift Gemini +0.06. → §6.7.6, App. L. |
 | `t3_1_cutoff_gradient` | Is the silent zone corpus-timing? | No — intrinsic; matched DiD ≈ 0; ~0.13/yr vintage drift. → §6.7.5, App. J. |
 | `t4_1_news_events` | *(extension cohort)* Does recognition track a directly recorded attention ledger? | Yes (R² 0.10/0.17 gold-adjusted) — via **peak**, not duration; templated series names −0.061. → §3.5 + App. "News-Event Cohort". |
+| `t5_2_attention_baseline` | Is NameRank just Wikipedia pageviews / attention flow? | No — undefined for 71% of entities, R² 0.06 where defined; sign flips by cohort (celebrity +, technical −). → §3.1, App. confounds. |
+| `t5_4_self_report` | Can a model report its own NameRank? | Partially (ρ 0.53–0.61 vs panel) — self-report reads corpus prevalence, not the model's own knowledge; fictional traps ~never claimed. → §3.7 + App. "Self-Reported Recognition". |
 
 All ten audits are written into the paper (Sections 6.3.4, 6.4.1,
 6.7.4–6.7.8, and 7.5; Appendices I–O), as is the t4_1 news-events extension

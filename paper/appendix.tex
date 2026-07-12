@@ -2,7 +2,7 @@
 % Appendix roadmap
 % ══════════════════════════════════════════════════════════════
 \begin{center}
-\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:credentials}--\ref{app:events} give the full tables and case detail behind each finding of Section~\ref{sec:results}, in the order the findings appear. Appendices~\ref{app:scoring}--\ref{app:gender} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat, followed by the limitations summary (Appendix~\ref{app:limitations}).}
+\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:credentials}--\ref{app:selfreport} give the full tables and case detail behind each finding of Section~\ref{sec:results}, in the order the findings appear. Appendices~\ref{app:scoring}--\ref{app:gender} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat, followed by the limitations summary (Appendix~\ref{app:limitations}).}
 \end{center}
 
 % ══════════════════════════════════════════════════════════════
@@ -86,6 +86,44 @@ GPT-5 system-card author$^\dagger$ & 80 & 0.042 & $-0.422$ \\
 \textbf{Career-track split.} Within IMO gold medalists, US-tracked academic/industry careers---the subset most comparable to the citation-floored OpenAlex baseline---score ${\sim}0.50$; non-Anglophone-tracked golds score ${\sim}0.30$. The medal-and-name pair propagates only where the post-medal career produces English text.
 
 \textbf{Temporal patterns.} Within MSRA fellows, five-year-cohort means rise from $0.312$ (2005--2009) to $0.337$ (2010--2014) to $0.382$ (2015--2019) and dip to $0.343$ (2020--2024), consistent with recent fellows having had less time for post-fellowship production to propagate. Within IMO 2005--2015, Pearson(year, NameRank) $= -0.042$, indistinguishable from zero: the credential signal neither strengthens nor decays within the ten-year window.
+
+% ══════════════════════════════════════════════════════════════
+
+\section{Medal Tiers: The Complete NOI 2009 Roster}
+\label{app:medal-tiers}
+
+The credential ladder above measures \emph{gold} medalists only, so it cannot say whether the medal's grade carries signal. To test this we probed the complete medal roster of a single contest --- NOI 2009: every gold, silver, and bronze medalist ($103$ in all) --- with the pipeline otherwise unchanged. The roster comes from the official CCF medal list, cross-validated line-by-line against the community OIerDb database (identical names, schools, and scores); the released files include each medalist's contest score and rank. The twenty golds re-enter with their main-run probes and gold answers verbatim; the new silver and bronze entities receive gold answers built from the same boilerplate recipe with only the tier band changed, so gold length and density are matched across tiers and the short-boilerplate synthetic-null floor (Appendix~\ref{app:synthetic}) applies equally to all three. Probe names follow the main run's romanization conventions and carry the Chinese characters, which --- together with the year-and-school context --- disambiguate medalists whose Pinyin collides with common names. The run uses the $36$-model 2026 panel of the news-event cohort (Appendix~\ref{app:events}); the $63$ entities shared with the released main run reproduce their released ordering almost exactly (Spearman $\rho = 0.915$, mean shift $-0.006$).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_medal_tiers.pdf}
+\caption{The complete NOI 2009 medal roster. \textbf{(a)}~Per-medalist NameRank by tier (dots), with tier means and bootstrap $95\%$ CIs, against the synthetic-null floor for this gold recipe. \textbf{(b)}~NameRank against the contest score that determined the tiers, with within-tier least-squares fits. Callouts mark the medalists discussed in the text.}
+\label{fig:medal-tiers}
+\end{figure}
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{NOI 2009 medal tiers. ``Above floor'' counts medalists exceeding the $0.199$ short-boilerplate synthetic-null floor. Kruskal--Wallis across tiers $H = 39.3$ ($p < 10^{-8}$); gold vs.\ silver Cliff's $\delta = +0.85$ ($p < 10^{-6}$); silver vs.\ bronze $p = 0.25$. Pooled NameRank-on-contest-score $R^2 = 0.40$; within tiers it collapses to $0.11$ (gold), $0.04$ (silver), $0.07$ (bronze).}
+\label{tab:medal-tiers}
+\begin{tabular}{lrccc}
+\toprule
+Tier & $n$ & Mean [$95\%$ CI] & Median & Above floor \\
+\midrule
+Gold & 20 & 0.319 [0.281, 0.362] & 0.303 & 20/20 \\
+Silver & 34 & 0.180 [0.160, 0.204] & 0.169 & 8/34 \\
+Bronze & 49 & 0.165 [0.152, 0.179] & 0.162 & 8/49 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{The ladder is a cliff.} Gold and non-gold are separated by a large, unambiguous gap, while silver and bronze are statistically indistinguishable (Table~\ref{tab:medal-tiers}). Every gold medalist clears the synthetic-null floor; the silver and bronze cohort \emph{means} sit at or below it. Read against Property~2 of the metric, the silver and bronze rosters are not weakly recognized --- as cohorts they are silent, with an individually recognized tail. The mechanism matches the corpus-density account of Section~\ref{sec:results-credentials}: the ${\sim}20$-person national gold roster is the documented one --- admissions coverage, competitive-programming lore, team-selection reporting --- while silver and bronze rosters barely mint name-bearing English text at all.
+
+\textbf{The cut matters; marginal points do not.} Because tier is a threshold function of contest score, a pooled regression of NameRank on score looks respectable, but nearly all of it is the gold/non-gold cut: within tiers the explained variance collapses (Table~\ref{tab:medal-tiers}, Figure~\ref{fig:medal-tiers}b). Recognition does not accrue per point; it accrues on crossing the line into the documented roster.
+
+\textbf{The recognized tail is the treadmill again.} The silver and bronze medalists who do clear the floor are exactly the ones whose \emph{post-medal} careers produce named artifacts: the top-scoring silver medalist beats the gold-tier \emph{mean} on the strength of a prominent computer-vision research career (Fan Haoqiang), and the top bronze medalist ranks near the bottom of the contest's score column yet seventh of $103$ in recognition (Li Bojie, a systems researcher and entrepreneur --- and the author of this paper, included with the same boilerplate gold as every other medalist). Within tiers, the medal-year cohort's gender gap also disappears ($0.173$ vs.\ $0.164$ for non-gold men and women; the 2009 gold roster has no women), consistent with the controlled comparison of Appendix~\ref{app:gender}.
+
+\textbf{The score is graded against a gold answer, so one person can carry several scores.} One medalist in this roster also appears in the main run as two other probe entities, and the three scores differ threefold: $0.35$ when graded against the two-sentence medalist gold, $0.41$ against a fellowship-cohort gold, and $0.12$ against the dense $150$-word diagnostic biography ($0.09$ in the released run, the value shown in Table~\ref{tab:headline-placement}). The underlying model responses are equally correct in all three cases; what differs is how much the gold answer demands --- a model that recognizes the person reproduces the short medalist gold in full, while even a detailed correct response covers only part of the long biography. NameRank levels are therefore comparable only between entities graded against same-style gold answers (the within-person analogue of the Appendix~\ref{app:synthetic} floors), which is why every medalist in the tier ladder above received an identically structured gold.
 
 % ══════════════════════════════════════════════════════════════
 
@@ -473,6 +511,51 @@ South \& Southeast Asia & 42 & 0.397 & $-0.060$ (0.028) \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+% ══════════════════════════════════════════════════════════════
+
+\section{Self-Reported Recognition: Design and Detail}
+\label{app:selfreport}
+
+This appendix gives the design, estimation, and full results behind Section~\ref{sec:results-selfreport} (released as \texttt{experiments/t5\_4\_self\_report/}).
+
+\subsection{Design}
+
+\textbf{Entities.} $430$ total: $400$ real entities sampled from the main run, stratified over six panel-NameRank bands ($[0,.05)$, $[.05,.15)$, $[.15,.30)$, $[.30,.50)$, $[.50,.70)$, $[.70,1]$ with quotas $40/40/70/90/90/70$ and at most $12$ per cohort), plus the $30$ fictional entities of Appendix~\ref{app:synthetic} as traps.
+
+\textbf{Pairs.} $3{,}350$ unique pairs in five strata: $2{,}200$ with both entities in the recognized region (panel NameRank $\ge 0.15$; half constrained to close gaps $|\Delta| < 0.15$), $500$ crossing the recognition boundary ($\ge 0.30$ vs.\ $< 0.05$), $250$ with both below $0.15$, and $400$ trap pairs (each fictional entity against $12$ real partners spread over the bands, plus $40$ fictional--fictional pairs). A further $335$ pairs ($10\%$) are re-presented in swapped order as a position-bias probe, giving $3{,}685$ presentations per model. Presentation order (A/B) is randomized once and shared across models.
+
+\textbf{Probe.} Each pair is shown with the main-run disambiguation contexts, and the model is asked which entity it knows more about---``specific, verifiable facts such as works, roles, achievements, or dates''---answering exactly one of \texttt{A}, \texttt{B}, \texttt{EQUAL} (knows both to similar depth), or \texttt{NEITHER} (recognizes neither). The three self-report models are the main-run checkpoints GPT-5.5, Claude Opus 4.6, and Gemini 3.1 Pro at main-run settings, so each model's verdicts can be compared against its \emph{own} released per-record behavioral scores. All $11{,}055$ calls returned a parseable verdict.
+
+\textbf{Estimation.} Each model's \texttt{A}/\texttt{B}/\texttt{EQUAL} verdicts on real--real pairs are fit with Davidson's tie-extended Bradley--Terry model \citep{bradley1952rank,davidson1970ties}---the batch analogue of the Chatbot Arena aggregation \citep{chiang2024chatbot}---by ridge-regularized maximum likelihood; \texttt{NEITHER} verdicts are treated as abstentions. Confidence intervals are $95\%$ normal-approximation pair-bootstrap ($200$ refits). Entity-level statistics use entities with at least five decided comparisons. Per-model labels for the binary analyses come from the model's own main-run record: \emph{known} $=$ score $\ge 0.15$ and no refusal; \emph{unknown} $=$ refusal or score $< 0.05$.
+
+\subsection{Results}
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Self-reported recognition per model. $\rho_{\text{panel}}$: Spearman correlation of the Bradley--Terry self-ranking with panel NameRank over real entities (bootstrap $95\%$ CI). Dir.\ acc.: fraction of decided verdicts agreeing with the panel ordering on both-known pairs with $\Delta\text{NameRank} \ge 0.15$. Boundary: known-vs-unknown pairs by the model's own labels---share picking the known side / the unknown side / abstaining. Trap: share of fictional-vs-known pairs where the fictional side was preferred (ties included). Reversal: verdict consistency under A/B swap.}
+\label{tab:selfreport}
+\begin{tabular}{lccccc}
+\toprule
+Model & $\rho_{\text{panel}}$ & Dir.\ acc. & Boundary (pick/err/abstain) & Trap & Reversal \\
+\midrule
+GPT-5.5          & $0.61$ {\scriptsize$[.59,.63]$} & $0.82$ & $0.74$ / $0.12$ / $0.14$ & $1/232$ & $0.88$ \\
+Claude Opus 4.6  & $0.53$ {\scriptsize$[.50,.56]$} & $0.81$ & $0.63$ / $0.14$ / $0.23$ & $0/241$ & $0.85$ \\
+Gemini 3.1 Pro   & $0.57$ {\scriptsize$[.55,.59]$} & $0.81$ & $0.72$ / $0.09$ / $0.16$ & $0/211$ & $0.90$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Partial reconstruction of the panel ordering.} Table~\ref{tab:selfreport}: the self-rankings correlate $\rho = 0.53$--$0.61$ with panel NameRank and agree with the panel ordering on $81\%$ of decided both-known pairs at gaps $\ge 0.15$. Position bias is negligible (reversal consistency $0.85$--$0.90$; first-position win rate $0.46$--$0.49$).
+
+\textbf{What self-report reads.} Panel NameRank factors into a \emph{prevalence} component (the share of the $37$ models that know the entity, i.e.\ score $\ge 0.15$) and a \emph{conditional level} (mean score among the models that know it). The self-rankings load on prevalence ($\rho = 0.72$--$0.76$) and only weakly on conditional level ($\rho = 0.11$--$0.19$); the models' own behavioral scores do the reverse (conditional level $\rho = 0.60$--$0.71$, prevalence $\rho = 0.07$--$0.15$ among known entities). Consequently the self-ranking is nearly uncorrelated with the model's own scores among entities it knows ($\rho = +0.04$ / $-0.06$ / $-0.09$), while the three vendors' self-rankings agree pairwise at $\rho = 0.90$--$0.91$---each model agrees with the \emph{other vendors' introspection} far better than with its \emph{own behavior}. The conditional level is gold-conditional rather than fame-driven (specific dense golds are harder to cover than boilerplate golds; cf.\ the level-sensitivity in Appendices~\ref{app:prompt-sensitivity} and~\ref{app:synthetic}), which is also why directional accuracy against raw own-score gaps lands below chance ($0.34$--$0.40$): raw per-model scores are not a cross-entity depth scale, and we do not use them as one.
+
+\textbf{Fame-incongruent boundary pairs.} Restricting known-vs-unknown pairs to those where corpus fame contradicts the model's own state (the unknown entity has the higher panel NameRank by $\ge 0.05$): abstention rises from $10$--$20\%$ (congruent) to $35$--$64\%$, the famous-but-unknown side is claimed in only $0$--$9\%$ of verdicts, and only GPT-5.5 still sides with its own knowledge on most such pairs ($0.65$, vs.\ $0.36$ for both others; $n = 26/14/69$, so these splits are indicative). Self-report degrades into abstention, not fame-following fabrication.
+
+\textbf{Trap arm.} Across $684$ fictional-vs-known pairs the fictional entity was preferred once (GPT-5.5, $0.4\%$ of its $232$; ties included); \texttt{NEITHER} was answered on $95$--$100\%$ of fictional--fictional pairs. Recognition claims are near-perfectly precise; the error budget is spent on under-claiming (abstention on $14$--$23\%$ of genuine boundary pairs).
+
+\textbf{Caveats.} The behavioral ground truth is one judged response per (entity, model), so response-level noise attenuates all within-model comparisons; the prevalence/conditional decomposition and the panel-side statistics are unaffected. \texttt{EQUAL} usage varies by vendor ($3\%$ of GPT-5.5 verdicts, $5\%$ Claude, $12\%$ Gemini), which the tie-extended likelihood absorbs. The experiment covers three frontier models; smaller models' self-reports may behave differently.
 
 % ══════════════════════════════════════════════════════════════
 

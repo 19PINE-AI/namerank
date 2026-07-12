@@ -1,0 +1,289 @@
+{
+  "gpt-5.5-think": {
+    "model": "gpt-5.5-think",
+    "n_presentations": 3685,
+    "verdict_counts": {
+      "B": 1596,
+      "A": 1498,
+      "NEITHER": 485,
+      "EQUAL": 106
+    },
+    "position_consistency": 0.884,
+    "n_reversed_scored": 335,
+    "first_position_winrate": 0.484,
+    "binary": {
+      "n": 785,
+      "picked_known": 0.743,
+      "picked_unknown": 0.118,
+      "equal": 0.0,
+      "neither": 0.139
+    },
+    "trap": {
+      "n": 232,
+      "false_recognition": 0.004
+    },
+    "trap_fict_neither_rate": 0.95,
+    "neither_rate_by_stratum": {
+      "cross_boundary": 0.074,
+      "trap_fict": 0.95,
+      "trap_real": 0.347,
+      "withinL": 0.36,
+      "withinR_close": 0.095,
+      "withinR_random": 0.051
+    },
+    "graded": {
+      "margin_0.15": {
+        "n": 1226,
+        "equal_rate": 0.046,
+        "acc_decided": 0.4,
+        "acc_with_equal_half": 0.405
+      },
+      "margin_0.3": {
+        "n": 696,
+        "equal_rate": 0.049,
+        "acc_decided": 0.381,
+        "acc_with_equal_half": 0.386
+      }
+    },
+    "n_both_known_pairs": 1917,
+    "bt": {
+      "n_pairs": 2662,
+      "n_entities": 398,
+      "n_eligible": 370,
+      "n_known_eligible": 298,
+      "rho_own_known": 0.043,
+      "rho_own_known_ci": [
+        0.012,
+        0.075
+      ],
+      "rho_own_all": 0.291,
+      "rho_panel_known": 0.589,
+      "rho_panel_all": 0.611,
+      "rho_panel_all_ci": [
+        0.587,
+        0.634
+      ]
+    },
+    "decomposition": {
+      "rho_bt_prevalence": 0.755,
+      "rho_bt_cond_level": 0.194,
+      "rho_own_cond_level_known": 0.71,
+      "rho_own_prevalence_known": 0.152
+    },
+    "graded_vs_panel": {
+      "margin_0.15": {
+        "n": 581,
+        "acc_decided": 0.816
+      }
+    },
+    "introspection_boundary": {
+      "congruent": {
+        "n": 705,
+        "picked_own_known": 0.759,
+        "picked_unknown": 0.126,
+        "equal": 0.0,
+        "neither": 0.115
+      },
+      "incongruent": {
+        "n": 26,
+        "picked_own_known": 0.654,
+        "picked_unknown": 0.0,
+        "equal": 0.0,
+        "neither": 0.346
+      }
+    }
+  },
+  "claude-opus-4.6-think": {
+    "model": "claude-opus-4.6-think",
+    "n_presentations": 3685,
+    "verdict_counts": {
+      "B": 1455,
+      "A": 1236,
+      "EQUAL": 172,
+      "NEITHER": 822
+    },
+    "position_consistency": 0.848,
+    "n_reversed_scored": 335,
+    "first_position_winrate": 0.459,
+    "binary": {
+      "n": 726,
+      "picked_known": 0.625,
+      "picked_unknown": 0.14,
+      "equal": 0.0,
+      "neither": 0.234
+    },
+    "trap": {
+      "n": 241,
+      "false_recognition": 0.0
+    },
+    "trap_fict_neither_rate": 1.0,
+    "neither_rate_by_stratum": {
+      "cross_boundary": 0.128,
+      "trap_fict": 1.0,
+      "trap_real": 0.469,
+      "withinL": 0.408,
+      "withinR_close": 0.22,
+      "withinR_random": 0.122
+    },
+    "graded": {
+      "margin_0.15": {
+        "n": 1329,
+        "equal_rate": 0.069,
+        "acc_decided": 0.341,
+        "acc_with_equal_half": 0.352
+      },
+      "margin_0.3": {
+        "n": 800,
+        "equal_rate": 0.081,
+        "acc_decided": 0.339,
+        "acc_with_equal_half": 0.352
+      }
+    },
+    "n_both_known_pairs": 1989,
+    "bt": {
+      "n_pairs": 2408,
+      "n_entities": 398,
+      "n_eligible": 353,
+      "n_known_eligible": 292,
+      "rho_own_known": -0.056,
+      "rho_own_known_ci": [
+        -0.084,
+        -0.028
+      ],
+      "rho_own_all": 0.163,
+      "rho_panel_known": 0.525,
+      "rho_panel_all": 0.534,
+      "rho_panel_all_ci": [
+        0.504,
+        0.564
+      ]
+    },
+    "decomposition": {
+      "rho_bt_prevalence": 0.718,
+      "rho_bt_cond_level": 0.111,
+      "rho_own_cond_level_known": 0.596,
+      "rho_own_prevalence_known": 0.087
+    },
+    "graded_vs_panel": {
+      "margin_0.15": {
+        "n": 571,
+        "acc_decided": 0.809
+      }
+    },
+    "introspection_boundary": {
+      "congruent": {
+        "n": 649,
+        "picked_own_known": 0.647,
+        "picked_unknown": 0.156,
+        "equal": 0.0,
+        "neither": 0.197
+      },
+      "incongruent": {
+        "n": 14,
+        "picked_own_known": 0.357,
+        "picked_unknown": 0.0,
+        "equal": 0.0,
+        "neither": 0.643
+      }
+    }
+  },
+  "gemini-3.1-pro": {
+    "model": "gemini-3.1-pro",
+    "n_presentations": 3685,
+    "verdict_counts": {
+      "B": 1337,
+      "A": 1274,
+      "EQUAL": 443,
+      "NEITHER": 631
+    },
+    "position_consistency": 0.896,
+    "n_reversed_scored": 335,
+    "first_position_winrate": 0.488,
+    "binary": {
+      "n": 967,
+      "picked_known": 0.718,
+      "picked_unknown": 0.091,
+      "equal": 0.029,
+      "neither": 0.162
+    },
+    "trap": {
+      "n": 211,
+      "false_recognition": 0.0
+    },
+    "trap_fict_neither_rate": 1.0,
+    "neither_rate_by_stratum": {
+      "cross_boundary": 0.088,
+      "trap_fict": 1.0,
+      "trap_real": 0.372,
+      "withinL": 0.412,
+      "withinR_close": 0.152,
+      "withinR_random": 0.081
+    },
+    "graded": {
+      "margin_0.15": {
+        "n": 1072,
+        "equal_rate": 0.208,
+        "acc_decided": 0.366,
+        "acc_with_equal_half": 0.394
+      },
+      "margin_0.3": {
+        "n": 665,
+        "equal_rate": 0.209,
+        "acc_decided": 0.348,
+        "acc_with_equal_half": 0.38
+      }
+    },
+    "n_both_known_pairs": 1654,
+    "bt": {
+      "n_pairs": 2547,
+      "n_entities": 397,
+      "n_eligible": 362,
+      "n_known_eligible": 273,
+      "rho_own_known": -0.086,
+      "rho_own_known_ci": [
+        -0.113,
+        -0.059
+      ],
+      "rho_own_all": 0.307,
+      "rho_panel_known": 0.502,
+      "rho_panel_all": 0.568,
+      "rho_panel_all_ci": [
+        0.546,
+        0.591
+      ]
+    },
+    "decomposition": {
+      "rho_bt_prevalence": 0.738,
+      "rho_bt_cond_level": 0.149,
+      "rho_own_cond_level_known": 0.675,
+      "rho_own_prevalence_known": 0.072
+    },
+    "graded_vs_panel": {
+      "margin_0.15": {
+        "n": 433,
+        "acc_decided": 0.808
+      }
+    },
+    "introspection_boundary": {
+      "congruent": {
+        "n": 771,
+        "picked_own_known": 0.774,
+        "picked_unknown": 0.096,
+        "equal": 0.032,
+        "neither": 0.097
+      },
+      "incongruent": {
+        "n": 69,
+        "picked_own_known": 0.362,
+        "picked_unknown": 0.087,
+        "equal": 0.014,
+        "neither": 0.536
+      }
+    }
+  },
+  "_inter_model_bt_spearman": {
+    "gpt-5.5-think__vs__claude-opus-4.6-think": 0.897,
+    "gpt-5.5-think__vs__gemini-3.1-pro": 0.91,
+    "claude-opus-4.6-think__vs__gemini-3.1-pro": 0.895
+  }
+}
