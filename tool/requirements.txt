@@ -1,0 +1,7 @@
+# Core (always required)
+httpx>=0.24
+
+# Optional: only needed for the canonical Gemini + Google Search gold backend
+# (--gold-backend gemini). The single-key OpenRouter :online backend and
+# user-supplied golds do NOT need this.
+google-genai>=0.3
