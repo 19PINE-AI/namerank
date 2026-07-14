@@ -44,19 +44,20 @@ for p in pairs:
 rows.sort(key=lambda r: r[3] - r[1])
 print("data sources:", _data.source_report())
 
-fig, (axa, axb) = plt.subplots(1, 2, figsize=(6.9, 4.0),
-                               gridspec_kw={"width_ratios": [1.15, 1.0]})
+fig, (axa, axb) = plt.subplots(1, 2, figsize=(8.0, 4.0),
+                               gridspec_kw={"width_ratios": [1.05, 1.15]})
 
 for i, (cr, cv, ar, av) in enumerate(rows):
     axa.plot([cv, av], [i, i], color="#cfcfcf", linewidth=2.0, zorder=1)
     axa.scatter([cv], [i], s=34, color=RECOG["person"], zorder=3,
-                edgecolor="white", linewidth=0.6)
+                edgecolor="white", linewidth=0.6, clip_on=False)
     axa.scatter([av], [i], s=34, color=RECOG["artifact"], zorder=3,
-                edgecolor="white", linewidth=0.6)
+                edgecolor="white", linewidth=0.6, clip_on=False)
 axa.set_yticks(range(len(rows)))
 axa.set_yticklabels([f"{cr} / {ar}" for cr, cv, ar, av in rows], fontsize=7.0)
 axa.set_ylim(-0.7, len(rows) - 0.3)
 _style.recog_xaxis(axa)
+axa.set_xlim(0, 1.05)          # right margin so dots at 1.0 are not clipped
 axa.set_xlabel("recognition rate")
 axa.set_title("(a) Creator vs. artifact", fontsize=9, loc="left")
 axa.grid(axis="x", color="#ececec", linewidth=0.6, zorder=0)
@@ -86,7 +87,7 @@ for a in art:
 if sc:
     cvs, avs = [x[0] for x in sc], [x[1] for x in sc]
     axb.scatter(cvs, avs, s=18, alpha=0.5, color=RECOG["artifact"],
-                edgecolor="none")
+                edgecolor="none", clip_on=False)
     axb.plot([0, 1], [0, 1], color="#999999", linewidth=1.0, linestyle=(0, (4, 3)))
     above = sum(a > c for c, a, _ in sc)
     axb.annotate(f"method $>$ originator\nin {above} of {len(sc)}\nprominent methods",
@@ -100,7 +101,8 @@ if sc:
                          fontsize=7.6, color=RECOG["accent"], ha="right",
                          arrowprops=dict(arrowstyle="->", color=RECOG["accent"],
                                          lw=0.7))
-axb.set_xlim(0, 1); axb.set_ylim(0, 1)
+axb.set_xlim(0, 1.05); axb.set_ylim(0, 1.05)   # margin so dots at 1.0 are not clipped
+axb.set_xticks([0, 0.2, 0.4, 0.6, 0.8, 1.0]); axb.set_yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
 axb.set_xlabel("originator recognition")
 axb.set_ylabel("method recognition")
 axb.set_title("(b) Prominent named methods vs. their originators", fontsize=8.4,

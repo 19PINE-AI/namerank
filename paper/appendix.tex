@@ -508,7 +508,30 @@ Gemini 3.1 Pro   & $0.57$ {\scriptsize$[.55,.59]$} & $0.81$ & $0.72$ / $0.09$ / 
 \label{app:scoring}
 \label{app:variance}
 
-This appendix collects the evidence that the scoring rule---an LLM recognition judge over a panel---measures the entity rather than the panel, and that no simpler rule would do (Section~\ref{sec:results-validation}).
+This appendix and Appendices~\ref{app:prompt-sensitivity}--\ref{app:confounds} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, summarized threat-by-threat in Table~\ref{tab:threats}. The remainder of this appendix collects the evidence that the scoring rule---an LLM recognition judge over a panel---measures the entity rather than the panel, and that no simpler rule would do.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{The validation battery: each threat to the findings, the check run against it, and the outcome. Full tables and figures in the referenced appendices.}
+\label{tab:threats}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{5.6cm}c}
+\toprule
+\textbf{Threat} & \textbf{Check} & \textbf{Outcome} & \\
+\midrule
+Score reflects the panel, not the entity & Variance decomposition; disjoint-panel re-score of the events & Entity variance ${\approx}6\times$ model variance; a replacement panel reproduces the event ordering & App.~\ref{app:scoring} \\
+Fluent hallucinations inflate scores & Recognition verdict on the full panel & A confident wrong-person biography scores zero; the never-refusing hallucinator cluster earns nothing & App.~\ref{app:scoring} \\
+An embedding score would do instead & Judge vs.\ embedding comparison & Embedding similarity is flat across recognition and credits hallucinations & App.~\ref{app:scoring} \\
+Just ask the model (self-report) & Pairwise self-report on three frontier models & Self-report reads the shared corpus prior, not the model's own state---a prior, not a measurement & App.~\ref{app:selfreport} \\
+An artifact of probe wording & Four-template paraphrase re-probe & Wording explains ${\approx}0\%$ of variance; ladder preserved ($\rho \geq 0.997$), only levels shift & App.~\ref{app:prompt-sensitivity} \\
+An artifact of probe language & Chinese re-probe of $240$ entities & No cohort moves by more than $0.04$; recognition is stored language-independently & App.~\ref{app:cross-lang} \\
+The silent zone is corpus timing, not obscurity & Training-cutoff natural experiment & Matched DiD negative---recent cohorts gain \emph{less} than capability drift; silence is intrinsic & App.~\ref{app:cutoff} \\
+Findings depend on the judge's family & Three-family re-judge & Ranking identical across judges; GPT-5.1 stricter, but the uniform offset moves no relative finding & App.~\ref{app:cross-judge} \\
+Unknown names score above zero & Synthetic-null entities through the full pipeline & Floor ${\approx}0.01$ (people/artifacts), ${\approx}0.06$ (paper titles); floor-adjusting keeps the credential gap & App.~\ref{app:synthetic} \\
+Gold, context leakage, Wikipedia, or web attention drive the results & Ablations; long-window pageview baseline & All rejected; not a Wikipedia flag nor a pageview rank & App.~\ref{app:confounds} \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \subsection{The score measures the entity, not the panel}
 
