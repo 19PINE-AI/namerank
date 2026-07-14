@@ -10,6 +10,7 @@
 % ── Content packages ──────────────────────────────────────────
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{natbib}
@@ -207,7 +208,7 @@ The groups of Figure~\ref{fig:career-arc}---olympiad, LLM-era publication, mid-c
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.92\textwidth]{figures/fig9_career_arc.pdf}
+    \includegraphics[width=0.66\textwidth]{figures/fig9_career_arc.pdf}
     \caption{\textbf{The career arc, end to end.} All credential and award cohorts by career stage on the recognition axis, against the working-researcher baseline (dashed) and the synthetic-null floor (hatched). Early olympiad/fellowship credentials sit at or below the baseline (detailed in Figure~\ref{fig:credential-ladder}); LLM-era publication credentials (best-paper authors, named-method originators) and marquee late-career prizes rise above it. Recognition tracks the named production a credential carries, not the selectivity of the award.}
     \label{fig:career-arc}
 \end{figure}
@@ -323,14 +324,14 @@ Three of these checks carry most of the weight and deserve the numbers the table
 \subsection{Self-report is not a shortcut for measurement}
 \label{sec:results-selfreport}
 
-Could a model simply be asked how well-known an entity is? We put this to a pairwise test: models rank which of two entities they recognize better, and we fit a Bradley--Terry scale from the comparisons (Appendix~\ref{app:selfreport}). In aggregate the self-report scale recovers the panel recognition ordering reasonably well (Spearman $\rho \approx 0.83$; Figure~\ref{fig:selfreport}a)---but the recovery is borrowed, not introspective. Two diagnostics show why. First, each model's self-ranking tracks how \emph{widely} a name is known across the panel ($\rho \approx 0.6$) far better than its own behavioral record on the entities it demonstrably knows ($\rho \approx 0.3$; Figure~\ref{fig:selfreport}b). Second, the three vendors' self-report scales agree with \emph{each other} ($\rho \approx 0.90$) more than any agrees with the ground-truth panel recognition---they are reading a shared corpus prior, not their own weights \citep{kadavath2022language, yin2023selfaware}. In one direction the claims are still trustworthy: opposite a name the model genuinely knows, the fictional side of a trap pair was almost never preferred. Self-report errs by reciting consensus fame, not by fabrication---usable as a prior, insufficient as measurement.
-
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/fig_selfreport.pdf}
     \caption{\textbf{Introspection reads the corpus prior.} \textbf{(a)}~Bradley--Terry self-report scale vs.\ measured panel recognition: the ordering is recovered fairly well in aggregate. \textbf{(b)}~But per model, self-report tracks cross-panel fame far better than the model's own behavioral record---it reads what everyone knows, not its own weights.}
     \label{fig:selfreport}
 \end{figure}
+
+Could a model simply be asked how well-known an entity is? We put this to a pairwise test: models rank which of two entities they recognize better, and we fit a Bradley--Terry scale from the comparisons (Appendix~\ref{app:selfreport}). In aggregate the self-report scale recovers the panel recognition ordering reasonably well (Spearman $\rho \approx 0.83$; Figure~\ref{fig:selfreport}a)---but the recovery is borrowed, not introspective. Two diagnostics show why. First, each model's self-ranking tracks how \emph{widely} a name is known across the panel ($\rho \approx 0.6$) far better than its own behavioral record on the entities it demonstrably knows ($\rho \approx 0.3$; Figure~\ref{fig:selfreport}b). Second, the three vendors' self-report scales agree with \emph{each other} ($\rho \approx 0.90$) more than any agrees with the ground-truth panel recognition---they are reading a shared corpus prior, not their own weights \citep{kadavath2022language, yin2023selfaware}. In one direction the claims are still trustworthy: opposite a name the model genuinely knows, the fictional side of a trap pair was almost never preferred. Self-report errs by reciting consensus fame, not by fabrication---usable as a prior, insufficient as measurement.
 
 \subsection{Recognition is prompt-language-invariant}
 \label{sec:results-language}
@@ -401,7 +402,7 @@ A longitudinal literature finds that early mathematical talent and olympiad meda
 \section{Conclusion}
 \label{sec:conclusion}
 
-NameRank operationalizes the $65\%$ recognition-variance residual that \citet{li2026ikp} characterized but did not measure: a cross-domain, hallucination-resistant recognition rate over a $36$-model panel. Its findings each subvert a default expectation---olympiad credentials no longer propagate names, named tools out-rank their makers, the structure of a researcher's output beats its citation volume, directly-recorded news attention propagates through peak salience rather than persistence, and a model asked to rank its own recognition returns the shared corpus prior rather than its own knowledge state---and each is mechanistically grounded and survives a battery of robustness checks. The broader claim is that human curiosity about people and artifacts is now re-mediated by a few frontier models, and whether a name has propagated into their training corpora is itself a measurable quantity. Three uses follow: a cross-domain impact metric that places a Walmart CTO on the same axis as a Stanford professor and an open-source maintainer; a longitudinal tracker of how public discourse reaches training pipelines; and a normative indicator for anyone who wants their own name to survive the transition. All probes, gold answers, responses, and code are released at \url{https://github.com/19PINE-AI/namerank} (companion site \url{https://01.me/research/namerank}). The instrument measures the post-bibliometric impact channel; what that channel rewards is not the credential you were awarded but the named, indexable artifact you built and shipped.
+NameRank operationalizes the recognition-variance residual that \citet{li2026ikp} characterized but did not measure: a cross-domain, hallucination-resistant recognition rate over a $36$-model panel, whose findings each subvert a default expectation---olympiad credentials no longer propagate names, named tools out-rank their makers, and a model asked to rank its own recognition returns the shared corpus prior rather than its own knowledge. The broader claim is that human curiosity about people and artifacts is now re-mediated by a few frontier models, and whether a name has propagated into their training corpora is itself a measurable quantity---usable as a cross-domain impact metric, a longitudinal tracker of how discourse reaches training pipelines, and a normative indicator for anyone who wants their name to survive the transition. The instrument measures the post-bibliometric impact channel; what that channel rewards is not the credential you were awarded but the named, indexable artifact you built and shipped.
 
 % ══════════════════════════════════════════════════════════════
 \section*{Acknowledgements}
