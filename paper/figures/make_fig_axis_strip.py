@@ -43,47 +43,25 @@ PICKS = [  # (entity_id, display, is_artifact, dataset)
     ("artifact_ustc_hackergame", "USTC Hackergame", True, "awards"),
     ("tuixue_online", "tuixue.online", True, "main"),
     ("artifact_icourse_club", "iCourse.club", True, "awards"),
-    # Diagnostic probe under the same panel + final judge, stored outside the
-    # released cohort dataset (experiments/t6_v2_protocol/inputs/systems_diagnostic.json).
-    ("artifact_pine_ai", "Pine AI", True, "diag"),
     ("alex_wei", "Alex Wei", False, "main"),
     ("andrea_vallone", "Andrea Vallone", False, "main"),
 ]
 
-# Diagnostic named entities measured on the same panel but kept out of the
-# released cohort dataset (so paper totals are unchanged).
-import json
-from collections import defaultdict
-DIAG_FILE = (Path(_data.__file__).resolve().parent.parent.parent
-             / "experiments/t6_v2_protocol/outputs/systems_diagnostic_results.jsonl")
-_diag_votes = defaultdict(list)
-if DIAG_FILE.exists():
-    for line in open(DIAG_FILE):
-        try:
-            r = json.loads(line)
-        except json.JSONDecodeError:
-            continue
-        _diag_votes[r["entity_id"]].append(r["recognized"])
-diag = {k: sum(v) / len(v) for k, v in _diag_votes.items()}
-
 dfs = {ds: _data.per_entity(ds).set_index("entity_id")
-       for ds in {p[3] for p in PICKS} - {"diag"}}
+       for ds in {p[3] for p in PICKS}}
 fl = _data.floors("main")
 print("data sources:", _data.source_report())
 
 rows = []
 for eid, disp, is_art, ds in PICKS:
     val = None
-    if ds == "diag":
-        val = diag.get(eid)
-    else:
-        df = dfs[ds]
-        if eid in df.index:
-            val = float(df.loc[eid].recognition)
-        else:  # fall back to name match
-            m = df[df.name.str.lower() == disp.split(" (")[0].lower()]
-            if len(m):
-                val = float(m.iloc[0].recognition)
+    df = dfs[ds]
+    if eid in df.index:
+        val = float(df.loc[eid].recognition)
+    else:  # fall back to name match
+        m = df[df.name.str.lower() == disp.split(" (")[0].lower()]
+        if len(m):
+            val = float(m.iloc[0].recognition)
     if val is not None:
         rows.append((disp, val, is_art))
 rows.sort(key=lambda r: r[1])

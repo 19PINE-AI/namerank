@@ -89,20 +89,6 @@ def build_injection():
     return ents, gold, tpl, HERE / "outputs/injection_results.jsonl"
 
 
-def build_systems():
-    """Diagnostic named-entity probes (e.g. Pine AI): facts-based golds carried
-    inline, English template. Kept in a separate output file so the paper's
-    headline verdict/entity totals stay untouched; only the illustrative
-    axis-strip figure reads these."""
-    src = json.loads((HERE / "inputs/systems_diagnostic.json").read_text())
-    ents = [{"id": e["id"], "name": e["name"], "context": e["context"],
-             "cohort": e["cohort"], "gold_v2": e.get("gold_v2", True)}
-            for e in src]
-    gold = {e["id"]: e["gold"] for e in src}
-    tpl = (REPO / "data/inputs/probe_template_en.txt").read_text()
-    return ents, gold, tpl, HERE / "outputs/systems_diagnostic_results.jsonl"
-
-
 def judge(client, name, ctx, gold, resp):
     for a in range(4):
         try:
@@ -123,14 +109,12 @@ def judge(client, name, ctx, gold, resp):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--job", required=True,
-                    choices=["zh", "injection", "systems"])
+    ap.add_argument("--job", required=True, choices=["zh", "injection"])
     ap.add_argument("--parallel", type=int, default=10)
     args = ap.parse_args()
 
-    builder = {"zh": build_zh, "injection": build_injection,
-               "systems": build_systems}[args.job]
-    ents, gold, probe_tpl, out_path = builder()
+    ents, gold, probe_tpl, out_path = (build_zh() if args.job == "zh"
+                                       else build_injection())
     models = [m for m in json.loads(
         (REPO / "data/inputs/model_set.json").read_text()) if m["id"] not in DEAD]
     models += json.loads((REPO / "experiments/t4_1_news_events/inputs/"
