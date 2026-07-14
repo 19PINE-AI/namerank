@@ -1,0 +1,1 @@
+{"variance":{"entity":56.0,"cohort":37.4,"model":9.1},"crossJudge":{"gemini":0.57,"claude":0.58,"gpt":0.42,"kappaGeminiClaude":0.89},"paraphrase":{"templateVarPct":0,"rhoLadder":0.997},"floors":{"people":0.007,"papers":0.056},"confounds":{"wikipediaR2":0.1,"hindexR2":0.222}}

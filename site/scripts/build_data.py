@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """Build compact JSON data assets for the NameRank explainer site.
 
-Reads from the repo's data/ and experiments/ directories and writes:
+Every output reflects the paper's RECOGNITION-VERDICT metric (binary
+recognized/not, 36-model panel), read through the paper's own figure data
+provider (paper/figures/_data.py) and anchored to the authoritative scalar
+table (paper/figures/computed_numbers.json). Table-only numbers are lifted
+verbatim from the recognition-vintage LaTeX tables in paper/appendix.tex.
+
+Writes:
   site/src/data/*.json      -- small assets imported at build time
   site/public/data/*.json   -- larger assets fetched lazily at runtime
 
@@ -9,9 +15,7 @@ Run from the repo root:  python3 site/scripts/build_data.py
 """
 
 import csv
-import gzip
 import json
-import math
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -21,7 +25,10 @@ SRC_DATA = ROOT / "site" / "src" / "data"
 PUB_DATA = ROOT / "site" / "public" / "data"
 
 sys.path.insert(0, str(ROOT / "paper" / "figures"))
+import _data  # noqa: E402  (recognition data provider)
 from _style import COHORT_NAMES, CREDENTIAL_COHORTS  # noqa: E402
+
+CN = json.load(open(ROOT / "paper" / "figures" / "computed_numbers.json"))
 
 
 def jdump(path: Path, obj) -> None:
@@ -32,10 +39,12 @@ def jdump(path: Path, obj) -> None:
 
 
 def rd(x, nd=3):
+    if x is None:
+        return None
     return round(float(x), nd)
 
 
-# ---------------------------------------------------------------- cohorts
+# ---------------------------------------------------------------- cohort helper
 ARTIFACT_COHORTS = {
     "programming_language", "database_or_data_system", "benchmark", "ai_hardware",
     "dataset", "research_paper", "conference", "mid_tier_product", "industry_product",
@@ -53,107 +62,444 @@ def cohort_category(slug: str) -> str:
     return "person"
 
 
-def build_cohorts():
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/cohort_summary.csv")))
+# ---------------------------------------------------------------- shared recognition state
+def load_state():
+    """Recognition verdicts + refusal flags for the main dataset."""
+    ents = _data.entities("main")
+    ent_cohort = {eid: e.get("cohort", "?") for eid, e in ents.items()}
+
+    V = _data._verdicts("main")  # {(entity_id, model_id): 0/1 recognized}
+    print(f"    recognition source: {_data.source_report()}")
+
+    # refusal flags come from the raw records (rationale == 'refusal')
+    ref_model = defaultdict(list)
+    ref_entity = defaultdict(list)
+    ref_cohort = defaultdict(list)
+    with open(_data.FINAL) as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if r.get("dataset") != "main":
+                continue
+            isref = 1 if r.get("rationale") == "refusal" else 0
+            m, e = r["model_id"], r["entity_id"]
+            ref_model[m].append(isref)
+            ref_entity[e].append(isref)
+            ref_cohort[ent_cohort.get(e, "?")].append(isref)
+
+    # model order: recognition mean desc
+    recog_by_model = defaultdict(list)
+    for (_e, m), rec in V.items():
+        recog_by_model[m].append(rec)
+    model_order = sorted(recog_by_model, key=lambda m: -sum(recog_by_model[m]) / len(recog_by_model[m]))
+
+    def mean(xs):
+        return sum(xs) / len(xs) if xs else None
+
+    return {
+        "ents": ents,
+        "V": V,
+        "model_order": model_order,
+        "recog_by_model": recog_by_model,
+        "ref_model": {m: mean(v) for m, v in ref_model.items()},
+        "ref_entity": {e: mean(v) for e, v in ref_entity.items()},
+        "ref_cohort": {c: mean(v) for c, v in ref_cohort.items()},
+        "per_entity": _data.per_entity("main"),
+    }
+
+
+# ================================================================ BUNDLED
+def build_stats(st):
+    self_report = json.load(open(ROOT / "experiments/t5_4_self_report/outputs/summary.json"))
+    stats = {
+        "entities": 4685,
+        "models": 36,
+        "cohorts": 54,
+        "baseline": rd(CN["main.baseline"], 4),
+        "faculty": rd(CN["main.faculty"], 4),
+        "floors": {"people": rd(CN["floor.people"], 4), "papers": rd(CN["floor.papers"], 4)},
+        "var": {"entity": CN["var.entity"], "cohort": CN["var.cohort"], "model": CN["var.model"]},
+        "hindex": {
+            "r2H": CN["hindex.r2_h"], "r2Cites": CN["hindex.r2_cites"],
+            "r2Joint": CN["hindex.r2_joint"], "n": CN["hindex.n"],
+        },
+        "injectionLift": CN["injection.mean_lift"],  # -0.013 (recognition; near-zero)
+        "selfreport": {
+            "rhoAggregate": CN["selfreport.rho_aggregate"],   # 0.83
+            "rhoInterModel": CN["selfreport.rho_inter_model"],  # 0.9
+            "rhoPanelFame": CN["selfreport.rho_panel_fame"],   # 0.57
+            # "borrowed, not introspective": self-rank ~ own scores among known
+            "rhoOwnKnown": rd(self_report["gpt-5.5-think"]["bt"]["rho_own_known"], 4),  # 0.043
+            "rhoOwnAll": CN["selfreport.rho_own_behavior"],    # 0.3 (all entities)
+        },
+        "probeTemplate": open(ROOT / "data/inputs/probe_template_en.txt").read().strip(),
+    }
+    jdump(SRC_DATA / "stats.json", stats)
+
+
+def build_cohorts(st):
+    ct = _data.cohort_table("main", min_n=10)  # cohort, recognition, ci95, n_ent
+    pe = st["per_entity"]
+    real = pe[~pe.synthetic & pe.gold_v2 & (pe.n_models >= 30)].copy()
+    real["any"] = real.recognition > 0
+    recog_any = real.groupby("cohort")["any"].mean().to_dict()
     out = []
-    for r in rows:
+    for r in ct.to_dict("records"):
         slug = r["cohort"]
         out.append({
             "slug": slug,
             "name": COHORT_NAMES.get(slug, slug.replace("_", " ")),
             "category": cohort_category(slug),
-            "n": int(r["n"]),
-            "mean": rd(r["mean"]),
-            "median": rd(r["median"]),
-            "sd": rd(r["sd"]),
-            "p10": rd(r["p10"]),
-            "p90": rd(r["p90"]),
-            "recognized": rd(r["frac_recognized"]),
-            "refusal": rd(r["refusal_rate"]),
+            "n": int(r["n_ent"]),
+            "mean": rd(r["recognition"]),
+            "ci95": rd(r["ci95"]),
+            "recognized": rd(recog_any.get(slug, 0.0)),
+            "refusal": rd(st["ref_cohort"].get(slug)),
         })
     out.sort(key=lambda c: -c["mean"])
     jdump(SRC_DATA / "cohorts.json", out)
-    return {c["slug"]: c for c in out}
 
 
-# ---------------------------------------------------------------- models
-def build_models():
-    meta = {m["id"]: m for m in json.load(open(ROOT / "data/inputs/model_set.json"))}
-    cutoffs = {m["id"]: m for m in json.load(open(ROOT / "data/analysis/model_cutoffs.json"))}
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/per_model_summary.csv")))
+VENDOR_PREFIX = [
+    ("gpt-oss", "openai"), ("gpt", "openai"), ("claude", "anthropic"),
+    ("gemini", "google"), ("gemma", "google"), ("grok", "xai"),
+    ("deepseek", "deepseek"), ("glm", "zhipu"), ("qwen", "alibaba"),
+    ("kimi", "moonshot"), ("minimax", "minimax"), ("step", "stepfun"),
+    ("nemotron", "nvidia"), ("llama", "meta"), ("phi", "microsoft"),
+    ("mistral", "mistral"),
+]
+
+
+def derive_vendor(mid: str) -> str:
+    for pre, vend in VENDOR_PREFIX:
+        if mid.startswith(pre):
+            return vend
+    return mid.split("-")[0]
+
+
+def build_models(st):
+    meta = {}
+    for f in ("data/inputs/model_set.json",
+              "experiments/t4_1_news_events/inputs/model_set_replacements.json"):
+        for m in json.load(open(ROOT / f)):
+            meta[m["id"]] = m
+    cutoffs = {m["id"]: m.get("training_cutoff")
+               for m in json.load(open(ROOT / "data/analysis/model_cutoffs.json"))}
     out = []
-    for r in rows:
-        mid = r["model_id"]
+    for mid in st["model_order"]:
+        recs = st["recog_by_model"][mid]
+        m = meta.get(mid, {})
+        vendor = m.get("vendor") or derive_vendor(mid)
         out.append({
             "id": mid,
-            "vendor": r["vendor"],
-            "family": r["family"],
-            "lab": meta.get(mid, {}).get("lab", r["vendor"].title()),
-            "thinking": r["thinking"] in ("1", "True", "true"),
-            "mean": rd(r["mean_score"], 4),
-            "refusal": rd(r["refusal_rate"], 4),
-            "meanNonRefusal": rd(r["mean_score_non_refusal"], 4),
-            "cutoff": cutoffs.get(mid, {}).get("training_cutoff"),
+            "mean": rd(sum(recs) / len(recs), 4),
+            "refusal": rd(st["ref_model"].get(mid), 4),
+            "vendor": vendor,
+            "lab": m.get("lab") or vendor.title(),
+            "thinking": bool(m.get("thinking", "think" in mid)),
+            "cutoff": cutoffs.get(mid),
         })
     out.sort(key=lambda m: -m["mean"])
+    n = len(out)
+    if n != 36:
+        print(f"    WARNING: panel has {n} models, expected 36")
     jdump(SRC_DATA / "models.json", out)
-    return [m["id"] for m in out]
 
 
-# ---------------------------------------------------------------- entities
-def build_entities():
-    inputs = {e["id"]: e for e in json.load(open(ROOT / "data/inputs/pilot_entities.json"))}
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/namerank_per_entity.csv")))
-    cols = ["id", "name", "cohort", "country", "year", "nr", "sd", "refusal"]
-    data = []
-    for r in rows:
-        e = inputs.get(r["entity_id"], {})
-        data.append([
-            r["entity_id"],
-            r["entity_name"],
-            r["cohort"],
+HERO_IDS = ["sam_altman", "andrej_karpathy", "tianshou", "jiayi_weng",
+            "bojie_li", "imo_dongyi_wei"]
+
+
+def build_hero(st):
+    ents, V, model_order = st["ents"], st["V"], st["model_order"]
+    pe = st["per_entity"].set_index("entity_id")
+    out = []
+    for eid in HERO_IDS:
+        if eid not in pe.index or not any(e == eid for (e, _m) in V):
+            print(f"    WARNING: hero entity {eid} missing, skipped")
+            continue
+        row = pe.loc[eid]
+        e = ents.get(eid, {})
+        out.append({
+            "id": eid,
+            "name": e.get("name", eid),
+            "nr": rd(row.recognition),
+            "cohort": e.get("cohort", "?"),
+            "context": e.get("context", ""),
+            "scores": [V.get((eid, m)) for m in model_order],
+        })
+    jdump(SRC_DATA / "hero.json", out)
+
+
+def build_ladder(st):
+    ct = _data.cohort_table("main", min_n=10).set_index("cohort")
+    rows = []
+    for slug in CREDENTIAL_COHORTS:
+        if slug not in ct.index:
+            print(f"    WARNING: credential cohort {slug} below min_n, skipped")
+            continue
+        r = ct.loc[slug]
+        rows.append({
+            "credential": COHORT_NAMES.get(slug, slug.replace("_", " ")),
+            "slug": slug,
+            "mean": rd(r.recognition),
+            "n": int(r.n_ent),
+        })
+    rows.sort(key=lambda x: -x["mean"])
+    out = {
+        "rows": rows,
+        "baseline": {"label": "Working researchers (OpenAlex long tail)",
+                     "mean": rd(CN["main.baseline"], 4)},
+        "floor": rd(CN["floor.people"], 4),
+    }
+    jdump(SRC_DATA / "ladder.json", out)
+
+
+AWARD_GROUPS = {
+    "early": [("imo", "main.imo", "IMO gold"), ("ioi", "main.ioi", "IOI gold"),
+              ("noi", "main.noi", "NOI China gold"), ("cmo", "main.cmo", "CMO China gold"),
+              ("cpho", "main.cpho", "CPhO first prize"), ("rhodes", "main.rhodes", "Rhodes Scholar"),
+              ("msra", "main.msra", "MSRA PhD Fellowship"), ("putnam", "main.putnam", "Putnam top-25"),
+              ("icpc", "main.icpc", "ICPC World Finals gold")],
+    "llm": [("llm_foundational", "llm.llm_foundational", "Foundational-paper authors"),
+            ("llm_bestpaper", "llm.llm_bestpaper", "Best-paper authors"),
+            ("llm_method", "llm.llm_method", "Named-method originators")],
+    "mid": [("godel", "awards.godel", "Gödel Prize"), ("acmfellow", "awards.acmfellow", "ACM Fellow"),
+            ("macarthur", "awards.macarthur", "MacArthur Fellow"), ("sloan", "awards.sloan", "Sloan Fellow"),
+            ("acmprize", "awards.acmprize", "ACM Prize in Computing")],
+    "marquee": [("fields", "awards.fields", "Fields Medal"), ("turing", "awards.turing", "Turing Award"),
+                ("nobel", "awards.nobel", "Nobel Prize (Physics)")],
+}
+
+
+def build_awards():
+    baseline = CN["main.baseline"]  # 0.396
+    out = []
+    for group, entries in AWARD_GROUPS.items():
+        for key, cnkey, label in entries:
+            mean = CN[cnkey]
+            out.append({
+                "key": key, "label": label, "group": group,
+                "mean": rd(mean), "vsBaseline": rd(mean - baseline),
+            })
+    jdump(SRC_DATA / "awards.json",
+          {"baseline": rd(baseline, 4), "floor": rd(CN["floor.people"], 4), "entries": out})
+
+
+# tab:inversion (recognition vintage) + tab:injection (recognition delta B-A)
+# creator, NRc, artifact, NRa, delta(a-c), C->A, A->C
+INVERSION = [
+    ("Jiayi Weng", 0.22, "Tianshou", 0.78, 0.56, 0.25, 0.00),
+    ("Aman Sanger", 0.58, "Cursor", 0.81, 0.23, 1.00, 0.00),
+    ("Tri Dao", 0.72, "FlashAttention", 0.94, 0.22, 0.74, 0.54),
+    ("Harrison Chase", 0.75, "LangChain", 0.94, 0.19, 1.00, 0.22),
+    ("Simon Willison", 0.83, "Datasette", 1.00, 0.17, 0.54, 0.89),
+    ("Aravind Srinivas", 0.75, "Perplexity", 0.89, 0.14, 1.00, 0.33),
+    ("Dario Amodei", 0.92, "Anthropic", 1.00, 0.08, 1.00, 0.41),
+    ("Demis Hassabis", 1.00, "Google DeepMind", 1.00, 0.00, 1.00, 0.62),
+    ("Andrej Karpathy", 0.86, "nanoGPT", 0.78, -0.08, 0.05, 0.76),
+    ("Mira Murati", 0.78, "Thinking Machines Lab", 0.17, -0.61, 0.97, 1.00),
+]
+INJECTION = {
+    "Jiayi Weng": 0.11, "Simon Willison": 0.08, "Tri Dao": 0.06, "Aman Sanger": 0.03,
+    "Harrison Chase": 0.00, "Demis Hassabis": 0.00, "Andrej Karpathy": -0.03,
+    "Mira Murati": -0.08, "Aravind Srinivas": -0.08, "Dario Amodei": -0.11,
+}
+
+
+def build_inversion():
+    out = [{
+        "creator": c, "nrCreator": nc, "artifact": a, "nrArtifact": na,
+        "delta": d, "cToA": ca, "aToC": ac, "injectionDelta": INJECTION.get(c),
+    } for c, nc, a, na, d, ca, ac in INVERSION]
+    jdump(SRC_DATA / "inversion.json", out)
+
+
+def build_noi():
+    s = json.load(open(ROOT / "experiments/t5_3_noi_medal_tiers/outputs/tier_openbook_summary.json"))
+    tiers = {}
+    for t, d in s["tiers"].items():
+        tiers[t] = {
+            "n": d["n"], "mean": rd(d["mean"]), "median": rd(d["median"]),
+            "silentZero": d["silent_zero"], "recognizedAny": d["recognized_any"],
+        }
+    scatter = []
+    csv_path = ROOT / "experiments/t5_3_noi_medal_tiers/outputs/tier_openbook_per_entity.csv"
+    if csv_path.exists():
+        for r in csv.DictReader(open(csv_path)):
+            scatter.append({"name": r["name"], "tier": r["tier"],
+                            "nr": rd(float(r["recognition"]))})
+    out = {
+        "floor": rd(s["floor_synthetic_noi"], 4),
+        "tiers": tiers,
+        "kruskalP": s["kruskal_p"],
+        "cliffGoldSilver": rd(s["cliff_gold_silver"]),
+        "cliffSilverBronze": rd(s["cliff_silver_bronze"]),
+        "mwuSilverBronzeP": rd(s["mwu_silver_bronze_p"]),
+        "scatter": scatter,
+    }
+    jdump(SRC_DATA / "noi.json", out)
+
+
+def build_bibliometrics():
+    out = {
+        "r2": {"h": CN["hindex.r2_h"], "cites": CN["hindex.r2_cites"], "joint": CN["hindex.r2_joint"]},
+        "n": CN["hindex.n"],
+        # tab:h-index-decile (recognition vintage)
+        "deciles": [
+            {"decile": 1, "h": 4, "mean": 0.18},
+            {"decile": 4, "h": 18, "mean": 0.38},
+            {"decile": 7, "h": 31, "mean": 0.46},
+            {"decile": 10, "h": 61, "mean": 0.60},
+        ],
+    }
+    jdump(SRC_DATA / "bibliometrics.json", out)
+
+
+def build_geography():
+    inst = {
+        "mit": {"raw": CN["univ.fac_mit"], "matched": CN["univ.win_mit"]},
+        "berkeley": {"raw": CN["univ.fac_berkeley"], "matched": CN["univ.win_berkeley"]},
+        "ucsd": {"raw": CN["univ.fac_ucsd"], "matched": CN["univ.win_ucsd"]},
+        "irvine": {"raw": CN["univ.fac_irvine"], "matched": CN["univ.win_irvine"]},
+    }
+    countries = [
+        {"country": "USA", "n": CN["country.usa_n"], "mean": CN["country.usa"]},
+        {"country": "UK", "n": 10, "mean": 0.64},          # tab:cs-country
+        {"country": "Hong Kong", "n": 8, "mean": 0.59},    # tab:cs-country
+        {"country": "Canada", "n": 8, "mean": 0.58},       # tab:cs-country
+        {"country": "China", "n": CN["country.china_n"], "mean": CN["country.china"]},
+        {"country": "India", "n": CN["country.india_n"], "mean": CN["country.india"]},
+    ]
+    countries.sort(key=lambda c: -c["mean"])
+    jdump(SRC_DATA / "geography.json", {"institutions": inst, "countries": countries})
+
+
+def build_events():
+    a = json.load(open(ROOT / "experiments/t4_1_news_events/outputs/analysis.json"))
+    deciles = [{
+        "decile": d["decile"], "n": d["n"], "geomeanViews": d["geomean_views"],
+        "meanNr": rd(d["mean_nr"]), "refusal": rd(d["refusal"]),
+    } for d in a["deciles"]]
+    out = {
+        "n": a["n"],
+        "deciles": deciles,
+        "r2": {"total": rd(a["r2_total_views"]), "peak": rd(a["r2_peak_views"]),
+               "duration": rd(a["r2_eff_duration"])},
+        "stdCoef": {"peak": rd(a["peak_vs_duration"]["beta_peak"]),
+                    "duration": rd(a["peak_vs_duration"]["beta_dur"])},
+        "recurringAdjDelta": rd(a["recurring"]["adj_delta"]),
+    }
+    jdump(SRC_DATA / "events.json", out)
+
+
+def build_selfreport():
+    s = json.load(open(ROOT / "experiments/t5_4_self_report/outputs/summary.json"))
+    per = []
+    for mid, d in s.items():
+        if mid.startswith("_"):
+            continue
+        bt, binr, trap = d["bt"], d["binary"], d["trap"]
+        per.append({
+            "model": mid,
+            "rhoPanel": rd(bt["rho_panel_known"]),
+            "rhoOwnKnown": rd(bt["rho_own_known"], 4),
+            "pickedKnown": rd(binr["picked_known"]),
+            "pickedUnknown": rd(binr["picked_unknown"]),
+            "neither": rd(binr["neither"]),
+            "trapFalse": rd(trap["false_recognition"], 4),
+            "reversal": rd(d["position_consistency"]),
+        })
+    out = {
+        "models": per,
+        "aggregate": {"rhoAggregate": CN["selfreport.rho_aggregate"],
+                      "rhoInterModel": CN["selfreport.rho_inter_model"]},
+    }
+    jdump(SRC_DATA / "selfreport.json", out)
+
+
+# tab:cross-lang (recognition vintage): cohort, n, en, zh, delta
+CROSSLANG = [
+    ("MSRA PhD Fellowship", 30, 0.166, 0.183, 0.018),
+    ("DeepSeek-V3 authors", 69, 0.069, 0.075, 0.006),
+    ("CMO China gold", 30, 0.029, 0.028, -0.001),
+    ("NOI China gold", 29, 0.086, 0.084, -0.002),
+    ("CPhO China first prize", 30, 0.034, 0.029, -0.006),
+    ("Diagnostic reference set", 37, 0.627, 0.615, -0.012),
+    ("Writers (control)", 5, 0.906, 0.872, -0.033),
+    ("Filmmakers (control)", 5, 0.994, 0.961, -0.033),
+    ("Politicians (control)", 5, 0.900, 0.861, -0.039),
+]
+
+
+def build_crosslang():
+    rows = [{"cohort": c, "n": n, "en": en, "zh": zh, "delta": d}
+            for c, n, en, zh, d in CROSSLANG]
+    out = {"rows": rows, "summary": {"maxAbsDelta": 0.04}}
+    jdump(SRC_DATA / "crosslang.json", out)
+
+
+def build_robustness():
+    out = {
+        "variance": {"entity": CN["var.entity"], "cohort": CN["var.cohort"], "model": CN["var.model"]},
+        # tab:cross-judge-bias overall row + kappa (Gemini/Claude)
+        "crossJudge": {"gemini": 0.57, "claude": 0.58, "gpt": 0.42, "kappaGeminiClaude": 0.89},
+        "paraphrase": {"templateVarPct": 0, "rhoLadder": 0.997},
+        "floors": {"people": rd(CN["floor.people"], 4), "papers": rd(CN["floor.papers"], 4)},
+        "confounds": {"wikipediaR2": 0.10, "hindexR2": CN["hindex.r2_h"]},
+    }
+    jdump(SRC_DATA / "robustness.json", out)
+
+
+# ================================================================ FETCHED
+def build_entities(st):
+    ents = st["ents"]
+    pe = st["per_entity"]
+    real = pe[~pe.synthetic]
+    cols = ["id", "name", "cohort", "country", "year", "nr", "refusal"]
+    rows = []
+    for r in real.to_dict("records"):
+        eid = r["entity_id"]
+        e = ents.get(eid, {})
+        rows.append([
+            eid, r["name"], r["cohort"],
             e.get("credential_country") or None,
             e.get("credential_year") or None,
-            rd(r["namerank"]),
-            rd(r["namerank_sd"]),
-            rd(r["refusal_rate"]),
+            rd(r["recognition"]),
+            rd(st["ref_entity"].get(eid)),
         ])
-    data.sort(key=lambda x: -x[5])
-    jdump(PUB_DATA / "entities.json", {"cols": cols, "rows": data})
-    return inputs
+    rows.sort(key=lambda x: -(x[5] or 0))
+    jdump(PUB_DATA / "entities.json", {"cols": cols, "rows": rows})
+    return len(rows)
 
 
-# ------------------------------------------------------- per-entity matrix
-def build_matrix(model_order):
-    m = json.load(open(ROOT / "data/analysis/namerank_matrix.json"))
-    scores = {}
-    for eid, per_model in m.items():
-        scores[eid] = [
-            (rd(per_model[mid]) if per_model.get(mid) is not None else None)
-            for mid in model_order
-        ]
+def build_matrix(st):
+    V, model_order = st["V"], st["model_order"]
+    ents = set(e for (e, _m) in V)
+    scores = {eid: [V.get((eid, m)) for m in model_order] for eid in ents}
     jdump(PUB_DATA / "matrix.json", {"models": model_order, "scores": scores})
 
 
-# ---------------------------------------------------------------- gold shards
-def build_gold(inputs):
+def build_gold(st):
     gold = json.load(open(ROOT / "data/inputs/gold_answers.json"))
+    ents = st["ents"]
     by_cohort = defaultdict(dict)
     for eid, text in gold.items():
-        cohort = inputs.get(eid, {}).get("cohort", "unknown")
+        cohort = ents.get(eid, {}).get("cohort", "unknown")
         by_cohort[cohort][eid] = text
     for cohort, d in by_cohort.items():
         jdump(PUB_DATA / "gold" / f"{cohort}.json", d)
     return gold
 
 
-# ---------------------------------------------------------------- judged cases
-def build_cases(inputs, gold):
+def build_cases(st, gold):
     recs = json.load(open(ROOT / "experiments/t2_10_cross_judge/sample_records.json"))
     claude = json.load(open(ROOT / "experiments/t2_10_cross_judge/claude_judge.json"))
     gpt = json.load(open(ROOT / "experiments/t2_10_cross_judge/gpt_judge.json"))
-    nr = {r["entity_id"]: rd(r["namerank"]) for r in
-          csv.DictReader(open(ROOT / "data/analysis/namerank_per_entity.csv"))}
+    ents = st["ents"]
+    nr = dict(zip(st["per_entity"].entity_id, st["per_entity"].recognition))
     out = []
     for i, r in enumerate(recs):
         eid = r["entity_id"]
@@ -163,8 +509,8 @@ def build_cases(inputs, gold):
             "name": r["entity_name"],
             "model": r["model_id"],
             "cohort": r["cohort"],
-            "context": inputs.get(eid, {}).get("context", ""),
-            "nr": nr.get(eid),
+            "context": ents.get(eid, {}).get("context", ""),
+            "nr": rd(nr.get(eid)),
             "refusal": bool(r["is_refusal"]),
             "response": r["response"],
             "gold": gold.get(eid, ""),
@@ -191,30 +537,24 @@ def build_cases(inputs, gold):
     return out
 
 
-# ------------------------------------------------- curated explainer cases
 def build_explainer_cases(cases):
     """Pick four archetypes: full recognition, partial, hallucination, refusal."""
     def key(c):
         return c["judges"]["gemini"]
 
     chosen = {}
-    # full recognition: famous entity, high cov & acc
     full = [c for c in cases if key(c)["score"] >= 0.85 and not c["refusal"]
             and c["cohort"] == "reference_pilot" and len(c["response"]) < 1400]
     if full:
         chosen["full"] = max(full, key=lambda c: key(c)["score"])
-    # partial: middling coverage, perfect accuracy
     part = [c for c in cases if 0.3 <= key(c)["cov"] <= 0.55 and key(c)["acc"] >= 0.9
             and not c["refusal"] and len(c["response"]) < 1200]
     if part:
         chosen["partial"] = part[0]
-    # hallucination: fluent but wrong -- coverage credited, accuracy tanked
     hall = [c for c in cases if key(c)["cov"] >= 0.3 and key(c)["acc"] <= 0.45
             and not c["refusal"] and len(c["response"]) < 1400]
     if hall:
         chosen["hallucination"] = max(hall, key=lambda c: key(c)["cov"] - key(c)["acc"])
-    # refusal: prefer a literal "unknown" from a frontier model about a
-    # real-but-unpropagated researcher (the "silent, not misleading" story)
     ref = [c for c in cases if c["refusal"] and 0 < len(c["response"]) < 400]
     ref.sort(key=lambda c: (c["name"] != "Jiayi Weng", c["model"] != "gpt-5.4"))
     if ref:
@@ -225,179 +565,31 @@ def build_explainer_cases(cases):
               f"(cov {key(v)['cov']}, acc {key(v)['acc']})")
 
 
-# ---------------------------------------------------------------- findings
-def build_ladder(cohorts):
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/credential_ladder.csv")))
-    ladder = [{
-        "credential": r["credential"],
-        "rung": r["rung"],
-        "prestige": r["prestige"],
-        "n": int(r["n"]),
-        "mean": rd(r["mean"]),
-        "sd": rd(r["sd"]),
-        "years": f"{r['min_year']}-{r['max_year']}",
-    } for r in rows]
-    baselines = {
-        "longTail": {"label": "Long-tail working researchers (OpenAlex)",
-                     "mean": cohorts["long_tail_researcher_openalex"]["mean"],
-                     "n": cohorts["long_tail_researcher_openalex"]["n"]},
-        "csFaculty": {"label": "CS faculty",
-                      "mean": cohorts["cs_faculty"]["mean"],
-                      "n": cohorts["cs_faculty"]["n"]},
-    }
-    jdump(SRC_DATA / "ladder.json", {"rows": ladder, "baselines": baselines})
-
-
-# Canonical inversion table from the paper (Table: tab:inversion).
-INVERSION = [
-    ["Simon Willison", 0.594, "Datasette", 0.899, 0.54, 0.89],
-    ["Dario Amodei", 0.584, "Anthropic", 0.811, 1.00, 0.41],
-    ["Andrej Karpathy", 0.614, "nanoGPT", 0.707, 0.05, 0.76],
-    ["Jiayi Weng", 0.331, "Tianshou", 0.420, 0.25, 0.00],
-    ["Tri Dao", 0.532, "FlashAttention", 0.607, 0.74, 0.54],
-    ["Lilian Weng", 0.590, "lilianweng.github.io", 0.614, 0.97, 0.97],
-    ["Harrison Chase", 0.479, "LangChain", 0.502, 1.00, 0.22],
-    ["Aman Sanger", 0.289, "Cursor", 0.305, 1.00, 0.00],
-    ["Demis Hassabis", 0.664, "Google DeepMind", 0.490, 1.00, 0.62],
-    ["Mira Murati", 0.442, "Thinking Machines Lab", 0.222, 0.97, 1.00],
-    ["Aravind Srinivas", 0.663, "Perplexity", 0.193, 1.00, 0.33],
-]
-
-
-def build_inversion():
-    out = [{
-        "creator": c, "nrCreator": nc, "artifact": a, "nrArtifact": na,
-        "delta": rd(na - nc), "cToA": ca, "aToC": ac,
-    } for c, nc, a, na, ca, ac in INVERSION]
-    jdump(SRC_DATA / "inversion.json", out)
-
-
-def build_country():
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/cs_faculty_by_country.csv")))
-    out = []
-    for r in rows:
-        n = int(r["n"])
-        mean, sd = float(r["mean"]), float(r["sd"])
-        ci = 1.96 * sd / math.sqrt(n) if n > 1 else 0.0
-        out.append({
-            "country": r["country"], "n": n, "mean": rd(mean), "sd": rd(sd),
-            "lo": rd(mean - ci), "hi": rd(mean + ci), "firm": n >= 10,
-        })
-    out.sort(key=lambda x: -x["mean"])
-    jdump(SRC_DATA / "country.json", out)
-
-
-def build_crosslang():
-    rows = list(csv.DictReader(open(ROOT / "data/analysis/cross_language_per_entity.csv")))
-    en = [float(r["en_all"]) for r in rows]
-    zh = [float(r["zh_all"]) for r in rows]
-    deltas = sorted(float(r["delta_zh_minus_en"]) for r in rows)
-    n = len(rows)
-    hist_edges = [i / 20 - 0.5 for i in range(0, 21)]  # -0.5 .. 0.5
-    hist = [0] * (len(hist_edges) - 1)
-    for d in deltas:
-        idx = min(max(int((d + 0.5) * 20), 0), len(hist) - 1)
-        hist[idx] += 1
-    out = {
-        "n": n,
-        "enMean": rd(sum(en) / n),
-        "zhMean": rd(sum(zh) / n),
-        "deltaMean": rd(sum(deltas) / n),
-        "deltaMedian": rd(deltas[n // 2]),
-        "fracZhLower": rd(sum(1 for d in deltas if d < 0) / n),
-        "hist": {"edges": hist_edges, "counts": hist},
-    }
-    jdump(SRC_DATA / "crosslang.json", out)
-
-
-def build_heatmap(model_order, cohorts):
-    """Cohort x model mean score from the raw records."""
-    sums = defaultdict(float)
-    counts = defaultdict(int)
-    inputs = {e["id"]: e["cohort"] for e in json.load(open(ROOT / "data/inputs/pilot_entities.json"))}
-    with gzip.open(ROOT / "data/raw/pilot_summary_en.csv.gz", "rt") as f:
-        for r in csv.DictReader(f):
-            cohort = inputs.get(r["entity_id"])
-            if cohort is None:
-                continue
-            k = (cohort, r["model_id"])
-            sums[k] += float(r["score"])
-            counts[k] += 1
-    cohort_order = [c for c in cohorts]  # already sorted by mean desc
-    grid = [
-        [rd(sums[(c, m)] / counts[(c, m)]) if counts[(c, m)] else None
-         for m in model_order]
-        for c in cohort_order
-    ]
-    jdump(SRC_DATA / "heatmap.json",
-          {"cohorts": cohort_order, "models": model_order, "grid": grid})
-
-
-HERO_IDS = ["sam_altman", "andrej_karpathy", "tianshou", "jiayi_weng",
-            "bojie_li", "imo_dongyi_wei"]
-
-
-def build_hero(model_order):
-    m = json.load(open(ROOT / "data/analysis/namerank_matrix.json"))
-    nr = {r["entity_id"]: (r["entity_name"], rd(r["namerank"]), r["cohort"])
-          for r in csv.DictReader(open(ROOT / "data/analysis/namerank_per_entity.csv"))}
-    inputs = {e["id"]: e for e in json.load(open(ROOT / "data/inputs/pilot_entities.json"))}
-    out = []
-    for eid in HERO_IDS:
-        if eid not in m or eid not in nr:
-            print(f"    WARNING: hero entity {eid} missing, skipped")
-            continue
-        name, nrv, cohort = nr[eid]
-        out.append({
-            "id": eid, "name": name, "nr": nrv, "cohort": cohort,
-            "context": inputs.get(eid, {}).get("context", ""),
-            "scores": [(rd(m[eid][mid]) if m[eid].get(mid) is not None else None)
-                       for mid in model_order],
-        })
-    jdump(SRC_DATA / "hero_entities.json", out)
-
-
-def build_stats(cohorts):
-    stats = {
-        "entities": 5719,
-        "models": 37,
-        "cohorts": 54,
-        "records": 211603,
-        "zhRecords": 8880,
-        "zhEntities": 240,
-        "inversionPairs": 11,
-        "inversionCount": 8,
-        "treadmillAtOrBelow": 7,
-        "treadmillTotal": 9,
-        "cvR2H": 0.38, "cvR2HSd": 0.09,
-        "cvR2Cites": 0.12, "cvR2CitesSd": 0.07,
-        "stanford": {"mean": 0.537, "n": 19},
-        "tsinghua": {"mean": 0.258, "n": 4},
-        "contextLiftMean": 0.058,
-        "contextLiftJiayi": 0.288,
-        "longTailBaseline": cohorts["long_tail_researcher_openalex"]["mean"],
-        "probeTemplate": open(ROOT / "data/inputs/probe_template_en.txt").read().strip(),
-    }
-    jdump(SRC_DATA / "stats.json", stats)
-
-
 def main():
-    print("Building site data assets...")
-    cohorts = build_cohorts()
-    model_order = build_models()
-    inputs = build_entities()
-    build_matrix(model_order)
-    gold = build_gold(inputs)
-    cases = build_cases(inputs, gold)
-    build_explainer_cases(cases)
-    build_ladder(cohorts)
+    print("Building site data assets (recognition metric)...")
+    st = load_state()
+    # bundled
+    build_stats(st)
+    build_cohorts(st)
+    build_models(st)
+    build_hero(st)
+    build_ladder(st)
+    build_awards()
     build_inversion()
-    build_country()
+    build_noi()
+    build_bibliometrics()
+    build_geography()
+    build_events()
+    build_selfreport()
     build_crosslang()
-    build_heatmap(model_order, cohorts)
-    build_hero(model_order)
-    build_stats(cohorts)
-    print("Done.")
+    build_robustness()
+    # fetched
+    n_ent = build_entities(st)
+    build_matrix(st)
+    gold = build_gold(st)
+    cases = build_cases(st, gold)
+    build_explainer_cases(cases)
+    print(f"Done. panel models = {len(st['model_order'])}, real entities = {n_ent}")
 
 
 if __name__ == "__main__":
