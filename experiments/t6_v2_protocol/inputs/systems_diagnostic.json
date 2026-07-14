@@ -1,0 +1,12 @@
+[
+  {
+    "id": "artifact_pine_ai",
+    "name": "Pine AI",
+    "display": "Pine AI",
+    "context": "an AI startup building an autonomous AI assistant that handles consumer customer-service tasks (negotiating bills, canceling subscriptions, filing complaints) on users' behalf",
+    "cohort": "system_diagnostic",
+    "gold_v2": true,
+    "synthetic": false,
+    "gold": "Pine AI is a consumer-facing artificial-intelligence startup that builds a fully autonomous AI agent which handles customer-service tasks on a user's behalf by making real phone calls, sending emails, and taking computer actions: negotiating lower rates on bills (internet, mobile, utilities, insurance), canceling unwanted subscriptions, filing formal complaints, and securing refunds and compensation. Its consumer product launched in January 2025. The company reports over 150,000 users, a roughly 93% negotiation success rate, and more than US$3 million in cumulative savings for users, and it closed a US$25 million Series A round in December 2025. Its website is 19pine.ai (also pine.ai). Bojie Li served as its Chief Scientist."
+  }
+]

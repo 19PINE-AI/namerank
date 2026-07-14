@@ -65,7 +65,7 @@ Ask a frontier language model about an International Mathematical Olympiad gold 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.86\textwidth]{figures/fig1_atlas.pdf}
-    \caption{\textbf{The recognition atlas.} Every cohort ($n \geq 10$) placed on the single NameRank axis: dot is the cohort's mean panel recognition rate, whisker the $95\%$ CI over entities; people cohorts in blue, artifact cohorts in amber. The hatched band is the synthetic-null floor (fictional entities of the same recipe). Three zones emerge on one scale: \emph{silent} (at floor), \emph{discriminative}, and \emph{universal}. The nine olympiad/fellowship credentials (bold) all fall at or below the working-researcher cohort, while named artifacts dominate the universal zone---the paper's thesis in one exhibit (Section~\ref{sec:results-headline}).}
+    \caption{\textbf{Every cohort placed on one recognition scale.} Each cohort ($n \geq 10$) sits on the single NameRank axis: dot is the cohort's mean panel recognition rate, whisker the $95\%$ CI over entities; people cohorts in blue, artifact cohorts in amber. The hatched band is the synthetic-null floor (fictional entities of the same recipe). Three zones emerge on one scale: \emph{silent} (at floor), \emph{discriminative}, and \emph{universal}. The nine olympiad/fellowship credentials (bold) all fall at or below the working-researcher cohort, while named artifacts dominate the universal zone---the paper's thesis in one exhibit (Section~\ref{sec:results-headline}).}
     \label{fig:overview}
 \end{figure}
 
@@ -144,7 +144,7 @@ NameRank is the unweighted panel recognition rate across the $36$-model panel (E
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_calibration.pdf}
-    \caption{\textbf{The instrument is calibrated.} \textbf{(a)}~Fictional entities of each gold recipe earn near-zero recognition---the guessing floor---except descriptive paper titles (subtracted where relevant). \textbf{(b)}~Per-record verdicts vary overwhelmingly with the entity, not the model.}
+    \caption{\textbf{The recognition metric is calibrated.} \textbf{(a)}~Fictional entities of each gold recipe earn near-zero recognition---the guessing floor---except descriptive paper titles (subtracted where relevant). \textbf{(b)}~Per-record verdicts vary overwhelmingly with the entity, not the model.}
     \label{fig:calibration}
 \end{figure}
 
@@ -156,30 +156,30 @@ The panel comprises $36$ frontier and near-frontier models accessed via OpenRout
 We evaluate $4{,}685$ entities in $54$ core cohorts---credentialed individuals (olympiad medalists, Putnam, ICPC, Rhodes, MSRA fellows), working academics, industry figures, named artifacts, and mid-tier cross-profession figures (writers, athletes, actors, chefs, podcasts)---plus a hand-curated diagnostic reference set and special cohorts (technical-report and system-card author lists, conferences, awards); award, event, LLM-area, and university extensions are probed under the same protocol (per-group breakdown in Appendix~\ref{app:spec}, Table~\ref{tab:cohort-groups}). The design goal is coverage of the axes the metric claims to unify: credentialed individuals, whose recognition should be carried by the credential \emph{if} credentials propagate; working academics with known bibliometrics, as the external-validity anchor; industry figures whom no bibliometric measures; named artifacts, to compare things against their makers; and mid-tier figures, to test the axis outside the technology world. A $240$-entity subset was re-probed with a Chinese-translated template (Section~\ref{sec:results-language}). We release the probe specifications, all gold answers, all judged response records, the Chinese sub-run, and the analysis pipeline at \url{https://github.com/19PINE-AI/namerank} (companion website: \url{https://01.me/research/namerank}).
 
 % ══════════════════════════════════════════════════════════════
-\section{The Recognition Atlas}
+\section{Recognition Across All Cohorts}
 \label{sec:results}
 \label{sec:results-headline}
+
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_axis_strip.pdf}
+    \caption{\textbf{Named entities from many domains on one recognition scale.} Selected named entities on the recognition axis; people in blue, artifacts in amber. Citation counts, $h$-index, and GitHub stars each measure only a slice of this range; recognition places all of them together. The hatched band is the synthetic-null floor.}
+    \label{fig:axis-strip}
+\end{figure}
 
 Figure~\ref{fig:overview} places every cohort on the single recognition axis, and three properties of the instrument are visible at once. First, the axis is \emph{meaningful across domains}: researchers, founders, open-source tools, competition medalists, and named methods all land on one $[0,1]$ scale, something no bibliometric or domain-specific metric supports. Second, the score is \emph{silent, not misleading, below threshold}: the lowest cohorts sit inside the hatched synthetic-null band, where the panel withholds recognition rather than fabricating rankings. Third, an \emph{artifact/person split} is already legible---amber artifact cohorts crowd the universal end while the bold olympiad credentials sit at the bottom.
 
 Three zones organize the axis. The \emph{silent} zone (at the floor) holds names that have not propagated: GPT-5 system-card authors ($0.09$) and DeepSeek-V3 authors ($0.10$), each a list of real, accomplished engineers whose names appear only inside a large contributor roster. The \emph{discriminative} zone is where the instrument does most of its work: working researchers ($0.40$), CS faculty ($0.55$), and the credential cohorts spread across it. The \emph{universal} zone holds named artifacts and public figures---named ML methods ($0.92$), OSS projects ($0.87$), programming languages and AI companies near the ceiling---that essentially every model knows.
 
-Figure~\ref{fig:axis-strip} makes the claim concrete. A Fortune-10 CTO, open-source tools, and community-run systems share one axis with Yann LeCun and Geoffrey Hinton (both $1.00$): citations miss the CTO, $h$-index misses nanoGPT's creator, GitHub stars miss Sam Altman---no legacy metric spans them, but recognition places them together. The design that earns this axis its trust is Section~\ref{sec:method}; calibration (Figure~\ref{fig:calibration}) shows fictional entities near zero and verdicts that track the entity, not the panel.
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{figures/fig_axis_strip.pdf}
-    \caption{\textbf{One axis, every domain.} Selected named entities on the recognition axis; people in blue, artifacts in amber. Citation counts, $h$-index, and GitHub stars each measure only a slice of this range; recognition places all of them together. The hatched band is the synthetic-null floor.}
-    \label{fig:axis-strip}
-\end{figure}
+Figure~\ref{fig:axis-strip} makes the claim concrete. A Fortune-10 CTO, open-source tools, and community-run systems share one axis with Yann LeCun and Geoffrey Hinton (both $1.00$): citations miss the CTO, $h$-index misses nanoGPT's creator, GitHub stars miss Sam Altman---no legacy metric spans them, but recognition places them together. One entry also exposes the metric's time dependence: Pine AI, an AI startup launched in 2025, sits near the floor ($0.06$)---recognized by only two of the $36$ models, both recent releases---because its name postdates the knowledge cutoff of nearly every panel model, a live instance of the vintage effect quantified in Appendix~\ref{app:cutoff}. The design that earns this axis its trust is Section~\ref{sec:method}; calibration (Figure~\ref{fig:calibration}) shows fictional entities near zero and verdicts that track the entity, not the panel.
 
 % ══════════════════════════════════════════════════════════════
-\section{The Credential Treadmill}
+\section{Credentials Predict Little Recognition}
 \label{sec:results-credentials}
 
 The atlas already shows every olympiad and fellowship credential sitting at or below the working-researcher baseline. This section reads that pattern---and its inversion at the marquee tier---as the most visible consequence of a single mechanism: recognition attaches to named, indexable artifacts, not to the credential itself, so a credential propagates a name only to the extent that named production follows it. Section~\ref{sec:results-mechanism} then isolates that mechanism causally.
 
-\subsection{Nine credentials, all below the baseline}
+\subsection{Nine Elite Credentials Score Below Working Researchers}
 
 We place nine competition and fellowship credentials---each once a career-defining distinction---on the recognition axis against a baseline of ordinary citation-tracked researchers (OpenAlex, recognition $0.40$; Figure~\ref{fig:credential-ladder}). \emph{Every one falls below it.} The two nearest---Putnam Fellows and ICPC World Finalists ($0.34$ each)---are exactly the credentials that feed almost exclusively into US-tracked, English-corpus careers, and even they fall short; the globally-dispersing olympiads sit near the synthetic-null floor (IMO $0.12$, CMO and CPhO at $0.03$). Below even the credentials sit two large-team author-list cohorts (DeepSeek-V3 report, GPT-5 system card): membership in a famous project, absent an individually named artifact, propagates almost nothing.
 
@@ -188,18 +188,18 @@ Two properties confirm that the career, not the medal, carries the signal. First
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.82\textwidth]{figures/fig_credential_ladder.pdf}
-    \caption{\textbf{The credential ladder.} The nine olympiad/fellowship credentials on the recognition axis (blue, $95\%$ CI), against the working-researcher baseline (dashed, $0.40$) and the synthetic-null floor (hatched, ${\sim}0.02$). Every credential falls below the baseline; Putnam and ICPC---feeding US-tracked careers---come closest, while the globally-dispersing olympiads sit near the floor. $^\dagger$~Two large-team author-list cohorts (not credentials) shown for context; their full probed rosters ($69$/$80$) exceed the entity-specific-gold subset scored here.}
+    \caption{\textbf{Recognition of nine olympiad and fellowship credentials.} The nine olympiad/fellowship credentials on the recognition axis (blue, $95\%$ CI), against the working-researcher baseline (dashed, $0.40$) and the synthetic-null floor (hatched, ${\sim}0.02$). Every credential falls below the baseline; Putnam and ICPC---feeding US-tracked careers---come closest, while the globally-dispersing olympiads sit near the floor. $^\dagger$~Two large-team author-list cohorts (not credentials) shown for context; their full probed rosters ($69$/$80$) exceed the entity-specific-gold subset scored here.}
     \label{fig:credential-ladder}
 \end{figure}
 
 \textbf{The generational claim.} Olympic-style credential systems were optimized for a pre-LLM signaling regime in which a distinction translated into reputation through human social networks \citep{spence1973}. In the LLM-mediated regime, only credentials that translate into \emph{named, indexable production}---papers, tools, blog posts, talks carrying the holder's name---propagate. The medal itself, absent subsequent production, does not.
 
-\subsection{Inside one contest: what the medal actually buys}
+\subsection{Within One Contest, Medal Rank Does Not Predict Recognition}
 \label{sec:results-tianshou}
 
 Probing a single contest's full roster isolates the credential from the career. On the complete China National Olympiad in Informatics 2009 roster---every gold, silver, and bronze medalist---the gold/non-gold cliff survives (gold recognition $0.10$ against $0.03$/$0.02$ for silver/bronze, Kruskal--Wallis $p<10^{-5}$, against a near-zero synthetic-null floor), while contest \emph{score} within a tier does not predict recognition at all. The few medalists who rise above the near-floor band are exactly those whose \emph{post-medal} careers produced named work---a now-prominent vision professor, a research lead, the author of this paper on a systems-and-startup track (Appendix~\ref{app:medal-tiers}). The medal grade sets the odds of entering a documented cohort; the recognition tracks what the person later built.
 
-\subsection{The credential that does propagate: named production}
+\subsection{Credentials That Carry Named Work Do Raise Recognition}
 \label{sec:results-awards}
 
 If the mechanism is named-artifact attachment, then a credential that \emph{ships with a named artifact} should propagate. The LLM-era publication credentials confirm it directly (Figure~\ref{fig:career-arc}): authors of best-paper-awarded papers at top venues score $0.53$ and named-method originators $0.65$---both above the working-researcher baseline, because the award or method carries a named, heavily-indexed artifact into the corpus alongside the person, and rising in exactly that order as the artifact attaches more directly to the individual. The marquee prizes sit higher still, at the panel ceiling (Turing, Fields, Nobel laureates all above $0.95$). Two reading notes temper the marquee tier. First, at that ceiling the prize marks fame as much as it made it: an individual laureate is a famous person the judge recognizes directly, and because recognition saturates there is no headroom for a within-award time trend to read a lifetime clock off the marquee tier (that clock is visible only in the \emph{unsaturated} cohorts; Appendix~\ref{app:awards}). Second, the sampled mid-career fellowship cohorts are upper bounds---they include only recipients prominent enough to have an encyclopedia article. The clean comparison is among complete-roster cohorts on identical rosters, and along that spine the arc is monotone.
@@ -209,28 +209,28 @@ The groups of Figure~\ref{fig:career-arc}---olympiad, LLM-era publication, mid-c
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.66\textwidth]{figures/fig9_career_arc.pdf}
-    \caption{\textbf{The career arc, end to end.} All credential and award cohorts by career stage on the recognition axis, against the working-researcher baseline (dashed) and the synthetic-null floor (hatched). Early olympiad/fellowship credentials sit at or below the baseline (detailed in Figure~\ref{fig:credential-ladder}); LLM-era publication credentials (best-paper authors, named-method originators) and marquee late-career prizes rise above it. Recognition tracks the named production a credential carries, not the selectivity of the award.}
+    \caption{\textbf{Recognition of credentials and awards by career stage.} All credential and award cohorts by career stage on the recognition axis, against the working-researcher baseline (dashed) and the synthetic-null floor (hatched). Early olympiad/fellowship credentials sit at or below the baseline (detailed in Figure~\ref{fig:credential-ladder}); LLM-era publication credentials (best-paper authors, named-method originators) and marquee late-career prizes rise above it. Recognition tracks the named production a credential carries, not the selectivity of the award.}
     \label{fig:career-arc}
 \end{figure}
 
 % ══════════════════════════════════════════════════════════════
-\section{The Named-Artifact Mechanism}
+\section{Why Named Artifacts Drive Recognition}
 \label{sec:results-mechanism}
 
 If recognition is paid to named artifacts, the artifact should sometimes out-rank the person who made it. It does, and the direction of the effect---plus a control that comes back null---pins the mechanism to corpus attribution rather than anything a prompt can manufacture.
 
-\subsection{The artifact-over-creator inversion}
+\subsection{Artifacts Usually Score Higher Than Their Creators}
 
 For verified (creator, artifact) pairs we measure both members independently (Figure~\ref{fig:inversion}a). In $7$ of the $10$ resolvable pairs, the artifact out-ranks its creator, and for independent creators of a single artifact the inversion is uniform: Jiayi Weng ($0.22$) below Tianshou ($0.78$), Harrison Chase below LangChain, Aman Sanger below Cursor, Simon Willison below Datasette, Tri Dao below FlashAttention, Aravind Srinivas below Perplexity. The three exceptions---Demis Hassabis, Andrej Karpathy, Mira Murati---are senior leaders who accumulated independent recognition before, or beyond, the artifact in question; Karpathy is famous for too many things for nanoGPT to carry him. The pattern extends beyond these hand-verified pairs: among named methods prominent enough to appear as standalone entities, the method out-ranks its originator in almost every case (Figure~\ref{fig:inversion}b), and the named-method-originator cohort as a whole ($0.65$) sits far above the researcher baseline precisely because each member's method drags their name into the corpus.
 
 The direction is an asymmetry in the corpus itself, not a symmetric association. Measuring how often a probe about one member names the other, the common regime is \emph{famous artifact, anonymous creator}: a probe about the creator reliably surfaces the artifact, but a probe about the artifact frequently omits the creator. Open-source and academic norms produce the opposite, balanced pattern (creator and artifact co-occur in both directions), and the inverse case---Karpathy and nanoGPT---shows a probe about the artifact reliably surfacing the creator while the reverse fails (per-pair breakdowns in Appendix~\ref{app:asymmetry}). This attribution asymmetry is exactly what makes the artifact out-rank its maker: the corpus discusses the tool far more often than the person behind it.
 
-\subsection{The inversion is observational, not inducible}
+\subsection{Naming an Artifact Does Not Raise Its Creator's Recognition}
 \label{sec:results-mediation-causal}
 
 A natural causal question: if we \emph{tell} the model the creator made the artifact, does recognition of the creator rise? We re-probed all $11$ pairs under a controlled intervention---configuration~A gives a role-only context, configuration~B appends one clause naming the artifact---and scored both with the recognition judge, which credits only facts \emph{beyond} the context. The lift is essentially zero (mean $-0.01$; positive only for the two least-known creators, Jiayi Weng and Tri Dao). This is the informative null: an earlier scoring rule that credited coverage showed an apparent lift, but that lift was the model echoing the injected artifact name back: once the judge stops rewarding the echo, naming the artifact adds nothing. Recognition of the creator is written into the corpus or it is not; a prompt cannot manufacture it. The inversion is thus an observational property of how attribution is distributed in indexable text, which is exactly what the mechanism predicts.
 
-\subsection{Boundary condition: reach without name propagation}
+\subsection{Widely Used Tools Whose Names Do Not Spread Score Low}
 \label{sec:results-cases}
 
 The mechanism also says what recognition is \emph{not}. tuixue.online, a Chinese-language site that monitored US visa-appointment availability with a peak user base near one million, has larger human reach than any open-source tool in our comparison set, yet scores $0.39$---below nanoGPT and vLLM, whose audiences are orders of magnitude smaller (Figure~\ref{fig:inversion} caption; full comparison in Appendix~\ref{app:asymmetry}). It circulated functionally (``the site has visa slots'') with no creator name attached in indexable form, and the gap is symmetric across English and Chinese prompts, so it is not a language artifact. Recognition measures indexed name presence, not utility; the two correlate wherever creators attach names to work and dissociate for utility-driven artifacts that spread anonymously.
@@ -238,7 +238,7 @@ The mechanism also says what recognition is \emph{not}. tuixue.online, a Chinese
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_inversion.pdf}
-    \caption{\textbf{Named-artifact amplification.} \textbf{(a)}~Creator vs.\ artifact recognition for the $10$ resolvable pairs (blue creator, amber artifact), sorted by artifact$-$creator delta: for independent creators the artifact uniformly out-ranks its maker; the exceptions are senior leaders. \textbf{(b)}~Among named methods prominent enough to be standalone entities, the method out-ranks its originator in almost every case.}
+    \caption{\textbf{Artifacts usually score higher than their creators.} \textbf{(a)}~Creator vs.\ artifact recognition for the $10$ resolvable pairs (blue creator, amber artifact), sorted by artifact$-$creator delta: for independent creators the artifact uniformly out-ranks its maker; the exceptions are senior leaders. \textbf{(b)}~Among named methods prominent enough to be standalone entities, the method out-ranks its originator in almost every case.}
     \label{fig:inversion}
 \end{figure}
 
@@ -259,7 +259,7 @@ On the working-researcher cohort ($603$ researchers with OpenAlex bibliometrics)
     \label{fig:hindex}
 \end{figure}
 
-\subsection{The corpus-density gradient: institutions and countries}
+\subsection{Recognition Rises with Institution and Country Web Presence}
 \label{sec:results-geography}
 
 Recognition varies with where a researcher works, and---crucially---not only through productivity. Among CS faculty, top-corpus-density institutions lead: an MIT faculty member scores $0.79$, Berkeley $0.76$, against lower-corpus-density peers (Figure~\ref{fig:universities}a). The clean test holds citations fixed: restricting to a matched citation window (Figure~\ref{fig:universities}b), MIT and Berkeley faculty still out-recognize UCSD and Irvine faculty at the \emph{same} citation level---so the gradient is corpus density, not research output. Aggregated by country (Figure~\ref{fig:country}), the firm, well-sampled contrast is the USA ($0.64$, $n=206$) above China ($0.33$) and India ($0.26$), whose confidence intervals do not overlap the USA's; small-sample leaders are read as suggestive only. The mechanism is English-corpus density: identical research output propagates through a denser English-language ecosystem of social media, newsletters, podcasts, and tutorials for a US-based researcher than for a peer whose output travels mainly through the papers themselves.
@@ -267,18 +267,18 @@ Recognition varies with where a researcher works, and---crucially---not only thr
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_universities.pdf}
-    \caption{\textbf{Institution gradient, two designs.} \textbf{(a)}~CS-faculty recognition by university (CSRankings rosters, no bibliometric conditioning). \textbf{(b)}~At a matched citation window, top-corpus-density institutions still lead---corpus density, not productivity. Dashed line: working-researcher baseline.}
+    \caption{\textbf{Recognition by institution, two analyses.} \textbf{(a)}~CS-faculty recognition by university (CSRankings rosters, no bibliometric conditioning). \textbf{(b)}~At a matched citation window, top-corpus-density institutions still lead---corpus density, not productivity. Dashed line: working-researcher baseline.}
     \label{fig:universities}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.72\textwidth]{figures/fig_country.pdf}
-    \caption{\textbf{Country gradient} in CS-faculty recognition (dot, $95\%$ CI; faded rows $n<8$, suggestive only). The USA leads China and India with non-overlapping intervals; the gradient tracks English-corpus density, not research quality.}
+    \caption{\textbf{CS-faculty recognition by country} (dot, $95\%$ CI; faded rows $n<8$, suggestive only). The USA leads China and India with non-overlapping intervals; the gradient tracks English-corpus density, not research quality.}
     \label{fig:country}
 \end{figure}
 
-\subsection{The cleanest predictor: a recorded attention ledger}
+\subsection{For News Events, Recognition Tracks Peak Attention}
 \label{sec:results-events}
 
 Every predictor so far proxies corpus exposure after the fact. News events invert the problem: the attention the world paid an event is itself a public, time-stamped record, so here the exposure side of the corpus-propagation account can be measured directly rather than inferred. We built a calibration cohort of $258$ news events from $2021$--$2023$, each carrying its English-Wikipedia daily pageview series, and probed them with the unchanged pipeline (Appendix~\ref{app:events}). Recognition rises log-linearly in total first-year attention. The decomposition is the sharp result: total attention factors into peak $\times$ duration, and \emph{peak} dominates (standardized coefficient $+0.13$ against $+0.04$ on duration; duration adds a marginal $R^2$ of only $0.045$, against $0.34$ explained by peak alone). How \emph{loud} a story got, not how \emph{long} it lasted, drives recognition---because a story's peak marks how many name-bearing documents were minted at climax, while a long tail of readership mints little additional text. Recognition follows document production, not audience retention; it is the temporal echo of the named-artifact mechanism, and it runs opposite to the $h$-index intuition that persistence should matter (Figure~\ref{fig:events}).
@@ -286,7 +286,7 @@ Every predictor so far proxies corpus exposure after the fact. News events inver
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_events.pdf}
-    \caption{\textbf{The attention ledger} ($258$ news events, $2021$--$2023$). \textbf{(a)}~Recognition vs.\ $\log_{10}$ first-year pageviews, with decile means. \textbf{(b)}~Quintile ladders for the two components of total attention: peak salience rises, effective duration is flat---recognition follows how loudly a story peaked, not how long it lasted.}
+    \caption{\textbf{Recognition versus news-event attention} ($258$ news events, $2021$--$2023$). \textbf{(a)}~Recognition vs.\ $\log_{10}$ first-year pageviews, with decile means. \textbf{(b)}~Quintile ladders for the two components of total attention: peak salience rises, effective duration is flat---recognition follows how loudly a story peaked, not how long it lasted.}
     \label{fig:events}
 \end{figure}
 
@@ -321,19 +321,19 @@ Gold construction, context leakage, Wikipedia presence, or web attention drive t
 
 Three of these checks carry most of the weight and deserve the numbers the table compresses. First, \emph{the scoring rule is load-bearing}: the entity factor explains roughly six times the variance the model factor does, and a disjoint replacement panel reproduces the event ordering, so the score measures the entity, not the fleet; the recognition verdict is what disciplines the zero-refusal fluent-hallucinator cluster, which an embedding score would credit as recognized (Appendix~\ref{app:scoring}). Second, \emph{the silent zone is real obscurity, not corpus timing}: on two contemporaneously-published author cohorts, crossing a model's training cutoff raises the recency cohorts \emph{less} than it raises stable controls (matched difference-in-differences $-0.24$ and $-0.17$), even as a ${\sim}0.1$--$0.3$/yr capability drift accumulates across vintages---so absolute levels are comparable only within a run, but the silence itself is intrinsic (Appendix~\ref{app:cutoff}), as the transformer fact-storage literature predicts~\citep{geva2021transformer, petroni2019language, kandpal2023, overshadow2025}. Third, \emph{floors and confounds hold}: floor-adjustment against the synthetic-null recipe leaves every credential below the working-researcher baseline, and dedicated ablations reject both Wikipedia presence and web-attention rank as alternative explanations (Appendices~\ref{app:synthetic}, \ref{app:confounds}). Orderings survive paraphrase and judge family (a three-family re-judge reproduces the cohort ranking under Gemini, Claude, and a uniformly stricter GPT-5.1); only absolute levels shift, so NameRank values are read as within-run relative gaps. Two further checks were run as standalone experiments and get their own treatment below: whether a model can simply be \emph{asked} how well it recognizes an entity, and whether the score survives a change of probe language.
 
-\subsection{Self-report is not a shortcut for measurement}
+\subsection{Asking a Model What It Knows Does Not Replace Measurement}
 \label{sec:results-selfreport}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/fig_selfreport.pdf}
-    \caption{\textbf{Introspection reads the corpus prior.} \textbf{(a)}~Bradley--Terry self-report scale vs.\ measured panel recognition: the ordering is recovered fairly well in aggregate. \textbf{(b)}~But per model, self-report tracks cross-panel fame far better than the model's own behavioral record---it reads what everyone knows, not its own weights.}
+    \caption{\textbf{Model self-report reflects overall fame, not the model's own knowledge.} \textbf{(a)}~Bradley--Terry self-report scale vs.\ measured panel recognition: the ordering is recovered fairly well in aggregate. \textbf{(b)}~But per model, self-report tracks cross-panel fame far better than the model's own behavioral record---it reads what everyone knows, not its own weights.}
     \label{fig:selfreport}
 \end{figure}
 
 Could a model simply be asked how well-known an entity is? We put this to a pairwise test: models rank which of two entities they recognize better, and we fit a Bradley--Terry scale from the comparisons (Appendix~\ref{app:selfreport}). In aggregate the self-report scale recovers the panel recognition ordering reasonably well (Spearman $\rho \approx 0.83$; Figure~\ref{fig:selfreport}a)---but the recovery is borrowed, not introspective. Two diagnostics show why. First, each model's self-ranking tracks how \emph{widely} a name is known across the panel ($\rho \approx 0.6$) far better than its own behavioral record on the entities it demonstrably knows ($\rho \approx 0.3$; Figure~\ref{fig:selfreport}b). Second, the three vendors' self-report scales agree with \emph{each other} ($\rho \approx 0.90$) more than any agrees with the ground-truth panel recognition---they are reading a shared corpus prior, not their own weights \citep{kadavath2022language, yin2023selfaware}. In one direction the claims are still trustworthy: opposite a name the model genuinely knows, the fictional side of a trap pair was almost never preferred. Self-report errs by reciting consensus fame, not by fabrication---usable as a prior, insufficient as measurement.
 
-\subsection{Recognition is prompt-language-invariant}
+\subsection{Recognition Is the Same for English and Chinese Prompts}
 \label{sec:results-language}
 
 Re-probing a $240$-entity subset with a Chinese-translated template moves no cohort's recognition rate by more than $0.04$ (Appendix~\ref{app:cross-lang}). This is the expected behavior of a recognition verdict: because the judge credits only a specific non-guessable fact, and whether the model stores that fact is a property of its weights rather than of the language it is queried in, the wording of the probe does not change what the model knows. An earlier graded-coverage version of this sub-run showed a sizeable Chinese-prompt lift for Chinese-named cohorts, but that was language-matched \emph{verbosity}---a Chinese prompt draws a longer Chinese answer that accrues more coverage points---not extra knowledge; the recognition verdict removes it. A residual nudge (at most ${\sim}0.14$) survives only for low-recognition Chinese-named credential holders, where a Chinese prompt occasionally tips a borderline model over the recognition threshold. NameRank is therefore comparable across prompt languages; all headline results use English prompts.
@@ -344,19 +344,19 @@ Re-probing a $240$-entity subset with a Chinese-translated template moves no coh
 
 Three questions organize what the findings imply beyond the measurements themselves: what \emph{clock} the score reads, what it says to anyone who wants their own name to propagate, and what structural inequalities it exposes. We then close with limitations and a set of falsifiable predictions for future re-runs.
 
-\subsection{What Clock Does NameRank Read? Lifetime vs.\ Current-Term Recognition}
+\subsection{Does NameRank Measure Lifetime or Current Recognition?}
 \label{sec:discussion-clock}
 
 A recognition score could measure two different quantities: \emph{cumulative} presence---everything a name has deposited in the corpus over a career---or \emph{current-term} salience, what the world is paying attention to now. Three findings established independently above jointly place NameRank in the first category. Within IMO gold medalists, medal year is essentially uncorrelated with the score (Section~\ref{sec:results-credentials}): recognition neither fades for older medalists nor spikes for recent ones. The marquee awards show the complementary shape: recognition does not decay with time since the prize---decades-old Nobel, Turing, and Fields laureates remain saturated rather than fading (Appendix~\ref{app:awards})---which rules out a \emph{flow} reading, under which old laureates would have faded, even though the saturated marquee tier cannot itself trace the accrual slope (that is left to the unsaturated cohorts; Appendix~\ref{app:awards}). And on news events, where attention is directly recorded, the score loads on \emph{peak} salience rather than persistence (Section~\ref{sec:results-events}): what matters is how many name-bearing documents were minted, not how long the audience stayed. Read together: NameRank is a cumulative ledger of name-bearing text, snapshotted through the current model fleet---a lifetime measure weighted by documentation density, not a barometer of current attention. Current-term change is accessible only longitudinally, as within-run relative gaps across successive fleets (Section~\ref{sec:predictions}).
 
-\subsection{What Raises Recognition---and Whether Going Viral Helps}
+\subsection{What Raises Recognition, and Whether Virality Helps}
 \label{sec:discussion-implications}
 
 Read prescriptively, the findings converge on a single lever: recognition accrues to \emph{distinctively-named, indexable production accumulated over a career}. Volume of name-bearing works leads citation weight ($h$-index over raw citations, Section~\ref{sec:results-external}); one clearly-named artifact outperforms many papers (Section~\ref{sec:results-mechanism}); and the credentials that propagate on their own are exactly those that carry a named artifact---best-paper awards, named methods, marquee prizes backed by a career of production---while a bare olympiad medal does not (Section~\ref{sec:results-awards}). Because the ledger is cumulative (Section~\ref{sec:discussion-clock}), the effective strategy is long-horizon and structural rather than about any single achievement: keep depositing documents that carry a distinctive, low-collision name into English-indexed text. One caveat is attribution-direction: recognition accrues to an artifact's name first and to its creator only through the corpus's attribution chain (Section~\ref{sec:results-mechanism}), so a tool buried under generic corporate branding builds no personal recognition.
 
 This also bounds what public attention buys. Going viral helps only insofar as the spike is \emph{captured as durable, name-bearing documents}: on news events the score loads on peak salience over persistence (Section~\ref{sec:results-events}), so a burst that mints many name-attached records converts while ephemeral engagement that leaves none does not. The conversion is category-dependent: within celebrity cohorts pageviews track recognition closely, but for technical creators attention \emph{flow} and corpus \emph{stock} largely decouple (Appendix~\ref{app:confounds}; a low-traffic but corpus-saturated library can outscore a high-traffic recent model). Attention is thus a means, valuable only when it deposits distinctively-named text into the corpus---never an end in itself.
 
-\subsection{Structural Consequences: Corpus-Density Inequality and Inherited Bias}
+\subsection{Consequences: Unequal Web Presence and Inherited Bias}
 \label{sec:discussion-bias}
 
 The corpus-density gradient of Section~\ref{sec:results-geography}---top-density institutions above their peers even at matched citations, recurring at country scale with the USA-over-China-over-India ordering as its backbone---is a structural inequality in name propagation \emph{per unit of research output}. It is downstream of training-pipeline indexing decisions rather than of research quality (sampling caveats and the researcher-mobility confound are tabulated in Appendix~\ref{app:limitations}).

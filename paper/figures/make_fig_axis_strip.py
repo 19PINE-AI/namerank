@@ -37,6 +37,7 @@ PICKS = [  # (entity_id, display, is_artifact, dataset)
     ("noi_wu_jiajun_2009", "Jiajun Wu", False, "main"),
     ("ioi_haoqiang_fan", "Haoqiang Fan", False, "main"),
     ("jiayi_weng", "Jiayi Weng", False, "main"),
+    ("bojie_li", "Bojie Li", False, "main"),
     # Two named systems from the boundary-condition study (App. asymmetry),
     # measured under the same final judge in the awards dataset.
     ("artifact_ustc_hackergame", "USTC Hackergame", True, "awards"),
