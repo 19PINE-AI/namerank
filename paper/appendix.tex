@@ -34,7 +34,7 @@ Nemotron-3-Ultra-think, Nano-30b-think & \\
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Core-cohort entities by top-level group (main dataset; $4{,}685$ real entities plus $45$ synthetic-null controls). The award-ladder, news-event, LLM-area, and university-baseline extensions are specified in Appendices~\ref{app:awards}, \ref{app:events}, and their own sections. Full per-cohort breakdown in the \repodoc{cohorts.md}{released cohort specification}.}
+\caption{Core-cohort entities by top-level group (main dataset; $4{,}685$ real entities plus $45$ synthetic-null controls). Extensions are specified in their own sections; full per-cohort breakdown in the \repodoc{cohorts.md}{released cohort specification}.}
 \label{tab:cohort-groups}
 \begin{tabularx}{\textwidth}{lrX}
 \toprule
@@ -66,7 +66,7 @@ This appendix gives the construction and full tables behind Section~\ref{sec:res
 \begin{table}[!htbp]
 \centering
 \small
-\caption{The award ladder under the recognition metric. Recognition is the panel fraction; \emph{vs.\ base} is relative to the working-researcher baseline (recognition $0.46$ on this run's matched $n{=}60$ subsample and the IMO control $0.19$ on $n{=}40$---both slightly above the headline full-cohort values of $0.40$ and $0.12$ used elsewhere, and on the same panel and judge). The three marquee late-career prizes and the ACM Prize saturate near the ceiling; the sampled mid-career honors sit high but are upper bounds; the complete-roster mid-career prizes (G\"odel) and the LLM-area author cohorts sit between the honors and the baseline; the early olympiad credential (IMO) sits well below it.}
+\caption{The award ladder under the recognition metric. Recognition is the panel fraction; \emph{vs.\ base} is relative to the working-researcher baseline (recognition $0.46$ on this run's matched $n{=}60$ subsample; IMO control $0.19$ on $n{=}40$), on the same panel and judge. Sampled mid-career honors are upper bounds.}
 \label{tab:award-ladder}
 \begin{tabular}{llrrr}
 \toprule
@@ -108,14 +108,14 @@ The credential ladder above measures \emph{gold} medalists only, so it cannot sa
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.78\textwidth]{figures/fig_medal_tiers.pdf}
-\caption{NameRank against NOI 2009 contest score for the complete medal roster (square-root $y$-axis, so the dense near-zero band and the recognized tail share one panel), with within-tier means as horizontal lines. Most medalists are silent (${\approx}0$); only the five recognized medalists above $0.2$ are labelled. Several golds scoring ${\geq}500$ stay near the floor unlabelled, while two much lower-scoring medalists (Fan Haoqiang, Li Bojie) are recognized---recognition tracks the post-medal career, not the contest score.}
+\caption{NameRank against NOI 2009 contest score for the complete medal roster (square-root $y$-axis), with within-tier means as horizontal lines. Only the five medalists above $0.2$ are labelled.}
 \label{fig:medal-tiers}
 \end{figure}
 
 \begin{table}[!htbp]
 \centering
 \small
-\caption{NOI 2009 medal tiers under the recognition judge. The score is the panel recognition rate---the fraction of the $36$ models that demonstrate genuine recognition (Appendix~\ref{app:scoring}); ``silent'' counts medalists no model recognizes, ``recognized'' those at least one model does. The protocol-matched synthetic-null floor is $0.009$ (three fictional NOI medalists, same recipe), so the gold-tier mean is almost entirely above-floor signal. Kruskal--Wallis across tiers $H = 25.9$ ($p < 10^{-5}$); gold vs.\ silver Cliff's $\delta = +0.62$; silver vs.\ bronze indistinguishable ($p = 0.27$, $\delta = +0.13$).}
+\caption{NOI 2009 medal tiers under the recognition judge. Score is the panel recognition rate; ``silent'' counts medalists no model recognizes. Synthetic-null floor $0.009$. Kruskal--Wallis $H = 25.9$ ($p < 10^{-5}$); gold vs.\ silver Cliff's $\delta = +0.62$; silver vs.\ bronze indistinguishable ($p = 0.27$).}
 \label{tab:medal-tiers}
 \begin{tabular}{lrcccc}
 \toprule
@@ -150,7 +150,7 @@ This appendix gives the full tables behind Figure~\ref{fig:inversion} and the Ti
 \begin{table}[!htbp]
 \centering
 \small
-\caption{The artifact-over-creator inversion under the recognition metric. $\mathrm{NR}_c$ and $\mathrm{NR}_a$ are creator and artifact recognition; $C\!\to\!A$ is the fraction of responses about the creator that mention the artifact, $A\!\to\!C$ the reverse. Boldface: artifact exceeds creator. For independent creators of a single artifact (top block) the artifact uniformly out-ranks its maker; the exceptions (bottom) are senior leaders with independent recognition.}
+\caption{The artifact-over-creator inversion. $\mathrm{NR}_c$, $\mathrm{NR}_a$: creator and artifact recognition; $C\!\to\!A$: fraction of responses about the creator that mention the artifact, $A\!\to\!C$ the reverse. Boldface: artifact exceeds creator. Top block: independent creators; bottom: senior leaders with independent recognition.}
 \label{tab:inversion}
 \begin{tabular}{lrlrrrr}
 \toprule
@@ -174,7 +174,7 @@ Mira Murati & 0.78 & Thinking Machines Lab & 0.17 & $-0.61$ & 0.97 & 1.00 \\
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Context-injection experiment. $\Delta$ is the creator's recognition change when the artifact name is added to the disambiguating context (configuration B $-$ configuration A). Under the recognition judge, which credits only facts beyond the injected clause, the lift is essentially zero: naming the artifact cannot manufacture recognition of the creator. Weak positive lift appears only for the two least-known creators.}
+\caption{Context-injection experiment. $\Delta$ is the creator's recognition change when the artifact name is added to the context (configuration B $-$ A). Under the recognition judge the lift is essentially zero, positive only for the two least-known creators.}
 \label{tab:injection}
 \begin{tabular}{llr}
 \toprule
@@ -204,7 +204,7 @@ Mean over $11$ pairs & & $-0.01$ \\
 \begin{table}[!htbp]
 \centering
 \small
-\caption{The Tianshou case: Jiayi Weng against OpenAI individual-contributor peers who share the affiliation but not a widely-named artifact. The point is the artifact-mediation gap: his tool Tianshou vastly out-ranks him, and the peers who lack such an artifact cluster near the floor. (Trevor Blackwell, a YC co-founder, carries independent recognition and is not an anonymous-IC comparison.)}
+\caption{The Tianshou case: Jiayi Weng against OpenAI individual-contributor peers who share the affiliation but not a widely-named artifact. Tianshou out-ranks him; peers without such an artifact cluster near the floor. (Trevor Blackwell, a YC co-founder, carries independent recognition.)}
 \label{tab:tianshou-case}
 \begin{tabular}{lc}
 \toprule
@@ -240,7 +240,7 @@ Full bibliometric-regression results for NameRank on the OpenAlex long-tail rese
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Sole-predictor $R^2$ on recognition. No single bibliometric dominates: $h$-index, raw citations, and the attribution-weighted variants (fractional and first/last-author citations) all cluster around a fifth of the variance, and the differences among them are within noise. Author count carries no signal, and even the best predictor leaves most of the variance unexplained.}
+\caption{Sole-predictor $R^2$ on recognition. $h$-index, raw citations, and the attribution-weighted variants all cluster around a fifth of the variance; author count carries no signal.}
 \label{tab:bibliometric}
 \begin{tabular}{lr}
 \toprule
@@ -304,7 +304,7 @@ University of Michigan & 20 & 0.62 \\
 \begin{table}[!htbp]
 \centering
 \small
-\caption{CS-faculty recognition by country of institutional affiliation, for countries with $\geq 8$ sampled faculty. The firm, well-sampled contrast is the USA against China (non-overlapping intervals); the mid-sized samples (UK, Hong Kong, Canada) sit between them and should not be finely ranked.}
+\caption{CS-faculty recognition by country of institutional affiliation, for countries with $\geq 8$ sampled faculty. The firm contrast is the USA against China (non-overlapping intervals); mid-sized samples (UK, Hong Kong, Canada) should not be finely ranked.}
 \label{tab:cs-country}
 \begin{tabular}{lrr}
 \toprule
@@ -331,7 +331,7 @@ The well-sampled backbone of the gradient is the USA (recognition $0.64$) agains
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Cross-language NameRank by cohort: $\Delta = \mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en}$ on the $240$-entity Chinese-prompt sub-run. Under the recognition verdict the prompt language barely moves the score---every cohort delta is within $\pm 0.04$---because recognition turns on whether the model can state a specific non-guessable fact, and that knowledge is language-invariant.}
+\caption{Cross-language NameRank by cohort: $\Delta = \mathrm{NR}_\mathrm{zh} - \mathrm{NR}_\mathrm{en}$ on the $240$-entity Chinese-prompt sub-run. Every cohort delta is within $\pm 0.04$.}
 \label{tab:cross-lang}
 \begin{tabular}{lrrrr}
 \toprule
@@ -517,7 +517,7 @@ Decomposing the variance of the per-record recognition verdicts (Table~\ref{tab:
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Variance decomposition of the per-record recognition verdicts ($36$-model panel). Entity and cohort are nested, so their rows overlap rather than partitioning the total; each row is the share of total variance the factor independently explains. The entity dominates.}
+\caption{Variance decomposition of the per-record recognition verdicts ($36$-model panel). Entity and cohort are nested, so each row is the share of total variance the factor independently explains. The entity dominates.}
 \label{tab:variance}
 \begin{tabular}{lr}
 \toprule
@@ -543,7 +543,7 @@ Embedding cosine similarity between response and gold shifts only modestly acros
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Mean gold-response embedding similarity for recognized vs.\ non-recognized non-refusal responses. The two shift only modestly ($0.88$ vs.\ $0.80$) and their distributions overlap heavily---both responses are on-topic---so a similarity threshold cannot substitute for the judge, which turns on whether a \emph{specific} verified fact is present.}
+\caption{Mean gold-response embedding similarity for recognized vs.\ non-recognized non-refusal responses. The two overlap heavily ($0.88$ vs.\ $0.80$), so a similarity threshold cannot substitute for the judge.}
 \label{tab:embedding}
 \begin{tabular}{lrr}
 \toprule
@@ -636,14 +636,14 @@ Two implications follow. \emph{Recognition is not ingestion}: presence in the tr
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_cutoff_gradient.pdf}
-    \caption{Training-cutoff gradient. \textbf{(a)}~Per-model mean NameRank vs.\ training cutoff for two first-appearance ``recency'' cohorts (DeepSeek-V3 authors, emergence 2024-12; GPT-5 system-card authors, 2025-08) and two stable controls nameable since well before any cutoff. \emph{Every} cohort rises with cutoff at ${\sim}0.1$--$0.3$/yr---a model-capability confound, not corpus timing (one control cohort contains Geoffrey Hinton). \textbf{(b)}~Natural experiment: the recency cohorts' pre/post-emergence jump is \emph{smaller} than the same-split jump on the stable controls (hatched ``capability-only expectation'' bar), so the matched difference-in-differences is negative ($-0.24$, $-0.17$). Crossing a model's training cutoff is necessary but far from sufficient for recognition.}
+    \caption{Training-cutoff gradient. \textbf{(a)}~Per-model mean NameRank vs.\ training cutoff for two ``recency'' cohorts (DeepSeek-V3 authors, GPT-5 system-card authors) and two stable controls; every cohort rises at ${\sim}0.1$--$0.3$/yr, a model-capability confound. \textbf{(b)}~The recency cohorts' pre/post-emergence jump is smaller than the same split on the stable controls, so the matched difference-in-differences is negative ($-0.24$, $-0.17$).}
     \label{fig:cutoff-gradient}
 \end{figure}
 
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Natural experiment: per-model mean recognition split by whether the model's training cutoff predates (pre) or postdates (post) each cohort's emergence date. The raw jump is decomposed by a matched difference-in-differences (DiD) that subtracts the same-split jump averaged over three stable controls (CS faculty, OpenAlex long-tail researchers, IMO gold), which nets out the cross-vintage capability drift. Both matched DiDs are $\leq 0$.}
+\caption{Mean recognition for models whose training cutoff predates versus postdates each cohort's emergence date, with a matched difference-in-differences against stable controls. Both matched DiDs are $\leq 0$.}
 \label{tab:cutoff-natexp}
 \begin{tabular}{lrrrrr}
 \toprule
@@ -658,7 +658,7 @@ GPT-5 system-card authors & 0.05 & 0.04 & $-0.01$ & $+0.16$ & $\mathbf{-0.17}$ \
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Selected per-cohort slopes of per-model mean NameRank on training cutoff (NameRank per year of cutoff), with Pearson $r$ over the $36$ models. \emph{Every} established cohort rises with cutoff at ${\sim}0.1$--$0.3$/yr---a model-capability/generosity confound, since these entities were nameable long before any cutoff. The two recency cohorts are \emph{not} steeper; once the drift is removed (Table~\ref{tab:cutoff-natexp}) no corpus-timing signal remains.}
+\caption{Selected per-cohort slopes of per-model mean NameRank on training cutoff (per year), with Pearson $r$ over the $36$ models. Every established cohort rises at ${\sim}0.1$--$0.3$/yr; the recency cohorts are not steeper (drift removed in Table~\ref{tab:cutoff-natexp}).}
 \label{tab:cutoff-slopes}
 \begin{tabular}{lrr}
 \toprule
@@ -685,7 +685,7 @@ Two facts emerge, and together they say the findings do not depend on the judge.
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Pairwise inter-judge agreement on the binary recognition verdict over the $538$-response stratified sample: fraction of responses on which the pair returns the same decision, and the chance-corrected Cohen's $\kappa$. Gemini and Claude are near-interchangeable; GPT-5.1 agrees on the ranking but is stricter, which lowers its pairwise $\kappa$.}
+\caption{Pairwise inter-judge agreement on the binary verdict over the $538$-response sample: fraction of matching decisions and Cohen's $\kappa$. Gemini and Claude are near-interchangeable; GPT-5.1 agrees on the ranking but is stricter.}
 \label{tab:cross-judge-corr}
 \begin{tabular}{lrr}
 \toprule
@@ -705,7 +705,7 @@ The ranking-preserved, level-shifted pattern is exactly what a robust instrument
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Per-cohort recognition rate under each judge on the shared sample. The silent$\to$universal ladder is monotone under all three judges; GPT-5.1 sits uniformly below Gemini and Claude (a strictness offset), but the ordering---the basis of every finding---is identical. (Per-cohort $\kappa$ is deflated on the near-uniform cohorts, e.g.\ GPT-5 authors, where almost every verdict is identical and chance agreement nearly equals observed agreement; raw agreement there stays $\geq 0.85$.)}
+\caption{Per-cohort recognition rate under each judge on the shared sample. The silent$\to$universal ladder is monotone under all three judges; GPT-5.1 sits uniformly below Gemini and Claude, but the ordering is identical.}
 \label{tab:cross-judge-bias}
 \begin{tabular}{lrrr}
 \toprule
@@ -736,7 +736,7 @@ One recipe floors higher and is handled explicitly. Fictional \emph{papers} floo
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Synthetic-null recognition by recipe. Fictional people and artifacts earn essentially zero recognition---the judge credits only facts it can verify, and there are none. Descriptive paper titles admit topic guesses (floor $\sim 0.06$); fictional competition medalists floor at essentially zero under the anti-confabulation provision.}
+\caption{Synthetic-null recognition by recipe. Fictional people and artifacts earn essentially zero. Descriptive paper titles admit topic guesses (floor $\sim 0.06$); fictional competition medalists floor at essentially zero.}
 \label{tab:synthetic}
 \begin{tabular}{lrr}
 \toprule
@@ -770,7 +770,7 @@ Alternative explanations for the headline findings were tested and rejected: tha
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{figures/fig_attention.pdf}
-    \caption{NameRank is not Wikipedia-pageview rank. \textbf{(a)}~Recognition against $\log_{10}$ article pageviews for entities with a resolvable article (small dots: entities; large markers: decile means). \textbf{(b)}~Within-cohort correlation by cohort: strong for celebrity cohorts (actors, athletes $r\approx0.85$), weak for the technical and research cohorts that carry the findings ($r\approx0.05$--$0.48$)---traffic and recognition co-move where fame drives both, not in the zone NameRank measures. \textbf{(c)}~Recognition distribution for entities with and without an article: the attention metric is undefined for the $66\%$ without one, whose scores span the discriminative zone.}
+    \caption{NameRank is not Wikipedia-pageview rank. \textbf{(a)}~Recognition against $\log_{10}$ article pageviews for entities with a resolvable article (small dots: entities; large markers: decile means). \textbf{(b)}~Within-cohort correlation: strong for celebrity cohorts (actors, athletes $r\approx0.85$), weak for technical and research cohorts ($r\approx0.05$--$0.48$). \textbf{(c)}~Recognition distribution for entities with and without an article; the metric is undefined for the $66\%$ without one.}
     \label{fig:attention}
 \end{figure}
 
@@ -782,7 +782,7 @@ First-name-inferred gender (via \texttt{gender-guesser}; ambiguous and unisex na
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Man-minus-woman NameRank gap by cohort. Among the research cohorts (top), the gap is a significant $+0.085$ for CS faculty but directional-only and not individually significant for the two smaller long-tail researcher cohorts ($p>0.3$)---a man-coded advantage that is present but modest and cohort-dependent. The cross-profession cohorts (bottom) show much larger raw gaps that reflect real-world fame differences in the sampled individuals, not a NameRank artifact---so the bias reading is restricted to the research comparison.}
+\caption{Man-minus-woman NameRank gap by cohort. Among the research cohorts (top), the gap is a significant $+0.085$ for CS faculty but directional-only for the two smaller long-tail cohorts ($p>0.3$). The cross-profession cohorts (bottom) show larger raw gaps reflecting real-world fame, not a NameRank artifact---so the bias reading is restricted to the research comparison.}
 \label{tab:gender}
 \begin{tabular}{lrrrr}
 \toprule
