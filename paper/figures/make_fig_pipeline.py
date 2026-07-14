@@ -1,6 +1,6 @@
 """Methodology pipeline schematic.
 
-A data-free figure: probe template + entity + gold + 37-model panel ->
+A data-free figure: probe template + entity + gold + 36-model panel ->
 per-(entity, model) judge & embedding scoring -> aggregated NameRank.
 
 Drawn entirely with matplotlib primitives (no external draw library).
@@ -105,7 +105,9 @@ def main() -> None:
     flow_label(ax, GAP1, LABEL_Y, "prompt")
 
     # ── Column 3: per-record scoring ──────────────────────────
-    box(ax, 6.65, 3.4, 2.55, 1.0,
+    # Judge box is taller than one grid cell so the three-line subtitle
+    # clears the bold title; top-aligned with the panel/NameRank boxes.
+    box(ax, 6.65, 3.15, 2.55, 1.35,
         text="Recognition judge",
         subtitle="binary verdict: $\\geq 1$ specific,\nnon-guessable, verified fact\nbeyond the context?",
         facecolor=C_JUDGE, edgecolor="#7fae90")
