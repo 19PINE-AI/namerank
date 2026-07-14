@@ -2,7 +2,7 @@
 % Appendix roadmap
 % ══════════════════════════════════════════════════════════════
 \begin{center}
-\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:credentials}--\ref{app:selfreport} give the full tables and case detail behind the findings of Sections~\ref{sec:results-headline}--\ref{sec:results-validation}, roughly in the order they appear. Appendices~\ref{app:scoring}--\ref{app:confounds} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat; Appendices~\ref{app:gender} and~\ref{app:limitations} cover the inherited-bias discussion and the limitations summary.}
+\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:awards}--\ref{app:selfreport} give the full tables and case detail behind the findings of Sections~\ref{sec:results-headline}--\ref{sec:results-validation}, roughly in the order they appear. Appendices~\ref{app:scoring}--\ref{app:confounds} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat; Appendices~\ref{app:gender} and~\ref{app:limitations} cover the inherited-bias discussion and the limitations summary.}
 \end{center}
 
 % ══════════════════════════════════════════════════════════════
@@ -53,41 +53,6 @@ Special cohorts & 186 & GPT-5 system-card authors, DeepSeek-V3 authors, conferen
 
 % ══════════════════════════════════════════════════════════════
 
-\section{Credential Ladder Detail}
-\label{app:credentials}
-
-Table~\ref{tab:credential-treadmill} gives the full credential ladder summarized in Figure~\ref{fig:career-arc}.
-
-\begin{table}[!htbp]
-\centering
-\small
-\caption{Credential ladder under the recognition metric. The OpenAlex long-tail researcher cohort (citations $500$--$30{,}000$) supplies the working-researcher baseline. Recognition rate is the panel fraction (Equation~\ref{eq:namerank}); the synthetic-null floor for competition/fellowship recipes is ${\sim}0.02$. \emph{All} olympiad/fellowship credentials sit below the baseline; ICPC and Putnam come closest but still fall short, the rest well short. The two author-list cohorts (system-card, technical-report contributors) sit near the floor---names that appear only inside a large roster.}
-\label{tab:credential-treadmill}
-\begin{tabular}{lrrr}
-\toprule
-Credential & $n$ & Recognition & vs.\ baseline \\
-\midrule
-ICPC World Finalist gold & 18 & 0.34 & $-0.06$ \\
-Putnam top-25 fellow & 35 & 0.34 & $-0.05$ \\
-\textbf{OpenAlex long-tail researchers (baseline)} & \textbf{603} & \textbf{0.40} & --- \\
-MSRA PhD Fellowship & 237 & 0.18 & $-0.21$ \\
-IOI gold & 68 & 0.15 & $-0.24$ \\
-Rhodes Scholarship & 36 & 0.15 & $-0.24$ \\
-IMO gold & 197 & 0.12 & $-0.28$ \\
-DeepSeek-V3 report author & 69 & 0.10 & $-0.30$ \\
-GPT-5 system-card author & 80 & 0.09 & $-0.31$ \\
-NOI China gold & 29 & 0.09 & $-0.31$ \\
-CMO China gold & 131 & 0.03 & $-0.36$ \\
-CPhO China first prize & 50 & 0.03 & $-0.37$ \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\textbf{Career-track split.} Within IMO gold medalists, US-tracked academic and industry careers---the subset most comparable to the citation-floored OpenAlex baseline---score materially higher than non-Anglophone-tracked golds. The medal-and-name pair propagates only where the post-medal career produces English text, which is why Putnam and ICPC (feeding almost exclusively into US-tracked careers) come closest to the baseline while IMO and CMO (dispersing globally) fall well below it.
-
-\textbf{Temporal patterns.} Within IMO medalists, medal year is essentially uncorrelated with recognition: the credential signal neither strengthens nor decays across the sampled window, consistent with a cumulative-ledger reading in which what accrues is post-medal production rather than the medal's recency (Section~\ref{sec:discussion-clock}).
-
-% ══════════════════════════════════════════════════════════════
 
 \section{Mid/Late-Career Awards as Recognition Predictors}
 \label{app:awards}

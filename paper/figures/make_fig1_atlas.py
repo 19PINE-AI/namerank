@@ -64,15 +64,15 @@ ax.set_yticklabels([l for l, _ in labels], fontsize=7.2)
 for tick, (_l, is_cred) in zip(ax.get_yticklabels(), labels):
     if is_cred:
         tick.set_fontweight("bold")
-ax.set_ylim(-1, len(tab))
+ax.set_ylim(-1, len(tab) + 1.2)
 _style.recog_xaxis(ax)
 
-# zone annotations along the top
+# zone annotations along the top, lifted clear of the topmost cohort line
 ax_top = ax.secondary_xaxis("top")
 ax_top.set_xticks([])
 for x0, x1, name in [(0.0, 0.10, "silent"), (0.10, 0.60, "discriminative"),
                      (0.60, 1.0, "universal")]:
-    ax.annotate(name, xy=((x0 + x1) / 2, len(tab) - 0.2),
+    ax.annotate(name, xy=((x0 + x1) / 2, len(tab) + 0.35),
                 ha="center", va="bottom", fontsize=8.5, style="italic",
                 color="#555555")
     if x1 < 1.0:

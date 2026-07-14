@@ -67,7 +67,8 @@ axa.legend(handles=[
            markersize=6, label="creator"),
     Line2D([0], [0], marker="o", color="none", markerfacecolor=RECOG["artifact"],
            markersize=6, label="artifact")],
-    loc="lower right", frameon=False, fontsize=7.5)
+    loc="upper right", bbox_to_anchor=(1.0, -0.14), frameon=False,
+    fontsize=7.5, ncol=2, handletextpad=0.4, columnspacing=1.2)
 
 art = json.loads((REPO / "experiments/t5_5_llm_area/inputs/artifacts.json").read_text())
 llm = _data.per_entity("llm").set_index("entity_id")
