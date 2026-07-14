@@ -1,0 +1,110 @@
+[
+ {
+  "id": "syn_llm_kestrel",
+  "name": "Kestrel Vanterpool",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_thaddeus",
+  "name": "Thaddeus Oyelaran",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_marisela",
+  "name": "Marisela Quibell",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_bramwell",
+  "name": "Bramwell Ashkani",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_isolde",
+  "name": "Isolde Fennimore",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_cornelius",
+  "name": "Cornelius Vraibley",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_delphine",
+  "name": "Delphine Ashgrove",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_ephraim",
+  "name": "Ephraim Toskovic",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_ottoline",
+  "name": "Ottoline Bracegirdle",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_zephyrin",
+  "name": "Zephyrin Kohlrieser",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_marguerite",
+  "name": "Marguerite Ansaldi",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ },
+ {
+  "id": "syn_llm_gideon",
+  "name": "Gideon Vasquenilla",
+  "context": "a machine learning researcher",
+  "cohort": "synthetic_llm_area_v2",
+  "gold_v2": true,
+  "gold_source": "synthetic",
+  "synthetic": true
+ }
+]

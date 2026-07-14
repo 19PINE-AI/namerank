@@ -1,0 +1,1536 @@
+[
+ {
+  "person": "Edward J. Hu",
+  "artifact": "LoRA",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Tim Dettmers",
+  "artifact": "QLoRA",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jason Wei",
+  "artifact": "Chain-of-Thought prompting",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Shunyu Yao",
+  "artifact": "ReAct",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Patrick Lewis",
+  "artifact": "Retrieval-Augmented Generation (RAG)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Paul Christiano",
+  "artifact": "Deep RL from human preferences (RLHF)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Rafael Rafailov",
+  "artifact": "Direct Preference Optimization (DPO)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "John Schulman",
+  "artifact": "Proximal Policy Optimization (PPO)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Diederik P. Kingma",
+  "artifact": "Adam optimizer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Sergey Ioffe",
+  "artifact": "Batch Normalization",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jimmy Lei Ba",
+  "artifact": "Layer Normalization",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Nitish Srivastava",
+  "artifact": "Dropout",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Ashish Vaswani",
+  "artifact": "Transformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jacob Devlin",
+  "artifact": "BERT",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Yinhan Liu",
+  "artifact": "RoBERTa",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Tri Dao",
+  "artifact": "FlashAttention",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "William Fedus",
+  "artifact": "Switch Transformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jeffrey Pennington",
+  "artifact": "GloVe",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Ian Goodfellow",
+  "artifact": "Generative Adversarial Networks (GAN)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jonathan Ho",
+  "artifact": "Denoising Diffusion Probabilistic Models (DDPM)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Alec Radford",
+  "artifact": "CLIP",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Alexey Dosovitskiy",
+  "artifact": "Vision Transformer (ViT)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Kaiming He",
+  "artifact": "Masked Autoencoders (MAE)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Xiang Lisa Li",
+  "artifact": "Prefix-Tuning",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Brian Lester",
+  "artifact": "Prompt Tuning",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Yuntao Bai",
+  "artifact": "Constitutional AI",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Yaniv Leviathan",
+  "artifact": "Speculative Decoding",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Woosuk Kwon",
+  "artifact": "PagedAttention (vLLM)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Albert Gu",
+  "artifact": "Mamba (state space models)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Joshua Ainslie",
+  "artifact": "Grouped-Query Attention (GQA)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Rico Sennrich",
+  "artifact": "Byte-Pair Encoding for NMT",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Ilya Sutskever",
+  "artifact": "Sequence to Sequence learning",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Dzmitry Bahdanau",
+  "artifact": "Bahdanau attention",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Ari Holtzman",
+  "artifact": "Nucleus (top-p) sampling",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Geoffrey Hinton",
+  "artifact": "Knowledge Distillation",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Olaf Ronneberger",
+  "artifact": "U-Net",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Joseph Redmon",
+  "artifact": "YOLO",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Shaoqing Ren",
+  "artifact": "Faster R-CNN",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Alexei Baevski",
+  "artifact": "wav2vec 2.0",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jordan Hoffmann",
+  "artifact": "Chinchilla scaling laws",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jared Kaplan",
+  "artifact": "Neural scaling laws",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Timo Schick",
+  "artifact": "Toolformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Yizhong Wang",
+  "artifact": "Self-Instruct",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Samyam Rajbhandari",
+  "artifact": "ZeRO",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Mohammad Shoeybi",
+  "artifact": "Megatron-LM",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Xuezhi Wang",
+  "artifact": "Self-Consistency",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Noah Shinn",
+  "artifact": "Reflexion",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Omar Khattab",
+  "artifact": "ColBERT",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Vladimir Karpukhin",
+  "artifact": "Dense Passage Retrieval (DPR)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Nils Reimers",
+  "artifact": "Sentence-BERT",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Hao Liu",
+  "artifact": "Ring Attention",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Shih-Yang Liu",
+  "artifact": "DoRA",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Noam Shazeer",
+  "artifact": "Mixture of Experts (Outrageously Large NN)",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Juho Lee",
+  "artifact": "Set Transformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Andrew Jaegle",
+  "artifact": "Perceiver",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Iz Beltagy",
+  "artifact": "Longformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Nikita Kitaev",
+  "artifact": "Reformer",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Zhilin Yang",
+  "artifact": "XLNet",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Zhenzhong Lan",
+  "artifact": "ALBERT",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Pengcheng He",
+  "artifact": "DeBERTa",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Mike Lewis",
+  "artifact": "BART",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Jingqing Zhang",
+  "artifact": "Pegasus",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Rowan Zellers",
+  "artifact": "HellaSwag",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Alex Wang",
+  "artifact": "GLUE",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Pranav Rajpurkar",
+  "artifact": "SQuAD",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Tsung-Yi Lin",
+  "artifact": "MS COCO",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Keisuke Sakaguchi",
+  "artifact": "WinoGrande",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Stephanie Lin",
+  "artifact": "TruthfulQA",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Denny Zhou",
+  "artifact": "Least-to-Most Prompting",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Luyu Gao",
+  "artifact": "Program-Aided Language Models",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Wenhu Chen",
+  "artifact": "Program of Thoughts Prompting",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Tianle Cai",
+  "artifact": "Medusa speculative decoding",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Akari Asai",
+  "artifact": "Self-RAG",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Carlos E. Jimenez",
+  "artifact": "SWE-bench",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "David Rein",
+  "artifact": "GPQA benchmark",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Xiang Yue",
+  "artifact": "MMMU benchmark",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Wei-Lin Chiang",
+  "artifact": "Chatbot Arena",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Lianmin Zheng",
+  "artifact": "MT-Bench Judging LLM-as-a-Judge",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Yann Dubois",
+  "artifact": "AlpacaEval AlpacaFarm",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Tom Kwiatkowski",
+  "artifact": "Natural Questions",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Mandar Joshi",
+  "artifact": "TriviaQA",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Albert Q. Jiang",
+  "artifact": "Mixtral of Experts",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Daya Guo",
+  "artifact": "DeepSeek-R1",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Dirk Groeneveld",
+  "artifact": "OLMo Open Language Model",
+  "kind": "method",
+  "cohort": "llm_method_originator"
+ },
+ {
+  "person": "Niki Parmar",
+  "artifact": "Attention is All you Need",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Jakob Uszkoreit",
+  "artifact": "Attention is All you Need",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Llion Jones",
+  "artifact": "Attention is All you Need",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Aidan N. Gomez",
+  "artifact": "Attention is All you Need",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Lukasz Kaiser",
+  "artifact": "Attention is All you Need",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Hugo Touvron",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Thibaut Lavril",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Gautier Izacard",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Timothée Lacroix",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Baptiste Rozière",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Eric Hambro",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Faisal Azhar",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Aur'elien Rodriguez",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Armand Joulin",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Edouard Grave",
+  "artifact": "LLaMA: Open and Efficient Foundation Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Sebastian Borgeaud",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Arthur Mensch",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Elena Buchatskaya",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Trevor Cai",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Eliza Rutherford",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Diego de Las Casas",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Lisa Anne Hendricks",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Johannes Welbl",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Aidan Clark",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Eric Noland",
+  "artifact": "Training Compute-Optimal Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Jong Wook Kim",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Chris Hallacy",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Gabriel Goh",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Amanda Askell",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Pamela Mishkin",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Jack Clark",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Gretchen Krueger",
+  "artifact": "Learning Transferable Visual Models From Natural Language Supervision",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Yi Tay",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Rishi Bommasani",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Colin Raffel",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Barret Zoph",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Dani Yogatama",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Maarten Bosma",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Donald Metzler",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ed H. Chi",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Tatsunori Hashimoto",
+  "artifact": "Emergent Abilities of Large Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Hyung Won Chung",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Le Hou",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Eric Li",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Mostafa Dehghani",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Siddhartha Brahma",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Albert Webson",
+  "artifact": "Scaling Instruction-Finetuned Language Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Adam Roberts",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Katherine Lee",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Sharan Narang",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Michael Matena",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Yanqi Zhou",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Wei Li",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Peter J. Liu",
+  "artifact": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Mehdi Mirza",
+  "artifact": "Conditional Generative Adversarial Nets",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Simon Osindero",
+  "artifact": "Conditional Generative Adversarial Nets",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ming-Wei Chang",
+  "artifact": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Kenton Lee",
+  "artifact": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Kristina Toutanova",
+  "artifact": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Louis Martin",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Kevin R. Stone",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Peter Albert",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Amjad Almahairi",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Yasmine Babaei",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Nikolay Bash-lykov",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Soumya Batra",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Prajjwal Bhargava",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Shruti Bhosale",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Lukas Blecher",
+  "artifact": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Steven Adler",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ilge Akkaya",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Florencia Leoni Aleman",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Janko Altenschmidt",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Shyamal Anadkat",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Red Avila",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Igor Babuschkin",
+  "artifact": "GPT-4 Technical Report",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Sébastien Bubeck",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Varun Chandrasekaran",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ronen Eldan",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "John A. Gehrke",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Eric Horvitz",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ece Kamar",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Peter Lee",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Yuan-Fang Li",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Scott M. Lundberg",
+  "artifact": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+  "kind": "paper",
+  "cohort": "llm_foundational_author"
+ },
+ {
+  "person": "Ajay Jain",
+  "artifact": "Denoising Diffusion Probabilistic Models",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Tero Karras",
+  "artifact": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2019
+ },
+ {
+  "person": "Timo Aila",
+  "artifact": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2019
+ },
+ {
+  "person": "Ross B. Girshick",
+  "artifact": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2015
+ },
+ {
+  "person": "Jian Sun",
+  "artifact": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2015
+ },
+ {
+  "person": "Emily M. Bender",
+  "artifact": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "FAccT",
+  "year": 2021
+ },
+ {
+  "person": "Timnit Gebru",
+  "artifact": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "FAccT",
+  "year": 2021
+ },
+ {
+  "person": "Angelina McMillan-Major",
+  "artifact": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "FAccT",
+  "year": 2021
+ },
+ {
+  "person": "Shmargaret Shmitchell",
+  "artifact": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "FAccT",
+  "year": 2021
+ },
+ {
+  "person": "Chiyuan Zhang",
+  "artifact": "Understanding deep learning requires rethinking generalization",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICLR",
+  "year": 2017
+ },
+ {
+  "person": "Samy Bengio",
+  "artifact": "Understanding deep learning requires rethinking generalization",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICLR",
+  "year": 2017
+ },
+ {
+  "person": "Moritz Hardt",
+  "artifact": "Understanding deep learning requires rethinking generalization",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICLR",
+  "year": 2017
+ },
+ {
+  "person": "Christian Szegedy",
+  "artifact": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICML",
+  "year": 2015
+ },
+ {
+  "person": "Zilong Liu",
+  "artifact": "Uncovering Regional Defaults from Photorealistic Forests in Text-to-Image Generation with DALL-E 2",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "misc",
+  "year": 2022
+ },
+ {
+  "person": "Krzysztof Janowicz",
+  "artifact": "Uncovering Regional Defaults from Photorealistic Forests in Text-to-Image Generation with DALL-E 2",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "misc",
+  "year": 2022
+ },
+ {
+  "person": "Kitty Currier",
+  "artifact": "Uncovering Regional Defaults from Photorealistic Forests in Text-to-Image Generation with DALL-E 2",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "misc",
+  "year": 2022
+ },
+ {
+  "person": "Meilin Shi",
+  "artifact": "Uncovering Regional Defaults from Photorealistic Forests in Text-to-Image Generation with DALL-E 2",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "misc",
+  "year": 2022
+ },
+ {
+  "person": "Eric Mintun",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Nikhila Ravi",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Hanzi Mao",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Chloé Rolland",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Laura Gustafson",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Tete Xiao",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Spencer Whitehead",
+  "artifact": "Segment Anything",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2023
+ },
+ {
+  "person": "Haotian Liu",
+  "artifact": "Visual Instruction Tuning",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Chunyuan Li",
+  "artifact": "Visual Instruction Tuning",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Qingyang Wu",
+  "artifact": "Visual Instruction Tuning",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Yong Jae Lee",
+  "artifact": "Visual Instruction Tuning",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Archit Sharma",
+  "artifact": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Stefano Ermon",
+  "artifact": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Christopher D. Manning",
+  "artifact": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Chelsea Finn",
+  "artifact": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Miles Turpin",
+  "artifact": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2022
+ },
+ {
+  "person": "Julian Michael",
+  "artifact": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2022
+ },
+ {
+  "person": "Ethan Perez",
+  "artifact": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2022
+ },
+ {
+  "person": "Sam Bowman",
+  "artifact": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2022
+ },
+ {
+  "person": "Nisan Stiennon",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Long Ouyang",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Jeff Wu",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Daniel M. Ziegler",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Ryan J. Lowe",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Chelsea Voss",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Dario Amodei",
+  "artifact": "Learning to summarize from human feedback",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Zhuang Liu",
+  "artifact": "A ConvNet for the 2020s",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Chaozheng Wu",
+  "artifact": "A ConvNet for the 2020s",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Christoph Feichtenhofer",
+  "artifact": "A ConvNet for the 2020s",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Trevor Darrell",
+  "artifact": "A ConvNet for the 2020s",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Saining Xie",
+  "artifact": "A ConvNet for the 2020s",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Xinlei Chen",
+  "artifact": "Masked Autoencoders Are Scalable Vision Learners",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Yanghao Li",
+  "artifact": "Masked Autoencoders Are Scalable Vision Learners",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Piotr Doll'ar",
+  "artifact": "Masked Autoencoders Are Scalable Vision Learners",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "CVPR",
+  "year": 2022
+ },
+ {
+  "person": "Ze Liu",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Yutong Lin",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Yue Cao",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Han Hu",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Yixuan Wei",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Zheng Zhang",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Stephen Lin",
+  "artifact": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "ICCV",
+  "year": 2021
+ },
+ {
+  "person": "Jane Dwivedi-Yu",
+  "artifact": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Roberto Dessì",
+  "artifact": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Luke Zettlemoyer",
+  "artifact": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Nicola Cancedda",
+  "artifact": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Thomas Scialom",
+  "artifact": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2023
+ },
+ {
+  "person": "Heinrich Kuttler",
+  "artifact": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ },
+ {
+  "person": "Wen-tau Yih",
+  "artifact": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "kind": "best_paper",
+  "cohort": "llm_best_paper_author",
+  "venue": "NeurIPS",
+  "year": 2020
+ }
+]

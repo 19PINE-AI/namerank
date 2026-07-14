@@ -1,187 +1,187 @@
 {
  "n": 258,
  "panel_invariance": {
-  "r": 0.905,
-  "mean_shift": 0.091,
+  "r": 0.827,
+  "mean_shift": 0.117,
   "n": 258
  },
- "r2_total_views": 0.095,
+ "r2_total_views": 0.387,
  "cv_total_views": [
-  0.09,
-  0.109
+  0.373,
+  0.164
  ],
- "r2_peak_views": 0.119,
+ "r2_peak_views": 0.342,
  "cv_peak_views": [
-  0.114,
-  0.116
+  0.331,
+  0.161
  ],
- "r2_eff_duration": 0.033,
+ "r2_eff_duration": 0.001,
  "cv_eff_duration": [
-  0.022,
-  0.077
+  -0.008,
+  0.014
  ],
- "r2_days_above_10": 0.016,
+ "r2_days_above_10": 0.0,
  "cv_days_above_10": [
-  0.005,
-  0.056
+  -0.01,
+  0.014
  ],
- "r2_tail_daily": 0.065,
+ "r2_tail_daily": 0.345,
  "cv_tail_daily": [
-  0.06,
-  0.09
+  0.332,
+  0.153
  ],
  "deciles": [
   {
    "decile": 1,
    "n": 25,
    "geomean_views": 2415,
-   "mean_nr": 0.379,
+   "mean_nr": 0.613,
    "refusal": 0.116
   },
   {
    "decile": 2,
    "n": 26,
    "geomean_views": 7395,
-   "mean_nr": 0.385,
+   "mean_nr": 0.618,
    "refusal": 0.106
   },
   {
    "decile": 3,
    "n": 26,
    "geomean_views": 16514,
-   "mean_nr": 0.405,
+   "mean_nr": 0.661,
    "refusal": 0.118
   },
   {
    "decile": 4,
    "n": 26,
    "geomean_views": 39348,
-   "mean_nr": 0.464,
+   "mean_nr": 0.697,
    "refusal": 0.074
   },
   {
    "decile": 5,
    "n": 26,
    "geomean_views": 67583,
-   "mean_nr": 0.427,
-   "refusal": 0.062
+   "mean_nr": 0.773,
+   "refusal": 0.061
   },
   {
    "decile": 6,
    "n": 25,
    "geomean_views": 133127,
-   "mean_nr": 0.513,
-   "refusal": 0.054
+   "mean_nr": 0.803,
+   "refusal": 0.056
   },
   {
    "decile": 7,
    "n": 26,
    "geomean_views": 251374,
-   "mean_nr": 0.484,
-   "refusal": 0.035
+   "mean_nr": 0.825,
+   "refusal": 0.036
   },
   {
    "decile": 8,
    "n": 26,
    "geomean_views": 480323,
-   "mean_nr": 0.478,
-   "refusal": 0.014
+   "mean_nr": 0.918,
+   "refusal": 0.015
   },
   {
    "decile": 9,
    "n": 26,
    "geomean_views": 1223071,
-   "mean_nr": 0.49,
-   "refusal": 0.007
+   "mean_nr": 0.928,
+   "refusal": 0.008
   },
   {
    "decile": 10,
    "n": 26,
    "geomean_views": 3312033,
-   "mean_nr": 0.499,
+   "mean_nr": 0.946,
    "refusal": 0.011
   }
  ],
  "gold_length_control": {
-  "r2_base": 0.095,
-  "r2_with_gw": 0.168,
-  "r2_gw_only": 0.006,
-  "slope_lt_given_gw": 0.063,
-  "se_lt_given_gw": 0.01,
-  "beta_gw": -0.041
+  "r2_base": 0.387,
+  "r2_with_gw": 0.43,
+  "r2_gw_only": 0.239,
+  "slope_lt_given_gw": 0.1,
+  "se_lt_given_gw": 0.013,
+  "beta_gw": 0.045
  },
  "channels": [
   {
    "decile": 1,
-   "cov": 0.463,
-   "acc": 0.614
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 2,
-   "cov": 0.471,
-   "acc": 0.596
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 3,
-   "cov": 0.463,
-   "acc": 0.641
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 4,
-   "cov": 0.538,
-   "acc": 0.67
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 5,
-   "cov": 0.491,
-   "acc": 0.713
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 6,
-   "cov": 0.57,
-   "acc": 0.751
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 7,
-   "cov": 0.55,
-   "acc": 0.778
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 8,
-   "cov": 0.53,
-   "acc": 0.846
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 9,
-   "cov": 0.544,
-   "acc": 0.851
+   "cov": 0.0,
+   "acc": 0.0
   },
   {
    "decile": 10,
-   "cov": 0.539,
-   "acc": 0.878
+   "cov": 0.0,
+   "acc": 0.0
   }
  ],
  "peak_vs_duration": {
-  "beta_peak": 0.042,
-  "se_peak": 0.008,
-  "beta_dur": -0.008,
-  "se_dur": 0.009,
-  "r2_joint": 0.122,
+  "beta_peak": 0.127,
+  "se_peak": 0.011,
+  "beta_dur": 0.043,
+  "se_dur": 0.012,
+  "r2_joint": 0.387,
   "cv_joint": [
-   0.108,
-   0.118
+   0.367,
+   0.167
   ],
-  "marg_peak": 0.089,
-  "marg_dur": 0.003
+  "marg_peak": 0.387,
+  "marg_dur": 0.045
  },
  "matched_peak_contrast": [
   {
    "peak_tercile": 1,
    "nr_by_dur_tercile": [
-    0.415,
-    0.399,
-    0.349
+    0.635,
+    0.667,
+    0.641
    ],
    "n": [
     29,
@@ -192,9 +192,9 @@
   {
    "peak_tercile": 2,
    "nr_by_dur_tercile": [
-    0.46,
-    0.479,
-    0.468
+    0.715,
+    0.769,
+    0.856
    ],
    "n": [
     29,
@@ -205,9 +205,9 @@
   {
    "peak_tercile": 3,
    "nr_by_dur_tercile": [
-    0.499,
-    0.521,
-    0.485
+    0.902,
+    0.893,
+    0.931
    ],
    "n": [
     29,
@@ -218,241 +218,241 @@
  ],
  "recurring": {
   "n_recurring": 106,
-  "raw_recurring": 0.435,
-  "raw_singular": 0.465,
-  "adj_delta": -0.061,
-  "se": 0.015,
+  "raw_recurring": 0.826,
+  "raw_singular": 0.746,
+  "adj_delta": 0.006,
+  "se": 0.019,
   "peak_dur_ctrl": {
-   "beta_peak": 0.07,
-   "se_peak": 0.012,
-   "beta_dur": 0.005,
-   "se_dur": 0.01,
-   "beta_rec": -0.057,
-   "se_rec": 0.015
+   "beta_peak": 0.102,
+   "se_peak": 0.014,
+   "beta_dur": 0.03,
+   "se_dur": 0.013,
+   "beta_rec": -0.002,
+   "se_rec": 0.018
   }
  },
  "region": {
   "baseline": "Anglo-America & Oceania",
   "base_n": 45,
-  "base_raw": 0.463,
+  "base_raw": 0.786,
   "rows": [
    {
     "group": "East Asia",
     "n": 31,
-    "raw_mean": 0.425,
-    "coef": -0.033,
-    "se": 0.031
+    "raw_mean": 0.797,
+    "coef": 0.025,
+    "se": 0.037
    },
    {
     "group": "Eastern Europe & Russia",
     "n": 28,
-    "raw_mean": 0.506,
-    "coef": 0.038,
-    "se": 0.03
+    "raw_mean": 0.823,
+    "coef": 0.02,
+    "se": 0.031
    },
    {
     "group": "Global",
     "n": 1,
-    "raw_mean": 0.687,
-    "coef": 0.249,
-    "se": 0.02
+    "raw_mean": 0.944,
+    "coef": 0.237,
+    "se": 0.025
    },
    {
     "group": "Latin America",
     "n": 32,
-    "raw_mean": 0.452,
-    "coef": -0.008,
-    "se": 0.026
+    "raw_mean": 0.763,
+    "coef": -0.012,
+    "se": 0.031
    },
    {
     "group": "Middle East & Africa",
     "n": 35,
-    "raw_mean": 0.48,
-    "coef": 0.009,
-    "se": 0.028
+    "raw_mean": 0.824,
+    "coef": 0.014,
+    "se": 0.035
    },
    {
     "group": "South & Southeast Asia",
     "n": 42,
-    "raw_mean": 0.397,
-    "coef": -0.06,
-    "se": 0.028
+    "raw_mean": 0.697,
+    "coef": -0.068,
+    "se": 0.032
    },
    {
     "group": "Western Europe",
     "n": 44,
-    "raw_mean": 0.453,
-    "coef": -0.013,
-    "se": 0.025
+    "raw_mean": 0.78,
+    "coef": -0.015,
+    "se": 0.033
    }
   ]
  },
  "year": {
-  "delta_2022": -0.009,
-  "se_2022": 0.019,
-  "delta_2023": -0.049,
-  "se_2023": 0.018,
+  "delta_2022": -0.033,
+  "se_2022": 0.02,
+  "delta_2023": -0.132,
+  "se_2023": 0.022,
   "raw": {
-   "2021": 0.471,
-   "2022": 0.47,
-   "2023": 0.421
+   "2021": 0.831,
+   "2022": 0.822,
+   "2023": 0.696
   }
  },
  "category": [
   {
    "category": "accident_disaster",
    "n": 29,
-   "raw": 0.459,
-   "resid": 0.021
+   "raw": 0.684,
+   "resid": -0.051
   },
   {
    "category": "business_tech",
    "n": 8,
-   "raw": 0.512,
-   "resid": 0.057
+   "raw": 0.91,
+   "resid": 0.125
   },
   {
    "category": "civil_unrest",
    "n": 21,
-   "raw": 0.51,
-   "resid": 0.062
+   "raw": 0.801,
+   "resid": 0.036
   },
   {
    "category": "conflict_terrorism",
    "n": 35,
-   "raw": 0.484,
-   "resid": 0.031
+   "raw": 0.751,
+   "resid": -0.029
   },
   {
    "category": "crime_legal",
    "n": 21,
-   "raw": 0.416,
-   "resid": -0.017
+   "raw": 0.598,
+   "resid": -0.124
   },
   {
    "category": "entertainment_culture",
    "n": 6,
-   "raw": 0.396,
-   "resid": -0.079
+   "raw": 0.863,
+   "resid": 0.018
   },
   {
    "category": "natural_disaster",
    "n": 31,
-   "raw": 0.417,
-   "resid": -0.016
+   "raw": 0.782,
+   "resid": 0.059
   },
   {
    "category": "politics_elections",
    "n": 54,
-   "raw": 0.454,
-   "resid": -0.004
+   "raw": 0.829,
+   "resid": 0.033
   },
   {
    "category": "royalty_ceremony",
    "n": 9,
-   "raw": 0.52,
-   "resid": 0.064
+   "raw": 0.855,
+   "resid": 0.066
   },
   {
    "category": "sports",
    "n": 41,
-   "raw": 0.424,
-   "resid": -0.054
+   "raw": 0.831,
+   "resid": -0.022
   }
  ],
  "gdelt": {
   "n": 118,
   "corr_wiki": 0.327,
-  "r2_nr": 0.006
+  "r2_nr": 0.09
  },
  "top": [
   {
-   "t": "Tyre Nichols protests",
-   "nr": 0.865,
-   "views": 155364
-  },
-  {
-   "t": "Owo church attack",
-   "nr": 0.847,
-   "views": 121184
-  },
-  {
-   "t": "2021 East Asia sandstorm",
-   "nr": 0.756,
-   "views": 5215
-  },
-  {
-   "t": "2022 Abu Dhabi attack",
-   "nr": 0.754,
-   "views": 43631
-  },
-  {
-   "t": "2023 antisemitic riots in the North Caucasus",
-   "nr": 0.716,
-   "views": 18811
-  },
-  {
-   "t": "Daunte Wright protests",
-   "nr": 0.709,
-   "views": 40329
+   "t": "2022 Russian invasion of Ukraine",
+   "nr": 1.0,
+   "views": 51992090
   },
   {
    "t": "Siege of Mariupol",
-   "nr": 0.708,
+   "nr": 1.0,
    "views": 2645693
   },
   {
-   "t": "Creeslough explosion",
-   "nr": 0.696,
-   "views": 101428
+   "t": "2022 French presidential election",
+   "nr": 1.0,
+   "views": 2602989
+  },
+  {
+   "t": "2021 Israel\u2013Palestine crisis",
+   "nr": 1.0,
+   "views": 2086305
+  },
+  {
+   "t": "2022 Philippine presidential election",
+   "nr": 1.0,
+   "views": 1747356
+  },
+  {
+   "t": "Mahsa Amini protests",
+   "nr": 1.0,
+   "views": 1628334
+  },
+  {
+   "t": "GameStop short squeeze",
+   "nr": 1.0,
+   "views": 1576682
+  },
+  {
+   "t": "Bucha massacre",
+   "nr": 1.0,
+   "views": 1383888
   }
  ],
  "bottom": [
   {
-   "t": "Royal Commission into Defence and Veteran Suicide",
-   "nr": 0.209,
-   "views": 1019,
-   "refusal": 0.08333333333333333
+   "t": "2023 Jaipur Express killings",
+   "nr": 0.361,
+   "views": 8490,
+   "refusal": 0.25
   },
   {
-   "t": "2021 South Korean by-elections",
-   "nr": 0.206,
-   "views": 48992,
-   "refusal": 0.0
+   "t": "2023 Wamena riot",
+   "nr": 0.361,
+   "views": 4546,
+   "refusal": 0.16666666666666666
+  },
+  {
+   "t": "2023 ACC Under-19 Asia Cup",
+   "nr": 0.324,
+   "views": 244808,
+   "refusal": 0.02702702702702703
   },
   {
    "t": "2023 Demise Honours",
-   "nr": 0.202,
+   "nr": 0.278,
    "views": 30155,
    "refusal": 0.5277777777777778
   },
   {
-   "t": "2022 Sindh local government elections",
-   "nr": 0.202,
-   "views": 11101,
-   "refusal": 0.05555555555555555
-  },
-  {
-   "t": "2022 Malaysian general election",
-   "nr": 0.174,
-   "views": 1306837,
-   "refusal": 0.027777777777777776
+   "t": "2023 Astore avalanche",
+   "nr": 0.222,
+   "views": 2035,
+   "refusal": 0.3611111111111111
   },
   {
    "t": "2021 Kilmarnock incidents",
-   "nr": 0.161,
+   "nr": 0.194,
    "views": 5250,
    "refusal": 0.4444444444444444
   },
   {
    "t": "2023 North Waziristan landmine attack",
-   "nr": 0.129,
+   "nr": 0.139,
    "views": 1932,
    "refusal": 0.2777777777777778
   },
   {
    "t": "2021 Guangzhou bombing",
-   "nr": 0.092,
+   "nr": 0.111,
    "views": 12813,
    "refusal": 0.5555555555555556
   }

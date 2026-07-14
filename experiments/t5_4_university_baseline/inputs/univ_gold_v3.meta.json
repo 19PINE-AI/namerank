@@ -1,0 +1,5354 @@
+{
+ "univ_mit_yasheng_huang": {
+  "name": "Yasheng Huang",
+  "context": "an academic researcher in Indian Economic and Social Development at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_mit_victor_costan": {
+  "name": "Victor Costan",
+  "context": "an academic researcher in Security and Verification in Computing at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_mit_jeffrey_goldstone": {
+  "name": "Jeffrey Goldstone",
+  "context": "an academic researcher in Quantum Chromodynamics and Particle Interactions at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_alan_edelman": {
+  "name": "Alan Edelman",
+  "context": "an academic researcher in Matrix Theory and Algorithms at Massachusetts Institute of Technology",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_mit_kenneth_a_oye": {
+  "name": "Kenneth A. Oye",
+  "context": "an academic researcher in Global Peace and Security Dynamics at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_mit_jeffrey_i_steinfeld": {
+  "name": "Jeffrey I. Steinfeld",
+  "context": "an academic researcher in Atmospheric chemistry and aerosols at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_krishna_rajagopal": {
+  "name": "Krishna Rajagopal",
+  "context": "an academic researcher in Theoretical and Computational Physics at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_mit_thomas_l_magnanti": {
+  "name": "Thomas L. Magnanti",
+  "context": "an academic researcher in Transportation Planning and Optimization at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_mit_michael_j_piore": {
+  "name": "Michael J. Piore",
+  "context": "an academic researcher in Migration, Ethnicity, and Economy at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_mit_susan_whitfield_gabrieli": {
+  "name": "Susan Whitfield‐Gabrieli",
+  "context": "an academic researcher in Functional Brain Connectivity Studies at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_mit_heidi_nepf": {
+  "name": "Heidi Nepf",
+  "context": "an academic researcher in Hydrology and Sediment Transport Processes at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_mit_rub_n_juanes": {
+  "name": "Rubén Juanes",
+  "context": "an academic researcher in CO2 Sequestration and Geologic Interactions at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_mit_maxim_imakaev": {
+  "name": "Maxim Imakaev",
+  "context": "an academic researcher in Genomics and Chromatin Dynamics at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_danny_fox": {
+  "name": "Danny Fox",
+  "context": "an academic researcher in Syntax, Semantics, Linguistic Variation at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_joseph_m_replogle": {
+  "name": "Joseph M. Replogle",
+  "context": "an academic researcher in Single-cell and spatial transcriptomics at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_mit_j_taylor_perron": {
+  "name": "J. Taylor Perron",
+  "context": "an academic researcher in Hydrology and Sediment Transport Processes at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_mit_adam_c_martin": {
+  "name": "Adam C. Martin",
+  "context": "an academic researcher in Cellular Mechanics and Interactions at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_hazhir_rahmandad": {
+  "name": "Hazhir Rahmandad",
+  "context": "an academic researcher in COVID-19 epidemiological studies at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_mit_haruhiko_asada": {
+  "name": "Haruhiko Asada",
+  "context": "an academic researcher in Advanced Algorithms and Applications at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 16
+ },
+ "univ_mit_anne_e_deconinck": {
+  "name": "Anne E. Deconinck",
+  "context": "an academic researcher in Muscle Physiology and Disorders at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 11
+ },
+ "univ_mit_b_c_burchfiel": {
+  "name": "B. C. Burchfiel",
+  "context": "an academic researcher in Geological and Geochemical Analysis at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_mit_gustavo_m_hobold": {
+  "name": "Gustavo M. Hobold",
+  "context": "an academic researcher in Advancements in Battery Materials at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 2
+ },
+ "univ_mit_annapurna_poduri": {
+  "name": "Annapurna Poduri",
+  "context": "an academic researcher in Genomics and Rare Diseases at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 6
+ },
+ "univ_mit_polina_anikeeva": {
+  "name": "Polina Anikeeva",
+  "context": "an academic researcher in Quantum Dots Synthesis And Properties at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_mit_namit_chaudhary": {
+  "name": "Namit Chaudhary",
+  "context": "an academic researcher in RNA Interference and Gene Delivery at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "univ_mit_s_h_autler": {
+  "name": "S. H. Autler",
+  "context": "an academic researcher in Advanced Chemical Physics Studies at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 8
+ },
+ "univ_mit_vikash_p_chauhan": {
+  "name": "Vikash P. Chauhan",
+  "context": "an academic researcher in Nanoparticle-Based Drug Delivery at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_mit_h_c_hottel": {
+  "name": "H. C. Hottel",
+  "context": "an academic researcher in Solar Thermal and Photovoltaic Systems at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 5
+ },
+ "univ_mit_david_c_page": {
+  "name": "David C. Page",
+  "context": "an academic researcher in Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_mit_james_utama_surjadi": {
+  "name": "James Utama Surjadi",
+  "context": "an academic researcher in Cellular and Composite Structures at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_mit_dennis_h_klatt": {
+  "name": "Dennis H. Klatt",
+  "context": "an academic researcher in Phonetics and Phonology Research at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_young_s_song": {
+  "name": "Young S. Song",
+  "context": "an academic researcher in Recycling and Waste Management Techniques at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 9
+ },
+ "univ_mit_evelina_fedorenko": {
+  "name": "Evelina Fedorenko",
+  "context": "an academic researcher in Face Recognition and Perception at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_mit_bernd_zetsche": {
+  "name": "Bernd Zetsche",
+  "context": "an academic researcher in CRISPR and Genetic Engineering at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_venkat_venkatasubramanian": {
+  "name": "Venkat Venkatasubramanian",
+  "context": "an academic researcher in Fault Detection and Control Systems at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 16
+ },
+ "univ_mit_chiang_c_mei": {
+  "name": "Chiang C. Mei",
+  "context": "an academic researcher in Ocean Waves and Remote Sensing at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 4
+ },
+ "univ_mit_nuno_loureiro": {
+  "name": "Nuno Loureiro",
+  "context": "an academic researcher in Solar and Space Plasma Dynamics at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_mit_rahul_mazumder": {
+  "name": "Rahul Mazumder",
+  "context": "an academic researcher in Sparse and Compressive Sensing Techniques at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_mit_rory_p_o_shea": {
+  "name": "Rory P. O’Shea",
+  "context": "an academic researcher in Entrepreneurship Studies and Influences at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_michael_t_hemann": {
+  "name": "Michael T. Hemann",
+  "context": "an academic researcher in Telomeres, Telomerase, and Senescence at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_mit_akshay_deshmukh": {
+  "name": "Akshay Deshmukh",
+  "context": "an academic researcher in Membrane Separation Technologies at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 6
+ },
+ "univ_mit_lisa_e_freed": {
+  "name": "Lisa E. Freed",
+  "context": "an academic researcher in Osteoarthritis Treatment and Mechanisms at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 5
+ },
+ "univ_mit_peter_slattery": {
+  "name": "Peter Slattery",
+  "context": "an academic researcher in Mental Health and Patient Involvement at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 9
+ },
+ "univ_mit_robert_e_laflamme": {
+  "name": "Robert E. Laflamme",
+  "context": "an academic researcher in Toxic Organic Pollutants Impact at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 7
+ },
+ "univ_mit_han_altae_tran": {
+  "name": "Han Altae-Tran",
+  "context": "an academic researcher in Computational Drug Discovery Methods at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_roland_j_m_pellenq": {
+  "name": "Roland J.‐M. Pellenq",
+  "context": "an academic researcher in Concrete and Cement Materials Research at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_mit_tom_n_jagatic": {
+  "name": "Tom N. Jagatic",
+  "context": "an academic researcher in Spam and Phishing Detection at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_mit_geoffrey_s_d_beach": {
+  "name": "Geoffrey S. D. Beach",
+  "context": "an academic researcher in Magnetic properties of thin films at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_mit_erin_l_kelly": {
+  "name": "Erin L. Kelly",
+  "context": "an academic researcher in Political Theory and Influence at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 14
+ },
+ "univ_mit_florian_kabinger": {
+  "name": "Florian Kabinger",
+  "context": "an academic researcher in SARS-CoV-2 and COVID-19 Research at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 6
+ },
+ "univ_mit_serta_karaman": {
+  "name": "Sertaç Karaman",
+  "context": "an academic researcher in Robotic Path Planning Algorithms at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_roberto_rigob_n": {
+  "name": "Roberto Rigobón",
+  "context": "an academic researcher in Monetary Policy and Economic Impact at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_a_l_onard": {
+  "name": "A. Léonard",
+  "context": "an academic researcher in Fluid Dynamics and Turbulent Flows at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 19
+ },
+ "univ_mit_r_ahmad": {
+  "name": "R. Ahmad",
+  "context": "an academic researcher in Probability and Statistical Research at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 13
+ },
+ "univ_mit_peter_belobaba": {
+  "name": "Peter Belobaba",
+  "context": "an academic researcher in Supply Chain and Inventory Management at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_jonathan_huang": {
+  "name": "Jonathan Huang",
+  "context": "an academic researcher in Advanced Neural Network Applications at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 38
+ },
+ "univ_mit_terry_p_orlando": {
+  "name": "Terry P. Orlando",
+  "context": "an academic researcher in Quantum and electron transport phenomena at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_mit_g_b_olson": {
+  "name": "G. B. Olson",
+  "context": "an academic researcher in Microstructure and Mechanical Properties of Steels at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_mit_amala_mahadevan": {
+  "name": "Amala Mahadevan",
+  "context": "an academic researcher in Marine and coastal ecosystems at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_mit_jonathan_hwang": {
+  "name": "Jonathan Hwang",
+  "context": "an academic researcher in Electrocatalysts for Energy Conversion at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_mit_hyejin_kang": {
+  "name": "Hyejin Kang",
+  "context": "an academic researcher in Nerve injury and regeneration at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 24
+ },
+ "univ_mit_mehrdad_jazayeri": {
+  "name": "Mehrdad Jazayeri",
+  "context": "an academic researcher in Neuroscience and Music Perception at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_mit_g_ricker": {
+  "name": "G. Ricker",
+  "context": "an academic researcher in Stellar, planetary, and galactic studies at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_mit_ye_chen": {
+  "name": "Ye Chen",
+  "context": "an academic researcher in Aquatic Ecosystems and Phytoplankton Dynamics at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 16
+ },
+ "univ_mit_a_m_rao": {
+  "name": "A. M. Rao",
+  "context": "an academic researcher in Carbon Nanotubes in Composites at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 16
+ },
+ "univ_mit_r_l_jaffe": {
+  "name": "R. L. Jaffe",
+  "context": "an academic researcher in Quantum Chromodynamics and Particle Interactions at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_richard_p_binzel": {
+  "name": "Richard P. Binzel",
+  "context": "an academic researcher in Astro and Planetary Science at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_mit_alar_toomre": {
+  "name": "Alar Toomre",
+  "context": "an academic researcher in Stellar, planetary, and galactic studies at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_monty_krieger": {
+  "name": "Monty Krieger",
+  "context": "an academic researcher in Hippo pathway signaling and YAP/TAZ at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 11
+ },
+ "univ_mit_hamlin_m_jennings": {
+  "name": "Hamlin M. Jennings",
+  "context": "an academic researcher in Concrete and Cement Materials Research at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_arthur_r_von_hippel": {
+  "name": "Arthur R. von Hippel",
+  "context": "an academic researcher in High voltage insulation and dielectric phenomena at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_catherine_d_ignazio": {
+  "name": "Catherine D’Ignazio",
+  "context": "an academic researcher in Ethics and Social Impacts of AI at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_monica_diez_silva": {
+  "name": "Monica Diez-Silva",
+  "context": "an academic researcher in Erythrocyte Function and Pathophysiology at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_mit_qing_hu": {
+  "name": "Qing Hu",
+  "context": "an academic researcher in Information and Cyber Security at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 25
+ },
+ "univ_mit_cynthia_breazeal": {
+  "name": "Cynthia Breazeal",
+  "context": "an academic researcher in Social Robot Interaction and HRI at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_mit_leonid_levitov": {
+  "name": "Leonid Levitov",
+  "context": "an academic researcher in Quantum and electron transport phenomena at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_mit_neville_hogan": {
+  "name": "Neville Hogan",
+  "context": "an academic researcher in Robot Manipulation and Learning at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_simon_gustavsson": {
+  "name": "Simon Gustavsson",
+  "context": "an academic researcher in Quantum and electron transport phenomena at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_mit_ca_ross": {
+  "name": "CA Ross",
+  "context": "an academic researcher in Magnetic properties of thin films at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_mit_andrew_bosson": {
+  "name": "Andrew Bosson",
+  "context": "an academic researcher in MicroRNA in disease regulation at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 9
+ },
+ "univ_mit_pavel_etingof": {
+  "name": "Pavel Etingof",
+  "context": "an academic researcher in Algebraic structures and combinatorial models at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_mit_laura_l_kiessling": {
+  "name": "Laura L. Kiessling",
+  "context": "an academic researcher in Chemical Synthesis and Analysis at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_mit_sangbae_kim": {
+  "name": "Sangbae Kim",
+  "context": "an academic researcher in Micro and Nano Robotics at Massachusetts Institute of Technology",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_mit_myriam_heiman": {
+  "name": "Myriam Heiman",
+  "context": "an academic researcher in RNA and protein synthesis mechanisms at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_mit_barbara_ruskin": {
+  "name": "Barbara Ruskin",
+  "context": "an academic researcher in RNA Research and Splicing at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 7
+ },
+ "univ_mit_t_c_harman": {
+  "name": "T. C. Harman",
+  "context": "an academic researcher in Advanced Thermoelectric Materials and Devices at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "univ_mit_tom_glaser": {
+  "name": "Tom Glaser",
+  "context": "an academic researcher in Ocular Disorders and Treatments at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 8
+ },
+ "univ_mit_frederick_a_frey": {
+  "name": "Frederick A. Frey",
+  "context": "an academic researcher in Geological and Geochemical Analysis at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_mit_george_zweig": {
+  "name": "George Zweig",
+  "context": "an academic researcher in Quantum Chromodynamics and Particle Interactions at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_mit_james_m_utterback": {
+  "name": "James M. Utterback",
+  "context": "an academic researcher in Firm Innovation and Growth at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_mit_samar_burney": {
+  "name": "Samar Burney",
+  "context": "an academic researcher in Nitric Oxide and Endothelin Effects at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 7
+ },
+ "univ_mit_bradford_h_hager": {
+  "name": "Bradford H. Hager",
+  "context": "an academic researcher in High-pressure geophysics and materials at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 4
+ },
+ "univ_mit_h_brenner": {
+  "name": "H. Brenner",
+  "context": "an academic researcher in Electrostatics and Colloid Interactions at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_mohammad_a_alkhadra": {
+  "name": "Mohammad A. Alkhadra",
+  "context": "an academic researcher in Membrane-based Ion Separation Techniques at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_nicole_king": {
+  "name": "Nicole King",
+  "context": "an academic researcher in Protist diversity and phylogeny at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_jonathan_richard_shewchuk": {
+  "name": "Jonathan Richard Shewchuk",
+  "context": "an academic researcher in Matrix Theory and Algorithms at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_mit_p_w_rosenkranz": {
+  "name": "P. W. Rosenkranz",
+  "context": "an academic researcher in Gyrotron and Vacuum Electronics Research at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 16
+ },
+ "univ_uc_berkeley_rachel_b_brem": {
+  "name": "Rachel B. Brem",
+  "context": "an academic researcher in Fungal and yeast genetics research at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_mit_gabriel_r_bitran": {
+  "name": "Gabriel R. Bitran",
+  "context": "an academic researcher in Supply Chain and Inventory Management at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_martin_jay": {
+  "name": "Martin Jay",
+  "context": "an academic researcher in Photography and Visual Culture at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_j_w_taylor": {
+  "name": "J. W. Taylor",
+  "context": "an academic researcher in Plant Pathogens and Fungal Diseases at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_basem_al_shayeb": {
+  "name": "Basem Al-Shayeb",
+  "context": "an academic researcher in Bacteriophages and microbial interactions at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_pratik_mukherjee": {
+  "name": "Pratik Mukherjee",
+  "context": "an academic researcher in Advanced Neuroimaging Techniques and Applications at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 9
+ },
+ "univ_uc_berkeley_elie_j_diner": {
+  "name": "Elie J. Diner",
+  "context": "an academic researcher in interferon and immune responses at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_k_nishiizumi": {
+  "name": "K. Nishiizumi",
+  "context": "an academic researcher in Geology and Paleoclimatology Research at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_sarah_a_stanley": {
+  "name": "Sarah A. Stanley",
+  "context": "an academic researcher in Tuberculosis Research and Epidemiology at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_steven_v_w_beckwith": {
+  "name": "Steven V. W. Beckwith",
+  "context": "an academic researcher in Astrophysics and Star Formation Studies at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_michael_bates": {
+  "name": "Michael Bates",
+  "context": "an academic researcher in Smoking Behavior and Cessation at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_enrico_moretti": {
+  "name": "Enrico Moretti",
+  "context": "an academic researcher in Economic Growth and Productivity at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_jeffrey_mahler": {
+  "name": "Jeffrey Mahler",
+  "context": "an academic researcher in Robot Manipulation and Learning at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_susan_marqusee": {
+  "name": "Susan Marqusee",
+  "context": "an academic researcher in Chemical Synthesis and Analysis at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_stuart_russell": {
+  "name": "Stuart Russell",
+  "context": "an academic researcher in Artificial Intelligence in Healthcare and Education at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_ronald_w_wolff": {
+  "name": "Ronald W. Wolff",
+  "context": "an academic researcher in Advanced Queuing Theory Analysis at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_maria_schriver": {
+  "name": "Maria Schriver",
+  "context": "an academic researcher in Graphene research and applications at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_grace_r_nakayama": {
+  "name": "Grace R Nakayama",
+  "context": "an academic researcher in Molecular Biology Techniques and Applications at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_mahasin_s_mujahid": {
+  "name": "Mahasin S. Mujahid",
+  "context": "an academic researcher in Health disparities and outcomes at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_koushik_sen": {
+  "name": "Koushik Sen",
+  "context": "an academic researcher in Software Testing and Debugging Techniques at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_severin_borenstein": {
+  "name": "Severin Borenstein",
+  "context": "an academic researcher in Merger and Competition Analysis at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_james_n_smith": {
+  "name": "James N. Smith",
+  "context": "an academic researcher in Atmospheric chemistry and aerosols at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 15
+ },
+ "univ_uc_berkeley_g_william_skinner": {
+  "name": "G. William Skinner",
+  "context": "an academic researcher in China's Socioeconomic Reforms and Governance at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 14
+ },
+ "univ_mit_d_surry": {
+  "name": "D. Surry",
+  "context": "an academic researcher in Catalytic Cross-Coupling Reactions at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 31
+ },
+ "univ_uc_berkeley_yang_dan": {
+  "name": "Yang Dan",
+  "context": "an academic researcher in Advanced Memory and Neural Computing at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 8
+ },
+ "univ_uc_berkeley_erik_hesse": {
+  "name": "Erik Hesse",
+  "context": "an academic researcher in Attachment and Relationship Dynamics at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_francis_a_macdonald": {
+  "name": "Francis A. Macdonald",
+  "context": "an academic researcher in Paleontology and Stratigraphy of Fossils at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_k_hurley": {
+  "name": "K. Hurley",
+  "context": "an academic researcher in Gamma-ray bursts and supernovae at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_c_c_lee": {
+  "name": "C.C. Lee",
+  "context": "an academic researcher in Fuzzy Logic and Control Systems at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_suzanne_scotchmer": {
+  "name": "Suzanne Scotchmer",
+  "context": "an academic researcher in Intellectual Property and Patents at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_anil_aswani": {
+  "name": "Anil Aswani",
+  "context": "an academic researcher in Advanced Control Systems Optimization at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_lia_c_h_fernald": {
+  "name": "Lia C. H. Fernald",
+  "context": "an academic researcher in Poverty, Education, and Child Welfare at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_ning_sun": {
+  "name": "Ning Sun",
+  "context": "an academic researcher in Lignin and Wood Chemistry at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_wendy_r_hansen": {
+  "name": "Wendy R. Hansen",
+  "context": "an academic researcher in Adhesion, Friction, and Surface Interactions at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 7
+ },
+ "univ_uc_berkeley_daniel_a_fletcher": {
+  "name": "Daniel A. Fletcher",
+  "context": "an academic researcher in Cellular Mechanics and Interactions at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_d_r_stoddart": {
+  "name": "D. R. Stoddart",
+  "context": "an academic researcher in Coral and Marine Ecosystems Studies at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_anca_d_dragan": {
+  "name": "Anca D. Dragan",
+  "context": "an academic researcher in Action Observation and Synchronization at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_sergey_e_paramonov": {
+  "name": "Sergey E. Paramonov",
+  "context": "an academic researcher in Supramolecular Self-Assembly in Materials at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 7
+ },
+ "univ_uc_berkeley_richard_m_harland": {
+  "name": "Richard M. Harland",
+  "context": "an academic researcher in Developmental Biology and Gene Regulation at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_william_peebles": {
+  "name": "William Peebles",
+  "context": "an academic researcher in Advanced Neuroimaging Techniques and Applications at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 30
+ },
+ "univ_uc_berkeley_paul_kalas": {
+  "name": "Paul Kalas",
+  "context": "an academic researcher in Stellar, planetary, and galactic studies at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_mit_charles_e_osgood": {
+  "name": "Charles E. Osgood",
+  "context": "an academic researcher in Language, Metaphor, and Cognition at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 22
+ },
+ "univ_uc_berkeley_bryan_d_mccloskey": {
+  "name": "Bryan D. McCloskey",
+  "context": "an academic researcher in Advanced Battery Materials and Technologies at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_mit_yi_xiang_wang": {
+  "name": "Yi-Xiang Wang",
+  "context": "an academic researcher in Nanoparticle-Based Drug Delivery at Massachusetts Institute of Technology",
+  "n_sources": 0,
+  "n_queries": 18
+ },
+ "univ_uc_berkeley_william_ryan": {
+  "name": "William Ryan",
+  "context": "an academic researcher in Middle East and Rwanda Conflicts at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 31
+ },
+ "univ_uc_berkeley_ksenia_v_krasileva": {
+  "name": "Ksenia V. Krasileva",
+  "context": "an academic researcher in Chromosomal and Genetic Variations at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_larry_nucci": {
+  "name": "Larry Nucci",
+  "context": "an academic researcher in Education and Critical Thinking Development at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_liam_foster": {
+  "name": "Liam Foster",
+  "context": "an academic researcher in Aging and Gerontology Research at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 24
+ },
+ "univ_uc_berkeley_baoxia_mi": {
+  "name": "Baoxia Mi",
+  "context": "an academic researcher in Membrane Separation Technologies at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_rohit_ramesh": {
+  "name": "Rohit Ramesh",
+  "context": "an academic researcher in Advanced Measurement and Metrology Techniques at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 23
+ },
+ "univ_uc_berkeley_ana_paula_arruda": {
+  "name": "Ana Paula Arruda",
+  "context": "an academic researcher in Mitochondrial Function and Pathology at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_heather_a_haveman": {
+  "name": "Heather A. Haveman",
+  "context": "an academic researcher in Management and Organizational Studies at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_joy_y_wang": {
+  "name": "Joy Y. Wang",
+  "context": "an academic researcher in CRISPR and Genetic Engineering at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_devin_coleman_derr": {
+  "name": "Devin Coleman‐Derr",
+  "context": "an academic researcher in Plant Pathogens and Fungal Diseases at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_ross_zervos_levine": {
+  "name": "Ross Zervos Levine",
+  "context": "an academic researcher in Banking stability, regulation, efficiency at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 10
+ },
+ "univ_uc_berkeley_ellen_oliensis": {
+  "name": "Ellen Oliensis",
+  "context": "an academic researcher in Classical Studies and Philology at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_emily_elizabeth_crane": {
+  "name": "Emily Elizabeth Crane",
+  "context": "an academic researcher in Genomics and Chromatin Dynamics at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_uc_berkeley_wendy_u_huynh": {
+  "name": "Wendy U. Huynh",
+  "context": "an academic researcher in Quantum Dots Synthesis And Properties at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 5
+ },
+ "univ_uc_berkeley_roya_maboudian": {
+  "name": "Roya Maboudian",
+  "context": "an academic researcher in Adhesion, Friction, and Surface Interactions at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_fyodor_d_urnov": {
+  "name": "Fyodor D. Urnov",
+  "context": "an academic researcher in CRISPR and Genetic Engineering at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_alistair_sinclair": {
+  "name": "Alistair Sinclair",
+  "context": "an academic researcher in Markov Chains and Monte Carlo Methods at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_jose_m_carmena": {
+  "name": "Jose M. Carmena",
+  "context": "an academic researcher in EEG and Brain-Computer Interfaces at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_maria_mooshammer": {
+  "name": "Maria Mooshammer",
+  "context": "an academic researcher in Soil Carbon and Nitrogen Dynamics at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 4
+ },
+ "univ_uc_berkeley_elwin_marg": {
+  "name": "Elwin Marg",
+  "context": "an academic researcher in Epistemology, Ethics, and Metaphysics at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 9
+ },
+ "univ_uc_berkeley_russell_l_de_valois": {
+  "name": "Russell L. De Valois",
+  "context": "an academic researcher in Visual perception and processing mechanisms at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_paulo_j_m_monteiro": {
+  "name": "Paulo J.M. Monteiro",
+  "context": "an academic researcher in Concrete and Cement Materials Research at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_joshua_s_apte": {
+  "name": "Joshua S. Apte",
+  "context": "an academic researcher in Air Quality and Health Impacts at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_s_d_bale": {
+  "name": "S. D. Bale",
+  "context": "an academic researcher in Solar and Space Plasma Dynamics at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_william_r_boos": {
+  "name": "William R. Boos",
+  "context": "an academic researcher in Climate variability and models at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_daniel_k_nomura": {
+  "name": "Daniel K. Nomura",
+  "context": "an academic researcher in Lipid metabolism and biosynthesis at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_ziad_obermeyer": {
+  "name": "Ziad Obermeyer",
+  "context": "an academic researcher in Healthcare cost, quality, practices at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_heejung_bang": {
+  "name": "Heejung Bang",
+  "context": "an academic researcher in Advanced Causal Inference Techniques at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 23
+ },
+ "univ_uc_berkeley_g_mathias_kondolf": {
+  "name": "G. Mathias Kondolf",
+  "context": "an academic researcher in Hydrology and Sediment Transport Processes at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_jun_l": {
+  "name": "Jun Lü",
+  "context": "an academic researcher in Metal-Organic Frameworks: Synthesis and Applications at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 12
+ },
+ "univ_uc_berkeley_dan_i_slobin": {
+  "name": "Dan I. Slobin",
+  "context": "an academic researcher in Language, Discourse, Communication Strategies at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_jonathan_arons": {
+  "name": "Jonathan Arons",
+  "context": "an academic researcher in Pulsars and Gravitational Waves Research at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_j_elkins": {
+  "name": "J. Elkins",
+  "context": "an academic researcher in Diverse Education Studies and Reforms at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 47
+ },
+ "univ_uc_berkeley_benjamin_blonder": {
+  "name": "Benjamin Blonder",
+  "context": "an academic researcher in Species Distribution and Climate Change at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_donald_sarason": {
+  "name": "Donald Sarason",
+  "context": "an academic researcher in Mathematical functions and polynomials at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_judith_p_klinman": {
+  "name": "Judith P. Klinman",
+  "context": "an academic researcher in Microbial metabolism and enzyme function at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_theresa_harrison": {
+  "name": "Theresa Harrison",
+  "context": "an academic researcher in Biomedical Ethics and Regulation at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 28
+ },
+ "univ_uc_berkeley_yoram_rubin": {
+  "name": "Yoram Rubin",
+  "context": "an academic researcher in Reservoir Engineering and Simulation Methods at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_hilary_hoynes": {
+  "name": "Hilary Hoynes",
+  "context": "an academic researcher in Food Security and Health in Diverse Populations at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_david_l_sunding": {
+  "name": "David L. Sunding",
+  "context": "an academic researcher in Agricultural Innovations and Practices at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_j_boguta": {
+  "name": "J. Boguta",
+  "context": "an academic researcher in Nuclear physics research studies at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "univ_uc_berkeley_ananth_madhavan": {
+  "name": "Ananth Madhavan",
+  "context": "an academic researcher in Financial Markets and Investment Strategies at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_patrick_gonz_lez": {
+  "name": "Patrick González",
+  "context": "an academic researcher in Ecology and Vegetation Dynamics Studies at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_ronald_amundson": {
+  "name": "Ronald Amundson",
+  "context": "an academic researcher in Soil Carbon and Nitrogen Dynamics at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_eric_v_linder": {
+  "name": "Eric V. Linder",
+  "context": "an academic researcher in Cosmology and Gravitation Theories at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_j_bradford_delong": {
+  "name": "J. Bradford DeLong",
+  "context": "an academic researcher in Monetary Policy and Economic Impact at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_steven_w_m_crossley": {
+  "name": "Steven W. M. Crossley",
+  "context": "an academic researcher in CO2 Reduction Techniques and Catalysts at University of California, Berkeley",
+  "n_sources": 0,
+  "n_queries": 6
+ },
+ "univ_uc_berkeley_venkatesan_guruswami": {
+  "name": "Venkatesan Guruswami",
+  "context": "an academic researcher in Coding theory and cryptography at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_mx_tang": {
+  "name": "MX Tang",
+  "context": "an academic researcher in RNA Interference and Gene Delivery at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 13
+ },
+ "univ_uc_berkeley_johannes_w_de_jong": {
+  "name": "Johannes W. de Jong",
+  "context": "an academic researcher in Neurotransmitter Receptor Influence on Behavior at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_yihan_xiao": {
+  "name": "Yihan Xiao",
+  "context": "an academic researcher in Advanced Battery Materials and Technologies at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_luca_mastroberardino": {
+  "name": "Luca Mastroberardino",
+  "context": "an academic researcher in Amino Acid Enzymes and Metabolism at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 8
+ },
+ "univ_uc_berkeley_jonathan_simon": {
+  "name": "Jonathan Simon",
+  "context": "an academic researcher in Crime, Illicit Activities, and Governance at University of California, Berkeley",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_ucsd_sahngki_hong": {
+  "name": "Sahngki Hong",
+  "context": "an academic researcher in Advanced Thermoelectric Materials and Devices at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 6
+ },
+ "univ_ucsd_maria_del_mar_inda": {
+  "name": "Maria-del-Mar Inda",
+  "context": "an academic researcher in Cytokine Signaling Pathways and Interactions at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 7
+ },
+ "univ_ucsd_sharon_rose": {
+  "name": "Sharon Rose",
+  "context": "an academic researcher in Phonetics and Phonology Research at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_ucsd_eli_o_meltzer": {
+  "name": "Eli O. Meltzer",
+  "context": "an academic researcher in Sinusitis and nasal conditions at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_manoj_monga": {
+  "name": "Manoj Monga",
+  "context": "an academic researcher in Reproductive Health and Technologies at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 5
+ },
+ "univ_ucsd_sidney_zisook": {
+  "name": "Sidney Zisook",
+  "context": "an academic researcher in Treatment of Major Depression at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_ucsd_william_z_potter": {
+  "name": "William Z. Potter",
+  "context": "an academic researcher in Drug-Induced Hepatotoxicity and Protection at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 8
+ },
+ "univ_ucsd_katherine_a_delong": {
+  "name": "Katherine A. DeLong",
+  "context": "an academic researcher in Neurobiology of Language and Bilingualism at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_michael_christ": {
+  "name": "Michael Christ",
+  "context": "an academic researcher in Stochastic processes and financial applications at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 23
+ },
+ "univ_ucsd_mark_w_bondi": {
+  "name": "Mark W. Bondi",
+  "context": "an academic researcher in Dementia and Cognitive Impairment Research at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_ucsd_gentry_n_patrick": {
+  "name": "Gentry N. Patrick",
+  "context": "an academic researcher in Cancer-related Molecular Pathways at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 5
+ },
+ "univ_ucsd_eoin_fahy": {
+  "name": "Eoin Fahy",
+  "context": "an academic researcher in Metabolomics and Mass Spectrometry Studies at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_shashi_kant_tiwari": {
+  "name": "Shashi Kant Tiwari",
+  "context": "an academic researcher in Neurogenesis and neuroplasticity mechanisms at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_y_n_l_espiritu": {
+  "name": "Yến Lê Espiritu",
+  "context": "an academic researcher in Race, History, and American Society at University of California San Diego",
+  "n_sources": 15,
+  "n_queries": 3
+ },
+ "univ_ucsd_kaare_w_str_m": {
+  "name": "Kaare W. Strøm",
+  "context": "an academic researcher in Electoral Systems and Political Participation at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_shunichi_shimasaki": {
+  "name": "Shunichi Shimasaki",
+  "context": "an academic researcher in Reproductive Biology and Fertility at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_ucsd_galina_khemlina": {
+  "name": "Galina Khemlina",
+  "context": "an academic researcher in Hepatocellular Carcinoma Treatment and Prognosis at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_berkeley_iris_a_ly": {
+  "name": "Iris A. Ly",
+  "context": "an academic researcher in RNA Interference and Gene Delivery at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 57
+ },
+ "univ_uc_berkeley_irina_m_conboy": {
+  "name": "Irina M. Conboy",
+  "context": "an academic researcher in Dietary Effects on Health at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 8
+ },
+ "univ_ucsd_david_arnold": {
+  "name": "David Arnold",
+  "context": "an academic researcher in Child and Adolescent Psychosocial and Emotional Development at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 22
+ },
+ "univ_uc_berkeley_m_w_leung": {
+  "name": "M. W Leung",
+  "context": "an academic researcher in Health Policy Implementation Science at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 23
+ },
+ "univ_ucsd_xianjin_zhou": {
+  "name": "Xianjin Zhou",
+  "context": "an academic researcher in RNA Research and Splicing at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 18
+ },
+ "univ_ucsd_kathleen_i_pinson": {
+  "name": "Kathleen I. Pinson",
+  "context": "an academic researcher in Wnt/β-catenin signaling in development and cancer at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_ucsd_diana_dehaini": {
+  "name": "Diana Dehaini",
+  "context": "an academic researcher in Nanoparticle-Based Drug Delivery at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_ucsd_vikash_gilja": {
+  "name": "Vikash Gilja",
+  "context": "an academic researcher in EEG and Brain-Computer Interfaces at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_ucsd_kristen_jepsen": {
+  "name": "Kristen Jepsen",
+  "context": "an academic researcher in Protein Degradation and Inhibitors at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 9
+ },
+ "univ_ucsd_s_r_renn": {
+  "name": "S. R. Renn",
+  "context": "an academic researcher in Liquid Crystal Research Advancements at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 12
+ },
+ "univ_ucsd_jin_zhang": {
+  "name": "Jin Zhang",
+  "context": "an academic researcher in Advanced Fluorescence Microscopy Techniques at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_ucsd_nathan_j_zvaifler": {
+  "name": "Nathan J. Zvaifler",
+  "context": "an academic researcher in Mesenchymal stem cell research at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_ucsd_ben_a_croker": {
+  "name": "Ben A. Croker",
+  "context": "an academic researcher in Cytokine Signaling Pathways and Interactions at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_robert_l_engler": {
+  "name": "Robert L. Engler",
+  "context": "an academic researcher in Cardiac Ischemia and Reperfusion at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_robert_e_clark": {
+  "name": "Robert E. Clark",
+  "context": "an academic researcher in Memory and Neural Mechanisms at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_john_w_ayers": {
+  "name": "John W. Ayers",
+  "context": "an academic researcher in Artificial Intelligence in Healthcare and Education at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_berkeley_herbert_m_evans": {
+  "name": "Herbert M. Evans",
+  "context": "an academic researcher in advanced mathematical theories at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 16
+ },
+ "univ_ucsd_emily_a_meier": {
+  "name": "Emily A. Meier",
+  "context": "an academic researcher in Palliative Care and End-of-Life Issues at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_david_m_ward": {
+  "name": "David M. Ward",
+  "context": "an academic researcher in Genomics and Phylogenetic Studies at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 15
+ },
+ "univ_ucsd_renkun_chen": {
+  "name": "Renkun Chen",
+  "context": "an academic researcher in Heat Transfer and Boiling Studies at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_ucsd_r_c_dynes": {
+  "name": "R. C. Dynes",
+  "context": "an academic researcher in Physics of Superconductivity and Magnetism at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_ucsd_matthew_d_shin": {
+  "name": "Matthew D. Shin",
+  "context": "an academic researcher in SARS-CoV-2 and COVID-19 Research at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 5
+ },
+ "univ_ucsd_r_l_miller": {
+  "name": "R.L. Miller",
+  "context": "an academic researcher in Magnetic confinement fusion research at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_p_w_langhoff": {
+  "name": "P. W. Langhoff",
+  "context": "an academic researcher in Quantum Mechanics and Non-Hermitian Physics at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 6
+ },
+ "univ_ucsd_robert_m_lavinsky": {
+  "name": "Robert M. Lavinsky",
+  "context": "an academic researcher in Estrogen and related hormone effects at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 8
+ },
+ "univ_ucsd_vincent_p_crawford": {
+  "name": "Vincent P. Crawford",
+  "context": "an academic researcher in Game Theory and Applications at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_ucsd_larry_r_squire": {
+  "name": "Larry R. Squire",
+  "context": "an academic researcher in Memory and Neural Mechanisms at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_ucsd_paula_desplats": {
+  "name": "Paula Desplats",
+  "context": "an academic researcher in Parkinson's Disease Mechanisms and Treatments at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_ucsd_ajay_bharti": {
+  "name": "Ajay Bharti",
+  "context": "an academic researcher in Leptospirosis research and findings at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_justin_r_meyer": {
+  "name": "Justin R. Meyer",
+  "context": "an academic researcher in Bacteriophages and microbial interactions at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_ucsd_s_kondo": {
+  "name": "S. Kondo",
+  "context": "an academic researcher in Wireless Communication Networks Research at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 27
+ },
+ "univ_ucsd_chi_yuan_chang": {
+  "name": "Chi-Yuan Chang",
+  "context": "an academic researcher in EEG and Brain-Computer Interfaces at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_ucsd_hyun_woo_kim": {
+  "name": "Hyun Woo Kim",
+  "context": "an academic researcher in Computational Drug Discovery Methods at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_nancy_cartwright": {
+  "name": "Nancy Cartwright",
+  "context": "an academic researcher in Philosophy and History of Science at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_ucsd_gordon_b_dahl": {
+  "name": "Gordon B. Dahl",
+  "context": "an academic researcher in Gender, Labor, and Family Dynamics at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_ucsd_stephen_l_foote": {
+  "name": "Stephen L. Foote",
+  "context": "an academic researcher in Neuroscience and Neuropharmacology Research at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_ucsd_f_g_bailey": {
+  "name": "F. G. Bailey",
+  "context": "an academic researcher in Agriculture, Land Use, Rural Development at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 7
+ },
+ "univ_ucsd_alexandra_c_newton": {
+  "name": "Alexandra C. Newton",
+  "context": "an academic researcher in Protein Kinase Regulation and GTPase Signaling at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_jay_s_desgrosellier": {
+  "name": "Jay S. Desgrosellier",
+  "context": "an academic researcher in Cell Adhesion Molecules Research at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_ucsd_m_omar_din": {
+  "name": "M. Omar Din",
+  "context": "an academic researcher in Cancer Research and Treatments at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_ucsd_carrie_a_joyce": {
+  "name": "Carrie A. Joyce",
+  "context": "an academic researcher in Blind Source Separation Techniques at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_priyadarshini_pantham": {
+  "name": "Priyadarshini Pantham",
+  "context": "an academic researcher in Gestational Diabetes Research and Management at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_hadi_esmaeilzadeh": {
+  "name": "Hadi Esmaeilzadeh",
+  "context": "an academic researcher in Parallel Computing and Optimization Techniques at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_ucsd_ted_j_case": {
+  "name": "TED J. CASE",
+  "context": "an academic researcher in Animal Ecology and Behavior Studies at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_deborah_yelon": {
+  "name": "Deborah Yelon",
+  "context": "an academic researcher in Congenital heart defects research at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_ucsd_dean_c_delis": {
+  "name": "Dean C. Delis",
+  "context": "an academic researcher in Educational and Psychological Assessments at University of California San Diego",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_ucsd_martin_f_kagnoff": {
+  "name": "Martin F. Kagnoff",
+  "context": "an academic researcher in Immune Response and Inflammation at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_judy_e_davidson": {
+  "name": "Judy E. Davidson",
+  "context": "an academic researcher in Family and Patient Care in Intensive Care Units at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_ucsd_nathan_c_gianneschi": {
+  "name": "Nathan C. Gianneschi",
+  "context": "an academic researcher in Supramolecular Chemistry and Complexes at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_ian_a_mcgregor": {
+  "name": "Ian A. McGregor",
+  "context": "an academic researcher in Reconstructive Surgery and Microvascular Techniques at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 28
+ },
+ "univ_ucsd_greg_w_rouse": {
+  "name": "Greg W. Rouse",
+  "context": "an academic researcher in Marine Biology and Ecology Research at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_andrea_c_carrano": {
+  "name": "Andrea C. Carrano",
+  "context": "an academic researcher in Cancer-related Molecular Pathways at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_ucsd_stephen_hedrick": {
+  "name": "Stephen Μ. Hedrick",
+  "context": "an academic researcher in Monoclonal and Polyclonal Antibodies Research at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_ucsd_david_schairer": {
+  "name": "David Schairer",
+  "context": "an academic researcher in Nitric Oxide and Endothelin Effects at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 5
+ },
+ "univ_ucsd_hua_jin": {
+  "name": "Hua Jin",
+  "context": "an academic researcher in Cell Adhesion Molecules Research at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 11
+ },
+ "univ_ucsd_samara_l_reck_peterson": {
+  "name": "Samara L. Reck‐Peterson",
+  "context": "an academic researcher in Microtubule and mitosis dynamics at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_ucsd_andrew_b_sharabi": {
+  "name": "Andrew B. Sharabi",
+  "context": "an academic researcher in Cancer Immunotherapy and Biomarkers at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_ucsd_larissa_m_podust": {
+  "name": "Larissa M. Podust",
+  "context": "an academic researcher in Pharmacogenetics and Drug Metabolism at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 5
+ },
+ "univ_ucsd_k_seshadri": {
+  "name": "K. Seshadri",
+  "context": "an academic researcher in Heat Transfer and Optimization at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 9
+ },
+ "univ_ucsd_soni_ancoli_israel": {
+  "name": "Soni Ancoli-Israel",
+  "context": "an academic researcher in Obstructive Sleep Apnea Research at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_ucsd_shu_hong_zhu": {
+  "name": "Shu‐Hong Zhu",
+  "context": "an academic researcher in Smoking Behavior and Cessation at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_ucsd_matthew_b_kennel": {
+  "name": "Matthew B. Kennel",
+  "context": "an academic researcher in Nonlinear Dynamics and Pattern Formation at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 5
+ },
+ "univ_ucsd_koyel_mitra": {
+  "name": "Koyel Mitra",
+  "context": "an academic researcher in Bioinformatics and Genomic Networks at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_wei_ying": {
+  "name": "Wei Ying",
+  "context": "an academic researcher in MicroRNA in disease regulation at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_michael_d_marger": {
+  "name": "Michael D. Marger",
+  "context": "an academic researcher in Bacterial Genetics and Biotechnology at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "univ_ucsd_adeleh_yarmohammadi": {
+  "name": "Adeleh Yarmohammadi",
+  "context": "an academic researcher in Glaucoma and retinal disorders at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_ucsd_ak_n_ta_karao_lu": {
+  "name": "Akın Taşçıkaraoğlu",
+  "context": "an academic researcher in Energy Load and Power Forecasting at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 18
+ },
+ "univ_ucsd_jiun_shyan_chen": {
+  "name": "Jiun‐Shyan Chen",
+  "context": "an academic researcher in Numerical methods in engineering at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_ucsd_julie_onton": {
+  "name": "Julie Onton",
+  "context": "an academic researcher in EEG and Brain-Computer Interfaces at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_ucsd_george_sakoulas": {
+  "name": "George Sakoulas",
+  "context": "an academic researcher in Antimicrobial Resistance in Staphylococcus at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_ucsd_fleur_m_ferguson": {
+  "name": "Fleur M. Ferguson",
+  "context": "an academic researcher in PI3K/AKT/mTOR signaling in cancer at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_ucsd_emily_a_troyer": {
+  "name": "Emily A. Troyer",
+  "context": "an academic researcher in Long-Term Effects of COVID-19 at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_sherry_a_kempin": {
+  "name": "Sherry A. Kempin",
+  "context": "an academic researcher in Plant Molecular Biology Research at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_samuel_bazzi": {
+  "name": "Samuel Bazzi",
+  "context": "an academic researcher in Fiscal Policy and Economic Growth at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_ucsd_robert_s_pomeroy": {
+  "name": "Robert S. Pomeroy",
+  "context": "an academic researcher in Coral and Marine Ecosystems Studies at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 11
+ },
+ "univ_ucsd_cory_m_root": {
+  "name": "Cory M. Root",
+  "context": "an academic researcher in Neurobiology and Insect Physiology Research at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_ucsd_davor_hrovat": {
+  "name": "Davor Hrovat",
+  "context": "an academic researcher in Vibration Control and Rheological Fluids at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_ucsd_cuiling_zhong": {
+  "name": "Cuiling Zhong",
+  "context": "an academic researcher in Cell Adhesion Molecules Research at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_ucsd_david_g_victor": {
+  "name": "David G. Victor",
+  "context": "an academic researcher in Climate Change Policy and Economics at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_ucsd_alexandre_paix": {
+  "name": "Alexandre Paix",
+  "context": "an academic researcher in CRISPR and Genetic Engineering at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_ucsd_kaustuv_roy": {
+  "name": "Kaustuv Roy",
+  "context": "an academic researcher in Marine and coastal plant biology at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_randolph_e_bank": {
+  "name": "Randolph E. Bank",
+  "context": "an academic researcher in Advanced Numerical Methods in Computational Mathematics at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_ucsd_dwayne_g_stupack": {
+  "name": "Dwayne G. Stupack",
+  "context": "an academic researcher in Cell Adhesion Molecules Research at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_ucsd_ericka_l_anderson": {
+  "name": "Ericka L. Anderson",
+  "context": "an academic researcher in DNA Repair Mechanisms at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 19
+ },
+ "univ_ucsd_chaitanya_baru": {
+  "name": "Chaitanya Baru",
+  "context": "an academic researcher in Advanced Data Storage Technologies at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 8
+ },
+ "univ_ucsd_john_mongan": {
+  "name": "John Mongan",
+  "context": "an academic researcher in Protein Structure and Dynamics at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 6
+ },
+ "univ_uc_irvine_hazel_cheng": {
+  "name": "Hazel Cheng",
+  "context": "an academic researcher in Digestive system and related health at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 23
+ },
+ "univ_uc_irvine_martha_s_feldman": {
+  "name": "Martha S. Feldman",
+  "context": "an academic researcher in Management and Organizational Studies at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_stanley_ng": {
+  "name": "Stanley Ng",
+  "context": "an academic researcher in Acute Myeloid Leukemia Research at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_gerardo_r_l_pez": {
+  "name": "Gerardo R. López",
+  "context": "an academic researcher in Critical Race Theory in Education at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 22
+ },
+ "univ_uc_irvine_saurabh_sahar": {
+  "name": "Saurabh Sahar",
+  "context": "an academic researcher in Circadian rhythm and melatonin at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 6
+ },
+ "univ_uc_irvine_simone_chambers": {
+  "name": "Simone Chambers",
+  "context": "an academic researcher in Social Media and Politics at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_michael_k_jones": {
+  "name": "Michael K. Jones",
+  "context": "an academic researcher in Inflammatory mediators and NSAID effects at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_douglas_a_granger": {
+  "name": "Douglas A. Granger",
+  "context": "an academic researcher in Stress Responses and Cortisol at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_kwangbeom_hyun": {
+  "name": "Kwangbeom Hyun",
+  "context": "an academic researcher in Epigenetics and DNA Methylation at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 10
+ },
+ "univ_uc_irvine_jonathon_e_ericson": {
+  "name": "Jonathon E. Ericson",
+  "context": "an academic researcher in Archaeology and ancient environmental studies at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_carroll_seron": {
+  "name": "Carroll Seron",
+  "context": "an academic researcher in Social Science and Policy Research at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_alfred_kobsa": {
+  "name": "Alfred Kobsa",
+  "context": "an academic researcher in Context-Aware Activity Recognition Systems at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "univ_uc_irvine_bernard_c_k_choi": {
+  "name": "Bernard C. K. Choi",
+  "context": "an academic researcher in Interdisciplinary Research and Collaboration at University of California, Irvine",
+  "n_sources": 11,
+  "n_queries": 30
+ },
+ "univ_uc_irvine_mark_steyvers": {
+  "name": "Mark Steyvers",
+  "context": "an academic researcher in Complex Network Analysis Techniques at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_ucsd_charles_parker": {
+  "name": "Charles Parker",
+  "context": "an academic researcher in Complement system in diseases at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 32
+ },
+ "univ_uc_irvine_dan_braithwaite": {
+  "name": "Dan Braithwaite",
+  "context": "an academic researcher in Bacteriophages and microbial interactions at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 40
+ },
+ "univ_uc_irvine_h_s_moyed": {
+  "name": "H.S. Moyed",
+  "context": "an academic researcher in Bacterial Genetics and Biotechnology at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_priyambada_nayak": {
+  "name": "Priyambada Nayak",
+  "context": "an academic researcher in Image Processing and 3D Reconstruction at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 15
+ },
+ "univ_uc_irvine_medha_m_pathak": {
+  "name": "Medha M. Pathak",
+  "context": "an academic researcher in Erythrocyte Function and Pathophysiology at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_alan_l_goldin": {
+  "name": "Alan L. Goldin",
+  "context": "an academic researcher in Ion channel regulation and function at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_karen_s_rook": {
+  "name": "Karen S. Rook",
+  "context": "an academic researcher in Attachment and Relationship Dynamics at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_daniela_a_bota": {
+  "name": "Daniela A. Bota",
+  "context": "an academic researcher in Mitochondrial Function and Pathology at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_michael_b_dillencourt": {
+  "name": "Michael B. Dillencourt",
+  "context": "an academic researcher in Digital Image Processing Techniques at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 6
+ },
+ "univ_uc_irvine_craig_l_bennett": {
+  "name": "Craig L. Bennett",
+  "context": "an academic researcher in T-cell and B-cell Immunology at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_lowell_o_randall": {
+  "name": "Lowell O. Randall",
+  "context": "an academic researcher in Inflammatory mediators and NSAID effects at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 7
+ },
+ "univ_uc_irvine_b_l_mcnaughton": {
+  "name": "B. L. McNaughton",
+  "context": "an academic researcher in Memory and Neural Mechanisms at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_janos_lanyi": {
+  "name": "Janos Κ. Lanyi",
+  "context": "an academic researcher in Protein Structure and Dynamics at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_nancy_tyler_burley": {
+  "name": "Nancy Tyler Burley",
+  "context": "an academic researcher in Animal Behavior and Reproduction at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 9
+ },
+ "univ_uc_irvine_faysal_a_yafi": {
+  "name": "Faysal A. Yafi",
+  "context": "an academic researcher in Sexual function and dysfunction studies at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_ucsd_r_a_moyer": {
+  "name": "R. A. Moyer",
+  "context": "an academic researcher in Phytochemicals and Antioxidant Activities at University of California San Diego",
+  "n_sources": 0,
+  "n_queries": 35
+ },
+ "univ_uc_irvine_gregory_hickok": {
+  "name": "Gregory Hickok",
+  "context": "an academic researcher in Neuroscience and Music Perception at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_rollin_k_daniel": {
+  "name": "Rollin K. Daniel",
+  "context": "an academic researcher in Systemic Sclerosis and Related Diseases at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 19
+ },
+ "univ_uc_irvine_matt_law": {
+  "name": "Matt Law",
+  "context": "an academic researcher in TiO2 Photocatalysis and Solar Cells at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_elysia_poggi_davis": {
+  "name": "Elysia Poggi Davis",
+  "context": "an academic researcher in Infant Development and Preterm Care at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_harry_t_haigler": {
+  "name": "Harry T. Haigler",
+  "context": "an academic researcher in Cellular transport and secretion at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_r_w_taft": {
+  "name": "R. W. TAFT",
+  "context": "an academic researcher in Free Radicals and Antioxidants at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 7
+ },
+ "univ_uc_irvine_a_e_blaugrund": {
+  "name": "A. E. Blaugrund",
+  "context": "an academic researcher in Atomic and Molecular Physics at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 7
+ },
+ "univ_uc_irvine_elizabeth_r_jarvo": {
+  "name": "Elizabeth R. Jarvo",
+  "context": "an academic researcher in Analytical Chemistry and Chromatography at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 5
+ },
+ "univ_uc_irvine_catherine_c_coombs": {
+  "name": "Catherine C. Coombs",
+  "context": "an academic researcher in Acute Myeloid Leukemia Research at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_hope_jensen_schau": {
+  "name": "Hope Jensen Schau",
+  "context": "an academic researcher in Consumer Behavior in Brand Consumption and Identification at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_s_h_i_ou": {
+  "name": "S.-H.I. Ou",
+  "context": "an academic researcher in HIV Research and Treatment at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "univ_uc_irvine_deborah_lowe_vandell": {
+  "name": "Deborah Lowe Vandell",
+  "context": "an academic researcher in Early Childhood Education and Development at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_alessandro_lusci": {
+  "name": "Alessandro Lusci",
+  "context": "an academic researcher in Computational Drug Discovery Methods at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_william_h_batchelder": {
+  "name": "William H. Batchelder",
+  "context": "an academic researcher in Memory Processes and Influences at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_r_h_liebeck": {
+  "name": "R. H. Liebeck",
+  "context": "an academic researcher in Advanced Aircraft Design and Technologies at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_diana_glovaci": {
+  "name": "Diana Glovaci",
+  "context": "an academic researcher in Diabetes, Cardiovascular Risks, and Lipoproteins at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_irene_m_pedersen": {
+  "name": "Irene M. Pedersen",
+  "context": "an academic researcher in MicroRNA in disease regulation at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_wenqi_wang": {
+  "name": "Wenqi Wang",
+  "context": "an academic researcher in Hippo pathway signaling and YAP/TAZ at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_claire_henchcliffe": {
+  "name": "Claire Henchcliffe",
+  "context": "an academic researcher in Coenzyme Q10 studies and effects at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_stergios_skaperdas": {
+  "name": "Stergios Skaperdas",
+  "context": "an academic researcher in Experimental Behavioral Economics Studies at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_timothy_s_kern": {
+  "name": "Timothy S. Kern",
+  "context": "an academic researcher in Advanced Glycation End Products research at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_qin_yang": {
+  "name": "Qin Yang",
+  "context": "an academic researcher in Retinoids in leukemia and cellular processes at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 7
+ },
+ "univ_uc_irvine_chuansheng_chen": {
+  "name": "Chuansheng Chen",
+  "context": "an academic researcher in Cultural Differences and Values at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_vibhanshu_abhishek": {
+  "name": "Vibhanshu Abhishek",
+  "context": "an academic researcher in Consumer Market Behavior and Pricing at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_ilona_s_yim": {
+  "name": "Ilona S. Yim",
+  "context": "an academic researcher in Maternal Mental Health During Pregnancy and Postpartum at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_gerardo_a_okhuysen": {
+  "name": "Gerardo A. Okhuysen",
+  "context": "an academic researcher in Team Dynamics and Performance at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_travis_e_huxman": {
+  "name": "Travis E. Huxman",
+  "context": "an academic researcher in Plant Water Relations and Carbon Dynamics at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_valerie_olson": {
+  "name": "Valerie Olson",
+  "context": "an academic researcher in Animal Behavior and Reproduction at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 19
+ },
+ "univ_uc_irvine_alys_caitlyn_thomas": {
+  "name": "Alys Caitlyn Thomas",
+  "context": "an academic researcher in Geophysics and Gravity Measurements at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 8
+ },
+ "univ_uc_irvine_karen_l_lindsay": {
+  "name": "Karen L. Lindsay",
+  "context": "an academic researcher in Hepatitis C virus research at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 18
+ },
+ "univ_uc_irvine_edward_telles": {
+  "name": "Edward Telles",
+  "context": "an academic researcher in Race, History, and American Society at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_omid_mazdiyasni": {
+  "name": "Omid Mazdiyasni",
+  "context": "an academic researcher in Hydrology and Drought Analysis at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 5
+ },
+ "univ_uc_irvine_robert_r_redfield": {
+  "name": "Robert R. Redfield",
+  "context": "an academic researcher in Bacterial biofilms and quorum sensing at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 15
+ },
+ "univ_uc_irvine_stefan_o_ciurea": {
+  "name": "Stefan O. Ciurea",
+  "context": "an academic researcher in Hematopoietic Stem Cell Transplantation at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_dewayne_p_williams": {
+  "name": "DeWayne P. Williams",
+  "context": "an academic researcher in Obesity, Physical Activity, Diet at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 5
+ },
+ "univ_uc_irvine_jan_k_brueckner": {
+  "name": "Jan K. Brueckner",
+  "context": "an academic researcher in Economic and Environmental Valuation at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_han_li": {
+  "name": "Han Li",
+  "context": "an academic researcher in Microbial Metabolic Engineering and Bioproduction at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_dion_khodagholy": {
+  "name": "Dion Khodagholy",
+  "context": "an academic researcher in Neuroscience and Neural Engineering at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_kirk_r_williams": {
+  "name": "Kirk R. Williams",
+  "context": "an academic researcher in Bullying, Victimization, and Aggression at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_martin_brandon": {
+  "name": "Martin Brandon",
+  "context": "an academic researcher in Mitochondrial Function and Pathology at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_uc_irvine_yun_wang": {
+  "name": "Yun Wang",
+  "context": "an academic researcher in Fuel Cells and Related Materials at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_j_wolff": {
+  "name": "J. Wolff",
+  "context": "an academic researcher in Neurological Disorders and Treatments at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 18
+ },
+ "univ_uc_irvine_mathew_blurton_jones": {
+  "name": "Mathew Blurton‐Jones",
+  "context": "an academic researcher in Nerve injury and regeneration at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_ioan_andricioaei": {
+  "name": "Ioan Andricioaei",
+  "context": "an academic researcher in Protein Structure and Dynamics at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_glenn_healey": {
+  "name": "Glenn Healey",
+  "context": "an academic researcher in Optical measurement and interference techniques at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 6
+ },
+ "univ_uc_irvine_norman_m_weinberger": {
+  "name": "Norman M. Weinberger",
+  "context": "an academic researcher in Memory and Neural Mechanisms at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_raymond_w_novaco": {
+  "name": "Raymond W. Novaco",
+  "context": "an academic researcher in Bullying, Victimization, and Aggression at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_claudia_bird_schoonhoven": {
+  "name": "Claudia Bird Schoonhoven",
+  "context": "an academic researcher in Information Systems Theories and Implementation at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "univ_uc_irvine_kurt_squire": {
+  "name": "Kurt Squire",
+  "context": "an academic researcher in Digital Games and Media at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_fred_fung": {
+  "name": "Fred Fung",
+  "context": "an academic researcher in Food Safety and Hygiene at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_surya_m_nauli": {
+  "name": "Surya M. Nauli",
+  "context": "an academic researcher in Genetic and Kidney Cyst Diseases at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_marcus_seldin": {
+  "name": "Marcus Seldin",
+  "context": "an academic researcher in Folate and B Vitamins Research at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 12
+ },
+ "univ_uc_irvine_zeev_n_kain": {
+  "name": "Zeev N. Kain",
+  "context": "an academic researcher in Pediatric Pain Management Techniques at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_donald_j_patterson": {
+  "name": "Donald J. Patterson",
+  "context": "an academic researcher in Indoor and Outdoor Localization Technologies at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_judith_borghouts": {
+  "name": "Judith Borghouts",
+  "context": "an academic researcher in Digital Mental Health Interventions at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_david_john_frank": {
+  "name": "David John Frank",
+  "context": "an academic researcher in Conservation, Biodiversity, and Resource Management at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 16
+ },
+ "univ_uc_irvine_elizabeth_d_pe_a": {
+  "name": "Elizabeth D. Peña",
+  "context": "an academic researcher in Language Development and Disorders at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_edwin_amenta": {
+  "name": "Edwin Amenta",
+  "context": "an academic researcher in Economic Theory and Institutions at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_hamid_jafarkhani": {
+  "name": "Hamid Jafarkhani",
+  "context": "an academic researcher in Advanced Wireless Communication Techniques at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_uc_irvine_eric_t_swanson": {
+  "name": "Eric T. Swanson",
+  "context": "an academic researcher in Monetary Policy and Economic Impact at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_dimitri_papamoschou": {
+  "name": "Dimitri Papamoschou",
+  "context": "an academic researcher in Fluid Dynamics and Turbulent Flows at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_hamed_ashouri": {
+  "name": "Hamed Ashouri",
+  "context": "an academic researcher in Precipitation Measurement and Analysis at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_frank_l_meyskens": {
+  "name": "Frank L. Meyskens",
+  "context": "an academic researcher in Gastric Cancer Management and Outcomes at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 5
+ },
+ "oa_author_marco_cuturi": {
+  "name": "Marco Cuturi",
+  "context": "an academic researcher in Machine Learning and Algorithms at Kyoto University",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_dan_m_cooper": {
+  "name": "Dan M. Cooper",
+  "context": "an academic researcher in Foot and Ankle Surgery at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 24
+ },
+ "oa_author_per_b__brockhoff": {
+  "name": "Per B. Brockhoff",
+  "context": "an academic researcher in Statistical Methods and Bayesian Inference at Technical University of Denmark",
+  "n_sources": 0,
+  "n_queries": 5
+ },
+ "univ_uc_irvine_n_b_patel": {
+  "name": "N.B. Patel",
+  "context": "an academic researcher in Neuroscience and Neural Engineering at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 24
+ },
+ "univ_uc_irvine_john_r_crawford": {
+  "name": "John R. Crawford",
+  "context": "an academic researcher in Psychological Well-being and Life Satisfaction at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 15
+ },
+ "oa_author_gerry_tsoukalas": {
+  "name": "Gerry Tsoukalas",
+  "context": "an academic researcher in Blockchain Technology Applications and Security at University of Pennsylvania",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "oa_author_cludio_r__mirasso": {
+  "name": "Cláudio R. Mirasso",
+  "context": "an academic researcher in Neural Networks and Reservoir Computing at Universitat de les Illes Balears",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "oa_author_theo_gevers": {
+  "name": "Theo Gevers",
+  "context": "an academic researcher in Advanced Image and Video Retrieval Techniques at University of Amsterdam",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "oa_author_xiaochuan_ni": {
+  "name": "Xiaochuan Ni",
+  "context": "an academic researcher in Sentiment Analysis and Opinion Mining at Microsoft Research Asia (China)",
+  "n_sources": 1,
+  "n_queries": 7
+ },
+ "oa_author_jan_drugowitsch": {
+  "name": "Jan Drugowitsch",
+  "context": "an academic researcher in Neural dynamics and brain function at University of Geneva",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_brigitta_sipcz": {
+  "name": "Brigitta Sipőcz",
+  "context": "an academic researcher in Computational Physics and Python Applications at University of Cambridge",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_a__patrcia_bento": {
+  "name": "A. Patrícia Bento",
+  "context": "an academic researcher in Computational Drug Discovery Methods at European Bioinformatics Institute",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "oa_author_mohamed_hamdi": {
+  "name": "Mohamed Hamdi",
+  "context": "an academic researcher in Vehicular Ad Hoc Networks (VANETs) at University of Carthage",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_abdolreza_hatamlou": {
+  "name": "Abdolreza Hatamlou",
+  "context": "an academic researcher in Metaheuristic Optimization Algorithms Research at Islamic Azad University, Khoy Branch",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_ilya_alexandrovich": {
+  "name": "Ilya Alexandrovich",
+  "context": "an academic researcher in Security and Verification in Computing at Intel (United States)",
+  "n_sources": 3,
+  "n_queries": 7
+ },
+ "oa_author_noel_gorelick": {
+  "name": "Noel Gorelick",
+  "context": "an academic researcher in Remote Sensing in Agriculture at Google (Switzerland)",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "oa_author_tlin_ztrk": {
+  "name": "Tülin Öztürk",
+  "context": "an academic researcher in COVID-19 diagnosis using AI at Elazığ Eğitim ve Araştırma Hastanesi",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "oa_author_paul_m__leonardi": {
+  "name": "Paul M. Leonardi",
+  "context": "an academic researcher in Knowledge Management and Sharing at University of California, Santa Barbara",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "oa_author_marco_gruteser": {
+  "name": "Marco Gruteser",
+  "context": "an academic researcher in Age of Information Optimization at Rutgers, The State University of New Jersey",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "oa_author_shu_lih_oh": {
+  "name": "Shu Lih Oh",
+  "context": "an academic researcher in EEG and Brain-Computer Interfaces at Ngee Ann Polytechnic",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "oa_author_xuejun_yang": {
+  "name": "Xuejun Yang",
+  "context": "an academic researcher in Software Testing and Debugging Techniques at University of Utah",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "oa_author_douard_grave": {
+  "name": "Édouard Grave",
+  "context": "an academic researcher in Topic Modeling at Meta (Israel)",
+  "n_sources": 2,
+  "n_queries": 12
+ },
+ "oa_author_michael_mller": {
+  "name": "Michael Müller",
+  "context": "an academic researcher in Surface Modification and Superhydrophobicity at Forschungszentrum Jülich",
+  "n_sources": 0,
+  "n_queries": 7
+ },
+ "oa_author_hannah_rashkin": {
+  "name": "Hannah Rashkin",
+  "context": "an academic researcher in Topic Modeling at Allen Institute for Artificial Intelligence",
+  "n_sources": 2,
+  "n_queries": 5
+ },
+ "oa_author_zhiqin_chen": {
+  "name": "Zhiqin Chen",
+  "context": "an academic researcher in 3D Shape Modeling and Analysis at Simon Fraser University",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "oa_author_murtaza_haider": {
+  "name": "Murtaza Haider",
+  "context": "an academic researcher in Big Data Technologies and Applications at Toronto Metropolitan University",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "oa_author_haozhi_qi": {
+  "name": "Haozhi Qi",
+  "context": "an academic researcher in Advanced Neural Network Applications at Microsoft Research Asia (China)",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "oa_author_yasunobu_nohara": {
+  "name": "Yasunobu Nohara",
+  "context": "an academic researcher in Explainable Artificial Intelligence (XAI) at Kumamoto University",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "oa_author_timnit_gebru": {
+  "name": "Timnit Gebru",
+  "context": "an academic researcher in Topic Modeling",
+  "n_sources": 3,
+  "n_queries": 13
+ },
+ "oa_author_maciek_chociej": {
+  "name": "Maciek Chociej",
+  "context": "an academic researcher in Robot Manipulation and Learning at OpenAI (United States)",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "oa_author_xavier_glorot": {
+  "name": "Xavier Glorot",
+  "context": "an academic researcher in Neural Networks and Applications at Université de Montréal",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "oa_author_oussema_souiai": {
+  "name": "Oussema Souiai",
+  "context": "an academic researcher in Bioinformatics and Genomic Networks at Institut Pasteur de Tunis",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_gang_song": {
+  "name": "Gang Song",
+  "context": "an academic researcher in Medical Image Segmentation Techniques at University of Pennsylvania",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_lifeng_wu": {
+  "name": "Lifeng Wu",
+  "context": "an academic researcher in Plant Water Relations and Carbon Dynamics at Nanchang Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "oa_author_ahmed_zoha": {
+  "name": "Ahmed Zoha",
+  "context": "an academic researcher in Smart Grid Energy Management at University of Surrey",
+  "n_sources": 4,
+  "n_queries": 5
+ },
+ "oa_author_chengen_wang": {
+  "name": "Chengen Wang",
+  "context": "an academic researcher in Digital Transformation in Industry at Northeastern University",
+  "n_sources": 0,
+  "n_queries": 10
+ },
+ "oa_author_marco_dambros": {
+  "name": "Marco D’Ambros",
+  "context": "an academic researcher in Software Engineering Research at Università della Svizzera italiana",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "oa_author_zongwei_zhou": {
+  "name": "Zongwei Zhou",
+  "context": "an academic researcher in Advanced Neural Network Applications at Arizona State University",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "oa_author_simon_j__shaw": {
+  "name": "Simon J. Shaw",
+  "context": "an academic researcher in Metabolomics and Mass Spectrometry Studies at Novo Nordisk Foundation",
+  "n_sources": 0,
+  "n_queries": 13
+ },
+ "oa_author_ye_yuan": {
+  "name": "Ye Yuan",
+  "context": "an academic researcher in Advanced Neural Network Applications at Carnegie Mellon University",
+  "n_sources": 8,
+  "n_queries": 19
+ },
+ "oa_author_connor_shorten": {
+  "name": "Connor Shorten",
+  "context": "an academic researcher in Advanced Neural Network Applications at Florida Atlantic University",
+  "n_sources": 0,
+  "n_queries": 4
+ },
+ "oa_author_pavlo_o__dral": {
+  "name": "Pavlo O. Dral",
+  "context": "an academic researcher in Chemical Thermodynamics and Molecular Structure at Max Planck Society",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "oa_author_maite_taboada": {
+  "name": "Maite Taboada",
+  "context": "an academic researcher in Sentiment Analysis and Opinion Mining at Simon Fraser University",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "oa_author_koutarou_matsumoto": {
+  "name": "Koutarou Matsumoto",
+  "context": "an academic researcher in Explainable Artificial Intelligence (XAI) at Kurume University",
+  "n_sources": 1,
+  "n_queries": 7
+ },
+ "oa_author_leslie_prez_cceres": {
+  "name": "Leslie Pérez Cáceres",
+  "context": "an academic researcher in Metaheuristic Optimization Algorithms Research at Université Libre de Bruxelles",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "oa_author_zhirong_wu": {
+  "name": "Zhirong Wu",
+  "context": "an academic researcher in Domain Adaptation and Few-Shot Learning at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "oa_author_weidi_xie": {
+  "name": "Weidi Xie",
+  "context": "an academic researcher in Face recognition and analysis at University of Oxford",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "oa_author_sidney_k__dmello": {
+  "name": "Sidney K. D’Mello",
+  "context": "an academic researcher in Intelligent Tutoring Systems and Adaptive Learning at University of Notre Dame",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "oa_author_wei_peng": {
+  "name": "Wei Peng",
+  "context": "an academic researcher in Network Security and Intrusion Detection at La Trobe University",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "oa_author_deb_roy": {
+  "name": "Deb Roy",
+  "context": "an academic researcher in Misinformation and Its Impacts at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "oa_author_ziming_feng": {
+  "name": "Zi‐Ming Feng",
+  "context": "an academic researcher in Advanced Image and Video Retrieval Techniques",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "oa_author_norimichi_ukita": {
+  "name": "Norimichi Ukita",
+  "context": "an academic researcher in Advanced Image Processing Techniques at Toyota Technological Institute",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "oa_author_ying_cheng": {
+  "name": "Ying Cheng",
+  "context": "an academic researcher in Digital Transformation in Industry at Beihang University",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_uc_irvine_victor_m_morales": {
+  "name": "Victor M. Morales",
+  "context": "an academic researcher in Bacterial Genetics and Biotechnology at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 27
+ },
+ "univ_uc_irvine_xiaopeng_xu": {
+  "name": "Xiaopeng Xu",
+  "context": "an academic researcher in Fatigue and fracture mechanics at University of California, Irvine",
+  "n_sources": 0,
+  "n_queries": 30
+ },
+ "oa_author_leland_mcinnes": {
+  "name": "Leland McInnes",
+  "context": "an academic researcher in Advanced Numerical Analysis Techniques",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "oa_author_bradley_christensen": {
+  "name": "Bradley Christensen",
+  "context": "an academic researcher in Quantum Mechanics and Applications at University of Illinois Urbana-Champaign",
+  "n_sources": 1,
+  "n_queries": 10
+ },
+ "oa_author_p__greenfield": {
+  "name": "P. Greenfield",
+  "context": "an academic researcher in Cosmology and Gravitation Theories at Space Telescope Science Institute",
+  "n_sources": 2,
+  "n_queries": 4
+ },
+ "oa_author_olivier_dauchot": {
+  "name": "Olivier Dauchot",
+  "context": "an academic researcher in Micro and Nano Robotics at Centre National de la Recherche Scientifique",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "oa_author_wenchun_ge": {
+  "name": "Wen‐Chun Ge",
+  "context": "an academic researcher in Geological and Geochemical Analysis at Jilin University",
+  "n_sources": 0,
+  "n_queries": 4
+ },
+ "oa_author_marco_tlio_ribeiro": {
+  "name": "Marco Túlio Ribeiro",
+  "context": "an academic researcher in Explainable Artificial Intelligence (XAI) at University of Washington",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "oa_author_chao_ma": {
+  "name": "Chao Ma",
+  "context": "an academic researcher in Video Surveillance and Tracking Methods",
+  "n_sources": 2,
+  "n_queries": 4
+ },
+ "imo_prafulla_susil_dhariwal": {
+  "name": "Prafulla Susil Dhariwal",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2012 representing India",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "imo_jihyon_pak": {
+  "name": "Jihyon Pak",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing DPR Korea",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "oa_author_xiaobai_liu": {
+  "name": "Xiaobai Liu",
+  "context": "an academic researcher in Advanced Neural Network Applications at UCLA Health",
+  "n_sources": 0,
+  "n_queries": 33
+ },
+ "imo_martin_vodicka": {
+  "name": "Martin Vodička",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2012 representing Slovakia",
+  "n_sources": 2,
+  "n_queries": 4
+ },
+ "imo_stephen_sanjaya": {
+  "name": "Stephen Sanjaya",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Indonesia",
+  "n_sources": 0,
+  "n_queries": 3
+ },
+ "imo_lisa_sauermann": {
+  "name": "Lisa Sauermann",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing Germany",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "imo_evan_odorney": {
+  "name": "Evan O'Dorney",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing USA",
+  "n_sources": 6,
+  "n_queries": 4
+ },
+ "imo_motoki_takigiku": {
+  "name": "Motoki Takigiku",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing Japan",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "imo_yong_hyon_ri": {
+  "name": "Yong Hyon Ri",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing DPR Korea",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "imo_zipei_nie": {
+  "name": "Zipei Nie",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing China",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "imo_victor_omelyanenko": {
+  "name": "Victor Omelyanenko",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Russia",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "imo_benjamin_gunby": {
+  "name": "Benjamin Gunby",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing USA",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "imo_hak_myong_mun": {
+  "name": "Hak Myong Mun",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing DPR Korea",
+  "n_sources": 6,
+  "n_queries": 5
+ },
+ "imo_zichao_long": {
+  "name": "Zichao Long",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing China",
+  "n_sources": 5,
+  "n_queries": 4
+ },
+ "imo_john_berman": {
+  "name": "John Berman",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing USA",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "oa_author_hang_bai": {
+  "name": "Hang Bai",
+  "context": "an academic researcher in Privacy-Preserving Technologies in Data at Xidian University",
+  "n_sources": 2,
+  "n_queries": 17
+ },
+ "imo_kyrylo_myliarchyk": {
+  "name": "Kyrylo Myliarchyk",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing Ukraine",
+  "n_sources": 1,
+  "n_queries": 19
+ },
+ "imo_shutaro_inoue": {
+  "name": "Shutaro Inoue",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Japan",
+  "n_sources": 5,
+  "n_queries": 7
+ },
+ "univ_uc_irvine_joseph_r_bishop": {
+  "name": "Joseph R. Bishop",
+  "context": "an academic researcher in Proteoglycans and glycosaminoglycans research at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 37
+ },
+ "imo_sung_gi_park": {
+  "name": "Sung Gi Park",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing Korea",
+  "n_sources": 5,
+  "n_queries": 7
+ },
+ "imo_domagoj_evid": {
+  "name": "Domagoj Ćevid",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Croatia",
+  "n_sources": 1,
+  "n_queries": 11
+ },
+ "imo_hunter_spink": {
+  "name": "Hunter Spink",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Canada",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "imo_szymon_kanonowicz": {
+  "name": "Szymon Kanonowicz",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Poland",
+  "n_sources": 7,
+  "n_queries": 7
+ },
+ "imo_suthee_ruangwises": {
+  "name": "Suthee Ruangwises",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing Thailand",
+  "n_sources": 4,
+  "n_queries": 4
+ },
+ "imo_posheng_wu": {
+  "name": "Po-Sheng Wu",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Taiwan",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "imo_bogdan_stankov": {
+  "name": "Bogdan Stankov",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2012 representing Bulgaria",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "imo_mark_sellke": {
+  "name": "Mark Sellke",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing USA",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "imo_aref_sadeghi": {
+  "name": "Aref Sadeghi",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Iran",
+  "n_sources": 1,
+  "n_queries": 13
+ },
+ "imo_jirawat_anunrojwong": {
+  "name": "Jirawat Anunrojwong",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2012 representing Thailand",
+  "n_sources": 4,
+  "n_queries": 18
+ },
+ "imo_donat_nagy": {
+  "name": "Donát Nagy",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Hungary",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "imo_se_hyun_ji": {
+  "name": "Se Hyun Ji",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Korea",
+  "n_sources": 1,
+  "n_queries": 5
+ },
+ "imo_sang_hoon_lee": {
+  "name": "Sang Hoon Lee",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Korea",
+  "n_sources": 2,
+  "n_queries": 19
+ },
+ "imo_egor_voronetckii": {
+  "name": "Egor Voronetckii",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Russia",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "imo_zhuo_qun_alex_song": {
+  "name": "Zhuo Qun (Alex) Song",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Canada",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "imo_mengxi_wu": {
+  "name": "Mengxi Wu",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2011 representing China",
+  "n_sources": 2,
+  "n_queries": 27
+ },
+ "imo_jetze_zoethout": {
+  "name": "Jetze Zoethout",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2012 representing Netherlands",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "imo_nipun_pitimanaaree": {
+  "name": "Nipun Pitimanaaree",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing Thailand",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "imo_george_arzeno": {
+  "name": "George Arzeno",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Puerto Rico",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "imo_chao_gu": {
+  "name": "Chao Gu",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing China",
+  "n_sources": 5,
+  "n_queries": 10
+ },
+ "imo_umut_varolgunes": {
+  "name": "Umut Varolgüneş",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing Türkiye",
+  "n_sources": 9,
+  "n_queries": 4
+ },
+ "imo_matei_mandache": {
+  "name": "Matei Mandache",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2013 representing United Kingdom",
+  "n_sources": 1,
+  "n_queries": 10
+ },
+ "univ_fac_mit_david_j_perreault": {
+  "name": "David J. Perreault",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "imo_xiaolin_danny_shi": {
+  "name": "Xiaolin (Danny) Shi",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2009 representing Canada",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_mit_ankur_moitra": {
+  "name": "Ankur Moitra",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "imo_junhwa_jung": {
+  "name": "Junhwa Jung",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2010 representing Korea",
+  "n_sources": 7,
+  "n_queries": 27
+ },
+ "univ_fac_mit_julie_arnold_shah": {
+  "name": "Julie Arnold Shah",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_mit_john_n_tsitsiklis": {
+  "name": "John N. Tsitsiklis",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_mit_daniel_jackson": {
+  "name": "Daniel Jackson",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_m_frans_kaashoek": {
+  "name": "M. Frans Kaashoek",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_mit_david_a_sontag": {
+  "name": "David A. Sontag",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_robert_c_miller": {
+  "name": "Robert C. Miller",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_armando_solar_lezama": {
+  "name": "Armando Solar-Lezama",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_vincent_sitzmann": {
+  "name": "Vincent Sitzmann",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_mit_dylan_hadfield_menell": {
+  "name": "Dylan Hadfield-Menell",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_daniel_p_huttenlocher": {
+  "name": "Daniel P. Huttenlocher",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_joel_moses": {
+  "name": "Joel Moses",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 13,
+  "n_queries": 2
+ },
+ "univ_fac_mit_yoon_kim": {
+  "name": "Yoon Kim",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_mit_stefanie_m_ller": {
+  "name": "Stefanie Müller",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jacob_white": {
+  "name": "Jacob White",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_joel_voldman": {
+  "name": "Joel Voldman",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_antonio_torralba": {
+  "name": "Antonio Torralba",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_manolis_kellis": {
+  "name": "Manolis Kellis",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_randall_davis": {
+  "name": "Randall Davis",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_russ_tedrake": {
+  "name": "Russ Tedrake",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_mit_robert_c_berwick": {
+  "name": "Robert C. Berwick",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_pulkit_agrawal": {
+  "name": "Pulkit Agrawal",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_mit_adam_belay": {
+  "name": "Adam Belay",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_ron_weiss": {
+  "name": "Ron Weiss",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_mit_patrick_henry_winston": {
+  "name": "Patrick Henry Winston",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_mit_song_han": {
+  "name": "Song Han",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jonathan_ragan_kelley": {
+  "name": "Jonathan Ragan-Kelley",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_mit_gregory_w_wornell": {
+  "name": "Gregory W. Wornell",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jing_kong": {
+  "name": "Jing Kong",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_constantinos_daskalakis": {
+  "name": "Constantinos Daskalakis",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 1
+ },
+ "univ_fac_mit_costis_daskalakis": {
+  "name": "Costis Daskalakis",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 1
+ },
+ "univ_fac_mit_david_gifford": {
+  "name": "David Gifford",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_mit_bonnie_berger": {
+  "name": "Bonnie Berger",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_sara_beery": {
+  "name": "Sara Beery",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_mit_vivienne_sze": {
+  "name": "Vivienne Sze",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_mit_saman_p_amarasinghe": {
+  "name": "Saman P. Amarasinghe",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_barbara_liskov": {
+  "name": "Barbara Liskov",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_mit_bill_freeman": {
+  "name": "Bill Freeman",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jacob_andreas": {
+  "name": "Jacob Andreas",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_mit_hae_seung_lee": {
+  "name": "Hae-Seung Lee",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_max_marcel_shulaker": {
+  "name": "Max Marcel Shulaker",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_samuel_r_madden": {
+  "name": "Samuel R. Madden",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_mit_andrew_lo": {
+  "name": "Andrew Lo",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_mit_hal_abelson": {
+  "name": "Hal Abelson",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_dirk_englund": {
+  "name": "Dirk Englund",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_phillip_isola": {
+  "name": "Phillip Isola",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_mit_leslie_pack_kaelbling": {
+  "name": "Leslie Pack Kaelbling",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_ron_rivest": {
+  "name": "Ron Rivest",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_barbara_h_liskov": {
+  "name": "Barbara H. Liskov",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_mit_john_v_guttag": {
+  "name": "John V. Guttag",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_mit_caroline_uhler": {
+  "name": "Caroline Uhler",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_mit_yael_tauman_kalai": {
+  "name": "Yael Tauman Kalai",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_hari_balakrishnan": {
+  "name": "Hari Balakrishnan",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_mit_erik_d_demaine": {
+  "name": "Erik D. Demaine",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_mit_mohammad_alizadeh": {
+  "name": "Mohammad Alizadeh",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_martin_c_rinard": {
+  "name": "Martin C. Rinard",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_regina_barzilay": {
+  "name": "Regina Barzilay",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_victor_zue": {
+  "name": "Victor Zue",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_michael_carbin": {
+  "name": "Michael Carbin",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_mit_daniel_s_nchez": {
+  "name": "Daniel Sánchez",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_nancy_a_lynch": {
+  "name": "Nancy A. Lynch",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_david_k_gifford": {
+  "name": "David K. Gifford",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_mit_stefanie_mueller": {
+  "name": "Stefanie Mueller",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_nir_shavit": {
+  "name": "Nir Shavit",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_polina_golland": {
+  "name": "Polina Golland",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_qing_hu": {
+  "name": "Qing Hu",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_robert_tappan_morris": {
+  "name": "Robert Tappan Morris",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_mit_rajeev_j_ram": {
+  "name": "Rajeev J. Ram",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_sam_madden": {
+  "name": "Sam Madden",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_peter_szolovits": {
+  "name": "Peter Szolovits",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_virginia_vassilevska": {
+  "name": "Virginia Vassilevska",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_mit_samuel_madden": {
+  "name": "Samuel Madden",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_mit_harold_abelson": {
+  "name": "Harold Abelson",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_mit_virginia_vassilevska_williams": {
+  "name": "Virginia Vassilevska Williams",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "oa_author_david_f__steiner": {
+  "name": "David F. Steiner",
+  "context": "an academic researcher in Artificial Intelligence in Healthcare and Education at Google (United States)",
+  "n_sources": 0,
+  "n_queries": 6
+ },
+ "univ_fac_mit_dan_huttenlocher": {
+  "name": "Dan Huttenlocher",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 13,
+  "n_queries": 2
+ },
+ "univ_fac_mit_rachit_nigam": {
+  "name": "Rachit Nigam",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_mit_duane_s_boning": {
+  "name": "Duane S. Boning",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_mit_devavrat_shah": {
+  "name": "Devavrat Shah",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_mohsen_ghaffari": {
+  "name": "Mohsen Ghaffari",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_rob_miller": {
+  "name": "Rob Miller",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_mit_tommi_s_jaakkola": {
+  "name": "Tommi S. Jaakkola",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 13,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jacob_k_white": {
+  "name": "Jacob K. White",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_mit_yury_polyanskiy": {
+  "name": "Yury Polyanskiy",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 12,
+  "n_queries": 2
+ },
+ "univ_fac_mit_gerald_j_sussman": {
+  "name": "Gerald J. Sussman",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_julie_a_shah": {
+  "name": "Julie A. Shah",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_paul_pu_liang": {
+  "name": "Paul Pu Liang",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_mit_alexandre_megretski": {
+  "name": "Alexandre Megretski",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_mit_jeffrey_lang": {
+  "name": "Jeffrey Lang",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_mit_jeffrey_h_lang": {
+  "name": "Jeffrey H. Lang",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_jae_s_lim": {
+  "name": "Jae S. Lim",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_mit_christina_delimitrou": {
+  "name": "Christina Delimitrou",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_mit_alexander_rakhlin": {
+  "name": "Alexander Rakhlin",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_mit_daniela_rus": {
+  "name": "Daniela Rus",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_mit_anant_agarwal": {
+  "name": "Anant Agarwal",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_mit_bruce_tidor": {
+  "name": "Bruce Tidor",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_mit_priya_l_donti": {
+  "name": "Priya L. Donti",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_fac_mit_ronald_l_rivest": {
+  "name": "Ronald L. Rivest",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_mit_elfar_adalsteinsson": {
+  "name": "Elfar Adalsteinsson",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_vern_paxson": {
+  "name": "Vern Paxson",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jaijeet_s_roychowdhury": {
+  "name": "Jaijeet S. Roychowdhury",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_marti_a_hearst": {
+  "name": "Marti A. Hearst",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_steven_m_conolly": {
+  "name": "Steven M. Conolly",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_matei_a_zaharia": {
+  "name": "Matei A. Zaharia",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_anthony_d_joseph": {
+  "name": "Anthony D. Joseph",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_shafi_goldwasser": {
+  "name": "Shafi Goldwasser",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jiantao_jiao": {
+  "name": "Jiantao Jiao",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_chunlei_liu": {
+  "name": "Chunlei Liu",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_jelani_nelson": {
+  "name": "Jelani Nelson",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_christopher_w_fletcher": {
+  "name": "Christopher W. Fletcher",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_prabal_k_dutta": {
+  "name": "Prabal K. Dutta",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_sylvia_ratnasamy": {
+  "name": "Sylvia Ratnasamy",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_ken_goldberg": {
+  "name": "Ken Goldberg",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_angjoo_kanazawa": {
+  "name": "Angjoo Kanazawa",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_kris_pister": {
+  "name": "Kris Pister",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_venkat_anantharam": {
+  "name": "Venkat Anantharam",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_kannan_ramchandran": {
+  "name": "Kannan Ramchandran",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_james_f_o_brien": {
+  "name": "James F. O'Brien",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_borivoje_nikolic": {
+  "name": "Borivoje Nikolic",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_ion_stoica": {
+  "name": "Ion Stoica",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_stuart_russell": {
+  "name": "Stuart Russell",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_john_wawrzynek": {
+  "name": "John Wawrzynek",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_prasad_raghavendra": {
+  "name": "Prasad Raghavendra",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_sewon_min": {
+  "name": "Sewon Min",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_yakun_sophia_shao": {
+  "name": "Yakun Sophia Shao",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_ana_c_arias": {
+  "name": "Ana C. Arias",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_alvin_cheung": {
+  "name": "Alvin Cheung",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jonathan_richard_shewchuk": {
+  "name": "Jonathan Richard Shewchuk",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_alexei_a_efros": {
+  "name": "Alexei A. Efros",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_yun_s_song": {
+  "name": "Yun S. Song",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_laura_waller": {
+  "name": "Laura Waller",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_avishay_tal": {
+  "name": "Avishay Tal",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_murat_arcak": {
+  "name": "Murat Arcak",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_serina_chang": {
+  "name": "Serina Chang",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 17,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_ali_m_niknejad": {
+  "name": "Ali M. Niknejad",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_armando_fox": {
+  "name": "Armando Fox",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jacob_steinhardt": {
+  "name": "Jacob Steinhardt",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_jitendra_malik": {
+  "name": "Jitendra Malik",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_prabal_dutta": {
+  "name": "Prabal Dutta",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jaijeet_roychowdhury": {
+  "name": "Jaijeet Roychowdhury",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_joseph_e_gonzalez": {
+  "name": "Joseph E. Gonzalez",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_chun_lei_liu": {
+  "name": "Chun-Lei Liu",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_kathy_yelick": {
+  "name": "Kathy Yelick",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_claire_j_tomlin": {
+  "name": "Claire J. Tomlin",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_eric_paulos": {
+  "name": "Eric Paulos",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_rikky_muller": {
+  "name": "Rikky Muller",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_alane_suhr": {
+  "name": "Alane Suhr",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_shankar_sastry": {
+  "name": "Shankar Sastry",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_dan_klein": {
+  "name": "Dan Klein",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_max_willsey": {
+  "name": "Max Willsey",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_jennifer_listgarten": {
+  "name": "Jennifer Listgarten",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_aditya_g_parameswaran": {
+  "name": "Aditya G. Parameswaran",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_raluca_a_popa": {
+  "name": "Raluca A. Popa",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_koushik_sen": {
+  "name": "Koushik Sen",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 13,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_trevor_darrell": {
+  "name": "Trevor Darrell",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_shankar_s_sastry": {
+  "name": "Shankar S. Sastry",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_ben_recht": {
+  "name": "Ben Recht",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_daniel_klein": {
+  "name": "Daniel Klein",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_amy_pavel": {
+  "name": "Amy Pavel",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_somayeh_sojoudi": {
+  "name": "Somayeh Sojoudi",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_ren_ng": {
+  "name": "Ren Ng",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_irene_y_chen": {
+  "name": "Irene Y. Chen",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 15,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_bin_yu": {
+  "name": "Bin Yu",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_katherine_a_yelick": {
+  "name": "Katherine A. Yelick",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_stuart_j_russell": {
+  "name": "Stuart J. Russell",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_matei_zaharia": {
+  "name": "Matei Zaharia",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_lijie_chen": {
+  "name": "Lijie Chen",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_kristofer_s_j_pister": {
+  "name": "Kristofer S. J. Pister",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_ali_javey": {
+  "name": "Ali Javey",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_michael_lustig": {
+  "name": "Michael Lustig",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_benjamin_recht": {
+  "name": "Benjamin Recht",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jean_c_walrand": {
+  "name": "Jean C. Walrand",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_sayeef_s_salahuddin": {
+  "name": "Sayeef S. Salahuddin",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jennifer_t_chayes": {
+  "name": "Jennifer T. Chayes",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jose_m_carmena": {
+  "name": "Jose M. Carmena",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_ana_claudia_arias": {
+  "name": "Ana Claudia Arias",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_jason_d_lee": {
+  "name": "Jason D. Lee",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 15,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_clark_t_c_nguyen": {
+  "name": "Clark T.-C. Nguyen",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_alex_dimakis": {
+  "name": "Alex Dimakis",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_alexandros_g_dimakis": {
+  "name": "Alexandros G. Dimakis",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_satish_rao": {
+  "name": "Satish Rao",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_john_d_kubiatowicz": {
+  "name": "John D. Kubiatowicz",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_alexandre_m_bayen": {
+  "name": "Alexandre M. Bayen",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_umesh_v_vazirani": {
+  "name": "Umesh V. Vazirani",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_nir_yosef": {
+  "name": "Nir Yosef",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_pieter_abbeel": {
+  "name": "Pieter Abbeel",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_emma_pierson": {
+  "name": "Emma Pierson",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 16,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_claire_jennifer_tomlin": {
+  "name": "Claire Jennifer Tomlin",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_anant_sahai": {
+  "name": "Anant Sahai",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_alistair_sinclair": {
+  "name": "Alistair Sinclair",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_bj_rn_hartmann": {
+  "name": "Björn Hartmann",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_sergey_levine": {
+  "name": "Sergey Levine",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_mit_asuman_e_ozdaglar": {
+  "name": "Asuman E. Ozdaglar",
+  "context": "a computer science faculty member at Massachusetts Institute of Technology",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_alyosha_a_efros": {
+  "name": "Alyosha A. Efros",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_michel_m_maharbiz": {
+  "name": "Michel M. Maharbiz",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 17,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_nuno_bandeira": {
+  "name": "Nuno Bandeira",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_zhijian_liu": {
+  "name": "Zhijian Liu",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_natacha_crooks": {
+  "name": "Natacha Crooks",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_deepak_kumar": {
+  "name": "Deepak Kumar",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_lining_yao": {
+  "name": "Lining Yao",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 13,
+  "n_queries": 5
+ },
+ "univ_fac_ucsd_sylvia_l_herbert": {
+  "name": "Sylvia L. Herbert",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_russell_impagliazzo": {
+  "name": "Russell Impagliazzo",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_ravi_ramamoorthi": {
+  "name": "Ravi Ramamoorthi",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_nadia_heninger": {
+  "name": "Nadia Heninger",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_jun_kun_wang": {
+  "name": "Jun-Kun Wang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_jingbo_shang": {
+  "name": "Jingbo Shang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_virginia_r_de_sa": {
+  "name": "Virginia R. de Sa",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_biwei_huang": {
+  "name": "Biwei Huang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_thomas_bewley": {
+  "name": "Thomas Bewley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_yian_ma": {
+  "name": "Yian Ma",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_alin_deutsch": {
+  "name": "Alin Deutsch",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_jishen_zhao": {
+  "name": "Jishen Zhao",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_adalbert_gerald_soosai_raj": {
+  "name": "Adalbert Gerald Soosai Raj",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_jim_hollan": {
+  "name": "Jim Hollan",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_bill_lin": {
+  "name": "Bill Lin",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_yatish_turakhia": {
+  "name": "Yatish Turakhia",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_christian_dameff": {
+  "name": "Christian Dameff",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_andrew_b_kahng": {
+  "name": "Andrew B. Kahng",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_mikhail_belkin": {
+  "name": "Mikhail Belkin",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_steven_swanson": {
+  "name": "Steven Swanson",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_julian_j_mcauley": {
+  "name": "Julian J. McAuley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_lilly_irani": {
+  "name": "Lilly Irani",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_siavash_mirarab": {
+  "name": "Siavash Mirarab",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_imani_n_sherman": {
+  "name": "Imani N. Sherman",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 6
+ },
+ "univ_fac_ucsd_tauhidur_rahman": {
+  "name": "Tauhidur Rahman",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_earlence_fernandes": {
+  "name": "Earlence Fernandes",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_virginia_de_sa": {
+  "name": "Virginia de Sa",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_scott_r_klemmer": {
+  "name": "Scott R. Klemmer",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_hao_zhang": {
+  "name": "Hao Zhang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_prithviraj_ammanabrolu": {
+  "name": "Prithviraj Ammanabrolu",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_julian_mcauley": {
+  "name": "Julian McAuley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 4
+ },
+ "univ_fac_ucsd_daniele_micciancio": {
+  "name": "Daniele Micciancio",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_yuxiang_wang": {
+  "name": "Yuxiang Wang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_ramamohan_paturi": {
+  "name": "Ramamohan Paturi",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_ndapandula_nakashole": {
+  "name": "Ndapandula Nakashole",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_tara_javidi": {
+  "name": "Tara Javidi",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 1
+ },
+ "univ_fac_ucsd_joe_gibbs_politz": {
+  "name": "Joe Gibbs Politz",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_qi_rose_yu": {
+  "name": "Qi Rose Yu",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_steven_p_dow": {
+  "name": "Steven P. Dow",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_rajesh_gupta": {
+  "name": "Rajesh Gupta",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_nikolay_a_atanasov": {
+  "name": "Nikolay A. Atanasov",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_alon_orlitsky": {
+  "name": "Alon Orlitsky",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_mihir_bellare": {
+  "name": "Mihir Bellare",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_michael_thomas_tolley": {
+  "name": "Michael Thomas Tolley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 5
+ },
+ "univ_fac_ucsd_yoav_freund": {
+  "name": "Yoav Freund",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_barna_saha": {
+  "name": "Barna Saha",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_john_wright": {
+  "name": "John Wright",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 7,
+  "n_queries": 6
+ },
+ "univ_fac_ucsd_george_porter": {
+  "name": "George Porter",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_amy_ousterhout": {
+  "name": "Amy Ousterhout",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 17,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_henrik_iskov_christensen": {
+  "name": "Henrik Iskov Christensen",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_yeshaiahu_fainman": {
+  "name": "Yeshaiahu Fainman",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_deian_stefan": {
+  "name": "Deian Stefan",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 5
+ },
+ "univ_fac_ucsd_philip_jia_guo": {
+  "name": "Philip Jia Guo",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_sicun_gao": {
+  "name": "Sicun Gao",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_ben_bergen": {
+  "name": "Ben Bergen",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 8
+ },
+ "univ_fac_ucsd_rob_knight": {
+  "name": "Rob Knight",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_leon_bergen": {
+  "name": "Leon Bergen",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_vikas_bansal": {
+  "name": "Vikas Bansal",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_trey_ideker": {
+  "name": "Trey Ideker",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_f_r_k_chung": {
+  "name": "F. R. K. Chung",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_yuanyuan_shi": {
+  "name": "Yuanyuan Shi",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 14,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_soohyun_nam_liao": {
+  "name": "Soohyun Nam Liao",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_terrence_j_sejnowski": {
+  "name": "Terrence J. Sejnowski",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_daniel_m_kane": {
+  "name": "Daniel M. Kane",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_ranjit_jhala": {
+  "name": "Ranjit Jhala",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_lilly_c_irani": {
+  "name": "Lilly C. Irani",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_arun_kumar": {
+  "name": "Arun Kumar",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_samuel_r_buss": {
+  "name": "Samuel R. Buss",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_xinyu_zhang": {
+  "name": "Xinyu Zhang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 6
+ },
+ "univ_fac_ucsd_lianhui_qin": {
+  "name": "Lianhui Qin",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_tajana_simunic": {
+  "name": "Tajana Simunic",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_shankar_subramaniam": {
+  "name": "Shankar Subramaniam",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_yufei_ding": {
+  "name": "Yufei Ding",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 15,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_daniel_grier": {
+  "name": "Daniel Grier",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_xiaolong_wang": {
+  "name": "Xiaolong Wang",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_hovav_shacham": {
+  "name": "Hovav Shacham",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_babak_salimi": {
+  "name": "Babak Salimi",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_tajana_simunic_rosing": {
+  "name": "Tajana Simunic Rosing",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_sam_buss": {
+  "name": "Sam Buss",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_david_kirsh": {
+  "name": "David Kirsh",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 5
+ },
+ "univ_fac_ucsd_sam_lau": {
+  "name": "Sam Lau",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_tajana_rosing": {
+  "name": "Tajana Rosing",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_julian_john_mcauley": {
+  "name": "Julian John McAuley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_aaron_schulman": {
+  "name": "Aaron Schulman",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_steven_dow": {
+  "name": "Steven Dow",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_haojian_jin": {
+  "name": "Haojian Jin",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_falko_kuester": {
+  "name": "Falko Kuester",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_thomas_r_bewley": {
+  "name": "Thomas R. Bewley",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_sorin_lerner": {
+  "name": "Sorin Lerner",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_vineet_bafna": {
+  "name": "Vineet Bafna",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_berkeley_chang_ming_wu": {
+  "name": "Chang Ming Wu",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 1,
+  "n_queries": 27
+ },
+ "univ_fac_ucsd_nadir_weibel": {
+  "name": "Nadir Weibel",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_berkeley_bala_kameshwar_poolla": {
+  "name": "Bala Kameshwar Poolla",
+  "context": "a computer science faculty member at University of California, Berkeley",
+  "n_sources": 6,
+  "n_queries": 15
+ },
+ "univ_fac_ucsd_fan_r_k_chung": {
+  "name": "Fan R. K. Chung",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_taylor_berg_kirkpatrick": {
+  "name": "Taylor Berg-Kirkpatrick",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_shachar_lovett": {
+  "name": "Shachar Lovett",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_tzu_mao_li": {
+  "name": "Tzu-Mao Li",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_sandy_irani": {
+  "name": "Sandy Irani",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_christine_j_alvarado": {
+  "name": "Christine J. Alvarado",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 1,
+  "n_queries": 4
+ },
+ "univ_fac_uc_irvine_richard_h_lathrop": {
+  "name": "Richard H. Lathrop",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_ucsd_rajesh_k_gupta": {
+  "name": "Rajesh K. Gupta",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_alexandru_nicolau": {
+  "name": "Alexandru Nicolau",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_ucsd_christine_alvarado": {
+  "name": "Christine Alvarado",
+  "context": "a computer science faculty member at University of California San Diego",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_james_paul_dourish": {
+  "name": "James Paul Dourish",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_yanning_shen": {
+  "name": "Yanning Shen",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_yunan_chen": {
+  "name": "Yunan Chen",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 8
+ },
+ "univ_fac_uc_irvine_pierre_baldi": {
+  "name": "Pierre Baldi",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_padhraic_smyth": {
+  "name": "Padhraic Smyth",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_david_arthur_eppstein": {
+  "name": "David Arthur Eppstein",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_zhou_li": {
+  "name": "Zhou Li",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_mohsen_imani": {
+  "name": "Mohsen Imani",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_paul_dourish": {
+  "name": "Paul Dourish",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_aparna_chandramowlishwaran": {
+  "name": "Aparna Chandramowlishwaran",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_alexander_v_veidenbaum": {
+  "name": "Alexander V. Veidenbaum",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 6
+ },
+ "univ_fac_uc_irvine_elaheh_bozorgzadeh": {
+  "name": "Elaheh Bozorgzadeh",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_andr_van_der_hoek": {
+  "name": "André van der Hoek",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_sharad_mehrotra": {
+  "name": "Sharad Mehrotra",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_marco_levorato": {
+  "name": "Marco Levorato",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_geoff_bowker": {
+  "name": "Geoff Bowker",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_sam_malek": {
+  "name": "Sam Malek",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_sangeetha_abdu_jyothi": {
+  "name": "Sangeetha Abdu Jyothi",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_alexander_t_ihler": {
+  "name": "Alexander T. Ihler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_wayne_b_hayes": {
+  "name": "Wayne B. Hayes",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_stacy_m_branham": {
+  "name": "Stacy M. Branham",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_chen_li": {
+  "name": "Chen Li",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_xiaohui_xie": {
+  "name": "Xiaohui Xie",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_geoffrey_c_bowker": {
+  "name": "Geoffrey C. Bowker",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_meenakshisundaram_gopi": {
+  "name": "Meenakshisundaram Gopi",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_eric_mjolsness": {
+  "name": "Eric Mjolsness",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_paul_pearce": {
+  "name": "Paul Pearce",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_thomas_y_yeh": {
+  "name": "Thomas Y. Yeh",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_cristina_v_lopes": {
+  "name": "Cristina V. Lopes",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_sergio_gago_masague": {
+  "name": "Sergio Gago-Masague",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_eli_bozorgzadeh": {
+  "name": "Eli Bozorgzadeh",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 13,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_joshua_garcia": {
+  "name": "Joshua Garcia",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_daniel_s_hirschberg": {
+  "name": "Daniel S. Hirschberg",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_gloria_mark": {
+  "name": "Gloria Mark",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 19,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_scott_jordan": {
+  "name": "Scott Jordan",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_sven_koenig": {
+  "name": "Sven Koenig",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 13,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_gene_tsudik": {
+  "name": "Gene Tsudik",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_lubomir_f_bic": {
+  "name": "Lubomir F. Bic",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_jennifer_wong_ma": {
+  "name": "Jennifer Wong-Ma",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_ian_g_harris": {
+  "name": "Ian G. Harris",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_james_a_jones": {
+  "name": "James A. Jones",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_alexander_ihler": {
+  "name": "Alexander Ihler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_vijay_v_vazirani": {
+  "name": "Vijay V. Vazirani",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_yasser_shoukry": {
+  "name": "Yasser Shoukry",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_habiba_farrukh": {
+  "name": "Habiba Farrukh",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_michael_franz": {
+  "name": "Michael Franz",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_aditi_majumder": {
+  "name": "Aditi Majumder",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_nalini_venkatasubramanian": {
+  "name": "Nalini Venkatasubramanian",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_brian_demsky": {
+  "name": "Brian Demsky",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_daye_nam": {
+  "name": "Daye Nam",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_gillian_r_hayes": {
+  "name": "Gillian R. Hayes",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_mohammad_abdullah_al_faruque": {
+  "name": "Mohammad Abdullah Al Faruque",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_lubomir_bic": {
+  "name": "Lubomir Bic",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_sitao_huang": {
+  "name": "Sitao Huang",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_faisal_nawab": {
+  "name": "Faisal Nawab",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_michael_j_carey": {
+  "name": "Michael J. Carey",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_kylie_peppler": {
+  "name": "Kylie Peppler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_marios_c_papaefthymiou": {
+  "name": "Marios C. Papaefthymiou",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_unnat_jain": {
+  "name": "Unnat Jain",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_daniel_a_epstein": {
+  "name": "Daniel A. Epstein",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_qi_alfred_chen": {
+  "name": "Qi Alfred Chen",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_rina_dechter": {
+  "name": "Rina Dechter",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_alexander_c_berg": {
+  "name": "Alexander C. Berg",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_michael_t_goodrich": {
+  "name": "Michael T. Goodrich",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_thomas_zimmermann": {
+  "name": "Thomas Zimmermann",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_sang_woo_jun": {
+  "name": "Sang Woo Jun",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 12,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_david_eppstein": {
+  "name": "David Eppstein",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_hengrui_cai": {
+  "name": "Hengrui Cai",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 11,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_tony_givargis": {
+  "name": "Tony Givargis",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_cristina_videira_lopes": {
+  "name": "Cristina Videira Lopes",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_stanislaw_jarecki": {
+  "name": "Stanislaw Jarecki",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_melissa_mazmanian": {
+  "name": "Melissa Mazmanian",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_michael_b_dillencourt": {
+  "name": "Michael B. Dillencourt",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_anne_marie_piper": {
+  "name": "Anne Marie Piper",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_ioannis_panageas": {
+  "name": "Ioannis Panageas",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_m_gopi": {
+  "name": "M. Gopi",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_iftekhar_ahmed": {
+  "name": "Iftekhar Ahmed",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_erik_b_sudderth": {
+  "name": "Erik B. Sudderth",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 5,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_nikil_d_dutt": {
+  "name": "Nikil D. Dutt",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_stephan_mandt": {
+  "name": "Stephan Mandt",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 7,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_kylie_a_peppler": {
+  "name": "Kylie A. Peppler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 8,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_bill_tomlinson": {
+  "name": "Bill Tomlinson",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 11,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_magda_el_zarki": {
+  "name": "Magda El Zarki",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 5
+ },
+ "univ_fac_uc_irvine_ardalan_amiri_sani": {
+  "name": "Ardalan Amiri Sani",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_roy_fox": {
+  "name": "Roy Fox",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 6,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_alex_nicolau": {
+  "name": "Alex Nicolau",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_michael_shindler": {
+  "name": "Michael Shindler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_charless_c_fowlkes": {
+  "name": "Charless C. Fowlkes",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 3,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_alex_h_ihler": {
+  "name": "Alex H. Ihler",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 2,
+  "n_queries": 6
+ },
+ "univ_fac_uc_irvine_sameer_singh": {
+  "name": "Sameer Singh",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 10,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_judy_hoffman": {
+  "name": "Judy Hoffman",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 9,
+  "n_queries": 3
+ },
+ "univ_fac_uc_irvine_elena_agapie": {
+  "name": "Elena Agapie",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 1,
+  "n_queries": 2
+ },
+ "univ_fac_uc_irvine_kai_zheng": {
+  "name": "Kai Zheng",
+  "context": "a computer science faculty member at University of California, Irvine",
+  "n_sources": 4,
+  "n_queries": 5
+ }
+}

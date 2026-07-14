@@ -1,0 +1,2108 @@
+[
+ {
+  "id": "llm_method_originator_edward_j_hu",
+  "name": "Edward J. Hu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2157840220"
+ },
+ {
+  "id": "llm_method_originator_tim_dettmers",
+  "name": "Tim Dettmers",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3239480"
+ },
+ {
+  "id": "llm_method_originator_jason_wei",
+  "name": "Jason Wei",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "119640649"
+ },
+ {
+  "id": "llm_method_originator_shunyu_yao",
+  "name": "Shunyu Yao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2093302161"
+ },
+ {
+  "id": "llm_method_originator_patrick_lewis",
+  "name": "Patrick Lewis",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145222654"
+ },
+ {
+  "id": "llm_method_originator_paul_christiano",
+  "name": "Paul Christiano",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145370786"
+ },
+ {
+  "id": "llm_method_originator_rafael_rafailov",
+  "name": "Rafael Rafailov",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "102801230"
+ },
+ {
+  "id": "llm_method_originator_john_schulman",
+  "name": "John Schulman",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47971768"
+ },
+ {
+  "id": "llm_method_originator_diederik_p_kingma",
+  "name": "Diederik P. Kingma",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1726807"
+ },
+ {
+  "id": "llm_method_originator_sergey_ioffe",
+  "name": "Sergey Ioffe",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2054165706"
+ },
+ {
+  "id": "llm_method_originator_jimmy_lei_ba",
+  "name": "Jimmy Lei Ba",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2503659"
+ },
+ {
+  "id": "llm_method_originator_nitish_srivastava",
+  "name": "Nitish Srivastava",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2897313"
+ },
+ {
+  "id": "llm_method_originator_ashish_vaswani",
+  "name": "Ashish Vaswani",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1630664874"
+ },
+ {
+  "id": "llm_method_originator_jacob_devlin",
+  "name": "Jacob Devlin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2261961752"
+ },
+ {
+  "id": "llm_method_originator_yinhan_liu",
+  "name": "Yinhan Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "11323179"
+ },
+ {
+  "id": "llm_method_originator_tri_dao",
+  "name": "Tri Dao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "24593911"
+ },
+ {
+  "id": "llm_method_originator_william_fedus",
+  "name": "William Fedus",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "26958176"
+ },
+ {
+  "id": "llm_method_originator_jeffrey_pennington",
+  "name": "Jeffrey Pennington",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "143845796"
+ },
+ {
+  "id": "llm_method_originator_ian_goodfellow",
+  "name": "Ian Goodfellow",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "153440022"
+ },
+ {
+  "id": "llm_method_originator_jonathan_ho",
+  "name": "Jonathan Ho",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2126278"
+ },
+ {
+  "id": "llm_method_originator_alec_radford",
+  "name": "Alec Radford",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "38909097"
+ },
+ {
+  "id": "llm_method_originator_alexey_dosovitskiy",
+  "name": "Alexey Dosovitskiy",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2841331"
+ },
+ {
+  "id": "llm_method_originator_kaiming_he",
+  "name": "Kaiming He",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2058350112"
+ },
+ {
+  "id": "llm_method_originator_xiang_lisa_li",
+  "name": "Xiang Lisa Li",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "32551341"
+ },
+ {
+  "id": "llm_method_originator_brian_lester",
+  "name": "Brian Lester",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144104130"
+ },
+ {
+  "id": "llm_method_originator_yuntao_bai",
+  "name": "Yuntao Bai",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1486307451"
+ },
+ {
+  "id": "llm_method_originator_yaniv_leviathan",
+  "name": "Yaniv Leviathan",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2188067081"
+ },
+ {
+  "id": "llm_method_originator_woosuk_kwon",
+  "name": "Woosuk Kwon",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2239096468"
+ },
+ {
+  "id": "llm_method_originator_albert_gu",
+  "name": "Albert Gu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2269161650"
+ },
+ {
+  "id": "llm_method_originator_joshua_ainslie",
+  "name": "Joshua Ainslie",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1643737606"
+ },
+ {
+  "id": "llm_method_originator_rico_sennrich",
+  "name": "Rico Sennrich",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2371989866"
+ },
+ {
+  "id": "llm_method_originator_ilya_sutskever",
+  "name": "Ilya Sutskever",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1701686"
+ },
+ {
+  "id": "llm_method_originator_dzmitry_bahdanau",
+  "name": "Dzmitry Bahdanau",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3335364"
+ },
+ {
+  "id": "llm_method_originator_ari_holtzman",
+  "name": "Ari Holtzman",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2257034335"
+ },
+ {
+  "id": "llm_method_originator_geoffrey_hinton",
+  "name": "Geoffrey Hinton",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1695689"
+ },
+ {
+  "id": "llm_method_originator_olaf_ronneberger",
+  "name": "Olaf Ronneberger",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1737326"
+ },
+ {
+  "id": "llm_method_originator_joseph_redmon",
+  "name": "Joseph Redmon",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "40497777"
+ },
+ {
+  "id": "llm_method_originator_shaoqing_ren",
+  "name": "Shaoqing Ren",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3080683"
+ },
+ {
+  "id": "llm_method_originator_alexei_baevski",
+  "name": "Alexei Baevski",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "14667698"
+ },
+ {
+  "id": "llm_method_originator_jordan_hoffmann",
+  "name": "Jordan Hoffmann",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "46616544"
+ },
+ {
+  "id": "llm_method_originator_jared_kaplan",
+  "name": "Jared Kaplan",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "152724169"
+ },
+ {
+  "id": "llm_method_originator_timo_schick",
+  "name": "Timo Schick",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "32246932"
+ },
+ {
+  "id": "llm_method_originator_yizhong_wang",
+  "name": "Yizhong Wang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1705260"
+ },
+ {
+  "id": "llm_method_originator_samyam_rajbhandari",
+  "name": "Samyam Rajbhandari",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "32817044"
+ },
+ {
+  "id": "llm_method_originator_mohammad_shoeybi",
+  "name": "Mohammad Shoeybi",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1911755"
+ },
+ {
+  "id": "llm_method_originator_xuezhi_wang",
+  "name": "Xuezhi Wang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275277634"
+ },
+ {
+  "id": "llm_method_originator_noah_shinn",
+  "name": "Noah Shinn",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2212367248"
+ },
+ {
+  "id": "llm_method_originator_omar_khattab",
+  "name": "Omar Khattab",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144112155"
+ },
+ {
+  "id": "llm_method_originator_vladimir_karpukhin",
+  "name": "Vladimir Karpukhin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2067091563"
+ },
+ {
+  "id": "llm_method_originator_nils_reimers",
+  "name": "Nils Reimers",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2959414"
+ },
+ {
+  "id": "llm_method_originator_hao_liu",
+  "name": "Hao Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "34064769"
+ },
+ {
+  "id": "llm_method_originator_shihyang_liu",
+  "name": "Shih-Yang Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2220637583"
+ },
+ {
+  "id": "llm_method_originator_noam_shazeer",
+  "name": "Noam Shazeer",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2065683694"
+ },
+ {
+  "id": "llm_method_originator_juho_lee",
+  "name": "Juho Lee",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2108550834"
+ },
+ {
+  "id": "llm_method_originator_andrew_jaegle",
+  "name": "Andrew Jaegle",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2689633"
+ },
+ {
+  "id": "llm_method_originator_iz_beltagy",
+  "name": "Iz Beltagy",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "46181066"
+ },
+ {
+  "id": "llm_method_originator_nikita_kitaev",
+  "name": "Nikita Kitaev",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "143808231"
+ },
+ {
+  "id": "llm_method_originator_zhilin_yang",
+  "name": "Zhilin Yang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2109512754"
+ },
+ {
+  "id": "llm_method_originator_zhenzhong_lan",
+  "name": "Zhenzhong Lan",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2362534"
+ },
+ {
+  "id": "llm_method_originator_pengcheng_he",
+  "name": "Pengcheng He",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "50462546"
+ },
+ {
+  "id": "llm_method_originator_mike_lewis",
+  "name": "Mike Lewis",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "35084211"
+ },
+ {
+  "id": "llm_method_originator_jingqing_zhang",
+  "name": "Jingqing Zhang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47540100"
+ },
+ {
+  "id": "llm_method_originator_rowan_zellers",
+  "name": "Rowan Zellers",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2545335"
+ },
+ {
+  "id": "llm_method_originator_alex_wang",
+  "name": "Alex Wang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144906624"
+ },
+ {
+  "id": "llm_method_originator_pranav_rajpurkar",
+  "name": "Pranav Rajpurkar",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2706258"
+ },
+ {
+  "id": "llm_method_originator_tsungyi_lin",
+  "name": "Tsung-Yi Lin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "33493200"
+ },
+ {
+  "id": "llm_method_originator_keisuke_sakaguchi",
+  "name": "Keisuke Sakaguchi",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2325708"
+ },
+ {
+  "id": "llm_method_originator_stephanie_lin",
+  "name": "Stephanie Lin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "48639938"
+ },
+ {
+  "id": "llm_method_originator_denny_zhou",
+  "name": "Denny Zhou",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "65855107"
+ },
+ {
+  "id": "llm_method_originator_luyu_gao",
+  "name": "Luyu Gao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "49715441"
+ },
+ {
+  "id": "llm_method_originator_wenhu_chen",
+  "name": "Wenhu Chen",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2928777"
+ },
+ {
+  "id": "llm_method_originator_tianle_cai",
+  "name": "Tianle Cai",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "123970124"
+ },
+ {
+  "id": "llm_method_originator_akari_asai",
+  "name": "Akari Asai",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "35584853"
+ },
+ {
+  "id": "llm_method_originator_carlos_e_jimenez",
+  "name": "Carlos E. Jimenez",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2155269683"
+ },
+ {
+  "id": "llm_method_originator_david_rein",
+  "name": "David Rein",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2266751602"
+ },
+ {
+  "id": "llm_method_originator_xiang_yue",
+  "name": "Xiang Yue",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2362712719"
+ },
+ {
+  "id": "llm_method_originator_weilin_chiang",
+  "name": "Wei-Lin Chiang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2537924"
+ },
+ {
+  "id": "llm_method_originator_lianmin_zheng",
+  "name": "Lianmin Zheng",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2149970173"
+ },
+ {
+  "id": "llm_method_originator_yann_dubois",
+  "name": "Yann Dubois",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47367640"
+ },
+ {
+  "id": "llm_method_originator_tom_kwiatkowski",
+  "name": "Tom Kwiatkowski",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "15652489"
+ },
+ {
+  "id": "llm_method_originator_mandar_joshi",
+  "name": "Mandar Joshi",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144863691"
+ },
+ {
+  "id": "llm_method_originator_albert_q_jiang",
+  "name": "Albert Q. Jiang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2278435713"
+ },
+ {
+  "id": "llm_method_originator_daya_guo",
+  "name": "Daya Guo",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2278834796"
+ },
+ {
+  "id": "llm_method_originator_dirk_groeneveld",
+  "name": "Dirk Groeneveld",
+  "context": "a machine learning researcher",
+  "cohort": "llm_method_originator",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3458736"
+ },
+ {
+  "id": "llm_foundational_author_niki_parmar",
+  "name": "Niki Parmar",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3877127"
+ },
+ {
+  "id": "llm_foundational_author_jakob_uszkoreit",
+  "name": "Jakob Uszkoreit",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "39328010"
+ },
+ {
+  "id": "llm_foundational_author_llion_jones",
+  "name": "Llion Jones",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145024664"
+ },
+ {
+  "id": "llm_foundational_author_aidan_n_gomez",
+  "name": "Aidan N. Gomez",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "19177000"
+ },
+ {
+  "id": "llm_foundational_author_lukasz_kaiser",
+  "name": "Lukasz Kaiser",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "40527594"
+ },
+ {
+  "id": "llm_foundational_author_hugo_touvron",
+  "name": "Hugo Touvron",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2113243762"
+ },
+ {
+  "id": "llm_foundational_author_thibaut_lavril",
+  "name": "Thibaut Lavril",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "46183616"
+ },
+ {
+  "id": "llm_foundational_author_gautier_izacard",
+  "name": "Gautier Izacard",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1410231361"
+ },
+ {
+  "id": "llm_foundational_author_timothe_lacroix",
+  "name": "Timothée Lacroix",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47733973"
+ },
+ {
+  "id": "llm_foundational_author_baptiste_rozire",
+  "name": "Baptiste Rozière",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3361236"
+ },
+ {
+  "id": "llm_foundational_author_eric_hambro",
+  "name": "Eric Hambro",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2072738644"
+ },
+ {
+  "id": "llm_foundational_author_faisal_azhar",
+  "name": "Faisal Azhar",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2209986197"
+ },
+ {
+  "id": "llm_foundational_author_aurelien_rodriguez",
+  "name": "Aur'elien Rodriguez",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2166043087"
+ },
+ {
+  "id": "llm_foundational_author_armand_joulin",
+  "name": "Armand Joulin",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2319608"
+ },
+ {
+  "id": "llm_foundational_author_edouard_grave",
+  "name": "Edouard Grave",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3024698"
+ },
+ {
+  "id": "llm_foundational_author_sebastian_borgeaud",
+  "name": "Sebastian Borgeaud",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "148016269"
+ },
+ {
+  "id": "llm_foundational_author_arthur_mensch",
+  "name": "Arthur Mensch",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1697879"
+ },
+ {
+  "id": "llm_foundational_author_elena_buchatskaya",
+  "name": "Elena Buchatskaya",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "118801223"
+ },
+ {
+  "id": "llm_foundational_author_trevor_cai",
+  "name": "Trevor Cai",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2072572294"
+ },
+ {
+  "id": "llm_foundational_author_eliza_rutherford",
+  "name": "Eliza Rutherford",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2143538252"
+ },
+ {
+  "id": "llm_foundational_author_diego_de_las_casas",
+  "name": "Diego de Las Casas",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "40550616"
+ },
+ {
+  "id": "llm_foundational_author_lisa_anne_hendricks",
+  "name": "Lisa Anne Hendricks",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2234342"
+ },
+ {
+  "id": "llm_foundational_author_johannes_welbl",
+  "name": "Johannes Welbl",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1851564"
+ },
+ {
+  "id": "llm_foundational_author_aidan_clark",
+  "name": "Aidan Clark",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "31993415"
+ },
+ {
+  "id": "llm_foundational_author_eric_noland",
+  "name": "Eric Noland",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "51210148"
+ },
+ {
+  "id": "llm_foundational_author_jong_wook_kim",
+  "name": "Jong Wook Kim",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2110935237"
+ },
+ {
+  "id": "llm_foundational_author_chris_hallacy",
+  "name": "Chris Hallacy",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2004021329"
+ },
+ {
+  "id": "llm_foundational_author_gabriel_goh",
+  "name": "Gabriel Goh",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "40087786"
+ },
+ {
+  "id": "llm_foundational_author_amanda_askell",
+  "name": "Amanda Askell",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "119609682"
+ },
+ {
+  "id": "llm_foundational_author_pamela_mishkin",
+  "name": "Pamela Mishkin",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2051714782"
+ },
+ {
+  "id": "llm_foundational_author_jack_clark",
+  "name": "Jack Clark",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2115193883"
+ },
+ {
+  "id": "llm_foundational_author_gretchen_krueger",
+  "name": "Gretchen Krueger",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2064404342"
+ },
+ {
+  "id": "llm_foundational_author_yi_tay",
+  "name": "Yi Tay",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144447820"
+ },
+ {
+  "id": "llm_foundational_author_rishi_bommasani",
+  "name": "Rishi Bommasani",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "150272855"
+ },
+ {
+  "id": "llm_foundational_author_colin_raffel",
+  "name": "Colin Raffel",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2402716"
+ },
+ {
+  "id": "llm_foundational_author_barret_zoph",
+  "name": "Barret Zoph",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2368067"
+ },
+ {
+  "id": "llm_foundational_author_dani_yogatama",
+  "name": "Dani Yogatama",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1755465"
+ },
+ {
+  "id": "llm_foundational_author_maarten_bosma",
+  "name": "Maarten Bosma",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "40377863"
+ },
+ {
+  "id": "llm_foundational_author_donald_metzler",
+  "name": "Donald Metzler",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1680617"
+ },
+ {
+  "id": "llm_foundational_author_ed_h_chi",
+  "name": "Ed H. Chi",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2226805"
+ },
+ {
+  "id": "llm_foundational_author_tatsunori_hashimoto",
+  "name": "Tatsunori Hashimoto",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2117567142"
+ },
+ {
+  "id": "llm_foundational_author_hyung_won_chung",
+  "name": "Hyung Won Chung",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3351938"
+ },
+ {
+  "id": "llm_foundational_author_le_hou",
+  "name": "Le Hou",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2153400663"
+ },
+ {
+  "id": "llm_foundational_author_eric_li",
+  "name": "Eric Li",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2053810539"
+ },
+ {
+  "id": "llm_foundational_author_mostafa_dehghani",
+  "name": "Mostafa Dehghani",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3226635"
+ },
+ {
+  "id": "llm_foundational_author_siddhartha_brahma",
+  "name": "Siddhartha Brahma",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1791585"
+ },
+ {
+  "id": "llm_foundational_author_albert_webson",
+  "name": "Albert Webson",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1991019030"
+ },
+ {
+  "id": "llm_foundational_author_adam_roberts",
+  "name": "Adam Roberts",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145625142"
+ },
+ {
+  "id": "llm_foundational_author_katherine_lee",
+  "name": "Katherine Lee",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3844009"
+ },
+ {
+  "id": "llm_foundational_author_sharan_narang",
+  "name": "Sharan Narang",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "46617804"
+ },
+ {
+  "id": "llm_foundational_author_michael_matena",
+  "name": "Michael Matena",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1380243217"
+ },
+ {
+  "id": "llm_foundational_author_yanqi_zhou",
+  "name": "Yanqi Zhou",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2389316"
+ },
+ {
+  "id": "llm_foundational_author_wei_li",
+  "name": "Wei Li",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2157338362"
+ },
+ {
+  "id": "llm_foundational_author_peter_j_liu",
+  "name": "Peter J. Liu",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "35025299"
+ },
+ {
+  "id": "llm_foundational_author_mehdi_mirza",
+  "name": "Mehdi Mirza",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "153583218"
+ },
+ {
+  "id": "llm_foundational_author_simon_osindero",
+  "name": "Simon Osindero",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2217144"
+ },
+ {
+  "id": "llm_foundational_author_mingwei_chang",
+  "name": "Ming-Wei Chang",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1744179"
+ },
+ {
+  "id": "llm_foundational_author_kenton_lee",
+  "name": "Kenton Lee",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2544107"
+ },
+ {
+  "id": "llm_foundational_author_kristina_toutanova",
+  "name": "Kristina Toutanova",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3259253"
+ },
+ {
+  "id": "llm_foundational_author_louis_martin",
+  "name": "Louis Martin",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "143792623"
+ },
+ {
+  "id": "llm_foundational_author_kevin_r_stone",
+  "name": "Kevin R. Stone",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2059203763"
+ },
+ {
+  "id": "llm_foundational_author_peter_albert",
+  "name": "Peter Albert",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2214809450"
+ },
+ {
+  "id": "llm_foundational_author_amjad_almahairi",
+  "name": "Amjad Almahairi",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2634674"
+ },
+ {
+  "id": "llm_foundational_author_yasmine_babaei",
+  "name": "Yasmine Babaei",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2223764353"
+ },
+ {
+  "id": "llm_foundational_author_nikolay_bashlykov",
+  "name": "Nikolay Bash-lykov",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2223756247"
+ },
+ {
+  "id": "llm_foundational_author_soumya_batra",
+  "name": "Soumya Batra",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47505161"
+ },
+ {
+  "id": "llm_foundational_author_prajjwal_bhargava",
+  "name": "Prajjwal Bhargava",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "51229603"
+ },
+ {
+  "id": "llm_foundational_author_shruti_bhosale",
+  "name": "Shruti Bhosale",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2116473"
+ },
+ {
+  "id": "llm_foundational_author_lukas_blecher",
+  "name": "Lukas Blecher",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2040305955"
+ },
+ {
+  "id": "llm_foundational_author_steven_adler",
+  "name": "Steven Adler",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275250875"
+ },
+ {
+  "id": "llm_foundational_author_ilge_akkaya",
+  "name": "Ilge Akkaya",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2258629"
+ },
+ {
+  "id": "llm_foundational_author_florencia_leoni_aleman",
+  "name": "Florencia Leoni Aleman",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275244794"
+ },
+ {
+  "id": "llm_foundational_author_janko_altenschmidt",
+  "name": "Janko Altenschmidt",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275252424"
+ },
+ {
+  "id": "llm_foundational_author_shyamal_anadkat",
+  "name": "Shyamal Anadkat",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275246437"
+ },
+ {
+  "id": "llm_foundational_author_red_avila",
+  "name": "Red Avila",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2275139370"
+ },
+ {
+  "id": "llm_foundational_author_igor_babuschkin",
+  "name": "Igor Babuschkin",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2256699302"
+ },
+ {
+  "id": "llm_foundational_author_sbastien_bubeck",
+  "name": "Sébastien Bubeck",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "121645690"
+ },
+ {
+  "id": "llm_foundational_author_varun_chandrasekaran",
+  "name": "Varun Chandrasekaran",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "143754359"
+ },
+ {
+  "id": "llm_foundational_author_ronen_eldan",
+  "name": "Ronen Eldan",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2315830"
+ },
+ {
+  "id": "llm_foundational_author_john_a_gehrke",
+  "name": "John A. Gehrke",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "120962807"
+ },
+ {
+  "id": "llm_foundational_author_eric_horvitz",
+  "name": "Eric Horvitz",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2064595436"
+ },
+ {
+  "id": "llm_foundational_author_ece_kamar",
+  "name": "Ece Kamar",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1783184"
+ },
+ {
+  "id": "llm_foundational_author_peter_lee",
+  "name": "Peter Lee",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2397827688"
+ },
+ {
+  "id": "llm_foundational_author_yuanfang_li",
+  "name": "Yuan-Fang Li",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "152244300"
+ },
+ {
+  "id": "llm_foundational_author_scott_m_lundberg",
+  "name": "Scott M. Lundberg",
+  "context": "an AI researcher",
+  "cohort": "llm_foundational_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "23451726"
+ },
+ {
+  "id": "llm_best_paper_author_ajay_jain",
+  "name": "Ajay Jain",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1623995772"
+ },
+ {
+  "id": "llm_best_paper_author_tero_karras",
+  "name": "Tero Karras",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2976930"
+ },
+ {
+  "id": "llm_best_paper_author_timo_aila",
+  "name": "Timo Aila",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1761103"
+ },
+ {
+  "id": "llm_best_paper_author_ross_b_girshick",
+  "name": "Ross B. Girshick",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2983898"
+ },
+ {
+  "id": "llm_best_paper_author_jian_sun",
+  "name": "Jian Sun",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2032184078"
+ },
+ {
+  "id": "llm_best_paper_author_emily_m_bender",
+  "name": "Emily M. Bender",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2471699"
+ },
+ {
+  "id": "llm_best_paper_author_timnit_gebru",
+  "name": "Timnit Gebru",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2076288"
+ },
+ {
+  "id": "llm_best_paper_author_angelina_mcmillanmajor",
+  "name": "Angelina McMillan-Major",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1584940075"
+ },
+ {
+  "id": "llm_best_paper_author_shmargaret_shmitchell",
+  "name": "Shmargaret Shmitchell",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2246048745"
+ },
+ {
+  "id": "llm_best_paper_author_chiyuan_zhang",
+  "name": "Chiyuan Zhang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "151505981"
+ },
+ {
+  "id": "llm_best_paper_author_samy_bengio",
+  "name": "Samy Bengio",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1751569"
+ },
+ {
+  "id": "llm_best_paper_author_moritz_hardt",
+  "name": "Moritz Hardt",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1775622"
+ },
+ {
+  "id": "llm_best_paper_author_christian_szegedy",
+  "name": "Christian Szegedy",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2574060"
+ },
+ {
+  "id": "llm_best_paper_author_zilong_liu",
+  "name": "Zilong Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2145253061"
+ },
+ {
+  "id": "llm_best_paper_author_krzysztof_janowicz",
+  "name": "Krzysztof Janowicz",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2173297773"
+ },
+ {
+  "id": "llm_best_paper_author_kitty_currier",
+  "name": "Kitty Currier",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2256211984"
+ },
+ {
+  "id": "llm_best_paper_author_meilin_shi",
+  "name": "Meilin Shi",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2113795548"
+ },
+ {
+  "id": "llm_best_paper_author_eric_mintun",
+  "name": "Eric Mintun",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "13131689"
+ },
+ {
+  "id": "llm_best_paper_author_nikhila_ravi",
+  "name": "Nikhila Ravi",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2065647966"
+ },
+ {
+  "id": "llm_best_paper_author_hanzi_mao",
+  "name": "Hanzi Mao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2053590350"
+ },
+ {
+  "id": "llm_best_paper_author_chlo_rolland",
+  "name": "Chloé Rolland",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2213549340"
+ },
+ {
+  "id": "llm_best_paper_author_laura_gustafson",
+  "name": "Laura Gustafson",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "47029037"
+ },
+ {
+  "id": "llm_best_paper_author_tete_xiao",
+  "name": "Tete Xiao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "15727192"
+ },
+ {
+  "id": "llm_best_paper_author_spencer_whitehead",
+  "name": "Spencer Whitehead",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "153188991"
+ },
+ {
+  "id": "llm_best_paper_author_haotian_liu",
+  "name": "Haotian Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2143856368"
+ },
+ {
+  "id": "llm_best_paper_author_chunyuan_li",
+  "name": "Chunyuan Li",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2109737569"
+ },
+ {
+  "id": "llm_best_paper_author_qingyang_wu",
+  "name": "Qingyang Wu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "31060482"
+ },
+ {
+  "id": "llm_best_paper_author_yong_jae_lee",
+  "name": "Yong Jae Lee",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144756076"
+ },
+ {
+  "id": "llm_best_paper_author_archit_sharma",
+  "name": "Archit Sharma",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "50465276"
+ },
+ {
+  "id": "llm_best_paper_author_stefano_ermon",
+  "name": "Stefano Ermon",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2490652"
+ },
+ {
+  "id": "llm_best_paper_author_christopher_d_manning",
+  "name": "Christopher D. Manning",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144783904"
+ },
+ {
+  "id": "llm_best_paper_author_chelsea_finn",
+  "name": "Chelsea Finn",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "46881670"
+ },
+ {
+  "id": "llm_best_paper_author_miles_turpin",
+  "name": "Miles Turpin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144196816"
+ },
+ {
+  "id": "llm_best_paper_author_julian_michael",
+  "name": "Julian Michael",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "38614754"
+ },
+ {
+  "id": "llm_best_paper_author_ethan_perez",
+  "name": "Ethan Perez",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "3439053"
+ },
+ {
+  "id": "llm_best_paper_author_sam_bowman",
+  "name": "Sam Bowman",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1799822"
+ },
+ {
+  "id": "llm_best_paper_author_nisan_stiennon",
+  "name": "Nisan Stiennon",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1387983862"
+ },
+ {
+  "id": "llm_best_paper_author_long_ouyang",
+  "name": "Long Ouyang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "31793034"
+ },
+ {
+  "id": "llm_best_paper_author_jeff_wu",
+  "name": "Jeff Wu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "49387725"
+ },
+ {
+  "id": "llm_best_paper_author_daniel_m_ziegler",
+  "name": "Daniel M. Ziegler",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2052152920"
+ },
+ {
+  "id": "llm_best_paper_author_ryan_j_lowe",
+  "name": "Ryan J. Lowe",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "49407415"
+ },
+ {
+  "id": "llm_best_paper_author_chelsea_voss",
+  "name": "Chelsea Voss",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "153387869"
+ },
+ {
+  "id": "llm_best_paper_author_dario_amodei",
+  "name": "Dario Amodei",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2698777"
+ },
+ {
+  "id": "llm_best_paper_author_zhuang_liu",
+  "name": "Zhuang Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2109168016"
+ },
+ {
+  "id": "llm_best_paper_author_chaozheng_wu",
+  "name": "Chaozheng Wu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "95426599"
+ },
+ {
+  "id": "llm_best_paper_author_christoph_feichtenhofer",
+  "name": "Christoph Feichtenhofer",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2322150"
+ },
+ {
+  "id": "llm_best_paper_author_trevor_darrell",
+  "name": "Trevor Darrell",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1753210"
+ },
+ {
+  "id": "llm_best_paper_author_saining_xie",
+  "name": "Saining Xie",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1817030"
+ },
+ {
+  "id": "llm_best_paper_author_xinlei_chen",
+  "name": "Xinlei Chen",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "39717886"
+ },
+ {
+  "id": "llm_best_paper_author_yanghao_li",
+  "name": "Yanghao Li",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2366569281"
+ },
+ {
+  "id": "llm_best_paper_author_piotr_dollar",
+  "name": "Piotr Doll'ar",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2065731243"
+ },
+ {
+  "id": "llm_best_paper_author_ze_liu",
+  "name": "Ze Liu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2109371439"
+ },
+ {
+  "id": "llm_best_paper_author_yutong_lin",
+  "name": "Yutong Lin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "51091819"
+ },
+ {
+  "id": "llm_best_paper_author_yue_cao",
+  "name": "Yue Cao",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2112823372"
+ },
+ {
+  "id": "llm_best_paper_author_han_hu",
+  "name": "Han Hu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1823518756"
+ },
+ {
+  "id": "llm_best_paper_author_yixuan_wei",
+  "name": "Yixuan Wei",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2107995927"
+ },
+ {
+  "id": "llm_best_paper_author_zheng_zhang",
+  "name": "Zheng Zhang",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2148904543"
+ },
+ {
+  "id": "llm_best_paper_author_stephen_lin",
+  "name": "Stephen Lin",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145676588"
+ },
+ {
+  "id": "llm_best_paper_author_jane_dwivediyu",
+  "name": "Jane Dwivedi-Yu",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2173509991"
+ },
+ {
+  "id": "llm_best_paper_author_roberto_dess",
+  "name": "Roberto Dessì",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "145188261"
+ },
+ {
+  "id": "llm_best_paper_author_luke_zettlemoyer",
+  "name": "Luke Zettlemoyer",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "1982950"
+ },
+ {
+  "id": "llm_best_paper_author_nicola_cancedda",
+  "name": "Nicola Cancedda",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "2313189469"
+ },
+ {
+  "id": "llm_best_paper_author_thomas_scialom",
+  "name": "Thomas Scialom",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "90745780"
+ },
+ {
+  "id": "llm_best_paper_author_heinrich_kuttler",
+  "name": "Heinrich Kuttler",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "103131985"
+ },
+ {
+  "id": "llm_best_paper_author_wentau_yih",
+  "name": "Wen-tau Yih",
+  "context": "a machine learning researcher",
+  "cohort": "llm_best_paper_author",
+  "gold_v2": true,
+  "gold_source": "s2",
+  "s2_author": "144105277"
+ }
+]

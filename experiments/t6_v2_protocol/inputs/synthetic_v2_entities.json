@@ -1,0 +1,317 @@
+[
+ {
+  "id": "syn_cs_yorel_heskenwald",
+  "name": "Yorel Heskenwald",
+  "context": "a computer science faculty member at ETH Zurich",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_anveer_kothakonda",
+  "name": "Anveer Kothakonda",
+  "context": "a computer science faculty member at the University of Edinburgh",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_eskil_vrancken",
+  "name": "Eskil Vrancken",
+  "context": "a computer science faculty member at KU Leuven",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_vihaan_periswamy",
+  "name": "Vihaan Periswamy",
+  "context": "a computer science faculty member at the Indian Institute of Science",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_tarvik_olshanski",
+  "name": "Tarvik Olshanski",
+  "context": "a computer science faculty member at the University of Toronto",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_onnele_sjoberg",
+  "name": "Onnele Sjöberg",
+  "context": "a computer science faculty member at KTH Royal Institute of Technology",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_devansh_maliholkar",
+  "name": "Devansh Maliholkar",
+  "context": "a computer science faculty member at Georgia Tech",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_wenslin_kraborsky",
+  "name": "Wenslin Kraborsky",
+  "context": "a computer science faculty member at TU Munich",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_halvar_mendigutia",
+  "name": "Halvar Mendigutia",
+  "context": "a computer science faculty member at the University of Helsinki",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_cs_iskander_vrolijk",
+  "name": "Iskander Vrolijk",
+  "context": "a computer science faculty member at TU Delft",
+  "cohort": "synthetic_cs_faculty_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_vesper_lindblom",
+  "name": "Vesper Lindblom",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing Sweden",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_aslan_shyngyssov",
+  "name": "Aslan Shyngyssov",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing Kazakhstan",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_petr_zelinka",
+  "name": "Petr Zelinka",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing Czechia",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_quoc_nhat_dau",
+  "name": "Quốc Nhật Đậu",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing Vietnam",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_milos_pravdic",
+  "name": "Miloš Pravdić",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing Serbia",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_imo_zhuoming_qiang",
+  "name": "Zhuoming Qiang",
+  "context": "a participant at the International Mathematical Olympiad (IMO) 2014 representing China",
+  "cohort": "synthetic_imo_gold_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_brendel_quanzhong",
+  "name": "Brendel Quanzhong",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_marielys_caballenas",
+  "name": "Marielys Caballenas",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_jocelin_okwuosu",
+  "name": "Jocelin Okwuosu",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_pieter_van_houtrijn",
+  "name": "Pieter van Houtrijn",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_renske_thalvald",
+  "name": "Renske Thalvald",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_founder_amitabh_nakshatri",
+  "name": "Amitabh Nakshatri",
+  "context": "a technology company co-founder or executive",
+  "cohort": "synthetic_founder_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_oss_spindleflow",
+  "name": "Spindleflow",
+  "context": "an open-source workflow orchestration library for Python data pipelines, hosted at github.com/spindleflow/spindleflow",
+  "cohort": "synthetic_oss_project_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_oss_quillvec",
+  "name": "Quillvec",
+  "context": "an open-source vector indexing library optimized for low-latency similarity search, hosted at github.com/quillvec/quillvec",
+  "cohort": "synthetic_oss_project_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_oss_lattispan",
+  "name": "Lattispan",
+  "context": "an open-source distributed-tracing library for asynchronous Python services, hosted at github.com/lattispan/lattispan",
+  "cohort": "synthetic_oss_project_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_oss_glaivebench",
+  "name": "Glaivebench",
+  "context": "an open-source benchmark suite for evaluating long-context reasoning in language models",
+  "cohort": "synthetic_oss_project_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_mid_musician_bruno_esquivel_tang",
+  "name": "Bruno Esquivel-Tang",
+  "context": "an American indie singer-songwriter",
+  "cohort": "synthetic_mid_tier_musician_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_mid_chef_celestin_rouvenaz",
+  "name": "Célestin Rouvenaz",
+  "context": "a chef",
+  "cohort": "synthetic_mid_tier_chef_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_mid_journalist_mireia_aldecoa",
+  "name": "Mireia Aldecoa",
+  "context": "a journalist",
+  "cohort": "synthetic_mid_tier_journalist_v2",
+  "synthetic": true
+ },
+ {
+  "id": "syn_mid_podcast_the_quiet_signal",
+  "name": "The Quiet Signal",
+  "context": "a weekly interview podcast",
+  "cohort": "synthetic_mid_tier_podcast_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_farnaz",
+  "name": "Farnaz Oduya-Lindqvist",
+  "context": "an academic researcher in computational epidemiology",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_tevin",
+  "name": "Tevin Bramsgaard",
+  "context": "an academic researcher in underwater acoustics",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_ilaria",
+  "name": "Ilaria Vantorre-Meszaros",
+  "context": "an academic researcher in organic photovoltaics",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_kwabena",
+  "name": "Kwabena Osterlund-Adjei",
+  "context": "an academic researcher in operations research",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_marisol",
+  "name": "Marisol Grieveson-Ku",
+  "context": "an academic researcher in sedimentology",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_oa_bogdan",
+  "name": "Bogdan Ferreyra-Nakade",
+  "context": "an academic researcher in compiler verification",
+  "cohort": "synthetic_openalex_researcher_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_noi_sang_weihuan",
+  "name": "Sang Weihuan (桑纬奂)",
+  "context": "a contestant at the 2009 NOI (China National Olympiad in Informatics)",
+  "cohort": "synthetic_noi_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_noi_nie_qiongzhao",
+  "name": "Nie Qiongzhao (聂穹肇)",
+  "context": "a contestant at the 2009 NOI (China National Olympiad in Informatics)",
+  "cohort": "synthetic_noi_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_noi_qiu_zhenlue",
+  "name": "Qiu Zhenlue (仇箴略)",
+  "context": "a contestant at the 2009 NOI (China National Olympiad in Informatics)",
+  "cohort": "synthetic_noi_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_paper_cross-basin_bathymetric",
+  "name": "Cross-Basin Bathymetric Super-Resolution with Multiscale Attention Priors",
+  "context": "a 2021 academic paper",
+  "cohort": "synthetic_paper_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_paper_endogenous_queue",
+  "name": "Endogenous Queue Abandonment in Two-Sided Service Platforms: Identification and Welfare",
+  "context": "a 2020 academic paper",
+  "cohort": "synthetic_paper_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_paper_a_uracil-bridged",
+  "name": "A Uracil-Bridged Bimetallic Scaffold for Selective CO2-to-Formate Electroreduction",
+  "context": "a 2022 academic paper",
+  "cohort": "synthetic_paper_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_paper_curriculum_distillation",
+  "name": "Curriculum Distillation Under Label Scarcity for Edge Vision Transformers",
+  "context": "a 2022 academic paper",
+  "cohort": "synthetic_paper_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_msra_ruan",
+  "name": "Ruan Xilai (阮析莱)",
+  "context": "a computer science PhD student at Zhejiang University (circa 2021)",
+  "cohort": "synthetic_msra_v2",
+  "synthetic": true
+ },
+ {
+  "id": "synthetic_msra_pang",
+  "name": "Pang Yunche (庞筠澈)",
+  "context": "a computer science PhD student at Nanjing University (circa 2022)",
+  "cohort": "synthetic_msra_v2",
+  "synthetic": true
+ }
+]

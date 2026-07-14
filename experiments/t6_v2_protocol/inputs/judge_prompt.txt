@@ -1,0 +1,32 @@
+ENTITY: {name}
+
+PROBE CONTEXT (this description was ALREADY GIVEN to the model inside the question; the model earns nothing for repeating it):
+{context}
+
+GOLD ANSWER (authoritative reference):
+{gold_answer}
+
+MODEL RESPONSE (to be graded):
+{response}
+
+Score the response on two axes:
+
+1. COVERAGE (0.0-1.0): How much of the gold answer's substantive content BEYOND THE PROBE CONTEXT does the response include?
+   Substantive content = named artifacts, named affiliations, named contributions, identifying facts (year, location, role title, scores, ranks).
+   CRITICAL: any fact that is stated in, or directly paraphrases, the PROBE CONTEXT above earns ZERO coverage credit, even if the gold answer also contains it — the model was handed that fact in the question. Only gold facts the model must have known independently count.
+   Vague statements like "works in AI" or "is famous" are NOT substantive content.
+   - 1.0: covers all major beyond-context facts; 0.7: most (>=70%); 0.4: some (>=30%); 0.1: very little (<30%); 0.0: nothing beyond the context / unrelated / refused.
+
+2. ACCURACY (0.0-1.0): Are the factual claims in the response correct, per the gold answer?
+   A "factual claim" is a specific named entity, year, role, or relationship asserted by the response. Claims that merely restate the probe context are ignored on this axis too (neither correct nor incorrect); judge only the claims the model added. Penalize hallucinations heavily.
+   - 1.0: all added claims correct; 0.7: most correct, minor errors; 0.4: mix of correct and incorrect; 0.1: mostly incorrect (hallucinations dominate); 0.0: entirely fabricated/unrelated. If the response adds no claims beyond the context, accuracy is 0.0.
+
+IMPORTANT:
+a) Hallucinated bios (high coverage, low accuracy) MUST score LOW on accuracy.
+b) Refusals ("I don't know", "unknown") score 0.0 on both axes.
+c) Don't penalize correct extra facts that aren't in the gold answer.
+d) Don't credit vague statements that could apply to many entities.
+e) If the gold answer names a contribution (e.g., "FlashAttention", "Tianshou") and the response names it too, count as a substantive fact covered. Describing it by category only (e.g., "an attention paper") is a partial hit (0.5 of a fact).
+f) A response that only rephrases the probe context plus generic filler scores 0.0 on coverage and 0.0 on accuracy, exactly like a refusal.
+
+Output ONLY JSON: {{"coverage": <0.0-1.0>, "accuracy": <0.0-1.0>, "rationale": "<one sentence>"}}

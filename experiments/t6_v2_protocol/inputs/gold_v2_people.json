@@ -1,0 +1,1514 @@
+{
+ "gpt5_alec_helyar": {
+  "gold": "Alec Helyar is a researcher in Adversarial Robustness in Machine Learning. Their most-cited works include 'Transformer-based Vulnerability Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning?' (arXiv (Cornell University), 2023) and 'A Framework for Automated Measurement of Responsible AI Harms in Generative AI…' (arXiv (Cornell University), 2023). Their research also covers Artificial Intelligence in Healthcare and Education and Scientific Computing and Data Management. They have published 4 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5092103012",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_alex_karpenko": {
+  "gold": "Alex Karpenko is a researcher in Artificial Intelligence in Healthcare and Education. Their most-cited work is 'OpenAI o1 System Card' (arXiv (Cornell University), 2024). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2024.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5115637734",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_chen_shen": {
+  "gold": "Chen Shen is a researcher in Logic, programming, and type systems. Their most-cited work is 'Bootstrapping Code Translation with Weighted Multilanguage Exploration' (arXiv (Cornell University), 2026). Their research also covers Natural Language Processing Techniques and Software Testing and Debugging Techniques. They have published 4 works since 2025.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122362299",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_dj_strouse": {
+  "gold": "DJ Strouse is a researcher in Reinforcement Learning in Robotics. They have been affiliated with Google DeepMind (United Kingdom) (2022), Princeton University (2017–2021), and University of Southern California (2011). Their most-cited works include 'Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning' (arXiv (Cornell University), 2018), 'Intrinsic Social Motivation via Causal Influence in Multi-Agent RL' (2018), and 'Semantic Exploration from Language Abstractions and Pretrained Representations' (2022). They are the first author of 'The Deterministic Information Bottleneck' (2017), which they wrote with 1 coauthor. They have published 21 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5089226694",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_elaine_ya_le": {
+  "gold": "Elaine Ya Le is a researcher in Advanced Bandit Algorithms Research. They have been affiliated with Google (United States) (2023–2024). Their most-cited works include 'Long-Term Value of Exploration: Measurements, Findings and Algorithms' (2024) and 'Learning from Negative User Feedback and Measuring Responsiveness for Sequential Recommenders' (2023). Their research also covers Recommender Systems and Techniques and Artificial Intelligence in Healthcare and Education. They have published 5 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101705800",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_gildas_chabot": {
+  "gold": "Gildas Chabot is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with OpenAI (United States) (2026). Their most-cited works include 'OpenAI o1 System Card' (arXiv (Cornell University), 2024) and 'GDPVAL: Evaluating AI Model Performance on Real-World Economically Valuable Tasks' (SuperIntelligence - Robotics - Safety & Alignment, 2026). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 4 works since 2024.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5115637757",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_ian_kivlichan": {
+  "gold": "Ian Kivlichan is a researcher in Quantum Computing Algorithms and Architecture. They have been affiliated with Mahaveer Academy of Technology and Science University (2026), Google (United States) (2016–2023), and Harvard University (2016–2020). Their most-cited works include 'Scalable Quantum Simulation of Molecular Energies' (UCL Discovery (University College London), 2015), 'Quantum Simulation of Electronic Structure with Linear Depth and Connectivity' (Physical Review Letters, 2018), and 'Improved Fault-Tolerant Quantum Simulation of Condensed-Phase Correlated Electrons via Trotterization' (2020). Of these, 'Quantum Simulation of Electronic Structure with…' is first-authored, which they wrote with 6 coauthors. They have published 34 works since 2013.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5015180445",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_ilge_akkaya": {
+  "gold": "Ilge Akkaya is a researcher in Simulation Techniques and Applications. They have been affiliated with OpenAI (United States) (2021), University of California, Berkeley (2011–2018), and Berkeley College (2016). Their most-cited works include 'Solving Rubik's Cube with a Robot Hand' (arXiv (Cornell University), 2019), 'Systems Engineering for Industrial Cyber–Physical Systems Using Aspects' (Proceedings of the IEEE, 2016), and 'Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos' (2022). Of these, 'Systems Engineering for Industrial Cyber–Physical Systems…' is first-authored, which they wrote with 3 coauthors. They have published 27 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5046491870",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_jamie_kiros": {
+  "gold": "Jamie Kiros is a researcher in Topic Modeling. They have been affiliated with Breakthrough (2024), Google (Canada) (2018–2022), and Google (United States) (2018–2020). Their most-cited works include 'VSE++: Improving Visual-Semantic Embeddings with Hard Negatives' (arXiv (Cornell University), 2017), 'Layer Normalization' (arXiv (Cornell University), 2016), and 'Insertion Transformer: Flexible Sequence Generation via Insertion Operations' (2019). Other works include 'VSE++: Improved Visual-Semantic Embeddings.' (2017) and 'Insertion Transformer: Flexible Sequence Generation via Insertion\\n Operations' (2019). They have published 32 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5065231880",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_julie_steele": {
+  "gold": "Julie Steele is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with Scripps Memorial Hospital (2026). Their most-cited work is 'Feasibility of an Augmented Reality Artificial Intelligence Tool for Real-Time Assessment of…' (CardioVascular and Interventional Radiology, 2026). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2026.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122349543",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_kamyar_salahi": {
+  "gold": "Kamyar Salahi is a researcher in Advanced Neural Network Applications. They have been affiliated with Berkeley College (2023), University of California, Berkeley (2023), and University of California, Los Angeles (2019–2020). Their most-cited works include 'Nerfstudio: A Modular Framework for Neural Radiance Field Development' (2023), 'Rethinking Vision Transformers for MobileNet Size and Speed' (2023), and 'A wearable freestanding electrochemical sensing system' (2020). Other works include 'A Mediator‐Free Electroenzymatic Sensing Methodology to Mitigate Ionic and Electroactive Interferents' Effects…' (2019) and 'A rapid and low-cost fabrication and integration scheme to render 3D microfluidic…' (2019). They have published 12 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5059263099",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_kenny_nguyen": {
+  "gold": "Kenny Nguyen is a researcher in Artificial Intelligence in Healthcare and Education. Their most-cited work is 'Application of natural language processing to predict diagnosis and treatments for 540…' (Biomedical Signal Processing and Control, 2026). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2026.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122387680",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_li_jing": {
+  "gold": "Li Jing is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with Heilongjiang Academy of Agricultural Machinery Engineering (2025). Their most-cited work is 'Design and test of flat grinding type germ-remained rice milling machine' (DOAJ (DOAJ: Directory of Open Access Journals), 2025). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2025.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122344060",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_manuka_stratta": {
+  "gold": "Manuka Stratta is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with Stanford University (2020). Their most-cited work is 'Automated Content Warnings for Sensitive Posts' (2020). They are the first author of this work, which they wrote with 2 coauthors. Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2020.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5021695950",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_marvin_zhang": {
+  "gold": "Marvin Zhang is a researcher in Reinforcement Learning in Robotics. They have been affiliated with Stanford University (2020) and University of California, Berkeley (2015–2019). Their most-cited works include 'SOLAR: Deep Structured Representations for Model-Based Reinforcement Learning' (arXiv (Cornell University), 2018), 'When to Trust Your Model: Model-Based Policy Optimization' (arXiv (Cornell University), 2019), and 'Deep reinforcement learning for tensegrity robot locomotion' (2017). Of these, 'SOLAR: Deep Structured Representations for Model-Based…' is first-authored, which they wrote with 5 coauthors. They have published 20 works since 2015.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5056012604",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_micah_carroll": {
+  "gold": "Micah Carroll is a researcher in Explainable Artificial Intelligence (XAI). They have been affiliated with University of California, Berkeley (2024–2026) and Berkeley College (2024). Their most-cited works include 'Uni[MASK]: Unified Inference in Sequential Decision Problems' (2022), 'Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction' (Open MIND, 2026), and 'Defining Deception in Decision Making' (2024). Their research also covers Ethics and Social Impacts of AI and Artificial Intelligence in Healthcare and Education. They have published 8 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122331693",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_olivia_watkins": {
+  "gold": "Olivia Watkins is a researcher in Topic Modeling. They have been affiliated with University of California, Berkeley (2021–2023), Berkeley College (2021), and Columbia University (2015). Their most-cited works include 'Urban stress is associated with variation in microbial species composition—but not richness—in…' (The ISME Journal, 2015), 'Auto-Tuned Sim-to-Real Transfer' (2021), and 'Guiding Pretraining in Reinforcement Learning with Large Language Models' (2023). Other works include 'Aligning Text-to-Image Models using Human Feedback' (2023) and 'DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models' (2023). They have published 22 works since 2015.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5058976886",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_tao_xin": {
+  "gold": "Tao Xin is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with Beijing Normal University (2026). Their most-cited work is 'Human vs. LLM Creativity: A Comparative Analysis of Task-Dependent Asymmetry and Linguistic…' (Journal of Intelligence, 2026). Their research also covers Adversarial Robustness in Machine Learning and Scientific Computing and Data Management. They have published 3 works since 2026.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5122379892",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "gpt5_xiangning_chen": {
+  "gold": "Xiangning Chen is a researcher in Artificial Intelligence in Healthcare and Education. They have been affiliated with China People's Public Security University (2025–2026). Their most-cited works include 'Enhancing Higher Education through AI-Driven Personalized Adaptive Learning: Evidence from a ChatGPT-Based…' (International Journal of Instruction, 2025) and 'How policy adoption patterns shape policy outcomes: evidence from China’s River Chief…' (Journal of Asian Public Policy, 2026). Of these, 'Enhancing Higher Education through AI-Driven Personalized…' is first-authored, which they wrote with 2 coauthors. They have published 4 works since 2025.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5120934893",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "gpt5_yuanzhi_li": {
+  "gold": "Yuanzhi Li is a researcher in Stochastic Gradient Optimization Techniques. They have been affiliated with Taoyuan Chang Gung Memorial Hospital (2025), Mohamed bin Zayed University of Artificial Intelligence (2025), and State Grid Corporation of China (China) (2024). Their most-cited works include 'LoRA: Low-Rank Adaptation of Large Language Models' (arXiv (Cornell University), 2021), 'A Convergence Theory for Deep Learning via Over-Parameterization' (arXiv (Cornell University), 2018), and 'Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data' (2018). Of these, 'Learning Overparameterized Neural Networks via Stochastic…' is first-authored, which they wrote with 1 coauthor. They have published 197 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101879892",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_chenggang_zhao": {
+  "gold": "Chenggang Zhao is a researcher in Topic Modeling. They have been affiliated with Shandong University of Science and Technology (2024–2025), Qingdao University of Science and Technology (2024), and Xi'an University of Science and Technology (2019–2020). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models' (2024). Other works include 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism' (2024) and 'A Novel Counterfeit Feature Extraction Technique for Exposing Face-Swap Images Based on…' (2020). They have published 15 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5079470006",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_chong_ruan": {
+  "gold": "Chong Ruan is a researcher in Advanced Neural Network Applications. They have been affiliated with Guangxi Medical University (2004–2017) and Sun Yat-sen University (2014). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention' (2025). Other works include 'The risk of missed abortion associated with the levels of tobacco, heavy…' (2017) and 'Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures' (2025). They have published 13 works since 2001.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016017027",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_daya_guo": {
+  "gold": "Daya Guo is a researcher in Topic Modeling. They have been affiliated with Sun Yat-sen University (2018–2026), Microsoft Research (United Kingdom) (2019–2022), and Harbin Institute of Technology (2020). Their most-cited works include 'CodeBERT: A Pre-Trained Model for Programming and Natural Languages' (2020), 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), and 'UniXcoder: Unified Cross-Modal Pre-training for Code Representation' (2022). Of these, 'DeepSeek-R1 incentivizes reasoning in LLMs through…' is first-authored, which they wrote with 99 coauthors. They have published 73 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5060364305",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_dejian_yang": {
+  "gold": "Dejian Yang is a researcher in Topic Modeling. They have been affiliated with Southern Medical University (2025–2026), Fujian University of Traditional Chinese Medicine (2025), and Putian University (2025). Their most-cited works include 'PPNE: Property Preserving Network Embedding' (Lecture notes in computer science, 2017), 'Neural Response Generation With Dynamic Vocabularies' (Proceedings of the AAAI Conference on Artificial Intelligence, 2018), and 'From Properties to Links' (2017). Of these, 'From Properties to Links' is first-authored, which they wrote with 4 coauthors. They have published 13 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5040902731",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_erhang_li": {
+  "gold": "Erhang Li is a researcher in Algorithms and Data Compression. They have been affiliated with Intel (United States) (2004–2006) and Intel (United Kingdom) (2006). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism' (2024). They are the first author of 'Towards the Parallelization of Shot Detection - a Typical Video Mining Application…' (2006), which they wrote with 5 coauthors. They have published 10 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5113091614",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_guowei_li": {
+  "gold": "Guowei Li is a researcher in Advanced Neural Network Applications. They have been affiliated with Institute of Computing Technology (2026), Shangrao Normal University (2025), and China Three Gorges University (2025). Their most-cited works include 'Primary transanal rectosigmoidectomy for Hirschsprung's disease: Preliminary results in the initial 33…' (Journal of Pediatric Surgery, 2001), 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models' (arXiv (Cornell University), 2025), and 'Active countermeasures against landslide impulse wave hazards: Energy dissipation mechanism of the…' (2025). They have published 9 works since 2001.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5111738491",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_jian_liang": {
+  "gold": "Jian Liang is a researcher in Face and Expression Recognition. They have been affiliated with Tongji University (2025), National Sun Yat-sen University (2025), and Yelets State University named after Ivan Bunin (2024). Their most-cited works include 'Fracture identification of X-ray image' (2010), 'Clinical Efficacy and Complications of Spinal Surgery Unilateral Biportal Endoscopy for Cervical…' (World Neurosurgery, 2024), and 'A new lip-automatic detection and location algorithm in lip-reading system' (2010). Of these, 'Fracture identification of X-ray image' is first-authored, which they wrote with 3 coauthors. They have published 15 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5112183358",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_jiashi_li": {
+  "gold": "Jiashi Li is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Fudan University (2023–2026), Ministry of Education (2026), and State Key Laboratory of Surface Physics (2023–2025). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures' (2025). Other works include 'Nonlinear optical phonon spectroscopy revealing polaronic signatures of the LaAlO 3 /SrTiO…' (2023) and 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models' (2025). They have published 14 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5104127081",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_lecong_zhang": {
+  "gold": "Lecong Zhang is a researcher in Topic Modeling. They have been affiliated with Guizhou Minzu University (2022–2023). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'Chronic administration of triclosan leads to liver fibrosis through hepcidin-ferroportin axis-mediated iron…' (2023). Other works include 'Polystyrene Microplastics Postpone APAP-Induced Liver Injury through Impeding Macrophage Polarization' (2022) and 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models' (2025). They have published 6 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5068839714",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_shanghao_lu": {
+  "gold": "Shanghao Lu is a researcher in Topic Modeling. Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism' (2024). Other works include 'Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning' (2024) and 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models' (2025). They have published 8 works since 2024.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101289776",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "ds_shirong_ma": {
+  "gold": "Shirong Ma is a researcher in Topic Modeling. They have been affiliated with Nanjing University of Information Science and Technology (2026), Longdong University (2024–2026), and Xijing Hospital (2007–2025). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism' (2024). Other works include 'Osthole protects lipopolysaccharide-induced acute lung injury in mice by preventing down-regulation of…' (2013) and 'DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence' (2024). They have published 65 works since 2005.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5057030499",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_wanjia_zhao": {
+  "gold": "Wanjia Zhao is a researcher in Topic Modeling. They have been affiliated with Abraham Baldwin Agricultural College (2025), Zhejiang University (2023), and Northwestern Polytechnical University (2017). Their most-cited works include 'Recent Advances on Machine Learning for Computational Fluid Dynamics: A Survey' (arXiv (Cornell University), 2024), 'Effect of crystallographic orientation on impression creep behaviors of single crystal based…' (Materials Science and Engineering A, 2017), and 'Protein Large Language Models: A Comprehensive Survey' (2025). Other works include 'DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search' (2024) and 'Positive Distribution Pollution: Rethinking Positive Unlabeled Learning from a Unified Perspective' (2023). They have published 22 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5112946948",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_wenfeng_liang": {
+  "gold": "Wenfeng Liang is a researcher in Radio Frequency Integrated Circuit Design. They have been affiliated with China Academy of Engineering Physics (2025), Shanghai Liangyou (China) (2025), and Infineon Technologies (Germany) (2020–2021). Their most-cited works include 'Linear CMOS $LC$ -VCO Based on Triple-Coupled Inductors and Its Application to…' (IEEE Transactions on Microwave Theory and Techniques, 2017), 'A Low-Power Low-Cost 45-GHz OOK Transceiver System in 90-nm CMOS for Multi-Gb/s…' (IEEE Transactions on Microwave Theory and Techniques, 2014), and 'Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention' (2025). They have published 21 works since 2012.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5110193145",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_wentao_zhang": {
+  "gold": "Wentao Zhang is a researcher in Advanced Graph Neural Networks. They have been affiliated with Peking University (2001–2026), Xuzhou Central Hospital (2026), and Fuzhou University (2026). Their most-cited works include 'Diffusion Models: A Comprehensive Survey of Methods and Applications' (ACM Computing Surveys, 2023), 'American College of Rheumatology classification criteria for Sjögren's syndrome: A data‐driven, expert…' (Arthritis Care & Research, 2012), and 'Graph Neural Networks in Recommender Systems: A Survey' (2022). They are the first author of 'Graph Attention Multi-Layer Perceptron' (2022), which they wrote with 8 coauthors. They have published 272 works since 2001.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5008772211",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_xingkai_yu": {
+  "gold": "Xingkai Yu is a researcher in Target Tracking and Data Fusion in Sensor Networks. They have been affiliated with North China Electric Power University (2023–2026), China-Japan Friendship Hospital (2024), and Tsinghua University (2020–2023). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models' (2024). They are the first author of 'Adaptive Kalman Filtering for Recursive Both Additive Noise and Multiplicative Noise' (2021), which they wrote with 1 coauthor. They have published 51 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100608388",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_yaofeng_sun": {
+  "gold": "Yaofeng Sun is a researcher in Reinforcement Learning in Robotics. They have been affiliated with Shanghai University (2024), Nanyang Technological University (2006–2008), and Singapore Institute of Manufacturing Technology (2006). Their most-cited works include 'Numerical and Experimental Investigation of Thermomechanical Deformation in High-Aspect-Ratio Electroplated Through-Silicon Vias' (Journal of The Electrochemical Society, 2008), 'Digital Image Correlation and its Applications in Electronics Packaging' (2006), and 'Zircon U-Pb Dating and Geological Significance of the Volcanic Rocks from Tugutubulake…' (2018). Of these, 'Digital Image Correlation and its Applications…' is first-authored, which they wrote with 3 coauthors. They have published 10 works since 2001.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100940533",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_yuxiang_luo": {
+  "gold": "Yuxiang Luo is a researcher in Advanced Neural Network Applications. They have been affiliated with Waseda University (2025), Hunan University of Technology (2025), and Hainan Agricultural School (2023–2024). Their most-cited works include 'Array FBG sensing and 3D reconstruction of spacecraft configuration' (Optoelectronics Letters, 2022), 'Co-Seg++: Mutual Prompt-Guided Collaborative Learning for Versatile Medical Segmentation' (IEEE Transactions on Medical Imaging, 2025), and 'Application of Big Data Technology in the Reform and Reconstruction of Administrative…' (2023). Of these, 'Application of Big Data Technology in…' is first-authored, which they wrote alone. They have published 10 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100569167",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_zehui_ren": {
+  "gold": "Zehui Ren is a researcher in Topic Modeling. They have been affiliated with Xinjiang University (2025), Chongqing Normal University (2023–2024), and China University of Mining and Technology (2023). Their most-cited works include 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism' (arXiv (Cornell University), 2024), 'Electrochemical Investigation and Identification of Titanium Hydrides Formed in Mixed Chloride Sulfuric…' (Journal of The Electrochemical Society, 2019), and 'Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning' (2024). They are the first author of 'Visualisation of tooth surface by electrical capacitance tomography' (2017), which they wrote with 1 coauthor. They have published 13 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5112250476",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_zhenda_xie": {
+  "gold": "Zhenda Xie is a researcher in Domain Adaptation and Few-Shot Learning. They have been affiliated with Microsoft Research Asia (China) (2019–2023), Tsinghua University (2019–2023), and The University of Texas at Austin (2021). Their most-cited works include 'Swin Transformer V2: Scaling Up Capacity and Resolution' (2022 IEEE/CVF Conference on Computer Vision and Pattern…, 2022), 'SimMIM: a Simple Framework for Masked Image Modeling' (2022 IEEE/CVF Conference on Computer Vision and Pattern…, 2022), and 'Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning' (2021). Of these, 'SimMIM: a Simple Framework for Masked…' is first-authored, which they wrote with 7 coauthors. They have published 32 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5112985153",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_zhibin_gou": {
+  "gold": "Zhibin Gou is a researcher in Topic Modeling. They have been affiliated with Microsoft Research (United Kingdom) (2025). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search' (2024). Other works include 'Key-Point-Driven Data Synthesis with Its Enhancement on Mathematical Reasoning' (2025) and 'DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning' (2025). They have published 9 works since 2024.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5094077400",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_zhihong_shao": {
+  "gold": "Zhihong Shao is a researcher in Topic Modeling. They have been affiliated with University of Michigan (2001–2023), Center for Information Technology (2023), and Intelligent Health (United Kingdom) (2023). Their most-cited works include 'DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning' (Nature, 2025), 'Can Open Large Language Models Catch Vulnerabilities?' (arXiv (Cornell University), 2025), and 'Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy' (2023). Of these, 'Enhancing Retrieval-Augmented Large Language Models with…' is first-authored, which they wrote with 5 coauthors. They have published 56 works since 1993.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5103100933",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ds_zhongyu_zhang": {
+  "gold": "Zhongyu Zhang is a researcher in Optical measurement and interference techniques. They have been affiliated with Harbin Medical University (2025), Nanjing Forestry University (2025), and Second Affiliated Hospital of Harbin Medical University (2025). Their most-cited works include 'Zwitterionic interface engineering enables ultrathin composite membrane for high-rate vanadium flow battery' (Energy storage materials, 2022), 'An advanced integrated electrode with micron- and nano-scale structures for vanadium redox…' (Journal of Power Sources, 2020), and 'A Novel Remote Sensing Image Change Detection Approach Based on Multilevel State…' (2024). Of these, 'A Novel Remote Sensing Image Change…' is first-authored, which they wrote with 4 coauthors. They have published 24 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5115604997",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "ikp_t67_myung_hoon_sunwoo": {
+  "gold": "Myung Hoon Sunwoo is a researcher in Video Coding and Compression Technologies. They have been affiliated with Ajou University (1993–2025), Universiti Putra Malaysia (2024), and Shanghai Jiao Tong University (2024). Their most-cited works include 'New continuous-flow mixed-radix (CFMR) FFT Processor using novel in-place strategy' (IEEE Transactions on Circuits and Systems I Fundamental…, 2005), 'New Frame Rate Up-Conversion Algorithms With Low Computational Complexity' (IEEE Transactions on Circuits and Systems for Video…, 2014), and 'New degree computationless modified euclid algorithm and architecture for Reed-Solomon decoder' (2006). They have published 270 works since 1984.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5059206438",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_gaurav_bansod": {
+  "gold": "Gaurav Bansod is a researcher in Cryptographic Implementations and Security. They have been affiliated with Defence Institute of Advanced Technology (2018), Symbiosis International University (2011–2018), and Indian Institute of Information Technology, Pune (2016–2018). Their most-cited works include 'Implementation of a New Lightweight Encryption Design for Embedded Security' (IEEE Transactions on Information Forensics and Security, 2014), 'LiCi: A new ultra-lightweight block cipher' (2017), and 'BORON: an ultra-lightweight and low power encryption design for pervasive computing' (2017). Of these, 'Implementation of a New Lightweight Encryption…' is first-authored, which they wrote with 2 coauthors. They have published 31 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5049357028",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_lixiang_ao": {
+  "gold": "Lixiang Ao is a researcher in Cloud Computing and Resource Management. They have been affiliated with UC San Diego Health System (2020–2022), University of California San Diego (2018–2020), and University of Electronic Science and Technology of China (2014–2016). Their most-cited works include 'Sprocket' (2018), 'FaaSnap' (2022), and 'Particle' (2020). Of these, 'Sprocket' is first-authored, which they wrote with 3 coauthors. Other works include 'BOLAS: Bipartite-Graph Oriented Locality-Aware Scheduling for MapReduce Tasks' (2015) and 'Partitioner: A Distributed HDFS Metadata Server Cluster' (2014). They have published 10 works since 2014.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5030609908",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_dan_schatzberg": {
+  "gold": "Dan Schatzberg is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Menlo School (2023–2025) and Meta (United States) (2023–2024). Their most-cited works include 'TMO: transparent memory offloading in datacenters' (2022), 'EbbRT: a framework for building per-application library operating systems' (OpenBU/Boston University Institutional Repository (Boston University), 2016), and 'Contiguitas: The Pursuit of Physical Memory Contiguity in Datacenters' (2023). Of these, 'EbbRT: a framework for building per-application…' is first-authored, which they wrote with 4 coauthors. They have published 21 works since 2012.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5062595209",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_janick_edinger": {
+  "gold": "Janick Edinger is a researcher in IoT and Edge/Fog Computing. They have been affiliated with Universität Hamburg (2021–2026), TuTech Innovation (Germany) (2026), and HAW Hamburg (2023). Their most-cited works include 'Revisiting Edge AI: Opportunities and Challenges' (IEEE Internet Computing, 2024), 'Context-Aware Data and Task Placement in Edge Computing Environments' (2019), and 'A Survey on Predictive Maintenance for Industry 4.0' (2020). Other works include 'Tasklets: \"Better than Best-Effort\" Computing' (2016) and 'Hips Do Lie! A Position-Aware Mobile Fall Detection System' (2018). They have published 79 works since 2014.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5038131243",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_christos_kozanitis": {
+  "gold": "Christos Kozanitis is a researcher in Cloud Computing and Resource Management. They have been affiliated with FORTH Institute of Computer Science (2022–2026), Foundation for Research and Technology Hellas (2017–2026), and FORTH Institute of Electronic Structure and Laser (2019–2022). Their most-cited works include 'ADAM: Genomics Formats and Processing Patterns for Cloud Scale Computing' (UC Berkeley, 2013), 'Compressing Genomic Sequence Fragments Using S lim G ene' (Journal of Computational Biology, 2011), and 'Using Genome Query Language to uncover genetic variation' (2013). Of these, 'Compressing Genomic Sequence Fragments Using S…' is first-authored, which they wrote with 4 coauthors. They have published 51 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5088317076",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_albert_gran_alcoz": {
+  "gold": "Albert Gran Alcoz is a researcher in Software-Defined Networks and 5G. They have been affiliated with ETH Zurich (2020–2024), Universitat Politècnica de Catalunya (2018), and Georgia Institute of Technology (2017). Their most-cited works include 'Aggregate-based congestion control for pulse-wave DDoS defense' (2022), '{SP-PIFO}: Approximating {Push-In} {First-Out} Behaviors using {Strict-Priority} Queues' (2020), and 'Experimental Assessment of 5-10Gbps 5G Multicarrier Waveforms with Intensity-Modulation Direct-Detection for PONs' (2018). Of these, 'Aggregate-based congestion control for pulse-wave DDoS…' is first-authored, which they wrote with 3 coauthors. They have published 12 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5054154994",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_xuanhua_shi": {
+  "gold": "Xuanhua Shi is a researcher in Cloud Computing and Resource Management. They have been affiliated with Huazhong University of Science and Technology (2004–2026), Salesforce (United States) (2025), and Wuhan University of Science and Technology (2019). Their most-cited works include 'Live virtual machine migration with adaptive, memory compression' (2009), 'Graph Processing on GPUs' (ACM Computing Surveys, 2018), and 'Capuchin' (2020). Of these, 'Graph Processing on GPUs' is first-authored, which they wrote with 6 coauthors. They have published 192 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016486553",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_stanko_novakovic": {
+  "gold": "Stanko Novakovic is a researcher in Cloud Computing and Resource Management. They have been affiliated with Microsoft (United States) (2020–2025), Google (United States) (2023–2025), and University of Illinois Urbana-Champaign (2025). Their most-cited works include 'Pond: CXL-Based Memory Pooling Systems for Cloud Platforms' (2023), 'DeepDive: transparently identifying and managing performance interference in virtualized environments' (Infoscience (Ecole Polytechnique Fédérale de Lausanne), 2013), and 'Scale-out NUMA' (2014). Of these, 'Scale-out NUMA' is first-authored, which they wrote with 4 coauthors. They have published 27 works since 2013.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5021739166",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_andrew_litteken": {
+  "gold": "Andrew Litteken is a researcher in Quantum Computing Algorithms and Architecture. They have been affiliated with Intel (United Kingdom) (2025) and University of Chicago (2020–2023). Their most-cited works include 'Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures' (2021), 'Superstaq: Deep Optimization of Quantum Programs' (2023), and 'Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures' (2023). Of these, 'Dancing the Quantum Waltz: Compiling Three-Qubit…' is first-authored, which they wrote with 8 coauthors. They have published 14 works since 2020.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5090551560",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_ryan_beckett": {
+  "gold": "Ryan Beckett is a researcher in Software-Defined Networks and 5G. They have been affiliated with Microsoft (United States) (2019–2026), Microsoft Research (United Kingdom) (2019–2025), and Western Consortium for Public Health (2022). Their most-cited works include 'A General Approach to Network Configuration Verification' (2017), 'Don't Mind the Gap' (2016), and 'What do LLMs need to Synthesize Correct Router Configurations?' (2023). Of these, 'A General Approach to Network Configuration…' is first-authored, which they wrote with 3 coauthors. They have published 66 works since 1982.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5075133765",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_changlin_wan": {
+  "gold": "Changlin Wan is a researcher in Single-cell and spatial transcriptomics. They have been affiliated with Oregon Health & Science University (2026), Shandong University of Technology (2025), and National Yang Ming Chiao Tung University (2022–2024). Their most-cited works include 'Mammalian Near-Infrared Image Vision through Injectable and Self-Powered Retinal Nanoantennae' (Cell, 2019), 'A graph neural network model to estimate cell-wise metabolic flux using single-cell…' (Genome Research, 2021), and 'Atractylenolide I enhances responsiveness to immune checkpoint blockade therapy by activating tumor…' (2021). They are the first author of 'LTMG: a novel statistical modeling of transcriptional expression states in single-cell RNA-Seq…' (2019), which they wrote with 10 coauthors. They have published 72 works since 1994.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5037501161",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zhifeng_bao": {
+  "gold": "Zhifeng Bao is a researcher in Data Management and Algorithms. They have been affiliated with The University of Queensland (2017–2026), RMIT University (2015–2026), and The Royal Melbourne Hospital (2023–2025). Their most-cited works include 'A Survey on Modern Deep Neural Network for Traffic Prediction: Trends, Methods…' (IEEE Transactions on Knowledge and Data Engineering, 2020), 'A Survey on Trajectory Data Management, Analytics, and Learning' (ACM Computing Surveys, 2021), and 'Effective XML Keyword Search with Relevance Oriented Ranking' (2009). Of these, 'Effective XML Keyword Search with Relevance…' is first-authored, which they wrote with 3 coauthors. They have published 242 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5080660416",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_theo_jepsen": {
+  "gold": "Theo Jepsen is a researcher in Distributed systems and fault tolerance. They have been affiliated with Intel (United States) (2023), Intel (United Kingdom) (2022–2023), and Stanford University (2021–2022). Their most-cited works include 'Whippersnapper' (2017), 'Fast String Searching on PISA' (2019), and 'Life in the Fast Lane' (2018). Of these, 'Fast String Searching on PISA' is first-authored, which they wrote with 6 coauthors. Other works include 'Forwarding and routing with packet subscriptions' (2020) and 'Packet Subscriptions for Programmable ASICs' (2018). They have published 19 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5030159202",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jeffrey_helt": {
+  "gold": "Jeffrey Helt is a researcher in Distributed systems and fault tolerance. They have been affiliated with Princeton University (2019–2025). Their most-cited works include 'Alembic: automated model inference for stateful network functions' (2019), 'C5' (Proceedings of the VLDB Endowment, 2022), and 'Morty: Scaling Concurrency Control with Re-Execution' (2023). Of these, 'C5' is first-authored, which they wrote with 4 coauthors. Other works include 'Regular Sequential Serializability and Regular Sequential Consistency' (2021) and 'Sandpaper' (2019). They have published 11 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5012564169",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_drew_davidson": {
+  "gold": "Drew Davidson is a researcher in Digital Games and Media. They have been affiliated with Carnegie Mellon University (2007–2026), University of Kansas (2020–2025), and University of Wisconsin–Madison (2009–2017). Their most-cited works include 'FIE on firmware: finding vulnerabilities in embedded systems using symbolic execution' (2013), 'Games, Learning, and Society' (Cambridge University Press eBooks, 2012), and 'Controlling UAVs with sensor input spoofing attacks' (2016). Of these, 'FIE on firmware: finding vulnerabilities in…' is first-authored, which they wrote with 3 coauthors. They have published 67 works since 1968.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5036211273",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_nirav_atre": {
+  "gold": "Nirav Atre is a researcher in Software-Defined Networks and 5G. They have been affiliated with Carnegie Mellon University (2020–2026) and Stanford University (2026). Their most-cited works include 'Caching with Delayed Hits' (2020), 'Achieving 100Gbps Intrusion Prevention on a Single Server' (Operating Systems Design and Implementation, 2020), and 'We need kernel interposition over the network dataplane' (2021). Of these, 'Caching with Delayed Hits' is first-authored, which they wrote with 3 coauthors. Other works include 'SurgeProtector' (2022) and 'Pigasus 2.0' (2022). They have published 14 works since 2020.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5042271342",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jayashree_mohan": {
+  "gold": "Jayashree Mohan is a researcher in Advanced Data Storage Technologies. They have been affiliated with Microsoft Research (India) (2025–2026), Microsoft Research (United Kingdom) (2022–2024), and Institute of Engineering (2023). Their most-cited works include 'Finding crash-consistency bugs with bounded black-box crash testing' (Operating Systems Design and Implementation, 2018), 'vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention' (2025), and 'CheckFreq: Frequent, Fine-Grained DNN Checkpointing.' (2021). Of these, 'Finding crash-consistency bugs with bounded black-box…' is first-authored, which they wrote with 4 coauthors. They have published 42 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5005136390",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_alex_depoutovitch": {
+  "gold": "Alex Depoutovitch is a researcher in Distributed systems and fault tolerance. They have been affiliated with Huawei Technologies (Canada) (2020–2023), Research Canada (2022), and University of Toronto (2006–2010). Their most-cited works include 'Otherworld' (2010), 'Taurus Database: How to be Fast, Available, and Frugal in the Cloud' (2020), and 'Taurus MM: Bringing Multi-Master to the Cloud' (2023). Of these, 'Otherworld' is first-authored, which they wrote with 1 coauthor. Other works include 'Partial Network Partitioning' (2022) and 'Otherworld: giving applications a chance to survive OS kernel crashes' (2008). They have published 6 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5010461136",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_weifeng_he": {
+  "gold": "Weifeng He is a researcher in Surface Treatment and Residual Stress. They have been affiliated with Air Force Engineering University (2007–2026), Xi'an Jiaotong University (2011–2026), and Sinopec (China) (2025). Their most-cited works include 'Microstructure and residual stress modulation of 7075 aluminum alloy for improving fatigue…' (International Journal of Machine Tools and Manufacture, 2022), 'Experiment investigation of laser shock peening on TC6 titanium alloy to improve…' (Materials Science and Engineering A, 2013), and 'Effect of dynamic recrystallization on texture orientation and grain refinement of Ti6Al4V…' (2020). They have published 232 works since 2003.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5039929951",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_chong_mou": {
+  "gold": "Chong Mou is a researcher in Advanced Image Processing Techniques. They have been affiliated with Peking University (2021–2026), Peking University Shenzhen Hospital (2020–2025), and Tencent (China) (2022–2024). Their most-cited works include 'T2I-Adapter: Learning Adapters to Dig Out More Controllable Ability for Text-to-Image Diffusion…' (Proceedings of the AAAI Conference on Artificial Intelligence, 2024), 'Deep Generalized Unfolding Networks for Image Restoration' (2022 IEEE/CVF Conference on Computer Vision and Pattern…, 2022), and 'Robust Invertible Image Steganography' (2022). Of these, 'T2I-Adapter: Learning Adapters to Dig Out…' is first-authored, which they wrote with 6 coauthors. They have published 44 works since 2020.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5008561615",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_olga_poppe": {
+  "gold": "Olga Poppe is a researcher in Advanced Database Systems and Queries. They have been affiliated with Microsoft (United States) (2019–2024), Microsoft (Finland) (2022), and Microsoft Research (United Kingdom) (2019–2021). Their most-cited works include 'A CEP Babelfish: Languages for Complex Event Processing and Querying Surveyed' (Studies in computational intelligence, 2011), 'Moneyball' (Proceedings of the VLDB Endowment, 2022), and 'Seagull' (2020). Of these, 'Moneyball' is first-authored, which they wrote with 6 coauthors. Other works include 'Complete Event Trend Detection in High-Rate Event Streams' (2017) and 'Two Semantics for CEP, no Double Talk: Complex Event Relational Algebra (CERA)…' (2011). They have published 33 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5071632366",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_sayed_masoud_sayedi": {
+  "gold": "Sayed Masoud Sayedi is a researcher in CCD and CMOS Imaging Sensors. They have been affiliated with Isfahan University of Technology (2006–2025). Their most-cited works include 'A structured review of sparse fast Fourier transform algorithms' (Digital Signal Processing, 2022), 'FPGA based fast and high-throughput 2-slow retiming 128-bit AES encryption algorithm' (Microelectronics Journal, 2014), and 'Effect of silver additive on electrical conductivity and methane sensitivity of SnO2' (2015). Other works include 'Effect of single wall carbon nanotube additive on electrical conductivity and methane…' (2014) and 'A 1.2 V current-mode true RMS–DC converter based on the floating gate…' (2008). They have published 54 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5102707715",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_lea_theresa_grber": {
+  "gold": "Lea Theresa Gröber is a researcher in Privacy, Security, and Data Protection. They have been affiliated with Helmholtz Center for Information Security (2020–2025) and Saarland University (2016–2025). Their most-cited works include '12 Angry Developers - A Qualitative Study on Developers' Struggles with CSP' (2021), 'Stop the Consent Theater' (2021), and 'Exploring User-Centered Security Design for Usable Authentication Ceremonies' (2021). They are the first author of 'Investigating Car Drivers’ Information Demand after Safety and Security Critical Incidents' (2021), which they wrote with 3 coauthors. They have published 10 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5052071290",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_richard_antonello": {
+  "gold": "Richard Antonello is a researcher in Topic Modeling. They have been affiliated with Columbia University (2025–2026), Earth Island Institute (2025), and Berkeley College (2024). Their most-cited works include 'Predictive Coding or Just Feature Discovery? An Alternative Account of Why Language…' (Neurobiology of Language, 2022), 'Scaling laws for language encoding models in fMRI' (PubMed, 2023), and 'Low-Dimensional Structure in the Space of Language Representations is Reflected in Brain…' (2021). Of these, 'Predictive Coding or Just Feature Discovery?…' is first-authored, which they wrote with 1 coauthor. They have published 26 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5075525077",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_kasm_sinan_yldrm": {
+  "gold": "Kasım Sinan Yıldırım is a researcher in Energy Harvesting in Wireless Networks. They have been affiliated with University of Trento (2020–2026), Ege University (2007–2022), and Delft University of Technology (2015–2019). Their most-cited works include 'Time Synchronization Based on Slow-Flooding in Wireless Sensor Networks' (IEEE Transactions on Parallel and Distributed Systems, 2013), 'InK' (2018), and 'Reliable Timekeeping for Intermittent Computing' (2020). Of these, 'Time Synchronization Based on Slow-Flooding in…' is first-authored, which they wrote with 1 coauthor. They have published 99 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5008053793",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zuoning_chen": {
+  "gold": "Zuoning Chen is a researcher in Cloud Computing and Resource Management. They have been affiliated with Chinese Academy of Engineering (2016–2026), Zhejiang University of Science and Technology (2025), and National Supercomputing Center in Wuxi (2018–2024). Their most-cited works include 'CollAFL: Path Sensitive Fuzzing' (2018), 'Intelligent Computing: The Latest Advances, Challenges, and Future' (Intelligent Computing, 2023), and 'Design tradeoffs for data deduplication performance in backup workloads' (2015). Other works include 'Accelerating restore and garbage collection in deduplication-based backup systems via exploiting historical…' (2014) and '{GREYONE}: Data Flow Sensitive Fuzzing' (2020). They have published 76 works since 2005.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5051366939",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_daisuke_fujimoto": {
+  "gold": "Daisuke Fujimoto is a researcher in Crystallization and Solubility Studies. They have been affiliated with Kumamoto University Hospital (2025–2026), Teikyo University Hospital (2018–2025), and Teikyo University Hospital, Mizonokuchi (2020–2025). Their most-cited works include 'Mechanism of Preferential Enrichment, an Unusual Enantiomeric Resolution Phenomenon Caused by Polymorphic…' (Journal of the American Chemical Society, 2002), 'Thrombin conducts epithelial-mesenchymal transition via protease-activated receptor-1 in human gastric cancer' (International Journal of Oncology, 2014), and 'Chiral inclusion crystallization of tetra(p-bromophenyl)ethylene by exposure to the vapor of achiral…' (2000). They are the first author of 'Prognostic value of protease-activated receptor-1 (PAR-1) and matrix metalloproteinase-1 (MMP-1) in gastric…' (2008), which they wrote with 4 coauthors. They have published 131 works since 1995.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5074733765",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_fridtjof_stein": {
+  "gold": "Fridtjof Stein is a researcher in Robotics and Sensor-Based Localization. They have been affiliated with Daimler (Germany) (1995–2018), Daimler (United Kingdom) (2003), and University of Southern California (1992–2002). Their most-cited works include 'Making Bertha Drive—An Autonomous Journey on a Historic Route' (IEEE Intelligent Transportation Systems Magazine, 2014), 'Structural indexing: efficient 3-D object recognition' (IEEE Transactions on Pattern Analysis and Machine Intelligence, 1992), and 'Making Bertha See' (2013). Of these, 'Structural indexing: efficient 3-D object recognition' is first-authored, which they wrote with 1 coauthor. They have published 30 works since 1979.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5108523445",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_ikram_ali": {
+  "gold": "Ikram Ali is a researcher in Cryptography and Data Security. They have been affiliated with Shenzhen University (2023–2025), Shenzhen Technology University (2025), and University of Malakand (2025). Their most-cited works include 'Authentication and privacy schemes for vehicular ad hoc networks (VANETs): A survey' (Vehicular Communications, 2019), 'An Integration of blockchain and AI for secure data sharing and detection…' (Computerized Medical Imaging and Graphics, 2020), and 'An Efficient and Provably Secure ECC-Based Conditional Privacy-Preserving Authentication for Vehicle-to-Vehicle Communication…' (2021). Of these, 'Authentication and privacy schemes for vehicular…' is first-authored, which they wrote with 2 coauthors. They have published 87 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5008709549",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_muhammad_adnan_tariq": {
+  "gold": "Muhammad Adnan Tariq is a researcher in Caching and Content Delivery. They have been affiliated with COMSATS University Islamabad (2015–2026), National University of Computer and Emerging Sciences (2017–2025), and Superior University (2025). Their most-cited works include 'A decentralized lightweight blockchain-based authentication mechanism for IoT systems' (Cluster Computing, 2020), 'Integration of blockchain and federated learning for Internet of Things: Recent advances…' (Computers & Security, 2021), and 'Feature engineering and deep learning-based intrusion detection framework for securing edge IoT' (2022). They are the first author of 'Securing Broker-Less Publish/Subscribe Systems Using Identity-Based Encryption' (2013), which they wrote with 2 coauthors. They have published 64 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101888904",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_chung_hee_hwang": {
+  "gold": "Chung Hee Hwang is a researcher in Natural Language Processing Techniques. They have been affiliated with University of Rochester (1992–2005), Motorola (United States) (2004), and Intel (United States) (2004). Their most-cited works include 'The TRAINS project: a case study in building a conversational planning agent' (Journal of Experimental & Theoretical Artificial Intelligence, 1995), 'Incompletely and Imprecisely Speaking: Using Dynamic Ontologies for Representing and Retrieving Information.' (1999), and 'Episodic logic meets Little Red Riding Hood: a comprehensive natural representation for…' (2000). Of these, 'Incompletely and Imprecisely Speaking: Using Dynamic…' is first-authored, which they wrote alone. They have published 21 works since 1990.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5080398149",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_antonios_makris": {
+  "gold": "Antonios Makris is a researcher in Plant biochemistry and biosynthesis. They have been affiliated with Centre for Research and Technology Hellas (2008–2025), Western General Hospital (2024), and Mediterranean Agronomic Institute of Chania (1999–2013). Their most-cited works include 'Engineering Monoterpene Production in Yeast Using a Synthetic Dominant Negative Geranyl Diphosphate…' (ACS Synthetic Biology, 2013), 'Rational Conversion of Substrate and Product Specificity in a Salvia Monoterpene Synthase…' (The Plant Cell, 2007), and 'A Novel Plant Glutathione S-Transferase/Peroxidase Suppresses Bax Lethality in Yeast' (2000). They have published 100 works since 1989.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5040048441",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_hiroaki_kikuchi": {
+  "gold": "Hiroaki Kikuchi is a researcher in Magnetic Properties and Applications. They have been affiliated with Tsuda University (2012–2026), National Institutes of Health (2022–2025), and Kochi Medical School Hospital (2022–2025). Their most-cited works include 'Microporous Co@C Nanoparticles Prepared by Dealloying CoAl@C Precursors: Achieving Strong Wideband Microwave…' (ACS Applied Materials & Interfaces, 2017), 'Magnetic measurements of martensitic transformation in austenitic stainless steel after room temperature…' (Journal of Materials Science, 2003), and 'On the existence of a solution for elliptic system related to the…' (2006). Of these, 'On the existence of a solution…' is first-authored, which they wrote alone. They have published 513 works since 1934.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5077807337",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_alexey_rolich": {
+  "gold": "Alexey Rolich is a researcher in IoT Networks and Protocols. They have been affiliated with Sapienza University of Rome (2023–2026), National Research University Higher School of Economics (2016–2023), and Moscow State Institute of Electronics and Mathematics (2016–2020). Their most-cited works include 'Investigation and development of the intelligent voice assistant for the Internet of…' (2018 Moscow Workshop on Electronic and Networking Technologies…, 2018), 'Study of Data Transfer in a Heterogeneous LoRa-Satellite Network for the Internet…' (Sensors, 2019), and 'Study of LoRa Performance at 433 MHz and 868 MHz Bands Inside…' (2020). They are the first author of 'Impact of Persistence on the Age of Information in 5G NR-V2X Sidelink…' (2023), which they wrote with 3 coauthors. They have published 36 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5031873534",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_felix_wu": {
+  "gold": "Felix Wu is a researcher in Electric Power System Optimization. They have been affiliated with NetApp (United States) (2024), Vehicle Technologies Office (2018–2023), and United States Department of Energy (2022). Their most-cited works include 'Network Reconfiguration in Distribution Systems for Loss Reduction and Load Balancing' (IEEE Power Engineering Review, 1989), 'Smart Operation of Smart Grid: Risk-Limiting Dispatch' (Proceedings of the IEEE, 2010), and 'Electric Springs—A New Smart Grid Technology' (2012). They are the first author of 'Network Observability: Theory' (1985), which they wrote with 1 coauthor. They have published 154 works since 1974.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5113099538",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_ninja_marnau": {
+  "gold": "Ninja Marnau is a researcher in Privacy, Security, and Data Protection. They have been affiliated with Helmholtz Center for Information Security (2015–2023), Saarland University (2015), and Independent Centre for Privacy Protection (2013). Their most-cited works include 'Security and Privacy-Enhancing Multicloud Architectures' (IEEE Transactions on Dependable and Secure Computing, 2013), 'Comments on the “Draft Ethics Guidelines for Trustworthy AI” by the High-Level…' (Figshare, 2019), and 'Comparing Large-Scale Privacy and Security Notifications' (2023). Of these, 'Comments on the “Draft Ethics Guidelines…' is first-authored, which they wrote alone. They have published 29 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5027496278",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_manar_ahmed_hamza": {
+  "gold": "Manar Ahmed Hamza is a researcher in Network Security and Intrusion Detection. They have been affiliated with Prince Sattam Bin Abdulaziz University (2021–2025), International Islamic University Malaysia (2022–2024), and University of Business and Technology (2024). Their most-cited works include 'Intelligent Diagnostic Prediction and Classification Models for Detection of Kidney Disease' (Healthcare, 2022), 'Automated Android Malware Detection Using Optimal Ensemble Learning Approach for Cybersecurity' (IEEE Access, 2023), and 'Modeling of Blockchain Assisted Intrusion Detection on IoT Healthcare System Using Ant…' (2023). They have published 157 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5072745905",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_meni_orenbach": {
+  "gold": "Meni Orenbach is a researcher in Security and Verification in Computing. They have been affiliated with Israel Electric (Israel) (2023) and Technion – Israel Institute of Technology (2017–2020). Their most-cited works include 'Eleos' (2017), 'Autarky' (2020), and 'CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves' (2019). Of these, 'Eleos' is first-authored, which they wrote with 3 coauthors. Other works include 'One for All and All for One: GNN-based Control-Flow Attestation for Embedded…' (2024) and 'Live system call trace reconstruction on Linux' (2022). They have published 9 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5074210071",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_lalithkumar_seenivasan": {
+  "gold": "Lalithkumar Seenivasan is a researcher in Surgical Simulation and Training. They have been affiliated with Johns Hopkins University (2024–2026), Johns Hopkins Medicine (2025), and National University of Singapore (2017–2024). Their most-cited works include 'CholecTriplet2021: A benchmark challenge for surgical action triplet recognition' (Medical Image Analysis, 2023), 'Learning and Reasoning with the Graph Structure Representation in Robotic Surgery' (Lecture notes in computer science, 2020), and 'Surgical-VQA: Visual Question Answering in Surgical Scenes Using Transformer' (2022). Of these, 'Surgical-VQA: Visual Question Answering in Surgical…' is first-authored, which they wrote with 3 coauthors. They have published 39 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5040765329",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_carlos_alberto_lpez_barrio": {
+  "gold": "Carlos Alberto López Barrio is a researcher in Low-power high-performance VLSI design. They have been affiliated with Universidad Politécnica de Madrid (1986–2020), Comunidad de Madrid (2014), and European Telecommunications Standards Institute (2014). Their most-cited works include 'Generation of optimized single distributions of weights for random built-in self-test' (2002), 'Digital channelised receivers on FPGAs platforms' (2005), and 'Distributed implementation of an ATPG system using dynamic fault allocation' (2002). Other works include 'A 0.0016 mm2 0.64 nJ Leakage-Based CMOS Temperature Sensor' (2013) and 'Reconfigurable Writing Architecture for Reliable RRAM Operation in Wide Temperature Ranges' (2016). They have published 39 works since 1977.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5000478256",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_nana_ramadijanti": {
+  "gold": "Nana Ramadijanti is a researcher in Computer Science and Engineering. They have been affiliated with Politeknik Elektronika Negeri Surabaya (2006–2025), Universitas Negeri Surabaya (2016–2024), and University of Surabaya (2016–2022). Their most-cited works include 'Online Visual Novel Game Framework' (2018), 'Step by step Pengolahan Citra Digital' (2009), and 'Psychomotor game learning using skeletal tracking method with leap motion technology' (2016). They are the first author of 'Comparison of Covid-19 Cases in Indonesia and Other Countries for Prediction Models…' (2020), which they wrote with 2 coauthors. They have published 45 works since 2003.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5073142882",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_carles_daz_vilor": {
+  "gold": "Carles Díaz-Vilor is a researcher in UAV Applications and Optimization. They have been affiliated with University of California, Irvine (2021–2025), King Abdullah University of Science and Technology (2022), and Universitat Politècnica de Catalunya (2016–2019). Their most-cited works include 'Cell-Free UAV Networks: Asymptotic Analysis and Deployment Optimization' (IEEE Transactions on Wireless Communications, 2022), 'Cell-Free UAV Networks With Wireless Fronthaul: Analysis and Optimization' (IEEE Transactions on Wireless Communications, 2023), and 'A Reinforcement Learning Approach for Wildfire Tracking With UAV Swarms' (2025). Of these, 'Cell-Free UAV Networks: Asymptotic Analysis and…' is first-authored, which they wrote with 2 coauthors. They have published 20 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5000618790",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_francisco_rico_novella": {
+  "gold": "Francisco Rico-Novella is a researcher in Advanced Authentication Protocols Security. They have been affiliated with Universitat Politècnica de Catalunya (2003–2023), Polytechnic University of Puerto Rico (2013), and Universidad Autónoma de Occidente (2010). Their most-cited works include 'Balanced batch LKH: new proposal, implementation and performance evaluation' (2004), 'A machine learning based Distributed Congestion Control Protocol for multi-hop wireless networks' (Computer Networks, 2023), and 'Predictive Traffic Control and Differentiation on Smart Grid Neighborhood Area Networks' (2020). They have published 37 works since 1994.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5020355439",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_samson_wang": {
+  "gold": "Samson Wang is a researcher in Quantum Computing Algorithms and Architecture. They have been affiliated with Imperial College London (2021–2026), California Institute of Technology (2025), and Los Alamos National Laboratory (2021–2024). Their most-cited works include 'Barren plateaus in variational quantum computing' (Nature Reviews Physics, 2025), 'Exponential concentration in quantum kernel methods' (Nature Communications, 2024), and 'Noise-induced barren plateaus in variational quantum algorithms' (2021). Of these, 'Noise-induced barren plateaus in variational quantum…' is first-authored, which they wrote with 6 coauthors. They have published 62 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5065087289",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_tudor_mihai_stoenescu": {
+  "gold": "Tudor Mihai Stoenescu is a researcher in Network Traffic and Congestion Control. They have been affiliated with Jet Propulsion Laboratory (2007–2010), California Institute of Technology (2006–2009), and Information Technology Institute (2006). Their most-cited works include 'A Pricing Mechanism for Resource Allocation in Wireless Multimedia Applications' (IEEE Journal of Selected Topics in Signal Processing, 2007), 'A Pricing Mechanism which Implements in Nash Equilibria a Rate Allocation Problem…' (2006), and 'Decentralized Resource Allocation Mechanisms in Networks: Realization and Implementation' (2006). Of these, 'A Pricing Mechanism which Implements in…' is first-authored, which they wrote with 1 coauthor. They have published 14 works since 2002.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5003424354",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_meera_sridhar": {
+  "gold": "Meera Sridhar is a researcher in Hepatocellular Carcinoma Treatment and Prognosis. They have been affiliated with Stanford University (2008), University of California, Los Angeles (2005), and Los Angeles Medical Center (2005). Their most-cited works include 'Association of k-ras, b-raf, and p53 Status With the Treatment Effect of…' (JNCI Journal of the National Cancer Institute, 2005) and 'Delayed Platelet Engraftment and Early Increased Creatinine after Stem Cell Transplant Predicts…' (Blood, 2008). Of these, 'Delayed Platelet Engraftment and Early Increased…' is first-authored, which they wrote with 3 coauthors. They have published 2 works since 2005.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5055543984",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yair_lakretz": {
+  "gold": "Yair Lakretz is a researcher in Neurobiology of Language and Bilingualism. They have been affiliated with Centre National de la Recherche Scientifique (2024–2026), Université Paris Sciences et Lettres (2024–2026), and École Normale Supérieure - PSL (2024–2026). Their most-cited works include 'Symbols and mental programs: a hypothesis about human singularity' (Trends in Cognitive Sciences, 2022), 'Spatiotemporal dynamics of orthographic and lexical processing in the ventral visual pathway' (Nature Human Behaviour, 2020), and 'The emergence of number and syntax units in' (2019). Of these, 'The emergence of number and syntax…' is first-authored, which they wrote with 5 coauthors. They have published 60 works since 2015.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5059697591",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_asuman_senol": {
+  "gold": "Asuman Senol is a researcher in Privacy, Security, and Data Protection. They have been affiliated with Imec the Netherlands (2024) and KU Leuven (2023–2024). Their most-cited works include 'The Double Edged Sword: Identifying Authentication Pages and their Fingerprinting Behavior' (2024), 'Targeted and Troublesome: Tracking and Advertising on Children’s Websites' (2024), and 'Unveiling the Impact of User-Agent Reduction and Client Hints: A Measurement Study' (2023). Of these, 'The Double Edged Sword: Identifying Authentication…' is first-authored, which they wrote with 3 coauthors. They have published 4 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5092796570",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_abhradeep_thakurta": {
+  "gold": "Abhradeep Thakurta is a researcher in Privacy-Preserving Technologies in Data. They have been affiliated with Google (United States) (2018–2025), University of California, Santa Cruz (2017–2024), and Google DeepMind (United Kingdom) (2024). Their most-cited works include 'Private Empirical Risk Minimization: Efficient Algorithms and Tight Error Bounds' (2014), 'Amplification by Shuffling: From Local to Central Differential Privacy via Anonymity' (Society for Industrial and Applied Mathematics eBooks, 2019), and 'Discovering frequent patterns in sensitive data' (2010). They have published 130 works since 2010.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5008213441",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_ben_herzberg": {
+  "gold": "Ben Herzberg is a researcher in Big Data and Business Intelligence. They have been affiliated with Tesla (United States) (2023) and Technion – Israel Institute of Technology (2009–2011). Their most-cited works include 'The Microarchitecture of DOJO, Tesla’s Exa-Scale Computer' (IEEE Micro, 2023), 'Stereo from flickering caustics' (2009), and 'CauStereo: Range from light in nature' (2011). They are the first author of 'Infrastructure Security' (2021), which they wrote with 1 coauthor. Other works include 'Underwater stereo using natural flickering illumination' (2010) and 'Infrastructure Security' (2021). They have published 17 works since 1928.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5017753347",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_azadeh_farzan": {
+  "gold": "Azadeh Farzan is a researcher in Formal Methods in Verification. They have been affiliated with University of Toronto (2009–2026), Rice University (2016), and Carnegie Mellon University (2007–2008). Their most-cited works include 'PENELOPE' (2010), 'Formal Analysis of Java Programs in JavaFAN' (Lecture notes in computer science, 2004), and 'Monitoring Atomicity in Concurrent Programs' (2008). Of these, 'Formal Analysis of Java Programs in…' is first-authored, which they wrote with 3 coauthors. Other works include 'Extending Automated Compositional Verification to the Full Class of Omega-Regular Languages' (2008) and 'Learning Minimal Separating DFA’s for Compositional Verification' (2009). They have published 99 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016276143",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zhengyu_he": {
+  "gold": "Zhengyu He is a researcher in Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis. They have been affiliated with Shanghai Jiao Tong University (2009–2025), Renji Hospital (2006–2025), and Nanjing University of Science and Technology (2023–2025). Their most-cited works include 'Nitric oxide suppresses NLRP3 inflammasome activation and protects against LPS-induced septic shock' (Cell Research, 2013), 'Atomic Structure and Dynamics of Metal Dopant Pairs in Graphene' (Nano Letters, 2014), and 'PI3K-Akt-mTOR/PFKFB3 pathway mediated lung fibroblast aerobic glycolysis and collagen synthesis in lipopolysaccharide-induced…' (2020). Of these, 'Atomic Structure and Dynamics of Metal…' is first-authored, which they wrote with 8 coauthors. They have published 111 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5045571402",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_aravindh_raman": {
+  "gold": "Aravindh Raman is a researcher in Caching and Content Delivery. They have been affiliated with Cisco Systems (United Kingdom) (2026), Cisco Systems (China) (2025), and Sky (United Kingdom) (2025). Their most-cited works include 'Design and evaluation of IPFS' (2022), 'Challenges in the Decentralised Web' (2019), and 'A browser-side view of starlink connectivity' (2022). Of these, 'Challenges in the Decentralised Web' is first-authored, which they wrote with 4 coauthors. Other works include 'Individual Preference Probability Modeling and Parameterization for Video Content in Wireless Caching…' (2019) and 'Flocking to Mastodon: Tracking the Great Twitter Migration' (2023). They have published 58 works since 2005.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5067136809",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_suraj_jog": {
+  "gold": "Suraj Jog is a researcher in Advanced MIMO Systems Optimization. They have been affiliated with Microsoft Research (United Kingdom) (2026), Microsoft (United States) (2024), and University of Illinois Urbana-Champaign (2018–2022). Their most-cited works include 'Through Fog High-Resolution Imaging Using Millimeter Wave Radar' (2020), 'Many-to-Many Beam Alignment in Millimeter Wave Networks' (Networked Systems Design and Implementation, 2019), and 'High Resolution Millimeter Wave Imaging For Self-Driving Cars' (2019). Of these, 'Many-to-Many Beam Alignment in Millimeter Wave…' is first-authored, which they wrote with 5 coauthors. They have published 15 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5026425553",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jeongkeun_lee": {
+  "gold": "Jeongkeun Lee is a researcher in Software-Defined Networks and 5G. They have been affiliated with Intel (United Kingdom) (2020–2022), Switch (2020–2021), and Hewlett-Packard (United States) (2008–2017). Their most-cited works include 'NetCache' (2017), 'Avoiding multipath to revive inbuilding WiFi localization' (2013), and 'NICE: Network Intrusion Detection and Countermeasure Selection in Virtual Network Systems' (2013). Other works include 'SAIL' (2014) and 'Netchain: scale-free sub-RTT coordination' (2018). They have published 57 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5033355299",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_ryan_stutsman": {
+  "gold": "Ryan Stutsman is a researcher in Advanced Data Storage Technologies. They have been affiliated with University of Utah (2015–2026), Microsoft Research (United Kingdom) (2015), and Stanford University (2009–2015). Their most-cited works include 'The case for RAMClouds' (ACM SIGOPS Operating Systems Review, 2010), 'Fast crash recovery in RAMCloud' (2011), and 'The RAMCloud Storage System' (2015). Other works include 'The case for RAMCloud' (2011) and 'It's time for low latency' (2011). They have published 76 works since 2005.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5020086434",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_rong_chen": {
+  "gold": "Rong Chen is a researcher in Advanced Photocatalysis Techniques. They have been affiliated with Hebei Medical University (2019–2025), Zhejiang Chinese Medical University (2012–2025), and Qinghai University (2015–2025). Their most-cited works include 'Atomically dispersed Ni(i) as the active site for electrochemical CO2 reduction' (Nature Energy, 2018), 'Silver nanoparticles: partial oxidation and antibacterial activities' (JBIC Journal of Biological Inorganic Chemistry, 2007), and 'Proteomic Analysis of the Mode of Antibacterial Action of Silver Nanoparticles' (2006). Other works include 'COVID-19 with Different Severities: A Multicenter Study of Clinical Features' (2020) and 'Silver Nanoparticles Inhibit Hepatitis B virus Replication' (2008). They have published 882 works since 1979.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100419038",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_poshun_wang": {
+  "gold": "Po‐Shun Wang is a researcher in Cancer-related molecular mechanisms research. They have been affiliated with Stony Brook University (2023–2025), MetroHealth Medical Center (2021–2024), and Case Western Reserve University (2021–2024). Their most-cited works include 'Enterovirus 71‐induced autophagy detected in vitro and in vivo promotes viral replication' (Journal of Medical Virology, 2009), 'A novel long non-coding RNA linc-ZNF469-3 promotes lung metastasis through miR-574-5p-ZEB1 axis…' (Oncogene, 2018), and 'Enterovirus 71-induced autophagy increases viral replication and pathogenesis in a suckling mouse…' (2014). Of these, 'A novel long non-coding RNA linc-ZNF469-3…' is first-authored, which they wrote with 13 coauthors. They have published 29 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5056202655",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_victory_omole": {
+  "gold": "Victory Omole is a researcher in Quantum Computing Algorithms and Architecture. They have been affiliated with ColdQuanta, Inc., DBA Infleqtion (United States) (2022). Their most-cited works include 'SupermarQ: A Scalable Quantum Benchmark Suite' (2022), 'Optimized SWAP networks with equivalent circuit averaging for QAOA' (Physical Review Research, 2022), and 'Superstaq: Deep Optimization of Quantum Programs' (2023). Other works include 'Clifford-based Circuit Cutting for Quantum Simulation' (2023). They have published 21 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5053644319",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_marieclaire_blache": {
+  "gold": "Marie‐Claire Blache is a researcher in Animal Nutrition and Physiology. They have been affiliated with Université de Tours (2017–2025), Centre National de la Recherche Scientifique (2010–2025), and Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement (2020–2025). Their most-cited works include 'Adipocyte functions are modulated by cell size change: potential involvement of an…' (International Journal of Obesity, 2003), 'Porcine oviductal extracellular vesicles interact with gametes and regulate sperm motility and…' (Theriogenology, 2020), and 'CoNIC Challenge: Pushing the frontiers of nuclear detection, segmentation, classification and counting' (2023). They have published 48 works since 1842.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5012373659",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jordan_mohler": {
+  "gold": "Jordan Mohler is a researcher in Blockchain Technology Applications and Security. They have been affiliated with University of Denver (2018–2019). Their most-cited works include 'Ancile: Privacy-preserving framework for access control and interoperability of electronic health records…' (Sustainable Cities and Society, 2018), 'BroncoVote: Secure Voting System using Ethereum’s Blockchain' (2018), and 'GenVote: Blockchain-Based Customizable and Secure Voting Platform' (2019). They are the first author of 'Ancile: Toward Using Blockchain Technology for Access Control and Interoperability of Electronic…' (2017), which they wrote with 3 coauthors. They have published 4 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5047809191",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_juliette_hainline": {
+  "gold": "Juliette Hainline is a researcher in Privacy, Security, and Data Protection. They have been affiliated with University of Illinois Chicago (2018) and University of Chicago (2018). Their most-cited works include '\"What was that site doing with my Facebook password?\"' (2018) and 'Clap On, Clap Off: Usability of Authentication Methods in the Smart Home' (2018). Their research also covers User Authentication and Security Systems and Advanced Malware Detection Techniques. They have published 2 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5015114219",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_yufeng_huang": {
+  "gold": "Yufeng Huang is a researcher in Electrocatalysts for Energy Conversion. They have been affiliated with Stomatology Hospital (2026), Sichuan University of Science and Engineering (2026), and West Anhui University (2025). Their most-cited works include 'High-performance bifunctional porous non-noble metal phosphide catalyst for overall water splitting' (Nature Communications, 2018), 'Efficient hydrogen evolution by ternary molybdenum sulfoselenide particles on self-standing porous nickel…' (Nature Communications, 2016), and 'Effects of Surface Roughness on the Electrochemical Reduction of CO2 over Cu' (2020). They are the first author of 'The Reaction Mechanism with Free Energy Barriers for Electrochemical Dihydrogen Evolution on…' (2015), which they wrote with 3 coauthors. They have published 35 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5051987317",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_nicole_m_wink": {
+  "gold": "Nicole M Wink is a researcher in Advanced Radiotherapy Techniques. They have been affiliated with Stanford Medicine (2007), Stanford University (2007), and University of California, Los Angeles (2004–2006). Their most-cited works include 'Phase versus amplitude sorting of 4D‐CT data' (Journal of Applied Clinical Medical Physics, 2006), 'Respiratory correlated cone-beam computed tomography on an isocentric C-arm' (Physics in Medicine and Biology, 2005), and 'Individualized gating windows based on four-dimensional CT information for respiration-gated radiotherapy' (2007). Of these, 'Phase versus amplitude sorting of 4D‐CT…' is first-authored, which they wrote with 2 coauthors. They have published 14 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5068101921",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yuchao_tao": {
+  "gold": "Yuchao Tao is a researcher in Privacy-Preserving Technologies in Data. They have been affiliated with Duke University (2019–2025), State Grid Corporation of China (China) (2021), and Central South University of Forestry and Technology (2019). Their most-cited works include 'PrivateSQL' (Proceedings of the VLDB Endowment, 2019), 'R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys' (Proceedings of the 2022 International Conference on Management…, 2022), and 'Heat Transfer Characteristics and Kinetics of Camellia oleifera Seeds During Hot-Air Drying' (2019). They are the first author of 'Benchmarking Differentially Private Synthetic Data Generation Algorithms' (2021), which they wrote with 4 coauthors. They have published 18 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5010901844",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yulai_tong": {
+  "gold": "Yulai Tong is a researcher in Advanced Data Storage Technologies. They have been affiliated with China University of Mining and Technology (2025), Huazhong University of Science and Technology (2022–2025), and Wuhan National Laboratory for Optoelectronics (2022–2024). Their most-cited works include 'Sieve: A Learned Data-Skipping Index for Data Analytics' (Proceedings of the VLDB Endowment, 2023), 'DAG-aware harmonizing job scheduling and data caching for disaggregated analytics frameworks' (Future Generation Computer Systems, 2024), and 'Minimal Free Resolution Guided Adaptive Tree Reasoning' (2026). Of these, 'Sieve: A Learned Data-Skipping Index for…' is first-authored, which they wrote with 6 coauthors. They have published 5 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5088953929",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_joel_kuepper": {
+  "gold": "Joel Kuepper is a researcher in Advanced Malware Detection Techniques. They have been affiliated with The University of Adelaide (2023). Their most-cited works include 'CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives' (Proceedings of the ACM on Programming Languages, 2023), 'CryptOpt: Automatic Optimization of Straightline Code' (2023), and 'CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives (full version)' (2022). Of these, 'CryptOpt: Verified Compilation with Randomized Program…' is first-authored, which they wrote with 11 coauthors. They have published 4 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5005758241",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_emili_lupon": {
+  "gold": "Emili Lupon is a researcher in Integrated Circuits and Semiconductor Failure Analysis. They have been affiliated with Universitat Politècnica de Catalunya (1993–2025). Their most-cited works include 'Enhanced DC-Link Capacitor Voltage Balancing Control of DC–AC Multilevel Multileg Converters' (IEEE Transactions on Industrial Electronics, 2014), 'FPGA Implementation of a PWM for a Three-Phase DC–AC Multilevel Active-Clamped Converter' (IEEE Transactions on Industrial Informatics, 2014), and 'Verifying Functional Specifications by Regression Techniques on Lissajous Test Signatures' (2008). Of these, 'FPGA Implementation of a PWM for…' is first-authored, which they wrote with 2 coauthors. They have published 21 works since 1991.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5009195541",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_boyang_zheng": {
+  "gold": "Boyang Zheng is a researcher in 2D Materials and Applications. They have been affiliated with Pennsylvania State University (2020–2025), Shaoxing University (2019–2025), and Hebei Medical University (2024). Their most-cited works include 'Vertical migration of microplastics along soil profile under different crop root systems' (Environmental Pollution, 2021), 'Monolayer Vanadium‐Doped Tungsten Disulfide: A Room‐Temperature Dilute Magnetic Semiconductor' (Advanced Science, 2020), and 'ZrTe2/CrTe2: an epitaxial van der Waals platform for spintronics' (2022). They are the first author of 'Perceived overqualification and its outcomes: The moderating role of organizational learning' (2017), which they wrote with 1 coauthor. They have published 43 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5002672886",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jinghai_yin": {
+  "gold": "Jinghai Yin is a researcher in EEG and Brain-Computer Interfaces. They have been affiliated with Jiangxi University of Technology (2009–2020). Their most-cited works include 'Driving Fatigue Detecting Based on EEG Signals of Forehead Area' (International Journal of Pattern Recognition and Artificial Intelligence, 2016), 'Comparison of different entropies as features for person authentication based on EEG…' (IET Biometrics, 2017), and 'Developing and evaluating a mobile driver fatigue detection network based on electroencephalograph…' (2016). Of these, 'Developing and evaluating a mobile driver…' is first-authored, which they wrote with 2 coauthors. They have published 18 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100606501",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_aashaka_shah": {
+  "gold": "Aashaka Shah is a researcher in Spaceflight effects on biology. They have been affiliated with Illinois College (2020–2023), University of Illinois Chicago (2020–2023), and Loyola University Chicago (2019–2020). Their most-cited works include 'Telemedicine in Pediatrics: Systematic Review of Randomized Controlled Trials' (JMIR Pediatrics and Parenting, 2021), 'Genomic Survey of E. coli From the Bladders of Women With and…' (Frontiers in Microbiology, 2020), and 'Telemedicine in Malignant and Nonmalignant Hematology: Systematic Review of Pediatric and Adult…' (2021). Of these, 'Telemedicine in Pediatrics: Systematic Review of…' is first-authored, which they wrote with 1 coauthor. They have published 13 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5006803162",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_rama_devi_mittal": {
+  "gold": "Rama Devi Mittal is a researcher in Bladder and Urothelial Cancer Treatments. They have been affiliated with Sanjay Gandhi Post Graduate Institute of Medical Sciences (1996–2020), Centre of Biomedical Research (2008–2019), and Society of General Internal Medicine (2008–2014). Their most-cited works include 'Cytochrome P450 in Cancer Susceptibility and Treatment' (Advances in clinical chemistry, 2015), 'Impact of Toll-like receptors [TLR] 2 (−196 to −174 del) and TLR…' (Gynecologic Oncology, 2009), and 'Genetic variation in microRNA genes and prostate cancer risk in North Indian…' (2010). They have published 189 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5105776358",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_binlin_cheng": {
+  "gold": "Binlin Cheng is a researcher in Advanced Malware Detection Techniques. They have been affiliated with Shandong University (2023), Wuhan University (2011–2021), and Central China Normal University (2021). Their most-cited works include 'Towards Paving the Way for Large-Scale Windows Malware Analysis' (2018), 'Obfuscation-Resilient Executable Payload Extraction From Packed Malware' (Zenodo (CERN European Organization for Nuclear Research), 2021), and 'Malware Clustering Using Family Dependency Graph' (2019). Of these, 'Towards Paving the Way for Large-Scale…' is first-authored, which they wrote with 6 coauthors. They have published 14 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5073257664",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_susheel_sekhar": {
+  "gold": "Susheel Sekhar is a researcher in Biomimetic flight and propulsion mechanisms. They have been affiliated with Virginia Tech (2017–2019). Their most-cited works include '3D Printing All‐Aromatic Polyimides using Mask‐Projection Stereolithography: Processing the Nonprocessable' (Advanced Materials, 2017), 'Canonical description of wing kinematics and dynamics for a straight flying insectivorous…' (PLoS ONE, 2019), and 'Proper orthogonal decomposition of straight and level flight kinematics in an insectivorous…' (2018). Of these, 'Canonical description of wing kinematics and…' is first-authored, which they wrote with 3 coauthors. They have published 3 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5002533804",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_erci_xu": {
+  "gold": "Erci Xu is a researcher in Advanced Data Storage Technologies. They have been affiliated with Shanghai Jiao Tong University (2023–2026), Alibaba Group (United States) (2024–2026), and Alibaba Group (China) (2023–2024). Their most-cited works include 'Lessons and Actions: What We Learned from 10K SSD-Related Storage System Failures' (USENIX Annual Technical Conference, 2019), 'A novel steganography approach for voice over IP' (Journal of Ambient Intelligence and Humanized Computing, 2013), and 'Challenges and opportunities: an in-depth empirical study on configuration error injection testing' (2021). Of these, 'Lessons and Actions: What We Learned…' is first-authored, which they wrote with 4 coauthors. They have published 39 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5063665735",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yan_jiao": {
+  "gold": "Yan Jiao is a researcher in Electrocatalysts for Energy Conversion. They have been affiliated with University of Adelaide (2012–2026), Australian Research Council (2024–2025), and Qingdao Agricultural University (2017–2025). Their most-cited works include 'Design of electrocatalysts for oxygen- and hydrogen-involving energy conversion reactions' (Chemical Society Reviews, 2015), 'Sulfur and Nitrogen Dual‐Doped Mesoporous Graphene Electrocatalyst for Oxygen Reduction with Synergistically…' (Angewandte Chemie International Edition, 2012), and 'Emerging Two-Dimensional Nanomaterials for Electrocatalysis' (2018). Of these, 'Design of electrocatalysts for oxygen- and…' is first-authored, which they wrote with 3 coauthors. They have published 260 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5034195419",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_john_sicilia": {
+  "gold": "John Sicilia is a researcher in Advanced Neural Network Applications. They have been affiliated with Tesla (United States) (2023). Their most-cited work is 'The Microarchitecture of DOJO, Tesla’s Exa-Scale Computer' (IEEE Micro, 2023). Their research also covers Parallel Computing and Optimization Techniques and Advanced Data Storage Technologies. They have published 1 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5038589290",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_jasper_ruehl": {
+  "gold": "Jasper Ruehl is a researcher in Parallel Computing and Optimization Techniques. Their most-cited work is 'Risotto: A Dynamic Binary Translator for Weak Memory Model Architectures' (2022). Their research also covers Network Packet Processing and Optimization. They have published 1 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5083691267",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_ivan_beschastnikh": {
+  "gold": "Ivan Beschastnikh is a researcher in Software System Performance and Reliability. They have been affiliated with University of British Columbia (2013–2026), University of British Columbia, Okanagan Campus (2024), and University of Washington (2007–2021). Their most-cited works include 'Mitigating Sybils in Federated Learning Poisoning' (arXiv (Cornell University), 2018), 'Biscotti: A Blockchain System for Private and Secure Federated Learning' (IEEE Transactions on Parallel and Distributed Systems, 2020), and 'Leveraging existing instrumentation to automatically infer invariant-constrained models' (2011). Of these, 'Leveraging existing instrumentation to automatically infer…' is first-authored, which they wrote with 4 coauthors. They have published 132 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5064061802",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_hesam_shahrokhi": {
+  "gold": "Hesam Shahrokhi is a researcher in Computational Physics and Python Applications. They have been affiliated with University of Edinburgh (2023–2024). Their most-cited works include 'Building a Compiled Query Engine in Python' (2023), 'Efficient Query Processing in Python Using Compilation' (2023), and 'PyTond: Efficient Python Data Science on the Shoulders of Databases' (2024). Of these, 'Building a Compiled Query Engine in…' is first-authored, which they wrote with 1 coauthor. Other works include 'Hinted Dictionaries: Efficient Functional Ordered Sets and Maps' (2022). They have published 5 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5046573989",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_sylvie_dujardin": {
+  "gold": "Sylvie Dujardin is a researcher in Sleep and related disorders. They have been affiliated with Kempenhaeghe (2018–2024) and Centre Hospitalier Universitaire Brugmann (2017). Their most-cited works include 'Prescription Drugs Used in Insomnia' (Sleep Medicine Clinics, 2020), 'A computationally efficient algorithm for wearable sleep staging in clinical populations' (Scientific Reports, 2023), and 'Clonidine administration during intraoperative monitoring for pediatric scoliosis surgery: Effects on central…' (2017). Of these, 'Prescription Drugs Used in Insomnia' is first-authored, which they wrote with 2 coauthors. They have published 9 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5048526688",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_fengqing_jiang": {
+  "gold": "Fengqing Jiang is a researcher in Climate variability and models. They have been affiliated with Jiangxi College of Applied Technology (2025), Jiangxi University of Science and Technology (2011–2025), and Chinese Academy of Sciences (1996–2024). Their most-cited works include 'Spatial and temporal variability of precipitation concentration index, concentration degree and concentration…' (International Journal of Climatology, 2010), 'Spatial distribution and contamination assessment of heavy metals in urban road dusts…' (Microchemical Journal, 2009), and 'Spatio-temporal variations of precipitation extremes in Xinjiang, China' (2012). They are the first author of 'Trends of precipitation extremes during 1960–2008 in Xinjiang, the Northwest China' (2012), which they wrote with 4 coauthors. They have published 64 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5102188823",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_christoph_brepols": {
+  "gold": "Christoph Brepols is a researcher in Membrane Separation Technologies. They have been affiliated with Ruhrverband (Germany) (2010–2026). Their most-cited works include 'The cost of a large-scale hollow fibre MBR' (Water Research, 2010), 'Biological processes modelling for MBR systems: A review of the state-of-the-art focusing…' (Water Research, 2023), and 'Operating Large Scale Membrane Bioreactors for Municipal Wastewater Treatment' (2010). Of these, 'Operating Large Scale Membrane Bioreactors for…' is first-authored, which they wrote alone. Other works include 'Membrane Biological Reactors' (2019) and 'Integrated membrane bioreactors modelling: A review on new comprehensive modelling framework' (2021). They have published 19 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5109707461",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_rajesh_bordawekar": {
+  "gold": "Rajesh Bordawekar is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with IBM Research - Thomas J. Watson Research Center (2000–2025), IBM (United States) (2000–2019), and California Institute of Technology (1996–2002). Their most-cited works include 'Improved parallel I/O via a two-phase run-time access strategy' (ACM SIGARCH Computer Architecture News, 1993), 'Passion: Optimized I/O for Parallel Applications' (1996), and 'CellSort: high performance sorting on the cell processor' (2007). They are the first author of 'Design and Evaluation of primitives for Parallel I/O' (1993), which they wrote with 2 coauthors. They have published 91 works since 1993.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5035394281",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_xianran_xing": {
+  "gold": "Xianran Xing is a researcher in Ferroelectric and Piezoelectric Materials. They have been affiliated with Institute of Solid State Chemistry (2024–2026), Institute of Solid State Physics (2024–2026), and University of Science and Technology Beijing (1992–2026). Their most-cited works include 'Yolk/shell nanoparticles: new platforms for nanoreactors, drug delivery and lithium-ion batteries' (Chemical Communications, 2011), 'Negative thermal expansion in functional materials: controllable thermal expansion by chemical modifications' (Chemical Society Reviews, 2015), and 'Semiconductor/relaxor 0–3 type composites without thermal depolarization in Bi0.5Na0.5TiO3-based lead-free piezoceramics' (2015). They have published 572 works since 1986.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101516804",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_joseph_chan": {
+  "gold": "Joseph Chan is a researcher in Lung Cancer Research Studies. They have been affiliated with Memorial Sloan Kettering Cancer Center (2019–2026), Carnegie Mellon University (2024–2025), and Kettering University (2020–2024). Their most-cited works include 'Analysis of the coding genome of diffuse large B-cell lymphoma' (Nature Genetics, 2011), 'Transforming Fusions of FGFR and TACC Genes in Human Glioblastoma' (Science, 2012), and 'The Human Tumor Atlas Network: Charting Tumor Transitions across Space and Time…' (2020). Other works include 'Lineage plasticity in cancer: a shared pathway of therapeutic resistance' (2020) and 'The integrated landscape of driver genomic alterations in glioblastoma' (2013). They have published 98 works since 1994.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016682112",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_habiba_abdulganiyu": {
+  "gold": "Habiba Abdulganiyu is a researcher in Text and Document Classification Technologies. They have been affiliated with Nnamdi Azikiwe University (2023), Africa Center (2023), and Somali National University (2023). Their most-cited work is 'MasakhaNEWS: News Topic Classification for African languages' (2023). Their research also covers Authorship Attribution and Profiling and Advanced Text Analysis Techniques. They have published 1 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5094122244",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_zhigang_cai": {
+  "gold": "Zhigang Cai is a researcher in Reconstructive Surgery and Microvascular Techniques. They have been affiliated with Peking University (2002–2026), National Clinical Research Center for Digestive Diseases (2019–2026), and China National Building Materials Group (China) (2026). Their most-cited works include 'In vitro and in vivo biocompatibility evaluation of a 3D bioprinted gelatin-sodium…' (Materials Science and Engineering C, 2019), 'Mutant p53 drives clonal hematopoiesis through modulating epigenetic pathway' (Nature Communications, 2019), and 'Microvascular autologous submandibular gland transfer in severe cases of keratoconjunctivitis sicca' (2004). They have published 229 works since 1998.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5031712717",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_brennon_brimhall": {
+  "gold": "Brennon Brimhall is a researcher in Access Control and Trust. They have been affiliated with Johns Hopkins University (2023). Their most-cited work is 'A Comparative Analysis of Linux Mandatory Access Control Policy Enforcement Mechanisms' (2023). They are the first author of this work, which they wrote with 3 coauthors. Their research also covers Security and Verification in Computing and Internet Traffic Analysis and Secure E-voting. They have published 1 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5061107820",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_kuo_feng_hsu": {
+  "gold": "Kuo-Feng Hsu is a researcher in Bariatric Surgery and Outcomes. They have been affiliated with National Defense Medical Center (2008–2026), Center for Special Minimally Invasive and Robotic Surgery (2025), and Tri-Service General Hospital (2008–2024). Their most-cited works include 'Comparing Hepatic Resection and Transarterial Chemoembolization for Barcelona Clinic Liver Cancer (BCLC)…' (World Journal of Surgery, 2010), 'Superselective transarterial chemoembolization vs hepatic resection for resectable early-stage hepatocellular carcinoma in…' (European Journal of Radiology, 2011), and 'Betti reaction enables efficient synthesis of 8-hydroxyquinoline inhibitors of 2-oxoglutarate oxygenases' (2015). Of these, 'Superselective transarterial chemoembolization vs hepatic resection…' is first-authored, which they wrote with 8 coauthors. They have published 165 works since 1962.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5005405834",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_david_broneske": {
+  "gold": "David Broneske is a researcher in Advanced Database Systems and Queries. They have been affiliated with German Centre for Higher Education Research and Science Studies (2021–2026), Otto-von-Guericke University Magdeburg (2012–2024), and University Hospital Magdeburg (2015–2023). Their most-cited works include 'SQLValidator – An Online Student Playground to Learn SQL' (Datenbank-Spektrum, 2021), 'Toward Hardware-Sensitive Database Operations' (2014), and 'Modern Applications and Challenges for Rare Itemset Mining' (2021). Of these, 'Toward Hardware-Sensitive Database Operations' is first-authored, which they wrote with 3 coauthors. They have published 145 works since 1997.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5061367729",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_james_lovejoy": {
+  "gold": "James Lovejoy is a researcher in Microwave Engineering and Waveguides. They have been affiliated with Massachusetts Institute of Technology (2020), University of Colorado Colorado Springs (2010–2018), and University of British Columbia (2010). Their most-cited works include 'Liquid crystal phase shifters at millimeter wave frequencies' (Journal of Applied Physics, 2012), 'Nonlinear amplification and mixing of spin waves in a microstrip geometry with…' (Applied Physics Letters, 2011), and 'Spin wave resonance excitation in ferromagnetic films using planar waveguide structures' (2010). They have published 9 works since 2007.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5082968833",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_anna_karanika": {
+  "gold": "Anna Karanika is a researcher in IoT and Edge/Fog Computing. They have been affiliated with University of Illinois Urbana-Champaign (2023–2026) and University of Thessaly (2019–2021). Their most-cited works include 'A Demand-driven, Proactive Tasks Management Model at the Edge' (2020), 'Intelligent tasks allocation at the edge based on machine learning and bio-inspired…' (Evolving Systems, 2021), and 'Fail through the Cracks: Cross-System Interaction Failures in Modern Cloud Systems' (2023). Of these, 'A Demand-driven, Proactive Tasks Management Model…' is first-authored, which they wrote with 3 coauthors. They have published 15 works since 2019.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5031216679",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_surendra_ghentiyala": {
+  "gold": "Surendra Ghentiyala is a researcher in Radiation Effects in Electronics. They have been affiliated with Cornell University (2024) and University of California, Santa Barbara (2023). Their most-cited works include 'Obtaining Information Leakage Bounds via Approximate Model Counting' (Proceedings of the ACM on Programming Languages, 2023) and 'More Basis Reduction for Linear Codes: Backward Reduction, BKZ, Slide Reduction, and…' (arXiv (Cornell University), 2024). Of these, 'More Basis Reduction for Linear Codes…' is first-authored, which they wrote with 1 coauthor. They have published 2 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5092102733",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zuming_jiang": {
+  "gold": "Zuming Jiang is a researcher in Advanced Frequency and Time Standards. They have been affiliated with Beijing Forestry University (2025), Yanshan University (2023), and Bureau international des poids et mesures (2000–2016). Their most-cited works include 'GPS All in View time transfer for TAI computation' (Metrologia, 2007), 'The 8th International Comparison of Absolute Gravimeters 2009: the first Key Comparison…' (Metrologia, 2012), and 'Combination of TWSTFT and GNSS for accurate UTC time transfer' (2009). Of these, 'The 8th International Comparison of Absolute…' is first-authored, which they wrote with 45 coauthors. They have published 72 works since 1997.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5001062609",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_hlna_galhardas": {
+  "gold": "Héléna Galhardas is a researcher in Advanced Database Systems and Queries. They have been affiliated with University of Lisbon (2005–2026), Instituto de Engenharia de Sistemas e Computadores Investigação e Desenvolvimento (2003–2024), and Institute of Spring Technology (2022). Their most-cited works include 'Declarative Data Cleaning: Language, Model, and Algorithms' (OpenGrey (Institut de l'Information Scientifique et Technique), 2001), 'AJAX' (ACM SIGMOD Record, 2000), and 'A Survey of Data Quality Tools.' (2005). Of these, 'Declarative Data Cleaning: Language, Model, and…' is first-authored, which they wrote with 4 coauthors. They have published 79 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5010625393",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_hadi_noureddine": {
+  "gold": "Hadi Noureddine is a researcher in Mobile Ad Hoc Networks. They have been affiliated with Technical University of Munich (2026), Lebanese International University (2017–2026), and Supélec (2014). Their most-cited works include 'Rate-adaptation for multi-rate IEEE 802.11 WLANs using mutual feedback between transmitter and…' (2010), 'LSEA: Link Stability and Energy Aware for efficient routing in Mobile Ad…' (Wireless Personal Multimedia Communications, 2011), and 'A New Link Lifetime Prediction Method for Greedy and Contention-based Routing in…' (2010). Of these, 'A New Link Lifetime Prediction Method…' is first-authored, which they wrote with 3 coauthors. They have published 25 works since 2010.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5079451313",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_insik_shin": {
+  "gold": "Insik Shin is a researcher in Real-Time Systems Scheduling. They have been affiliated with Korea Advanced Institute of Science and Technology (2008–2026), Pohang Iron and Steel (South Korea) (2025), and Yonsei University (2025). Their most-cited works include 'Periodic resource model for compositional real-time guarantees' (2004), 'Compositional Real-Time Scheduling Framework' (2005), and 'Compositional real-time scheduling framework with periodic model' (2008). Of these, 'Periodic resource model for compositional real-time…' is first-authored, which they wrote with 1 coauthor. They have published 186 works since 1997.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5077052539",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_dan_suciu": {
+  "gold": "Dan Suciu is a researcher in Advanced Database Systems and Queries. They have been affiliated with University of Washington (2001–2026), Seattle University (2004–2026), and Vrije Universiteit Brussel (2022). Their most-cited works include 'Data on the Web: From Relations to Semistructured Data and XML' (1999), 'Efficient query evaluation on probabilistic databases' (The VLDB Journal, 2006), and 'Index Structures for Path Expressions' (1999). Other works include 'A query language for XML' (1999) and 'A query language and optimization techniques for unstructured data' (1996). They have published 535 works since 1969.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5048204602",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_xinming_wang": {
+  "gold": "Xinming Wang is a researcher in Atmospheric chemistry and aerosols. They have been affiliated with Xiamen University (2021–2026), Anhui Medical University (2015–2026), and Chinese Academy of Sciences (1999–2026). Their most-cited works include 'Identification of a novel coronavirus causing severe pneumonia in human: a descriptive…' (Chinese Medical Journal, 2020), 'The pathogenicity of SARS-CoV-2 in hACE2 transgenic mice' (Nature, 2020), and 'The health effects of ambient PM2.5 and potential mechanisms' (2016). Other works include 'Health outcomes in people 2 years after surviving hospitalisation with COVID-19: a…' (2022) and 'Systematic review of Chinese studies of short-term exposure to air pollution and…' (2013). They have published 1431 works since 1983.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5100643640",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_waqar_amin": {
+  "gold": "Waqar Amin is a researcher in Interconnection Networks and Systems. They have been affiliated with Jamia Millia Islamia (2026) and University of Engineering and Technology Taxila (2020–2023). Their most-cited works include 'Performance Evaluation of Application Mapping Approaches for Network-on-Chip Designs' (IEEE Access, 2020), 'iHPSA: An improved bio-inspired hybrid optimization algorithm for task mapping in Network…' (Microprocessors and Microsystems, 2022), and 'An efficient and cost effective application mapping for network-on-chip using Andean condor…' (2022). Of these, 'Performance Evaluation of Application Mapping Approaches…' is first-authored, which they wrote with 6 coauthors. They have published 10 works since 2002.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5090481026",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yumi_horiuchi": {
+  "gold": "Yumi Horiuchi is a researcher in Crystallization and Solubility Studies. They have been affiliated with Nippon Chemical Industrial (Japan) (2011–2016) and Tokyo University of Agriculture (2006). Their most-cited works include 'Rigid P-Chiral Phosphine Ligands with tert-Butylmethylphosphino Groups for Rhodium-Catalyzed Asymmetric Hydrogenation of…' (Journal of the American Chemical Society, 2011), 'Regulation of the Body Fat Percentage in Developmental-Stage Rats by Methylxanthine Derivatives…' (Bioscience Biotechnology and Biochemistry, 2006), and 'Utilization of optically active secondary phosphine–boranes: synthesis of P-chiral diphosphines and their…' (2015). They have published 8 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5081741860",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yaning_guo": {
+  "gold": "Yaning Guo is a researcher in Supercapacitor Materials and Fabrication. They have been affiliated with Lanzhou University of Technology (2025), Baoji University of Arts and Sciences (2008–2025), and Institute of Quality Standards and Testing Technology for Agro Products (2025). Their most-cited works include 'High performance hybrid supercapacitors assembled with multi-cavity nickel cobalt sulfide hollow microspheres…' (Industrial Crops and Products, 2022), 'Fluffy Cotton-Like GO/Zn–Co–Ni Layered Double Hydroxides Form from a Sacrificed Template GO/ZIF-8…' (ACS Sustainable Chemistry & Engineering, 2020), and 'Composite material CCO/Co-Ni-Mn LDH made from sacrifice template CCO/ ZIF-67 for high-performance…' (2021). They are the first author of 'The synthesis of a Cu( ii ) Schiff base complex using a…' (2019), which they wrote with 4 coauthors. They have published 49 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101708944",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_fangming_lu": {
+  "gold": "Fangming Lu is a researcher in Cloud Computing and Resource Management. They have been affiliated with Shanghai Jiao Tong University (2022–2025) and Harbin University of Science and Technology (2016). Their most-cited works include 'Serialization/Deserialization-free State Transfer in Serverless Workflows' (2024), 'No Provisioned Concurrency: Fast RDMA-codesigned Remote Fork for Serverless Computing' (arXiv (Cornell University), 2022), and 'A Large Scale System Model-Order Reduction Method Based on SVD-Krylov' (2016). Of these, 'Serialization/Deserialization-free State Transfer in Serverless Workflows' is first-authored, which they wrote with 5 coauthors. They have published 8 works since 2016.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5039694065",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_shuangxi_chen": {
+  "gold": "Shuangxi Chen is a researcher in Nerve injury and regeneration. They have been affiliated with Zhejiang Provincial People's Hospital (2015–2026), First Affiliated Hospital of University of South China (2019–2026), and Hangzhou Medical College (2020–2026). Their most-cited works include 'Feasibility of a 5G-Based Robot-Assisted Remote Ultrasound System for Cardiopulmonary Assessment of…' (CHEST Journal, 2020), 'Eudragit S100-Coated Chitosan Nanoparticles Co-loading Tat for Enhanced Oral Colon Absorption of…' (AAPS PharmSciTech, 2016), and 'Enhanced oral bioavailability of insulin using PLGA nanoparticles co-modified with cell-penetrating peptides…' (2015). Of these, 'Eudragit S100-Coated Chitosan Nanoparticles Co-loading Tat…' is first-authored, which they wrote with 8 coauthors. They have published 80 works since 2002.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5024612625",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_hidetsugu_irie": {
+  "gold": "Hidetsugu Irie is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with The University of Tokyo (2006–2026), Tokyo University of Information Sciences (2019–2024), and Bunkyo University (2023). Their most-cited works include 'An Open Source FPGA-Optimized Out-of-Order RISC-V Soft Processor' (2019), 'FLAT' (2012), and 'STRAIGHT: Hazardless Processor Architecture Without Register Renaming' (2018). Of these, 'STRAIGHT: Hazardless Processor Architecture Without Register…' is first-authored, which they wrote with 10 coauthors. Other works include 'Utilization of SECDED for Soft Error and Variation-Induced Defect Tolerance in Caches' (2007) and 'An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA' (2013). They have published 136 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5068571937",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jihoon_cho": {
+  "gold": "Jihoon Cho is a researcher in Cryptographic Implementations and Security. They have been affiliated with Samsung (South Korea) (1999–2025), Samsung SDS (South Korea) (2016–2023), and Shingyeong University (2018). Their most-cited works include 'Rechargeable Lithium Sulfur Battery' (Journal of The Electrochemical Society, 2003), 'Particle size and alloying effects of Pt-based alloy catalysts for fuel cell…' (Electrochimica Acta, 2000), and 'Fault identification for process monitoring using kernel principal component analysis' (2004). Of these, 'Fault identification for process monitoring using…' is first-authored, which they wrote with 4 coauthors. They have published 48 works since 1993.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101735757",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_anna_forlenza_bailey": {
+  "gold": "Anna Forlenza-Bailey is a researcher in Teacher Education and Leadership Studies. They have been affiliated with University of Hartford (2000). Their most-cited works include 'An Examination of the Construct of Critical Reflection: Implications for Teacher Education…' (Journal of Teacher Education, 2000), 'Teachers Who Embrace Diversity: The Role of Reflection, Discourse, and Field Experiences…' (The Professional Educator, 1999), and 'The Impact of a Fifth Year Program on the Leadership Abilities of…' (2000). Their research also covers Education and Critical Thinking Development and Educator Training and Historical Pedagogy. They have published 3 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5071170946",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yenhung_lin": {
+  "gold": "Yen‐Hung Lin is a researcher in Hormonal Regulation and Hypertension. They have been affiliated with National Taiwan University (2007–2026), National Taiwan University Hospital (2004–2026), and Aletheia University (2025). Their most-cited works include 'Genetics, prevalence, screening and confirmation of primary aldosteronism: a position statement and…' (Journal of Hypertension, 2020), 'Preoperative Proteinuria Predicts Adverse Renal Outcomes after Coronary Artery Bypass Grafting' (Journal of the American Society of Nephrology, 2010), and 'The relationship between serum galectin-3 and serum markers of cardiac extracellular matrix…' (2009). Of these, 'The relationship between serum galectin-3 and…' is first-authored, which they wrote with 11 coauthors. They have published 428 works since 1983.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5024547798",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_shanlu_liu": {
+  "gold": "Shan‐Lu Liu is a researcher in SARS-CoV-2 and COVID-19 Research. They have been affiliated with Nationwide Children's Hospital (2025), The Ohio State University (2016–2025), and Shandong Academy of Sciences (2024). Their most-cited works include 'The IFITM Proteins Inhibit HIV-1 Infection' (Journal of Virology, 2010), 'SARS-CoV-2 is an appropriate name for the new coronavirus' (The Lancet, 2020), and 'IFITM Proteins Restrict Viral Membrane Hemifusion' (2013). Other works include 'Enhanced neutralization resistance of SARS-CoV-2 Omicron subvariants BQ.1, BQ.1.1, BA.4.6, BF.7, and…' (2022) and 'SARS-CoV-2 spreads through cell-to-cell transmission' (2021). They have published 182 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5062868933",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_shandan_zhou": {
+  "gold": "Shandan Zhou is a researcher in Cloud Computing and Resource Management. They have been affiliated with Microsoft Research Asia (China) (2026), Microsoft (United States) (2021–2025), and Pennsylvania State University (2012). Their most-cited works include 'A context-aware reminder system for elders based on fuzzy linguistic approach' (Expert Systems with Applications, 2012), 'Influencing Factors of Credibility in C2C Ecommerce Web Sites' (Procedia Engineering, 2012), and 'A Recommendation Framework towards Personalized Services in Intelligent Museum' (2009). Of these, 'A context-aware reminder system for elders…' is first-authored, which they wrote with 3 coauthors. They have published 14 works since 2008.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5102677601",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_christophe_gyurgyik": {
+  "gold": "Christophe Gyurgyik is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Cornell University (2023). Their most-cited work is 'Stepwise Debugging for Hardware Accelerators' (2023). Their research also covers Embedded Systems Design Techniques and VLSI and Analog Circuit Testing. They have published 1 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5038091224",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_christian_faerber": {
+  "gold": "Christian Faerber is a researcher in Particle Detector Development and Performance. They have been affiliated with Systems, Applications & Products in Data Processing (Germany) (2025), Intel (Germany) (2022–2024), and Intel (United States) (2023). Their most-cited works include 'PipeJSON: Parsing JSON at Line Speed on FPGAs' (Data Management on New Hardware, 2022), 'Accelerating particle identification for high-speed data-filtering using OpenCL on FPGAs and other…' (2016), and 'Particle Identification on an FPGA Accelerated Compute Platform for the LHCb Upgrade' (2017). Of these, 'Particle Identification on an FPGA Accelerated…' is first-authored, which they wrote with 3 coauthors. They have published 13 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5034554537",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_fabrizio_lombardi": {
+  "gold": "Fabrizio Lombardi is a researcher in VLSI and Analog Circuit Testing. They have been affiliated with Northeastern University (1998–2026), University of Electronic Science and Technology of China (2024), and University of Nottingham Malaysia Campus (2022–2024). Their most-cited works include 'Design and Analysis of Approximate Compressors for Multiplication' (IEEE Transactions on Computers, 2014), 'CNTFET-Based Design of Ternary Logic Gates and Arithmetic Circuits' (IEEE Transactions on Nanotechnology, 2009), and 'New Metrics for the Reliability of Approximate and Probabilistic Adders' (2012). They have published 868 works since 1982.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5001979328",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_ali_zlfkar_coban": {
+  "gold": "Ali Zülfükar Coban is a researcher in Network Security and Intrusion Detection. They have been affiliated with Chalmers University of Technology (2023). Their most-cited work is 'Scheduling to the Rescue; Improving ML-Based Intrusion Detection for IoT' (2023). Their research also covers Smart Grid Security and Resilience and Advanced Malware Detection Techniques. They have published 1 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016449774",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_pankaj_kansal": {
+  "gold": "Pankaj Kansal is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Meta (United States) (2023–2025). Their most-cited works include 'MTIA: First Generation Silicon Targeting Meta's Recommendation Systems' (2023), 'Meta's Second Generation AI Chip: Model-Chip Co-Design and Productionization Experiences' (2025), and 'Next Gen MTIA -Recommendation Inference Accelerator' (2024). Their research also covers Recommender Systems and Techniques and Low-power high-performance VLSI design. They have published 3 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5092183290",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_dongbo_liu": {
+  "gold": "Dongbo Liu is a researcher in Fungal Biology and Applications. They have been affiliated with Central South University (2022–2025), Changsha Medical University (2024–2025), and Bengbu Medical College (2010–2025). Their most-cited works include 'High-throughput combinatorial screening identifies drugs that cooperate with ibrutinib to kill activated…' (Proceedings of the National Academy of Sciences, 2014), 'Blockade of oncogenic IκB kinase activity in diffuse large B-cell lymphoma by…' (Proceedings of the National Academy of Sciences, 2014), and 'WGX50 mitigates doxorubicin-induced cardiotoxicity through inhibition of mitochondrial ROS and ferroptosis' (2023). They have published 178 works since 2001.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5004035476",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_julien_gamba": {
+  "gold": "Julien Gamba is a researcher in Advanced Malware Detection Techniques. They have been affiliated with Unidades Centrales Científico-Técnicas (2025), Boston University (2023), and Northeastern University (2023). Their most-cited works include 'A Long Way to the Top' (2018), 'An Analysis of Pre-installed Android Software' (2020), and 'Tales from the Porn' (2019). Of these, 'An Analysis of Pre-installed Android Software' is first-authored, which they wrote with 4 coauthors. Other works include 'Mis-shapes, Mistakes, Misfits' (2020) and 'Blocklist Babel: On the Transparency and Dynamics of Open Source Blocklisting' (2021). They have published 22 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5064537557",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jean_marc_gaudin": {
+  "gold": "Jean-Marc Gaudin is a researcher in Catalytic C–H Functionalization Methods. They have been affiliated with Firmenich (Switzerland) (1990–2015), Firmenich (United States) (2013), and Université Claude Bernard Lyon 1 (1988–1989). Their most-cited works include 'Catalytic Intramolecular Palladium‐Ene Reactions. Preliminay Communication' (Helvetica Chimica Acta, 1987), 'Intramolecular Heck reaction with substrates possessing an allylic alcohol moiety' (Tetrahedron Letters, 1991), and 'Palladium-catalyzed intramolecular olefin allylations: Stereocontrolled syntheses of bicyclic systems and evidence for…' (1988). Of these, 'Intramolecular Heck reaction with substrates possessing…' is first-authored, which they wrote alone. They have published 32 works since 1986.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5104085287",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_alok_mishra": {
+  "gold": "Alok Mishra is a researcher in Immune Cell Function and Interaction. They have been affiliated with The University of Texas MD Anderson Cancer Center (2024–2025), University of Massachusetts Chan Medical School (2022–2025), and Klinik und Poliklinik für Psychosomatik und Psychotherapie (2025). Their most-cited works include 'UniProt: the Universal Protein Knowledgebase in 2023' (Nucleic Acids Research, 2022), 'UniProt: the universal protein knowledgebase in 2021' (Nucleic Acids Research, 2020), and 'Next-Generation Sequencing Technology: Current Trends and Advancements' (2023). They have published 98 works since 2002.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5059230101",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_thales_bandiera_paiva": {
+  "gold": "Thales Bandiera Paiva is a researcher in Cryptographic Implementations and Security. They have been affiliated with Fundepag (2025), Fundo Brasil (2024–2025), and Universidad San Pedro (2018–2024). Their most-cited works include 'A Timing Attack on the HQC Encryption Scheme' (Lecture notes in computer science, 2020), 'KyberSlash: Exploiting secret-dependent division timings in Kyber implementations' (IACR Transactions on Cryptographic Hardware and Embedded Systems, 2025), and 'BGP Anomalies Classification using Features based on AS Relationship Graphs' (2021). Of these, 'A Timing Attack on the HQC…' is first-authored, which they wrote with 1 coauthor. They have published 15 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5048781329",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_helper_zhou": {
+  "gold": "Helper Zhou is a researcher in Firm Innovation and Growth. They have been affiliated with Durban University of Technology (2021–2025), University of KwaZulu-Natal (2023–2025), and University of Rhode Island (2023). Their most-cited works include 'Renewable energy investments in South Africa: Potentials and challenges for a sustainable…' (Science Progress, 2024), 'The influence of economic growth, fossil and renewable energy, technological innovation, and…' (Carbon Research, 2024), and 'Rural-Urban Comparison of Manufacturing SMMEs Performance in KwaZulu Natal Province, South Africa' (2021). Of these, 'Rural-Urban Comparison of Manufacturing SMMEs Performance…' is first-authored, which they wrote with 1 coauthor. They have published 25 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5044592739",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_sowmya_dharanipragada": {
+  "gold": "Sowmya Dharanipragada is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Cornell University (2021). Their most-cited work is 'PRISM' (2021). Their research also covers Cloud Computing and Resource Management and Distributed systems and fault tolerance. They have published 1 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5067025328",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_qiansheng_rao": {
+  "gold": "Qiansheng Rao is a researcher in Silicon Carbide Semiconductor Technologies. They have been affiliated with China Resources (China) (2023–2026), United Microelectronics (United States) (2023–2025), and University of Electronic Science and Technology of China (2022–2024). Their most-cited works include 'Investigation on the carrier-storage super-junction IGBT: Characteristics, mechanism, and advantages' (Microelectronics Journal, 2023), 'A novel FD-IGBT with double self-biased floating Schottky diode' (Microelectronics Journal, 2025), and '650V Planar Anode Gate Super-junction IGBT with Superior Von-Eoff Trade-off' (2022). They have published 12 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5013214255",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_wenhong_li": {
+  "gold": "Wenhong Li is a researcher in Climate variability and models. They have been affiliated with Aviation Industry Corporation of China (China) (2025), Guangxi University (2010–2025), and Duke University (1993–2025). Their most-cited works include 'Climate Change, Deforestation, and the Fate of the Amazon' (Science, 2007), 'Increased dry-season length over southern Amazonia in recent decades and its implication…' (Proceedings of the National Academy of Sciences, 2013), and 'CMIP5 Climate Model Analyses: Climate Extremes in the United States' (2013). They are the first author of 'Changes to the North Atlantic Subtropical High and Its Role in the…' (2010), which they wrote with 4 coauthors. They have published 232 works since 1992.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5052526119",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_eyee_hyun_nam": {
+  "gold": "Eyee Hyun Nam is a researcher in Advanced Data Storage Technologies. They have been affiliated with Feminist Archive South (2025), Government of the Republic of Korea (2024), and Korea Telecom (South Korea) (2014). Their most-cited works include 'Hydra: A Block-Mapped Parallel Flash Memory Solid-State Disk Architecture' (IEEE Transactions on Computers, 2010), 'Ozone (O3): An Out-of-Order Flash Memory Controller Architecture' (IEEE Transactions on Computers, 2010), and 'Chameleon: A High Performance Flash/FRAM Hybrid Solid State Disk Architecture' (2008). Of these, 'Ozone (O3): An Out-of-Order Flash Memory…' is first-authored, which they wrote with 3 coauthors. They have published 16 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5111885265",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_shilong_gou": {
+  "gold": "Shilong Gou is a researcher in Radiation Effects in Electronics. They have been affiliated with Northwest Institute of Nuclear Technology (2022–2026) and Xidian University (2018). Their most-cited works include 'Accurate Inductance Modeling of 3-D Inductor Based on TSV' (IEEE Microwave and Wireless Components Letters, 2018), 'Simulation Study on the Defect Generation, Accumulation Mechanism and Mechanical Response of…' (Nanomaterials, 2022), and 'The Total Ionizing Dose Effects on Perovskite CsPbBr3 Semiconductor Detector' (2023). Of these, 'Accurate Inductance Modeling of 3-D Inductor…' is first-authored, which they wrote with 3 coauthors. They have published 17 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5048604641",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jinling_yin": {
+  "gold": "Jinling Yin is a researcher in Electrocatalysts for Energy Conversion. They have been affiliated with Harbin Engineering University (2007–2026), General Administration of Quality Supervision, Inspection and Quarantine (2026), and Heilongjiang University of Technology (2024–2026). Their most-cited works include 'Electrochemical capacitance of Co3O4 nanowire arrays supported on nickel foam' (Journal of Power Sources, 2009), 'Nanostructured CuO directly grown on copper foam and their supercapacitance performance' (Electrochimica Acta, 2012), and 'The construction of self-supported thorny leaf-like nickel-cobalt bimetal phosphides as efficient bifunctional…' (2019). They have published 133 works since 2004.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101749266",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_arup_mondal": {
+  "gold": "Arup Mondal is a researcher in Catalytic C–H Functionalization Methods. They have been affiliated with Oldham Council (2026), California Institute of Technology (2025), and Division of Chemistry (2025). Their most-cited works include 'Palladium-Catalyzed meta-C–H Allylation of Arenes: A Unique Combination of a Pyrimidine-Based Template…' (Journal of the American Chemical Society, 2020), 'Palladium-Catalyzed Nondirected Late-Stage C–H Deuteration of Arenes' (Journal of the American Chemical Society, 2021), and 'Sterically Controlled Late-Stage C–H Alkynylation of Arenes' (2019). Of these, 'Sterically Controlled Late-Stage C–H Alkynylation of…' is first-authored, which they wrote with 4 coauthors. They have published 25 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5038275107",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_xueqiang_yan": {
+  "gold": "Xueqiang Yan is a researcher in IoT and Edge/Fog Computing. They have been affiliated with Huawei Technologies (Germany) (2025), Wuhan Children's Hospital (2025), and Huawei Technologies (China) (2020–2024). Their most-cited works include 'Convergence of Edge Computing and Deep Learning: A Comprehensive Survey' (IEEE Communications Surveys & Tutorials, 2020), 'Vision, application scenarios, and key technology trends for 6G mobile communications' (Science China Information Sciences, 2022), and 'Fundamentals of Artificial Intelligence' (2020). Other works include 'A comprehensive security architecture for SDN' (2015) and 'FedAPEN: Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity' (2023). They have published 38 works since 2013.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5026573330",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_graciela_sala": {
+  "gold": "Graciela Sala is a researcher in Protease and Inhibitor Mechanisms. They have been affiliated with University of Bristol (1999–2025), Bristol Royal Infirmary (2001–2022), and NIHR Bristol Cardiovascular Biomedical Research Unit (2000–2021). Their most-cited works include 'Deregulation of microRNA-503 Contributes to Diabetes Mellitus–Induced Impairment of Endothelial Function and…' (Circulation, 2011), 'Classical Macrophage Activation Up-Regulates Several Matrix Metalloproteinases through Mitogen Activated Protein Kinases…' (PLoS ONE, 2012), and 'Dismantling of Cadherin-Mediated Cell-Cell Contacts Modulates Smooth Muscle Cell Proliferation' (2003). They have published 75 works since 1990.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5107540845",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yuhang_gan": {
+  "gold": "Yuhang Gan is a researcher in Remote Sensing and Land Use. They have been affiliated with University of California, Santa Cruz (2025), Ministry of Natural Resources (2020–2025), and China Centre for Resources Satellite Data and Application (2020–2025). Their most-cited works include 'A Fine-Scale Mangrove Map of China Derived from 2-Meter Resolution Satellite Observations…' (ISPRS International Journal of Geo-Information, 2021), 'The prevalence of and factors associated with willingness to utilize HTC service…' (BMC Public Health, 2018), and 'Inequities in consistent condom use among sexually experienced undergraduates in mainland China…' (2019). They are the first author of 'Feature Extraction Based Multi-Structure Manifold Embedding for Hyperspectral Remote Sensing Image Classification' (2017), which they wrote with 5 coauthors. They have published 22 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5103938820",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_chenren_xu": {
+  "gold": "Chenren Xu is a researcher in Indoor and Outdoor Localization Technologies. They have been affiliated with Peking University (2015–2026), Ministry of Education (2023–2026), and Institute of Software (2023–2025). Their most-cited works include 'Handling a trillion (unfixable) flaws on a billion devices' (2015), 'Practical Backscatter Communication Systems for Battery-Free Internet of Things: A Tutorial and…' (IEEE Signal Processing Magazine, 2018), and 'SCPL' (2013). Of these, 'Practical Backscatter Communication Systems for Battery-Free…' is first-authored, which they wrote with 2 coauthors. They have published 163 works since 2010.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5003999919",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_nariyoshi_chida": {
+  "gold": "Nariyoshi Chida is a researcher in Software Testing and Debugging Techniques. They have been affiliated with NTT (Japan) (2020–2025), NTT Medical Center (2025), and Waseda University (2022–2023). Their most-cited works include 'Repairing DoS Vulnerability of Real-World Regexes' (2022 IEEE Symposium on Security and Privacy (SP), 2022), 'Repairing Regular Expressions for Extraction' (Proceedings of the ACM on Programming Languages, 2023), and 'On Lookaheads in Regular Expressions with Backreferences' (2023). Of these, 'Repairing DoS Vulnerability of Real-World Regexes' is first-authored, which they wrote with 1 coauthor. They have published 13 works since 2017.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5063355691",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_stefan_schemmer": {
+  "gold": "Stefan Schemmer is a researcher in Real-Time Systems Scheduling. They have been affiliated with University Hospital Magdeburg (2003–2004), Otto-von-Guericke University Magdeburg (2004), and FZI Research Center for Information Technology (1999). Their most-cited works include 'Reliable real-time communication in cooperative mobile applications' (IEEE Transactions on Computers, 2003), 'Efficient Reliable Real-Time Group Communication for Wireless Local Area Networks' (Lecture notes in computer science, 1999), and 'Automatic WLAN localization for industrial automation' (2008). They are the first author of 'Reliable real-time cooperation of mobile autonomous systems' (2002), which they wrote with 2 coauthors. They have published 23 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5037048794",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_heydar_shariatzadeh": {
+  "gold": "Heydar Shariatzadeh is a researcher in Advanced Wireless Communication Technologies. They have been affiliated with Imam Khomeini Hospital (2023), Islamic Azad University Shahr-e-Rey (2019–2023), and Islamic Azad University, Tehran (2018). Their most-cited works include 'An improving performance cellular DTV broadcasting with hybrid non-orthogonal LDM and orthogonal…' (Array, 2021), 'An Effective Algorithm for Finding Common Control Channel in Cognitive Radio Ad…' (2018), and 'A New 5G Cellular Broadcasting Approach: Hybrid LDM-NOMA and FeMBMS-OMA Analysis Based…' (2023). Of these, 'An improving performance cellular DTV broadcasting…' is first-authored, which they wrote with 2 coauthors. They have published 5 works since 2018.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5046836247",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_eleonora_franchi_scarselli": {
+  "gold": "Eleonora Franchi Scarselli is a researcher in Advanced Memory and Neural Computing. They have been affiliated with University of Bologna (2007–2026), Marconi University (2021–2025), and Laboratori Guglielmo Marconi (Italy) (2021–2025). Their most-cited works include 'Active Electrode IC for EEG and Electrical Impedance Tomography With Continuous Monitoring…' (IEEE Transactions on Biomedical Circuits and Systems, 2014), 'A Driving Right Leg Circuit (DgRL) for Improved Common Mode Rejection in…' (IEEE Transactions on Biomedical Circuits and Systems, 2015), and 'A Long-Distance RF-Powered Sensor Node with Adaptive Power Management for IoT Applications' (2017). They have published 83 works since 1998.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5087194868",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_seemanta_saha": {
+  "gold": "Seemanta Saha is a researcher in Advanced Malware Detection Techniques. They have been affiliated with University of California, Santa Barbara (2018–2023), University of California System (2022), and Khulna University of Engineering and Technology (2012–2014). Their most-cited works include 'JVM fuzzing for JIT-induced side-channel detection' (2020), 'Symbolic path cost analysis for side-channel detection' (2018), and 'Rare Path Guided Fuzzing' (2023). Of these, 'Rare Path Guided Fuzzing' is first-authored, which they wrote with 6 coauthors. They have published 19 works since 2012.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5052862590",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zhouyang_jia": {
+  "gold": "Zhouyang Jia is a researcher in Software Engineering Research. They have been affiliated with National University of Defense Technology (2015–2025) and University of Kentucky (2019–2021). Their most-cited works include 'Bridging pre-trained models and downstream tasks for source code understanding' (Proceedings of the 44th International Conference on Software…, 2022), 'SMARTLOG: Place error log statement by deep understanding of log intention' (2018), and 'ConfVD: System Reactions Analysis and Evaluation Through Misconfiguration Injection' (2018). Of these, 'SMARTLOG: Place error log statement by…' is first-authored, which they wrote with 4 coauthors. They have published 49 works since 2015.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5075198725",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jaroslaw_cwiklik": {
+  "gold": "Jaroslaw Cwiklik is a researcher in Cloud Computing and Resource Management. Their most-cited work is 'Reliable Actors with Retry Orchestration' (Proceedings of the ACM on Programming Languages, 2023). Their research also covers Software System Performance and Reliability and Distributed systems and fault tolerance. They have published 2 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5057220255",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_laure_fournier": {
+  "gold": "Laure Fournier is a researcher in Radiomics and Machine Learning in Medical Imaging. They have been affiliated with Inserm (2004–2025), Université Paris Cité (2007–2025), and Santé Publique France (2025). Their most-cited works include 'Application of Artificial Intelligence to Gastroenterology and Hepatology' (Gastroenterology, 2019), 'Pulmonary embolism in patients with COVID-19 pneumonia' (European Respiratory Journal, 2020), and 'METhodological RadiomICs Score (METRICS): a quality scoring tool for radiomics research endorsed…' (2024). Other works include 'Ovarian-Adnexal Reporting Data System Magnetic Resonance Imaging (O-RADS MRI) Score for Risk…' (2020) and 'Bone mineral acquisition during adolescence and early adulthood: A study in 574…' (1996). They have published 289 works since 1870.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5085106833",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jihyuck_jo": {
+  "gold": "Jihyuck Jo is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Korea Advanced Institute of Science and Technology (2013–2021). Their most-cited works include 'DSIP: A Scalable Inference Accelerator for Convolutional Neural Networks' (IEEE Journal of Solid-State Circuits, 2017), 'Energy-Efficient Convolution Architecture Based on Rescheduled Dataflow' (IEEE Transactions on Circuits and Systems I Regular…, 2018), and 'Energy-Efficient Floating-Point MFCC Extraction Architecture for Speech Recognition Systems' (2015). Of these, 'DSIP: A Scalable Inference Accelerator for…' is first-authored, which they wrote with 3 coauthors. They have published 15 works since 2013.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5065349044",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zicang_xu": {
+  "gold": "Zicang Xu is a researcher in Network Security and Intrusion Detection. They have been affiliated with Peking University (2023–2025) and Huawei Technologies (United Kingdom) (2023). Their most-cited works include 'ChameleMon: Shifting Measurement Attention as Network State Changes' (2023), 'Fat-B+Tree: Fast B+tree Indexing with In-Network Memory' (2024), and 'BUG: Balanced DFS-Based Subgraph Matching with a ReUse Strategy on GPUs' (2025). Of these, 'BUG: Balanced DFS-Based Subgraph Matching with…' is first-authored, which they wrote with 1 coauthor. They have published 6 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101727495",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_gianluca_passaro": {
+  "gold": "Gianluca Passaro is a researcher in Astrophysics and Cosmic Phenomena. They have been affiliated with Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Sud (2021–2022). Their research also covers Neutrino Physics Research and Dark Matter and Cosmic Phenomena.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5046943630",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_christina_solomonidou": {
+  "gold": "Christina Solomonidou is a researcher in Science Education and Pedagogy. They have been affiliated with University of Thessaly (1998–2009), Telio (Norway) (2009), and Université Paris Cité (1989). Their most-cited works include 'Gender issues in Internet access and favourite Internet activities among Greek high…' (Computers & Education, 2004), 'Conceptual reorganization and the construction of the chemical reaction concept during secondary…' (International Journal of Science Education, 1998), and 'Physical phenomena‐‐chemical phenomena: do pupils make the distinction?' (1989). They are the first author of 'From inert object to chemical substance: Students' initial conceptions and conceptual development…' (2000), which they wrote with 1 coauthor. They have published 27 works since 1989.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5024081417",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_alexander_eulitz": {
+  "gold": "Alexander Eulitz is a researcher in Advanced Surface Polishing Techniques. They have been affiliated with University of Freiburg (2026), Technische Universität Berlin (2014–2018), and Fraunhofer Institute for Machine Tools and Forming Technology (2014). Their most-cited works include 'Yade Documentation 2Nd Ed' (Zenodo (CERN European Organization for Nuclear Research), 2015), 'Yade Documentation' (arXiv (Cornell University), 2021), and 'Investigation of Material Removal and Surface Topography Formation in Vibratory Finishing' (2014). Other works include 'Discrete Element Modelling of Drag Finishing' (2015) and 'Investigation into a geometry-based model for surface roughness prediction in vibratory finishing…' (2014). They have published 56 works since 2014.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5080630847",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_yeonghyeon_kim": {
+  "gold": "Yeonghyeon Kim is a researcher in Antibiotic Resistance in Bacteria. They have been affiliated with Gwangju Institute of Science and Technology (2021). Their most-cited work is 'Emergence of High Level Carbapenem and Extensively Drug Resistant Escherichia coli ST746…' (Frontiers in Microbiology, 2021). Their research also covers Pharmaceutical and Antibiotic Environmental Impacts and Mycobacterium research and diagnosis. They have published 1 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5036412394",
+  "confidence": "high",
+  "thin_gold": true
+ },
+ "ikp_t67_zheming_zhou": {
+  "gold": "Zheming Zhou is a researcher in Robotics and Sensor-Based Localization. They have been affiliated with Amazon (United States) (2023–2025), Bellevue Hospital Center (2024–2025), and Chinese Academy of Sciences (2023). Their most-cited works include 'Learning Behavior Trees From Demonstration' (2019), 'Semantic Robot Programming for Goal-Directed Manipulation in Cluttered Scenes' (2018), and 'SUM: Sequential scene understanding and manipulation' (2017). They are the first author of 'GlassLoc: Plenoptic Grasp Pose Detection in Transparent Clutter' (2019), which they wrote with 4 coauthors. They have published 28 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5112373330",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_sasi_kiran_suddarsi": {
+  "gold": "Sasi Kiran Suddarsi is a researcher in Advancements in Semiconductor Devices and Circuit Design. They have been affiliated with National Institute of Technology Calicut (2023–2026). Their most-cited works include 'Investigation of switching and inverter characteristics of Recessed-Source/Drain (Re–S/D) Silicon-on-Insulator (SOI) Feedback…' (Microelectronics Journal, 2023), 'Energy-Efficient Recessed-Source/Drain SOI Feedback FET-Based Oscillators and Coupled Networks for Neuromorphic Computing' (IEEE Access, 2024), and 'Implementation and analysis of axon hillock neuron circuits using 28 nm FD-SOI…' (2025). Of these, 'Investigation of switching and inverter characteristics…' is first-authored, which they wrote with 2 coauthors. They have published 6 works since 2023.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5092044536",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_shiyin_zhu": {
+  "gold": "Shiyin Zhu is a researcher in Retinal Diseases and Treatments. They have been affiliated with Chengdu University of Traditional Chinese Medicine (2023). Their most-cited works include 'Deep learning for detection of age-related macular degeneration: A systematic review and…' (PLoS ONE, 2023), 'Machine learning regression algorithms to predict short-term efficacy after anti-VEGF treatment in…' (Scientific Reports, 2023), and 'Community Acquired Severe Soft Tissue Infection Due to Serratia marcescens in an…' (2014). Of these, 'Community Acquired Severe Soft Tissue Infection…' is first-authored, which they wrote with 4 coauthors. They have published 5 works since 2014.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5085155303",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_andrea_galeazzi": {
+  "gold": "Andrea Galeazzi is a researcher in Process Optimization and Integration. They have been affiliated with Imperial College London (2025–2026), Politecnico di Milano (2020–2024), and University of Milan (2023). Their most-cited works include 'Impact of Kinetic Models on Methanol Synthesis Reactor Predictions: In Silico Assessment…' (Industrial & Engineering Chemistry Research, 2022), 'Century of Technology Trends in Methanol Synthesis: Any Need for Kinetics Refitting?' (Industrial & Engineering Chemistry Research, 2021), and 'Predicting the performance of an industrial furnace using Gaussian process and linear…' (2023). Of these, 'Predicting the performance of an industrial…' is first-authored, which they wrote with 5 coauthors. They have published 41 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5024022318",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_jinbin_wang": {
+  "gold": "Jinbin Wang is a researcher in Ferroelectric and Piezoelectric Materials. They have been affiliated with Xiangtan University (1998–2026), Tianjin University (2025), and Division of Materials Science and Engineering (2024–2025). Their most-cited works include 'Raman scattering and high temperature ferromagnetism of Mn-doped ZnO nanoparticles' (Applied Physics Letters, 2006), 'Preparation of nano-crystalline diamonds using pulsed laser induced reactive quenching' (Journal of Physics Condensed Matter, 1998), and 'Template-free solvothermal synthesis of yolk–shell V2O5 microspheres as cathode materials for Li-ion…' (2011). Of these, 'Raman scattering and high temperature ferromagnetism…' is first-authored, which they wrote with 5 coauthors. They have published 238 works since 1998.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5101622633",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_wenjia_cai": {
+  "gold": "Wenjia Cai is a researcher in Climate Change and Health Impacts. They have been affiliated with Tsinghua University (2006–2026), Ministry of Education (2015–2025), and National Institute of Clean and Low-Carbon Energy (2024). Their most-cited works include 'Health and climate change: policy responses to protect public health' (The Lancet, 2015), 'The 2020 report of The Lancet Countdown on health and climate change…' (The Lancet, 2020), and 'The 2022 report of the Lancet Countdown on health and climate change…' (2022). They have published 243 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016144119",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_chuanjun_zeng": {
+  "gold": "Chuanjun Zeng is a researcher in Innovative Energy Harvesting Technologies. They have been affiliated with China Jiliang University (2022–2024). Their most-cited works include 'A self-powered synchronous magnetic flux extraction interface for electromagnetic energy harvesting' (Microelectronics Journal, 2023), 'A hybrid wave vibration energy harvester with electromagnetic double-speed and piezoelectric up-frequency…' (Smart Materials and Structures, 2024), and 'A Self-Powered Interface Circuit for Simultaneous Piezoelectric and Electromagnetic Energy Extraction' (2023). Other works include 'A self-powered tunable unipolar synchronized electric charge extraction interface circuit for piezoelectric…' (2022). They have published 4 works since 2022.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5072787284",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_tarannum_khan": {
+  "gold": "Tarannum Khan is a researcher in Parkinson's Disease Mechanisms and Treatments. They have been affiliated with Cleveland Clinic Florida (1999–2026), Jawaharlal Nehru Technological University, Hyderabad (2024), and Marwadi University (2024). Their most-cited works include 'Smart health monitoring system' (2017 International Conference on Information, Communication, Instrumentation and…, 2017), 'Tardive Dyskinesia: Treatment Update' (Current Neurology and Neuroscience Reports, 2019), and 'Incipient Inter-turn Fault Diagnosis in Induction motors using CNN and LSTM based…' (2018). Of these, 'Smart health monitoring system' is first-authored, which they wrote with 1 coauthor. They have published 34 works since 1999.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5083662453",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_zaifeng_pan": {
+  "gold": "Zaifeng Pan is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with University of California San Diego (2025–2026), Renmin University of China (2021–2024), and Alibaba Group (China) (2023). Their most-cited works include 'Exploring Data Analytics Without Decompression on Embedded GPU Systems' (IEEE Transactions on Parallel and Distributed Systems, 2021), 'G-TADOC: Enabling Efficient GPU-Based Text Analytics without Decompression' (2021), and 'BladeDISC: Optimizing Dynamic Shape Machine Learning Workloads via Compiler Approach' (2023). Of these, 'Exploring Data Analytics Without Decompression on…' is first-authored, which they wrote with 6 coauthors. They have published 20 works since 2021.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5041947969",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "ikp_t67_mengqi_yang": {
+  "gold": "Mengqi Yang is a researcher in Catalytic Processes in Materials Science. They have been affiliated with Chongqing University (2022–2026), Wuhan University of Technology (2022–2026), and Peking University Shenzhen Hospital (2022–2026). Their most-cited works include 'Vitamin D receptor activation regulates microglia polarization and oxidative stress in spontaneously…' (Redox Biology, 2019), 'Salvianolic acid B protects against lipopolysaccharide-induced behavioral deficits and neuroinflammatory response: involvement…' (Journal of Neuroinflammation, 2017), and 'Curcumin relieves depressive-like behaviors via inhibition of the NLRP3 inflammasome and kynurenine…' (2018). They have published 165 works since 2011.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5031977575",
+  "confidence": "high",
+  "thin_gold": false
+ },
+ "csrankings_fraser_brown": {
+  "gold": "Fraser Brown is a researcher in Security and Verification in Computing. They have been affiliated with Carnegie Mellon University (2022–2026), Leeds Beckett University (2022), and Stanford University (2016–2022). Their most-cited works include 'FaCT: a DSL for timing-sensitive computation' (2019), 'FaCT: A Flexible, Constant-Time Programming Language' (2017), and 'Finding and Preventing Bugs in JavaScript Bindings' (2017). Of these, 'Finding and Preventing Bugs in JavaScript…' is first-authored, which they wrote with 5 coauthors. Other works include 'CirC: Compiler infrastructure for proof systems, software verification, and more' (2022) and 'Towards Verified, Constant-time Floating Point Operations' (2018). They have published 44 works since 1962.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5003256269",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_oluwasanmi_koyejo": {
+  "gold": "Oluwasanmi Koyejo is a researcher in Functional Brain Connectivity Studies. They have been affiliated with Stanford University (2014–2026), Google (United States) (2021–2024), and Duke University (2024). Their most-cited works include 'MRIQC: Advancing the automatic prediction of image quality in MRI from unseen…' (PLoS ONE, 2017), 'The Dynamics of Functional Brain Networks: Integrated Network States during Cognitive Task…' (Neuron, 2016), and 'Human cognition involves the dynamic integration of neural activity and neuromodulatory systems' (2019). They have published 208 works since 2009.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5076316802",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_jon_froehlich": {
+  "gold": "Jon Froehlich is a researcher in Tactile and Sensory Interactions. They have been affiliated with University of Washington (2005–2026), Google (United States) (2025), and Washington School of Psychiatry (2025). Their most-cited works include 'Activity sensing in the wild' (2008), 'The design of eco-feedback technology' (2010), and 'UbiGreen' (2009). Of these, 'The design of eco-feedback technology' is first-authored, which they wrote with 2 coauthors. Other works include 'Ability-Based Design' (2011) and 'MyExperience' (2007). They have published 215 works since 1967.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5016828530",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "csrankings_emily_mower_provost": {
+  "gold": "Emily Mower Provost is a researcher in Emotion and Mood Recognition. They have been affiliated with University of Michigan (2012–2026), Michigan United (2025), and Google (United States) (2024). Their most-cited works include 'Deep learning for robust feature generation in audiovisual emotion recognition' (2013), 'MSP-IMPROV: An Acted Corpus of Dyadic Interactions to Study Emotion Perception' (IEEE Transactions on Affective Computing, 2016), and 'Ecologically valid long-term mood monitoring of individuals with bipolar disorder using speech' (2014). They have published 135 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5003136334",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_jeff_a__bilmes": {
+  "gold": "Jeff A. Bilmes is a researcher in Speech Recognition and Synthesis. They have been affiliated with University of Washington (2000–2025), Seattle University (2002–2025), and Seattle Colleges (2018). Their most-cited works include 'Deep Canonical Correlation Analysis' (2013), 'Unsupervised pattern discovery in human chromatin structure through genomic segmentation' (Nature Methods, 2012), and 'A Class of Submodular Functions for Document Summarization' (2011). Other works include 'On Deep Multi-View Representation Learning' (2015). They have published 303 works since 1989.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5113478221",
+  "confidence": "medium",
+  "thin_gold": true
+ },
+ "csrankings_christopher_peikert": {
+  "gold": "Christopher Peikert is a researcher in Cryptography and Data Security. They have been affiliated with University of Michigan (2021). Their most-cited works include 'F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption' (2021), 'Identifying Research Challenges in Post Quantum Cryptography Migration\\n and Cryptographic Agility' (arXiv (Cornell University), 2019), and 'Identifying Research Challenges in Post Quantum Cryptography Migration and Cryptographic Agility' (2019). They are the first author of 'Cryptographic error correction' (2006), which they wrote alone. They have published 5 works since 2006.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5054118716",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_brian_w__kernighan": {
+  "gold": "Brian W. Kernighan is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Princeton University (2004–2022), Center for Information Technology (1973–1999), and Alcatel Lucent (Germany) (1972–1998). Their most-cited works include 'An Efficient Heuristic Procedure for Partitioning Graphs' (Bell System Technical Journal, 1970), 'An Effective Heuristic Algorithm for the Traveling-Salesman Problem' (Operations Research, 1973), and 'AMPL : a modeling language for mathematical programming' (1993). Of these, 'An Efficient Heuristic Procedure for Partitioning…' is first-authored, which they wrote with 1 coauthor. They have published 144 works since 1899.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5034540227",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_steve_marschner": {
+  "gold": "Steve Marschner is a researcher in Computer Graphics and Visualization Techniques. They have been affiliated with Cornell University (2002–2026), Nvidia (United Kingdom) (2025), and Nvidia (United States) (2024–2025). Their most-cited works include 'Matching Real Fabrics with Micro-Appearance Models' (ACM Transactions on Graphics, 2015), 'Filling holes in complex surfaces using volumetric diffusion' (2003), and 'Microstructures to control elasticity in 3D printing' (2015). Other works include 'Fundamentals of Computer Graphics' (2009) and 'Simulating knitted cloth at the yarn level' (2008). They have published 170 works since 2000.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5031672248",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_christoforos_e__kozyrakis": {
+  "gold": "Christoforos E. Kozyrakis is a researcher in Parallel Computing and Optimization Techniques. They have been affiliated with Stanford University (2002–2007), Foundation for Research and Technology Hellas (1998–2002), and University of California, Berkeley (1997–2002). Their most-cited works include 'A case for intelligent RAM' (IEEE Micro, 1997), 'Scalable processors in the billion-transistor era: IRAM' (Computer, 1997), and 'RAMP: Research Accelerator for Multiple Processors' (2007). Of these, 'Scalable processors in the billion-transistor era…' is first-authored, which they wrote with 12 coauthors. They have published 29 works since 1997.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5072960733",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_anupam_datta": {
+  "gold": "Anupam Datta is a researcher in Security and Verification in Computing. They have been affiliated with John Brown University (2026), Snow College (2026), and Netaji Subhas Chandra Bose Cancer Research Institute (2020–2026). Their most-cited works include 'Algorithmic Transparency via Quantitative Input Influence: Theory and Experiments with Learning Systems' (2016), 'Automated Experiments on Ad Privacy Settings' (Proceedings on Privacy Enhancing Technologies, 2015), and 'TrustVisor: Efficient TCB Reduction and Attestation' (2010). Of these, 'Algorithmic Transparency via Quantitative Input Influence…' is first-authored, which they wrote with 2 coauthors. They have published 322 works since 1976.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5111177928",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_jenna_wiens": {
+  "gold": "Jenna Wiens is a researcher in Machine Learning in Healthcare. They have been affiliated with University of Michigan (2015–2026), Michigan Medicine (2018–2026), and University of California, Los Angeles (2025). Their most-cited works include 'Do no harm: a roadmap for responsible machine learning for health care' (Nature Medicine, 2019), 'Machine Learning for Healthcare: On the Verge of a Major Shift in…' (Clinical Infectious Diseases, 2017), and 'A Framework for Effective Application of Machine Learning to Microbiome-Based Classification Problems' (2020). Of these, 'Do no harm: a roadmap for…' is first-authored, which they wrote with 12 coauthors. They have published 182 works since 1996.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5055037967",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_immanuel_trummer": {
+  "gold": "Immanuel Trummer is a researcher in Advanced Database Systems and Queries. They have been affiliated with Cornell University (2016–2026), Ithaca College (2023), and École Polytechnique Fédérale de Lausanne (2010–2016). Their most-cited works include 'Multiple query optimization on the D-Wave 2X adiabatic quantum computer' (Proceedings of the VLDB Endowment, 2016), 'SkinnerDB' (2019), and 'DB-BERT: A Database Tuning Tool that \"Reads the Manual\"' (2022). Of these, 'Multiple query optimization on the D-Wave…' is first-authored, which they wrote with 1 coauthor. They have published 114 works since 2010.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5087259526",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_roy_maxion": {
+  "gold": "Roy Maxion is a researcher in Advanced Malware Detection Techniques. They have been affiliated with Carnegie Mellon University (1986–2024), Dependable Computing (United States) (2003–2012), and Xerox (France) (1981). Their most-cited works include 'Comparing anomaly-detection algorithms for keystroke dynamics' (2009), 'Generalized feature extraction for structural pattern recognition in time-series data' (Defense Technical Information Center (DTIC), 2001), and 'Masquerade detection using truncated command lines' (2003). Of these, 'Masquerade detection using truncated command lines' is first-authored, which they wrote with 1 coauthor. They have published 93 works since 1981.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5068712049",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_maneesh_agrawala": {
+  "gold": "Maneesh Agrawala is a researcher in Computer Graphics and Visualization Techniques. They have been affiliated with Palo Alto University (2015–2026), Stanford University (1995–2026), and Stanford Medicine (2025). Their most-cited works include 'Adding Conditional Control to Text-to-Image Diffusion Models' (2023), 'Digital photography with flash and no-flash image pairs' (ACM Transactions on Graphics, 2004), and 'Interactive digital photomontage' (2004). Other works include 'Saliency in VR: How Do People Explore Virtual Environments?' (2018) and 'Gaze-based interaction for semi-automatic photo cropping' (2006). They have published 331 works since 1985.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5045835385",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_li_yang_tan": {
+  "gold": "Li-Yang Tan is a researcher in Complexity and Algorithms in Graphs. They have been affiliated with Stanford University (2018–2026), Stratford University (2023), and Stanford Medicine (2021–2022). Their most-cited works include 'Bounding the average sensitivity and noise sensitivity of polynomial threshold functions' (2010), 'Boolean Function Monotonicity Testing Requires (Almost) n 1/2 Non-adaptive Queries' (2015), and 'New Algorithms and Lower Bounds for Monotonicity Testing' (2014). Other works include 'Average Sensitivity and Noise Sensitivity of Polynomial Threshold Functions' (2014) and 'Learning Sums of Independent Integer Random Variables' (2013). They have published 150 works since 1985.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5029451171",
+  "confidence": "medium",
+  "thin_gold": false
+ },
+ "csrankings_david_s__bindel": {
+  "gold": "David S. Bindel is a researcher in Complex Network Analysis Techniques. They have been affiliated with Cornell University (2009–2026), Government of the United States of America (2022), and Laboratoire d'Informatique de Paris-Nord (2015). Their most-cited works include 'OceanStore' (ACM SIGPLAN Notices, 2000), 'GPyTorch: Blackbox Matrix-Matrix Gaussian Process Inference with GPU Acceleration' (arXiv (Cornell University), 2018), and 'An algebraic approach to practical and scalable overlay network monitoring' (2004). Their research also covers Matrix Theory and Algorithms and Gaussian Processes and Bayesian Inference. They have published 129 works since 2000.",
+  "source": "openalex",
+  "source_ref": "https://openalex.org/A5073697071",
+  "confidence": "medium",
+  "thin_gold": false
+ }
+}

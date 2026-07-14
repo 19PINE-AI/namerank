@@ -1,0 +1,32 @@
+ENTITY: {name}
+
+PROBE CONTEXT (already given to the model in the question; repeating it earns nothing):
+{context}
+
+GOLD ANSWER (reference facts that IDENTIFY which specific entity this is — use it to disambiguate the person/thing and as a correctness anchor):
+{gold_answer}
+
+MODEL RESPONSE (to be graded):
+{response}
+
+Judge whether the model genuinely RECOGNIZES this specific entity.
+
+RECOGNIZED = true only if the response states at least one SPECIFIC, NON-GUESSABLE fact that is:
+  (a) TRUE of THIS entity, established by EITHER (i) the gold answer, OR (ii) your own independent knowledge — meaning you actually recognize this fact as true of this specific entity, not merely that it sounds plausible; and
+  (b) not derivable from the probe context; and
+  (c) about the SAME entity the gold identifies (same person/thing), not a different entity that shares the name.
+
+CRITICAL ASYMMETRY between crediting and refuting:
+  - To CREDIT a fact not in the gold, you must POSITIVELY know it is true of this entity. If you do not already know this entity, you CANNOT verify novel claims about it — a plausible-sounding but unverified specific is exactly what a model hallucinates about obscure or non-existent people, and it scores FALSE. When you do not know the entity, ignore your own knowledge and grade STRICTLY against the gold answer only.
+  - To REFUTE, use all of your knowledge freely: if you know the response describes a same-name DIFFERENT entity, or states something false about this entity, do not credit it.
+
+Further guards (RECOGNIZED = false):
+  - Wrong entity: specifics consistent with a different same-name person/thing, not the one the gold identifies.
+  - Hallucination / fabrication-dominated response. (One genuinely-verified correct specific still counts even if a minor detail is off; a response that is mostly wrong does not.)
+  - Guessable/generic: broad field, nationality, an employer/school implied by the context or inferable from the name, generic praise, restating the context. For a PAPER, naming its journal/venue alone does NOT count (it is inferable from the topic); a real author, specific result, or exact contribution does.
+  - Refusal / "I don't have information" / hedged non-answer.
+  - When genuinely unsure whether a fact is specific-and-verified-true, default to false. One solid non-guessable verified fact is enough; zero is false.
+
+Also output coverage and accuracy in [0,1] for diagnostics.
+
+Output ONLY JSON: {{"recognized": <true|false>, "coverage": <0.0-1.0>, "accuracy": <0.0-1.0>, "rationale": "<one sentence: name the qualifying fact and how it was verified (gold or your knowledge), or why none qualifies>"}}

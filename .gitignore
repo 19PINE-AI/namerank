@@ -60,3 +60,9 @@ site/dist/
 # consumes — 2.5MB of verdicts, not a raw probe dump). Logs stay out.
 !experiments/t5_4_self_report/outputs/
 experiments/t5_4_self_report/outputs/*.log
+
+# Regenerable figure preview rasters (the paper embeds the .pdf, not the .png)
+paper/figures/*.png
+# Scratch/backup input artifacts
+experiments/**/*.bak.json
+experiments/**/*.PREFIX.*
