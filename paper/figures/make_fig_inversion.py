@@ -82,15 +82,24 @@ for a in art:
     cv = llm_name.get(a["person"].lower())
     av = rec_of(a["artifact"])
     if cv is not None and av is not None:
-        sc.append((cv, av))
+        sc.append((cv, av, a["artifact"]))
 if sc:
-    cvs, avs = zip(*sc)
+    cvs, avs = [x[0] for x in sc], [x[1] for x in sc]
     axb.scatter(cvs, avs, s=18, alpha=0.5, color=RECOG["artifact"],
                 edgecolor="none")
     axb.plot([0, 1], [0, 1], color="#999999", linewidth=1.0, linestyle=(0, (4, 3)))
-    above = sum(a > c for c, a in sc)
+    above = sum(a > c for c, a, _ in sc)
     axb.annotate(f"method $>$ originator\nin {above} of {len(sc)}\nprominent methods",
                  xy=(0.50, 0.09), fontsize=7.8, color="#555555")
+    # highlight and label the headline named example (ReAct / Shunyu Yao)
+    for cv, av, name in sc:
+        if name.lower() == "react":
+            axb.scatter([cv], [av], s=30, facecolor="none",
+                        edgecolor=RECOG["accent"], linewidth=1.3, zorder=5)
+            axb.annotate("ReAct", xy=(cv, av), xytext=(cv - 0.03, av + 0.11),
+                         fontsize=7.6, color=RECOG["accent"], ha="right",
+                         arrowprops=dict(arrowstyle="->", color=RECOG["accent"],
+                                         lw=0.7))
 axb.set_xlim(0, 1); axb.set_ylim(0, 1)
 axb.set_xlabel("originator recognition")
 axb.set_ylabel("method recognition")
