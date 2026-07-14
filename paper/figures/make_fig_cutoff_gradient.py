@@ -133,9 +133,9 @@ def main() -> None:
                  color=PALETTE["silent"], fontweight="bold")
     axb.set_xticks(list(x))
     axb.set_xticklabels([disp[c] for c in cohorts_b], fontsize=8.5)
-    axb.set_ylim(0, 0.34)
+    axb.set_ylim(0, max(0.42, max(exp_vals) + 0.06))
     axb.set_ylabel("Mean NameRank")
-    axb.set_title("(b) The cutoff jump = capability drift:\nmatched DiD $\\approx$ 0",
+    axb.set_title("(b) Crossing the cutoff $\\neq$ recognition:\nrecency cohorts fall short of capability drift (DiD $<0$)",
                   fontsize=10.0)
     axb.legend(loc="upper right", fontsize=7.4, framealpha=0.95)
     grid_y(axb, alpha=0.25)

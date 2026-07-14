@@ -189,6 +189,17 @@ def annotate_value(ax, x, y, text, *, dx=0.008, fontsize=9, color="#222") -> Non
 # ── Readable cohort names ──────────────────────────────────────
 # Dataset cohort identifiers -> reader-facing names (matches paper prose).
 COHORT_NAMES = {
+    "nobel_physics": "Nobel Prize (Physics)",
+    "turing_award": "Turing Award",
+    "fields_medal": "Fields Medal",
+    "acm_prize_computing": "ACM Prize in Computing",
+    "macarthur_fellow": "MacArthur Fellow$^\\dagger$",
+    "godel_prize": "G\u00f6del Prize",
+    "acm_fellow": "ACM Fellow$^\\dagger$",
+    "sloan_fellow": "Sloan Fellow$^\\dagger$",
+    "llm_method_originator": "Named-method originators",
+    "llm_best_paper_author": "Best-paper award authors",
+    "llm_foundational_author": "Foundational-LLM-paper authors",
     "mid_tier_gov_ai_policy": "AI-policy officials",
     "mid_tier_filmmaker": "Filmmakers",
     "programming_language": "Programming languages",
@@ -256,3 +267,58 @@ CREDENTIAL_COHORTS = {
 def pretty_cohort(slug: str) -> str:
     """Reader-facing cohort name for a dataset identifier."""
     return COHORT_NAMES.get(slug, slug.replace("_", " "))
+
+
+# ═══════════════════════════════════════════════════════════════
+# Recognition-metric additions (final paper figure system).
+# Palette validated with the dataviz six-checks validator on white:
+# categorical set PASS (worst CVD ΔE 17.2); person/artifact pair PASS
+# (CVD ΔE 111, contrast ≥3:1 after snapping amber #eda100 → #c07d00).
+# ═══════════════════════════════════════════════════════════════
+
+RECOG = {
+    "person":   "#2a78d6",   # people series
+    "artifact": "#c07d00",   # artifacts/methods series (contrast-snapped amber)
+    "baseline": "#6e6e6e",   # working-researcher baseline line
+    "floor":    "#9a9a9a",   # synthetic-null floor band
+    "accent":   "#b3322c",   # exceptions / negative callouts
+    "muted":    "#c9c9c9",
+}
+
+AXIS_LABEL = "NameRank (panel recognition rate)"
+
+
+def floor_band(ax, floor: float, axis: str = "x", label: str | None = "synthetic-null floor"):
+    """Shade 0..floor as the guessing floor with a hatched band."""
+    kw = dict(color=RECOG["floor"], alpha=0.18, hatch="///",
+              edgecolor=RECOG["floor"], linewidth=0, zorder=0)
+    if axis == "x":
+        ax.axvspan(0, floor, **kw)
+    else:
+        ax.axhspan(0, floor, **kw)
+    if label:
+        ax._floor_label = (floor, label)  # caption text usually carries it
+
+
+def baseline_line(ax, value: float, label: str, axis: str = "x"):
+    kw = dict(color=RECOG["baseline"], linestyle=(0, (4, 3)), linewidth=1.2,
+              zorder=2)
+    if axis == "x":
+        ax.axvline(value, **kw)
+    else:
+        ax.axhline(value, **kw)
+    return value
+
+
+def recog_xaxis(ax, lo=0.0, hi=1.0):
+    ax.set_xlim(lo, hi)
+    ax.set_xlabel(AXIS_LABEL)
+    ax.set_xticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
+
+
+def ci_dot(ax, y, x, ci, color, size=26, lw=1.4):
+    """One dot + 95% CI whisker, the atlas/ladder mark."""
+    ax.errorbar(x, y, xerr=ci, fmt="none", ecolor=color, elinewidth=lw,
+                capsize=2.2, capthick=lw, zorder=3, alpha=0.85)
+    ax.scatter([x], [y], s=size, color=color, zorder=4,
+               edgecolor="white", linewidth=0.6)

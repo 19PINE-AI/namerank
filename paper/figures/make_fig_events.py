@@ -1,126 +1,83 @@
-"""Figure: news-event calibration — recognition tracks recorded attention
-through its peak, not its persistence.
-
-Two-panel chart on the 2021-2023 news-event cohort:
-(a) Scatter of NameRank vs log10(total first-year pageviews) with decile means.
-(b) Decile ladders for peak attention vs effective duration (the two log
-    components of total attention): peak is steep, duration is flat — the
-    inverse of the citations-vs-h-index panel.
+"""F22 — News events: the attention ledger (recognition metric).
+(a) recognition vs log10 total first-year pageviews, with decile means.
+(b) quintile ladders for the two components of total attention: peak salience
+    (rises) vs effective duration (flat) — recognition follows how loudly a
+    story peaked, not how long it lasted.
+Data: t4_1 event metadata (pageviews) + recognition verdicts via _data('events').
+Output: fig_events.pdf
 """
+from __future__ import annotations
+
 import csv
-import math
-import statistics
+import sys
 from pathlib import Path
-
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import numpy as np
-
-from _style import PALETTE, apply_style, grid_y, thin_spines
-
-apply_style()
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
-EXP = REPO / "experiments/t4_1_news_events"
+sys.path.insert(0, str(HERE))
 
-rows = list(csv.DictReader(open(EXP / "outputs/event_namerank.csv",
-                                encoding="utf-8")))
-y = np.array([float(r["namerank"]) for r in rows])
-lt = np.array([math.log10(float(r["total_views"])) for r in rows])
-lp = np.array([math.log10(max(float(r["peak_views"]), 1)) for r in rows])
-ld = np.array([math.log10(max(float(r["eff_duration"]), 1.0)) for r in rows])
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import _data
+import _style
+from _style import RECOG
 
+_style.apply_style()
 
-def fit(x, yy):
-    mx, my = np.mean(x), np.mean(yy)
-    num = np.sum((x - mx) * (yy - my))
-    den = np.sum((x - mx) ** 2)
-    slope = num / den if den else 0.0
-    return slope, my - slope * mx
+meta = {r["id"]: r for r in csv.DictReader(
+    open(REPO / "experiments/t4_1_news_events/inputs/event_metadata.csv"))}
+rec = _data.per_entity("events")
+print("data sources:", _data.source_report())
+rec = rec[~rec.synthetic].set_index("entity_id")
 
+rows = []
+for eid, r in rec.iterrows():
+    m = meta.get(eid)
+    if not m:
+        continue
+    try:
+        tv, pk, dur = float(m["total_views"]), float(m["peak_views"]), float(m["eff_duration"])
+    except (ValueError, KeyError):
+        continue
+    if tv > 0:
+        rows.append((r.recognition, tv, pk, dur))
+df = pd.DataFrame(rows, columns=["rec", "total", "peak", "dur"])
+df["ltot"] = np.log10(df.total)
 
-def r2(x, yy):
-    s, i = fit(x, yy)
-    resid = yy - (s * x + i)
-    return 1 - float((resid ** 2).sum()) / float(((yy - yy.mean()) ** 2).sum())
+fig, (axa, axb) = plt.subplots(1, 2, figsize=(6.9, 3.0))
 
+# (a) dose-response
+axa.scatter(df.ltot, df.rec, s=8, alpha=0.25, color=RECOG["person"],
+            edgecolor="none", zorder=2)
+dec = pd.qcut(df.ltot.rank(method="first"), 8, labels=False)
+dm = df.groupby(dec).agg(x=("ltot", "mean"), y=("rec", "mean"))
+axa.plot(dm.x, dm.y, "-o", color="#12457f", markersize=5, linewidth=1.6, zorder=4)
+r2 = np.corrcoef(df.ltot, df.rec)[0, 1] ** 2
+axa.set_xlabel(r"$\log_{10}$ first-year pageviews")
+axa.set_ylabel("recognition rate")
+axa.set_ylim(0, 1)
+axa.set_title(f"(a) Dose–response ($R^2={r2:.2f}$)", fontsize=9, loc="left")
+axa.grid(color="#ececec", linewidth=0.6, zorder=0)
+axa.set_axisbelow(True)
 
-C_T = PALETTE["cat0"]        # blue: total (a) / peak (b) — the carrying signal
-C_P = PALETTE["highlight"]   # orange: duration — the null channel
+# (b) peak vs duration quintile ladders
+for col, name, color, marker in [("peak", "peak salience", RECOG["person"], "o"),
+                                 ("dur", "effective duration", RECOG["accent"], "s")]:
+    q = pd.qcut(df[col].rank(method="first"), 5, labels=False)
+    ladder = df.groupby(q).rec.mean()
+    axb.plot(range(5), ladder.values, "-", marker=marker, color=color,
+             markersize=5, linewidth=1.6, label=name)
+axb.set_xlabel("quintile of component")
+axb.set_ylabel("mean recognition rate")
+axb.set_xticks([0, 2, 4], ["Q1", "Q3", "Q5"])
+axb.set_ylim(0, max(0.6, df.rec.max() * 1.1))
+axb.legend(loc="upper left", frameon=False, fontsize=7.6)
+axb.set_title("(b) How loud, not how long", fontsize=9, loc="left")
+axb.grid(color="#ececec", linewidth=0.6, zorder=0)
+axb.set_axisbelow(True)
 
-fig, axes = plt.subplots(1, 2, figsize=(12.4, 5.0))
-
-# ── Panel (a): dose-response scatter ──────────────────────────
-ax = axes[0]
-r2_t = r2(lt, y)
-ax.scatter(lt, y, s=13, color=C_T, alpha=0.35, edgecolors="none")
-s, i = fit(lt, y)
-xs_line = np.linspace(lt.min(), lt.max(), 50)
-ax.plot(xs_line, s * xs_line + i, "-", color=C_T, linewidth=2.6, zorder=5,
-        label=f"linear fit,  $R^2 = {r2_t:.2f}$")
-
-# decile means overlay
-order = np.argsort(lt)
-dx, dy = [], []
-for d in range(10):
-    chunk = order[d * len(rows) // 10:(d + 1) * len(rows) // 10]
-    dx.append(float(np.mean(lt[chunk])))
-    dy.append(float(np.mean(y[chunk])))
-ax.plot(dx, dy, "o", color="#1d4e80", markersize=8.5,
-        markeredgecolor="white", markeredgewidth=1.0, zorder=6,
-        label="decile means")
-
-ax.set_xlabel("Total en-Wikipedia pageviews, first year  ($\\log_{10}$)",
-              fontsize=10.5)
-ax.set_ylabel("NameRank", fontsize=10.5)
-ax.set_ylim(-0.02, 1.02)
-ax.legend(loc="upper left", fontsize=9.5, framealpha=0.95)
-grid_y(ax, alpha=0.30)
-thin_spines(ax)
-ax.set_title(f"(a)  Recognition tracks recorded attention ($n = {len(rows)}$ events)",
-             fontsize=10.5, loc="left")
-
-# ── Panel (b): peak vs duration quintile ladders ──────────────
-ax = axes[1]
-pairs_p = sorted(zip(lp.tolist(), y.tolist()))
-pairs_d = sorted(zip(ld.tolist(), y.tolist()))
-n = len(pairs_p)
-NQ = 5
-qsz = n // NQ
-dec_p, dec_d = [], []
-for d in range(NQ):
-    dec_p.append(statistics.mean([p[1] for p in pairs_p[d * qsz:(d + 1) * qsz]]))
-    dec_d.append(statistics.mean([p[1] for p in pairs_d[d * qsz:(d + 1) * qsz]]))
-
-xs_d = list(range(1, NQ + 1))
-ax.plot(xs_d, dec_p, "o-", color=C_T, markersize=9, linewidth=2.4,
-        markeredgecolor="white", markeredgewidth=1.0,
-        label="by peak-attention quintile")
-ax.plot(xs_d, dec_d, "s-", color=C_P, markersize=8.5, linewidth=2.4,
-        markeredgecolor="white", markeredgewidth=1.0,
-        label="by effective-duration quintile")
-
-ax.text(NQ + 0.18, dec_p[-1],
-        f"peak: {dec_p[0]:.2f} $\\rightarrow$ {dec_p[-1]:.2f}",
-        fontsize=8.8, color=C_T, va="center", ha="left")
-ax.text(NQ + 0.18, dec_d[-1] - 0.012,
-        f"duration: {dec_d[0]:.2f} $\\rightarrow$ {dec_d[-1]:.2f}",
-        fontsize=8.8, color=C_P, va="center", ha="left")
-
-ax.set_xticks(xs_d)
-ax.set_xticklabels([f"Q{i}" for i in xs_d])
-ax.set_xlim(0.6, NQ + 1.6)
-ax.set_xlabel("Attention-component quintile", fontsize=10.5)
-ax.set_ylabel("Mean NameRank in quintile", fontsize=10.5)
-ax.legend(loc="lower right", fontsize=9.5, framealpha=0.95)
-grid_y(ax, alpha=0.30)
-thin_spines(ax)
-ax.set_title("(b)  How loud, not how long:  peak carries the signal",
-             fontsize=10.5, loc="left")
-
-plt.tight_layout()
-out = HERE / "fig_events.pdf"
-plt.savefig(out)
-print(f"Wrote {out}")
+fig.tight_layout()
+fig.savefig(HERE / "fig_events.pdf")
+fig.savefig(HERE / "fig_events.png", dpi=150)
+print(f"wrote fig_events.pdf ({len(df)} events, R2={r2:.3f})")

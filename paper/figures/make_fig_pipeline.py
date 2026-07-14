@@ -95,8 +95,8 @@ def main() -> None:
 
     # ── Column 2: probe execution against the panel ───────────
     box(ax, 3.4, 2.5, 2.5, 2.0,
-        text=r"$M = 37$ frontier models",
-        subtitle="Western (23) + Chinese (14)\nthinking-mode where available\nopen-ended response per entity",
+        text=r"$M = 36$ frontier models",
+        subtitle="Western (20) + Chinese (16)\nthinking-mode where available\nopen-ended response per entity",
         facecolor=C_PROBE, edgecolor="#d9b07b")
 
     # arrows: entity + probe -> panel
@@ -106,12 +106,12 @@ def main() -> None:
 
     # ── Column 3: per-record scoring ──────────────────────────
     box(ax, 6.65, 3.4, 2.55, 1.0,
-        text="LLM judge",
-        subtitle="Gemini 3 Flash Preview\ncoverage  $\\times$  accuracy",
+        text="Recognition judge",
+        subtitle="binary verdict: $\\geq 1$ specific,\nnon-guessable, verified fact\nbeyond the context?",
         facecolor=C_JUDGE, edgecolor="#7fae90")
     box(ax, 6.65, 2.0, 2.55, 1.0,
-        text="Embedding cross-check",
-        subtitle="BGE-large cosine sim.\nsanity check, not in NR",
+        text="Diagnostics",
+        subtitle="graded cov$\\times$acc + embedding\nretained, not in NameRank",
         facecolor=C_EMB, edgecolor="#cba3b7")
 
     # arrows: panel -> judge & embedding
@@ -123,19 +123,18 @@ def main() -> None:
     ax.plot([2.65, GAP2], [1.50, 1.50], color="#444", lw=1.4, zorder=1)
     arrow(ax, GAP2, 1.50, 6.65, 3.45)   # to judge
     arrow(ax, GAP2, 1.50, 6.65, 2.05)   # to embedding
-    flow_label(ax, 4.45, 1.30, "gold (reference)")
+    flow_label(ax, 4.45, 1.30, "gold (identity anchor)")
 
     # ── Column 4: aggregation ─────────────────────────────────
     box(ax, 9.95, 2.5, 2.45, 2.0,
         text="NameRank (entity)",
-        subtitle=r"$\frac{1}{M}\sum_m \mathrm{cov}_{e,m}\cdot \mathrm{acc}_{e,m}$"
-                 + "\nplus $\\sigma_e$, refusal rate,\nW / C sub-means",
+        subtitle=r"$\frac{1}{M}\sum_m \mathrm{rec}_{e,m}$"
+                 + "\npanel recognition rate,\nread against the\nsynthetic-null floor",
         facecolor=C_AGG, edgecolor="#c98a83",
         fontsize=10.5, subtitle_fontsize=8.5)
     arrow(ax, 9.2, 3.55, 9.95, 3.55)            # judge -> NameRank (solid)
-    flow_label(ax, GAP3, LABEL_Y, "cov $\\times$ acc")
-    # Embedding is a terminal diagnostic (not part of NameRank); label it
-    # just below its box, clear of the gap and the NameRank box.
+    flow_label(ax, GAP3, LABEL_Y, "recognized?")
+    # Diagnostics are terminal (not part of NameRank); label it below its box.
     ax.text(7.925, 1.78, "diagnostic only", ha="center", va="center",
             fontsize=8.0, color="#9a7a8a", style="italic")
 
@@ -145,14 +144,14 @@ def main() -> None:
                                 linewidth=0.8, facecolor="#fbfbfb",
                                 edgecolor="#d4d4d4", zorder=0))
     ax.text(6.3, 0.54,
-            r"$N = 5{,}719$ entities  $\times$  $M = 37$ models  "
-            r"$=\;211{,}603$ probe records (English run)  $+$  $8{,}880$ records (Chinese sub-run, $n = 240$ entities)",
+            r"NameRank is the fraction of the panel that recognizes the entity; "
+            r"a fluent hallucination, a context echo, or a lucky guess all score $0$.",
             ha="center", va="center", fontsize=9.8, color="#222", zorder=1)
 
     # Title
     ax.set_title(
-        "NameRank pipeline.  Open-ended probe $\\to$ 37-model panel $\\to$ "
-        "multiplicative coverage $\\times$ accuracy per record $\\to$ entity-level mean.",
+        "NameRank pipeline.  Open-ended probe $\\to$ 36-model panel $\\to$ "
+        "binary recognition verdict per record $\\to$ panel recognition rate.",
         fontsize=10.5, pad=8, loc="center",
     )
 
