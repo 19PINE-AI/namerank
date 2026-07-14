@@ -2,7 +2,7 @@
 % Appendix roadmap
 % ══════════════════════════════════════════════════════════════
 \begin{center}
-\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:awards}--\ref{app:selfreport} give the full tables and case detail behind the findings of Sections~\ref{sec:results-headline}--\ref{sec:results-validation}, roughly in the order they appear. Appendices~\ref{app:scoring}--\ref{app:confounds} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat; Appendices~\ref{app:gender} and~\ref{app:limitations} cover the inherited-bias discussion and the limitations summary.}
+\small\emph{The appendices are organized in three blocks. Appendix~\ref{app:spec} completes the instrument specification of Section~\ref{sec:method}. Appendices~\ref{app:awards}--\ref{app:selfreport} give the full tables and case detail behind the findings of Sections~\ref{sec:results-headline}--\ref{sec:results-validation}, roughly in the order they appear. Appendices~\ref{app:scoring}--\ref{app:confounds} give the evidence behind the validation battery of Section~\ref{sec:results-validation}, one appendix per threat; Appendix~\ref{app:gender} covers the inherited-bias discussion.}
 \end{center}
 
 % ══════════════════════════════════════════════════════════════
@@ -804,38 +804,4 @@ The research-cohort gap is significant for CS faculty ($+0.085$, $p=0.004$) and 
 
 \textbf{Name-coding caveat.} \texttt{gender-guesser} infers gender from first names against a predominantly Western-name dictionary; it returns ``unknown'' or ``andy'' (androgynous) for most Chinese, Korean, and other romanized East-Asian given names, which are then dropped. The gendered sub-sample is therefore enriched for Western names, and the residual gender gap is partly entangled with the East-Asian-surname attenuation it sits beside---a name that codes as gender-unknown also tends to be one of the low-recognition non-Anglophone names. The $n_\text{woman}$ counts (e.g.\ $22$--$77$ across the researcher cohorts) reflect this attrition. We report the gap as an inherited corpus-and-judge property restricted to the controlled within-cohort comparison, not as a clean estimate of a pure gender effect net of name origin; disentangling the two would require a gender labeling that is accurate on CJK names (e.g.\ manual coding or a name-origin-aware classifier).
 
-\section{Limitations Summary Table}
-\label{app:limitations}
-
-\begin{table}[!htbp]
-\centering
-\footnotesize
-\caption{Compact summary of methodological caveats, their direction (could overstate or understate findings), and mitigations available for future runs.}
-\label{tab:limitations}
-\begin{tabular}{>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{5.9cm}}
-\toprule
-\textbf{Caveat} & \textbf{Direction} & \textbf{Mitigation} \\
-\midrule
-Single-probe-per-entity; absolute levels are wording-conditional (Appendix~\ref{app:prompt-sensitivity}) & A paraphrase can nudge borderline entities across the refusal boundary; clearly-recognized and clearly-silent entities are unaffected & \emph{By construction:} the binary verified-fact verdict is wording-invariant except at the refusal boundary; a four-template paraphrase set is released for reproduction; hold wording fixed across studies \\
-Judge choice (Appendix~\ref{app:cross-judge}) & GPT-5.1 is stricter than Gemini/Claude (overall recognition $0.42$ vs.\ $0.57$/$0.58$), but the cohort ranking is identical under all three, and every finding is a relative gap invariant to a uniform strictness shift & \emph{Tested:} 3-family re-judge ($n=538$); Gemini--Claude $\kappa=0.89$; use a 2--3-judge majority where absolute calibration matters \\
-Cohort labels not fully orthogonal & Overcounts entities in cross-cohort comparisons & De-duplicate by name within long-tail academic categories \\
-Chinese-prompt context fields remained English & Understates cross-language effect & Pure-Chinese prompts for the full $240$-entity sub-run \\
-Single judge on the full run (Gemini 3 Flash Preview) & Family-specific strictness on absolute levels & \emph{Tested:} three-family re-judge (Claude, GPT-5.1) on $n = 538$; ranking identical, GPT-5.1 uniformly stricter; a multi-judge majority removes the offset \\
-Cross-section, not longitudinal & Cannot infer name-propagation rates & Re-run at each major model-release cycle; release each snapshot dated \\
-Scores not comparable across model vintages (Appendix~\ref{app:cutoff}) & ${\sim}0.1$--$0.3$/yr capability drift inflates any cross-fleet level comparison & \emph{Tested:} silent zone is intrinsic, not timing (matched DiD negative---recency cohorts lag the drift); make longitudinal claims on within-run relative gaps only \\
-Researcher mobility confound in country gradient & Inflates US averages, deflates China averages & Re-classify by country-of-PhD or country-of-doctorate-training as alternative slicing \\
-Tsinghua/Peking small samples ($n = 4$) & Institution-level reads noisy at the bottom & Expand sample by drawing from CCF rank-A faculty rosters \\
-Tianshou case study sample of $1$ for per-response mediation analysis & Cannot generalize the $+0.56$ artifact-over-creator gap cleanly & Extend per-response mediation analysis to all $11$ verified (creator, artifact) pairs \\
-Inherited gender bias (Appendix~\ref{app:gender}) & Man-coded CS-faculty names score $+0.085$ over woman-coded ($p=0.004$); researcher cohorts directional only & \emph{Measured, not corrected:} report alongside the East-Asian-surname effect; restrict to controlled within-cohort comparisons \\
-Paper and competition cohorts carry a small residual floor (Appendix~\ref{app:synthetic}) & Descriptive paper titles and real-event participation admit some guessing & Read scores against the synthetic floor ($\sim 0.01$ people/artifacts, $\sim 0.06$ papers); floor-adjusting leaves every credential below the baseline \\
-Cohort-base-rate leakage in the echo-discounting judge (Appendix~\ref{app:medal-tiers}) & The judge discounts facts restated from the probe context but not facts predictable from the cohort trajectory; where a gold's distinguishing facts \emph{are} the typical path (e.g.\ most NOI golds attend Tsinghua/the Yao Class), a model---even a fluent hallucinator---earns coverage credit by producing the base-rate story without recognizing the individual, spuriously lifting generic-trajectory entities and leaving idiosyncratic ones (named startups, tools, viral events) conservative & \emph{Not corrected:} extend the judge to also discount facts inferable from the disambiguating cohort, crediting only individual-identifying content; report the residual tail ranking \\
-Institution variance share inflated by category count (Section~\ref{sec:results-geography}) & Naive $R^2 = 0.54$ counts $319$ dummies on $698$ points; true share ${\sim}16\%$ & \emph{Reported:} report adjusted $R^2$/$\omega^2$/ICC (${\sim}0.16$) and the large-cell Stanford--Tsinghua contrast; country-level aggregation is not inflated \\
-Context-injection lift includes a coverage-echo component (Section~\ref{sec:results-mediation-causal}) & Overstates the named-artifact-amplification effect; lift is an upper bound & Re-judge configuration~B against an artifact-redacted gold crediting only non-injected facts; report the residual lift \\
-Gold/training-source overlap for Wikipedia-derived golds (Section~\ref{sec:method}) & For Wikipedia-derived golds, recognition could partly measure article memorization & \emph{Tested:} a binary Wikipedia flag explains only ${\sim}10\%$ of long-tail variance, below the $h$-index's ${\sim}22\%$, and cannot rank the $92\%$ of researchers with no article (Appendix~\ref{app:confounds}) \\
-Event attention ledger conditions on English-Wikipedia interest (Appendix~\ref{app:events}) & Matched-attention region contrasts hold English exposure fixed; globally quiet, locally enormous events enter as quiet & Add non-English pageview ledgers (major Wikipedia editions) as parallel exposure measures \\
-Event attention fragments across sibling articles (Appendix~\ref{app:events}) & Attenuates the dose--response slope toward zero & Aggregate pageviews over each event's article cluster before computing the ledger \\
-Panel churn across model release cycles & A future re-run uses a different fleet, so absolute levels shift & \emph{Design:} the entity dominates the verdict variance (Appendix~\ref{app:scoring}); orderings are fleet-invariant, and longitudinal claims are made on within-run relative gaps \\
-\bottomrule
-\end{tabular}
-\end{table}
 
