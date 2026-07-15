@@ -48,6 +48,7 @@ export default function Hero() {
           <Reveal delay={220} style={{ display: 'flex', gap: 12, marginTop: 30, flexWrap: 'wrap' }}>
             <a href="#method" className="btn">How the instrument works</a>
             <a href="#findings" className="btn btn--ghost">Jump to findings</a>
+            <a href="https://arxiv.org/abs/2607.12520" target="_blank" rel="noreferrer" className="btn btn--ghost">Read the paper ↗</a>
           </Reveal>
         </div>
 
