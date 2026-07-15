@@ -164,6 +164,7 @@ em { font-style: italic; }
 .wrap--wide { max-width: 1360px; }
 main { display: block; }
 section { position: relative; }
+section[id], span[id] { scroll-margin-top: 72px; }
 .section { padding-block: clamp(72px, 11vw, 150px); }
 .rule { height: 1px; background: var(--line); border: 0; }
 

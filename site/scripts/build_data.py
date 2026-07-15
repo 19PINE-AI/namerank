@@ -565,6 +565,93 @@ def build_explainer_cases(cases):
               f"(cov {key(v)['cov']}, acc {key(v)['acc']})")
 
 
+def build_answers():
+    """Shard every verbatim model answer into per-entity JSON files.
+
+    Reads the MAIN dataset (full_v2_results.jsonl) grouped by entity, joins the
+    authoritative recognition verdict from recognition_final.jsonl, and writes
+    site/public/data/answers/<entity_id>.json plus a compact answers_index.json.
+    """
+    RESULTS = ROOT / "experiments/t6_v2_protocol/outputs/full_v2_results.jsonl"
+    RECOG = ROOT / "experiments/t6_v2_protocol/outputs/recognition_final.jsonl"
+    ENTS = ROOT / "experiments/t6_v2_protocol/inputs/pilot_entities_v2.json"
+
+    # 1. recognition verdicts (main only): (entity_id, model_id) -> (recognized, rationale)
+    verdict = {}
+    with open(RECOG) as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if r.get("dataset") != "main":
+                continue
+            verdict[(r["entity_id"], r["model_id"])] = (
+                int(r.get("recognized", 0)), r.get("rationale", "") or "")
+
+    # entity metadata; skip synthetic entities
+    ent_meta = {}
+    for e in json.load(open(ENTS)):
+        if e.get("synthetic"):
+            continue
+        ent_meta[e["id"]] = e
+
+    # 2. stream results once, grouping records by entity_id (non-synthetic only)
+    by_entity = defaultdict(list)
+    with open(RESULTS) as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            eid = r.get("entity_id")
+            if eid not in ent_meta:
+                continue
+            by_entity[eid].append(r)
+
+    # 3. write one shard per entity + 4. build compact index
+    answers_dir = PUB_DATA / "answers"
+    index = {}
+    n_files = 0
+    for eid, recs in by_entity.items():
+        e = ent_meta[eid]
+        answers = []
+        n_rec = n_ref = 0
+        for r in recs:
+            mid = r["model_id"]
+            rec, rat = verdict.get((eid, mid), (0, ""))
+            refusal = bool(r.get("is_refusal"))
+            n_rec += 1 if rec else 0
+            n_ref += 1 if refusal else 0
+            text = (r.get("response") or "").strip()
+            if len(text) > 1600:
+                text = text[:1600]
+            answers.append({
+                "model": mid,
+                "recognized": rec,
+                "refusal": refusal,
+                "response": text,
+                "rationale": rat,
+            })
+        # recognized first (1 before 0), non-refusal before refusal, then model_id
+        answers.sort(key=lambda a: (-a["recognized"], a["refusal"], a["model"]))
+        nr = round(n_rec / len(answers), 3) if answers else 0.0
+        jdump(answers_dir / f"{eid}.json", {
+            "id": eid,
+            "name": e.get("name", eid),
+            "cohort": e.get("cohort", "?"),
+            "context": e.get("context", ""),
+            "nr": nr,
+            "answers": answers,
+        })
+        index[eid] = {"n": len(answers), "rec": n_rec, "ref": n_ref}
+        n_files += 1
+
+    jdump(PUB_DATA / "answers_index.json", index)
+    print(f"    answer shards written: {n_files}")
+    return n_files
+
+
 def main():
     print("Building site data assets (recognition metric)...")
     st = load_state()
@@ -589,6 +676,7 @@ def main():
     gold = build_gold(st)
     cases = build_cases(st, gold)
     build_explainer_cases(cases)
+    build_answers()
     print(f"Done. panel models = {len(st['model_order'])}, real entities = {n_ent}")
 
 

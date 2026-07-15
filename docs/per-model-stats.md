@@ -1,57 +1,56 @@
-# Per-Model Refusal and Generosity Statistics
+# Per-Model Recognition and Refusal Statistics
 
-Per-model statistics across the 5,719-entity full English run. "Gen." is the
-mean score per record across all entities; "Ref." is the refusal rate. Source:
-`data/analysis/per_model_summary.csv`; regenerate the figure with
-`paper/figures/make_fig_app_per_model.py`.
+Per-model statistics across the 36-model recognition run. "Rec." is the
+per-model recognition rate — the fraction of that model's ~4,730 records the
+recognition judge marked `recognized` — and "Ref." is the refusal rate.
+Source: `data/analysis/per_model_summary.csv`.
 
-![Per-model generosity and refusal](figures/fig_app_per_model.png)
-
-| Model | Gen. | Ref. |
+| Model | Rec. | Ref. |
 |---|---:|---:|
-| gemini-3-flash-think | 0.660 | 4% |
-| gpt-5.5-think | 0.619 | 10% |
-| deepseek-v4-pro-think | 0.604 | 14% |
-| claude-opus-4.6-think | 0.603 | 10% |
-| ernie-4.5-300b-a47b | 0.603 | 0% |
-| llama-4-maverick | 0.591 | 0.1% |
-| grok-4 | 0.557 | 20% |
-| gemini-2.5-pro-think | 0.556 | 2% |
-| gemini-3.1-pro | 0.551 | 21% |
-| deepseek-v3.2-think | 0.550 | 11% |
-| claude-sonnet-4.6-think | 0.542 | 7% |
-| gpt-5.4 | 0.533 | 18% |
-| llama-3.3-70b | 0.530 | 5% |
-| deepseek-v4-flash-think | 0.518 | 26% |
-| glm-5.1-think | 0.517 | 23% |
-| glm-4.7-think | 0.499 | 20% |
-| gemma-3-12b | 0.490 | 7% |
-| qwen3.5-397b-a17b-think | 0.486 | 1% |
-| gemma-4-31b | 0.483 | 18% |
-| glm-4-32b | 0.470 | 20% |
-| kimi-k2 | 0.448 | 31% |
-| gemma-3-4b | 0.443 | 0% |
-| kimi-k2.6-think | 0.432 | 38% |
-| mistral-medium-3.1 | 0.422 | 2% |
-| gpt-5.3 | 0.399 | 39% |
-| phi-4 | 0.393 | 0% |
-| mistral-large | 0.389 | 1% |
-| llama-3.1-8b | 0.374 | 2% |
-| grok-4.20-think | 0.368 | 46% |
-| ministral-3b | 0.363 | 0.1% |
-| minimax-m2.7-think | 0.358 | 45% |
-| qwen3-235b-a22b-think | 0.308 | 42% |
-| qwen3-8b-think | 0.286 | 26% |
-| qwen3-32b-think | 0.284 | 30% |
-| gpt-oss-20b-think | 0.265 | 48% |
-| mistral-small-24b | 0.225 | 46% |
-| llama-3.2-1b | 0.201 | 0.1% |
+| gemini-3-flash-think | 0.784 | 5% |
+| claude-fable-5-think | 0.737 | 5% |
+| gemini-3.1-pro | 0.708 | 24% |
+| deepseek-v4-pro-think | 0.669 | 18% |
+| gemini-2.5-pro-think | 0.653 | 5% |
+| gpt-5.5-think | 0.652 | 18% |
+| claude-opus-4.6-think | 0.636 | 23% |
+| claude-sonnet-4.6-think | 0.620 | 11% |
+| glm-5.2-think | 0.603 | 28% |
+| glm-5.1-think | 0.600 | 30% |
+| qwen3.7-max-think | 0.595 | 29% |
+| deepseek-v4-flash-think | 0.586 | 30% |
+| deepseek-v3.2-think | 0.582 | 18% |
+| glm-4.7-think | 0.577 | 23% |
+| qwen3.5-397b-a17b-think | 0.558 | 3% |
+| kimi-k2.7-code-think | 0.553 | 32% |
+| kimi-k2.6-think | 0.539 | 41% |
+| gpt-5.3 | 0.517 | 42% |
+| minimax-m3-think | 0.512 | 28% |
+| gpt-5.4 | 0.510 | 31% |
+| llama-4-maverick | 0.500 | 0% |
+| nemotron-3-ultra-think | 0.491 | 42% |
+| step-3.7-flash-think | 0.481 | 35% |
+| llama-3.3-70b | 0.408 | 8% |
+| qwen3-235b-a22b-think | 0.389 | 44% |
+| minimax-m2.7-think | 0.386 | 51% |
+| gemma-4-31b | 0.366 | 24% |
+| gemma-3-12b | 0.359 | 19% |
+| llama-3.1-8b | 0.321 | 3% |
+| qwen3-32b-think | 0.304 | 33% |
+| nemotron-3-nano-30b-think | 0.303 | 43% |
+| phi-4 | 0.302 | 0% |
+| mistral-small-24b | 0.299 | 53% |
+| gemma-3-4b | 0.268 | 0% |
+| qwen3-8b-think | 0.260 | 33% |
+| gpt-oss-20b-think | 0.242 | 57% |
 
-Each model contributes 5,719 records. Two failure styles are visible at the
-row level: the strict cluster at the bottom (gpt-oss-20b-think,
-mistral-small-24b, qwen3-32b/8b-think) refuses heavily, while the
-fluent-hallucinator cluster (ernie, llama-4-maverick, gemma-3-4b, phi-4,
-ministral-3b, llama-3.2-1b) shows zero or near-zero refusal with widely
-varying mean scores. The panel mean integrates over both styles, and the
-multiplicative coverage×accuracy rule is what disciplines the
-fluent-hallucinator cluster (see the paper's robustness section).
+Each model contributes ~4,730 records. Two failure styles are visible at the
+row level. A strict, high-refusal cluster sits at the bottom
+(gpt-oss-20b-think, mistral-small-24b, qwen3-8b-think): these models decline
+whenever they are unsure, so most of their un-recognized records are outright
+refusals. Against them stands a zero-refusal, fluent cluster
+(llama-4-maverick, phi-4, gemma-3-4b) that answers every probe. Because the
+recognition verdict credits only positively-verified, non-guessable facts, it
+disciplines that fluent cluster — a smoothly written but unverifiable bio earns
+no recognition — so their recognition rates stay moderate despite near-zero
+refusal.

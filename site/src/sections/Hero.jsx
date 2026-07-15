@@ -1,89 +1,89 @@
 import React, { useState } from 'react'
-import heroEntities from '../data/hero_entities.json'
-import stats from '../data/stats.json'
-import models from '../data/models.json'
-import { fmt, Reveal } from '../lib/ui.jsx'
+import { Reveal } from '../lib/ui.jsx'
 import { DotStrip } from '../components/charts.jsx'
+import hero from '../data/hero.json'
+import stats from '../data/stats.json'
 
-const STORIES = {
-  sam_altman: 'Everyone knows the famous CEO — yet even here, graded answer by answer, the panel averages 0.61, not 1.0. Recognition is a spectrum, and full marks are rare.',
-  andrej_karpathy: 'A famous AI educator: almost every model knows him. But ask about his little side project nanoGPT and something odd happens — the tool scores higher than he does.',
-  tianshou: 'An open-source software library. No face, no biography — and it out-ranks the engineer who built it. That inversion is one of the paper’s main findings.',
-  jiayi_weng: 'He built Tianshou and works at OpenAI. A third of the panel draws a blank; GPT‑5.4 answers with a single word: “unknown”.',
-  bojie_li: 'The author of this very paper. NameRank 0.09 — the models barely know he exists. Measuring that gap honestly is what the project is about.',
-  imo_dongyi_wei: 'A gold medalist at the world’s hardest high-school math competition. The medal alone doesn’t make the models remember the name — his later math papers do.',
+const CAT = { tianshou: 'artifact', nanogpt: 'artifact' }
+const STORY = {
+  sam_altman: 'Every model on the panel knows the CEO of OpenAI. Fame this size saturates the instrument — there is no headroom left to measure.',
+  andrej_karpathy: 'Recognised by most of the panel, for a whole career rather than one repo. One of the few people who out-ranks their own famous tool.',
+  tianshou: 'A reinforcement-learning library most models can describe in detail — while its sole author sits near the floor. The tool propagated; the name behind it did not.',
+  jiayi_weng: 'The author of Tianshou. Four of the thirty-six models recognise him. Recognition attached to what he built and barely reached the builder.',
+  bojie_li: 'A 2009 olympiad bronze medallist turned systems researcher and founder — recognised for what he later shipped, not for the medal.',
+  imo_dongyi_wei: 'An International Mathematical Olympiad gold medallist. The credential selects a few hundred people a year — fewer than half the panel recognises this one.',
 }
 
-const MODEL_IDS = models.map((m) => m.id)
+function Readout({ v, l, s }) {
+  return (
+    <div className="readout">
+      <div className="rs">{s}</div>
+      <div className="rv">{v}</div>
+      <div className="rl">{l}</div>
+    </div>
+  )
+}
 
 export default function Hero() {
-  const [pick, setPick] = useState(heroEntities[0].id)
-  const ent = heroEntities.find((e) => e.id === pick)
-  const answered = ent.scores.filter((s) => s != null && s >= 0.08).length
+  const [sel, setSel] = useState(hero[2] || hero[0])
+  const cat = CAT[sel.id] || 'person'
+  const lit = sel.scores.filter((x) => x >= 0.5).length
   return (
-    <header className="section hero">
-      <div className="wrap">
-        <Reveal>
-          <div className="section-kicker">
-            <span className="rule" />
-            <span className="tag">A field guide to machine memory · 2026</span>
-          </div>
-          <h1 className="hero-title">
-            When someone asks an AI <em>who you are</em> — what does it say?
-          </h1>
-        </Reveal>
-        <Reveal delay={120}>
-          <p className="section-lede" style={{ marginTop: 22 }}>
-            Chat assistants are becoming the first place people hear about a researcher, a founder,
-            or a tool. <b>NameRank</b> measures what the machines actually remember: we asked{' '}
-            <b>{stats.models} frontier AI models</b> one simple question about{' '}
-            <b>{stats.entities.toLocaleString()} names</b>, graded all{' '}
-            <b>{stats.records.toLocaleString()} answers</b> against the facts, and mapped who — and
-            what — the models really know.
-          </p>
-        </Reveal>
+    <header className="hero wrap wrap--wide">
+      <div className="hero-grid">
+        <div>
+          <Reveal className="tag tag--signal" style={{ display: 'block', marginBottom: 22 }}>
+            RECOGNITION IN THE LLM CHANNEL · {stats.models}-MODEL PANEL
+          </Reveal>
+          <Reveal as="h1" className="display" delay={60}>
+            The model knows<br />your <em>project</em>,<br />not you.
+          </Reveal>
+          <Reveal className="lede" delay={140} style={{ marginTop: 26, maxWidth: '40ch' }}>
+            Ask a frontier model who someone is and, from memory alone, it answers in
+            detail — or says <span className="mono" style={{ color: 'var(--ink)' }}>“unknown.”</span>{' '}
+            NameRank measures which, for {stats.entities.toLocaleString()} people and things
+            across {stats.models} models. The verdict is paid to <span className="u-artifact">named, indexable
+            artifacts</span> — not to <span className="u-person">credentials or titles</span>.
+          </Reveal>
+          <Reveal delay={220} style={{ display: 'flex', gap: 12, marginTop: 30, flexWrap: 'wrap' }}>
+            <a href="#method" className="btn">How the instrument works</a>
+            <a href="#findings" className="btn btn--ghost">Jump to findings</a>
+          </Reveal>
+        </div>
 
-        <Reveal delay={240}>
-          <div className="card hero-demo">
-            <div className="tag" style={{ marginBottom: 14 }}>
-              Try it — one name, the whole {stats.models}-model panel
+        <Reveal delay={200}>
+          <div className="panel panel--pad">
+            <div className="panel-head">
+              <span className="tag">LIVE READOUT · one entity × {stats.models} models</span>
             </div>
-            <div className="hero-chips">
-              {heroEntities.map((e) => (
-                <button key={e.id} className={`btn ${pick === e.id ? 'on' : ''}`} onClick={() => setPick(e.id)}>
-                  {e.name}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7, marginBottom: 20 }}>
+              {hero.map((h) => (
+                <button key={h.id} className={`chip ${h.id === sel.id ? 'is-on' : ''}`} onClick={() => setSel(h)}>
+                  <span className="dot" style={{ background: (CAT[h.id] || 'person') === 'artifact' ? 'var(--artifact)' : 'var(--person)' }} />
+                  {h.name}
                 </button>
               ))}
             </div>
-            <div className="hero-strip" key={ent.id}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: 8 }}>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 600 }}>
-                  {ent.name}
-                  <span style={{ color: 'var(--ink-3)', fontWeight: 400, fontSize: 16 }}> — {ent.context}</span>
-                </div>
-                <div className="tag"><b>{answered}</b> of {stats.models} models earn any credit</div>
-              </div>
-              <DotStrip scores={ent.scores} models={MODEL_IDS} height={78} />
-              <p className="hero-story">{STORIES[ent.id]}</p>
-            </div>
-          </div>
-        </Reveal>
 
-        <Reveal delay={340}>
-          <div className="hero-stats">
-            {[
-              [stats.entities.toLocaleString(), 'names probed, from Sam Altman to long-tail researchers'],
-              [stats.models, 'frontier models, asked from memory — no web search'],
-              [stats.cohorts, 'cohorts: faculty, olympiad medalists, tools, startups…'],
-              [stats.records.toLocaleString(), 'answers graded by an independent AI judge'],
-            ].map(([n, label]) => (
-              <div key={label} className="hero-stat">
-                <div className="hero-stat-n num">{n}</div>
-                <div className="hero-stat-l">{label}</div>
+            <DotStrip key={sel.id} scores={sel.scores} cat={cat} size="md" />
+
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 16, marginTop: 22, flexWrap: 'wrap' }}>
+              <div className="num" style={{ fontSize: '2.6rem', lineHeight: 1, color: cat === 'artifact' ? 'var(--artifact)' : 'var(--person)' }}>{sel.nr.toFixed(2)}</div>
+              <div>
+                <div className="mono" style={{ fontSize: '0.82rem', color: 'var(--ink)' }}>{lit} / {sel.scores.length} models recognised</div>
+                <div className="tag" style={{ fontSize: '0.62rem' }}>NAMERANK · {cat === 'artifact' ? 'ARTIFACT' : 'PERSON'} · {sel.context}</div>
               </div>
-            ))}
+            </div>
+            <p className="caption" style={{ minHeight: 42 }}>{STORY[sel.id]}</p>
           </div>
         </Reveal>
+      </div>
+
+      <div className="grid grid-4 keep2" style={{ marginTop: 'clamp(40px, 6vw, 72px)' }}>
+        <Reveal delay={0}><Readout s="ENTITIES" v={stats.entities.toLocaleString()} l="people, tools, papers, events on one scale" /></Reveal>
+        <Reveal delay={60}><Readout s="PANEL" v={stats.models} l="frontier models, Western & Chinese" /></Reveal>
+        <Reveal delay={120}><Readout s="COHORTS" v={stats.cohorts} l="from olympiad medallists to OSS tools" /></Reveal>
+        <Reveal delay={180}><Readout s="VERDICT" v="0 / 1" l="a specific, non-guessable, verified fact?" /></Reveal>
       </div>
     </header>
   )

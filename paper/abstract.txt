@@ -1,0 +1,34 @@
+The Model Knows Your Project, Not You: Measuring Recognition in LLMs with NameRank
+
+Bojie Li (Pine AI)    Noah Shi (University of Washington)
+
+
+ABSTRACT
+
+What a frontier model recalls about a person or tool from its own
+weights -- before any retrieval step -- often shapes the first
+description a human sees, making that parametric corpus presence a
+measurement problem. Citations explain about a third of whether a model
+recognizes a researcher; we target the residual and build NameRank, a
+[0,1] recognition score: each of 4,685 entities in 54 cohorts is probed
+with one open-ended question across 36 models, and an independent judge
+returns a binary verdict against a curated gold -- did the model state a
+specific, non-guessable fact about this exact entity? -- so
+hallucination, context echo, and guesses earn nothing. Synthetic-null
+entities hold the floor near zero, and verdicts track the entity, not
+the model. One thesis organizes the findings: recognition is paid to
+named, indexable artifacts, not to credentials or titles. Every
+Olympic-style credential sits below a working-researcher baseline,
+because no named artifact ships with the medal, yet the ranking inverts
+at the marquee tier, where Nobel, Turing, and Fields laureates saturate
+the panel. For independent creators the tool out-ranks its maker, and
+the credential that does propagate is a named method or awarded paper.
+Being one of many named contributors to a celebrated artifact, by
+contrast, earns almost nothing -- the authors listed on a flagship model
+report or system card sit near the recognition floor -- because
+recognition attaches to the artifact's own distinctive name, not to the
+roster behind it. No bibliometric predicts recognition well; top-density
+institutions out-recognize peers at matched citations; and on 258 news
+events recognition loads on peak salience, not persistence. A
+self-report probe shows introspection reads a corpus prior, not its own
+knowledge.

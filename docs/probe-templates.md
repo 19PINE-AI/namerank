@@ -20,7 +20,7 @@ Limit your response to about 150 words.
 
 ## Chinese probe template
 
-Used for the 240-entity Chinese-prompt sub-run (8,880 records). Gold answers
+Used for the 240-entity Chinese-prompt sub-run (8,640 records). Gold answers
 and the judge prompt remain in English; the judge grades across languages.
 
 ```
@@ -37,56 +37,57 @@ Please keep your response to about 150 characters.
 
 ## Judge prompt
 
-The judge is Gemini 3 Flash Preview (direct Google API, temperature 0, low
-reasoning budget). It receives the gold answer and the model response and
-returns independent coverage and accuracy scores in [0, 1]; the per-record
-NameRank contribution is their product.
+The judge is Gemini 3 Flash Preview (direct Google API, temperature 0). It is
+shown the entity name, the probe context, the gold answer, and the model
+response, and returns a BINARY `recognized` verdict. `recognized` is true only
+if the response states at least one specific, non-guessable fact that is (a)
+true of this exact entity per the gold answer or the judge's own reliable
+knowledge, (b) not derivable from the probe context, and (c) about the same
+entity the gold identifies (not a same-name person). The judge uses knowledge
+asymmetrically — it may refute freely but credits only positively-verified
+facts — and applies an anti-confabulation rule for competition,
+fellowship, and minor-paper entities. Coverage and accuracy are also recorded
+per response, but they are retained only as diagnostics and do not enter
+NameRank; NameRank is the fraction of the panel whose `recognized` verdict is
+true.
 
 ```
 ENTITY: {name}
 
-GOLD ANSWER (authoritative reference, ~150 words):
+PROBE CONTEXT (already given to the model in the question; repeating it earns nothing):
+{context}
+
+GOLD ANSWER (reference facts that IDENTIFY which specific entity this is — use it to disambiguate the person/thing and as a correctness anchor):
 {gold_answer}
 
 MODEL RESPONSE (to be graded):
 {response}
 
-Score the response on two axes:
+Judge whether the model genuinely RECOGNIZES this specific entity.
 
-1. COVERAGE (0.0-1.0): How much of the gold answer's substantive
-   content does the response include?
-   Substantive content = named artifacts, named affiliations,
-   named contributions, identifying facts (year, location, role
-   title). Vague statements like "works in AI" or "is famous"
-   are NOT substantive content.
-   - 1.0: covers all major facts;
-   - 0.7: most major facts (>=70%);
-   - 0.4: some (>=30%);
-   - 0.1: very little (<30%);
-   - 0.0: unrelated/refused/unknown.
+RECOGNIZED = true only if the response states at least one SPECIFIC, NON-GUESSABLE fact that is:
+  (a) TRUE of THIS entity, established by EITHER (i) the gold answer, OR (ii) your own independent knowledge — meaning you actually recognize this fact as true of this specific entity, not merely that it sounds plausible; and
+  (b) not derivable from the probe context; and
+  (c) about the SAME entity the gold identifies (same person/thing), not a different entity that shares the name.
 
-2. ACCURACY (0.0-1.0): Are the factual claims in the response
-   correct, per the gold answer?
-   A "factual claim" is a specific named entity, year, role, or
-   relationship asserted by the response. Penalize hallucinations
-   heavily.
-   - 1.0: all claims correct;
-   - 0.7: most correct, minor errors;
-   - 0.4: mix of correct and incorrect;
-   - 0.1: mostly incorrect (hallucinations dominate);
-   - 0.0: entirely fabricated/unrelated.
+CRITICAL ASYMMETRY between crediting and refuting:
+  - To CREDIT a fact not in the gold, you must POSITIVELY know it is true of this entity. If you do not already know this entity, you CANNOT verify novel claims about it — a plausible-sounding but unverified specific is exactly what a model hallucinates about obscure or non-existent people, and it scores FALSE. When you do not know the entity, ignore your own knowledge and grade STRICTLY against the gold answer only.
+  - To REFUTE, use all of your knowledge freely: if you know the response describes a same-name DIFFERENT entity, or states something false about this entity, do not credit it.
 
-IMPORTANT:
-a) Hallucinated bios (high coverage, low accuracy) MUST
-   score LOW on accuracy.
-b) Refusals ("I don't know", "unknown") score 0.0 on both axes.
-c) Don't penalize correct extra facts that aren't in the gold.
-d) Don't credit vague statements that could apply to many.
-e) If the gold answer names a contribution and the response
-   names it too, count as a substantive fact covered.
+ANTI-CONFABULATION RULE (important — you do NOT have reliable per-individual memory of most competition participants, fellowship recipients, or minor-paper authors):
+  - For an entity who is a COMPETITION PARTICIPANT (olympiad/contest medalist), a FELLOWSHIP/AWARD recipient, or the author/subject of a NON-FAMOUS paper: do NOT credit fine-grained biographical minutiae via "your own knowledge" — e.g. other-year participations, secondary-competition medals, exact scores or ranks, specific host-city trivia, or co-author names of minor works. You cannot reliably recall these for individuals, and asserting you "verified them against official records" is confabulation. For such entities, credit ONLY facts that are present in the GOLD ANSWER, or a MAJOR, widely-documented public achievement you are highly confident about (a well-known company they founded, a famous theorem/tool bearing their name, a professorship at a named university you actually recognize them for).
+  - The credential OUTCOME itself is guessable and does NOT count on its own: given a probe saying someone "participated in" a competition, asserting they "won a gold medal / a prize / the fellowship" is a low-entropy guess and is NOT recognition unless accompanied by a genuinely-known, non-guessable specific about THIS person.
 
-Output ONLY JSON: {"coverage": <0.0-1.0>, "accuracy": <0.0-1.0>,
-                   "rationale": "<one sentence>"}
+Further guards (RECOGNIZED = false):
+  - Wrong entity: specifics consistent with a different same-name person/thing.
+  - Hallucination / fabrication-dominated response. (One genuinely-verified correct specific still counts even if a minor detail is off; a response that is mostly wrong does not.)
+  - Guessable/generic: broad field, nationality, an employer/school implied by the context or inferable from the name, generic praise, restating the context. For a PAPER, naming its journal/venue alone does NOT count (inferable from topic); a real author name, specific result, or exact contribution does — but only if you actually know the paper.
+  - Refusal / "I don't have information" / hedged non-answer.
+  - When genuinely unsure whether a fact is specific-and-verified-true, default to false.
+
+Also output coverage and accuracy in [0,1] for diagnostics.
+
+Output ONLY JSON: {"recognized": <true|false>, "coverage": <0.0-1.0>, "accuracy": <0.0-1.0>, "rationale": "<one sentence: name the qualifying fact and how it was verified (gold or your knowledge), or why none qualifies>"}
 ```
 
 ## Paraphrase templates (robustness)

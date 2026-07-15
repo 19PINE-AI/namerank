@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NameRank — What do AI models know about a name?</title>
-    <meta name="description" content="Interactive companion to the NameRank paper: 5,719 people and tools, 37 frontier AI models, one simple question — who does the machine actually remember?" />
+    <title>NameRank — the model knows your project, not you</title>
+    <meta name="description" content="A recognition instrument for the LLM channel: 4,685 people and tools measured across 36 frontier models. Who does the machine actually remember — and why it's the named artifact, not the credential." />
+    <meta name="theme-color" content="#080a10" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#efece3" media="(prefers-color-scheme: light)" />
     <script>
-      // set theme before first paint to avoid flash
+      // set theme before first paint to avoid a flash; dark-primary design
       (function () {
         var saved = localStorage.getItem('nr-theme');
         var dark = saved ? saved === 'dark'
-          : window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (dark) document.documentElement.dataset.theme = 'dark';
+          : !window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
       })();
     </script>
   </head>

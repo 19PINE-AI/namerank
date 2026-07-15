@@ -1,18 +1,12 @@
-"""CS faculty NameRank by country of institutional affiliation.
+"""Institution-string -> country keyword map for the CS-faculty cohort.
 
-Maps institution strings to country via keyword prefixes (the cohort has 100 %
-institution coverage in pilot_entities.json). Writes
-data/analysis/cs_faculty_by_country.csv.
+The cohort has ~100% institution coverage, so a keyword match on the affiliation
+string is enough to assign a country. This module is imported for its
+``COUNTRY_KEYWORDS`` / ``lookup_country`` by the country-gradient figures
+(paper/figures/make_fig_country.py, compute_all_numbers.py) and by the release
+table builder (code/build_release_tables.py, which inlines the same map).
 """
 from __future__ import annotations
-
-import csv
-import json
-import statistics
-from collections import defaultdict
-
-from _paths import ANALYSIS, INPUTS
-
 
 COUNTRY_KEYWORDS: dict[str, list[str]] = {
     "USA": [
@@ -58,50 +52,8 @@ COUNTRY_KEYWORDS: dict[str, list[str]] = {
 
 
 def lookup_country(inst: str) -> str:
-    il = inst.lower()
+    il = (inst or "").lower()
     for country, kws in COUNTRY_KEYWORDS.items():
-        for kw in kws:
-            if kw.lower() in il:
-                return country
+        if any(kw.lower() in il for kw in kws):
+            return country
     return "Other/Unknown"
-
-
-def main() -> None:
-    ents = {e["id"]: e for e in json.loads((INPUTS / "pilot_entities.json").read_text())}
-    nr = {row["entity_id"]: float(row["namerank"])
-          for row in csv.DictReader(open(ANALYSIS / "namerank_per_entity.csv", encoding="utf-8"))}
-
-    by_country: dict[str, list[tuple[float, str, str]]] = defaultdict(list)
-    for eid, e in ents.items():
-        if e.get("cohort") != "cs_faculty" or eid not in nr:
-            continue
-        inst = e.get("institution", "")
-        country = lookup_country(inst)
-        by_country[country].append((nr[eid], e["name"], inst))
-
-    rows = []
-    for c, items in sorted(by_country.items(),
-                           key=lambda x: -statistics.mean([n for n, _, _ in x[1]])):
-        if len(items) < 3:
-            continue
-        nrs = [n for n, _, _ in items]
-        rows.append({
-            "country": c, "n": len(items),
-            "mean": round(statistics.mean(nrs), 3),
-            "median": round(statistics.median(nrs), 3),
-            "sd": round(statistics.stdev(nrs) if len(nrs) > 1 else 0.0, 3),
-            "frac_above_0_5": round(sum(1 for n in nrs if n >= 0.5) / len(nrs), 3),
-        })
-
-    out = ANALYSIS / "cs_faculty_by_country.csv"
-    with open(out, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
-        w.writeheader()
-        w.writerows(rows)
-    print(f"Wrote {out} ({len(rows)} countries with n>=3)")
-    for r in rows:
-        print(f"  {r['country']:<20} n={r['n']:<4} mean={r['mean']:.3f}")
-
-
-if __name__ == "__main__":
-    main()

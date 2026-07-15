@@ -10,11 +10,8 @@
     "data": "python3 scripts/build_data.py"
   },
   "dependencies": {
-    "@fontsource-variable/fraunces": "^5.2.5",
     "@fontsource-variable/instrument-sans": "^5.2.8",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
-    "@fontsource-variable/newsreader": "^5.2.5",
-    "@fontsource/ibm-plex-mono": "^5.2.5",
     "@fontsource/instrument-serif": "^5.2.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
