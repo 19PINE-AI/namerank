@@ -3,9 +3,11 @@
 run — the single, authoritative NameRank metric used throughout the paper.
 
 Record-level source of truth:
-    experiments/t6_v2_protocol/outputs/recognition_final.jsonl
+    experiments/t6_v2_protocol/outputs/recognition_final.jsonl[.gz]
         one binary `recognized` verdict per (dataset, entity_id, model_id),
-        produced by the open-book anti-confabulation judge.
+        produced by the open-book anti-confabulation judge. The repo ships the
+        gzipped form (~12MB); this script reads the plain .jsonl if present and
+        falls back to the .gz otherwise, so no manual decompression is needed.
 
 Everything here is a deterministic aggregation of that file plus the per-dataset
 entity metadata. Numbers are cross-checked at the end against the paper's own
@@ -25,10 +27,21 @@ Run:  python3 code/build_release_tables.py
 from __future__ import annotations
 
 import csv
+import gzip
 import json
 import statistics as st
 from collections import defaultdict
 from pathlib import Path
+
+
+def open_jsonl(path: Path):
+    """Open a .jsonl, transparently falling back to its shipped .gz sibling."""
+    if path.exists():
+        return open(path)
+    gz = path.with_suffix(path.suffix + ".gz")
+    if gz.exists():
+        return gzip.open(gz, "rt")
+    raise FileNotFoundError(f"{path} (and {gz.name}) not found")
 
 REPO = Path(__file__).resolve().parent.parent
 T6 = REPO / "experiments" / "t6_v2_protocol"
@@ -122,7 +135,7 @@ def load_final():
     """dataset -> {(eid, mid): recognized};  dataset -> {(eid, mid): rationale}"""
     rec = defaultdict(dict)
     rat = defaultdict(dict)
-    with open(FINAL) as f:
+    with open_jsonl(FINAL) as f:
         for line in f:
             try:
                 r = json.loads(line)
@@ -312,7 +325,7 @@ def main():
     # ---- cross_language_per_entity.csv ------------------------------------ #
     zh = defaultdict(dict)
     zh_meta = {}
-    with open(ZH) as f:
+    with open_jsonl(ZH) as f:
         for line in f:
             r = json.loads(line)
             zh[r["entity_id"]][r["model_id"]] = int(r["recognized"])

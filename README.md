@@ -14,7 +14,7 @@ bibliometrics cannot explain (Li 2026, IKP §5.7).
 
 - **Paper:** [`paper/main.pdf`](paper/main.pdf) (47 pages) · source: [`paper/main.tex`](paper/main.tex)
 - **Companion site:** [`site/`](site/) — an interactive React explainer (mechanism walkthrough, findings dashboards, and a 4,685-entity explorer with every model's verbatim answer and verdict). Live at <https://01.me/research/namerank>.
-- **Scale:** 4,685 entities across 54 cohorts, a 36-model panel, and the record-level recognition verdicts in [`experiments/t6_v2_protocol/outputs/recognition_final.jsonl`](experiments/t6_v2_protocol/).
+- **Scale:** 4,685 entities across 54 cohorts, a 36-model panel, and the record-level recognition verdicts in [`experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz`](experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz) (gzipped, ~12 MB).
 - **Robustness:** [`experiments/`](experiments/) — 18 self-contained follow-up audits, all folded into the paper. See [§ Robustness experiments](#robustness-experiments-experiments).
 
 ## Headline findings
@@ -77,9 +77,11 @@ namerank/
 ## Reproducing the paper
 
 The record-level source of truth is
-`experiments/t6_v2_protocol/outputs/recognition_final.jsonl` — one binary
-`recognized` verdict per (entity, model). Everything downstream is a
-deterministic function of that file.
+`experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz` — one binary
+`recognized` verdict per (entity, model), shipped gzipped (~12 MB; 234,574
+records). Everything downstream is a deterministic function of that file.
+`build_release_tables.py` reads the `.gz` directly, so no manual
+decompression is needed.
 
 ```bash
 pip install -r requirements.txt
@@ -130,7 +132,7 @@ at build time and are gitignored; `answers_index.json` is committed.
 
 ## Data schemas
 
-- **`experiments/t6_v2_protocol/outputs/recognition_final.jsonl`** — one JSON object per (entity, model): `{dataset, entity_id, model_id, recognized (0/1), rationale}`.
+- **`experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz`** — one JSON object per (entity, model): `{dataset, entity_id, model_id, recognized (0/1), rationale}` (gzipped; `zcat` to read).
 - **`data/analysis/namerank_per_entity.csv`** — one row per entity: `entity_id, entity_name, cohort, n_models, namerank, namerank_sd, refusal_rate, embedding_sim_mean`.
 - **`data/analysis/namerank_matrix.json`** — `{entity_id: {model_id: recognized}}` for the 4,730-entity × 36-model main run.
 - **`data/analysis/cohort_summary.csv` / `credential_ladder.csv` / `per_model_summary.csv` / `cs_faculty_by_country.csv` / `cross_language_per_entity.csv` / `attribution_pairs_v2.csv`** — derived recognition tables; see [`data/analysis/README.md`](data/analysis/README.md).

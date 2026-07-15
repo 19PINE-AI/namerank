@@ -61,6 +61,15 @@ site/dist/
 !experiments/t5_4_self_report/outputs/
 experiments/t5_4_self_report/outputs/*.log
 
+# t6_v2_protocol: ship ONLY the compressed record-level source of truth
+# (recognition_final + zh_results, ~13MB gzipped) that build_release_tables.py
+# and the paper reproduce from. The uncompressed .jsonl (63MB/5MB) stay ignored
+# via the `outputs/` rule; everything else under outputs/ stays ignored too.
+!experiments/t6_v2_protocol/outputs/
+experiments/t6_v2_protocol/outputs/*
+!experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz
+!experiments/t6_v2_protocol/outputs/zh_results.jsonl.gz
+
 # Regenerable figure preview rasters (the paper embeds the .pdf, not the .png)
 paper/figures/*.png
 # Scratch/backup input artifacts
