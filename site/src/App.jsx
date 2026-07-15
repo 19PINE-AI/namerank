@@ -67,6 +67,7 @@ function Footer() {
         </div>
         <div style={{ display: 'grid', gap: 8, fontFamily: 'var(--mono)', fontSize: '0.82rem' }}>
           <a className="link" href="https://arxiv.org/abs/2607.12520" target="_blank" rel="noreferrer">→ Paper (arXiv:2607.12520)</a>
+          <a className="link" href="https://arxiv.org/html/2607.12520" target="_blank" rel="noreferrer">→ Read full text (HTML)</a>
           <a className="link" href="https://github.com/19PINE-AI/namerank" target="_blank" rel="noreferrer">→ Code, probes, golds & responses</a>
           <a className="link" href="https://01.me/research/namerank" target="_blank" rel="noreferrer">→ Research page</a>
           <span className="ink-3">Pine AI · University of Washington</span>

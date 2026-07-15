@@ -12,7 +12,7 @@ and lucky guesses earn nothing. NameRank is the fraction of the panel that
 recognizes the entity. It operationalizes the recognition-variance residual that
 bibliometrics cannot explain (Li 2026, IKP §5.7).
 
-- **Paper:** [arXiv:2607.12520](https://arxiv.org/abs/2607.12520) · [PDF](https://arxiv.org/pdf/2607.12520) (47 pages) · local copy [`paper/main.pdf`](paper/main.pdf) · source: [`paper/main.tex`](paper/main.tex)
+- **Paper:** [arXiv:2607.12520](https://arxiv.org/abs/2607.12520) · [HTML](https://arxiv.org/html/2607.12520) · [PDF](https://arxiv.org/pdf/2607.12520) (47 pages) · local copy [`paper/main.pdf`](paper/main.pdf) · source: [`paper/main.tex`](paper/main.tex)
 - **Companion site:** [`site/`](site/) — an interactive React explainer (mechanism walkthrough, findings dashboards, and a 4,685-entity explorer with every model's verbatim answer and verdict). Live at <https://01.me/research/namerank>.
 - **Scale:** 4,685 entities across 54 cohorts, a 36-model panel, and the record-level recognition verdicts in [`experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz`](experiments/t6_v2_protocol/outputs/recognition_final.jsonl.gz) (gzipped, ~12 MB).
 - **Robustness:** [`experiments/`](experiments/) — 18 self-contained follow-up audits, all folded into the paper. See [§ Robustness experiments](#robustness-experiments-experiments).
