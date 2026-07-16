@@ -229,6 +229,37 @@ def truncate_words(text: str, n: int) -> str:
     return " ".join(words[:n]) if len(words) > n else (text or "")
 
 
+def slugify(text: str, maxlen: int = 48) -> str:
+    """Filesystem-friendly slug from an entity name (keeps unicode letters)."""
+    s = re.sub(r"\s+", "-", (text or "").strip().lower())
+    s = re.sub(r"[^\w\-]", "", s, flags=re.UNICODE).strip("-_")
+    return (s[:maxlen].strip("-_") or "entity")
+
+
+def save_entity_dump(entity_out: dict, args) -> str:
+    """Write one entity's full run (every model response + every judge response)
+    to a descriptively-named JSON file in the cwd. Returns the path written."""
+    slug = slugify(entity_out["name"])
+    path = Path.cwd() / f"namerank_{slug}.json"
+    dump = {
+        "name": entity_out["name"],
+        "context": entity_out["context"],
+        "gold": entity_out["gold"],
+        "gold_meta": entity_out["gold_meta"],
+        "probe": PROBE_TEMPLATE.format(name=entity_out["name"], context=entity_out["context"]),
+        "judge_prompt_template": JUDGE_PROMPT,
+        "judge_model": args.judge_model,
+        "namerank": entity_out["namerank"],
+        "depth": entity_out["depth"],
+        "n_recognized": entity_out["n_recognized"],
+        "panel_size": entity_out["panel_size"],
+        # each record carries the model's raw response AND the judge's raw response
+        "records": entity_out["records"],
+    }
+    path.write_text(json.dumps(dump, indent=2, ensure_ascii=False))
+    return str(path)
+
+
 # ── Chat completion (OpenAI-compatible) ─────────────────────────────────────
 def chat(api_base: str, api_key: str, model: str, messages: list,
          thinking: bool = False, temperature: float = 0.0,
@@ -261,6 +292,12 @@ def chat(api_base: str, api_key: str, model: str, messages: list,
                     time.sleep(2 ** (attempt + 1))
                     continue
                 return ""
+            except httpx.TimeoutException:
+                # Honor the timeout budget: retry once for a transient stall,
+                # then give up rather than hang for 4×timeout.
+                if attempt >= 1:
+                    return ""
+                continue
             except Exception:
                 time.sleep(2 * (attempt + 1))
     return ""
@@ -323,23 +360,25 @@ def _has_genai() -> bool:
 
 
 # ── Judge (open-book recognition) ───────────────────────────────────────────
-def judge_recognition(api_base, api_key, judge_model, name, context, gold, response) -> dict:
+def judge_recognition(api_base, api_key, judge_model, name, context, gold, response,
+                      timeout: int = 60) -> dict:
     if is_refusal(response):
         return {"recognized": False, "coverage": 0.0, "accuracy": 0.0,
-                "rationale": "refusal / non-answer"}
+                "rationale": "refusal / non-answer", "judge_raw": None}
     prompt = JUDGE_PROMPT.format(name=name, context=context, gold_answer=gold, response=response)
     raw = chat(api_base, api_key, judge_model,
                messages=[{"role": "user", "content": prompt}],
-               thinking=False, temperature=0.0, json_mode=True, timeout=90)
+               thinking=False, temperature=0.0, json_mode=True, timeout=timeout)
     p = extract_json(raw)
     if not p or "recognized" not in p:
         return {"recognized": False, "coverage": 0.0, "accuracy": 0.0,
-                "rationale": f"[JUDGE-PARSE-ERROR] {raw[:120]}"}
+                "rationale": f"[JUDGE-PARSE-ERROR] {raw[:120]}", "judge_raw": raw}
     return {
         "recognized": bool(p.get("recognized")),
         "coverage": float(p.get("coverage", 0.0) or 0.0),
         "accuracy": float(p.get("accuracy", 0.0) or 0.0),
         "rationale": str(p.get("rationale", "")),
+        "judge_raw": raw,
     }
 
 
@@ -472,7 +511,12 @@ def build_arg_parser():
     ev = p.add_argument_group("Evaluation / output")
     ev.add_argument("--sample", "-n", type=int, metavar="N", help="Probe only N models from the panel")
     ev.add_argument("--workers", "-w", type=int, default=12, help="Parallel workers (default: 12)")
-    ev.add_argument("--output", "-o", metavar="FILE", help="Save full results to JSON")
+    ev.add_argument("--timeout", type=int, default=60, metavar="SEC",
+                    help="Per-request timeout in seconds for panel + judge calls (default: 60)")
+    ev.add_argument("--output", "-o", metavar="FILE",
+                    help="Save the combined run to this JSON path (default: auto-named file(s) in the cwd)")
+    ev.add_argument("--no-save", action="store_true",
+                    help="Disable the automatic per-entity response dumps")
     ev.add_argument("--inspect", action="store_true", help="Print every model's full response + judge rationale")
 
     info = p.add_argument_group("Info (no tokens spent)")
@@ -486,32 +530,52 @@ def run_entity(name, context, gold, gold_meta, panel, args,
     probe = PROBE_TEMPLATE.format(name=name, context=context)
     total = len(panel)
     lock = threading.Lock()
-    done = [0]
+    state = {"done": 0, "recognized": 0}
     records = []
+
+    # Header for this entity's live stream. Show the probe/gold the panel sees,
+    # then print each model's verdict on its own line as it returns — no
+    # carriage-return overwriting, so nothing is clobbered in the scrollback.
+    src = gold_meta.get("n_sources")
+    src_s = f", {src} web sources" if src is not None else ""
+    print(f"\n  {DIM}Entity:{RESET} {name}  {DIM}—{RESET} {context}")
+    print(f"  {DIM}Gold ({gold_meta.get('backend', 'user-supplied')}{src_s}):{RESET} {gold}")
+    print(f"  {DIM}Probing {total} models (judge: {args.judge_model}, "
+          f"timeout: {args.timeout}s)…{RESET}")
+    print(f"  {'─' * 74}")
 
     def work(m):
         resp = truncate_words(
             chat(api_base, api_key, m["openrouter_id"],
                  messages=[{"role": "user", "content": probe}],
-                 thinking=m.get("thinking", False)),
+                 thinking=m.get("thinking", False), timeout=args.timeout),
             200)
         verdict = judge_recognition(judge_base, judge_key, args.judge_model,
-                                    name, context, gold, resp)
+                                    name, context, gold, resp, timeout=args.timeout)
         rec = {"model_id": m["id"], "openrouter_id": m["openrouter_id"],
                "response": resp, "is_refusal": is_refusal(resp), **verdict}
         with lock:
-            done[0] += 1
-            n_rec = sum(1 for r in records if r["recognized"]) + (1 if verdict["recognized"] else 0)
-            sys.stderr.write(f"\r  [{done[0]}/{total}] {n_rec} recognize {name[:30]:30s}")
-            sys.stderr.flush()
+            state["done"] += 1
+            if verdict["recognized"]:
+                state["recognized"] += 1
+            if rec["recognized"]:
+                mark, col = "✓ yes    ", GREEN
+            elif rec["is_refusal"]:
+                mark, col = "· refuse ", YELLOW
+            else:
+                mark, col = "✗ no     ", RED
+            note = rec.get("rationale", "") or ""
+            note = (note[:60] + "…") if len(note) > 61 else note
+            print(f"  [{state['done']:>2}/{total}] {col}{mark}{RESET} "
+                  f"{m['id']:28s} {DIM}{note}{RESET}")
         return rec
 
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
         futs = [ex.submit(work, m) for m in panel]
         for f in as_completed(futs):
             records.append(f.result())
-    sys.stderr.write("\r" + " " * 70 + "\r")
-    sys.stderr.flush()
+    print(f"  {'─' * 74}")
+    print(f"  {DIM}Done: {state['recognized']}/{total} recognized.{RESET}")
     return records
 
 
@@ -578,6 +642,7 @@ def main():
 
     all_out = []
     entity_summ = []
+    saved_paths = []
     for e in entities:
         name, context = e["name"], e["context"]
         gold, gold_meta = resolve_gold(name, context, e.get("gold"), args, api_base, api_key)
@@ -595,13 +660,19 @@ def main():
         n_rec = sum(1 for r in records if r["recognized"])
         entity_summ.append({"name": name, "namerank": namerank, "depth": depth,
                             "n_recognized": n_rec, "panel_size": len(records)})
-        all_out.append({"name": name, "context": context, "gold": gold, "gold_meta": gold_meta,
-                        "namerank": namerank, "depth": depth, "n_recognized": n_rec,
-                        "panel_size": len(records), "records": records})
+        entity_out = {"name": name, "context": context, "gold": gold, "gold_meta": gold_meta,
+                      "namerank": namerank, "depth": depth, "n_recognized": n_rec,
+                      "panel_size": len(records), "records": records}
+        all_out.append(entity_out)
+
+        # Auto-save every entity's full responses + judge responses for inspection.
+        if not args.no_save:
+            saved_paths.append(save_entity_dump(entity_out, args))
 
     if len(entities) > 1:
         display_batch(entity_summ)
 
+    # Explicit --output: the combined run; otherwise the per-entity dumps above.
     if args.output:
         Path(args.output).write_text(json.dumps({
             "probe_template": PROBE_TEMPLATE,
@@ -609,7 +680,13 @@ def main():
             "panel_size": len(panel),
             "entities": all_out,
         }, indent=2, ensure_ascii=False))
-        print(f"  Results saved to {args.output}\n")
+        print(f"  Combined results saved to {args.output}")
+
+    if saved_paths:
+        print(f"  {DIM}Saved per-entity responses + judge verdicts for inspection:{RESET}")
+        for pth in saved_paths:
+            print(f"    {pth}")
+    print()
 
 
 if __name__ == "__main__":

@@ -96,8 +96,10 @@ python namerank.py [options]
 **Judge** — `--judge-model` (default `google/gemini-3-flash-preview`),
 `--judge-api-base`, `--judge-api-key` (default: same as the panel).
 
-**Output** — `--workers N` (default 12), `--output FILE` (full JSON),
-`--inspect` (print every response + judge rationale).
+**Output** — `--workers N` (default 12), `--timeout SEC` (per-request timeout
+for panel + judge calls, default 60), `--output FILE` (combined JSON of the whole
+run), `--no-save` (disable the automatic per-entity dumps), `--inspect` (print
+every response + judge rationale).
 
 **Info (no tokens)** — `--show-panel`, `--show-probe`.
 
@@ -117,8 +119,16 @@ python namerank.py [options]
 - **Depth** — mean coverage×accuracy, an appendix-grade diagnostic of *how much*
   the recognizers say, not just whether they recognize. Lower-weight than NameRank.
 
-`--output` JSON holds `entities[].records[]` with each model's `response`,
-`recognized`, `coverage`, `accuracy`, `rationale`, and `is_refusal`.
+While the panel runs, each model's verdict is streamed to the terminal on its
+own line as it returns (no overwriting progress bar), so the final result table
+above is preserved intact in the scrollback.
+
+By default every entity's full run is saved to a descriptively-named
+`namerank_<entity-slug>.json` in the current directory — the probe, gold, judge
+prompt, and per-model `records[]` (each with the model's raw `response`, the
+judge's raw `judge_raw` output, and the parsed `recognized`/`coverage`/`accuracy`/
+`rationale`/`is_refusal`). Pass `--no-save` to skip these dumps, or `--output FILE`
+to additionally write one combined JSON for the whole run.
 
 ## Notes & limitations
 
