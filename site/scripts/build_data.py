@@ -28,6 +28,18 @@ sys.path.insert(0, str(ROOT / "paper" / "figures"))
 import _data  # noqa: E402  (recognition data provider)
 from _style import COHORT_NAMES, CREDENTIAL_COHORTS  # noqa: E402
 
+# Site-only display-name overrides (the paper's Figure 1 keeps the _style.py
+# names). Visitors have no context for the internal "IKP" provenance tag, so we
+# describe the cohort by what it is: low-cited computer-science/systems authors.
+SITE_COHORT_NAMES = {
+    "long_tail_researcher_ikp": "CS systems researchers (long tail)",
+}
+
+
+def cohort_name(slug: str) -> str:
+    return SITE_COHORT_NAMES.get(slug) or COHORT_NAMES.get(slug, slug.replace("_", " "))
+
+
 CN = json.load(open(ROOT / "paper" / "figures" / "computed_numbers.json"))
 
 
@@ -150,7 +162,7 @@ def build_cohorts(st):
         slug = r["cohort"]
         out.append({
             "slug": slug,
-            "name": COHORT_NAMES.get(slug, slug.replace("_", " ")),
+            "name": cohort_name(slug),
             "category": cohort_category(slug),
             "n": int(r["n_ent"]),
             "mean": rd(r["recognition"]),
