@@ -55,7 +55,7 @@ import re
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from pathlib import Path
 
 import httpx
@@ -580,38 +580,82 @@ def run_entity(name, context, gold, gold_meta, panel, args,
           f"timeout: {args.timeout}s)…{RESET}")
     print(f"  {'─' * 74}")
 
-    def work(m):
-        resp = truncate_words(
-            chat(api_base, api_key, m["openrouter_id"],
-                 messages=[{"role": "user", "content": probe}],
-                 thinking=m.get("thinking", False), timeout=args.timeout),
-            200)
-        verdict = judge_recognition(judge_base, judge_key, args.judge_model,
-                                    name, context, gold, resp, timeout=args.timeout)
-        rec = {"model_id": m["id"], "openrouter_id": m["openrouter_id"],
-               "response": resp, "is_refusal": is_refusal(resp), **verdict}
+    def emit(rec):
+        """Print one model's verdict line. Suppressed once the panel is closed so
+        a late straggler thread can't scribble past the printed summary."""
         with lock:
+            if state.get("closed"):
+                return
             state["done"] += 1
-            if verdict["recognized"]:
-                state["recognized"] += 1
             if rec["recognized"]:
+                state["recognized"] += 1
                 mark, col = "✓ yes    ", GREEN
             elif rec["is_refusal"]:
                 mark, col = "· refuse ", YELLOW
             else:
                 mark, col = "✗ no     ", RED
-            note = rec.get("rationale", "") or ""
+            note = (rec.get("rationale", "") or "")
             note = (note[:60] + "…") if len(note) > 61 else note
             print(f"  [{state['done']:>2}/{total}] {col}{mark}{RESET} "
-                  f"{m['id']:28s} {DIM}{note}{RESET}")
+                  f"{rec['model_id']:28s} {DIM}{note}{RESET}")
+
+    def work(m):
+        # A worker must never propagate: one model erroring or timing out cannot be
+        # allowed to sink the whole panel's results. Any failure becomes a non-answer.
+        try:
+            resp = truncate_words(
+                chat(api_base, api_key, m["openrouter_id"],
+                     messages=[{"role": "user", "content": probe}],
+                     thinking=m.get("thinking", False), timeout=args.timeout),
+                200)
+            verdict = judge_recognition(judge_base, judge_key, args.judge_model,
+                                        name, context, gold, resp, timeout=args.timeout)
+            rec = {"model_id": m["id"], "openrouter_id": m["openrouter_id"],
+                   "response": resp, "is_refusal": is_refusal(resp), **verdict}
+        except Exception as e:
+            rec = {"model_id": m["id"], "openrouter_id": m["openrouter_id"],
+                   "response": "", "is_refusal": True, "recognized": False,
+                   "coverage": 0.0, "accuracy": 0.0,
+                   "rationale": f"error: {type(e).__name__}: {e}", "judge_raw": None}
+        emit(rec)
         return rec
 
-    with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = [ex.submit(work, m) for m in panel]
-        for f in as_completed(futs):
-            records.append(f.result())
+    # Collect results as they arrive, but never block indefinitely on a hung tail:
+    # as long as at least one model keeps reporting within `quiet` seconds we keep
+    # waiting; once the panel goes silent that long, the stragglers are counted as
+    # timeouts and the score is printed immediately. `quiet` allows one full retry
+    # cycle of a genuinely-slow model before it's cut.
+    quiet = args.timeout * 2 + 15
+    ex = ThreadPoolExecutor(max_workers=args.workers)
+    fut_to_m = {ex.submit(work, m): m for m in panel}
+    pending = set(fut_to_m)
+    try:
+        while pending:
+            done, pending = wait(pending, timeout=quiet, return_when=FIRST_COMPLETED)
+            if not done:
+                break  # no completion in `quiet`s → treat the rest as hung
+            for f in done:
+                records.append(f.result())
+    finally:
+        with lock:
+            state["closed"] = True
+        ex.shutdown(wait=False, cancel_futures=True)
+
+    # Account for any models that never returned so the panel size stays honest.
+    for f, m in fut_to_m.items():
+        if f in pending:
+            records.append({"model_id": m["id"], "openrouter_id": m["openrouter_id"],
+                            "response": "", "is_refusal": True, "recognized": False,
+                            "coverage": 0.0, "accuracy": 0.0,
+                            "rationale": "timed out — no response within panel deadline",
+                            "judge_raw": None})
+            n_timeout = len(records)
+            print(f"  [{n_timeout:>2}/{total}] {YELLOW}· timeout {RESET} "
+                  f"{m['id']:28s} {DIM}no response within deadline{RESET}")
+
+    n_rec = sum(1 for r in records if r["recognized"])
     print(f"  {'─' * 74}")
-    print(f"  {DIM}Done: {state['recognized']}/{total} recognized.{RESET}")
+    print(f"  {DIM}Done: {n_rec}/{total} recognized.{RESET}")
     return records
 
 
