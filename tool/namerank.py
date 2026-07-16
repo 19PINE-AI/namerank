@@ -211,6 +211,10 @@ def extract_json(text: str):
     """Best-effort parse of a JSON object out of a model's text."""
     if not text:
         return None
+    # Strip a ```json … ``` (or bare ```) code fence if the model wrapped its output.
+    fenced = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, flags=re.DOTALL)
+    if fenced:
+        text = fenced.group(1)
     try:
         return json.loads(text)
     except Exception:
@@ -222,6 +226,25 @@ def extract_json(text: str):
         except Exception:
             return None
     return None
+
+
+def salvage_judge_json(raw: str):
+    """Recover the judge's verdict fields from a truncated / malformed JSON string
+    (e.g. a length-capped completion that cut off mid-object). Returns a dict with
+    at least `recognized`, or None if even that cannot be found. This keeps a
+    truncated-but-decisive judge response from silently scoring as NOT recognized."""
+    if not raw:
+        return None
+    m = re.search(r'"recognized"\s*:\s*(true|false)', raw, flags=re.IGNORECASE)
+    if not m:
+        return None
+    out = {"recognized": m.group(1).lower() == "true"}
+    for key in ("coverage", "accuracy"):
+        km = re.search(rf'"{key}"\s*:\s*(-?[0-9]*\.?[0-9]+)', raw)
+        out[key] = float(km.group(1)) if km else 0.0
+    rm = re.search(r'"rationale"\s*:\s*"((?:[^"\\]|\\.)*)"', raw)
+    out["rationale"] = rm.group(1) if rm else "[recovered from truncated judge output]"
+    return out
 
 
 def truncate_words(text: str, n: int) -> str:
@@ -263,10 +286,13 @@ def save_entity_dump(entity_out: dict, args) -> str:
 # ── Chat completion (OpenAI-compatible) ─────────────────────────────────────
 def chat(api_base: str, api_key: str, model: str, messages: list,
          thinking: bool = False, temperature: float = 0.0,
-         json_mode: bool = False, plugins=None, timeout: int = 120) -> str:
+         json_mode: bool = False, plugins=None, timeout: int = 120,
+         max_tokens: int = None) -> str:
     payload = {"model": model, "messages": messages, "temperature": temperature}
     if thinking:
         payload["reasoning"] = {"effort": "medium"}
+    if max_tokens:
+        payload["max_tokens"] = max_tokens
     if json_mode:
         payload["response_format"] = {"type": "json_object"}
     if plugins:
@@ -366,20 +392,30 @@ def judge_recognition(api_base, api_key, judge_model, name, context, gold, respo
         return {"recognized": False, "coverage": 0.0, "accuracy": 0.0,
                 "rationale": "refusal / non-answer", "judge_raw": None}
     prompt = JUDGE_PROMPT.format(name=name, context=context, gold_answer=gold, response=response)
-    raw = chat(api_base, api_key, judge_model,
-               messages=[{"role": "user", "content": prompt}],
-               thinking=False, temperature=0.0, json_mode=True, timeout=timeout)
-    p = extract_json(raw)
-    if not p or "recognized" not in p:
-        return {"recognized": False, "coverage": 0.0, "accuracy": 0.0,
-                "rationale": f"[JUDGE-PARSE-ERROR] {raw[:120]}", "judge_raw": raw}
-    return {
-        "recognized": bool(p.get("recognized")),
-        "coverage": float(p.get("coverage", 0.0) or 0.0),
-        "accuracy": float(p.get("accuracy", 0.0) or 0.0),
-        "rationale": str(p.get("rationale", "")),
-        "judge_raw": raw,
-    }
+    # Two attempts: judge JSON is occasionally cut off (a length-capped completion,
+    # e.g. when the judge model spends output budget on reasoning tokens). An explicit
+    # generous max_tokens keeps the ~70-token verdict well inside any provider cap;
+    # salvage_judge_json recovers a decisive verdict from a partial object; and a
+    # retry covers a transient truncation. Only after all of that do we give up.
+    raw = ""
+    for attempt in range(2):
+        raw = chat(api_base, api_key, judge_model,
+                   messages=[{"role": "user", "content": prompt}],
+                   thinking=False, temperature=0.0, json_mode=True,
+                   timeout=timeout, max_tokens=1500)
+        p = extract_json(raw)
+        if not p or "recognized" not in p:
+            p = salvage_judge_json(raw)
+        if p and "recognized" in p:
+            return {
+                "recognized": bool(p.get("recognized")),
+                "coverage": float(p.get("coverage", 0.0) or 0.0),
+                "accuracy": float(p.get("accuracy", 0.0) or 0.0),
+                "rationale": str(p.get("rationale", "")),
+                "judge_raw": raw,
+            }
+    return {"recognized": False, "coverage": 0.0, "accuracy": 0.0,
+            "rationale": f"[JUDGE-PARSE-ERROR] {raw[:120]}", "judge_raw": raw}
 
 
 # ── Panel resolution ────────────────────────────────────────────────────────
